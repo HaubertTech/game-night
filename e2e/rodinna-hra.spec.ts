@@ -113,7 +113,7 @@ test('rodinná hra: tři úrovně, dvě kola, žolík a konečné pořadí', asy
   await expect(rows).toHaveCount(3);
   // Táta answers everything right and doubles round 1 with the joker → clear winner.
   await expect(rows.first()).toContainText('Táta');
-  await expect(rows.first()).toContainText('🥇');
+  await expect(rows.first().getByRole('img', { name: '1. místo' })).toBeVisible();
   await expect(final.getByText('Nej odpověď')).toBeVisible();
   await expect(final.getByText('Úspěšnost po tématech')).toBeVisible();
 
