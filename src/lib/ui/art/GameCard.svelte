@@ -2,6 +2,7 @@
   // Game tile with its illustration: the home page, the TV game choice and the evening page.
   import type { Snippet } from 'svelte';
   import Art from './Art.svelte';
+  import { art as artEntry } from './art.ts';
 
   let {
     art: artName,
@@ -31,11 +32,13 @@
     children?: Snippet;
   } = $props();
 
+  // Transparent pictures (the owl standing in for chess) are shown whole on the tinted background.
+  const icon = $derived(artEntry(artName)?.transparent ?? false);
   const sizes = $derived(small ? '(max-width: 700px) 50vw, 240px' : '(max-width: 700px) 100vw, 360px');
 </script>
 
 {#snippet body()}
-  <span class="pic"><Art name={artName} decorative {sizes} /></span>
+  <span class="pic" class:icon><Art name={artName} decorative {sizes} /></span>
   <span class="txt">
     <strong>{title}</strong>
     {#if text}<span class="muted">{text}</span>{/if}
@@ -90,6 +93,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .pic.icon :global(img) {
+    object-fit: contain;
+    padding: 8px;
   }
   .txt {
     display: flex;
