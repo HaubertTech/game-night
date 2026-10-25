@@ -1,0 +1,442 @@
+{
+  "mascot.sova-mava": {
+    "path": "/art/mascot/sova-mava.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka v pletené vestě mává na pozdrav",
+    "group": "mascot",
+    "transparent": true
+  },
+  "mascot.sova-otazka": {
+    "path": "/art/mascot/sova-otazka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka drží kartičku s otázkou",
+    "group": "mascot",
+    "transparent": true
+  },
+  "mascot.sova-slavi": {
+    "path": "/art/mascot/sova-slavi.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka radostně slaví",
+    "group": "mascot",
+    "transparent": true
+  },
+  "mascot.sova-premysli": {
+    "path": "/art/mascot/sova-premysli.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka přemýšlí",
+    "group": "mascot",
+    "transparent": true
+  },
+  "hero.uvod": {
+    "path": "/art/hero/uvod.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Rodina večer u stolu hraje karty a kvíz, na kredenci sedí sova",
+    "group": "hero",
+    "transparent": false
+  },
+  "cards.kvizovna": {
+    "path": "/art/cards/kvizovna.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Hospodský kvíz: sova za výčepem čte otázku, týmy píšou odpovědi",
+    "group": "cards",
+    "transparent": false
+  },
+  "cards.rekni-ukaz-nakresli": {
+    "path": "/art/cards/rekni-ukaz-nakresli.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Rodina v obýváku předvádí, kreslí a hádá",
+    "group": "cards",
+    "transparent": false
+  },
+  "cards.mesto-jmeno-zvire": {
+    "path": "/art/cards/mesto-jmeno-zvire.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Rodina u stolu píše Město, jméno, zvíře",
+    "group": "cards",
+    "transparent": false
+  },
+  "cards.prsi": {
+    "path": "/art/cards/prsi.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Děda s dětmi hraje Prší pod pergolou, venku prší",
+    "group": "cards",
+    "transparent": false
+  },
+  "cards.zoliky": {
+    "path": "/art/cards/zoliky.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Dospělí na chatě hrají žolíky, teta drží žolíka",
+    "group": "cards",
+    "transparent": false
+  },
+  "cards.liga": {
+    "path": "/art/cards/liga.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Nástěnka rodinné ligy s výsledky, jezevčík připíná nový list",
+    "group": "cards",
+    "transparent": false
+  },
+  "levels.hospoda": {
+    "path": "/art/levels/hospoda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hospoda – úroveň pro dospělé: pivo a odpovědní lístek",
+    "group": "levels",
+    "transparent": true
+  },
+  "levels.lavice": {
+    "path": "/art/levels/lavice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lavice – úroveň pro školáky: školní lavice se sešitem",
+    "group": "levels",
+    "transparent": true
+  },
+  "levels.piskoviste": {
+    "path": "/art/levels/piskoviste.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pískoviště – úroveň pro předškoláky: kyblík a bábovička",
+    "group": "levels",
+    "transparent": true
+  },
+  "levels.vsichni": {
+    "path": "/art/levels/vsichni.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Stůl se židlemi pro velké i malé – hraje celá rodina",
+    "group": "levels",
+    "transparent": true
+  },
+  "themes.priroda-zvirata": {
+    "path": "/art/themes/priroda-zvirata.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Příroda a zvířata: ježek pod dubovým listem",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.cesko-svet": {
+    "path": "/art/themes/cesko-svet.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Česko a svět: glóbus a hrad na kopci",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.lide-telo-veda": {
+    "path": "/art/themes/lide-telo-veda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lidé, tělo a věda: lupa nad srdcem a baňka",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.pohadky-film-hudba": {
+    "path": "/art/themes/pohadky-film-hudba.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pohádky, film a hudba: koruna, kamera a noty",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.sport-hry": {
+    "path": "/art/themes/sport-hry.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sport a hry: míč, kostka a hokejka",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.jidlo-piti": {
+    "path": "/art/themes/jidlo-piti.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jídlo a pití: chleba, hrnek a knedlík",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.cisla-logika": {
+    "path": "/art/themes/cisla-logika.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Čísla a logika: počítadlo a hlavolam",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.slova-jazyk": {
+    "path": "/art/themes/slova-jazyk.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Slova a jazyk: kniha, pero a bublina",
+    "group": "themes",
+    "transparent": true
+  },
+  "themes.dejiny-vynalezy": {
+    "path": "/art/themes/dejiny-vynalezy.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dějiny a vynálezy: rytířská helma, žárovka a ozubené kolo",
+    "group": "themes",
+    "transparent": true
+  },
+  "ui.karticky-otazek": {
+    "path": "/art/ui/karticky-otazek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Svazek kartiček s otázkami",
+    "group": "ui",
+    "transparent": true
+  },
+  "ui.presypaci-hodiny": {
+    "path": "/art/ui/presypaci-hodiny.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Přesýpací hodiny",
+    "group": "ui",
+    "transparent": true
+  },
+  "ui.zvonek": {
+    "path": "/art/ui/zvonek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mosazný zvonek",
+    "group": "ui",
+    "transparent": true
+  },
+  "avatars.liska": {
+    "path": "/art/avatars/liska.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Liška",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.jezek": {
+    "path": "/art/avatars/jezek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Ježek",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.medved": {
+    "path": "/art/avatars/medved.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Medvěd",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.zajic": {
+    "path": "/art/avatars/zajic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Zajíc",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.kocour": {
+    "path": "/art/avatars/kocour.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kocour",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.koza": {
+    "path": "/art/avatars/koza.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Koza",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.mys": {
+    "path": "/art/avatars/mys.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Myš",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.zaba": {
+    "path": "/art/avatars/zaba.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Žába",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.veverka": {
+    "path": "/art/avatars/veverka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Veverka",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.jezevec": {
+    "path": "/art/avatars/jezevec.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Jezevec",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.kos": {
+    "path": "/art/avatars/kos.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kos",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.kapr": {
+    "path": "/art/avatars/kapr.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kapr",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.krava": {
+    "path": "/art/avatars/krava.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kráva",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.cap": {
+    "path": "/art/avatars/cap.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Čáp",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.vydra": {
+    "path": "/art/avatars/vydra.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Vydra",
+    "group": "avatars",
+    "transparent": true
+  },
+  "avatars.ovce": {
+    "path": "/art/avatars/ovce.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Ovce",
+    "group": "avatars",
+    "transparent": true
+  },
+  "rewards.vitez-vecera": {
+    "path": "/art/rewards/vitez-vecera.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Vítěz večera: pohár s vavřínem a měsícem",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.sampion-sezony": {
+    "path": "/art/rewards/sampion-sezony.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šampion sezóny: velký pohár s věncem",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.misto-1": {
+    "path": "/art/rewards/misto-1.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "1. místo: zlatá medaile",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.misto-2": {
+    "path": "/art/rewards/misto-2.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "2. místo: stříbrná medaile",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.misto-3": {
+    "path": "/art/rewards/misto-3.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "3. místo: bronzová medaile",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.serie": {
+    "path": "/art/rewards/serie.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Série správných odpovědí: tři stoupající hvězdy",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.prvni-vecer": {
+    "path": "/art/rewards/prvni-vecer.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "První odehraný večer: nový balíček karet s mašlí",
+    "group": "rewards",
+    "transparent": true
+  },
+  "rewards.nejlepsi-kreslir": {
+    "path": "/art/rewards/nejlepsi-kreslir.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Nejlepší kreslíř: tužka a křída ve vavřínu",
+    "group": "rewards",
+    "transparent": true
+  },
+  "empty.zadne-vecery": {
+    "path": "/art/empty/zadne-vecery.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zatím žádné večery: prázdný stůl a spící kočka",
+    "group": "empty",
+    "transparent": true
+  },
+  "empty.zadni-hraci": {
+    "path": "/art/empty/zadni-hraci.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zatím žádní hráči: prázdné židle",
+    "group": "empty",
+    "transparent": true
+  },
+  "env.lobby-tv": {
+    "path": "/art/env/lobby-tv.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Klidné pozadí čekárny na televizi se sovou na kredenci",
+    "group": "env",
+    "transparent": false
+  },
+  "env.lobby-mobil": {
+    "path": "/art/env/lobby-mobil.webp",
+    "width": 1080,
+    "height": 1920,
+    "alt": "Pozadí čekárny na mobilu: okno s večerní oblohou a spícím jezevčíkem",
+    "group": "env",
+    "transparent": false
+  }
+}

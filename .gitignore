@@ -6,3 +6,6 @@ node_modules/
 build/
 test-results/
 playwright-report/
+
+# Generated originals (~60 MB) stay local; web versions live in static/art
+design/art/originals/
