@@ -266,3 +266,14 @@ describe('quiz adapter', () => {
     ]);
   });
 });
+
+describe('league points with computers at the table', () => {
+  it('keeps the real place when computers took the places above', () => {
+    expect(pointsForPlaces([3])).toEqual([5]);
+    expect(pointsForPlaces([2, 4])).toEqual([7, 3]);
+  });
+
+  it('dense shared places still split positions as before', () => {
+    expect(pointsForPlaces([1, 1, 2])).toEqual([9, 9, 5]);
+  });
+});

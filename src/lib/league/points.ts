@@ -12,7 +12,8 @@ export function pointsForPosition(position: number, table: PointsTable = DEFAULT
 
 /**
  * Points for every seat given their places. Seats sharing a place split the positions they
- * occupy: two seats on 1st place get ceil((10 + 7) / 2) = 9 each.
+ * occupy: two seats on 1st place get ceil((10 + 7) / 2) = 9 each. A place higher than the seat's
+ * rank among the listed seats is kept (a person 3rd behind two computers gets 3rd-place points).
  * Returns points in the same order as `places`.
  */
 export function pointsForPlaces(places: number[], table: PointsTable = DEFAULT_POINTS_TABLE): number[] {
@@ -22,8 +23,9 @@ export function pointsForPlaces(places: number[], table: PointsTable = DEFAULT_P
   while (i < order.length) {
     let j = i;
     while (j + 1 < order.length && order[j + 1].place === order[i].place) j++;
+    const start = Math.max(i + 1, order[i].place);
     let sum = 0;
-    for (let pos = i + 1; pos <= j + 1; pos++) sum += pointsForPosition(pos, table);
+    for (let pos = start; pos <= start + (j - i); pos++) sum += pointsForPosition(pos, table);
     const shared = Math.ceil(sum / (j - i + 1));
     for (let k = i; k <= j; k++) result[order[k].index] = shared;
     i = j + 1;
