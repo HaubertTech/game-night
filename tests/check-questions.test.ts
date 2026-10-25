@@ -118,8 +118,8 @@ describe('validateQuestionFiles', () => {
 
   it('reports targets and what is missing per level', () => {
     const report = formatReport(validateQuestionFiles([{ path: 'lavice/priroda.json', content: JSON.stringify([base]) }]));
-    expect(report).toMatch(/lavice\s+1 verified.*cíl 270, chybí 269/);
-    expect(report).toMatch(/kocarek\s+0 verified.*cíl 120, chybí 120/);
+    expect(report).toMatch(/lavice\s+1 verified.*cíl 540, chybí 539/);
+    expect(report).toMatch(/kocarek\s+0 verified.*cíl 240, chybí 240/);
   });
 
   it('rejects files outside <level>/<theme>.json and invalid JSON', () => {
