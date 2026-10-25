@@ -78,7 +78,7 @@
     <ol class="grid">
       {#each list as p, i (p.id)}
         <li>
-          <button type="button" class="card tile" class:solved={solvedSet.has(p.id)} onclick={() => open(p)} data-testid={`puzzle-${p.id}`}>
+          <button type="button" class="card tile" class:solved={solvedSet.has(p.id)} onclick={() => open(p)} data-testid={`puzzle-${p.id}`} aria-label={`Úloha ${i + 1}, obtížnost ${p.difficulty} z 3${solvedSet.has(p.id) ? ', vyřešená' : ''}`}>
             <strong>{i + 1}</strong>
             <span aria-hidden="true">{'★'.repeat(p.difficulty)}</span>
             {#if solvedSet.has(p.id)}<span class="muted">✓</span>{/if}

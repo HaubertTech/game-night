@@ -1,28 +1,29 @@
 <script lang="ts">
   import Owl from '#lib/ui/art/Owl.svelte';
-  import Card from '#lib/ui/karty-hra/Card.svelte';
+  import GameCard from '#lib/ui/art/GameCard.svelte';
+  import { GAME_ART, GAME_NAMES } from '#lib/ui/art/art.ts';
 </script>
 
 <svelte:head><title>Trénink karet · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <h1>Trénink</h1>
-  <Owl pose="mava" text="Ahoj! Tady se naučíš prší a žolíky. Nejdřív si projdi pravidla se mnou, pak si zahraj proti počítači. Až to budeš umět, vezmi skutečné karty a zahrajte si s rodinou!" />
+  <h1>Trénink karet</h1>
+  <Owl pose="mava" text="Ahoj! Tady se naučíš prší a žolíky. Nejdřív si se mnou projdi pravidla, pak si zahraj proti počítači. Až to budeš umět, vezmi skutečné karty a zahrajte si s rodinou." />
   <div class="games">
-    <a class="game card" href="/trenink/prsi" data-testid="trenink-prsi">
-      <div class="fan">
-        <Card id="srdce-7" width={64} /><Card id="listy-svrsek" width={64} /><Card id="kule-eso" width={64} />
-      </div>
-      <h2>Prší</h2>
-      <p class="muted">Mariášové karty. Přiznej barvu, nebo hodnotu. Sedma, eso a svršek.</p>
-    </a>
-    <a class="game card" href="/trenink/zoliky" data-testid="trenink-zoliky">
-      <div class="fan">
-        <Card id="srdce-11-0" width={64} /><Card id="srdce-12-0" width={64} /><Card id="zolik-0" width={64} />
-      </div>
-      <h2>Žolíky</h2>
-      <p class="muted">Francouzské karty. Postupky, trojice, žolík a 42 bodů na první vyložení.</p>
-    </a>
+    <GameCard
+      art={GAME_ART.prsi}
+      title={GAME_NAMES.prsi}
+      text="Mariášové karty. Přiznej barvu, nebo hodnotu. Sedma, eso a svršek."
+      href="/trenink/prsi"
+      testid="trenink-prsi"
+    />
+    <GameCard
+      art={GAME_ART.zoliky}
+      title={GAME_NAMES.zoliky}
+      text="Francouzské karty. Postupky, trojice, žolík a 42 bodů na první vyložení."
+      href="/trenink/zoliky"
+      testid="trenink-zoliky"
+    />
   </div>
 </main>
 
@@ -31,19 +32,5 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 18px;
-  }
-  .game {
-    color: inherit;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .game p {
-    margin: 0;
-  }
-  .fan {
-    display: flex;
-    gap: 6px;
   }
 </style>

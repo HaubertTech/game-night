@@ -71,7 +71,7 @@
 <main class="page stack">
   <a href="/sachy/uceni" class="btn small ghost back">← Mapa lekcí</a>
   {#if !lesson}
-    <p>Tahle lekce neexistuje.</p>
+    <Owl mood="premysli" text="Tuhle lekci neznám. Vyber si jinou na mapě lekcí." />
   {:else}
     <h1>{lesson.icon} {lesson.title}</h1>
     {#if intro}
@@ -93,12 +93,11 @@
             {#if stepIndex + 1 < lesson.steps.length}
               <button type="button" class="btn big primary" onclick={() => stepIndex++}>Další krok →</button>
             {:else}
-              <div class="card stack" data-testid="lesson-finished">
-                <strong>🎉 Lekce hotová!</strong>
-                <div class="row">
+              <div data-testid="lesson-finished">
+                <Owl mood="slavi" text="Lekce je hotová. Výborně!">
                   {#if nextLesson}<a class="btn primary" href={`/sachy/uceni/${nextLesson.id}`}>Další lekce: {nextLesson.title}</a>{/if}
                   <a class="btn" href="/sachy/uceni">Mapa lekcí</a>
-                </div>
+                </Owl>
               </div>
             {/if}
           {:else}

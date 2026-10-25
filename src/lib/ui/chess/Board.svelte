@@ -296,7 +296,7 @@
     height: 100%;
     border-radius: 14px;
     box-shadow: 0 3px 0 rgba(59, 51, 43, 0.25);
-    border: 3px solid var(--ink, #3b332b);
+    border: 3px solid var(--ink);
     box-sizing: border-box;
     background: #efe6d4;
   }
@@ -308,7 +308,7 @@
     fill: #9aab89;
   }
   .sq:focus-visible {
-    stroke: var(--slate-dark, #485a6c);
+    stroke: var(--slate-dark);
     stroke-width: 6;
   }
   .last {
@@ -325,21 +325,21 @@
     stroke-width: 7;
   }
   .mark.hint {
-    stroke: #485a6c;
+    stroke: var(--slate-dark);
   }
   .mark.danger {
-    stroke: #9a5a45;
+    stroke: var(--bad);
     stroke-dasharray: 14 8;
   }
   .mark.good {
-    stroke: #56664b;
+    stroke: var(--sage-dark);
   }
   .coord {
     font: 700 19px var(--font, sans-serif);
     fill: #7a8b6a;
   }
   .coord.on-dark {
-    fill: #f4eee2;
+    fill: var(--cream);
   }
   .dot {
     fill: rgba(59, 51, 43, 0.32);
@@ -351,7 +351,7 @@
   }
   .star {
     fill: #e2b54a;
-    stroke: #85593b;
+    stroke: var(--clay-dark);
     stroke-width: 4;
     stroke-linejoin: round;
   }
@@ -362,7 +362,7 @@
     position: absolute;
     inset: 18% 8%;
     background: var(--paper, #fbf8f1);
-    border: 3px solid var(--ink, #3b332b);
+    border: 3px solid var(--ink);
     border-radius: 18px;
     display: flex;
     flex-direction: column;
@@ -386,7 +386,7 @@
   .promo-btn {
     width: 84px;
     height: 84px;
-    border: 2px solid var(--ink, #3b332b);
+    border: 2px solid var(--ink);
     border-radius: 14px;
     background: #efe6d4;
     padding: 4px;

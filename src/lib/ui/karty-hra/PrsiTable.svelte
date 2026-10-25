@@ -24,6 +24,8 @@
   import Card from './Card.svelte';
   import Hand from './Hand.svelte';
   import Owl from '#lib/ui/art/Owl.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
+  import { medalArt } from '#lib/ui/art/art.ts';
   import RulesSheet from './RulesSheet.svelte';
   import { LEVEL_LABELS, saveGame, type SavedGame } from './storage.ts';
 
@@ -169,7 +171,7 @@
 
 <div class="table" data-testid="prsi-table" data-phase={game.phase} data-turn={game.turn} data-my-cards={hand.length}>
   <header class="top-bar">
-    <a class="btn small ghost" href="/trenink/prsi">← Zpět</a>
+    <a class="btn small ghost" href="/trenink/prsi">← Prší</a>
     <strong>Prší{game.settings.deals > 1 ? ` · partie ${game.dealIndex + 1}/${game.settings.deals}` : ''}</strong>
     <button type="button" class="btn small ghost" onclick={() => (rulesOpen = true)}>Pravidla</button>
   </header>
@@ -238,9 +240,12 @@
   {#if game.phase === 'dealEnd' || game.phase === 'finished'}
     <div class="overlay" role="dialog" aria-modal="true" aria-label="Výsledek">
       <div class="card stack result" data-testid="result">
-        <Owl pose="slavi" text={lastOrder[0] === me ? 'Vyhrál jsi! Skvělá hra!' : `Vyhrál ${playerName(game, lastOrder[0] ?? '')}. Příště to vyjde tobě!`} />
-        <ol>
-          {#each lastOrder as id (id)}<li>{playerName(game, id)}</li>{/each}
+        <Owl pose={lastOrder[0] === me ? 'slavi' : 'mava'} text={lastOrder[0] === me ? 'Vyhrál(a) jsi! Skvělá hra.' : `Vyhrál(a) ${playerName(game, lastOrder[0] ?? '')}. Příště to vyjde tobě.`} />
+        <ol class="order">
+          {#each lastOrder as id, i (id)}
+            {@const medal = medalArt(i + 1)}
+            <li>{#if medal}<Art name={medal} size={32} class="medal" />{/if}<span>{playerName(game, id)}</span></li>
+          {/each}
         </ol>
         {#if game.settings.deals > 1}
           <table class="sheet">
@@ -376,6 +381,23 @@
   }
   .suits {
     justify-content: center;
+  }
+  .order {
+    margin: 0;
+    padding-left: 1.4em;
+  }
+  .order li {
+    min-height: 36px;
+  }
+  .order li span {
+    vertical-align: middle;
+  }
+  .order :global(.medal) {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    vertical-align: middle;
   }
   .suit-btn {
     flex-direction: column;

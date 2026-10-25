@@ -236,7 +236,7 @@
 
 <div class="table" data-testid="zoliky-table" data-phase={game.phase} data-turn={game.turn} data-step={game.step} data-opened={opened ? 'true' : 'false'}>
   <header class="top-bar">
-    <a class="btn small ghost" href="/trenink/zoliky">← Zpět</a>
+    <a class="btn small ghost" href="/trenink/zoliky">← Žolíky</a>
     <strong>Žolíky · kolo {game.roundIndex + 1}/{game.settings.rounds}</strong>
     <div class="row tight">
       <button type="button" class="btn small ghost" onclick={() => (sheetOpen = !sheetOpen)}>Arch</button>
@@ -336,7 +336,7 @@
             text={`${game.lastRound.winnerId === me ? 'Zavřel jsi!' : `Zavřel(a) ${playerName(game, game.lastRound.winnerId)}.`}${game.lastRound.fromHand ? ' Z ruky — ostatní mají body dvakrát!' : ''}`}
           />
         {:else if game.phase === 'finished'}
-          <Owl pose="slavi" text={ranking[0]?.playerId === me ? 'Vyhrál jsi celou hru! Nejméně bodů!' : `Vyhrál(a) ${playerName(game, ranking[0]?.playerId ?? '')}.`} />
+          <Owl pose={ranking[0]?.playerId === me ? 'slavi' : 'mava'} text={ranking[0]?.playerId === me ? 'Vyhrál(a) jsi celou hru, máš nejméně bodů.' : `Vyhrál(a) ${playerName(game, ranking[0]?.playerId ?? '')}.`} />
         {/if}
         <div class="sheet-wrap">
           <table class="sheet">
