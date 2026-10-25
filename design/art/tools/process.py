@@ -3,6 +3,7 @@
 
   python3 design/art/tools/process.py             # vše z originálů
   python3 design/art/tools/process.py --variants  # jen menší varianty (srcset) ze static/art
+  python3 design/art/tools/process.py pics levels.kocarek  # jen vybrané skupiny nebo klíče
 
 Mřížky 2×2 na purpurové #FF00FF: rozřízne na kvadranty, odklíčuje purpurovou do alfy
 (s potlačením purpurového lemu), ořízne na obsah, vycentruje do čtverce 512×512.
@@ -67,11 +68,42 @@ ITEMS += [
   ("rewards", "serie", "grids/rewards-3.png", 1, (512, 512), "Série správných odpovědí: tři stoupající hvězdy"),
   ("rewards", "prvni-vecer", "grids/rewards-3.png", 2, (512, 512), "První odehraný večer: nový balíček karet s mašlí"),
   ("rewards", "nejlepsi-kreslir", "grids/rewards-3.png", 3, (512, 512), "Nejlepší kreslíř: tužka a křída ve vavřínu"),
+  ("levels", "kocarek", "grids/levels-2.png", 0, (512, 512), "Kočárek – úroveň pro nejmenší: kočárek s plyšovým medvídkem"),
+  ("levels", "prvnacek", "grids/levels-2.png", 1, (512, 512), "Prvňáček – úroveň pro prvňáky: nová aktovka a školní kornout"),
   ("empty", "zadne-vecery", "grids/rewards-2.png", 2, (512, 512), "Zatím žádné večery: prázdný stůl a spící kočka"),
   ("empty", "zadni-hraci", "grids/rewards-2.png", 3, (512, 512), "Zatím žádní hráči: prázdné židle"),
   ("env", "lobby-tv", "env/lobby-tv.png", None, (1920, 1080), "Klidné pozadí čekárny na televizi se sovou na kredenci"),
   ("env", "lobby-mobil", "env/lobby-mobile.png", None, (1080, 1920), "Pozadí čekárny na mobilu: okno s večerní oblohou a spícím jezevčíkem"),
 ]
+
+# Obrázkový slovník pro předškoláky (design/art/pics.json, zdroj tools/pics-src.py).
+PICS = json.loads((ART / "pics.json").read_text(encoding="utf-8"))
+DISTANCE_KEYED = set()
+for g in PICS:
+    for q, it in enumerate(g["items"]):
+        ITEMS.append(("pics", it["key"], f"pics/{g['grid']}.png", q, (512, 512), it["alt"]))
+        if g.get("key") == "distance":
+            DISTANCE_KEYED.add(f"pics/{g['grid']}.png")
+
+def write_emoji_map():
+    """static/art/pics-emoji.json: emoji z dat → klíč obrázku (jen obrázky, které existují)."""
+    emap = {}
+    for g in PICS:
+        for it in g["items"]:
+            if (STATIC / "pics" / f"{it['key']}.webp").exists():
+                for e in it["emoji"]:
+                    emap[e] = it["key"]
+    (STATIC / "pics-emoji.json").write_text(json.dumps(emap, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return len(emap)
+
+def key_distance(im, lo=50, hi=110):
+    """Purpurová → alfa podle vzdálenosti od #FF00FF (maximum odchylek kanálů). Pro mřížky
+    s fialovou nebo růžovou kresbou, kde poměrové key_magenta ubírá i z kresby."""
+    r, g, b = im.convert("RGB").split()
+    dist = ImageChops.lighter(ImageChops.lighter(r.point(lambda v: 255 - v), g), b.point(lambda v: 255 - v))
+    alpha = dist.point(lambda v: 0 if v <= lo else (255 if v >= hi else int((v - lo) * 255 / (hi - lo))))
+    alpha = alpha.filter(ImageFilter.MedianFilter(3)).filter(ImageFilter.MinFilter(3))
+    return Image.merge("RGBA", (r, g, b, alpha))
 
 def key_magenta(im):
     """Purpurová #FF00FF → alfa, bez numpy (jen PIL)."""
@@ -119,8 +151,36 @@ def clean_components(rgba, grid=160, min_share=0.002):
     rgba.putalpha(ImageChops.multiply(a, mask))
     return rgba
 
-def fit_square(rgba, size, pad=0.06):
-    rgba = clean_components(rgba)
+def split_by_components(rgba, q, grid=200, min_share=0.0015):
+    """Kvadrant mřížky podle skutečných kusů kresby, ne podle pevné poloviny: model kreslí velká
+    zvířata přes střed obrázku. Každou souvislou komponentu přiřadí kvadrantu podle těžiště
+    a vrátí výřez se jen jeho komponentami (kapky deště, padající listí zůstanou u svého obrázku)."""
+    w, h = rgba.size
+    a = rgba.getchannel("A")
+    small = a.resize((grid, grid), Image.BILINEAR).point(lambda v: 1 if v > 40 else 0)
+    px = list(small.getdata()); seen = [0] * len(px); keep = [0] * len(px)
+    total = sum(px) or 1
+    for start in range(len(px)):
+        if not px[start] or seen[start]: continue
+        stack = [start]; seen[start] = 1; comp = []
+        while stack:
+            i = stack.pop(); comp.append(i); x, y = i % grid, i // grid
+            for nx, ny in ((x+1,y),(x-1,y),(x,y+1),(x,y-1),(x+1,y+1),(x-1,y-1),(x+1,y-1),(x-1,y+1)):
+                if 0 <= nx < grid and 0 <= ny < grid:
+                    j = ny * grid + nx
+                    if px[j] and not seen[j]: seen[j] = 1; stack.append(j)
+        if len(comp) / total < min_share: continue
+        cx = sum(i % grid for i in comp) / len(comp); cy = sum(i // grid for i in comp) / len(comp)
+        if (1 if cx >= grid / 2 else 0) + (2 if cy >= grid / 2 else 0) != q: continue
+        for i in comp: keep[i] = 255
+    mask = Image.new("L", (grid, grid)); mask.putdata(keep)
+    mask = mask.filter(ImageFilter.MaxFilter(5)).resize((w, h), Image.BILINEAR)
+    out = rgba.copy(); out.putalpha(ImageChops.multiply(a, mask))
+    return out
+
+def fit_square(rgba, size, pad=0.06, clean=True):
+    if clean:
+        rgba = clean_components(rgba)
     bbox = rgba.getchannel("A").point(lambda v: 255 if v > 24 else 0).getbbox()
     if bbox: rgba = rgba.crop(bbox)
     w, h = rgba.size
@@ -154,7 +214,8 @@ def add_variants(manifest):
             for w in widths:
                 h = round(entry["height"] * w / entry["width"])
                 dest = src.with_name(f"{src.stem}-{w}.webp")
-                im.resize((w, h), Image.LANCZOS).save(dest, "WEBP", quality=Q, method=6)
+                if not dest.exists() or dest.stat().st_mtime < src.stat().st_mtime:
+                    im.resize((w, h), Image.LANCZOS).save(dest, "WEBP", quality=Q, method=6)
                 variants.append({"width": w, "path": entry["path"].replace(".webp", f"-{w}.webp")})
         if variants:
             entry["variants"] = variants
@@ -171,17 +232,32 @@ def variants_only():
     write_manifest(manifest)
     print(len(manifest), "obrázků, varianty hotové")
 
-def main():
-    manifest = {}
+def main(only=None):
+    """Zpracuje položky, jejichž originál existuje; ostatní záznamy manifestu nechá beze změny.
+    Originály jsou gitignorované, takže v čistém checkoutu chybí — manifest se tím nerozbije."""
+    path = STATIC / "manifest.json"
+    manifest = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    keyed = {}
     for group, name, src, q, size, alt in ITEMS:
+        if only and group not in only and f"{group}.{name}" not in only:
+            continue
         p = (ART / "originals" / src).resolve()
         if not p.exists():
-            print("chybí", src); continue
+            if f"{group}.{name}" not in manifest:
+                print("chybí", src)
+            continue
         im = Image.open(p)
         if q is None:
             out = fit_cover(im, size); transparent = False
         else:
-            out = fit_square(key_magenta(quadrant(im, q)), size); transparent = True
+            keyer = key_distance if src in DISTANCE_KEYED else key_magenta
+            if group == "pics":
+                if src not in keyed:
+                    keyed[src] = keyer(im)
+                out = fit_square(split_by_components(keyed[src], q), size, clean=False)
+            else:
+                out = fit_square(keyer(quadrant(im, q)), size)
+            transparent = True
         dest = STATIC / group / f"{name}.webp"
         dest.parent.mkdir(parents=True, exist_ok=True)
         out.save(dest, "WEBP", quality=Q, method=6)
@@ -189,8 +265,9 @@ def main():
                                        "alt": alt, "group": group, "transparent": transparent}
     add_variants(manifest)
     write_manifest(manifest)
-    print(len(manifest), "obrázků")
+    print(len(manifest), "obrázků,", write_emoji_map(), "emoji v pics-emoji.json")
 
 if __name__ == "__main__":
     import sys
-    variants_only() if "--variants" in sys.argv else main()
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    variants_only() if "--variants" in sys.argv else main(set(args) or None)
