@@ -39,4 +39,4 @@ Ostatní skripty:
 
 ## Licence
 
-Kód je pod licencí MIT, obsah (otázky, slova, lekce a ilustrace) pod CC BY 4.0. Podrobnosti v [LICENSE](LICENSE).
+Kód je pod licencí MIT, obsah (otázky, slova, lekce a ilustrace) pod CC BY 4.0. Podrobnosti v [LICENSE](LICENSE) a [LICENSE-CONTENT](LICENSE-CONTENT).
