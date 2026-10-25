@@ -1,0 +1,605 @@
+{
+  "version": 1,
+  "puzzles": [
+    {
+      "id": "mate1-01",
+      "kind": "mate1",
+      "fen": "8/2Q2B2/k7/8/8/3P4/7K/7b w - - 0 1",
+      "solution": [
+        "f7c4"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 1
+    },
+    {
+      "id": "mate1-02",
+      "kind": "mate1",
+      "fen": "7k/1p3Q2/8/R7/8/4r3/7K/8 w - - 0 1",
+      "solution": [
+        "a5h5"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 1
+    },
+    {
+      "id": "mate1-03",
+      "kind": "mate1",
+      "fen": "1k6/3R4/7n/Q7/b7/8/4K3/8 w - - 0 1",
+      "solution": [
+        "a5d8"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 1
+    },
+    {
+      "id": "mate1-04",
+      "kind": "mate1",
+      "fen": "3rk1B1/8/8/8/8/2b2K2/Q5P1/8 w - - 0 1",
+      "solution": [
+        "a2f7"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-05",
+      "kind": "mate1",
+      "fen": "k7/2Q2p2/6n1/7N/8/6B1/8/K7 w - - 0 1",
+      "solution": [
+        "c7b8"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-06",
+      "kind": "mate1",
+      "fen": "b6q/k7/5R2/8/3r4/4K3/1Q6/8 w - - 0 1",
+      "solution": [
+        "b2b6"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-07",
+      "kind": "mate1",
+      "fen": "4kB2/8/8/6Q1/8/6PP/1r2NK2/8 w - - 0 1",
+      "solution": [
+        "g5e7"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-08",
+      "kind": "mate1",
+      "fen": "3k4/1pq5/7Q/4p3/6B1/2P5/1K6/8 w - - 0 1",
+      "solution": [
+        "h6f8"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-09",
+      "kind": "mate1",
+      "fen": "7k/4R3/8/8/1NP3P1/8/1K4b1/5Q2 w - - 0 1",
+      "solution": [
+        "f1f8"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-10",
+      "kind": "mate1",
+      "fen": "1k5B/3n3p/2QN4/8/6P1/6K1/8/8 w - - 0 1",
+      "solution": [
+        "c6b7"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-11",
+      "kind": "mate1",
+      "fen": "4R3/2k5/5Q2/2p5/1N1Pn3/8/8/1K6 w - - 0 1",
+      "solution": [
+        "f6c6"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-12",
+      "kind": "mate1",
+      "fen": "4k3/Q3r3/4N3/7r/7B/5P2/8/5K2 w - - 0 1",
+      "solution": [
+        "a7e7"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-13",
+      "kind": "mate1",
+      "fen": "6k1/4Q3/2B3n1/8/8/5PKR/P7/8 w - - 0 1",
+      "solution": [
+        "c6d5"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-14",
+      "kind": "mate1",
+      "fen": "8/2B5/2q3pk/8/4Q3/4K3/1B4P1/8 w - - 0 1",
+      "solution": [
+        "e4h4"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-15",
+      "kind": "mate1",
+      "fen": "2k5/3b3p/8/p3B3/8/3RP3/1R6/6K1 w - - 0 1",
+      "solution": [
+        "b2b8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-16",
+      "kind": "mate1",
+      "fen": "k7/r1R5/8/2N5/R4P2/n4P2/3K4/8 w - - 0 1",
+      "solution": [
+        "c7c8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-17",
+      "kind": "mate1",
+      "fen": "8/1p5k/p7/4B3/6R1/2PKQ3/1q6/8 w - - 0 1",
+      "solution": [
+        "e3h3"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-18",
+      "kind": "mate1",
+      "fen": "2k5/1R6/1p5r/3p3N/Q4b2/8/2K5/8 w - - 0 1",
+      "solution": [
+        "a4d7"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-19",
+      "kind": "mate1",
+      "fen": "k7/8/3p4/N7/3PP3/K7/6B1/1Q5b w - - 0 1",
+      "solution": [
+        "b1b7"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-20",
+      "kind": "mate1",
+      "fen": "3k4/5Rp1/r2B1p2/8/1R6/4P3/8/6K1 w - - 0 1",
+      "solution": [
+        "b4b8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-21",
+      "kind": "mate1",
+      "fen": "7r/k2p4/5n2/8/4P3/1QB5/5K2/5R2 w - - 0 1",
+      "solution": [
+        "f1a1"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-22",
+      "kind": "mate1",
+      "fen": "3n3k/8/n7/2Q5/8/6RN/P1r5/4K3 w - - 0 1",
+      "solution": [
+        "c5h5"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-23",
+      "kind": "mate1",
+      "fen": "7k/2qpR3/1p2N3/7r/4B3/3K4/8/8 w - - 0 1",
+      "solution": [
+        "e7e8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-24",
+      "kind": "mate1",
+      "fen": "6R1/4Q3/6pk/6n1/8/4Br2/2P1K3/8 w - - 0 1",
+      "solution": [
+        "g8h8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-25",
+      "kind": "mate1",
+      "fen": "3B4/8/n2k4/bQ6/6P1/8/B6P/K7 w - - 0 1",
+      "solution": [
+        "b5d5"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "mate1-26",
+      "kind": "mate1",
+      "fen": "kb4n1/5p2/1Q5p/6p1/8/2P5/6K1/6B1 w - - 0 1",
+      "solution": [
+        "b6c6"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 3
+    },
+    {
+      "id": "mate1-27",
+      "kind": "mate1",
+      "fen": "6k1/2Q5/p5pp/7b/2n3P1/8/K2R4/8 w - - 0 1",
+      "solution": [
+        "d2d8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 3
+    },
+    {
+      "id": "mate1-28",
+      "kind": "mate1",
+      "fen": "b3kq2/7Q/2R5/8/4P3/1P6/1K2N3/2n5 w - - 0 1",
+      "solution": [
+        "c6c8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 3
+    },
+    {
+      "id": "mate1-29",
+      "kind": "mate1",
+      "fen": "6rk/5B1n/2pR4/5pR1/P7/5K2/4P3/1b6 w - - 0 1",
+      "solution": [
+        "g5g8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 3
+    },
+    {
+      "id": "mate1-30",
+      "kind": "mate1",
+      "fen": "8/2QN2n1/k2p4/5p1p/8/2N5/1n2K2P/6b1 w - - 0 1",
+      "solution": [
+        "d7b8"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 3
+    },
+    {
+      "id": "fork-01",
+      "kind": "fork",
+      "fen": "8/1k3b2/8/8/8/8/8/3R2K1 w - - 0 1",
+      "solution": [
+        "d1d7"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 1
+    },
+    {
+      "id": "fork-02",
+      "kind": "fork",
+      "fen": "b3k3/1R6/8/8/8/3K4/8/7n w - - 0 1",
+      "solution": [
+        "b7b8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 1
+    },
+    {
+      "id": "fork-03",
+      "kind": "fork",
+      "fen": "2k5/8/8/2n5/8/5R1K/2nN4/8 w - - 0 1",
+      "solution": [
+        "f3c3"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 1
+    },
+    {
+      "id": "fork-04",
+      "kind": "fork",
+      "fen": "8/2N1k3/6r1/8/8/2b1KP2/8/8 w - - 0 1",
+      "solution": [
+        "c7d5"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 1
+    },
+    {
+      "id": "fork-05",
+      "kind": "fork",
+      "fen": "8/k1pp4/8/8/1R6/8/b2K4/8 w - - 0 1",
+      "solution": [
+        "b4a4"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 1
+    },
+    {
+      "id": "fork-06",
+      "kind": "fork",
+      "fen": "8/q3k3/1N6/6p1/8/2K5/3n4/5n2 w - - 0 1",
+      "solution": [
+        "b6c8"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-07",
+      "kind": "fork",
+      "fen": "7r/5N2/2k5/p7/3R4/2b5/4K3/8 w - - 0 1",
+      "solution": [
+        "d4c4"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-08",
+      "kind": "fork",
+      "fen": "3N4/2bp2k1/3R4/8/5P2/8/8/K7 w - - 0 1",
+      "solution": [
+        "d6d7"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-09",
+      "kind": "fork",
+      "fen": "5k2/8/8/B1N1rn2/8/5bP1/7K/8 w - - 0 1",
+      "solution": [
+        "c5d7"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-10",
+      "kind": "fork",
+      "fen": "4k3/1b6/r7/2Q4p/8/8/4P3/3KN3 w - - 0 1",
+      "solution": [
+        "c5b5"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-11",
+      "kind": "fork",
+      "fen": "8/8/1k3p1r/8/7r/4RP2/1nPK4/8 w - - 0 1",
+      "solution": [
+        "e3b3"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-12",
+      "kind": "fork",
+      "fen": "8/7k/8/5pp1/B7/4rb2/1K3Q2/4n3 w - - 0 1",
+      "solution": [
+        "f2e3"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-13",
+      "kind": "fork",
+      "fen": "8/3k4/N7/3n2p1/4b3/1Q6/3Pr3/K7 w - - 0 1",
+      "solution": [
+        "b3b5"
+      ],
+      "hint": "Zkus to dámou.",
+      "difficulty": 2
+    },
+    {
+      "id": "fork-14",
+      "kind": "fork",
+      "fen": "3n3k/p3R3/2r5/5p2/8/3K2N1/6Pr/8 w - - 0 1",
+      "solution": [
+        "e7e8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 3
+    },
+    {
+      "id": "fork-15",
+      "kind": "fork",
+      "fen": "1N1k3r/b6b/1p6/8/7P/1BP5/5K2/8 w - - 0 1",
+      "solution": [
+        "b8c6"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 3
+    },
+    {
+      "id": "material-01",
+      "kind": "material",
+      "fen": "5n2/5q2/4k3/8/4n3/8/KNB5/8 w - - 0 1",
+      "solution": [
+        "c2b3"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-02",
+      "kind": "material",
+      "fen": "k7/2p3n1/4B3/8/8/6P1/8/Kb6 w - - 0 1",
+      "solution": [
+        "e6d5"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-03",
+      "kind": "material",
+      "fen": "8/8/4k3/6pN/3r3R/3b4/8/3K4 w - - 0 1",
+      "solution": [
+        "h4d4"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-04",
+      "kind": "material",
+      "fen": "8/6p1/6k1/6q1/NR6/5K2/2P5/8 w - - 0 1",
+      "solution": [
+        "b4g4"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-05",
+      "kind": "material",
+      "fen": "1N6/6n1/b2k2n1/8/8/7K/P7/8 w - - 0 1",
+      "solution": [
+        "b8a6"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-06",
+      "kind": "material",
+      "fen": "6k1/3p4/1p5n/8/8/8/2n4N/2B2K2 w - - 0 1",
+      "solution": [
+        "c1h6"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-07",
+      "kind": "material",
+      "fen": "3r4/kB6/8/6p1/3R4/3K2P1/P7/8 w - - 0 1",
+      "solution": [
+        "d4d8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-08",
+      "kind": "material",
+      "fen": "8/k7/7q/r7/B6R/K3P3/8/5n2 w - - 0 1",
+      "solution": [
+        "h4h6"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-09",
+      "kind": "material",
+      "fen": "8/1Bk5/rq6/8/6N1/8/P2Q4/4K2b w - - 0 1",
+      "solution": [
+        "b7a6"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-10",
+      "kind": "material",
+      "fen": "q3k3/b7/3n3N/3B2p1/1P6/8/8/K7 w - - 0 1",
+      "solution": [
+        "d5a8"
+      ],
+      "hint": "Zkus to střelcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-11",
+      "kind": "material",
+      "fen": "8/8/7k/1p2rp2/1Rr5/3Pb1K1/8/8 w - - 0 1",
+      "solution": [
+        "d3c4"
+      ],
+      "hint": "Zkus to pěšcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-12",
+      "kind": "material",
+      "fen": "1r6/4p3/7k/3q4/2P5/4K2P/6N1/1N6 w - - 0 1",
+      "solution": [
+        "c4d5"
+      ],
+      "hint": "Zkus to pěšcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-13",
+      "kind": "material",
+      "fen": "1R6/3k3N/p1N5/8/Pn6/5K2/5P2/8 w - - 0 1",
+      "solution": [
+        "c6b4"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 2
+    },
+    {
+      "id": "material-14",
+      "kind": "material",
+      "fen": "r7/2k5/1p4pp/1R6/5r2/3N3P/8/1K6 w - - 0 1",
+      "solution": [
+        "d3f4"
+      ],
+      "hint": "Zkus to jezdcem.",
+      "difficulty": 3
+    },
+    {
+      "id": "material-15",
+      "kind": "material",
+      "fen": "4n1q1/N2p2R1/k7/1p5p/2r5/5K2/6P1/8 w - - 0 1",
+      "solution": [
+        "g7g8"
+      ],
+      "hint": "Zkus to věží.",
+      "difficulty": 3
+    }
+  ]
+}
