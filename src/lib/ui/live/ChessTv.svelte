@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   // Chess room on the TV: lobby with the join code, then the board for the spectators with both
   // clocks, the move list and the result. The TV never moves; the players use their phones.
@@ -101,7 +102,8 @@
         <p class="status" data-testid="chess-status" role="status">{status}</p>
         {#if game.result}
           <div class="card stack" data-testid="chess-result">
-            <h2>🏆 {game.result.text}</h2>
+            <Celebrate size={100} />
+            <h2>{game.result.text}</h2>
             <p class="muted">Výsledek je zapsaný v lize.</p>
             {#if isHost}<a class="btn primary" href="/tv?hra=chess">Další partie</a>{/if}
           </div>

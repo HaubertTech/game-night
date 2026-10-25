@@ -10,7 +10,7 @@
   }
 </script>
 
-<svelte:head><title>Herní večer · připojit telefon</title></svelte:head>
+<svelte:head><title>Připojit telefon · Herní večer</title></svelte:head>
 
 <main class="phone stack">
   <h1>📱 Připojit se ke hře</h1>

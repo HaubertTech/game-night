@@ -52,7 +52,7 @@ test('město, jméno, zvíře: TV a tři telefony, Stop!, napadení a hlasován�
 
   // ---- setup on the TV: pick the game card, players, one round ----
   await tv.goto('/tv');
-  await tv.getByRole('button', { name: /Město, jméno, zvíře/ }).click();
+  await tv.getByRole('button', { name: /Město-jméno-zvíře/ }).click();
   for (const p of PLAYERS) await tv.getByRole('button', { name: `${p.name} hraje` }).click();
   await tv.getByRole('group', { name: 'Počet kol' }).getByRole('button', { name: '1', exact: true }).click();
   await tv.getByRole('button', { name: 'Založit místnost' }).click();

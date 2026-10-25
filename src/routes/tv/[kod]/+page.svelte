@@ -1,5 +1,8 @@
 <script lang="ts">
   import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
+  import LobbyBackdrop from '#lib/ui/live/LobbyBackdrop.svelte';
   import { LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
@@ -110,7 +113,7 @@
   }
 </script>
 
-<svelte:head><title>{room.game && room.game !== 'quiz' ? ROOM_GAME_LABELS[room.game] : 'Kvízovna'} · místnost {code}</title></svelte:head>
+<svelte:head><title>{ROOM_GAME_LABELS[room.game ?? 'quiz']} – místnost {code} · Herní večer</title></svelte:head>
 
 {#if room.game === 'aktivity'}
   <AktivityTv {room} {code} />
@@ -148,6 +151,7 @@
     {/if}
 
     {#if view.phase === 'lobby'}
+      <LobbyBackdrop kind="tv" />
       <section class="lobby">
         <div class="join">
           <QrCode text={joinUrl} label={`QR kód pro připojení: ${joinUrl}`} />
@@ -223,6 +227,7 @@
       <section class="asking stack">
         <div class="center">
           <p class="muted step">Otázka {view.step + 1} z {view.stepCount}</p>
+          <Art name="mascot.sova-otazka" alt="Sova drží kartičku s otázkou" size={120} eager style="width:120px;height:120px;margin:0 auto" />
           <h1>Odpovídejte na telefonech 📱</h1>
         </div>
         <Countdown seconds={room.remaining} total={view.timerSeconds} />
@@ -259,7 +264,9 @@
               {lastStep ? 'Konec kola ➜' : 'Další otázka ➜'}
             </button>
           </div>
-          {#if view.unjudged.length > 0}<p class="center muted">Nejdřív posuď otevřené odpovědi ✓/✗.</p>{/if}
+          {#if view.unjudged.length > 0}
+            <div class="judge-owl"><Owl pose="premysli" text="Nejdřív posuď otevřené odpovědi ✓/✗." compact /></div>
+          {/if}
         {/if}
       </section>
     {:else if view.phase === 'roundEnd'}
@@ -333,9 +340,16 @@
   }
   .lobby {
     display: grid;
-    grid-template-columns: minmax(280px, 0.9fr) 1.1fr;
+    grid-template-columns: minmax(260px, 400px) minmax(0, 580px);
+    justify-content: start;
     gap: 40px;
     align-items: start;
+  }
+  .lobby .who {
+    padding: 18px 22px;
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    box-shadow: var(--shadow);
   }
   .join {
     display: flex;
@@ -371,7 +385,7 @@
     align-items: center;
     gap: 14px;
     padding: 10px 16px;
-    background: #fff;
+    background: var(--paper);
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
   }
@@ -410,7 +424,7 @@
     align-items: center;
     gap: 4px;
     padding: 16px;
-    background: #fff;
+    background: var(--paper);
     border: 3px solid var(--line);
     border-radius: var(--radius);
     font-size: 1.25rem;
@@ -434,12 +448,16 @@
   }
   .joker {
     background: var(--clay);
-    color: #fffaf3;
+    color: var(--paper);
   }
   .reveals {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 16px;
+  }
+  .judge-owl {
+    max-width: 520px;
+    margin: 0 auto;
   }
   .host-row {
     display: flex;

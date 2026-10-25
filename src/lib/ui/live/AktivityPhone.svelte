@@ -1,4 +1,7 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
+  import LobbyBackdrop from '#lib/ui/live/LobbyBackdrop.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   import './game.css';
   import type { AktivityCommand } from '../../games/aktivity/engine.ts';
@@ -50,13 +53,15 @@
     <p class="g-center muted">Připojuji se…</p>
   {:else if view.phase === 'finished'}
     <section class="stack" data-testid="final">
-      <h1 class="g-center">🏆 {view.winners.map((id) => teamById.get(id)?.name).join(' a ') || 'Konec hry'}</h1>
+      <Celebrate size={100} />
+      <h1 class="g-center">{view.winners.map((id) => teamById.get(id)?.name).join(' a ') || 'Konec hry'}</h1>
       <Standings rows={aktivityStandingRows(view)} showRound={false} />
     </section>
   {:else if !me}
     <SeatPicker {seats} presence={room.presence} onPick={(id) => room.join(id)} />
   {:else if view.phase === 'setup'}
-    <section class="stack g-center" data-testid="waiting">
+    <LobbyBackdrop kind="phone" />
+    <section class="g-wait-card stack g-center" data-testid="waiting">
       <div class="emoji g-huge"><Avatar value={me.avatar} fallback="🙂" px={192} /></div>
       <h1>Jsi ve hře!</h1>
       <p class="muted">Hraješ za {myTeam?.name}. Čekáme, až hostitel spustí hru.</p>
@@ -105,7 +110,7 @@
       </section>
     {:else}
       <section class="stack g-center" data-testid="guess">
-        <div class="emoji g-huge">🤔</div>
+        <Art name="mascot.sova-premysli" alt="Sova přemýšlí" size={140} style="width:140px;height:140px;margin:0 auto" />
         <h1>{cur.allPlay ? 'Hádají všichni!' : ourTurn ? 'Hádejte!' : 'Hádá druhý tým'}</h1>
         <Countdown seconds={room.remaining} total={view.timerSeconds} />
         <p class="muted">Vysvětluje {explainer?.name}.</p>

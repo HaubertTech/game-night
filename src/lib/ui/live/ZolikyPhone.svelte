@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
+  import LobbyBackdrop from '#lib/ui/live/LobbyBackdrop.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital žolíky on a phone: the own hand and the combinations on the table. Take a card, select
   // cards and put them into groups, lay them down, tap a combination on the table to add the
@@ -163,7 +165,8 @@
   {:else if !me}
     <SeatPicker seats={people} presence={room.presence} onPick={(id) => room.join(id)} />
   {:else if view.roomPhase === 'lobby'}
-    <section class="stack g-center" data-testid="waiting">
+    <LobbyBackdrop kind="phone" />
+    <section class="g-wait-card stack g-center" data-testid="waiting">
       <div class="emoji g-huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi u stolu!</h1>
       <p class="muted">Čekáme, až hostitel na televizi rozdá karty.</p>
@@ -243,7 +246,8 @@
         <h1 class="g-center">{view.lastRound.winnerId === me.id ? 'Zavřel(a) jsi!' : `Zavírá ${seatName(view.seats, view.lastRound.winnerId)}`}</h1>
       {:else if view.phase === 'finished'}
         {@const top = zolikyStandings(view)[0]}
-        <h1 class="g-center">{top?.id === me.id ? '🏆 Vyhrál(a) jsi celou hru!' : `🏆 Vyhrává ${top?.name}`}</h1>
+        <Celebrate size={100} />
+        <h1 class="g-center">{top?.id === me.id ? 'Vyhrál(a) jsi celou hru!' : `Vyhrává ${top?.name}`}</h1>
       {/if}
       <ZolikySheetTable {view} />
       {#if view.phase === 'roundEnd'}

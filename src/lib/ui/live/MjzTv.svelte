@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Owl from '../art/Owl.svelte';
+  import Celebrate from './Celebrate.svelte';
   import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import { LEVEL_ART } from '#lib/ui/art/art.ts';
   import Avatar from '#lib/ui/art/Avatar.svelte';
@@ -41,7 +43,7 @@
 
 <main class="g-tv" data-testid="tv-mjz" data-phase={view?.phase ?? 'loading'}>
   <header class="g-bar">
-    <span class="g-brand">✍️ Město, jméno, zvíře</span>
+    <span class="g-brand">✍️ Město-jméno-zvíře</span>
     <span>Místnost <strong>{code}</strong></span>
     {#if view && view.phase !== 'setup'}<span>Kolo {view.roundIndex + 1}/{view.roundCount}</span>{/if}
     <ConnectionBadge status={room.status} />
@@ -136,6 +138,7 @@
           {/each}
         </div>
         <h1 class="g-center">{focusCat?.label} na {view.letter}</h1>
+        {#if isHost}<div class="review-owl"><Owl pose="premysli" text="Projděte odpovědi. Spornou odpověď jde napadnout na telefonu." compact /></div>{/if}
         <ul class="answers">
           {#each focusAnswers as a (a.contestantId)}
             {@const c = byId.get(a.contestantId)}
@@ -191,7 +194,8 @@
       </section>
     {:else if view.phase === 'finished'}
       <section class="stack g-narrow" data-testid="final">
-        <h1 class="g-center">🏆 Konečné pořadí</h1>
+        <Celebrate size={150} />
+        <h1 class="g-center">Konečné pořadí</h1>
         <Standings rows={mjzStandingRows(view)} showRound={false} />
         <div class="g-host-row"><a class="btn primary big" href="/tv">🏠 Nová hra</a></div>
       </section>
@@ -202,6 +206,11 @@
 </main>
 
 <style>
+  .review-owl {
+    max-width: 560px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .letter {
     color: var(--clay-dark);
   }

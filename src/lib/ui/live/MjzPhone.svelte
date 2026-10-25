@@ -1,4 +1,7 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
+  import LobbyBackdrop from '#lib/ui/live/LobbyBackdrop.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   import './game.css';
   import type { MjzCommand } from '../../games/mjz/engine.ts';
@@ -44,7 +47,8 @@
     <p class="g-center muted">Připojuji se…</p>
   {:else if view.phase === 'finished'}
     <section class="stack" data-testid="final">
-      <h1 class="g-center">🏆 Konečné pořadí</h1>
+      <Celebrate size={100} />
+      <h1 class="g-center">Konečné pořadí</h1>
       <Standings rows={mjzStandingRows(view)} showRound={false} />
     </section>
   {:else if !me}
@@ -52,7 +56,8 @@
   {:else if me.kicked}
     <section class="stack g-center"><h1>Hostitel tě ze hry odebral</h1></section>
   {:else if view.phase === 'setup'}
-    <section class="stack g-center" data-testid="waiting">
+    <LobbyBackdrop kind="phone" />
+    <section class="g-wait-card stack g-center" data-testid="waiting">
       <div class="emoji g-huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi ve hře!</h1>
       <p class="muted">Čekáme, až hostitel spustí hru na televizi.</p>
@@ -75,7 +80,7 @@
       {/if}
       {#if me.done}
         <div class="stack g-center" data-testid="sent">
-          <div class="emoji g-huge">📨</div>
+          <Art name="mascot.sova-premysli" alt="Sova přemýšlí" size={140} style="width:140px;height:140px;margin:0 auto" />
           <h1>Odevzdáno</h1>
           <p class="muted">Čekáme na ostatní.</p>
         </div>

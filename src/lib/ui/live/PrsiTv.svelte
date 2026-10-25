@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital prší on the TV: the table for everyone — the card on top, the suit to follow, how many
   // cards each player holds, whose turn it is and what just happened. Hands stay on the phones.
@@ -91,7 +92,8 @@
 
       {#if view.phase === 'dealEnd' || view.phase === 'finished'}
         <section class="card stack result g-narrow" data-testid="result">
-          <h1>🏆 {view.phase === 'finished' ? 'Konec hry' : 'Konec partie'} — vyhrává {seatName(view.seats, (view.phase === 'finished' && view.deals.length > 1 ? standings[0]?.id : lastOrder[0]) ?? '')}</h1>
+          <Celebrate size={110} />
+          <h1>{view.phase === 'finished' ? 'Konec hry' : 'Konec partie'} — vyhrává {seatName(view.seats, (view.phase === 'finished' && view.deals.length > 1 ? standings[0]?.id : lastOrder[0]) ?? '')}</h1>
           <ol class="order">
             {#each lastOrder as id (id)}<li>{seatName(view.seats, id)}</li>{/each}
           </ol>

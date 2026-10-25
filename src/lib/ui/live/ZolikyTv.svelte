@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital žolíky on the TV: stock, the top of the discard pile and every laid-down combination,
   // the players with their card counts and totals. Hands stay on the phones.
@@ -100,7 +101,8 @@
           {#if view.phase === 'roundEnd' && view.lastRound}
             <h1>Zavírá {seatName(view.seats, view.lastRound.winnerId)}{view.lastRound.fromHand ? ' z ruky — ostatní mají body dvakrát!' : '!'}</h1>
           {:else}
-            <h1>🏆 Konec hry — vyhrává {standings[0]?.name}</h1>
+            <Celebrate size={110} />
+            <h1>Konec hry — vyhrává {standings[0]?.name}</h1>
           {/if}
           <ZolikySheetTable {view} />
           {#if view.phase === 'roundEnd'}

@@ -1,9 +1,12 @@
 <script lang="ts">
+  import LobbyBackdrop from './LobbyBackdrop.svelte';
   import QrCode from './QrCode.svelte';
 
   let { code }: { code: string } = $props();
   const joinUrl = $derived(typeof location === 'undefined' ? `/m/${code}` : `${location.origin}/m/${code}`);
 </script>
+
+<LobbyBackdrop kind="tv" />
 
 <div class="join">
   <QrCode text={joinUrl} label={`QR kód pro připojení: ${joinUrl}`} />

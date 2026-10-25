@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
+  import LobbyBackdrop from '#lib/ui/live/LobbyBackdrop.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital prší on a phone: the own hand only. Tap a card to play it, a svršek asks for the
   // suit; the big button draws (or stands on an ace). Children with hints see which cards fit and
@@ -111,7 +113,8 @@
   {:else if !me}
     <SeatPicker seats={people} presence={room.presence} onPick={(id) => room.join(id)} />
   {:else if view.roomPhase === 'lobby'}
-    <section class="stack g-center" data-testid="waiting">
+    <LobbyBackdrop kind="phone" />
+    <section class="g-wait-card stack g-center" data-testid="waiting">
       <div class="emoji g-huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi u stolu!</h1>
       <p class="muted">Čekáme, až hostitel na televizi rozdá karty.</p>
@@ -153,7 +156,8 @@
     {/if}
   {:else}
     <section class="stack" data-testid="final">
-      <h1 class="g-center">{lastOrder[0] === me.id ? '🏆 Vyhrál(a) jsi!' : `🏆 Vyhrává ${seatName(view.seats, lastOrder[0] ?? '')}`}</h1>
+      <Celebrate size={100} />
+      <h1 class="g-center">{lastOrder[0] === me.id ? 'Vyhrál(a) jsi!' : `Vyhrává ${seatName(view.seats, lastOrder[0] ?? '')}`}</h1>
       <ol class="order">
         {#each view.phase === 'finished' && view.deals.length > 1 ? prsiStandings(view).map((r) => r.id) : lastOrder as id (id)}
           <li class:mine={id === me.id}>{seatName(view.seats, id)}</li>

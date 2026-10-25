@@ -24,7 +24,10 @@
 
 <article class="final stack" data-testid="final">
   <header class="center">
-    <Art name="rewards.vitez-vecera" size={140} class="trophy" eager />
+    <div class="trophies">
+      <Art name="mascot.sova-slavi" alt="Sova slaví" size={120} class="trophy" eager />
+      <Art name="rewards.vitez-vecera" alt="Pohár pro vítěze" size={120} class="trophy" eager />
+    </div>
     <h1>Konečné pořadí</h1>
     <p class="muted">
       Vítězí {#each winners as w, i (w.contestant.id)}{i > 0 ? ' a ' : ''}<Avatar value={w.contestant.avatar} /> {w.contestant.name}{/each}!
@@ -91,10 +94,15 @@
   .center {
     text-align: center;
   }
-  .center :global(.trophy) {
-    width: 140px;
-    height: 140px;
-    margin: 0 auto 4px;
+  .trophies {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .trophies :global(.trophy) {
+    width: 120px;
+    height: 120px;
   }
   h1 {
     font-size: 2.6rem;

@@ -4,12 +4,22 @@ export const ROOM_GAMES = ['quiz', 'aktivity', 'mjz', 'chess', 'prsi-hra', 'zoli
 export type RoomGame = (typeof ROOM_GAMES)[number];
 
 export const ROOM_GAME_LABELS: Record<RoomGame, string> = {
-  quiz: 'Kvíz',
-  aktivity: 'Řekni, ukaž, nakresli',
-  mjz: 'Město, jméno, zvíře',
+  quiz: 'Kvízovna',
+  aktivity: 'Řekni-ukaž-nakresli',
+  mjz: 'Město-jméno-zvíře',
   chess: 'Šachy',
   'prsi-hra': 'Prší',
   'zoliky-hra': 'Žolíky',
+};
+
+/** Illustration of each room game (static/art/manifest.json); chess borrows the thinking owl. */
+export const ROOM_GAME_ART: Record<RoomGame, string> = {
+  quiz: 'cards.kvizovna',
+  aktivity: 'cards.rekni-ukaz-nakresli',
+  mjz: 'cards.mesto-jmeno-zvire',
+  chess: 'mascot.sova-premysli',
+  'prsi-hra': 'cards.prsi',
+  'zoliky-hra': 'cards.zoliky',
 };
 
 export const ROOM_GAME_EMOJI: Record<RoomGame, string> = {

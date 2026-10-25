@@ -7,7 +7,8 @@
   import { page } from '$app/state';
   import { LEVELS, LEVEL_LABELS, THEMES, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
   import { writeToken } from '#lib/live-client/tokens.ts';
-  import { isRoomGame, ROOM_GAME_EMOJI, ROOM_GAME_LABELS, ROOM_GAMES, type RoomGame } from '#lib/live/games.ts';
+  import { isRoomGame, ROOM_GAME_ART, ROOM_GAME_LABELS, ROOM_GAMES, type RoomGame } from '#lib/live/games.ts';
+  import GameCard from '#lib/ui/art/GameCard.svelte';
   import AktivitySetup from '#lib/ui/live/AktivitySetup.svelte';
   import MjzSetup from '#lib/ui/live/MjzSetup.svelte';
   import ChessSetup from '#lib/ui/live/ChessSetup.svelte';
@@ -152,22 +153,18 @@
   }
 </script>
 
-<svelte:head><title>Herní večer · hra na televizi</title></svelte:head>
+<svelte:head><title>Hra na televizi · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <header class="row head">
     <h1>📺 Hra na televizi</h1>
     {#if household}<span class="muted">{household}</span>{/if}
-    <a class="btn small ghost" href="/">Zpět</a>
+    <a class="btn small ghost" href={nightId ? `/vecery/${nightId}` : '/'}>← Zpět</a>
   </header>
 
   <section class="games" role="group" aria-label="Hra">
     {#each ROOM_GAMES as g (g)}
-      <button class="game-card" aria-pressed={game === g} onclick={() => (game = g)} data-game={g}>
-        <span class="emoji">{ROOM_GAME_EMOJI[g]}</span>
-        <strong>{ROOM_GAME_LABELS[g]}</strong>
-        <span class="muted">{GAME_HINTS[g]}</span>
-      </button>
+      <GameCard art={ROOM_GAME_ART[g]} title={ROOM_GAME_LABELS[g]} text={GAME_HINTS[g]} small pressed={game === g} onclick={() => (game = g)} testid={`game-${g}`} />
     {/each}
   </section>
 
@@ -275,27 +272,7 @@
   }
   .games {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 14px;
-  }
-  .game-card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-    padding: 16px 18px;
-    text-align: left;
-    background: var(--paper);
-    border: 2px solid var(--line);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    font-size: 1.15rem;
-  }
-  .game-card .emoji {
-    font-size: 2.4rem;
-  }
-  .game-card[aria-pressed='true'] {
-    border-color: var(--sage-dark);
-    background: var(--sage-light);
   }
 </style>

@@ -76,7 +76,9 @@
 }
 .g-lobby {
   display: grid;
-  grid-template-columns: minmax(280px, 0.9fr) 1.1fr;
+  /* QR and the list stay in the empty left part of the backdrop, the owl on the right stays visible. */
+  grid-template-columns: minmax(260px, 400px) minmax(0, 580px);
+  justify-content: start;
   gap: 40px;
   align-items: start;
 }
@@ -93,7 +95,7 @@
   align-items: center;
   gap: 14px;
   padding: 10px 16px;
-  background: #fff;
+  background: var(--paper);
   border: 2px solid var(--line);
   border-radius: var(--radius-sm);
   font-size: 1.2rem;
@@ -123,6 +125,19 @@
   border-radius: var(--radius-sm);
   background: var(--clay-light);
   font-weight: 700;
+}
+/* Waiting room over the backdrop picture (LobbyBackdrop): the list sits on a paper panel. */
+.g-lobby > :not(.join):not(.backdrop) {
+  padding: 18px 22px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  box-shadow: var(--shadow);
+}
+.g-wait-card {
+  padding: 20px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  box-shadow: var(--shadow);
 }
 @media (max-width: 900px) {
   .g-lobby {

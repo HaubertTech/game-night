@@ -51,7 +51,7 @@ test('řekni, ukaž, nakresli: TV a dva telefony, dva týmy, uhodnuto a přesko�
 
   // ---- setup: game card preselected by ?hra=, two teams from players, one round ----
   await tv.goto('/tv?hra=aktivity');
-  await expect(tv.getByRole('button', { name: /Řekni, ukaž, nakresli/ })).toHaveAttribute('aria-pressed', 'true');
+  await expect(tv.getByRole('button', { name: /Řekni-ukaž-nakresli/ })).toHaveAttribute('aria-pressed', 'true');
   for (const p of PLAYERS) {
     await tv.getByRole('group', { name: `Tým hráče ${p.name}` }).getByRole('button', { name: `Tým ${p.team}` }).click();
   }

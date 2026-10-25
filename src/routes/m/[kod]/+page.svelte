@@ -1,4 +1,6 @@
 <script lang="ts">
+  import LobbyBackdrop from '#lib/ui/live/LobbyBackdrop.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
   import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import { LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
   import Avatar from '#lib/ui/art/Avatar.svelte';
@@ -65,7 +67,7 @@
   }
 </script>
 
-<svelte:head><title>{room.game && room.game !== 'quiz' ? ROOM_GAME_LABELS[room.game] : 'Kvízovna'} · {code}</title></svelte:head>
+<svelte:head><title>{ROOM_GAME_LABELS[room.game ?? 'quiz']} – {code} · Herní večer</title></svelte:head>
 
 {#if room.game === 'aktivity'}
   <AktivityPhone {room} {code} />
@@ -125,7 +127,8 @@
       <p class="muted">Hostitel tě přepnul na televizi. Odpovídej tam.</p>
     </section>
   {:else if view.phase === 'lobby'}
-    <section class="center stack" data-testid="waiting">
+    <LobbyBackdrop kind="phone" />
+    <section class="wait-card center stack" data-testid="waiting">
       <div class="emoji huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi ve hře!</h1>
       <p class="muted">Čekáme, až hostitel spustí hru na televizi.</p>
@@ -161,7 +164,7 @@
         {/key}
       {:else if view.myAnswer !== undefined || me.answered}
         <div class="center stack" data-testid="sent">
-          <div class="emoji huge">📨</div>
+          <Art name="mascot.sova-premysli" alt="Sova přemýšlí" size={140} style="width:140px;height:140px;margin:0 auto" />
           <h1>Odpověď odeslána</h1>
           {#if view.myAnswer !== undefined && view.myAnswer !== null}<p class="muted">„{view.myAnswer}“</p>{/if}
           <p class="muted">
@@ -206,6 +209,12 @@
 {/if}
 
 <style>
+  .wait-card {
+    padding: 20px;
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--paper) 94%, transparent);
+    box-shadow: var(--shadow);
+  }
   .phone {
     max-width: 560px;
     margin: 0 auto;

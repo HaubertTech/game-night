@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Celebrate from './Celebrate.svelte';
   import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import { LEVEL_ART } from '#lib/ui/art/art.ts';
   import Avatar from '#lib/ui/art/Avatar.svelte';
@@ -41,7 +42,7 @@
 
 <main class="g-tv" data-testid="tv-aktivity" data-phase={view?.phase ?? 'loading'}>
   <header class="g-bar">
-    <span class="g-brand">🎭 Řekni, ukaž, nakresli</span>
+    <span class="g-brand">🎭 Řekni-ukaž-nakresli</span>
     <span>Místnost <strong>{code}</strong></span>
     {#if cur}<span>Kolo {cur.round + 1} · {goalText}</span>{/if}
     <ConnectionBadge status={room.status} />
@@ -140,7 +141,8 @@
       </section>
     {:else if view.phase === 'finished'}
       <section class="stack g-narrow" data-testid="final">
-        <h1 class="g-center">🏆 {view.winners.length ? view.winners.map((id) => teamById.get(id)?.name).join(' a ') : 'Konec hry'}</h1>
+        <Celebrate size={150} />
+        <h1 class="g-center">{view.winners.length ? view.winners.map((id) => teamById.get(id)?.name).join(' a ') : 'Konec hry'}</h1>
         <Standings rows={aktivityStandingRows(view)} showRound={false} />
         {#if view.history.length}
           <details class="card">
