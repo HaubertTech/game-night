@@ -23,7 +23,7 @@
   import type { OwlPose } from '#lib/games/karty-hra/learn/lessons.ts';
   import Card from './Card.svelte';
   import Hand from './Hand.svelte';
-  import Owl from './Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import RulesSheet from './RulesSheet.svelte';
   import { LEVEL_LABELS, saveGame, type SavedGame } from './storage.ts';
 

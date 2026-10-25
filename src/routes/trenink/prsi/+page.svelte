@@ -1,6 +1,6 @@
 <script lang="ts">
   import GameSetup from '#lib/ui/karty-hra/GameSetup.svelte';
-  import Owl from '#lib/ui/karty-hra/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
 </script>
 
 <svelte:head><title>Prší — trénink</title></svelte:head>

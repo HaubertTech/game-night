@@ -22,7 +22,7 @@
   import { MELD_ERROR_TEXT, analyzeMeld, checkOpening, meldValue, swapJoker } from '#lib/games/karty-hra/zoliky-melds.ts';
   import Card from './Card.svelte';
   import Hand from './Hand.svelte';
-  import Owl from './Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import RulesSheet from './RulesSheet.svelte';
   import { LEVEL_LABELS, saveGame, type SavedGame } from './storage.ts';
 

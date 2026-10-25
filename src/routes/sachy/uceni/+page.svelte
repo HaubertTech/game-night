@@ -1,6 +1,6 @@
 <script lang="ts">
   import LearnerBar from '#lib/ui/chess/LearnerBar.svelte';
-  import Owl from '#lib/ui/chess/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import type { Learner } from '#lib/ui/chess/storage.ts';
   import { LESSONS } from '#lib/games/chess/learn/data.ts';
   import { lessonDone, loadProgress } from '#lib/games/chess/learn/lessons.ts';

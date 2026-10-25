@@ -5,7 +5,7 @@
   import { onDestroy, untrack } from 'svelte';
   import Board from './Board.svelte';
   import MoveList from './MoveList.svelte';
-  import Owl from './Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import { aiAnalyze, aiMove } from './ai-client.ts';
   import { rememberFinished, saveGame, type SavedMode } from './storage.ts';
   import type { ChessRoomCommand } from '../../live/table-games.ts';

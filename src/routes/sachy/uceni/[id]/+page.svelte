@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from '$app/state';
   import Board from '#lib/ui/chess/Board.svelte';
-  import Owl from '#lib/ui/chess/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import { loadLearner } from '#lib/ui/chess/storage.ts';
   import { LESSONS, lessonById } from '#lib/games/chess/learn/data.ts';
   import { applyStepMove, loadProgress, markStep, saveProgress, startStep, stepMoves, type StepState } from '#lib/games/chess/learn/lessons.ts';

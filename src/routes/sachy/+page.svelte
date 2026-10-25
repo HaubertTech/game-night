@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import Owl from '#lib/ui/chess/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import { loadGame } from '#lib/ui/chess/storage.ts';
   import type { ChessState } from '#lib/games/chess/engine.ts';
 

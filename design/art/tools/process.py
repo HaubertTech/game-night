@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Originály (design/art/originals) → web (static/art/<skupina>/<název>.webp) + manifest.json.
 
-  python3 design/art/tools/process.py
+  python3 design/art/tools/process.py             # vše z originálů
+  python3 design/art/tools/process.py --variants  # jen menší varianty (srcset) ze static/art
 
 Mřížky 2×2 na purpurové #FF00FF: rozřízne na kvadranty, odklíčuje purpurovou do alfy
 (s potlačením purpurového lemu), ořízne na obsah, vycentruje do čtverce 512×512.
@@ -130,6 +131,41 @@ def fit_cover(im, size):
     w, h = im.size
     return im.crop(((w - tw) // 2, (h - th) // 2, (w - tw) // 2 + tw, (h - th) // 2 + th))
 
+# Menší varianty pro srcset: ikony (průhledné čtverce) a scény. Malé obrazovky a malé ikony
+# tak nestahují 512px nebo 1200px originál.
+VARIANT_WIDTHS = {"square": (128, 256), "cards": (600,), "hero": (960,), "env": (540, 960)}
+
+def variant_widths(group, transparent):
+    if transparent:
+        return VARIANT_WIDTHS["square"]
+    return VARIANT_WIDTHS.get(group, ())
+
+def add_variants(manifest):
+    for entry in manifest.values():
+        src = STATIC.parent / entry["path"].lstrip("/")
+        widths = [w for w in variant_widths(entry["group"], entry["transparent"]) if w < entry["width"]]
+        variants = []
+        with Image.open(src) as im:
+            for w in widths:
+                h = round(entry["height"] * w / entry["width"])
+                dest = src.with_name(f"{src.stem}-{w}.webp")
+                im.resize((w, h), Image.LANCZOS).save(dest, "WEBP", quality=Q, method=6)
+                variants.append({"width": w, "path": entry["path"].replace(".webp", f"-{w}.webp")})
+        if variants:
+            entry["variants"] = variants
+        else:
+            entry.pop("variants", None)
+
+def write_manifest(manifest):
+    (STATIC / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+def variants_only():
+    """Jen přegeneruje menší varianty ze static/art bez sahání na originály."""
+    manifest = json.loads((STATIC / "manifest.json").read_text(encoding="utf-8"))
+    add_variants(manifest)
+    write_manifest(manifest)
+    print(len(manifest), "obrázků, varianty hotové")
+
 def main():
     manifest = {}
     for group, name, src, q, size, alt in ITEMS:
@@ -146,8 +182,10 @@ def main():
         out.save(dest, "WEBP", quality=Q, method=6)
         manifest[f"{group}.{name}"] = {"path": f"/art/{group}/{name}.webp", "width": size[0], "height": size[1],
                                        "alt": alt, "group": group, "transparent": transparent}
-    (STATIC / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    add_variants(manifest)
+    write_manifest(manifest)
     print(len(manifest), "obrázků")
 
 if __name__ == "__main__":
-    main()
+    import sys
+    variants_only() if "--variants" in sys.argv else main()

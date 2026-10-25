@@ -8,7 +8,7 @@
   import type { LiveRoom } from '../../live-client/room.svelte.ts';
   import Card from '../karty-hra/Card.svelte';
   import Hand from '../karty-hra/Hand.svelte';
-  import Owl from '../karty-hra/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import ConnectionBadge from './ConnectionBadge.svelte';
   import Countdown from './Countdown.svelte';
   import SeatPicker from './SeatPicker.svelte';

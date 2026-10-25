@@ -17,7 +17,7 @@
   import { analyzeMeld, meldValue, MELD_ERROR_TEXT } from '#lib/games/karty-hra/zoliky-melds.ts';
   import Card from './Card.svelte';
   import Hand from './Hand.svelte';
-  import Owl from './Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import { lessonProgress, saveLessonProgress } from './storage.ts';
 
   let { game, audience = 'kid' }: { game: 'prsi' | 'zoliky'; audience?: Audience } = $props();

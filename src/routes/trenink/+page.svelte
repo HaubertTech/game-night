@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Owl from '#lib/ui/karty-hra/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import Card from '#lib/ui/karty-hra/Card.svelte';
 </script>
 

@@ -1,7 +1,7 @@
 <script lang="ts">
   import Board from '#lib/ui/chess/Board.svelte';
   import LearnerBar from '#lib/ui/chess/LearnerBar.svelte';
-  import Owl from '#lib/ui/chess/Owl.svelte';
+  import Owl from '#lib/ui/art/Owl.svelte';
   import type { Learner } from '#lib/ui/chess/storage.ts';
   import { PUZZLES } from '#lib/games/chess/learn/data.ts';
   import { PUZZLE_KIND_LABEL, isSolution, type Puzzle, type PuzzleKind } from '#lib/games/chess/learn/puzzles.ts';
