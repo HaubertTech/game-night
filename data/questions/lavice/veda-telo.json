@@ -1,0 +1,283 @@
+[
+  {
+    "id": "lavice-veda-telo-001",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik prstů máš na jedné ruce?",
+    "options": [
+      "6",
+      "4",
+      "5"
+    ],
+    "answer": "5",
+    "fact": "Palcem dosáhneš na všechny ostatní prsty, a proto věci pevně uchopíš.",
+    "difficulty": 1,
+    "image": "✋",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-002",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na jakou barvu na semaforu smí chodec přejít?",
+    "options": [
+      "Zelenou",
+      "Červenou",
+      "Oranžovou"
+    ],
+    "answer": "Zelenou",
+    "fact": "I na zelenou se rozhlédni, jestli auta opravdu stojí.",
+    "difficulty": 1,
+    "image": "🚦",
+    "source": "zákon č. 361/2000 Sb.",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-003",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím slyšíme?",
+    "options": [
+      "Ústy",
+      "Očima",
+      "Ušima",
+      "Nosem"
+    ],
+    "answer": "Ušima",
+    "fact": "V uchu je nejmenší kost lidského těla, třmínek.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "https://cs.wikipedia.org/wiki/T%C5%99m%C3%ADnek",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-004",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co máš mít na hlavě, když jedeš na kole?",
+    "options": [
+      "Kšiltovku",
+      "Sluchátka",
+      "Čepici",
+      "Přilbu"
+    ],
+    "answer": "Přilbu",
+    "fact": "Do 18 let je přilba na kole povinná ze zákona.",
+    "difficulty": 1,
+    "image": "🚲",
+    "source": "zákon č. 361/2000 Sb., § 58",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-005",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak často si máš čistit zuby?",
+    "options": [
+      "Dvakrát denně",
+      "Jednou za týden",
+      "Jednou za měsíc"
+    ],
+    "answer": "Dvakrát denně",
+    "fact": "Zuby čistíme ráno a večer aspoň dvě minuty.",
+    "difficulty": 1,
+    "image": "🪥",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-006",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který orgán pumpuje krev po těle?",
+    "options": [
+      "Žaludek",
+      "Mozek",
+      "Plíce",
+      "Srdce"
+    ],
+    "answer": "Srdce",
+    "fact": "Srdce dospělého člověka udělá zhruba 70 úderů za minutu.",
+    "difficulty": 2,
+    "image": "🩸",
+    "source": "https://cs.wikipedia.org/wiki/Srdce",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-007",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na jakém čísle zavoláš záchranku?",
+    "options": [
+      "156",
+      "155",
+      "158",
+      "150"
+    ],
+    "answer": "155",
+    "fact": "Na čísle 112 se dovoláš pomoci kdekoli v Evropské unii.",
+    "difficulty": 2,
+    "image": "🚑",
+    "source": "https://cs.wikipedia.org/wiki/T%C3%ADs%C5%88ov%C3%A9_vol%C3%A1n%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-008",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Při jaké teplotě zamrzá voda?",
+    "options": [
+      "0 °C",
+      "10 °C",
+      "100 °C",
+      "−10 °C"
+    ],
+    "answer": "0 °C",
+    "fact": "Led je lehčí než voda, proto plave na hladině.",
+    "difficulty": 2,
+    "image": "🧊",
+    "source": "https://cs.wikipedia.org/wiki/Led",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-009",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kudy jde chodec, když u silnice není chodník?",
+    "options": [
+      "Po pravém kraji silnice",
+      "Prostředkem silnice",
+      "Po levém kraji silnice"
+    ],
+    "answer": "Po levém kraji silnice",
+    "fact": "Po levé straně jdeš proti autům a vidíš, co jede.",
+    "difficulty": 2,
+    "image": "🚶",
+    "source": "zákon č. 361/2000 Sb., § 53",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-010",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který smysl nám dává nos?",
+    "options": [
+      "Sluch",
+      "Chuť",
+      "Hmat",
+      "Čich"
+    ],
+    "answer": "Čich",
+    "fact": "Když máme rýmu, hůř cítíme i chuť jídla.",
+    "difficulty": 2,
+    "image": "👃",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cich",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-011",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik kostí má dospělý člověk?",
+    "options": [
+      "Asi 50",
+      "Asi 206",
+      "Asi 1 000",
+      "Asi 20"
+    ],
+    "answer": "Asi 206",
+    "fact": "Miminko má kostí víc, některé mu později srostou.",
+    "difficulty": 3,
+    "image": "🦴",
+    "source": "https://cs.wikipedia.org/wiki/Lidsk%C3%A1_kostra",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-012",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta je nejblíž Slunci?",
+    "options": [
+      "Merkur",
+      "Země",
+      "Venuše",
+      "Mars"
+    ],
+    "answer": "Merkur",
+    "fact": "Merkur oběhne Slunce za 88 dní.",
+    "difficulty": 3,
+    "image": "☀️",
+    "source": "https://cs.wikipedia.org/wiki/Merkur_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-013",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jaký tvar má dopravní značka STOP?",
+    "options": [
+      "Kruh",
+      "Čtverec",
+      "Osmiúhelník",
+      "Trojúhelník"
+    ],
+    "answer": "Osmiúhelník",
+    "fact": "Na značce STOP musí řidič vždycky úplně zastavit.",
+    "difficulty": 3,
+    "image": "🛑",
+    "source": "vyhláška č. 294/2015 Sb., značka P 6",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-014",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Které planetě se říká Rudá planeta?",
+    "options": [
+      "Venuše",
+      "Mars",
+      "Saturn",
+      "Jupiter"
+    ],
+    "answer": "Mars",
+    "fact": "Mars je červený díky rezavému prachu na povrchu.",
+    "difficulty": 3,
+    "image": "🔭",
+    "source": "https://cs.wikipedia.org/wiki/Mars_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-veda-telo-015",
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Proč se střídá den a noc?",
+    "options": [
+      "Země se vzdálí od Slunce",
+      "Slunce na noc zhasne",
+      "Měsíc zakryje Slunce",
+      "Země se otáčí kolem své osy"
+    ],
+    "answer": "Země se otáčí kolem své osy",
+    "fact": "Jedno otočení Země trvá přibližně 24 hodin.",
+    "difficulty": 3,
+    "image": "🌍",
+    "source": "https://cs.wikipedia.org/wiki/Rotace_Zem%C4%9B",
+    "status": "verified"
+  }
+]

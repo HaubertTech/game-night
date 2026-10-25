@@ -1,0 +1,285 @@
+[
+  {
+    "id": "lavice-priroda-001",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře prospí celou zimu?",
+    "options": [
+      "Liška",
+      "Zajíc",
+      "Srna",
+      "Ježek"
+    ],
+    "answer": "Ježek",
+    "fact": "Ježek si na zimu staví hnízdo z listí a spí až do jara.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Je%C5%BEek_z%C3%A1padn%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-002",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje mládě koně?",
+    "options": [
+      "Hříbě",
+      "Kůzle",
+      "Tele",
+      "Jehně"
+    ],
+    "answer": "Hříbě",
+    "fact": "Hříbě se postaví na nohy obvykle do hodiny po narození.",
+    "difficulty": 1,
+    "image": "🐴",
+    "source": "https://horses.extension.org/care-of-the-newborn-foal/",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-003",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik nohou má pavouk?",
+    "options": [
+      "10",
+      "4",
+      "8",
+      "6"
+    ],
+    "answer": "8",
+    "fact": "Hmyz má šest nohou, proto pavouk mezi hmyz nepatří.",
+    "difficulty": 1,
+    "image": "🕷️",
+    "source": "https://cs.wikipedia.org/wiki/Pavoukovci",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-004",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které roční období přichází po zimě?",
+    "options": [
+      "Léto",
+      "Jaro",
+      "Podzim"
+    ],
+    "answer": "Jaro",
+    "fact": "Jaro začíná kolem 20. března, kdy je den skoro stejně dlouhý jako noc.",
+    "difficulty": 1,
+    "image": "🌷",
+    "source": "https://cs.wikipedia.org/wiki/Rovnodennost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-005",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který strom má jehličí?",
+    "options": [
+      "Buk",
+      "Lípa",
+      "Smrk",
+      "Dub"
+    ],
+    "answer": "Smrk",
+    "fact": "Smrk je nejčastější strom v českých lesích.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Smrk_ztepil%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-006",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které z těchto zvířat je savec?",
+    "options": [
+      "Žralok",
+      "Kapr",
+      "Pstruh",
+      "Delfín"
+    ],
+    "answer": "Delfín",
+    "fact": "Delfín dýchá vzduch, a proto se musí vynořovat nad hladinu.",
+    "difficulty": 2,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/Delf%C3%ADnovit%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-007",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co udělá housenka, než se z ní stane motýl?",
+    "options": [
+      "Zahrabe se do nory",
+      "Zakuklí se",
+      "Naklade vajíčka"
+    ],
+    "answer": "Zakuklí se",
+    "fact": "Z kukly pak vyleze dospělý motýl.",
+    "difficulty": 2,
+    "image": "🐛",
+    "source": "https://cs.wikipedia.org/wiki/Kukla",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-008",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták u nás zůstává i v zimě?",
+    "options": [
+      "Kukačka",
+      "Čáp",
+      "Sýkora",
+      "Vlaštovka"
+    ],
+    "answer": "Sýkora",
+    "fact": "Sýkorkám v zimě pomůže lojová koule nebo slunečnicová semínka.",
+    "difficulty": 2,
+    "image": "🐦",
+    "source": "https://cs.wikipedia.org/wiki/S%C3%BDkora_ko%C5%88adra",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-009",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje plod dubu?",
+    "options": [
+      "Kaštan",
+      "Žalud",
+      "Bukvice",
+      "Šiška"
+    ],
+    "answer": "Žalud",
+    "fact": "Žaludy rády jedí divoká prasata i sojky.",
+    "difficulty": 2,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/Dub_letn%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-010",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře je obojživelník?",
+    "options": [
+      "Žába",
+      "Ještěrka",
+      "Užovka",
+      "Kapr"
+    ],
+    "answer": "Žába",
+    "fact": "Žába klade vajíčka do vody a líhnou se z nich pulci.",
+    "difficulty": 2,
+    "image": "💧",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BD%C3%A1by",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-011",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který plyn rostliny na světle vyrábějí a my ho dýcháme?",
+    "options": [
+      "Helium",
+      "Dusík",
+      "Oxid uhličitý",
+      "Kyslík"
+    ],
+    "answer": "Kyslík",
+    "fact": "Rostliny k tomu potřebují světlo, vodu a oxid uhličitý.",
+    "difficulty": 3,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/Fotosynt%C3%A9za",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-012",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který z těchto živočichů je hmyz?",
+    "options": [
+      "Klíště",
+      "Mravenec",
+      "Pavouk",
+      "Stonožka"
+    ],
+    "answer": "Mravenec",
+    "fact": "Tělo hmyzu má tři části: hlavu, hruď a zadeček.",
+    "difficulty": 3,
+    "image": "🔍",
+    "source": "https://cs.wikipedia.org/wiki/Hmyz",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-013",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře staví na řekách hráze z větví?",
+    "options": [
+      "Nutrie",
+      "Ondatra",
+      "Bobr",
+      "Vydra"
+    ],
+    "answer": "Bobr",
+    "fact": "Bobr umí svými zuby pokácet i velký strom.",
+    "difficulty": 3,
+    "image": "🪵",
+    "source": "https://cs.wikipedia.org/wiki/Bobr_evropsk%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-014",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který z těchto stromů shazuje na zimu jehličí?",
+    "options": [
+      "Jedle",
+      "Borovice",
+      "Smrk",
+      "Modřín"
+    ],
+    "answer": "Modřín",
+    "fact": "Modřín je jediný jehličnan v našich lesích, který na zimu opadává.",
+    "difficulty": 3,
+    "image": "🍂",
+    "source": "https://cs.wikipedia.org/wiki/Mod%C5%99%C3%ADn_opadav%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-priroda-015",
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře patří mezi plazy?",
+    "options": [
+      "Ještěrka",
+      "Mlok",
+      "Žába",
+      "Čolek"
+    ],
+    "answer": "Ještěrka",
+    "fact": "Plazi mají suchou šupinatou kůži, obojživelníci vlhkou a hladkou.",
+    "difficulty": 3,
+    "image": "🪨",
+    "source": "https://cs.wikipedia.org/wiki/Plazi",
+    "status": "verified"
+  }
+]

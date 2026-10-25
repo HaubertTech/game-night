@@ -1,0 +1,286 @@
+[
+  {
+    "id": "lavice-pohadky-film-hudba-001",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaké zvíře je Ferda?",
+    "options": [
+      "Mravenec",
+      "Včela",
+      "Moucha",
+      "Brouk"
+    ],
+    "answer": "Mravenec",
+    "fact": "Ferdu Mravence vymyslel malíř a spisovatel Ondřej Sekora.",
+    "difficulty": 1,
+    "image": "📚",
+    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-002",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenují dva kutilové, kterým se všechno pokazí?",
+    "options": [
+      "Křemílek a Vochomůrka",
+      "Pat a Mat",
+      "Bob a Bobek",
+      "Spejbl a Hurvínek"
+    ],
+    "answer": "Pat a Mat",
+    "fact": "Pat a Mat vždycky řeknou „A je to!“, i když to dopadne všelijak.",
+    "difficulty": 1,
+    "image": "🔨",
+    "source": "https://cs.wikipedia.org/wiki/Pat_a_Mat",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-003",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaká zvířátka jsou Bob a Bobek?",
+    "options": [
+      "Veverky",
+      "Ježci",
+      "Králíci",
+      "Myšky"
+    ],
+    "answer": "Králíci",
+    "fact": "Bob a Bobek vyskakují z kouzelníkova klobouku.",
+    "difficulty": 1,
+    "image": "🎩",
+    "source": "https://cs.wikipedia.org/wiki/Bob_a_Bobek_%E2%80%93_kr%C3%A1l%C3%ADci_z_klobouku",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-004",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje loupežník z lesa Řáholce?",
+    "options": [
+      "Ferda",
+      "Rumcajs",
+      "Hurvínek",
+      "Krakonoš"
+    ],
+    "answer": "Rumcajs",
+    "fact": "Rumcajs byl dřív ševcem v Jičíně.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-005",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Které zvíře s dlouhýma ušima kamarádí s Krtkem?",
+    "options": [
+      "Zajíc",
+      "Tygr",
+      "Slon"
+    ],
+    "answer": "Zajíc",
+    "fact": "Krtek a jeho kamarádi skoro nemluví, a přesto jim všichni rozumí.",
+    "difficulty": 1,
+    "image": "📺",
+    "source": "https://cs.wikipedia.org/wiki/Krtek",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-006",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo vymyslel a nakreslil Krtka?",
+    "options": [
+      "Josef Lada",
+      "Jiří Trnka",
+      "Ondřej Sekora",
+      "Zdeněk Miler"
+    ],
+    "answer": "Zdeněk Miler",
+    "fact": "První film o Krtkovi vznikl v roce 1957.",
+    "difficulty": 2,
+    "image": "✏️",
+    "source": "https://cs.wikipedia.org/wiki/Zden%C4%9Bk_Miler",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-007",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kteří dva skřítci bydlí v pařezové chaloupce?",
+    "options": [
+      "Křemílek a Vochomůrka",
+      "Pat a Mat",
+      "Spejbl a Hurvínek",
+      "Bob a Bobek"
+    ],
+    "answer": "Křemílek a Vochomůrka",
+    "fact": "Jejich příběhy napsal Václav Čtvrtek.",
+    "difficulty": 2,
+    "image": "🍄",
+    "source": "https://cs.wikipedia.org/wiki/Poh%C3%A1dky_z_mechu_a_kaprad%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-008",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo kamarádí s Makovou panenkou?",
+    "options": [
+      "Ferda Mravenec",
+      "Brouk Pytlík",
+      "Krtek",
+      "Motýl Emanuel"
+    ],
+    "answer": "Motýl Emanuel",
+    "fact": "Kamarádi se chodí radit ke staré moudré makovici.",
+    "difficulty": 2,
+    "image": "📺",
+    "source": "https://www.databazeknih.cz/prehled-knihy/makova-panenka-a-motyl-emanuel-43363",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-009",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knihu Babička?",
+    "options": [
+      "Josef Lada",
+      "Božena Němcová",
+      "Karel Jaromír Erben",
+      "Karel Čapek"
+    ],
+    "answer": "Božena Němcová",
+    "fact": "Babička z knihy měla skutečný předobraz, babičku Boženy Němcové.",
+    "difficulty": 2,
+    "image": "📖",
+    "source": "https://cs.wikipedia.org/wiki/Babi%C4%8Dka_(kniha)",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-010",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo je Hurvínkův tatínek?",
+    "options": [
+      "Krakonoš",
+      "Rumcajs",
+      "Kašpárek",
+      "Spejbl"
+    ],
+    "answer": "Spejbl",
+    "fact": "Spejbla a Hurvínka vymyslel loutkář Josef Skupa.",
+    "difficulty": 2,
+    "image": "🎭",
+    "source": "https://cs.wikipedia.org/wiki/Josef_Skupa",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-011",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo sepsal pohádku Zlatovláska?",
+    "options": [
+      "Josef Lada",
+      "Jan Werich",
+      "Karel Jaromír Erben",
+      "Božena Němcová"
+    ],
+    "answer": "Karel Jaromír Erben",
+    "fact": "Erben sbíral pohádky a písničky po celých Čechách.",
+    "difficulty": 3,
+    "image": "👸",
+    "source": "https://cs.wikipedia.org/wiki/Karel_Jarom%C3%ADr_Erben",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-012",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Pro co musela Maruška v zimě do lesa nejdřív?",
+    "options": [
+      "Pro houby",
+      "Pro fialky",
+      "Pro jahody",
+      "Pro jablka"
+    ],
+    "answer": "Pro fialky",
+    "fact": "Marušce pomohlo dvanáct měsíčků, kteří seděli kolem ohně. Pohádku zapsala Božena Němcová.",
+    "difficulty": 3,
+    "image": "🌸",
+    "source": "https://cs.wikipedia.org/wiki/O_dvan%C3%A1cti_m%C4%9Bs%C3%AD%C4%8Dk%C3%A1ch",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-013",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal a nakreslil Kocoura Mikeše?",
+    "options": [
+      "Jiří Trnka",
+      "Zdeněk Miler",
+      "Ondřej Sekora",
+      "Josef Lada"
+    ],
+    "answer": "Josef Lada",
+    "fact": "Kocour Mikeš uměl mluvit a vydal se do světa.",
+    "difficulty": 3,
+    "image": "🐈",
+    "source": "https://cs.wikipedia.org/wiki/Josef_Lada",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-014",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje skladba Bedřicha Smetany o řece?",
+    "options": [
+      "Labe",
+      "Vltava",
+      "Morava",
+      "Dunaj"
+    ],
+    "answer": "Vltava",
+    "fact": "Vltava je součástí cyklu Má vlast.",
+    "difficulty": 3,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/M%C3%A1_vlast",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-pohadky-film-hudba-015",
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Rumcajsova žena?",
+    "options": [
+      "Káča",
+      "Maruška",
+      "Manka",
+      "Bětka"
+    ],
+    "answer": "Manka",
+    "fact": "Rumcajs a Manka mají syna Cipíska.",
+    "difficulty": 3,
+    "image": "👩",
+    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
+    "status": "verified"
+  }
+]

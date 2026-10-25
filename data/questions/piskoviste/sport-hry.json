@@ -1,0 +1,218 @@
+[
+  {
+    "id": "piskoviste-sport-hry-001",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co kopou fotbalisti?",
+    "options": [
+      "🪁 Draka",
+      "🧸 Plyšáka",
+      "⚽ Míč"
+    ],
+    "answer": "⚽ Míč",
+    "fact": "Fotbalisti chtějí dát míč do branky.",
+    "difficulty": 1,
+    "image": "🥅",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-002",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na čem jezdíme z kopce po sněhu?",
+    "options": [
+      "🚲 Na kole",
+      "🛷 Na sáňkách",
+      "🛹 Na skejtu"
+    ],
+    "answer": "🛷 Na sáňkách",
+    "fact": "Do kopce pak sáňky táhneme za provázek.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-003",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na čem se jezdí po ledě?",
+    "options": [
+      "🛴 Na koloběžce",
+      "🚲 Na kole",
+      "⛸️ Na bruslích"
+    ],
+    "answer": "⛸️ Na bruslích",
+    "fact": "Hokejisté hrají na bruslích na ledě.",
+    "difficulty": 1,
+    "image": "🧊",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-004",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co si oblékneme do bazénu?",
+    "options": [
+      "🩱 Plavky",
+      "👢 Holínky",
+      "🧥 Kabát"
+    ],
+    "answer": "🩱 Plavky",
+    "fact": "Do vody chodíme vždycky s dospělým.",
+    "difficulty": 1,
+    "image": "🏊",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-005",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co děláme při hře na schovávanou?",
+    "options": [
+      "😴 Spíme",
+      "🍳 Vaříme",
+      "🙈 Schováváme se"
+    ],
+    "answer": "🙈 Schováváme se",
+    "fact": "Jeden počítá a ostatní se schovají.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-006",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co pouštíme na podzim, když fouká vítr?",
+    "options": [
+      "⛸️ Brusle",
+      "🪁 Draka",
+      "🛷 Sáňky"
+    ],
+    "answer": "🪁 Draka",
+    "fact": "Drak létá, když pořádně fouká vítr.",
+    "difficulty": 1,
+    "image": "🍂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-007",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Z čeho děláme bábovičky na pískovišti?",
+    "options": [
+      "🏖️ Z písku",
+      "🧊 Z ledu",
+      "🍫 Z čokolády"
+    ],
+    "answer": "🏖️ Z písku",
+    "fact": "Písek drží tvar, když je trochu mokrý.",
+    "difficulty": 1,
+    "image": "🪣",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-008",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik koleček má obyčejné kolo?",
+    "options": [
+      "4️⃣ Čtyři",
+      "2️⃣ Dvě",
+      "3️⃣ Tři"
+    ],
+    "answer": "2️⃣ Dvě",
+    "fact": "Na kole jezdíme vždycky s helmou.",
+    "difficulty": 2,
+    "image": "🚲",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-009",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím házíme u hry Člověče, nezlob se?",
+    "options": [
+      "🥄 Lžičkou",
+      "🧦 Ponožkou",
+      "🎲 Kostkou"
+    ],
+    "answer": "🎲 Kostkou",
+    "fact": "Kdo hodí šestku, smí nasadit figurku.",
+    "difficulty": 2,
+    "image": "🏁",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-010",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se dávají koše?",
+    "options": [
+      "🏀 Basketbal",
+      "⚽ Fotbal",
+      "🎾 Tenis"
+    ],
+    "answer": "🏀 Basketbal",
+    "fact": "Basketbalisti si míč odrážejí o zem.",
+    "difficulty": 2,
+    "image": "🙌",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-011",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jakou medaili dostane vítěz?",
+    "options": [
+      "🥉 Bronzovou",
+      "🥇 Zlatou",
+      "🥈 Stříbrnou"
+    ],
+    "answer": "🥇 Zlatou",
+    "fact": "Za druhé místo je stříbrná medaile.",
+    "difficulty": 2,
+    "image": "🏆",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-012",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kde hrají hokejisté?",
+    "options": [
+      "🏖️ Na pláži",
+      "🌊 Ve vodě",
+      "🧊 Na ledě"
+    ],
+    "answer": "🧊 Na ledě",
+    "fact": "Hokejisté mají helmu a chrániče, aby se nezranili.",
+    "difficulty": 2,
+    "image": "🏒",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

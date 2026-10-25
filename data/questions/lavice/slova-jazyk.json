@@ -1,0 +1,282 @@
+[
+  {
+    "id": "lavice-slova-jazyk-001",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které písmeno je v abecedě první?",
+    "options": [
+      "Z",
+      "A",
+      "B"
+    ],
+    "answer": "A",
+    "fact": "Česká abeceda má i písmena s háčkem, třeba Č nebo Ř.",
+    "difficulty": 1,
+    "image": "🔤",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_abeceda",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-002",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „velký“?",
+    "options": [
+      "Silný",
+      "Tlustý",
+      "Vysoký",
+      "Malý"
+    ],
+    "answer": "Malý",
+    "fact": "Slovům s opačným významem říkáme protiklady.",
+    "difficulty": 1,
+    "image": "🐘",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-003",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „pes“?",
+    "options": [
+      "Les",
+      "Kočka",
+      "Strom",
+      "Dům"
+    ],
+    "answer": "Les",
+    "fact": "Rýmy najdeš v říkankách a básničkách.",
+    "difficulty": 1,
+    "image": "🐶",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-004",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik písmen má slovo „máma“?",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "fact": "V mnoha jazycích zní slovo pro mámu podobně, třeba mama nebo mamá.",
+    "difficulty": 1,
+    "image": "👩",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-005",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „den“?",
+    "options": [
+      "Noc",
+      "Ráno",
+      "Týden",
+      "Slunce"
+    ],
+    "answer": "Noc",
+    "fact": "V zimě je noc delší než den.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-006",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo je napsané správně?",
+    "options": [
+      "mýš",
+      "miš",
+      "myš"
+    ],
+    "answer": "myš",
+    "fact": "Myš patří mezi vyjmenovaná slova po M.",
+    "difficulty": 2,
+    "image": "🐭",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-007",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jakého rodu je slovo „okno“?",
+    "options": [
+      "Ženského",
+      "Středního",
+      "Mužského"
+    ],
+    "answer": "Středního",
+    "fact": "Rod poznáš podle slůvka ten, ta nebo to.",
+    "difficulty": 2,
+    "image": "🪟",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-008",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo je podstatné jméno?",
+    "options": [
+      "Rychle",
+      "Zelený",
+      "Běhat",
+      "Stůl"
+    ],
+    "answer": "Stůl",
+    "fact": "Podstatné jméno odpovídá na otázku kdo nebo co.",
+    "difficulty": 2,
+    "image": "🪑",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-009",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které písmeno je v abecedě hned za H?",
+    "options": [
+      "I",
+      "CH",
+      "J",
+      "G"
+    ],
+    "answer": "CH",
+    "fact": "V české abecedě je CH jedno písmeno, i když se píše dvěma znaky.",
+    "difficulty": 2,
+    "image": "🔠",
+    "source": "https://cs.wikipedia.org/wiki/Ch",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-010",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „rychlý“?",
+    "options": [
+      "Starý",
+      "Hbitý",
+      "Pomalý",
+      "Silný"
+    ],
+    "answer": "Pomalý",
+    "fact": "Pomalá zvířata jsou třeba hlemýžď nebo želva.",
+    "difficulty": 2,
+    "image": "🐢",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-011",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Který pták patří mezi vyjmenovaná slova po V?",
+    "options": [
+      "Vrána",
+      "Výr",
+      "Vrabec",
+      "Vlaštovka"
+    ],
+    "answer": "Výr",
+    "fact": "Výr velký je největší sova v Česku.",
+    "difficulty": 3,
+    "image": "🐦",
+    "source": "https://cs.wikipedia.org/wiki/V%C3%BDr_velk%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-012",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký slovní druh je slovo „běžet“?",
+    "options": [
+      "Příslovce",
+      "Podstatné jméno",
+      "Přídavné jméno",
+      "Sloveso"
+    ],
+    "answer": "Sloveso",
+    "fact": "Slovesa říkají, co kdo dělá nebo co se děje.",
+    "difficulty": 3,
+    "image": "🏃",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-013",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo patří mezi vyjmenovaná slova po L?",
+    "options": [
+      "Lavice",
+      "Lyže",
+      "Lípa",
+      "Liška"
+    ],
+    "answer": "Lyže",
+    "fact": "Mezi vyjmenovaná slova po L patří i mlýn a slyšet.",
+    "difficulty": 3,
+    "image": "⛷️",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-014",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik slabik má slovo „čokoláda“?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "fact": "Slabiky si můžeš vytleskat: čo-ko-lá-da.",
+    "difficulty": 3,
+    "image": "🍫",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-slova-jazyk-015",
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplň správně: Děti si … na zahradě.",
+    "options": [
+      "hrály",
+      "hrálo",
+      "hráli"
+    ],
+    "answer": "hrály",
+    "fact": "Slovo děti se v minulém čase pojí s koncovkou -y.",
+    "difficulty": 3,
+    "image": "✏️",
+    "source": "RVP ZV",
+    "status": "verified"
+  }
+]

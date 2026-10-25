@@ -1,0 +1,216 @@
+[
+  {
+    "id": "piskoviste-cisla-logika-001",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je tu jablíček?",
+    "options": [
+      "5️⃣ Pět",
+      "2️⃣ Dvě",
+      "3️⃣ Tři"
+    ],
+    "answer": "3️⃣ Tři",
+    "fact": "Tři jablíčka spočítáme na třech prstech.",
+    "difficulty": 1,
+    "image": "🍎🍎🍎",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-002",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je tu kačenek?",
+    "options": [
+      "6️⃣ Šest",
+      "5️⃣ Pět",
+      "4️⃣ Čtyři"
+    ],
+    "answer": "5️⃣ Pět",
+    "fact": "Pět prstů máme na jedné ruce.",
+    "difficulty": 1,
+    "image": "🦆🦆🦆🦆🦆",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-003",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký tvar má kolo od auta?",
+    "options": [
+      "⚪ Kruh",
+      "🔺 Trojúhelník",
+      "🟥 Čtverec"
+    ],
+    "answer": "⚪ Kruh",
+    "fact": "Kulaté je i sluníčko nebo talíř.",
+    "difficulty": 1,
+    "image": "🛞",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-004",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kdo je větší?",
+    "options": [
+      "🐭 Myška",
+      "🐘 Slon"
+    ],
+    "answer": "🐘 Slon",
+    "fact": "Slon je největší zvíře, které chodí po souši.",
+    "difficulty": 1,
+    "image": "⚖️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-005",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kdo je nejmenší?",
+    "options": [
+      "🐜 Mravenec",
+      "🐴 Kůň",
+      "🐻 Medvěd"
+    ],
+    "answer": "🐜 Mravenec",
+    "fact": "Mravenec unese mnohem víc, než sám váží.",
+    "difficulty": 1,
+    "image": "🔍",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-006",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je tu hvězdiček?",
+    "options": [
+      "1️⃣ Jedna",
+      "3️⃣ Tři",
+      "2️⃣ Dvě"
+    ],
+    "answer": "2️⃣ Dvě",
+    "fact": "Hvězdy na nebi uvidíme hlavně v noci.",
+    "difficulty": 1,
+    "image": "⭐⭐",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-007",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik nožiček má pejsek?",
+    "options": [
+      "4️⃣ Čtyři",
+      "2️⃣ Dvě",
+      "6️⃣ Šest"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Ptáček má jen dvě nožičky.",
+    "difficulty": 1,
+    "image": "🐕",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-008",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je tu balonků?",
+    "options": [
+      "6️⃣ Šest",
+      "8️⃣ Osm",
+      "7️⃣ Sedm"
+    ],
+    "answer": "7️⃣ Sedm",
+    "fact": "Sněhurka bydlela u sedmi trpaslíků.",
+    "difficulty": 2,
+    "image": "🎈🎈🎈🎈🎈🎈🎈",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-009",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co patří k zámku?",
+    "options": [
+      "🔑 Klíč",
+      "🧦 Ponožka",
+      "🥄 Lžíce"
+    ],
+    "answer": "🔑 Klíč",
+    "fact": "Klíčem zámek zamkneme i odemkneme.",
+    "difficulty": 2,
+    "image": "🔒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-010",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co rád hryže pejsek?",
+    "options": [
+      "🍭 Lízátko",
+      "🦴 Kost",
+      "🍦 Zmrzlinu"
+    ],
+    "answer": "🦴 Kost",
+    "fact": "Pejsek má rád procházky a hraní s míčkem.",
+    "difficulty": 2,
+    "image": "🐶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-011",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co sem nepatří?",
+    "options": [
+      "🚗 Auto",
+      "🍌 Banán",
+      "🍐 Hruška"
+    ],
+    "answer": "🚗 Auto",
+    "fact": "Auto se nedá sníst, je to dopravní prostředek.",
+    "difficulty": 2,
+    "image": "🍎🍐🍌🚗",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-012",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co přijde po noci?",
+    "options": [
+      "🌙 Večer",
+      "☀️ Ráno"
+    ],
+    "answer": "☀️ Ráno",
+    "fact": "Ráno vstáváme a snídáme.",
+    "difficulty": 2,
+    "image": "🛏️",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

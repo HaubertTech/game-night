@@ -1,0 +1,282 @@
+[
+  {
+    "id": "lavice-sport-hry-001",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se hraje tenis?",
+    "options": [
+      "Raketou",
+      "Hokejkou",
+      "Holí"
+    ],
+    "answer": "Raketou",
+    "fact": "Tenisové míčky jsou žluté hlavně proto, aby byly dobře vidět v televizi.",
+    "difficulty": 1,
+    "image": "🎾",
+    "source": "https://www.hellomagazine.com/travel/2017071140538/wimbledon-tennis-balls-yellow/",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-002",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kam se snaží fotbalista dostat míč?",
+    "options": [
+      "Do koše",
+      "Do branky",
+      "Přes síť"
+    ],
+    "answer": "Do branky",
+    "fact": "Fotbalová branka je široká přes sedm metrů.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "https://cs.wikipedia.org/wiki/Fotbal",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-003",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se hraje lední hokej?",
+    "options": [
+      "Kuličkou",
+      "Míčkem",
+      "Pukem"
+    ],
+    "answer": "Pukem",
+    "fact": "Puk je z tvrdé gumy a před zápasem se chladí, aby lépe klouzal.",
+    "difficulty": 1,
+    "image": "⛸️",
+    "source": "https://cs.wikipedia.org/wiki/Puk",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-004",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik stěn má hrací kostka?",
+    "options": [
+      "8",
+      "6",
+      "4"
+    ],
+    "answer": "6",
+    "fact": "Protější stěny kostky dají dohromady vždycky sedm.",
+    "difficulty": 1,
+    "image": "🎲",
+    "source": "https://cs.wikipedia.org/wiki/Hrac%C3%AD_kostka",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-005",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které hře se dá šach mat?",
+    "options": [
+      "V šachách",
+      "V dámě",
+      "V Člověče, nezlob se",
+      "V pexesu"
+    ],
+    "answer": "V šachách",
+    "fact": "Šachy se hrají na desce se 64 políčky.",
+    "difficulty": 1,
+    "image": "♟️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0achy",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-006",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů jednoho týmu je ve fotbale na hřišti?",
+    "options": [
+      "15",
+      "6",
+      "9",
+      "11"
+    ],
+    "answer": "11",
+    "fact": "Brankář jako jediný smí chytat míč rukama.",
+    "difficulty": 2,
+    "image": "🥅",
+    "source": "https://cs.wikipedia.org/wiki/Fotbal",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-007",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se hází míč do koše?",
+    "options": [
+      "Házená",
+      "Basketbal",
+      "Volejbal",
+      "Florbal"
+    ],
+    "answer": "Basketbal",
+    "fact": "Koš visí ve výšce přes tři metry.",
+    "difficulty": 2,
+    "image": "🏀",
+    "source": "https://cs.wikipedia.org/wiki/Basketbal",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-008",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak často se konají letní olympijské hry?",
+    "options": [
+      "Každé 2 roky",
+      "Každý rok",
+      "Každých 10 let",
+      "Každé 4 roky"
+    ],
+    "answer": "Každé 4 roky",
+    "fact": "Olympijská vlajka má pět kruhů v pěti barvách.",
+    "difficulty": 2,
+    "image": "🏅",
+    "source": "https://cs.wikipedia.org/wiki/Olympijsk%C3%A9_hry",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-009",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů jednoho družstva je ve volejbale na hřišti?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "11"
+    ],
+    "answer": "6",
+    "fact": "Volejbal vymyslel v roce 1895 americký učitel tělocviku.",
+    "difficulty": 2,
+    "image": "🏐",
+    "source": "https://cs.wikipedia.org/wiki/Volejbal",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-010",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se hraje Člověče, nezlob se?",
+    "options": [
+      "S míčem a pálkou",
+      "S figurkami a kostkou",
+      "S kartami a žetony"
+    ],
+    "answer": "S figurkami a kostkou",
+    "fact": "Kdo hodí šestku, smí nasadit novou figurku.",
+    "difficulty": 2,
+    "image": "🎯",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Clov%C4%9B%C4%8De,_nezlob_se!",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-011",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik figurek má každý hráč na začátku šachové partie?",
+    "options": [
+      "8",
+      "20",
+      "12",
+      "16"
+    ],
+    "answer": "16",
+    "fact": "Nejsilnější šachovou figurkou je dáma.",
+    "difficulty": 3,
+    "image": "♞",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0achy",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-012",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik bodů je v basketbale za koš zpoza velkého oblouku?",
+    "options": [
+      "1",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": "3",
+    "fact": "Trestný hod má hodnotu jednoho bodu.",
+    "difficulty": 3,
+    "image": "🏀",
+    "source": "https://cs.wikipedia.org/wiki/Basketbal",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-013",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kterému sportu se říká královna sportu?",
+    "options": [
+      "Plavání",
+      "Atletika",
+      "Fotbal",
+      "Tenis"
+    ],
+    "answer": "Atletika",
+    "fact": "K atletice patří běh, skoky i hody.",
+    "difficulty": 3,
+    "image": "🏟️",
+    "source": "https://cs.wikipedia.org/wiki/Atletika",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-014",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ester Ledecká vyhrála olympijské zlato na lyžích a na čem ještě?",
+    "options": [
+      "Na bruslích",
+      "Na bobech",
+      "Na snowboardu",
+      "Na sáňkách"
+    ],
+    "answer": "Na snowboardu",
+    "fact": "Obě zlaté medaile vyhrála na jedné olympiádě, v roce 2018 v Koreji.",
+    "difficulty": 3,
+    "image": "🥇",
+    "source": "https://cs.wikipedia.org/wiki/Ester_Ledeck%C3%A1",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-sport-hry-015",
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak dlouhý je maraton?",
+    "options": [
+      "Asi 100 km",
+      "Asi 10 km",
+      "Asi 5 km",
+      "Asi 42 km"
+    ],
+    "answer": "Asi 42 km",
+    "fact": "Maraton je pojmenovaný po řeckém městě Marathón.",
+    "difficulty": 3,
+    "image": "🏃",
+    "source": "https://en.wikipedia.org/wiki/Marathon",
+    "status": "verified"
+  }
+]

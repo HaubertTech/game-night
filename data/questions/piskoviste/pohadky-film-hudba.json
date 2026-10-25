@@ -1,0 +1,218 @@
+[
+  {
+    "id": "piskoviste-pohadky-film-hudba-001",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo s dlouhýma ušima kamarádí s Krtkem?",
+    "options": [
+      "🦒 Žirafa",
+      "🐰 Zajíc",
+      "🐘 Slon"
+    ],
+    "answer": "🐰 Zajíc",
+    "fact": "Krtka nakreslil pan Zdeněk Miler.",
+    "difficulty": 1,
+    "image": "🎬",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-002",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Komu nesla Karkulka košíček?",
+    "options": [
+      "👮 Policistovi",
+      "🐻 Medvědovi",
+      "👵 Babičce"
+    ],
+    "answer": "👵 Babičce",
+    "fact": "Karkulka měla na hlavě červený čepeček.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-003",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Z čeho byla chaloupka u Jeníčka a Mařenky?",
+    "options": [
+      "🧊 Z ledu",
+      "🍪 Z perníku",
+      "🧱 Z cihel"
+    ],
+    "answer": "🍪 Z perníku",
+    "fact": "Perník voní medem a kořením.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-004",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaká zvířátka jsou Bob a Bobek?",
+    "options": [
+      "🐰 Králíci",
+      "🐭 Myšky",
+      "🐻 Medvídci"
+    ],
+    "answer": "🐰 Králíci",
+    "fact": "Bob a Bobek vyskakují z kouzelníkova klobouku.",
+    "difficulty": 1,
+    "image": "🎩",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-005",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na co se bubnuje?",
+    "options": [
+      "🎺 Na trumpetu",
+      "🥁 Na buben",
+      "🎻 Na housle"
+    ],
+    "answer": "🥁 Na buben",
+    "fact": "Na buben bubnujeme rukama nebo paličkami.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-006",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jakou barvu má Krtek?",
+    "options": [
+      "🔴 Červenou",
+      "🟡 Žlutou",
+      "⚫ Černou"
+    ],
+    "answer": "⚫ Černou",
+    "fact": "Krtek má velké oči a rád se směje.",
+    "difficulty": 1,
+    "image": "🎬",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-007",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo odnesl Budulínka?",
+    "options": [
+      "🐻 Medvěd",
+      "🦊 Liška",
+      "🐰 Zajíc"
+    ],
+    "answer": "🦊 Liška",
+    "fact": "Dědeček s babičkou Budulínka zachránili.",
+    "difficulty": 2,
+    "image": "👦",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-008",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co Pat a Mat pořád dělají?",
+    "options": [
+      "🔨 Opravují věci",
+      "🍳 Vaří",
+      "😴 Spí"
+    ],
+    "answer": "🔨 Opravují věci",
+    "fact": "Když něco dodělají, řeknou: „A je to!“",
+    "difficulty": 2,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-009",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaké zvířátko je Ferda?",
+    "options": [
+      "🐞 Beruška",
+      "🐝 Včelka",
+      "🐜 Mravenec"
+    ],
+    "answer": "🐜 Mravenec",
+    "fact": "Ferda Mravenec je moc pracovitý.",
+    "difficulty": 2,
+    "image": "🌿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-010",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Do čeho se fouká?",
+    "options": [
+      "🎺 Do trumpety",
+      "🎹 Do klavíru",
+      "🥁 Do bubnu"
+    ],
+    "answer": "🎺 Do trumpety",
+    "fact": "Do flétny se taky fouká.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-011",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik oříšků měla Popelka?",
+    "options": [
+      "🔟 Deset",
+      "5️⃣ Pět",
+      "3️⃣ Tři"
+    ],
+    "answer": "3️⃣ Tři",
+    "fact": "V každém oříšku bylo pro Popelku něco kouzelného.",
+    "difficulty": 2,
+    "image": "🌰",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-012",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Z čeho postavilo nejchytřejší prasátko domeček?",
+    "options": [
+      "🧱 Z cihel",
+      "🪵 Z klacíků",
+      "🌾 Ze slámy"
+    ],
+    "answer": "🧱 Z cihel",
+    "fact": "Cihlový domek vydržel i silný vítr.",
+    "difficulty": 2,
+    "image": "🐷",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

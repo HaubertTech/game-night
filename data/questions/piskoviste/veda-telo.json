@@ -1,0 +1,217 @@
+[
+  {
+    "id": "piskoviste-veda-telo-001",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím se díváme?",
+    "options": [
+      "👂 Ušima",
+      "👃 Nosem",
+      "👀 Očima"
+    ],
+    "answer": "👀 Očima",
+    "fact": "Když mrkáme, oči se nám umyjí slzičkami.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-002",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím čicháme ke kytičce?",
+    "options": [
+      "🦶 Nohou",
+      "👃 Nosem",
+      "✋ Rukou"
+    ],
+    "answer": "👃 Nosem",
+    "fact": "Nosem poznáme, že se peče bábovka.",
+    "difficulty": 1,
+    "image": "🌷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-003",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik máme očí?",
+    "options": [
+      "1️⃣ Jedno",
+      "3️⃣ Tři",
+      "2️⃣ Dvě"
+    ],
+    "answer": "2️⃣ Dvě",
+    "fact": "Obočí chrání oči před potem.",
+    "difficulty": 1,
+    "image": "🪞",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-004",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím si čistíme zuby?",
+    "options": [
+      "🍴 Vidličkou",
+      "🪥 Kartáčkem",
+      "🧽 Houbou"
+    ],
+    "answer": "🪥 Kartáčkem",
+    "fact": "Zuby si čistíme ráno a večer.",
+    "difficulty": 1,
+    "image": "🦷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-005",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co si umyjeme mýdlem před jídlem?",
+    "options": [
+      "🎒 Batoh",
+      "👟 Boty",
+      "✋ Ruce"
+    ],
+    "answer": "✋ Ruce",
+    "fact": "Mýdlo smyje z rukou špínu i bacily.",
+    "difficulty": 1,
+    "image": "🧼",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-006",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím posloucháme písničky?",
+    "options": [
+      "👄 Pusou",
+      "👂 Ušima",
+      "👀 Očima"
+    ],
+    "answer": "👂 Ušima",
+    "fact": "Moc hlasitá hudba ouška bolí, proto ji ztlumíme.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-007",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nosíme na nohou?",
+    "options": [
+      "👟 Boty",
+      "🧢 Čepici",
+      "🧤 Rukavice"
+    ],
+    "answer": "👟 Boty",
+    "fact": "Boty nás chrání před kamínky a zimou.",
+    "difficulty": 1,
+    "image": "🦶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-008",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik prstů má jedna ruka?",
+    "options": [
+      "🔟 Deset",
+      "5️⃣ Pět",
+      "3️⃣ Tři"
+    ],
+    "answer": "5️⃣ Pět",
+    "fact": "Na obou rukou máme dohromady deset prstů.",
+    "difficulty": 2,
+    "image": "✋",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-009",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nás zahřeje v zimě?",
+    "options": [
+      "🧣 Šála",
+      "🩳 Kraťasy",
+      "🕶️ Brýle"
+    ],
+    "answer": "🧣 Šála",
+    "fact": "V zimě nosíme čepici, šálu a rukavice.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-010",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím ochutnáme zmrzlinu?",
+    "options": [
+      "👂 Uchem",
+      "👅 Jazykem",
+      "🦶 Nohou"
+    ],
+    "answer": "👅 Jazykem",
+    "fact": "Jazykem poznáme, jestli je jídlo sladké nebo slané.",
+    "difficulty": 2,
+    "image": "🍦",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-011",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nás ve dne hřeje a svítí?",
+    "options": [
+      "☀️ Slunce",
+      "🌙 Měsíc"
+    ],
+    "answer": "☀️ Slunce",
+    "fact": "Slunce je obrovská hvězda, která je moc daleko.",
+    "difficulty": 2,
+    "image": "🏖️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-012",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Podle čeho poznáme, kolik je hodin?",
+    "options": [
+      "🥄 Podle lžíce",
+      "🕰️ Podle hodin",
+      "🧦 Podle ponožky"
+    ],
+    "answer": "🕰️ Podle hodin",
+    "fact": "Na hodinách se točí ručičky.",
+    "difficulty": 2,
+    "image": "⌛",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

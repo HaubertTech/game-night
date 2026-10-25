@@ -1,0 +1,283 @@
+[
+  {
+    "id": "lavice-jidlo-001",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Od kterého zvířete pijeme mléko nejčastěji?",
+    "options": [
+      "Od slepice",
+      "Od prasete",
+      "Od krávy"
+    ],
+    "answer": "Od krávy",
+    "fact": "Z mléka se vyrábí sýr, máslo i jogurt.",
+    "difficulty": 1,
+    "image": "🥛",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-002",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co snáší slepice?",
+    "options": [
+      "Vejce",
+      "Mléko",
+      "Med"
+    ],
+    "answer": "Vejce",
+    "fact": "Kuře se z vejce vylíhne asi za tři týdny.",
+    "difficulty": 1,
+    "image": "🐔",
+    "source": "https://cs.wikipedia.org/wiki/Kur_dom%C3%A1c%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-003",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kdo nám dává med?",
+    "options": [
+      "Mravenci",
+      "Včely",
+      "Motýli",
+      "Mouchy"
+    ],
+    "answer": "Včely",
+    "fact": "Včely dělají med ze sladké šťávy z květů.",
+    "difficulty": 1,
+    "image": "🍯",
+    "source": "https://cs.wikipedia.org/wiki/Med",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-004",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které z toho je ovoce?",
+    "options": [
+      "Brambora",
+      "Mrkev",
+      "Jablko",
+      "Cibule"
+    ],
+    "answer": "Jablko",
+    "fact": "Většina jablek u nás dozrává na konci léta a na podzim.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "https://cs.wikipedia.org/wiki/Jablo%C5%88_dom%C3%A1c%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-005",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se peče chleba?",
+    "options": [
+      "Z mouky",
+      "Z mléka",
+      "Z cukru"
+    ],
+    "answer": "Z mouky",
+    "fact": "Mouka se mele z obilí, třeba z pšenice nebo žita.",
+    "difficulty": 1,
+    "image": "🍞",
+    "source": "https://cs.wikipedia.org/wiki/Chl%C3%A9b",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-006",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jaké plodiny se dělají hranolky?",
+    "options": [
+      "Z kukuřice",
+      "Z řepy",
+      "Z mrkve",
+      "Z brambor"
+    ],
+    "answer": "Z brambor",
+    "fact": "Brambory k nám kdysi připluly až z Ameriky.",
+    "difficulty": 2,
+    "image": "🍟",
+    "source": "https://cs.wikipedia.org/wiki/Lilek_brambor",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-007",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co se tradičně podává ke svíčkové?",
+    "options": [
+      "Rýže",
+      "Knedlíky",
+      "Hranolky",
+      "Těstoviny"
+    ],
+    "answer": "Knedlíky",
+    "fact": "Ke svíčkové patří i brusinky a šlehačka.",
+    "difficulty": 2,
+    "image": "🍽️",
+    "source": "https://cs.wikipedia.org/wiki/Sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-008",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která ryba se u nás tradičně jí na Vánoce?",
+    "options": [
+      "Kapr",
+      "Losos",
+      "Tuňák",
+      "Žralok"
+    ],
+    "answer": "Kapr",
+    "fact": "Kapři se chovají v rybnících, hodně jich je na Třeboňsku.",
+    "difficulty": 2,
+    "image": "🐟",
+    "source": "https://cs.wikipedia.org/wiki/Kapr_obecn%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-009",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se u nás vyrábí cukr?",
+    "options": [
+      "Z jablek",
+      "Z brambor",
+      "Z cukrové řepy",
+      "Z mrkve"
+    ],
+    "answer": "Z cukrové řepy",
+    "fact": "Cukrová řepa má velký bílý sladký kořen.",
+    "difficulty": 2,
+    "image": "🍬",
+    "source": "https://cs.wikipedia.org/wiki/Cukrov%C3%A1_%C5%99epa",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-010",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterého vitaminu je hodně v citronu?",
+    "options": [
+      "Vitaminu K",
+      "Vitaminu C",
+      "Vitaminu D"
+    ],
+    "answer": "Vitaminu C",
+    "fact": "Hodně vitaminu C mají i paprika nebo šípky.",
+    "difficulty": 2,
+    "image": "🍋",
+    "source": "https://cs.wikipedia.org/wiki/Kyselina_askorbov%C3%A1",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-011",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého zrní se dělá popcorn?",
+    "options": [
+      "Z hrachu",
+      "Z rýže",
+      "Z kukuřice",
+      "Z pšenice"
+    ],
+    "answer": "Z kukuřice",
+    "fact": "Zrno praskne, protože se voda uvnitř změní v páru.",
+    "difficulty": 3,
+    "image": "🍿",
+    "source": "https://cs.wikipedia.org/wiki/Popcorn",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-012",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí čokoláda?",
+    "options": [
+      "Z kávových zrn",
+      "Z obilí",
+      "Z lískových oříšků",
+      "Z kakaových bobů"
+    ],
+    "answer": "Z kakaových bobů",
+    "fact": "Kakaovník roste jen v teplých krajích kolem rovníku.",
+    "difficulty": 3,
+    "image": "🍫",
+    "source": "https://cs.wikipedia.org/wiki/Kakaovn%C3%ADk_prav%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-013",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které město je známé tvarůžky?",
+    "options": [
+      "Plzeň",
+      "Karlovy Vary",
+      "Olomouc",
+      "Pardubice"
+    ],
+    "answer": "Olomouc",
+    "fact": "Pardubice jsou zase známé perníkem.",
+    "difficulty": 3,
+    "image": "🧀",
+    "source": "https://cs.wikipedia.org/wiki/Olomouck%C3%A9_tvar%C5%AF%C5%BEky",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-014",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ke kterým svátkům se peče beránek a mazanec?",
+    "options": [
+      "K masopustu",
+      "Ke Dni dětí",
+      "K Vánocům",
+      "K Velikonocům"
+    ],
+    "answer": "K Velikonocům",
+    "fact": "Na Velikonoce se také barví vajíčka.",
+    "difficulty": 3,
+    "image": "🐑",
+    "source": "https://cs.wikipedia.org/wiki/Velikonoce",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-jidlo-015",
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co z toho je luštěnina?",
+    "options": [
+      "Okurka",
+      "Brambora",
+      "Čočka",
+      "Mrkev"
+    ],
+    "answer": "Čočka",
+    "fact": "Luštěniny obsahují hodně bílkovin.",
+    "difficulty": 3,
+    "image": "🥣",
+    "source": "https://cs.wikipedia.org/wiki/Lu%C5%A1t%C4%9Bniny",
+    "status": "verified"
+  }
+]

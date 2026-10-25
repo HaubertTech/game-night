@@ -1,0 +1,217 @@
+[
+  {
+    "id": "piskoviste-cesko-svet-001",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která barva je na naší vlajce?",
+    "options": [
+      "🟡 Žlutá",
+      "🔴 Červená",
+      "🟢 Zelená"
+    ],
+    "answer": "🔴 Červená",
+    "fact": "Naše vlajka je bílá, červená a modrá.",
+    "difficulty": 1,
+    "image": "🇨🇿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-002",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co jezdí po kolejích?",
+    "options": [
+      "🚂 Vlak",
+      "⛵ Loďka",
+      "🚗 Auto"
+    ],
+    "answer": "🚂 Vlak",
+    "fact": "Vlak má vepředu lokomotivu, která táhne vagony.",
+    "difficulty": 1,
+    "image": "🛤️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-003",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo hasí oheň?",
+    "options": [
+      "👨‍🏫 Učitel",
+      "👨‍🚒 Hasič",
+      "👨‍🍳 Kuchař"
+    ],
+    "answer": "👨‍🚒 Hasič",
+    "fact": "Hasiče zavoláme na čísle 150.",
+    "difficulty": 1,
+    "image": "🔥",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-004",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo nás léčí, když jsme nemocní?",
+    "options": [
+      "👨‍🌾 Farmář",
+      "👮 Policista",
+      "👩‍⚕️ Doktorka"
+    ],
+    "answer": "👩‍⚕️ Doktorka",
+    "fact": "Doktorka nám poslechne srdíčko.",
+    "difficulty": 1,
+    "image": "🤒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-005",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co létá po nebi?",
+    "options": [
+      "✈️ Letadlo",
+      "🚌 Autobus",
+      "🚲 Kolo"
+    ],
+    "answer": "✈️ Letadlo",
+    "fact": "Letadla startují a přistávají na letišti.",
+    "difficulty": 1,
+    "image": "🌤️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-006",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co jede s houkačkou k nemocným?",
+    "options": [
+      "🚜 Traktor",
+      "🚕 Taxík",
+      "🚑 Sanitka"
+    ],
+    "answer": "🚑 Sanitka",
+    "fact": "Záchranku zavoláme na čísle 155.",
+    "difficulty": 1,
+    "image": "🏥",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-007",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která z těch barev je na naší vlajce?",
+    "options": [
+      "🟤 Hnědá",
+      "🔵 Modrá",
+      "🟠 Oranžová"
+    ],
+    "answer": "🔵 Modrá",
+    "fact": "Modrý trojúhelník je na vlajce u tyče.",
+    "difficulty": 2,
+    "image": "🇨🇿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-008",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje naše hlavní město?",
+    "options": [
+      "🏰 Praha",
+      "🗽 New York",
+      "🗼 Paříž"
+    ],
+    "answer": "🏰 Praha",
+    "fact": "V Praze je velký hrad, kde pracuje prezident.",
+    "difficulty": 2,
+    "image": "🗺️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-009",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na jakou barvu přecházíme silnici?",
+    "options": [
+      "🔴 Na červenou",
+      "🟢 Na zelenou"
+    ],
+    "answer": "🟢 Na zelenou",
+    "fact": "I na zelenou se nejdřív rozhlédneme.",
+    "difficulty": 2,
+    "image": "🚦",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-010",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde loví tučňáci ryby?",
+    "options": [
+      "🌊 V moři",
+      "🌳 V lese",
+      "🏜️ Na poušti"
+    ],
+    "answer": "🌊 V moři",
+    "fact": "Tučňáci neumějí létat, ale skvěle plavou.",
+    "difficulty": 2,
+    "image": "🐧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-011",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde plují lodě?",
+    "options": [
+      "🏔️ Po horách",
+      "🛣️ Po dálnici",
+      "🌊 Po moři"
+    ],
+    "answer": "🌊 Po moři",
+    "fact": "Lodě zastavují v přístavu.",
+    "difficulty": 2,
+    "image": "⛵",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-012",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo řídí dopravu a hlídá pořádek?",
+    "options": [
+      "🧑‍🎨 Malíř",
+      "👮 Policista",
+      "👨‍🍳 Kuchař"
+    ],
+    "answer": "👮 Policista",
+    "fact": "Policii zavoláme na čísle 158.",
+    "difficulty": 2,
+    "image": "🚓",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "lavice-dejiny-001",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo podle pověsti přivedl Čechy do naší země?",
+    "options": [
+      "Praotec Čech",
+      "Karel IV.",
+      "Bruncvík"
+    ],
+    "answer": "Praotec Čech",
+    "fact": "Podle pověsti se rozhlédl po zemi z hory Říp.",
+    "difficulty": 1,
+    "image": "👴",
+    "source": "https://cs.wikipedia.org/wiki/Praotec_%C4%8Cech",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-002",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Čím si lidé svítili, než přišla elektřina?",
+    "options": [
+      "Baterkami",
+      "Žárovkami",
+      "Svíčkami"
+    ],
+    "answer": "Svíčkami",
+    "fact": "Dřív se svítilo i loučemi nebo petrolejkami.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-003",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo dřív bydlel na hradech?",
+    "options": [
+      "Králové a šlechta",
+      "Piloti",
+      "Kosmonauti"
+    ],
+    "answer": "Králové a šlechta",
+    "fact": "Hrady měly silné zdi, aby se ubránily nepřátelům.",
+    "difficulty": 1,
+    "image": "🏰",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-004",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Čím se psalo, než se vymyslela propiska?",
+    "options": [
+      "Tabletem",
+      "Fixou",
+      "Husím brkem"
+    ],
+    "answer": "Husím brkem",
+    "fact": "Brk se namáčel do kalamáře s inkoustem.",
+    "difficulty": 1,
+    "image": "✍️",
+    "source": "https://cs.wikipedia.org/wiki/Pero",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-005",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na čem lidé jezdili, než vznikla auta?",
+    "options": [
+      "V letadlech",
+      "Na koních",
+      "Na elektrokolech"
+    ],
+    "answer": "Na koních",
+    "fact": "Koně táhli i kočáry a dostavníky.",
+    "difficulty": 1,
+    "image": "🛣️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-006",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kterému králi se říká Otec vlasti?",
+    "options": [
+      "Karel IV.",
+      "Jiří z Poděbrad",
+      "Václav II.",
+      "Přemysl Otakar II."
+    ],
+    "answer": "Karel IV.",
+    "fact": "Karel IV. byl český král i římský císař.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Karel_IV.",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-007",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který most v Praze dal postavit Karel IV.?",
+    "options": [
+      "Palackého most",
+      "Nuselský most",
+      "Most Legií",
+      "Karlův most"
+    ],
+    "answer": "Karlův most",
+    "fact": "Na Karlově mostě stojí po stranách desítky soch.",
+    "difficulty": 2,
+    "image": "🌉",
+    "source": "https://cs.wikipedia.org/wiki/Karl%C5%AFv_most",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-008",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který hrad dal Karel IV. postavit pro korunovační klenoty?",
+    "options": [
+      "Bouzov",
+      "Kokořín",
+      "Karlštejn",
+      "Křivoklát"
+    ],
+    "answer": "Karlštejn",
+    "fact": "Karlštejn stojí nedaleko Berouna.",
+    "difficulty": 2,
+    "image": "🏯",
+    "source": "https://cs.wikipedia.org/wiki/Karl%C5%A1tejn",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-009",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který svatý má sochu na koni na Václavském náměstí?",
+    "options": [
+      "Svatý Martin",
+      "Svatý Václav",
+      "Svatý Jiří",
+      "Svatý Mikuláš"
+    ],
+    "answer": "Svatý Václav",
+    "fact": "Svátek svatého Václava slavíme 28. září.",
+    "difficulty": 2,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/Svat%C3%BD_V%C3%A1clav",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-010",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo je nazýván učitelem národů?",
+    "options": [
+      "Josef Lada",
+      "Karel IV.",
+      "Jan Amos Komenský",
+      "Jan Hus"
+    ],
+    "answer": "Jan Amos Komenský",
+    "fact": "Den učitelů slavíme 28. března, v den Komenského narození.",
+    "difficulty": 2,
+    "image": "📚",
+    "source": "https://cs.wikipedia.org/wiki/Jan_Amos_Komensk%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-011",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo vynalezl knihtisk?",
+    "options": [
+      "Isaac Newton",
+      "Leonardo da Vinci",
+      "Thomas Edison",
+      "Johannes Gutenberg"
+    ],
+    "answer": "Johannes Gutenberg",
+    "fact": "Díky knihtisku mohlo vzniknout mnohem víc knih než dřív.",
+    "difficulty": 3,
+    "image": "📖",
+    "source": "https://cs.wikipedia.org/wiki/Knihtisk",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-012",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve kterém roce vzniklo Československo?",
+    "options": [
+      "1918",
+      "1945",
+      "1993",
+      "1848"
+    ],
+    "answer": "1918",
+    "fact": "Vznik republiky slavíme každý rok 28. října.",
+    "difficulty": 3,
+    "image": "🇨🇿",
+    "source": "https://cs.wikipedia.org/wiki/Vznik_%C4%8Ceskoslovenska",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-013",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl prvním prezidentem Československa?",
+    "options": [
+      "Edvard Beneš",
+      "Karel IV.",
+      "Václav Havel",
+      "Tomáš Garrigue Masaryk"
+    ],
+    "answer": "Tomáš Garrigue Masaryk",
+    "fact": "Lidé Masarykovi říkali „tatíček“.",
+    "difficulty": 3,
+    "image": "🎩",
+    "source": "https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-014",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve kterém roce vznikla samostatná Česká republika?",
+    "options": [
+      "1918",
+      "1968",
+      "1993",
+      "1989"
+    ],
+    "answer": "1993",
+    "fact": "Československo se tehdy pokojně rozdělilo na Česko a Slovensko.",
+    "difficulty": 3,
+    "image": "📜",
+    "source": "https://cs.wikipedia.org/wiki/Z%C3%A1nik_%C4%8Ceskoslovenska",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-dejiny-015",
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Které slovo dal světu Karel Čapek s bratrem Josefem?",
+    "options": [
+      "Robot",
+      "Telefon",
+      "Raketa",
+      "Počítač"
+    ],
+    "answer": "Robot",
+    "fact": "Slovo robot poprvé zaznělo ve hře R.U.R.",
+    "difficulty": 3,
+    "image": "🤖",
+    "source": "https://cs.wikipedia.org/wiki/Robot",
+    "status": "verified"
+  }
+]

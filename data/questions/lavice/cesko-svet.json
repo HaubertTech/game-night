@@ -1,0 +1,286 @@
+[
+  {
+    "id": "lavice-cesko-svet-001",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město České republiky?",
+    "options": [
+      "Brno",
+      "Ostrava",
+      "Plzeň",
+      "Praha"
+    ],
+    "answer": "Praha",
+    "fact": "Na Pražském hradě sídlí prezident republiky.",
+    "difficulty": 1,
+    "image": "🏰",
+    "source": "https://cs.wikipedia.org/wiki/Praha",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-002",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jaké barvy má česká vlajka?",
+    "options": [
+      "Bílou, červenou a modrou",
+      "Modrou, žlutou a bílou",
+      "Červenou, žlutou a zelenou"
+    ],
+    "answer": "Bílou, červenou a modrou",
+    "fact": "Modrý klín na vlajce míří od žerdi doprostřed.",
+    "difficulty": 1,
+    "image": "🇨🇿",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_vlajka",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-003",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Prahou?",
+    "options": [
+      "Odra",
+      "Labe",
+      "Morava",
+      "Vltava"
+    ],
+    "answer": "Vltava",
+    "fact": "Vltava je nejdelší řeka, která teče jen po českém území.",
+    "difficulty": 1,
+    "image": "🌉",
+    "source": "https://cs.wikipedia.org/wiki/Vltava",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-004",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Česka?",
+    "options": [
+      "Sněžka",
+      "Říp",
+      "Lysá hora",
+      "Praděd"
+    ],
+    "answer": "Sněžka",
+    "fact": "Sněžka měří 1 603 metrů a leží v Krkonoších.",
+    "difficulty": 1,
+    "image": "⛰️",
+    "source": "https://cs.wikipedia.org/wiki/Sn%C4%9B%C5%BEka",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-005",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které zvíře je na českém státním znaku?",
+    "options": [
+      "Medvěd",
+      "Orel",
+      "Lev",
+      "Kůň"
+    ],
+    "answer": "Lev",
+    "fact": "Český lev má dva ocasy.",
+    "difficulty": 1,
+    "image": "🇨🇿",
+    "source": "https://cs.wikipedia.org/wiki/St%C3%A1tn%C3%AD_znak_%C4%8Cesk%C3%A9_republiky",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-006",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které město je druhé největší v Česku?",
+    "options": [
+      "Liberec",
+      "Plzeň",
+      "Ostrava",
+      "Brno"
+    ],
+    "answer": "Brno",
+    "fact": "Nad Brnem stojí hrad Špilberk.",
+    "difficulty": 2,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Brno",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-007",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo podle pověsti vede rytíře spící v hoře Blaník?",
+    "options": [
+      "Praotec Čech",
+      "Bruncvík",
+      "Svatý Václav",
+      "Karel IV."
+    ],
+    "answer": "Svatý Václav",
+    "fact": "Rytíři mají Čechům pomoci, až bude země v největší nouzi.",
+    "difficulty": 2,
+    "image": "🛡️",
+    "source": "https://cs.wikipedia.org/wiki/Blan%C3%ADk",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-008",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která kněžna podle pověsti předpověděla slávu Prahy?",
+    "options": [
+      "Libuše",
+      "Drahomíra",
+      "Ludmila",
+      "Božena"
+    ],
+    "answer": "Libuše",
+    "fact": "Libuše si za muže vybrala oráče Přemysla.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Libu%C5%A1e",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-009",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kolik krajů má Česká republika?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "14",
+    "fact": "Jedním z krajů je i hlavní město Praha.",
+    "difficulty": 2,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Kraje_v_%C4%8Cesku",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-010",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém pohoří leží Sněžka?",
+    "options": [
+      "Jeseníky",
+      "Šumava",
+      "Beskydy",
+      "Krkonoše"
+    ],
+    "answer": "Krkonoše",
+    "fact": "Krkonošský národní park je nejstarší národní park v Česku.",
+    "difficulty": 2,
+    "image": "🏔️",
+    "source": "https://cs.wikipedia.org/wiki/Krkono%C5%A1sk%C3%BD_n%C3%A1rodn%C3%AD_park",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-011",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který král založil v Praze univerzitu?",
+    "options": [
+      "Karel IV.",
+      "Přemysl Otakar II.",
+      "Jiří z Poděbrad",
+      "Rudolf II."
+    ],
+    "answer": "Karel IV.",
+    "fact": "Univerzita Karlova vznikla roku 1348 a je nejstarší ve střední Evropě.",
+    "difficulty": 3,
+    "image": "🎓",
+    "source": "https://cs.wikipedia.org/wiki/Univerzita_Karlova",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-012",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který rytíř podle pověsti cestoval se lvem?",
+    "options": [
+      "Horymír",
+      "Bivoj",
+      "Bruncvík",
+      "Krok"
+    ],
+    "answer": "Bruncvík",
+    "fact": "Socha Bruncvíka stojí u Karlova mostu v Praze.",
+    "difficulty": 3,
+    "image": "⚔️",
+    "source": "https://cs.wikipedia.org/wiki/Bruncv%C3%ADk",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-013",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Do kterého moře teče Labe?",
+    "options": [
+      "Do Severního moře",
+      "Do Baltského moře",
+      "Do Jaderského moře",
+      "Do Černého moře"
+    ],
+    "answer": "Do Severního moře",
+    "fact": "Cestou k moři proteče Labe německým Hamburkem.",
+    "difficulty": 3,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/Labe",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-014",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které město je sídlem Moravskoslezského kraje?",
+    "options": [
+      "Olomouc",
+      "Ostrava",
+      "Opava",
+      "Zlín"
+    ],
+    "answer": "Ostrava",
+    "fact": "Ostrava byla dlouho městem uhelných dolů a hutí.",
+    "difficulty": 3,
+    "image": "🏭",
+    "source": "https://cs.wikipedia.org/wiki/Ostrava",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cesko-svet-015",
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Se kterým státem Česko nesousedí?",
+    "options": [
+      "Polsko",
+      "Rakousko",
+      "Slovensko",
+      "Maďarsko"
+    ],
+    "answer": "Maďarsko",
+    "fact": "Česko sousedí s Německem, Polskem, Slovenskem a Rakouskem.",
+    "difficulty": 3,
+    "image": "🧭",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesko",
+    "status": "verified"
+  }
+]

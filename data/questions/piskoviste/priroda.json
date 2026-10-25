@@ -1,0 +1,217 @@
+[
+  {
+    "id": "piskoviste-priroda-001",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo dělá „haf haf“?",
+    "options": [
+      "🐶 Pes",
+      "🐱 Kočka",
+      "🐮 Kráva"
+    ],
+    "answer": "🐶 Pes",
+    "fact": "Pes štěká, když nás chce na něco upozornit.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-002",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo dělá „bú“?",
+    "options": [
+      "🐔 Slepice",
+      "🐷 Prasátko",
+      "🐮 Kráva"
+    ],
+    "answer": "🐮 Kráva",
+    "fact": "Kráva nám dává mléko.",
+    "difficulty": 1,
+    "image": "🌾",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-003",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se říká malé kočičce?",
+    "options": [
+      "🐱 Kotě",
+      "🐶 Štěně",
+      "🐥 Kuře"
+    ],
+    "answer": "🐱 Kotě",
+    "fact": "Koťátka se rodí se zavřenýma očima.",
+    "difficulty": 1,
+    "image": "🐈",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-004",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo má na zádech bodliny?",
+    "options": [
+      "🐿️ Veverka",
+      "🦔 Ježek",
+      "🐰 Zajíček"
+    ],
+    "answer": "🦔 Ježek",
+    "fact": "Když se ježek bojí, stočí se do klubíčka.",
+    "difficulty": 1,
+    "image": "🍂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-005",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo žije ve vodě?",
+    "options": [
+      "🐟 Rybička",
+      "🐄 Kráva",
+      "🐑 Ovečka"
+    ],
+    "answer": "🐟 Rybička",
+    "fact": "Rybička dýchá pod vodou žábrami.",
+    "difficulty": 1,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-006",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co si vezmeme, když prší?",
+    "options": [
+      "🕶️ Brýle",
+      "☂️ Deštník",
+      "🩳 Kraťasy"
+    ],
+    "answer": "☂️ Deštník",
+    "fact": "Po dešti se někdy na nebi objeví duha.",
+    "difficulty": 1,
+    "image": "🌧️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-007",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdy padá sníh?",
+    "options": [
+      "❄️ V zimě",
+      "☀️ V létě"
+    ],
+    "answer": "❄️ V zimě",
+    "fact": "Ze sněhu postavíme sněhuláka.",
+    "difficulty": 1,
+    "image": "⛄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-008",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo bydlí v úlu?",
+    "options": [
+      "🦋 Motýl",
+      "🐝 Včelka",
+      "🐜 Mravenec"
+    ],
+    "answer": "🐝 Včelka",
+    "fact": "Včelky létají z květu na květ.",
+    "difficulty": 2,
+    "image": "🍯",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-009",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo dělá „kokodák“?",
+    "options": [
+      "🐔 Slepice",
+      "🦆 Kachna",
+      "🐸 Žába"
+    ],
+    "answer": "🐔 Slepice",
+    "fact": "Slepice snáší vajíčka.",
+    "difficulty": 2,
+    "image": "🥚",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-010",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jakou barvu má tráva?",
+    "options": [
+      "🟣 Fialovou",
+      "🔵 Modrou",
+      "🟢 Zelenou"
+    ],
+    "answer": "🟢 Zelenou",
+    "fact": "Tráva roste, když prší a svítí sluníčko.",
+    "difficulty": 2,
+    "image": "🌱",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-011",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se říká malé krávě?",
+    "options": [
+      "🐮 Tele",
+      "🐑 Jehně",
+      "🐴 Hříbě"
+    ],
+    "answer": "🐮 Tele",
+    "fact": "Tele pije mléko od maminky krávy.",
+    "difficulty": 2,
+    "image": "🐄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-012",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo umí létat?",
+    "options": [
+      "🐢 Želva",
+      "🐦 Ptáček",
+      "🐌 Šnek"
+    ],
+    "answer": "🐦 Ptáček",
+    "fact": "Ptáčci mají křídla z peříček.",
+    "difficulty": 2,
+    "image": "☁️",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "id": "lavice-cisla-logika-001",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 3 + 4?",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "fact": "Při sčítání na pořadí nezáleží: 4 + 3 je taky 7.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-002",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik rohů má trojúhelník?",
+    "options": [
+      "3",
+      "5",
+      "4"
+    ],
+    "answer": "3",
+    "fact": "Méně než tři rohy nemá žádný tvar s rovnými stranami.",
+    "difficulty": 1,
+    "image": "🔺",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-003",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 10 − 6?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "fact": "Odčítání si ověříš sčítáním: 4 + 6 = 10.",
+    "difficulty": 1,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-004",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo následuje po 19?",
+    "options": [
+      "21",
+      "20",
+      "29",
+      "18"
+    ],
+    "answer": "20",
+    "fact": "Číslo 20 tvoří dvě desítky.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-005",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dní má týden?",
+    "options": [
+      "5",
+      "10",
+      "7"
+    ],
+    "answer": "7",
+    "fact": "Víkend tvoří sobota a neděle.",
+    "difficulty": 1,
+    "image": "📅",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-006",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 6 × 7?",
+    "options": [
+      "42",
+      "48",
+      "49",
+      "36"
+    ],
+    "answer": "42",
+    "fact": "Stejný výsledek dá i 7 × 6.",
+    "difficulty": 2,
+    "image": "✖️",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-007",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Máma koupila 3 sáčky po 4 rohlících. Kolik rohlíků má?",
+    "options": [
+      "7",
+      "16",
+      "10",
+      "12"
+    ],
+    "answer": "12",
+    "fact": "Násobení je rychlé sčítání: 4 + 4 + 4 = 12.",
+    "difficulty": 2,
+    "image": "🥐",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-008",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik minut má jedna hodina?",
+    "options": [
+      "100",
+      "60",
+      "30",
+      "24"
+    ],
+    "answer": "60",
+    "fact": "Jedna minuta má zase 60 sekund.",
+    "difficulty": 2,
+    "image": "🕐",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-009",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který tvar má čtyři stejně dlouhé strany a pravé úhly?",
+    "options": [
+      "Šestiúhelník",
+      "Trojúhelník",
+      "Kruh",
+      "Čtverec"
+    ],
+    "answer": "Čtverec",
+    "fact": "Čtverec je zvláštní druh obdélníku.",
+    "difficulty": 2,
+    "image": "📏",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-010",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Hodiny ukazují přesně 3 hodiny. Kam míří velká ručička?",
+    "options": [
+      "Na 12",
+      "Na 9",
+      "Na 3",
+      "Na 6"
+    ],
+    "answer": "Na 12",
+    "fact": "Malá ručička ukazuje hodiny, velká minuty.",
+    "difficulty": 2,
+    "image": "🕒",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-011",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 100 − 37?",
+    "options": [
+      "53",
+      "73",
+      "63",
+      "67"
+    ],
+    "answer": "63",
+    "fact": "Výsledek ověříš sčítáním: 63 + 37 = 100.",
+    "difficulty": 3,
+    "image": "🧮",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-012",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Petr rozdělí 24 bonbonů rovným dílem 4 dětem. Kolik dostane každé?",
+    "options": [
+      "20",
+      "6",
+      "4",
+      "8"
+    ],
+    "answer": "6",
+    "fact": "Dělení ověříš násobením: 4 × 6 = 24.",
+    "difficulty": 3,
+    "image": "🍬",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-013",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik centimetrů má jeden metr?",
+    "options": [
+      "100",
+      "1000",
+      "10",
+      "60"
+    ],
+    "answer": "100",
+    "fact": "Milimetrů má metr tisíc.",
+    "difficulty": 3,
+    "image": "📏",
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-014",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaké číslo je římskými číslicemi X?",
+    "options": [
+      "5",
+      "10",
+      "100",
+      "50"
+    ],
+    "answer": "10",
+    "fact": "Římské číslice najdeš třeba na ciferníku pražského orloje.",
+    "difficulty": 3,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADmsk%C3%A9_%C4%8D%C3%ADslice",
+    "status": "verified"
+  },
+  {
+    "id": "lavice-cisla-logika-015",
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký obvod má čtverec se stranou 5 cm?",
+    "options": [
+      "25 cm",
+      "10 cm",
+      "15 cm",
+      "20 cm"
+    ],
+    "answer": "20 cm",
+    "fact": "Obvod je součet délek všech stran.",
+    "difficulty": 3,
+    "image": "📐",
+    "source": "RVP ZV",
+    "status": "verified"
+  }
+]
