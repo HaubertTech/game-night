@@ -3,9 +3,10 @@ import { join } from 'node:path';
 import process from 'node:process';
 import { defineConfig, devices } from '@playwright/test';
 
-const PORT = 5181;
+// E2E_PORT / E2E_LIVE_PORT let a second checkout (worktree) run its own servers side by side.
+const PORT = Number(process.env.E2E_PORT ?? 5181);
 /** Live mode (TV + phones) needs the database: its own dev server against the test DB. */
-const LIVE_PORT = 5182;
+const LIVE_PORT = Number(process.env.E2E_LIVE_PORT ?? 5182);
 // live*.spec.ts (quiz, aktivity, mjz, chess, cards): TV + phones against the test DB.
 const LIVE_SPECS = /live.*\.spec\.ts$/;
 /** League flows (evenings, cards, profiles) also need the database: they reuse the live server. */
