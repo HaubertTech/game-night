@@ -5,7 +5,7 @@
   // to the league (the server replays it).
   import { onDestroy, onMount } from 'svelte';
   import { adviseClovece, cloveceAiStep } from '../../games/clovece/ai.ts';
-  import { applyClovece, currentMoves, placesOf, type CloveceCommand, type CloveceState } from '../../games/clovece/engine.ts';
+  import { applyClovece, currentMoves, distinctMoves, placesOf, type CloveceCommand, type CloveceState } from '../../games/clovece/engine.ts';
   import { speak, stop } from '../../tts.ts';
   import Owl from '../art/Owl.svelte';
   import Celebrate from '../live/Celebrate.svelte';
@@ -26,7 +26,7 @@
   let error = $state<string | null>(null);
   let aiTimer: ReturnType<typeof setTimeout> | null = null;
 
-  const moves = $derived(currentMoves(game));
+  const moves = $derived(distinctMoves(currentMoves(game)));
   const current = $derived(game.players.find((p) => p.id === game.turn)!);
   const human = $derived(game.phase === 'playing' && !current.ai);
   const help = $derived(saved.help[current.id] ?? { hints: false, speak: false });

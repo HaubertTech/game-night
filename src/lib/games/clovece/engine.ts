@@ -214,6 +214,11 @@ export function currentMoves(state: CloveceState): CloveceMove[] {
   return legalMoves(state, state.turn, state.dice);
 }
 
+/** One move per different outcome: entering is the same with any yard pawn, so only the first is kept. */
+export function distinctMoves(moves: readonly CloveceMove[]): CloveceMove[] {
+  return moves.filter((m, i) => m.kind !== 'enter' || moves.findIndex((x) => x.kind === 'enter') === i);
+}
+
 // ---------- die ----------
 
 /** Value of the next roll and the die state after it (one mulberry32 step). */
@@ -430,7 +435,7 @@ export type CloveceViewer = { role: 'host' } | { role: 'contestant'; contestantI
 export type CloveceView = Omit<CloveceState, 'rng' | 'history' | 'seed'> & {
   me: string | null;
   myColor: CloveceColor | null;
-  /** Legal moves of the player on turn (for highlighting pawns and target fields). */
+  /** Legal moves of the player on turn (entering listed once), for highlighting pawns and targets. */
   moves: CloveceMove[];
   places: Record<string, number>;
 };
@@ -448,7 +453,7 @@ export function viewFor(state: CloveceState, viewer: CloveceViewer): CloveceView
     pawns: state.pawns.map((p) => [...p]),
     me,
     myColor: me ? (playerById(state, me)?.color ?? null) : null,
-    moves: currentMoves(state),
+    moves: distinctMoves(currentMoves(state)),
     places: placesOf(state),
   };
 }

@@ -259,7 +259,15 @@ describe('viewFor', () => {
     expect('seed' in v).toBe(false);
     expect(v.me).toBe('b');
     expect(v.myColor).toBe('green');
-    expect(v.moves).toHaveLength(4);
+    expect(v.moves).toHaveLength(1);
     expect(viewFor(s, { role: 'host' }).me).toBeNull();
+  });
+});
+
+describe('distinct moves', () => {
+  it('lists entering once in the view, the engine keeps every pawn', () => {
+    const s = roll(game(), 6);
+    expect(currentMoves(s)).toHaveLength(4);
+    expect(viewFor(s, { role: 'host' }).moves).toHaveLength(1);
   });
 });

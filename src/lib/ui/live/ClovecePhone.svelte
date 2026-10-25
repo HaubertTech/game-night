@@ -81,7 +81,7 @@
 <main class="g-phone" data-testid="phone" data-game="clovece" data-phase={view?.roomPhase ?? 'loading'} data-me={room.me ?? ''} data-my-turn={myTurn ? 'yes' : 'no'} data-stage={view?.stage ?? ''} data-seq={view?.seq ?? 0}>
   <header class="g-bar">
     {#if me}
-      <span><span class="emoji"><Avatar value={me.avatar} /></span> <strong>{me.name}</strong>{#if mine} · {COLOR_LABELS[mine.color]}{/if}</span>
+      <span><span class="emoji"><Avatar value={me.avatar} /></span> <strong>{me.name}</strong>{#if mine}{' · '}{COLOR_LABELS[mine.color]}{/if}</span>
     {:else}
       <span>🎲 Místnost <strong>{code}</strong></span>
     {/if}
