@@ -1,16 +1,34 @@
 <script lang="ts">
   import Avatar from '#lib/ui/art/Avatar.svelte';
-  // Lobby of a card room on the TV: the join code, who sits at the table (people and computers)
+  // Lobby of a table room (cards, Člověče) on the TV: the join code, who sits at the table (people and computers)
   // and the start button for the host.
   import type { Presence } from '../../live/protocol.ts';
   import type { TableSeat } from '../../live/table-games.ts';
   import { LEVEL_LABELS } from '../karty-hra/storage.ts';
   import JoinPanel from './JoinPanel.svelte';
 
-  let { code, seats, presence, isHost, note, onStart }: { code: string; seats: TableSeat[]; presence: Record<string, Presence>; isHost: boolean; note: string; onStart: () => void } = $props();
+  let {
+    code,
+    seats,
+    presence,
+    isHost,
+    note,
+    onStart,
+    startLabel = '▶️ Rozdat karty',
+    computerLabel = (s: TableSeat) => `🤖 počítač · ${LEVEL_LABELS[s.ai!]}`,
+  }: {
+    code: string;
+    seats: TableSeat[];
+    presence: Record<string, Presence>;
+    isHost: boolean;
+    note: string;
+    onStart: () => void;
+    startLabel?: string;
+    computerLabel?: (s: TableSeat) => string;
+  } = $props();
 
   function label(s: TableSeat): string {
-    if (s.ai) return `🤖 počítač · ${LEVEL_LABELS[s.ai]}`;
+    if (s.ai) return computerLabel(s);
     const p = presence[s.id];
     if (p?.online) return '📱 připojen(a)';
     if (p?.claimed) return '📴 telefon odpojen';
@@ -32,6 +50,6 @@
       {/each}
     </ul>
     <p class="muted">{note}</p>
-    {#if isHost}<button class="btn primary big" onclick={onStart}>▶️ Rozdat karty</button>{/if}
+    {#if isHost}<button class="btn primary big" onclick={onStart}>{startLabel}</button>{/if}
   </div>
 </section>

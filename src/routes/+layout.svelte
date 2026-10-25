@@ -25,6 +25,7 @@
     { href: '/liga', label: 'Liga', emoji: '🏆' },
     { href: '/hraci', label: 'Hráči', emoji: '👪' },
     { href: '/sachy', label: 'Šachy', emoji: '♟️' },
+    { href: '/clovece', label: 'Člověče', emoji: '🎲' },
     { href: '/trenink', label: 'Trénink karet', emoji: '🃏' },
     { href: '/domacnost', label: 'Nastavení', emoji: '⚙️' },
   ];
@@ -33,6 +34,7 @@
     { href: '/', label: 'Domů', emoji: '🏠' },
     { href: '/tablet', label: 'Kvízovna na tabletu', emoji: '🦉' },
     { href: '/sachy', label: 'Šachy', emoji: '♟️' },
+    { href: '/clovece', label: 'Člověče', emoji: '🎲' },
     { href: '/trenink', label: 'Trénink karet', emoji: '🃏' },
   ];
   const links = $derived(session.household ? householdLinks : guestLinks);

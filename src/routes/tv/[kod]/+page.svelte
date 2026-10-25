@@ -20,6 +20,7 @@
   import ChessTv from '#lib/ui/live/ChessTv.svelte';
   import PrsiTv from '#lib/ui/live/PrsiTv.svelte';
   import ZolikyTv from '#lib/ui/live/ZolikyTv.svelte';
+  import CloveceTv from '#lib/ui/live/CloveceTv.svelte';
   import { ROOM_GAME_LABELS } from '#lib/live/games.ts';
   import LiveFinal from '#lib/ui/live/LiveFinal.svelte';
   import LiveQuestion from '#lib/ui/live/LiveQuestion.svelte';
@@ -125,6 +126,8 @@
   <PrsiTv {room} {code} />
 {:else if room.game === 'zoliky-hra'}
   <ZolikyTv {room} {code} />
+{:else if room.game === 'clovece'}
+  <CloveceTv {room} {code} />
 {:else}
 
 <main class="tv" data-testid="tv" data-phase={view?.phase ?? 'loading'} data-stage={view?.stage ?? ''}>

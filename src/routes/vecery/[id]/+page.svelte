@@ -115,10 +115,12 @@
             <GameCard small art={GAME_ART.sachy} title={GAME_NAMES.sachy} href={`/tv?night=${n.id}&hra=chess`} />
             <GameCard small art={GAME_ART.prsi} title={GAME_NAMES.prsi} href={`/tv?night=${n.id}&hra=prsi-hra`} />
             <GameCard small art={GAME_ART.zoliky} title={GAME_NAMES.zoliky} href={`/tv?night=${n.id}&hra=zoliky-hra`} />
+            <GameCard small art={GAME_ART.clovece} title={GAME_NAMES.clovece} href={`/tv?night=${n.id}&hra=clovece`} testid="add-clovece-tv" />
           </div>
           <p class="muted hint">Bez televize:</p>
           <div class="row">
             <a class="btn" href={`/tablet?night=${n.id}`}>🦉 Kvízovna na tabletu</a>
+            <a class="btn" href={`/clovece?night=${n.id}`}>🎲 Člověče na tabletu</a>
             <button class="btn" aria-pressed={adding === 'prsi'} onclick={() => (adding = adding === 'prsi' ? null : 'prsi')}>🃏 Zápis karet: Prší</button>
             <button class="btn" aria-pressed={adding === 'zoliky'} onclick={() => (adding = adding === 'zoliky' ? null : 'zoliky')}>🂡 Zápis karet: Žolíky</button>
           </div>
