@@ -1,0 +1,5 @@
+[
+  { "id": "lavice-dejiny-001", "level": "lavice", "theme": "dejiny", "type": "choice", "text": "Testovací L4: na čem jezdili rytíři?", "options": ["Na koni", "Na kole", "Autem"], "answer": "Na koni", "fact": "Testovací zajímavost L4.", "difficulty": 1, "source": "obecná znalost", "status": "verified" },
+  { "id": "lavice-dejiny-002", "level": "lavice", "theme": "dejiny", "type": "choice", "text": "Testovací L5: kde bydlel král?", "options": ["Na hradě", "V jeskyni", "Ve stanu"], "answer": "Na hradě", "fact": "Testovací zajímavost L5.", "difficulty": 1, "source": "obecná znalost", "status": "verified" },
+  { "id": "lavice-dejiny-003", "level": "lavice", "theme": "dejiny", "type": "choice", "text": "Testovací L6: čím se psalo dřív?", "options": ["Brkem", "Tabletem", "Fixou"], "answer": "Brkem", "fact": "Testovací zajímavost L6.", "difficulty": 2, "source": "obecná znalost", "status": "verified" }
+]

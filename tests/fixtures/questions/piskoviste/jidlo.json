@@ -1,0 +1,4 @@
+[
+  { "id": "piskoviste-jidlo-001", "level": "piskoviste", "theme": "jidlo", "type": "choice", "text": "Co je žluté a kyselé?", "options": ["🍋 Citron", "🍓 Jahoda"], "answer": "🍋 Citron", "fact": "Testovací zajímavost P5.", "difficulty": 1, "image": "🟡", "source": "obecná znalost", "status": "verified" },
+  { "id": "piskoviste-jidlo-002", "level": "piskoviste", "theme": "jidlo", "type": "choice", "text": "Co roste pod zemí?", "options": ["🥕 Mrkev", "🍎 Jablko", "🍒 Třešně"], "answer": "🥕 Mrkev", "fact": "Testovací zajímavost P6.", "difficulty": 1, "image": "🌱", "source": "obecná znalost", "status": "verified" }
+]

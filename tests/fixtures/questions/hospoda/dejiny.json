@@ -1,0 +1,5 @@
+[
+  { "id": "hospoda-dejiny-001", "level": "hospoda", "theme": "dejiny", "type": "choice", "text": "Testovací otázka D1: který vynález je nejstarší?", "options": ["Kolo", "Telefon", "Žárovka", "Auto"], "answer": "Kolo", "fact": "Testovací zajímavost D1.", "difficulty": 1, "source": "obecná znalost", "status": "verified" },
+  { "id": "hospoda-dejiny-002", "level": "hospoda", "theme": "dejiny", "type": "estimate", "text": "Testovací odhad D2: kolik let má jedno století?", "answer": 100, "unit": "let", "fact": "Testovací zajímavost D2.", "difficulty": 1, "source": "obecná znalost", "status": "verified" },
+  { "id": "hospoda-dejiny-003", "level": "hospoda", "theme": "dejiny", "type": "open", "text": "Testovací otevřená D3: jak se jmenoval první český král z rodu Přemyslovců?", "answer": "Vratislav II.", "accept": ["Vratislav"], "fact": "Testovací zajímavost D3.", "difficulty": 3, "source": "obecná znalost", "status": "verified" }
+]

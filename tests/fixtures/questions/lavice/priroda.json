@@ -1,0 +1,5 @@
+[
+  { "id": "lavice-priroda-001", "level": "lavice", "theme": "priroda", "type": "choice", "text": "Testovací L1: kdo dává mléko?", "options": ["Kráva", "Slepice", "Kočka"], "answer": "Kráva", "fact": "Testovací zajímavost L1.", "difficulty": 1, "image": "🐄", "source": "obecná znalost", "status": "verified" },
+  { "id": "lavice-priroda-002", "level": "lavice", "theme": "priroda", "type": "choice", "text": "Testovací L2: kolik nohou má pes?", "options": ["Dvě", "Čtyři", "Šest", "Osm"], "answer": "Čtyři", "fact": "Testovací zajímavost L2.", "difficulty": 1, "source": "obecná znalost", "status": "verified" },
+  { "id": "lavice-priroda-003", "level": "lavice", "theme": "priroda", "type": "choice", "text": "Testovací L3: co roste na jabloni?", "options": ["Hrušky", "Jablka", "Švestky"], "answer": "Jablka", "fact": "Testovací zajímavost L3.", "difficulty": 1, "source": "obecná znalost", "status": "verified" }
+]
