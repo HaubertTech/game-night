@@ -14,7 +14,10 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "check:questions": "node --disable-warning=ExperimentalWarning scripts/check-questions.ts"
+    "check:questions": "node --disable-warning=ExperimentalWarning scripts/check-questions.ts",
+    "db:up": "docker compose up -d db",
+    "db:migrate": "node --disable-warning=ExperimentalWarning scripts/migrate.ts",
+    "db:migrate:test": "node --disable-warning=ExperimentalWarning scripts/migrate.ts --test"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0",

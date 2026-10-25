@@ -1,0 +1,25 @@
+# Local Postgres for Domácí liga. Credentials come from .env (see .env.example).
+name: domaci-liga
+
+services:
+  db:
+    image: postgres:16-alpine
+    # The host has no free address pool for a new compose network; the default bridge is enough.
+    network_mode: bridge
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: domaci_liga
+      POSTGRES_USER: ${POSTGRES_USER:-domaci_liga}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports:
+      - '127.0.0.1:5437:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U $${POSTGRES_USER} -d domaci_liga']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  db-data:

@@ -1,6 +1,11 @@
 // See https://svelte.dev/docs/kit/types#app.d.ts
 declare global {
-  namespace App {}
+  namespace App {
+    interface Locals {
+      /** Logged-in household (from the signed cookie), null when logged out. */
+      household: import('#lib/server/repo/households.ts').Household | null;
+    }
+  }
 }
 
 interface ImportMetaEnv {
