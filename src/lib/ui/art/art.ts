@@ -137,7 +137,7 @@ export const PIC_KEYS: readonly string[] = Object.keys(MANIFEST)
 
 // --- Games ---------------------------------------------------------------------------------------
 
-export type GameId = 'kvizovna' | 'aktivity' | 'mjz' | 'sachy' | 'prsi' | 'zoliky';
+export type GameId = 'kvizovna' | 'aktivity' | 'mjz' | 'sachy' | 'prsi' | 'zoliky' | 'clovece';
 
 /** Official game names, used everywhere in the UI. */
 export const GAME_NAMES: Record<GameId, string> = {
@@ -147,6 +147,7 @@ export const GAME_NAMES: Record<GameId, string> = {
   sachy: 'Šachy',
   prsi: 'Prší',
   zoliky: 'Žolíky',
+  clovece: 'Člověče, nezlob se',
 };
 
 /** Card illustration per game. */
@@ -157,4 +158,5 @@ export const GAME_ART: Record<GameId, string> = {
   sachy: 'cards.sachy',
   prsi: 'cards.prsi',
   zoliky: 'cards.zoliky',
+  clovece: 'cards.clovece',
 };

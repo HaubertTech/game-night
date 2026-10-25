@@ -792,6 +792,16 @@
         "originals/grids/themes-2.png"
       ],
       "prompt": "Four subjects: 1) top-left: one blank face of a wooden toy die: a flat square cream tile with softly rounded corners, front view, completely empty; 2) top-right: one single round dark brown painted dot, like a pip on a die, drawn big; 3) bottom-left: one single round dark brown painted dot, like a pip on a die, drawn big, slightly different hand-painted edge; 4) bottom-right: one single round dark brown painted dot, like a pip on a die, drawn big, slightly irregular."
+    },
+    {
+      "id": "card-clovece",
+      "out": "originals/cards/clovece.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A family plays the classic Czech board game Člověče, nezlob se (a cross-shaped race board game like ludo) on a big wooden kitchen table in the afternoon: the square board lies in the middle, a cross-shaped track of round spaces with four coloured corner home areas (muted sage green, slate blue, ochre yellow and brick red) and little wooden cone-shaped pawns in the same colours, one white wooden die with pips mid-roll on the board. A girl of about six shakes a die cup with both hands and squeals with excitement, her older brother pretends to be outraged because his pawn was just sent home, mum laughs with a hand over her mouth, grandma calmly counts spaces with her finger. The owl MADAM OWL from the attached model sheet sits on the edge of the table like a referee, holding up one wing. Details: a jug of raspberry syrup and glasses, a plate of poppy-seed buchty buns, a cat batting a fallen pawn on the floor, a kitchen dresser with plates and a window with geraniums. Diorama view slightly from above. The die shows only pips (dots), never digits."
     }
   ],
   "pics": "Picture-dictionary icons for a quiz for children aged three to six who cannot read yet. Each subject is ONE single, iconic, instantly recognizable thing shown whole, in its most typical view, with a big simple silhouette and a bold clear ink outline, drawn a little simpler and chunkier than usual, so that it reads at a glance even at a tiny thumbnail size. No background, no scenery, no ground, no extra props, no other objects, no frames. Animals look friendly and natural (not dressed), young animals are visibly babies: smaller, rounder, bigger heads and eyes. All four subjects share the same scale of detail and the same style. Wide subjects (animals in side view, vehicles) are drawn smaller, about 55 percent of the cell width, so that the WHOLE subject including head, snout, trunk, horns and tail stays well inside its own quarter with a clear magenta margin; nothing may touch or cross the vertical or horizontal middle line of the image."

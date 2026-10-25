@@ -1,7 +1,7 @@
 // Reactive live room for Svelte 5 pages: the latest view, presence, connection status,
 // last error and a countdown corrected for the difference between phone and server clocks.
 // Quiz rooms fill `view`; the other games fill their own field (`aktivity`, `mjz`, `chess`, `prsi`,
-// `zoliky`) from protocol v2 gameState messages.
+// `zoliky`, `clovece`) from protocol v2 gameState messages.
 
 import type { LiveCommand } from '../engine/live.ts';
 import type { AktivityCommand } from '../games/aktivity/engine.ts';
@@ -12,6 +12,8 @@ import type { AktivityRoomView, ClientRole, ErrorCode, LiveView, Presence, Serve
 import type {
   ChessRoomCommand,
   ChessRoomView,
+  CloveceRoomCommand,
+  CloveceRoomView,
   PrsiRoomCommand,
   PrsiRoomView,
   ZolikyRoomCommand,
@@ -37,6 +39,7 @@ export class LiveRoom {
   chess = $state.raw<ChessRoomView | null>(null);
   prsi = $state.raw<PrsiRoomView | null>(null);
   zoliky = $state.raw<ZolikyRoomView | null>(null);
+  clovece = $state.raw<CloveceRoomView | null>(null);
   presence = $state.raw<Record<string, Presence>>({});
   status = $state<ConnectionStatus>('connecting');
   error = $state.raw<RoomError | null>(null);
@@ -51,7 +54,7 @@ export class LiveRoom {
   private cleanup: (() => void)[] = [];
 
   readonly remaining = $derived(
-    secondsLeft(this.view?.deadline ?? this.aktivity?.deadline ?? this.mjz?.deadline ?? this.prsi?.deadline ?? this.zoliky?.deadline ?? null, this.now, this.offset),
+    secondsLeft(this.view?.deadline ?? this.aktivity?.deadline ?? this.mjz?.deadline ?? this.prsi?.deadline ?? this.zoliky?.deadline ?? this.clovece?.deadline ?? null, this.now, this.offset),
   );
 
   /** Current time on the server clock (reactive, ticks 4× a second). */
@@ -128,6 +131,10 @@ export class LiveRoom {
     return this.send({ type: 'action', game: 'zoliky-hra', action });
   }
 
+  actClovece(action: CloveceRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'clovece', action });
+  }
+
   join(contestantId: string): boolean {
     return this.send({ type: 'join', contestantId });
   }
@@ -159,7 +166,8 @@ export class LiveRoom {
       else if (m.game === 'mjz') this.mjz = m.view;
       else if (m.game === 'chess') this.chess = m.view;
       else if (m.game === 'prsi-hra') this.prsi = m.view;
-      else this.zoliky = m.view;
+      else if (m.game === 'zoliky-hra') this.zoliky = m.view;
+      else this.clovece = m.view;
       if (m.view.viewer !== 'host') this.me = m.view.me;
     } else if (m.type === 'state') {
       this.game = 'quiz';

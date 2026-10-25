@@ -5,7 +5,8 @@
 // Version 2 adds games other than the quiz (`aktivity`, `mjz`): an action names its game
 // (`game`, default quiz) and the server answers with `gameState` messages for them. Quiz
 // messages are unchanged, so version 1 clients keep working with quiz rooms. Chess and the
-// digital card games (`chess`, `prsi-hra`, `zoliky-hra`) use the same v2 messages.
+// digital card games (`chess`, `prsi-hra`, `zoliky-hra`) and Člověče, nezlob se (`clovece`) use the
+// same v2 messages.
 
 import { hasOptions, type Level, type Question, type Theme } from '../types.ts';
 import type { GameSummary } from '../engine/quiz.ts';
@@ -29,10 +30,13 @@ import type { MjzView } from '../games/mjz/view.ts';
 import { isRoomGame, type RoomGame } from './games.ts';
 import {
   parseChessRoomCommand,
+  parseCloveceRoomCommand,
   parsePrsiRoomCommand,
   parseZolikyRoomCommand,
   type ChessRoomCommand,
   type ChessRoomView,
+  type CloveceRoomCommand,
+  type CloveceRoomView,
   type PrsiRoomCommand,
   type PrsiRoomView,
   type ZolikyRoomCommand,
@@ -63,6 +67,7 @@ export type ClientMessage =
   | { v: number; type: 'action'; game: 'chess'; action: ChessRoomCommand }
   | { v: number; type: 'action'; game: 'prsi-hra'; action: PrsiRoomCommand }
   | { v: number; type: 'action'; game: 'zoliky-hra'; action: ZolikyRoomCommand }
+  | { v: number; type: 'action'; game: 'clovece'; action: CloveceRoomCommand }
   | { v: number; type: 'ping'; t?: number };
 
 // ---------- server → client ----------
@@ -126,7 +131,10 @@ export type ErrorCode =
   | 'keepDiscard'
   | 'sameDiscard'
   | 'mustUseDiscard'
-  | 'nothingToReset';
+  | 'nothingToReset'
+  // Člověče, nezlob se
+  | 'rollFirst'
+  | 'alreadyRolled';
 
 export interface Presence {
   /** A phone has claimed this contestant (survives disconnects). */
@@ -149,7 +157,8 @@ export type GameStateMessage =
   | { v: number; type: 'gameState'; game: 'mjz'; view: MjzView; presence: Record<string, Presence>; now: number }
   | { v: number; type: 'gameState'; game: 'chess'; view: ChessRoomView; presence: Record<string, Presence>; now: number }
   | { v: number; type: 'gameState'; game: 'prsi-hra'; view: PrsiRoomView; presence: Record<string, Presence>; now: number }
-  | { v: number; type: 'gameState'; game: 'zoliky-hra'; view: ZolikyRoomView; presence: Record<string, Presence>; now: number };
+  | { v: number; type: 'gameState'; game: 'zoliky-hra'; view: ZolikyRoomView; presence: Record<string, Presence>; now: number }
+  | { v: number; type: 'gameState'; game: 'clovece'; view: CloveceRoomView; presence: Record<string, Presence>; now: number };
 
 // ---------- views ----------
 
@@ -576,6 +585,10 @@ export function parseClientMessage(text: string): ParseResult {
         const action = parsePrsiRoomCommand(raw.action);
         return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
       }
+      if (game === 'clovece') {
+        const action = parseCloveceRoomCommand(raw.action);
+        return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
+      }
       if (game === 'zoliky-hra') {
         const action = parseZolikyRoomCommand(raw.action);
         return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
@@ -644,6 +657,8 @@ export const ERROR_MESSAGES: Record<ErrorCode, string> = {
   sameDiscard: 'Kartu, kterou sis vzal z odhozených, nemůžeš hned zase odhodit.',
   mustUseDiscard: 'Kartu z odhozených sis vzal, tak ji musíš hned vyložit.',
   nothingToReset: 'Není co vracet.',
+  rollFirst: 'Nejdřív hoď kostkou.',
+  alreadyRolled: 'Už máš hozeno — vyber figurku.',
 };
 
 /** Error for a client; `message` replaces the standard text (e.g. the engine's detailed reason). */

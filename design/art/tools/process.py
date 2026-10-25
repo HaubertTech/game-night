@@ -36,6 +36,7 @@ ITEMS = [
   ("cards", "vecery", "cards/vecery.png", None, (1200, 900), "Večerní stůl po hře: zápisník, kalendář a karty"),
   ("cards", "hraci", "cards/hraci.png", None, (1200, 900), "Nástěnka s portréty zvířátek-hráčů"),
   ("cards", "nastaveni", "cards/nastaveni.png", None, (1200, 900), "Domácí kout u dveří s klíči a bločkem"),
+  ("cards", "clovece", "cards/clovece.png", None, (1200, 900), "Rodina u kuchyňského stolu hraje Člověče, nezlob se, sova dělá rozhodčí"),
   ("levels", "hospoda", "grids/levels.png", 0, (512, 512), "Hospoda – úroveň pro dospělé: pivo a odpovědní lístek"),
   ("levels", "lavice", "grids/levels.png", 1, (512, 512), "Lavice – úroveň pro školáky: školní lavice se sešitem"),
   ("levels", "piskoviste", "grids/levels.png", 2, (512, 512), "Pískoviště – úroveň pro předškoláky: kyblík a bábovička"),

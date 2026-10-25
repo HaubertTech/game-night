@@ -13,6 +13,7 @@
   import MjzSetup from '#lib/ui/live/MjzSetup.svelte';
   import ChessSetup from '#lib/ui/live/ChessSetup.svelte';
   import CardsSetup from '#lib/ui/live/CardsSetup.svelte';
+  import CloveceSetup from '#lib/ui/live/CloveceSetup.svelte';
 
   interface PlayerRow {
     id: number;
@@ -55,6 +56,7 @@
     chess: 'Dva hráči na telefonech, televize ukazuje šachovnici a hodiny.',
     'prsi-hra': 'Karty na telefonech, stůl na televizi, počítač doplní hráče.',
     'zoliky-hra': 'Vykládání kombinací — ruka na telefonu, stůl na televizi.',
+    clovece: 'Plán na televizi, každý hází a táhne ze svého mobilu.',
   };
 
   const inTeam = $derived(new Set(Object.keys(selectedTeams).flatMap((id) => teams.find((t) => t.id === Number(id))?.member_ids ?? [])));
@@ -178,6 +180,8 @@
     <ChessSetup {players} {nightId} />
   {:else if game === 'prsi-hra' || game === 'zoliky-hra'}
     {#key game}<CardsSetup {players} {nightId} {game} />{/key}
+  {:else if game === 'clovece'}
+    <CloveceSetup {players} {nightId} />
   {:else}
     <section class="card stack">
       <h2>Kdo hraje</h2>
@@ -282,10 +286,10 @@
   }
   @media (min-width: 1300px) {
     .games {
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+      grid-template-columns: repeat(7, minmax(0, 1fr));
     }
   }
-  /* Phones: two columns, so the six games fit on one or two screens and the setup follows. */
+  /* Phones: two columns, so the seven games fit on one or two screens and the setup follows. */
   @media (max-width: 640px) {
     .games {
       grid-template-columns: repeat(2, minmax(0, 1fr));

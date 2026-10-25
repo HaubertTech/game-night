@@ -3,6 +3,7 @@
 import type { RoomGame } from '../../live/games.ts';
 import { aktivityAdapter } from './aktivity.ts';
 import { chessAdapter } from './chess.ts';
+import { cloveceRoomAdapter } from './clovece.ts';
 import { mjzAdapter } from './mjz.ts';
 import { prsiRoomAdapter } from './prsi-hra.ts';
 import { quizAdapter } from './quiz.ts';
@@ -19,6 +20,7 @@ export const GAME_ADAPTERS: Record<RoomGame, AnyAdapter> = {
   chess: chessAdapter,
   'prsi-hra': prsiRoomAdapter,
   'zoliky-hra': zolikyRoomAdapter,
+  clovece: cloveceRoomAdapter,
 };
 
 /** Rooms stored before v2 have no `game`: they are quiz rooms. */

@@ -12,7 +12,8 @@ import type { ChessState } from '#lib/games/chess/engine.ts';
 import { choosePrsiMove } from '#lib/games/karty-hra/ai/prsi-ai.ts';
 import { chooseZolikyCommand } from '#lib/games/karty-hra/ai/zoliky-ai.ts';
 import type { MjzState } from '#lib/games/mjz/engine.ts';
-import type { PrsiRoomState, ZolikyRoomState } from '#lib/live/table-games.ts';
+import { adviseClovece } from '#lib/games/clovece/ai.ts';
+import type { CloveceRoomState, PrsiRoomState, ZolikyRoomState } from '#lib/live/table-games.ts';
 import { getCardMatch } from '#lib/server/services/cards.ts';
 import { PROTOCOL_VERSION, type ClientMessage } from '#lib/live/protocol.ts';
 import { one, query } from '#lib/server/db.ts';
@@ -339,13 +340,67 @@ describe('POST /api/rooms: digital prší and žolíky', () => {
   });
 });
 
-describe('migration 004_chess_game_type (latest game types)', () => {
+describe('POST /api/rooms: Člověče, nezlob se', () => {
+  it('validates the table and the variants', async () => {
+    const lonely = await httpError(() => postRoom(fakeEvent({ body: { game: 'clovece', player_ids: [p[0].id] }, household: home })));
+    expect(lonely.message).toMatch(/2 až 4/);
+    const crowd = await httpError(() => postRoom(fakeEvent({ body: { game: 'clovece', player_ids: [p[0].id, p[1].id], computers: 3 }, household: home })));
+    expect(crowd.status).toBe(400);
+    const pawns = await httpError(() => postRoom(fakeEvent({ body: { game: 'clovece', player_ids: [p[0].id], computers: 1, pawns: 3 }, household: home })));
+    expect(pawns.status).toBe(400);
+    const flag = await httpError(() => postRoom(fakeEvent({ body: { game: 'clovece', player_ids: [p[0].id], computers: 1, capture: 'ne' }, household: home })));
+    expect(flag.status).toBe(400);
+  });
+
+  it('plays with a computer and records the people as clovece', async () => {
+    process.env.CARD_AI_DELAY_MS = '0';
+    const { code, host_token: token } = await create({ game: 'clovece', player_ids: [p[0].id, p[2].id], computers: 1, computer_level: 3, hints_for: [p[2].id], pawns: 2, capture: false });
+    delete process.env.CARD_AI_DELAY_MS;
+    const row = await matchRow(code);
+    expect(row).toMatchObject({ status: 'lobby', game_type: 'clovece' });
+    const info = await (await getRoom(fakeEvent({ params: { code } }))).json();
+    expect(info.contestants.map((c: { id: string }) => c.id)).toEqual([`p${p[0].id}`, `p${p[2].id}`]);
+    const state = hub.rooms.getState<CloveceRoomState>(code)!;
+    expect(state.table.settings).toMatchObject({ pawns: 2, capture: false });
+    const tv = client();
+    const a = client();
+    const b = client();
+    await tv({ type: 'hello', code, role: 'host', token });
+    await a({ type: 'hello', code, role: 'player' });
+    await a({ type: 'join', contestantId: `p${p[0].id}` });
+    await b({ type: 'hello', code, role: 'player' });
+    await b({ type: 'join', contestantId: `p${p[2].id}` });
+    await tv({ type: 'action', game: 'clovece', action: { type: 'start' } });
+    expect((await matchRow(code))!.status).toBe('running');
+    for (let i = 0; i < 20000; i++) {
+      const room = hub.rooms.getState<CloveceRoomState>(code)!;
+      if (room.table.phase === 'finished') break;
+      const turn = room.table.turn;
+      if (turn === 'ai1') {
+        runTimers();
+        await hub.rooms.flush();
+        continue;
+      }
+      await (turn === `p${p[0].id}` ? a : b)({ type: 'action', game: 'clovece', action: adviseClovece(room.table, 2).command });
+    }
+    const room = hub.rooms.getState<CloveceRoomState>(code)!;
+    expect(room.table.phase).toBe('finished');
+    expect((await matchRow(code))!.status).toBe('finished');
+    const seats = await listParticipants(row!.id);
+    expect(seats.map((s) => s.player_id).sort()).toEqual([p[0].id, p[2].id].sort());
+    for (const s of seats) expect(s.place).toBe(room.table.finished.indexOf(`p${s.player_id}`) + 1);
+    const rating = await one<{ n: number }>(`SELECT COUNT(*)::int AS n FROM ratings WHERE game_type = 'clovece' AND player_id = $1`, [p[0].id]);
+    expect(rating?.n).toBe(1);
+   }, 60_000);
+});
+
+describe('migration 006_clovece_game_type (latest game types)', () => {
   it('can run twice and allows the known game types only', async () => {
-    // 002 cannot run again once chess matches exist; 004 carries the full list.
-    const sql = readFileSync(join(MIGRATIONS_DIR, '004_chess_game_type.sql'), 'utf8');
+    // Older game-type migrations cannot run again once newer game types exist; 006 carries the full list.
+    const sql = readFileSync(join(MIGRATIONS_DIR, '006_clovece_game_type.sql'), 'utf8');
     await query(sql);
     await query(sql);
-    for (const t of ['aktivity', 'mjz', 'chess']) {
+    for (const t of ['aktivity', 'mjz', 'chess', 'clovece']) {
       const r = await one<{ id: number }>(`INSERT INTO matches (household_id, game_type) VALUES ($1, $2) RETURNING id`, [home.id, t]);
       expect(r?.id).toBeTruthy();
     }

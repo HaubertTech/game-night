@@ -17,6 +17,7 @@
   import ChessPhone from '#lib/ui/live/ChessPhone.svelte';
   import PrsiPhone from '#lib/ui/live/PrsiPhone.svelte';
   import ZolikyPhone from '#lib/ui/live/ZolikyPhone.svelte';
+  import ClovecePhone from '#lib/ui/live/ClovecePhone.svelte';
   import { ROOM_GAME_LABELS } from '#lib/live/games.ts';
   import LiveFinal from '#lib/ui/live/LiveFinal.svelte';
   import LiveQuestion from '#lib/ui/live/LiveQuestion.svelte';
@@ -83,6 +84,8 @@
   <PrsiPhone {room} {code} />
 {:else if room.game === 'zoliky-hra'}
   <ZolikyPhone {room} {code} />
+{:else if room.game === 'clovece'}
+  <ClovecePhone {room} {code} />
 {:else}
 
 <main class="phone" data-testid="phone" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''}>

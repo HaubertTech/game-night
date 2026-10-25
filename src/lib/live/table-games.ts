@@ -1,8 +1,9 @@
-// Shapes of the table games in live rooms (chess, digital prší and žolíky): room states, the
+// Shapes of the table games in live rooms (chess, digital prší and žolíky, Člověče, nezlob se): room states, the
 // views a screen receives and the commands a client may send. Types and parsers only, so the
 // protocol, the server adapters and the UI share them without pulling in server code.
 
 import type { ChessColor, ChessState } from '../games/chess/engine.ts';
+import type { CloveceCommand, CloveceState, CloveceView } from '../games/clovece/engine.ts';
 import { MARIAS_SUITS, type MariasSuit } from '../games/karty-hra/cards.ts';
 import type { AiLevel, PrsiCommand, PrsiGameState, PrsiView } from '../games/karty-hra/prsi-engine.ts';
 import type { ZolikyCommand, ZolikyGameState, ZolikyView } from '../games/karty-hra/zoliky-engine.ts';
@@ -101,6 +102,24 @@ export type ZolikyRoomView = ZolikyView &
   };
 
 export type PrsiRoomCommand = PrsiCommand | { type: 'start' };
+
+// ---------- Člověče, nezlob se ----------
+
+/** Seats like at the card table (people `p<id>`, computers `ai<n>`); `table` is the board. */
+export interface CloveceRoomState extends CardRoomBase {
+  game: 'clovece';
+  phase: 'lobby' | CloveceState['phase'];
+  table: CloveceState;
+}
+
+export type CloveceRoomView = CloveceView &
+  CardRoomViewBase & {
+    roomPhase: CloveceRoomState['phase'];
+    /** Owl's advice for the own seat with hints on and on its turn: pawn to move and why. */
+    hint: { text: string; pawn: number | null } | null;
+  };
+
+export type CloveceRoomCommand = CloveceCommand | { type: 'start' };
 export type ZolikyRoomCommand = ZolikyCommand | { type: 'start' };
 
 // ---------- parsers ----------
@@ -137,6 +156,19 @@ export function parsePrsiRoomCommand(raw: unknown): PrsiRoomCommand | null {
       if (raw.suit === undefined) return { type: 'play', cardId: raw.cardId };
       return (MARIAS_SUITS as readonly unknown[]).includes(raw.suit) ? { type: 'play', cardId: raw.cardId, suit: raw.suit as MariasSuit } : null;
     }
+    default:
+      return null;
+  }
+}
+
+export function parseCloveceRoomCommand(raw: unknown): CloveceRoomCommand | null {
+  if (!isObj(raw)) return null;
+  switch (raw.type) {
+    case 'start':
+    case 'roll':
+      return { type: raw.type };
+    case 'move':
+      return Number.isInteger(raw.pawn) && (raw.pawn as number) >= 0 && (raw.pawn as number) < 4 ? { type: 'move', pawn: raw.pawn as number } : null;
     default:
       return null;
   }

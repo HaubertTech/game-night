@@ -137,6 +137,7 @@
 {#snippet freeGames()}
   <GameCard art={GAME_ART.kvizovna} title={`${GAME_NAMES.kvizovna} na tabletu`} text="Jeden tablet koluje kolem stolu. Funguje i bez účtu." href="/tablet" testid="game-tablet" />
   <GameCard art={GAME_ART.sachy} title={GAME_NAMES.sachy} text="Proti počítači, ve dvou nebo s lekcemi od sovy." href="/sachy" testid="game-sachy" />
+  <GameCard art={GAME_ART.clovece} title={GAME_NAMES.clovece} text="Na jednom tabletu, s počítačem a s lekcí od sovy." href="/clovece" testid="game-clovece" />
   <GameCard art={GAME_ART.prsi} title={`Trénink: ${GAME_NAMES.prsi}`} text="Lekce a hra s počítačem." href="/trenink/prsi" testid="game-trenink-prsi" />
   <GameCard art={GAME_ART.zoliky} title={`Trénink: ${GAME_NAMES.zoliky}`} text="Lekce a hra s počítačem." href="/trenink/zoliky" testid="game-trenink-zoliky" />
 {/snippet}
@@ -148,7 +149,7 @@
     </div>
     <div class="hero-text">
       <h1>Herní večer</h1>
-      <p class="muted">Kvízovna, Řekni-ukaž-nakresli, Město-jméno-zvíře, Šachy, Prší a Žolíky. Večery, tabulka sezóny a statistiky celé rodiny.</p>
+      <p class="muted">Kvízovna, Řekni-ukaž-nakresli, Město-jméno-zvíře, Šachy, Člověče, nezlob se, Prší a Žolíky. Večery, tabulka sezóny a statistiky celé rodiny.</p>
     </div>
   </header>
 
@@ -241,6 +242,7 @@
         <GameCard art={GAME_ART.aktivity} title={GAME_NAMES.aktivity} text="Týmy vysvětlují slova slovem, pantomimou a kresbou." href={tvHref('aktivity')} testid="game-aktivity" />
         <GameCard art={GAME_ART.mjz} title={GAME_NAMES.mjz} text="Písmeno, kategorie, Stop! Píše se na mobilech." href={tvHref('mjz')} testid="game-mjz" />
         <GameCard art={GAME_ART.sachy} title={GAME_NAMES.sachy} text="Proti počítači, ve dvou nebo s lekcemi od sovy." href="/sachy" testid="game-sachy" />
+        <GameCard art={GAME_ART.clovece} title={GAME_NAMES.clovece} text="Na tabletu, s počítačem, nebo plán na televizi a kostka na mobilu." href={today ? `/clovece?night=${today.id}` : '/clovece'} testid="game-clovece" />
         <GameCard art={GAME_ART.prsi} title={GAME_NAMES.prsi} text="Zápis partie s opravdovými kartami." href={cardsHref('prsi')} testid="game-prsi" />
         <GameCard art={GAME_ART.zoliky} title={GAME_NAMES.zoliky} text="Zápis partie s opravdovými kartami." href={cardsHref('zoliky')} testid="game-zoliky" />
         <GameCard art="cards.trenink" title="Trénink karet" text="Prší a žolíky se sovou: lekce a hra s počítačem." href="/trenink" testid="game-trenink" />
@@ -250,6 +252,7 @@
         <a class="btn" href={tvHref('chess')}>📺 Šachy na televizi</a>
         <a class="btn" href={tvHref('prsi-hra')}>📺 Prší na televizi</a>
         <a class="btn" href={tvHref('zoliky-hra')}>📺 Žolíky na televizi</a>
+        <a class="btn" href={tvHref('clovece')}>📺 Člověče na televizi</a>
       </div>
     </section>
 
