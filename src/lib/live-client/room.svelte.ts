@@ -1,6 +1,7 @@
 // Reactive live room for Svelte 5 pages: the latest view, presence, connection status,
 // last error and a countdown corrected for the difference between phone and server clocks.
-// Quiz rooms fill `view`; aktivity and mjz rooms fill `aktivity` / `mjz` (protocol v2 gameState).
+// Quiz rooms fill `view`; the other games fill their own field (`aktivity`, `mjz`, `chess`, `prsi`,
+// `zoliky`) from protocol v2 gameState messages.
 
 import type { LiveCommand } from '../engine/live.ts';
 import type { AktivityCommand } from '../games/aktivity/engine.ts';
@@ -8,6 +9,14 @@ import type { MjzCommand } from '../games/mjz/engine.ts';
 import type { MjzView } from '../games/mjz/view.ts';
 import type { RoomGame } from '../live/games.ts';
 import type { AktivityRoomView, ClientRole, ErrorCode, LiveView, Presence, ServerMessage } from '../live/protocol.ts';
+import type {
+  ChessRoomCommand,
+  ChessRoomView,
+  PrsiRoomCommand,
+  PrsiRoomView,
+  ZolikyRoomCommand,
+  ZolikyRoomView,
+} from '../live/table-games.ts';
 import type { Question } from '../types.ts';
 import { LiveConnection, type ConnectionStatus } from './connection.ts';
 import { secondsLeft, wsUrl } from './clock.ts';
@@ -25,6 +34,9 @@ export class LiveRoom {
   game = $state<RoomGame | null>(null);
   aktivity = $state.raw<AktivityRoomView | null>(null);
   mjz = $state.raw<MjzView | null>(null);
+  chess = $state.raw<ChessRoomView | null>(null);
+  prsi = $state.raw<PrsiRoomView | null>(null);
+  zoliky = $state.raw<ZolikyRoomView | null>(null);
   presence = $state.raw<Record<string, Presence>>({});
   status = $state<ConnectionStatus>('connecting');
   error = $state.raw<RoomError | null>(null);
@@ -39,8 +51,13 @@ export class LiveRoom {
   private cleanup: (() => void)[] = [];
 
   readonly remaining = $derived(
-    secondsLeft(this.view?.deadline ?? this.aktivity?.deadline ?? this.mjz?.deadline ?? null, this.now, this.offset),
+    secondsLeft(this.view?.deadline ?? this.aktivity?.deadline ?? this.mjz?.deadline ?? this.prsi?.deadline ?? this.zoliky?.deadline ?? null, this.now, this.offset),
   );
+
+  /** Current time on the server clock (reactive, ticks 4× a second). */
+  serverNow(): number {
+    return this.now + this.offset;
+  }
 
   /** Seconds left until a server-clock deadline (reactive, skew-corrected). */
   secondsUntil(deadline: number | null): number | null {
@@ -99,6 +116,18 @@ export class LiveRoom {
     return this.send({ type: 'action', game: 'mjz', action });
   }
 
+  actChess(action: ChessRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'chess', action });
+  }
+
+  actPrsi(action: PrsiRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'prsi-hra', action });
+  }
+
+  actZoliky(action: ZolikyRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'zoliky-hra', action });
+  }
+
   join(contestantId: string): boolean {
     return this.send({ type: 'join', contestantId });
   }
@@ -127,7 +156,10 @@ export class LiveRoom {
       this.game = m.game;
       this.presence = m.presence;
       if (m.game === 'aktivity') this.aktivity = m.view;
-      else this.mjz = m.view;
+      else if (m.game === 'mjz') this.mjz = m.view;
+      else if (m.game === 'chess') this.chess = m.view;
+      else if (m.game === 'prsi-hra') this.prsi = m.view;
+      else this.zoliky = m.view;
       if (m.view.viewer !== 'host') this.me = m.view.me;
     } else if (m.type === 'state') {
       this.game = 'quiz';

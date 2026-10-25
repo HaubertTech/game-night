@@ -95,7 +95,7 @@ export async function createCardMatch(householdId: number, input: CardMatchInput
 
 export async function getCardMatch(householdId: number, matchId: number, client?: Queryable): Promise<CardMatchView | null> {
   const row = await one<CardMatchView>(
-    `SELECT id, game_type, night_id, status, state FROM matches WHERE household_id = $1 AND id = $2 AND game_type IN ('prsi', 'zoliky')`,
+    `SELECT id, game_type, night_id, status, state FROM matches WHERE household_id = $1 AND id = $2 AND game_type IN ('prsi', 'zoliky') AND room_code IS NULL`,
     [householdId, matchId],
     client,
   );
@@ -150,7 +150,7 @@ function toRecordParticipants(result: MatchResult) {
 export async function applyCardAction(householdId: number, matchId: number, rawAction: unknown): Promise<CardMatchView> {
   return tx(async (c) => {
     const match = await one<CardMatchView>(
-      `SELECT id, game_type, night_id, status, state FROM matches WHERE household_id = $1 AND id = $2 AND game_type IN ('prsi', 'zoliky') FOR UPDATE`,
+      `SELECT id, game_type, night_id, status, state FROM matches WHERE household_id = $1 AND id = $2 AND game_type IN ('prsi', 'zoliky') AND room_code IS NULL FOR UPDATE`,
       [householdId, matchId],
       c,
     );
@@ -186,7 +186,7 @@ export async function applyCardAction(householdId: number, matchId: number, rawA
 export async function abandonCardMatch(householdId: number, matchId: number): Promise<boolean> {
   const rows = await query<{ id: number }>(
     `UPDATE matches SET status = 'abandoned', updated_at = now()
-      WHERE household_id = $1 AND id = $2 AND game_type IN ('prsi', 'zoliky') AND status IN ('lobby', 'running') RETURNING id`,
+      WHERE household_id = $1 AND id = $2 AND game_type IN ('prsi', 'zoliky') AND room_code IS NULL AND status IN ('lobby', 'running') RETURNING id`,
     [householdId, matchId],
   );
   return rows.length > 0;

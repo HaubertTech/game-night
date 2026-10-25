@@ -1,13 +1,15 @@
 // Common shape of a game hosted in a live room. RoomManager (rooms.ts) only talks to this
 // interface: applying actions, views, server timeouts, seats for phones and the league result.
 
+import type { GameType } from '../../league/types.ts';
 import type { RoomGame } from '../../live/games.ts';
 import type { ErrorCode, ServerMessage, Viewer } from '../../live/protocol.ts';
 import type { RecordMatchInput } from '../services/results.ts';
 
 export type RoomActor = { role: 'host' } | { role: 'contestant'; contestantId: string } | { role: 'system' };
 
-export type ApplyResult<S> = { ok: true; state: S } | { ok: false; error: ErrorCode };
+/** `message` replaces the standard Czech text of the error (detailed engine reason). */
+export type ApplyResult<S> = { ok: true; state: S } | { ok: false; error: ErrorCode; message?: string };
 
 /** One seat a phone may claim. */
 export interface RoomSeat {
@@ -18,6 +20,8 @@ export interface RoomSeat {
 
 export interface GameAdapter<S, C> {
   readonly game: RoomGame;
+  /** League game type of the room's match row (defaults to `game`). */
+  readonly gameType?: GameType;
   apply(state: S, command: C, by: RoomActor, now: number): ApplyResult<S>;
   /** The message for one screen (state or gameState), without presence/now filled by the caller. */
   message(state: S, viewer: Viewer, presence: Extract<ServerMessage, { type: 'state' }>['presence'], now: number): ServerMessage;

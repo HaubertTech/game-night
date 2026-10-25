@@ -1,16 +1,23 @@
-// Creating live rooms for „Řekni, ukaž, nakresli“ and „Město, jméno, zvíře“ from an API body.
+// Creating live rooms for „Řekni, ukaž, nakresli“, „Město, jméno, zvíře“, chess and the digital
+// card games from an API body.
 // Contestant ids are `p<playerId>` / `t<teamId>` like in the live quiz, so the DB store can
 // record the finished game. Errors are SvelteKit HttpErrors with Czech messages.
 
+import process from 'node:process';
 import type { AktivityGoal, AktivityTeam } from '../../games/aktivity/engine.ts';
 import { MAX_TEAMS, MAX_TIMER_SECONDS, MIN_TEAMS, MIN_TIMER_SECONDS } from '../../games/aktivity/engine.ts';
 import { ADULT_CATEGORIES, KIDS_CATEGORIES, alphabet, type MjzSettings } from '../../games/mjz/engine.ts';
+import { createChessGame } from '../../games/chess/engine.ts';
 import type { Contestant } from '../../engine/select.ts';
+import type { TableSeat } from '../../live/table-games.ts';
 import { one } from '../db.ts';
 import { fail, isLevel } from '../http.ts';
 import { listPlayers, type Player } from '../repo/players.ts';
 import { loadSeen } from '../repo/seen.ts';
 import { createTeam, findTeamWithMembers, listTeams } from '../repo/teams.ts';
+import { DEFAULT_AI_DELAY_MS } from '../games/card-table.ts';
+import { createPrsiRoom } from '../games/prsi-hra.ts';
+import { createZolikyRoom } from '../games/zoliky-hra.ts';
 import type { CreatedRoom } from '../rooms.ts';
 import type { LiveHub } from '../ws.ts';
 
@@ -181,4 +188,92 @@ export async function createMjzRoom(hub: LiveHub, householdId: number, body: Rec
     if ((err as { status?: number }).status) throw err;
     return fail(400, 'Neplatné nastavení hry.');
   }
+}
+
+// ---------- Šachy ----------
+
+const CHESS_MINUTES = [0, 3, 5, 10, 15, 30];
+
+/** Body: { white_id, black_id, minutes?: 0 | 3 | 5 | 10 | 15 | 30, increment_seconds?: 0–30, night_id? }. */
+export async function createChessRoom(hub: LiveHub, householdId: number, body: Record<string, unknown>): Promise<CreatedRoom> {
+  const whiteId = body.white_id;
+  const blackId = body.black_id;
+  if (!Number.isInteger(whiteId) || !Number.isInteger(blackId)) fail(400, 'Vyber bílého i černého hráče.');
+  if (whiteId === blackId) fail(400, 'Bílý a černý musí být dva různí hráči.');
+  const minutes = body.minutes ?? 0;
+  if (!CHESS_MINUTES.includes(minutes as number)) fail(400, 'Neplatný čas na partii.');
+  const increment = body.increment_seconds ?? 0;
+  if (!Number.isInteger(increment) || (increment as number) < 0 || (increment as number) > 30) fail(400, 'Přídavek musí být 0 až 30 s.');
+  const players = await listPlayers(householdId);
+  const byId = new Map(players.map((p) => [p.id, p]));
+  const white = byId.get(whiteId as number) ?? fail(400, 'Někteří hráči do domácnosti nepatří.');
+  const black = byId.get(blackId as number) ?? fail(400, 'Někteří hráči do domácnosti nepatří.');
+  const nightId = await resolveNight(householdId, body.night_id);
+  const seat = (p: Player) => ({ id: playerSeat(p.id), name: p.name, avatar: p.avatar, level: p.level });
+  return hub.rooms.createGameRoom(
+    'chess',
+    (code, createdAt) =>
+      createChessGame({
+        id: `chess-${code}`,
+        mode: 'room',
+        createdAt,
+        white: seat(white),
+        black: seat(black),
+        allowUndo: false,
+        clock: minutes ? { minutes: minutes as number, incrementSeconds: increment as number } : null,
+      }),
+    { householdId, nightId },
+  );
+}
+
+// ---------- Digitální prší a žolíky ----------
+
+const COMPUTER_NAMES = ['Robík', 'Pixel', 'Bitka', 'Čip'];
+const TURN_LIMITS = [null, 15, 30, 45, 60, 90, 120];
+
+function aiDelayMs(): number {
+  const raw = Number(process.env.CARD_AI_DELAY_MS);
+  return Number.isFinite(raw) && raw >= 0 ? raw : DEFAULT_AI_DELAY_MS;
+}
+
+/**
+ * Body: { player_ids, computers?: 0–4, computer_level?: 1 | 2 | 3, hints_for?: player_ids, turn_seconds?: null | 15–120,
+ * deals? (prší 1–10), rounds? (žolíky 1–20), night_id? }. 2–5 seats in total; at least one person.
+ */
+export async function createCardRoom(hub: LiveHub, householdId: number, game: 'prsi-hra' | 'zoliky-hra', body: Record<string, unknown>): Promise<CreatedRoom> {
+  const playerIds = idList(body.player_ids, 'player_ids');
+  if (playerIds.length === 0) fail(400, 'Vyber aspoň jednoho hráče.');
+  const computers = body.computers ?? 0;
+  if (!Number.isInteger(computers) || (computers as number) < 0 || (computers as number) > COMPUTER_NAMES.length) fail(400, 'Počítačů může být 0 až 4.');
+  const total = playerIds.length + (computers as number);
+  if (total < 2 || total > 5) fail(400, 'U stolu sedí 2 až 5 hráčů včetně počítačů.');
+  const level = body.computer_level ?? 2;
+  if (level !== 1 && level !== 2 && level !== 3) fail(400, 'Síla počítače je 1, 2 nebo 3.');
+  const hintsFor = new Set(idList(body.hints_for, 'hints_for'));
+  const turnSeconds = body.turn_seconds ?? null;
+  if (!TURN_LIMITS.includes(turnSeconds as number | null)) fail(400, 'Neplatný čas na tah.');
+  const settingKey = game === 'prsi-hra' ? 'deals' : 'rounds';
+  const count = body[settingKey] ?? (game === 'prsi-hra' ? 1 : 10);
+  const max = game === 'prsi-hra' ? 10 : 20;
+  if (!Number.isInteger(count) || (count as number) < 1 || (count as number) > max) fail(400, `Počet ${game === 'prsi-hra' ? 'partií' : 'kol'} musí být 1 až ${max}.`);
+
+  const players = await listPlayers(householdId);
+  const byId = new Map(players.map((p) => [p.id, p]));
+  const seats: TableSeat[] = playerIds.map((id) => {
+    const p = byId.get(id) ?? fail(400, 'Někteří hráči do domácnosti nepatří.');
+    return { id: playerSeat(p.id), name: p.name, avatar: p.avatar, level: p.level, ai: null, hints: hintsFor.has(p.id) };
+  });
+  for (let i = 0; i < (computers as number); i++) {
+    seats.push({ id: `ai${i + 1}`, name: COMPUTER_NAMES[i], avatar: '🤖', level: 'hospoda', ai: level, hints: false });
+  }
+  const nightId = await resolveNight(householdId, body.night_id);
+  const common = { seed: seed(), seats, nightId: nightId === null ? null : String(nightId), turnSeconds: turnSeconds as number | null, aiDelayMs: aiDelayMs() };
+  return hub.rooms.createGameRoom(
+    game,
+    (code, createdAt, now) =>
+      game === 'prsi-hra'
+        ? createPrsiRoom({ ...common, id: `prsi-${code}`, createdAt, now, settings: { deals: count as number } })
+        : createZolikyRoom({ ...common, id: `zoliky-${code}`, createdAt, now, settings: { rounds: count as number } }),
+    { householdId, nightId },
+  );
 }

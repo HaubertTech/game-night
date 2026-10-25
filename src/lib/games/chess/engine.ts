@@ -353,8 +353,8 @@ export function pgn(state: ChessState): string {
 
 // ---------- league ----------
 
-/** MatchResult with gameType 'chess' (the league GameType union does not list chess yet). */
-export type ChessMatchResult = Omit<MatchResult, 'gameType'> & { gameType: 'chess' };
+/** League result of a chess game (gameType 'chess'). */
+export type ChessMatchResult = MatchResult & { gameType: 'chess' };
 
 /**
  * League result of a finished game: winner place 1 / score 1, loser place 2 / score 0, draw both

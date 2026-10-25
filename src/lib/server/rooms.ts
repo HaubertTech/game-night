@@ -1,14 +1,16 @@
 // Live rooms without any networking: clients are opaque ids, messages go out through an
 // injected `send`, time comes from an injected `clock` and timeouts from a `scheduler`.
 // The ws server (ws.ts) and the tests drive the same code.
-// The game itself (quiz, aktivity, mjz) sits behind an adapter (server/games/*.ts).
+// The game itself (quiz, aktivity, mjz, chess, prší, žolíky) sits behind an adapter (server/games/*.ts).
 
 import { createHash, randomBytes } from 'node:crypto';
 import type { Question } from '../types.ts';
 import { createLiveGame, type CreateLiveInput, type LiveState } from '../engine/live.ts';
 import type { AktivityState } from '../games/aktivity/engine.ts';
+import type { ChessState } from '../games/chess/engine.ts';
 import type { MjzState } from '../games/mjz/engine.ts';
 import type { RoomGame } from '../live/games.ts';
+import type { PrsiRoomState, ZolikyRoomState } from '../live/table-games.ts';
 import {
   errorMessage,
   isSupportedVersion,
@@ -23,7 +25,7 @@ import {
 import { adapterFor, type AnyAdapter } from './games/index.ts';
 import type { RoomActor } from './games/types.ts';
 
-export type RoomState = LiveState | AktivityState | MjzState;
+export type RoomState = LiveState | AktivityState | MjzState | ChessState | PrsiRoomState | ZolikyRoomState;
 
 /** Room codes avoid look-alike characters (0/O, 1/I/L). */
 export const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
@@ -155,17 +157,17 @@ export class RoomManager {
 
   /**
    * Creates a room for another game. `build` gets the room code and the creation time and
-   * returns the initial engine state (createAktivity / createMjzGame).
+   * returns the initial engine state (createAktivity / createMjzGame / createChessGame …).
    */
   async createGameRoom(
     game: Exclude<RoomGame, 'quiz'>,
-    build: (code: string, createdAt: string) => AktivityState | MjzState,
+    build: (code: string, createdAt: string, now: number) => Exclude<RoomState, LiveState>,
     meta?: RoomMeta,
   ): Promise<CreatedRoom> {
     const code = await this.freeCode();
     const now = this.opts.clock();
     const hostToken = this.opts.newToken();
-    const state = build(code, new Date(now).toISOString());
+    const state = build(code, new Date(now).toISOString(), now);
     return this.open(code, now, hostToken, game, state, meta);
   }
 
@@ -360,8 +362,8 @@ export class RoomManager {
     });
   }
 
-  private error(client: Client, code: ErrorCode): void {
-    this.opts.send(client.id, errorMessage(code));
+  private error(client: Client, code: ErrorCode, message?: string): void {
+    this.opts.send(client.id, errorMessage(code, message));
   }
 
   private async hello(client: Client, message: Extract<ClientMessage, { type: 'hello' }>): Promise<void> {
@@ -432,7 +434,7 @@ export class RoomManager {
     else return this.error(client, 'notJoined');
     const adapter = this.adapter(room);
     const result = adapter.apply(room.data.state, command, by, this.opts.clock());
-    if (!result.ok) return this.error(client, result.error);
+    if (!result.ok) return this.error(client, result.error, result.message);
     if (result.state === room.data.state) return;
     const kicked = adapter.kickTarget(command);
     if (kicked) this.releaseKicked(room, kicked);

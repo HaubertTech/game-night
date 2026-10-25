@@ -9,6 +9,7 @@ import { adapterFor } from './games/index.ts';
 import { parseSeatId } from './games/types.ts';
 import { createMatch, saveMatchState, type MatchStatus } from './repo/matches.ts';
 import type { RoomStore, StoredRoom } from './rooms.ts';
+import type { GameType } from '../league/types.ts';
 import { recordMatch } from './services/results.ts';
 
 export { liveRecordInput } from './games/quiz.ts';
@@ -74,7 +75,7 @@ export class DbRoomStore implements RoomStore {
         const householdId = room.meta?.householdId;
         if (!householdId) throw new Error(`[room-store-db] room ${room.code} has no household (meta.householdId)`);
         const created = await createMatch(householdId, {
-          game_type: room.game ?? 'quiz',
+          game_type: adapterFor(room.game).gameType ?? (room.game as GameType | undefined) ?? 'quiz',
           mode: 'live',
           room_code: room.code,
           night_id: room.meta?.nightId ?? null,

@@ -4,7 +4,8 @@
 //
 // Version 2 adds games other than the quiz (`aktivity`, `mjz`): an action names its game
 // (`game`, default quiz) and the server answers with `gameState` messages for them. Quiz
-// messages are unchanged, so version 1 clients keep working with quiz rooms.
+// messages are unchanged, so version 1 clients keep working with quiz rooms. Chess and the
+// digital card games (`chess`, `prsi-hra`, `zoliky-hra`) use the same v2 messages.
 
 import type { Level, Question, Theme } from '../types.ts';
 import type { GameSummary } from '../engine/quiz.ts';
@@ -26,6 +27,17 @@ import { DIFFICULTIES } from '../games/aktivity/types.ts';
 import { ANSWER_MAX, type MjzCategory, type MjzCommand, type MjzSettings } from '../games/mjz/engine.ts';
 import type { MjzView } from '../games/mjz/view.ts';
 import { isRoomGame, type RoomGame } from './games.ts';
+import {
+  parseChessRoomCommand,
+  parsePrsiRoomCommand,
+  parseZolikyRoomCommand,
+  type ChessRoomCommand,
+  type ChessRoomView,
+  type PrsiRoomCommand,
+  type PrsiRoomView,
+  type ZolikyRoomCommand,
+  type ZolikyRoomView,
+} from './table-games.ts';
 
 export const PROTOCOL_VERSION = 2;
 /** Versions the server accepts from clients (1 = quiz-only clients). */
@@ -48,6 +60,9 @@ export type ClientMessage =
   | { v: number; type: 'action'; game?: 'quiz'; action: LiveCommand }
   | { v: number; type: 'action'; game: 'aktivity'; action: AktivityCommand }
   | { v: number; type: 'action'; game: 'mjz'; action: MjzCommand }
+  | { v: number; type: 'action'; game: 'chess'; action: ChessRoomCommand }
+  | { v: number; type: 'action'; game: 'prsi-hra'; action: PrsiRoomCommand }
+  | { v: number; type: 'action'; game: 'zoliky-hra'; action: ZolikyRoomCommand }
   | { v: number; type: 'ping'; t?: number };
 
 // ---------- server → client ----------
@@ -85,7 +100,33 @@ export type ErrorCode =
   | 'incomplete'
   | 'noLetters'
   | 'notChallengeable'
-  | 'ownAnswer';
+  | 'ownAnswer'
+  // chess
+  | 'notYourTurn'
+  | 'illegalMove'
+  | 'noOffer'
+  | 'ownOffer'
+  // prší
+  | 'notInHand'
+  | 'mustAnswerSeven'
+  | 'mustAnswerAce'
+  | 'wrongCard'
+  | 'needSuit'
+  | 'oberOnOber'
+  | 'mustStand'
+  | 'nothingToStand'
+  // žolíky
+  | 'drawFirst'
+  | 'alreadyDrew'
+  | 'emptyDiscard'
+  | 'notOpened'
+  | 'opening'
+  | 'badMeld'
+  | 'unknownMeld'
+  | 'keepDiscard'
+  | 'sameDiscard'
+  | 'mustUseDiscard'
+  | 'nothingToReset';
 
 export interface Presence {
   /** A phone has claimed this contestant (survives disconnects). */
@@ -105,7 +146,10 @@ export type ServerMessage =
 
 export type GameStateMessage =
   | { v: number; type: 'gameState'; game: 'aktivity'; view: AktivityRoomView; presence: Record<string, Presence>; now: number }
-  | { v: number; type: 'gameState'; game: 'mjz'; view: MjzView; presence: Record<string, Presence>; now: number };
+  | { v: number; type: 'gameState'; game: 'mjz'; view: MjzView; presence: Record<string, Presence>; now: number }
+  | { v: number; type: 'gameState'; game: 'chess'; view: ChessRoomView; presence: Record<string, Presence>; now: number }
+  | { v: number; type: 'gameState'; game: 'prsi-hra'; view: PrsiRoomView; presence: Record<string, Presence>; now: number }
+  | { v: number; type: 'gameState'; game: 'zoliky-hra'; view: ZolikyRoomView; presence: Record<string, Presence>; now: number };
 
 // ---------- views ----------
 
@@ -521,6 +565,18 @@ export function parseClientMessage(text: string): ParseResult {
         const action = parseMjzCommand(raw.action);
         return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
       }
+      if (game === 'chess') {
+        const action = parseChessRoomCommand(raw.action);
+        return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
+      }
+      if (game === 'prsi-hra') {
+        const action = parsePrsiRoomCommand(raw.action);
+        return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
+      }
+      if (game === 'zoliky-hra') {
+        const action = parseZolikyRoomCommand(raw.action);
+        return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
+      }
       const action = parseCommand(raw.action);
       if (!action) return bad;
       return { ok: true, message: raw.game === undefined ? { v, type: 'action', action } : { v, type: 'action', game: 'quiz', action } };
@@ -562,8 +618,32 @@ export const ERROR_MESSAGES: Record<ErrorCode, string> = {
   noLetters: 'Došla písmena.',
   notChallengeable: 'Tuhle odpověď napadnout nejde.',
   ownAnswer: 'O své odpovědi nehlasuješ.',
+  notYourTurn: 'Počkej, teď hraje někdo jiný.',
+  illegalMove: 'Takový tah nejde.',
+  noOffer: 'Nikdo remízu nenabízí.',
+  ownOffer: 'Vlastní nabídku remízy přijmout nemůžeš.',
+  notInHand: 'Tuhle kartu nemáš v ruce.',
+  mustAnswerSeven: 'Leží sedma. Můžeš dát jen sedmu, jinak bereš karty.',
+  mustAnswerAce: 'Leží eso. Můžeš dát jen eso, jinak stojíš.',
+  wrongCard: 'Karta musí mít stejnou barvu nebo stejnou hodnotu jako karta nahoře.',
+  needSuit: 'Se svrškem musíš vybrat barvu.',
+  oberOnOber: 'Svršek na svrška se v téhle hře nedává.',
+  mustStand: 'Na eso se nebere, jen se stojí.',
+  nothingToStand: 'Stát se dá jen na eso.',
+  drawFirst: 'Nejdřív si vezmi kartu z balíčku nebo z odhozených.',
+  alreadyDrew: 'Kartu už sis vzal. Teď vykládej, nebo jednu kartu odhoď.',
+  emptyDiscard: 'Odhazovací hromádka je prázdná.',
+  notOpened: 'Přikládat a měnit žolíky můžeš, až když sám poprvé vyložíš.',
+  opening: 'Na první vyložení to ještě nestačí.',
+  badMeld: 'Tahle skupina karet neplatí.',
+  unknownMeld: 'Tahle skupina na stole není.',
+  keepDiscard: 'Jednu kartu si musíš nechat na odhození — tou se zavírá.',
+  sameDiscard: 'Kartu, kterou sis vzal z odhozených, nemůžeš hned zase odhodit.',
+  mustUseDiscard: 'Kartu z odhozených sis vzal, tak ji musíš hned vyložit.',
+  nothingToReset: 'Není co vracet.',
 };
 
-export function errorMessage(code: ErrorCode): ServerMessage {
-  return { v: PROTOCOL_VERSION, type: 'error', code, message: ERROR_MESSAGES[code] };
+/** Error for a client; `message` replaces the standard text (e.g. the engine's detailed reason). */
+export function errorMessage(code: ErrorCode, message?: string): ServerMessage {
+  return { v: PROTOCOL_VERSION, type: 'error', code, message: message ?? ERROR_MESSAGES[code] };
 }
