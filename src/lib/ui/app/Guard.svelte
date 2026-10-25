@@ -13,11 +13,11 @@
   <section class="card stack guard">
     <h2>Nejdřív se přihlas</h2>
     <p class="muted">
-      {session.offline ? 'Server teď není dostupný. Kvíz na tabletu jde hrát i bez něj.' : 'Tahle stránka patří domácnosti — přihlas se e-mailem a heslem, nebo PINem na zařízení domácnosti.'}
+      {session.offline ? 'Server teď není dostupný. Kvízovna na tabletu, šachy a trénink karet fungují i bez něj.' : 'Tahle stránka patří domácnosti. Přihlas se e-mailem a heslem, nebo PINem na zařízení domácnosti.'}
     </p>
     <div class="row">
       <a class="btn primary" href="/">Přihlásit</a>
-      <a class="btn ghost" href="/tablet">🦉 Kvíz na tabletu</a>
+      <a class="btn ghost" href="/tablet">🦉 Kvízovna na tabletu</a>
     </div>
   </section>
 {/if}
