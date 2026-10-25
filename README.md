@@ -36,3 +36,7 @@ Ostatní skripty:
 - `src/lib/questions.ts`, `src/lib/storage.ts`, `src/lib/tts.ts` — dataset, localStorage, předčítání cs-CZ
 - `src/routes/+page.svelte` (příprava), `src/routes/hra/+page.svelte` (průběh), komponenty `src/lib/ui/`
 - `scripts/question-rules.ts` (pravidla datasetu) + `scripts/check-questions.ts` (CLI)
+
+## Licence
+
+Kód je pod licencí MIT, obsah (otázky, slova, lekce a ilustrace) pod CC BY 4.0. Podrobnosti v [LICENSE](LICENSE).
