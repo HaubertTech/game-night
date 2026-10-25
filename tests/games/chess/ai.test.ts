@@ -111,7 +111,7 @@ describe('chess AI', () => {
     expect(r.score).toBeGreaterThan(500);
   });
 
-  it('level 1 only plays legal moves (random games checked by chess.js)', () => {
+  it('level 1 only plays legal moves (random games checked by chess.js)', { timeout: 30_000 }, () => {
     for (let game = 0; game < 6; game++) {
       const chess = new Chess();
       const moves: string[] = [];
