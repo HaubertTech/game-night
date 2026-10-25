@@ -9,7 +9,7 @@
 </script>
 
 {#if name}
-  <Art {name} alt={`${place}. místo`} {size} class="medal-icon" style={`width:${size}px;height:${size}px;display:inline-block;vertical-align:middle`} />
+  <Art {name} alt={`${place}. místo`} {size} class="medal-icon" style={`width:${size}px;height:${size}px;max-width:none;display:inline-block;vertical-align:middle`} />
 {:else}
   <span class="place">{place ? `${place}.` : '–'}</span>
 {/if}

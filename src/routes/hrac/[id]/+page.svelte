@@ -191,7 +191,8 @@
                   <tr>
                     <td>{#if h.night_id}<a href={`/vecery/${h.night_id}`}>{formatDateTime(h.finished_at)}</a>{:else}{formatDateTime(h.finished_at)}{/if}</td>
                     <td>{GAME_EMOJI[h.game_type]} {GAME_LABELS[h.game_type]}{#if h.team_name} <span class="muted">({h.team_name})</span>{/if}</td>
-                    <td><Medal place={h.place} size={24} /> <span class="muted">z {h.seats}</span></td>
+                    <!-- Card games against the computer keep the place at the whole table, while seats count only people. -->
+                    <td><Medal place={h.place} size={24} /> <span class="muted">{h.place !== null && h.place > h.seats ? `${h.place}. u stolu s počítači` : `z ${h.seats}`}</span></td>
                     <td class="num">{h.score}</td>
                     <td class="num">{h.league_points}</td>
                   </tr>

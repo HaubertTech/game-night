@@ -1,5 +1,6 @@
 <script lang="ts">
   import Medal from './Medal.svelte';
+  import Avatar from '../art/Avatar.svelte';
 
   interface Row {
     playerId: string;
@@ -13,9 +14,10 @@
   let {
     rows,
     names,
+    avatars = {},
     testid = 'league-table',
     empty = 'Zatím žádná dohraná partie.',
-  }: { rows: Row[]; names: Record<string, string>; testid?: string; empty?: string } = $props();
+  }: { rows: Row[]; names: Record<string, string>; /** Player id → avatar; the same look as the rating table. */ avatars?: Record<string, string>; testid?: string; empty?: string } = $props();
 </script>
 
 {#if rows.length === 0}
@@ -30,7 +32,7 @@
         {#each rows as r (r.playerId)}
           <tr class:first={r.place === 1 && r.matches > 0}>
             <td><Medal place={r.place} /></td>
-            <td><a href={`/hrac/${r.playerId}`}>{names[r.playerId] ?? '?'}</a></td>
+            <td class="who">{#if avatars[r.playerId]}<Avatar value={avatars[r.playerId]} /> {/if}<a href={`/hrac/${r.playerId}`}>{names[r.playerId] ?? '?'}</a></td>
             <td class="num" data-testid="points">{r.points}</td>
             <td class="num">{r.matches}</td>
             <td class="num">{r.wins}</td>
@@ -41,3 +43,9 @@
     </table>
   </div>
 {/if}
+
+<style>
+  .who {
+    white-space: nowrap;
+  }
+</style>

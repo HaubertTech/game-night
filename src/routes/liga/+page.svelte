@@ -53,6 +53,7 @@
   let ratingTab = $state<GameType>('quiz');
   let ratings = $state<Record<GameType, Leader[]> | null>(null);
   let records = $state<Records | null>(null);
+  let avatars = $state<Record<string, string>>({});
   let message = $state<string | null>(null);
 
   let showForm = $state(false);
@@ -68,11 +69,13 @@
 
   async function init() {
     try {
-      const [s, r, rec] = await Promise.all([
+      const [s, r, rec, pl] = await Promise.all([
         api<{ seasons: Season[]; current: Season | null }>('/api/seasons'),
         api<{ ratings: Record<GameType, Leader[]> }>('/api/stats/ratings'),
         api<{ records: Records }>('/api/stats/records'),
+        api<{ players: { id: number; avatar: string }[] }>('/api/players?archived=1'),
       ]);
+      avatars = Object.fromEntries(pl.players.map((p) => [String(p.id), p.avatar]));
       seasons = s.seasons;
       ratings = r.ratings;
       records = rec.records;
@@ -185,7 +188,7 @@
       {/if}
       {#if tables}
         <h2 class="section-title">Tabulka {season ? 'sezóny' : ''} <span class="muted">({tables.matches} partií)</span></h2>
-        <LeagueTable rows={tables.standings} names={tables.names} testid="season-table" />
+        <LeagueTable rows={tables.standings} names={tables.names} {avatars} testid="season-table" />
       {/if}
     </section>
 
@@ -197,7 +200,7 @@
             <button class="chip" aria-pressed={gameTab === t} onclick={() => (gameTab = t)}>{GAME_EMOJI[t]} {GAME_LABELS[t]}</button>
           {/each}
         </div>
-        <LeagueTable rows={tables.byGameType[gameTab]} names={tables.names} testid="game-table" empty="V téhle hře zatím nic." />
+        <LeagueTable rows={tables.byGameType[gameTab]} names={tables.names} {avatars} testid="game-table" empty="V téhle hře zatím nic." />
       </section>
     {/if}
 
