@@ -250,8 +250,10 @@
               onclick={() => toggleSelected(p.id)}
             >
               <span class="emoji avatar"><Avatar value={p.avatar} /></span>
-              <span class="profile-name">{p.name}</span>
-              <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
+              <span class="profile-text">
+                <span class="profile-name">{p.name}</span>
+                <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
+              </span>
               <span class="tick" aria-hidden="true">{selected.includes(p.id) ? '✓' : ''}</span>
             </button>
             <div class="profile-tools">
@@ -493,10 +495,18 @@
     border: none;
     text-align: left;
   }
+  .profile-text {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
   .profile-name {
     font-weight: 750;
     font-size: 1.2rem;
-    flex: 1;
+    max-width: 100%;
     min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -514,7 +524,7 @@
     padding: 4px 6px 4px 0;
   }
   .profile-tools .btn {
-    min-height: 36px;
+    min-height: 44px;
     padding: 2px 10px;
   }
   .avatar {
