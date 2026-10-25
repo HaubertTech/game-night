@@ -1,6 +1,4 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
 import type { Question } from '../src/lib/types.ts';
 import {
   createGame,
@@ -17,19 +15,10 @@ import {
   type GameState,
 } from '../src/lib/engine/index.ts';
 
-const FIXTURES = join(import.meta.dirname, 'fixtures', 'questions');
-
-function loadFixtures(): Question[] {
-  const out: Question[] = [];
-  for (const level of readdirSync(FIXTURES)) {
-    for (const file of readdirSync(join(FIXTURES, level))) {
-      out.push(...(JSON.parse(readFileSync(join(FIXTURES, level, file), 'utf8')) as Question[]));
-    }
-  }
-  return out.filter((q) => q.status === 'verified');
-}
-
-const pool = loadFixtures();
+const fixtures = import.meta.glob<Question[]>('./fixtures/questions/**/*.json', { eager: true, import: 'default' });
+const pool = Object.values(fixtures)
+  .flat()
+  .filter((q) => q.status === 'verified');
 
 const players: Contestant[] = [
   { id: 'tata', name: 'Táta', avatar: '🐻', level: 'hospoda', memberIds: ['tata'] },

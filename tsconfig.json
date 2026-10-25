@@ -2,8 +2,9 @@
   "extends": "$app/tsconfig",
   "compilerOptions": {
     "strict": true,
-    "sourceMap": true,
-    "noUncheckedIndexedAccess": false
+    "sourceMap": true
   },
-  "include": ["src", "tests", "e2e", "scripts", "*.ts"]
+  // scripts/check-questions.ts is a thin Node CLI (fs access) and is not type-checked:
+  // the project deliberately has no @types/node. Its logic lives in scripts/question-rules.ts.
+  "include": ["src", "tests", "e2e", "scripts/question-rules.ts", "*.ts"]
 }

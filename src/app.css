@@ -1,0 +1,232 @@
+:root {
+  --cream: #f4eee2;
+  --paper: #fbf8f1;
+  --ink: #3b332b;
+  --ink-soft: #6d6257;
+  --line: #ddd2c0;
+  --sage: #8a9a7b;
+  --sage-dark: #56664b;
+  --sage-light: #e1e7d8;
+  --clay: #b5835f;
+  --clay-dark: #85593b;
+  --clay-light: #f0dfcf;
+  --slate: #6c7f93;
+  --slate-dark: #485a6c;
+  --slate-light: #dce3ea;
+  --good: #56664b;
+  --good-bg: #e1e7d8;
+  --bad: #9a5a45;
+  --bad-bg: #f2ddd3;
+  --radius: 22px 18px 24px 20px / 20px 24px 18px 22px;
+  --radius-sm: 14px 12px 15px 13px / 13px 15px 12px 14px;
+  --shadow: 0 3px 0 rgba(59, 51, 43, 0.14);
+  --font: ui-rounded, 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 1.4;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+  font-weight: 800;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom))
+    max(20px, env(safe-area-inset-left));
+}
+
+.card {
+  background: var(--paper);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 22px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.muted {
+  color: var(--ink-soft);
+}
+
+button,
+.btn {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  min-height: 60px;
+  padding: 12px 24px;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  font-size: 1.15rem;
+  font-weight: 700;
+  box-shadow: 0 3px 0 var(--ink);
+  transition: transform 80ms ease, box-shadow 80ms ease;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--ink);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+
+.btn.primary {
+  background: var(--sage-dark);
+  border-color: #3f4b37;
+  box-shadow: 0 3px 0 #3f4b37;
+  color: #fbf8f1;
+}
+
+.btn.clay {
+  background: var(--clay);
+  border-color: var(--clay-dark);
+  box-shadow: 0 3px 0 var(--clay-dark);
+  color: #fffaf3;
+}
+
+.btn.big {
+  min-height: 76px;
+  font-size: 1.4rem;
+  padding: 14px 34px;
+}
+
+.btn.small {
+  min-height: 44px;
+  padding: 6px 14px;
+  font-size: 1rem;
+}
+
+.btn.ghost {
+  border-color: var(--line);
+  box-shadow: none;
+  background: transparent;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-height: 52px;
+  padding: 8px 16px;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  font-weight: 650;
+  font-size: 1.05rem;
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--sage-dark);
+  background: var(--sage-light);
+}
+
+input[type='text'],
+input:not([type]) {
+  font: inherit;
+  font-size: 1.3rem;
+  min-height: 60px;
+  padding: 10px 16px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--ink);
+  width: 100%;
+}
+
+input:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--slate);
+  outline-offset: 2px;
+}
+
+.emoji {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  line-height: 1;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.badge.hospoda {
+  background: var(--clay-light);
+  color: var(--clay-dark);
+}
+
+.badge.lavice {
+  background: var(--slate-light);
+  color: var(--slate-dark);
+}
+
+.badge.piskoviste {
+  background: var(--sage-light);
+  color: var(--sage-dark);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
