@@ -300,7 +300,7 @@
       {@const l = playerLine(color)}
       <div class="player" class:active={turn === color && !game.result}>
         <span class="avatar"><Avatar value={l.p.avatar} fallback={color === 'w' ? '⚪' : '⚫'} /></span>
-        <span class="name">{l.p.name}{#if l.p.aiLevel} · {AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name}{/if}</span>
+        <span class="name">{l.p.name}{#if l.p.aiLevel && AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name !== l.p.name} · {AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name}{/if}</span>
         {#if l.diff}<span class="diff">{l.diff}</span>{/if}
         {#if l.clock}<span class="clock" class:low={(remainingMs(game, color, now) ?? 1e9) < 20_000} data-testid={`clock-${color}`}>{l.clock}</span>{/if}
       </div>
@@ -324,7 +324,7 @@
       {@const l = playerLine(color)}
       <div class="player" class:active={turn === color && !game.result}>
         <span class="avatar"><Avatar value={l.p.avatar} fallback={color === 'w' ? '⚪' : '⚫'} /></span>
-        <span class="name">{l.p.name}{#if l.p.aiLevel} · {AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name}{/if}</span>
+        <span class="name">{l.p.name}{#if l.p.aiLevel && AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name !== l.p.name} · {AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name}{/if}</span>
         {#if l.diff}<span class="diff">{l.diff}</span>{/if}
         {#if l.clock}<span class="clock" class:low={(remainingMs(game, color, now) ?? 1e9) < 20_000} data-testid={`clock-${color}`}>{l.clock}</span>{/if}
       </div>
