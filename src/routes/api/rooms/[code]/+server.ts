@@ -1,8 +1,11 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
+import type { LiveState } from '#lib/engine/live.ts';
+import type { AktivityState } from '#lib/games/aktivity/engine.ts';
+import type { MjzState } from '#lib/games/mjz/engine.ts';
 import { fail } from '#lib/server/http.ts';
 import { getLiveHub } from '#lib/server/ws.ts';
 
-/** Public room info for a phone: who can still be picked. No answers, no tokens. */
+/** Public room info for a phone: which game, who can still be picked. No answers, no tokens. */
 export const GET: RequestHandler = async ({ params }) => {
   const code = (params.code ?? '').toUpperCase();
   if (!/^[A-Z0-9]{4,8}$/.test(code)) fail(404, 'Místnost s tímto kódem neexistuje.');
@@ -11,18 +14,31 @@ export const GET: RequestHandler = async ({ params }) => {
   if (!room) fail(404, 'Místnost s tímto kódem neexistuje.');
   const presence = hub.rooms.presence(code);
   const state = room.state;
+  const people = new Map<string, { name: string; avatar: string; level: string; onTv: boolean }>();
+  const game = room.game ?? 'quiz';
+  if (game === 'quiz') {
+    for (const c of (state as LiveState).config.contestants) people.set(c.id, { name: c.name, avatar: c.avatar, level: c.level, onTv: c.onTv });
+  } else if (game === 'aktivity') {
+    for (const p of (state as AktivityState).teams.flatMap((t) => t.players)) people.set(p.id, { name: p.name, avatar: p.avatar ?? '🙂', level: p.level, onTv: false });
+  } else {
+    for (const c of (state as MjzState).contestants) people.set(c.id, { name: c.name, avatar: c.avatar, level: c.level, onTv: false });
+  }
   return json({
     code,
+    game,
     phase: state.phase,
-    contestants: state.config.contestants.map((c) => ({
-      id: c.id,
-      name: c.name,
-      avatar: c.avatar,
-      level: c.level,
-      on_tv: c.onTv,
-      kicked: state.kicked.includes(c.id),
-      claimed: presence[c.id]?.claimed ?? false,
-      online: presence[c.id]?.online ?? false,
-    })),
+    contestants: hub.rooms.seats(code).map((s) => {
+      const p = people.get(s.id);
+      return {
+        id: s.id,
+        name: p?.name ?? s.id,
+        avatar: p?.avatar ?? '🙂',
+        level: p?.level ?? 'hospoda',
+        on_tv: p?.onTv ?? false,
+        kicked: s.kicked,
+        claimed: presence[s.id]?.claimed ?? false,
+        online: presence[s.id]?.online ?? false,
+      };
+    }),
   });
 };

@@ -124,7 +124,7 @@
     <span class="emoji logo" aria-hidden="true">🏡</span>
     <div>
       <h1>Domácí liga</h1>
-      <p class="muted">Kvízy, prší a žolíky — večery, tabulka sezóny a statistiky celé rodiny.</p>
+      <p class="muted">Kvízy, řekni-ukaž-nakresli, město-jméno-zvíře, prší a žolíky — večery, tabulka sezóny a statistiky celé rodiny.</p>
     </div>
   </header>
 
@@ -174,6 +174,8 @@
       <button class="tile primary-tile" onclick={newNight} disabled={busy}><span class="emoji">🌙</span>Nový večer</button>
       <a class="tile" href={today ? `/tv?night=${today.id}` : '/tv'}><span class="emoji">📺</span>Kvíz na TV a mobilech</a>
       <a class="tile" href={today ? `/tablet?night=${today.id}` : '/tablet'}><span class="emoji">🦉</span>Kvíz na jednom tabletu</a>
+      <a class="tile" href={today ? `/tv?night=${today.id}&hra=aktivity` : '/tv?hra=aktivity'}><span class="emoji">🎭</span>Řekni, ukaž, nakresli</a>
+      <a class="tile" href={today ? `/tv?night=${today.id}&hra=mjz` : '/tv?hra=mjz'}><span class="emoji">✍️</span>Město, jméno, zvíře</a>
       <a class="tile" href={cardsHref('prsi')}><span class="emoji">🃏</span>Prší</a>
       <a class="tile" href={cardsHref('zoliky')}><span class="emoji">🂡</span>Žolíky</a>
       <a class="tile" href="/liga"><span class="emoji">🏆</span>Liga</a>

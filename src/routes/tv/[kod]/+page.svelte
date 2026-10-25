@@ -10,6 +10,8 @@
   import Standings from '#lib/ui/Standings.svelte';
   import ConnectionBadge from '#lib/ui/live/ConnectionBadge.svelte';
   import Countdown from '#lib/ui/live/Countdown.svelte';
+  import AktivityTv from '#lib/ui/live/AktivityTv.svelte';
+  import MjzTv from '#lib/ui/live/MjzTv.svelte';
   import LiveFinal from '#lib/ui/live/LiveFinal.svelte';
   import LiveQuestion from '#lib/ui/live/LiveQuestion.svelte';
   import QrCode from '#lib/ui/live/QrCode.svelte';
@@ -102,7 +104,13 @@
   }
 </script>
 
-<svelte:head><title>Kvízovna · místnost {code}</title></svelte:head>
+<svelte:head><title>{room.game === 'aktivity' ? 'Řekni, ukaž, nakresli' : room.game === 'mjz' ? 'Město, jméno, zvíře' : 'Kvízovna'} · místnost {code}</title></svelte:head>
+
+{#if room.game === 'aktivity'}
+  <AktivityTv {room} {code} />
+{:else if room.game === 'mjz'}
+  <MjzTv {room} {code} />
+{:else}
 
 <main class="tv" data-testid="tv" data-phase={view?.phase ?? 'loading'} data-stage={view?.stage ?? ''}>
   <header class="bar">
@@ -264,6 +272,7 @@
     {/if}
   {/if}
 </main>
+{/if}
 
 <style>
   .tv {

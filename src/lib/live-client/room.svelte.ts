@@ -1,8 +1,13 @@
 // Reactive live room for Svelte 5 pages: the latest view, presence, connection status,
 // last error and a countdown corrected for the difference between phone and server clocks.
+// Quiz rooms fill `view`; aktivity and mjz rooms fill `aktivity` / `mjz` (protocol v2 gameState).
 
 import type { LiveCommand } from '../engine/live.ts';
-import type { ClientRole, ErrorCode, LiveView, Presence, ServerMessage } from '../live/protocol.ts';
+import type { AktivityCommand } from '../games/aktivity/engine.ts';
+import type { MjzCommand } from '../games/mjz/engine.ts';
+import type { MjzView } from '../games/mjz/view.ts';
+import type { RoomGame } from '../live/games.ts';
+import type { AktivityRoomView, ClientRole, ErrorCode, LiveView, Presence, ServerMessage } from '../live/protocol.ts';
 import type { Question } from '../types.ts';
 import { LiveConnection, type ConnectionStatus } from './connection.ts';
 import { secondsLeft, wsUrl } from './clock.ts';
@@ -16,6 +21,10 @@ export interface RoomError {
 
 export class LiveRoom {
   view = $state.raw<LiveView | null>(null);
+  /** Game of the room (from welcome / first state). */
+  game = $state<RoomGame | null>(null);
+  aktivity = $state.raw<AktivityRoomView | null>(null);
+  mjz = $state.raw<MjzView | null>(null);
   presence = $state.raw<Record<string, Presence>>({});
   status = $state<ConnectionStatus>('connecting');
   error = $state.raw<RoomError | null>(null);
@@ -29,7 +38,14 @@ export class LiveRoom {
   private ticker: ReturnType<typeof setInterval> | null = null;
   private cleanup: (() => void)[] = [];
 
-  readonly remaining = $derived(secondsLeft(this.view?.deadline ?? null, this.now, this.offset));
+  readonly remaining = $derived(
+    secondsLeft(this.view?.deadline ?? this.aktivity?.deadline ?? this.mjz?.deadline ?? null, this.now, this.offset),
+  );
+
+  /** Seconds left until a server-clock deadline (reactive, skew-corrected). */
+  secondsUntil(deadline: number | null): number | null {
+    return secondsLeft(deadline, this.now, this.offset);
+  }
 
   constructor(
     readonly code: string,
@@ -75,6 +91,14 @@ export class LiveRoom {
     return this.send({ type: 'action', action });
   }
 
+  actAktivity(action: AktivityCommand): boolean {
+    return this.send({ type: 'action', game: 'aktivity', action });
+  }
+
+  actMjz(action: MjzCommand): boolean {
+    return this.send({ type: 'action', game: 'mjz', action });
+  }
+
   join(contestantId: string): boolean {
     return this.send({ type: 'join', contestantId });
   }
@@ -96,8 +120,17 @@ export class LiveRoom {
   private onMessage(m: ServerMessage): void {
     if (m.type === 'welcome') {
       this.me = m.contestantId;
+      this.game = m.game ?? 'quiz';
       this.error = null;
+    } else if (m.type === 'gameState') {
+      this.offset = m.now - Date.now();
+      this.game = m.game;
+      this.presence = m.presence;
+      if (m.game === 'aktivity') this.aktivity = m.view;
+      else this.mjz = m.view;
+      if (m.view.viewer !== 'host') this.me = m.view.me;
     } else if (m.type === 'state') {
+      this.game = 'quiz';
       if (typeof m.now === 'number') this.offset = m.now - Date.now();
       this.view = m.view;
       this.presence = m.presence;

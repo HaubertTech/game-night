@@ -3,7 +3,7 @@
 
 import type { Level, Theme } from '../types.ts';
 
-export const GAME_TYPES = ['quiz', 'prsi', 'zoliky'] as const;
+export const GAME_TYPES = ['quiz', 'aktivity', 'mjz', 'prsi', 'zoliky'] as const;
 export type GameType = (typeof GAME_TYPES)[number];
 
 export type ParticipantKind = 'player' | 'team';
@@ -16,7 +16,7 @@ export interface MatchParticipant {
   memberIds: string[];
   /** 1-based place; equal places mean a shared place (competition ranking 1, 1, 3). */
   place: number;
-  /** Game score (quiz points, prší sum of places, žolíky total). Informative only. */
+  /** Game score (quiz/aktivity/mjz points, prší sum of places, žolíky total). Informative only. */
   score: number | null;
 }
 

@@ -65,3 +65,15 @@ výsledek pro ligu (`gameType: 'aktivity'`, každý tým je jedno místo).
 - `image` (emoji) je povinné pro pískoviště, jinde volitelné.
 - `forbidden` jen pro hospodu (zakázaná slova pro „řekni“).
 - Bez jmen žijících soukromých osob, přiměřené věku.
+
+## Integrace (TV + mobily, liga)
+
+- Místnost: `src/lib/server/games/aktivity.ts` (adaptér pro `RoomManager`, karty z `data/aktivity` přes `node:fs`,
+  `AKTIVITY_DIR` přepíše adresář). Zakládá `POST /api/rooms` s `game: 'aktivity'` (`services/game-rooms.ts`):
+  týmy z hráčů (`teams: [{ player_ids }]` nebo `{ team_id }`), `timer_seconds`, `goal`, `all_play_chance`, `night_id`.
+  Tým z hráčů znovu použije tým domácnosti se stejnými členy, jinak ho založí.
+- Id v místnosti: tým `t<teamId>`, hráč `p<playerId>`. Protokol v2: akce `{ type: 'action', game: 'aktivity', action }`,
+  stav `{ type: 'gameState', game: 'aktivity', view }`.
+- Po konci zapíše `room-store-db.ts` partii (`game_type = 'aktivity'`, každý tým jedno místo) a odehrané karty
+  do `seen_questions` všem hráčům u stolu.
+- UI: `/tv?hra=aktivity` → `AktivitySetup`, `/tv/<kód>` → `AktivityTv`, `/m/<kód>` → `AktivityPhone`.

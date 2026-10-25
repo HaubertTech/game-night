@@ -1,7 +1,8 @@
+import type { GameType } from '../../league/types.ts';
 import type { Level } from '../../types.ts';
 import { one, query, tx, type Queryable } from '../db.ts';
 
-export type GameType = 'quiz' | 'prsi' | 'zoliky';
+export type { GameType };
 export type MatchMode = 'pass' | 'live';
 export type MatchStatus = 'lobby' | 'running' | 'finished' | 'abandoned';
 

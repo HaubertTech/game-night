@@ -4,6 +4,7 @@ import { defineConfig, devices } from '@playwright/test';
 const PORT = 5181;
 /** Live mode (TV + phones) needs the database: its own dev server against the test DB. */
 const LIVE_PORT = 5182;
+// live.spec.ts (quiz), live-aktivity.spec.ts and live-mjz.spec.ts: TV + phones against the test DB.
 const LIVE_SPECS = /live.*\.spec\.ts$/;
 /** League flows (evenings, cards, profiles) also need the database: they reuse the live server. */
 const LIGA_SPECS = /e2e\/liga[^/]*\.spec\.ts$/;

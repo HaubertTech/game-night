@@ -368,8 +368,7 @@ export function standings(state: MjzState): MjzStanding[] {
   }));
 }
 
-/** League input. `MatchResult.gameType` has no 'mjz' yet, so the type is widened here. */
-export type MjzMatchResult = Omit<MatchResult, 'gameType'> & { gameType: 'mjz' };
+export type MjzMatchResult = MatchResult & { gameType: 'mjz' };
 
 export function toMatchResult(
   state: MjzState,

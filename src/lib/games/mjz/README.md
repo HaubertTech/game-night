@@ -80,3 +80,13 @@ do svého listu, hostitel řídí průběh. `timeout` posílá server, až uplyn
 | `next` | hostitel | review, roundEnd |
 | `end` | hostitel | setup, roundEnd |
 | `kick` | hostitel | kdykoli před koncem |
+
+## Integrace (TV + mobily, liga)
+
+- Místnost: `src/lib/server/games/mjz.ts` (adaptér pro `RoomManager`; nápovědy čte z `data/mjz/hints` přes `node:fs`,
+  protože `hints-data.ts` s `import.meta.glob` na `node server.ts` nefunguje).
+- Zakládá `POST /api/rooms` s `game: 'mjz'` (`services/game-rooms.ts`): `player_ids`, `teams: [{ id, level }]`,
+  `category_set: 'adult' | 'kids'`, `rounds`, `time_seconds`, `include_ch`, `kids_bonus`, `night_id`.
+- Protokol v2: akce `{ type: 'action', game: 'mjz', action }`, stav `{ type: 'gameState', game: 'mjz', view }`.
+- Po konci zapíše `room-store-db.ts` partii (`game_type = 'mjz'`, vyřazení hráči se nezapisují).
+- UI: `/tv?hra=mjz` → `MjzSetup`, `/tv/<kód>` → `MjzTv` (hostitel píše za `assisted` hráče), `/m/<kód>` → `MjzPhone`.

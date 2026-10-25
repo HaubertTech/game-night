@@ -4,8 +4,7 @@
   import LeagueTable from '#lib/ui/app/LeagueTable.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
-  type GameType = 'quiz' | 'prsi' | 'zoliky';
-  const GAME_TYPES: GameType[] = ['quiz', 'prsi', 'zoliky'];
+  import { GAME_TYPES, type GameType } from '#lib/league/types.ts';
   interface Season {
     id: number;
     name: string;

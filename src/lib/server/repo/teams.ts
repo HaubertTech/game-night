@@ -69,3 +69,15 @@ export async function findTeamByMembers(householdId: number, name: string, membe
   );
   return teams.find((t) => t.member_ids.length === sorted.length && t.member_ids.every((id, i) => id === sorted[i])) ?? null;
 }
+
+/** An active team with exactly this member set, whatever its name (oldest first). */
+export async function findTeamWithMembers(householdId: number, memberIds: number[], client?: Queryable): Promise<Team | null> {
+  const sorted = Array.from(new Set(memberIds)).sort((a, b) => a - b);
+  const teams = await listTeams(householdId, {}, client);
+  return (
+    teams
+      .slice()
+      .sort((a, b) => a.id - b.id)
+      .find((t) => t.member_ids.length === sorted.length && t.member_ids.every((id, i) => id === sorted[i])) ?? null
+  );
+}

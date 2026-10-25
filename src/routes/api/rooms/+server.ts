@@ -7,6 +7,7 @@ import { playerContestantId, teamContestantId } from '#lib/server/room-store-db.
 import { listPlayers } from '#lib/server/repo/players.ts';
 import { loadSeen } from '#lib/server/repo/seen.ts';
 import { listTeams } from '#lib/server/repo/teams.ts';
+import { createAktivityRoom, createMjzRoom } from '#lib/server/services/game-rooms.ts';
 import { getLiveHub } from '#lib/server/ws.ts';
 
 const MAX_CONTESTANTS = 12;
@@ -20,11 +21,19 @@ function idList(raw: unknown, what: string): number[] {
 
 /**
  * Creates a live room for the logged-in household.
- * Body: { player_ids, teams: [{ id, level }], themes, questions_per_contestant, timer_seconds, on_tv: [contestantId] }
+ * `game` = 'quiz' (default) | 'aktivity' | 'mjz'; the rest of the body depends on the game
+ * (aktivity and mjz: see services/game-rooms.ts).
+ * Quiz body: { player_ids, teams: [{ id, level }], themes, questions_per_contestant, timer_seconds, on_tv: [contestantId], night_id }
  */
 export const POST: RequestHandler = async (event) => {
   const household = requireHousehold(event);
   const body = await readJson(event.request);
+  const game = body.game ?? 'quiz';
+  if (game === 'aktivity' || game === 'mjz') {
+    const room = game === 'aktivity' ? await createAktivityRoom(getLiveHub(), household.id, body) : await createMjzRoom(getLiveHub(), household.id, body);
+    return json({ code: room.code, host_token: room.hostToken, game }, { status: 201 });
+  }
+  if (game !== 'quiz') fail(400, 'Neznámá hra.');
 
   const playerIds = idList(body.player_ids, 'player_ids');
   const rawTeams = body.teams ?? [];

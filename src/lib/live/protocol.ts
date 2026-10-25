@@ -1,6 +1,10 @@
 // Versioned messages between the live server and its clients (TV = host, phones = players),
 // plus `viewFor`, which turns the authoritative state into what one screen may see.
 // Correct answers, facts and other contestants' questions never leave the server before reveal.
+//
+// Version 2 adds games other than the quiz (`aktivity`, `mjz`): an action names its game
+// (`game`, default quiz) and the server answers with `gameState` messages for them. Quiz
+// messages are unchanged, so version 1 clients keep working with quiz rooms.
 
 import type { Level, Question, Theme } from '../types.ts';
 import type { GameSummary } from '../engine/quiz.ts';
@@ -17,8 +21,19 @@ import {
   type LivePhase,
   type LiveState,
 } from '../engine/live.ts';
+import type { AktivityCommand, AktivityGoal, AktivityView } from '../games/aktivity/engine.ts';
+import { DIFFICULTIES } from '../games/aktivity/types.ts';
+import { ANSWER_MAX, type MjzCategory, type MjzCommand, type MjzSettings } from '../games/mjz/engine.ts';
+import type { MjzView } from '../games/mjz/view.ts';
+import { isRoomGame, type RoomGame } from './games.ts';
 
-export const PROTOCOL_VERSION = 1;
+export const PROTOCOL_VERSION = 2;
+/** Versions the server accepts from clients (1 = quiz-only clients). */
+export const SUPPORTED_PROTOCOL_VERSIONS: readonly number[] = [1, 2];
+
+export function isSupportedVersion(v: unknown): boolean {
+  return typeof v === 'number' && SUPPORTED_PROTOCOL_VERSIONS.includes(v);
+}
 /** Largest accepted client message (bytes); the ws server enforces the same limit. */
 export const MAX_MESSAGE_BYTES = 4096;
 
@@ -30,7 +45,9 @@ export type ClientMessage =
   | { v: number; type: 'hello'; code: string; role: ClientRole; token?: string }
   | { v: number; type: 'join'; contestantId: string }
   | { v: number; type: 'leave' }
-  | { v: number; type: 'action'; action: LiveCommand }
+  | { v: number; type: 'action'; game?: 'quiz'; action: LiveCommand }
+  | { v: number; type: 'action'; game: 'aktivity'; action: AktivityCommand }
+  | { v: number; type: 'action'; game: 'mjz'; action: MjzCommand }
   | { v: number; type: 'ping'; t?: number };
 
 // ---------- server → client ----------
@@ -52,7 +69,23 @@ export type ErrorCode =
   | 'invalidAnswer'
   | 'alreadyAnswered'
   | 'notYet'
-  | 'unjudged';
+  | 'unjudged'
+  | 'wrongGame'
+  // aktivity
+  | 'invalidConfig'
+  | 'invalidDifficulty'
+  | 'noDifficulty'
+  | 'unknownTeam'
+  | 'deckEmpty'
+  | 'timeUp'
+  // mjz
+  | 'unknownCategory'
+  | 'invalidSettings'
+  | 'alreadyDone'
+  | 'incomplete'
+  | 'noLetters'
+  | 'notChallengeable'
+  | 'ownAnswer';
 
 export interface Presence {
   /** A phone has claimed this contestant (survives disconnects). */
@@ -62,13 +95,22 @@ export interface Presence {
 }
 
 export type ServerMessage =
-  | { v: number; type: 'welcome'; code: string; role: ClientRole; token: string; contestantId: string | null }
-  /** `now` = server clock (epoch ms) when sent; clients use it to correct `view.deadline` for clock skew. */
+  | { v: number; type: 'welcome'; code: string; role: ClientRole; token: string; contestantId: string | null; game?: RoomGame }
+  /** Quiz rooms. `now` = server clock (epoch ms) when sent; clients use it to correct `view.deadline` for clock skew. */
   | { v: number; type: 'state'; view: LiveView; presence: Record<string, Presence>; now?: number }
+  /** Other games (v2): same as `state`, the view depends on `game`. */
+  | GameStateMessage
   | { v: number; type: 'error'; code: ErrorCode; message: string }
   | { v: number; type: 'pong'; t: number | null };
 
+export type GameStateMessage =
+  | { v: number; type: 'gameState'; game: 'aktivity'; view: AktivityRoomView; presence: Record<string, Presence>; now: number }
+  | { v: number; type: 'gameState'; game: 'mjz'; view: MjzView; presence: Record<string, Presence>; now: number };
+
 // ---------- views ----------
+
+/** Aktivity view plus who is looking (like LiveView.viewer / me). */
+export type AktivityRoomView = AktivityView & { viewer: Viewer['role']; me: string | null };
 
 export type Viewer = { role: 'host' } | { role: 'contestant'; contestantId: string } | { role: 'spectator' };
 
@@ -297,6 +339,146 @@ function parseCommand(raw: unknown): LiveCommand | null {
   }
 }
 
+const isInt = (v: unknown, min: number, max: number): v is number => Number.isInteger(v) && (v as number) >= min && (v as number) <= max;
+
+function parseGoal(raw: unknown): AktivityGoal | null {
+  if (!isObj(raw)) return null;
+  if (raw.kind === 'points' && isInt(raw.points, 1, 1000)) return { kind: 'points', points: raw.points };
+  if (raw.kind === 'rounds' && isInt(raw.rounds, 1, 1000)) return { kind: 'rounds', rounds: raw.rounds };
+  return null;
+}
+
+/** „Řekni, ukaž, nakresli“ commands a client may send. */
+export function parseAktivityCommand(raw: unknown): AktivityCommand | null {
+  if (!isObj(raw)) return null;
+  switch (raw.type) {
+    case 'start':
+    case 'skip':
+    case 'next':
+    case 'end':
+      return { type: raw.type };
+    case 'configure': {
+      const out: Extract<AktivityCommand, { type: 'configure' }> = { type: 'configure' };
+      if (raw.timerSeconds !== undefined) {
+        if (!isInt(raw.timerSeconds, 1, 3600)) return null;
+        out.timerSeconds = raw.timerSeconds;
+      }
+      if (raw.goal !== undefined) {
+        const goal = parseGoal(raw.goal);
+        if (!goal) return null;
+        out.goal = goal;
+      }
+      if (raw.allPlayChance !== undefined) {
+        if (typeof raw.allPlayChance !== 'number' || !Number.isFinite(raw.allPlayChance)) return null;
+        out.allPlayChance = raw.allPlayChance;
+      }
+      return out;
+    }
+    case 'chooseDifficulty':
+      return (DIFFICULTIES as readonly unknown[]).includes(raw.difficulty)
+        ? { type: 'chooseDifficulty', difficulty: raw.difficulty as 3 | 4 | 5 }
+        : null;
+    case 'startTurn':
+      if (raw.difficulty === undefined) return { type: 'startTurn' };
+      return (DIFFICULTIES as readonly unknown[]).includes(raw.difficulty)
+        ? { type: 'startTurn', difficulty: raw.difficulty as 3 | 4 | 5 }
+        : null;
+    case 'guessed':
+      if (raw.teamId === undefined) return { type: 'guessed' };
+      return isStr(raw.teamId) ? { type: 'guessed', teamId: raw.teamId } : null;
+    default:
+      return null;
+  }
+}
+
+function parseCategories(raw: unknown): MjzCategory[] | null {
+  if (!Array.isArray(raw) || raw.length === 0 || raw.length > 12) return null;
+  const out: MjzCategory[] = [];
+  for (const c of raw) {
+    if (!isObj(c) || !isStr(c.id, 32) || !isStr(c.label, 40)) return null;
+    const hints = c.hints;
+    if (hints !== undefined && (!Array.isArray(hints) || hints.length > 8 || !hints.every((h) => isStr(h, 32)))) return null;
+    out.push({ id: c.id, label: c.label, ...(hints ? { hints: hints as string[] } : {}) });
+  }
+  return out;
+}
+
+function parseMjzSettings(raw: unknown): Partial<MjzSettings> | null {
+  if (!isObj(raw)) return null;
+  const out: Partial<MjzSettings> = {};
+  if (raw.rounds !== undefined) {
+    if (!isInt(raw.rounds, 1, 30)) return null;
+    out.rounds = raw.rounds;
+  }
+  for (const key of ['timeSeconds', 'stopSeconds'] as const) {
+    if (raw[key] === undefined) continue;
+    if (!isInt(raw[key], 0, 600)) return null;
+    out[key] = raw[key] as number;
+  }
+  for (const key of ['includeCh', 'kidsBonus'] as const) {
+    if (raw[key] === undefined) continue;
+    if (typeof raw[key] !== 'boolean') return null;
+    out[key] = raw[key] as boolean;
+  }
+  if (raw.categories !== undefined) {
+    const categories = parseCategories(raw.categories);
+    if (!categories) return null;
+    out.categories = categories;
+  }
+  return out;
+}
+
+/** „Město, jméno, zvíře“ commands a client may send. */
+export function parseMjzCommand(raw: unknown): MjzCommand | null {
+  if (!isObj(raw)) return null;
+  const optContestant = raw.contestantId === undefined ? {} : isStr(raw.contestantId) ? { contestantId: raw.contestantId } : null;
+  switch (raw.type) {
+    case 'start':
+    case 'redraw':
+    case 'startWriting':
+    case 'closeWriting':
+    case 'next':
+    case 'end':
+      return { type: raw.type };
+    case 'configure': {
+      const settings = parseMjzSettings(raw.settings);
+      return settings ? { type: 'configure', settings } : null;
+    }
+    case 'write': {
+      if (!optContestant || !isObj(raw.answers)) return null;
+      const entries = Object.entries(raw.answers);
+      if (entries.length > 12) return null;
+      const answers: Record<string, string> = {};
+      for (const [k, val] of entries) {
+        if (!isStr(k, 32) || typeof val !== 'string' || val.length > ANSWER_MAX * 2) return null;
+        answers[k] = val;
+      }
+      return { type: 'write', answers, ...optContestant };
+    }
+    case 'stop':
+    case 'done':
+      return optContestant ? { type: raw.type, ...optContestant } : null;
+    case 'focus':
+      return isInt(raw.index, 0, 50) ? { type: 'focus', index: raw.index } : null;
+    case 'challenge':
+      return isStr(raw.contestantId) && isStr(raw.categoryId, 32)
+        ? { type: 'challenge', contestantId: raw.contestantId, categoryId: raw.categoryId }
+        : null;
+    case 'vote':
+      return isStr(raw.contestantId) && isStr(raw.categoryId, 32) && typeof raw.valid === 'boolean'
+        ? { type: 'vote', contestantId: raw.contestantId, categoryId: raw.categoryId, valid: raw.valid }
+        : null;
+    case 'rule':
+      return isStr(raw.contestantId) && isStr(raw.categoryId, 32) && (typeof raw.valid === 'boolean' || raw.valid === null)
+        ? { type: 'rule', contestantId: raw.contestantId, categoryId: raw.categoryId, valid: raw.valid as boolean | null }
+        : null;
+    case 'kick':
+      return isStr(raw.contestantId) ? { type: 'kick', contestantId: raw.contestantId } : null;
+    default:
+      return null;
+  }
+}
+
 export type ParseResult = { ok: true; message: ClientMessage } | { ok: false; code: 'badMessage' | 'version'; message: string };
 
 /** Parses and validates one raw client message. Unknown fields are dropped. */
@@ -309,10 +491,10 @@ export function parseClientMessage(text: string): ParseResult {
     return { ok: false, code: 'badMessage', message: 'Zpráva není platný JSON.' };
   }
   if (!isObj(raw)) return { ok: false, code: 'badMessage', message: 'Zpráva musí být objekt.' };
-  if (raw.v !== PROTOCOL_VERSION) {
+  if (!isSupportedVersion(raw.v)) {
     return { ok: false, code: 'version', message: `Nepodporovaná verze protokolu (server má ${PROTOCOL_VERSION}).` };
   }
-  const v = PROTOCOL_VERSION;
+  const v = raw.v as number;
   const bad = { ok: false as const, code: 'badMessage' as const, message: 'Neplatná zpráva.' };
   switch (raw.type) {
     case 'hello': {
@@ -329,8 +511,19 @@ export function parseClientMessage(text: string): ParseResult {
     case 'ping':
       return { ok: true, message: { v, type: 'ping', ...(typeof raw.t === 'number' && Number.isFinite(raw.t) ? { t: raw.t } : {}) } };
     case 'action': {
+      const game = raw.game ?? 'quiz';
+      if (!isRoomGame(game)) return bad;
+      if (game === 'aktivity') {
+        const action = parseAktivityCommand(raw.action);
+        return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
+      }
+      if (game === 'mjz') {
+        const action = parseMjzCommand(raw.action);
+        return action ? { ok: true, message: { v, type: 'action', game, action } } : bad;
+      }
       const action = parseCommand(raw.action);
-      return action ? { ok: true, message: { v, type: 'action', action } } : bad;
+      if (!action) return bad;
+      return { ok: true, message: raw.game === undefined ? { v, type: 'action', action } : { v, type: 'action', game: 'quiz', action } };
     }
     default:
       return bad;
@@ -355,6 +548,20 @@ export const ERROR_MESSAGES: Record<ErrorCode, string> = {
   alreadyAnswered: 'Už jsi odpověděl.',
   notYet: 'Čas ještě nevypršel.',
   unjudged: 'Nejdřív vyhodnoť otevřené odpovědi.',
+  wrongGame: 'V téhle místnosti se hraje jiná hra, obnov stránku.',
+  invalidConfig: 'Neplatné nastavení hry.',
+  invalidDifficulty: 'Obtížnost může být 3, 4 nebo 5.',
+  noDifficulty: 'Nejdřív vyber obtížnost.',
+  unknownTeam: 'Takový tým ve hře není.',
+  deckEmpty: 'Došla slova pro tuhle úroveň.',
+  timeUp: 'Čas už vypršel.',
+  unknownCategory: 'Taková kategorie ve hře není.',
+  invalidSettings: 'Neplatné nastavení hry.',
+  alreadyDone: 'Už máš odevzdáno.',
+  incomplete: 'Na Stop! musíš mít vyplněné všechno.',
+  noLetters: 'Došla písmena.',
+  notChallengeable: 'Tuhle odpověď napadnout nejde.',
+  ownAnswer: 'O své odpovědi nehlasuješ.',
 };
 
 export function errorMessage(code: ErrorCode): ServerMessage {

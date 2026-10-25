@@ -49,6 +49,8 @@ export interface RecordMatchInput {
   participants: RecordParticipant[];
   answers?: RecordAnswer[];
   cardRounds?: RecordCardRound[];
+  /** Item ids (e.g. aktivity word cards) every member of every seat has seen; kept in seen_questions. */
+  seen?: string[];
 }
 
 /** Invalid input (Czech message, safe to show); API routes map it to 400/404. */
@@ -192,6 +194,11 @@ async function run(householdId: number, input: RecordMatchInput, client: Queryab
       const list = seen.get(playerId) ?? [];
       list.push(a.questionId);
       seen.set(playerId, list);
+    }
+  }
+  if (input.seen?.length) {
+    for (const playerId of new Set(input.participants.flatMap(seatMembers))) {
+      seen.set(playerId, [...(seen.get(playerId) ?? []), ...input.seen]);
     }
   }
   for (const [playerId, ids] of seen) await addSeen(playerId, ids, client);

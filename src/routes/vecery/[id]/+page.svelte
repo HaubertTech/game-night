@@ -6,7 +6,7 @@
   import NewCardMatch from '#lib/ui/app/NewCardMatch.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
-  type GameType = 'quiz' | 'prsi' | 'zoliky';
+  import type { GameType } from '#lib/league/types.ts';
   interface Detail {
     night: { id: number; played_on: string; title: string | null; status: 'open' | 'closed'; season_id: number | null; season_name: string | null };
     matches: {
@@ -62,7 +62,7 @@
   }
 
   function continueHref(m: Detail['matches'][number]): string | null {
-    if (m.game_type !== 'quiz') return `/karty/${m.game_type}/${m.id}`;
+    if (m.game_type === 'prsi' || m.game_type === 'zoliky') return `/karty/${m.game_type}/${m.id}`;
     if (m.room_code) return `/tv/${m.room_code}`;
     return null;
   }
@@ -103,6 +103,8 @@
           <div class="adds">
             <a class="tile" href={`/tv?night=${n.id}`}><span class="emoji">📺</span>Kvíz na TV</a>
             <a class="tile" href={`/tablet?night=${n.id}`}><span class="emoji">🦉</span>Kvíz na tabletu</a>
+            <a class="tile" href={`/tv?night=${n.id}&hra=aktivity`}><span class="emoji">🎭</span>Řekni, ukaž, nakresli</a>
+            <a class="tile" href={`/tv?night=${n.id}&hra=mjz`}><span class="emoji">✍️</span>Město, jméno, zvíře</a>
             <button class="tile" aria-pressed={adding === 'prsi'} onclick={() => (adding = adding === 'prsi' ? null : 'prsi')}><span class="emoji">🃏</span>Prší</button>
             <button class="tile" aria-pressed={adding === 'zoliky'} onclick={() => (adding = adding === 'zoliky' ? null : 'zoliky')}><span class="emoji">🂡</span>Žolíky</button>
           </div>
@@ -135,7 +137,7 @@
                   {:else}
                     <span class="row">
                       {#if href}<a class="btn small primary" href={href}>Pokračovat</a>{/if}
-                      {#if m.game_type !== 'quiz'}<button class="btn small ghost" onclick={() => dropMatch(m.id)}>Zrušit</button>{/if}
+                      {#if m.game_type === 'prsi' || m.game_type === 'zoliky'}<button class="btn small ghost" onclick={() => dropMatch(m.id)}>Zrušit</button>{/if}
                     </span>
                   {/if}
                 </div>

@@ -10,6 +10,10 @@ import type { Duplex } from 'node:stream';
 import { WebSocketServer, WebSocket, type RawData } from 'ws';
 import type { Question } from '../types.ts';
 import type { CreateLiveInput } from '../engine/live.ts';
+import { createAktivity, type CreateAktivityInput } from '../games/aktivity/engine.ts';
+import type { AktivityCard } from '../games/aktivity/types.ts';
+import { createMjzGame, type CreateMjzInput } from '../games/mjz/engine.ts';
+import { loadAktivityCards } from './games/aktivity.ts';
 import { errorMessage, MAX_MESSAGE_BYTES, parseClientMessage, type ServerMessage } from '../live/protocol.ts';
 import { MemoryRoomStore, realScheduler, RoomManager, type CreatedRoom, type RoomMeta, type RoomStore, type Scheduler } from './rooms.ts';
 import { loadQuestionsFromDir } from './questions-fs.ts';
@@ -22,6 +26,8 @@ export interface LiveHubOptions {
   scheduler?: Scheduler;
   /** Question pool for new rooms; default reads data/questions (QUESTIONS_DIR) once. */
   loadPool?: () => Question[];
+  /** Word cards of „Řekni, ukaž, nakresli“; default reads data/aktivity (AKTIVITY_DIR) once. */
+  loadAktivityCards?: () => AktivityCard[];
   heartbeatMs?: number;
   /** Max messages per client per second before the socket is closed. */
   maxMessagesPerSecond?: number;
@@ -31,6 +37,10 @@ export interface LiveHub {
   rooms: RoomManager;
   /** Creates a room from the server-side question pool. */
   createRoom(input: Omit<CreateLiveInput, 'createdAt'>, seen?: Record<string, readonly string[]>, meta?: RoomMeta): Promise<CreatedRoom>;
+  /** „Řekni, ukaž, nakresli“; `seen` = card ids the players already played. */
+  createAktivityRoom(input: Omit<CreateAktivityInput, 'createdAt' | 'id'>, seen?: readonly string[], meta?: RoomMeta): Promise<CreatedRoom>;
+  /** „Město, jméno, zvíře“. */
+  createMjzRoom(input: Omit<CreateMjzInput, 'createdAt' | 'id'>, meta?: RoomMeta): Promise<CreatedRoom>;
   /** Attaches the /ws endpoint to an http server; returns a detach function. */
   attach(server: Server): () => Promise<void>;
   /** Number of open sockets (diagnostics, tests). */
@@ -43,6 +53,8 @@ export function createLiveHub(options: LiveHubOptions = {}): LiveHub {
   const maxRate = options.maxMessagesPerSecond ?? 30;
   let pool: Question[] | null = null;
   const loadPool = options.loadPool ?? (() => loadQuestionsFromDir());
+  let cards: AktivityCard[] | null = null;
+  const loadCards = options.loadAktivityCards ?? (() => loadAktivityCards());
 
   const send = (clientId: string, message: ServerMessage) => {
     const ws = sockets.get(clientId);
@@ -116,6 +128,14 @@ export function createLiveHub(options: LiveHubOptions = {}): LiveHub {
     async createRoom(input, seen = {}, meta) {
       pool ??= loadPool();
       return rooms.createRoom(input, pool, seen, meta);
+    },
+    async createAktivityRoom(input, seen = [], meta) {
+      cards ??= loadCards();
+      const pool = cards;
+      return rooms.createGameRoom('aktivity', (code, createdAt) => createAktivity({ ...input, id: `aktivity-${code}`, createdAt }, pool, seen), meta);
+    },
+    async createMjzRoom(input, meta) {
+      return rooms.createGameRoom('mjz', (code, createdAt) => createMjzGame({ ...input, id: `mjz-${code}`, createdAt }), meta);
     },
     attach(server: Server) {
       const wss = new WebSocketServer({ noServer: true, maxPayload: MAX_MESSAGE_BYTES });

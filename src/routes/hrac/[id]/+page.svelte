@@ -6,7 +6,7 @@
   import Guard from '#lib/ui/app/Guard.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
-  type GameType = 'quiz' | 'prsi' | 'zoliky';
+  import type { GameType } from '#lib/league/types.ts';
   interface Rate {
     correct: number;
     total: number;

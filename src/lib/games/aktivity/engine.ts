@@ -336,8 +336,7 @@ export function aktivityWinners(state: AktivityState): string[] {
     .map((r) => r.teamId);
 }
 
-/** League GameType does not know 'aktivity' yet; same shape otherwise. */
-export type AktivityMatchResult = Omit<MatchResult, 'gameType'> & { gameType: 'aktivity' };
+export type AktivityMatchResult = MatchResult & { gameType: 'aktivity' };
 
 /** League result of the game: every team is one seat, `score` = points. */
 export function aktivityToMatchResult(state: AktivityState, playedAt: string = state.createdAt): AktivityMatchResult {

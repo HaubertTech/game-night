@@ -1,15 +1,17 @@
-// RoomStore over the `matches` table: one row per live room (game_type quiz, mode live),
+// RoomStore over the `matches` table: one row per live room (game_type = the room's game, mode live),
 // `state` JSONB holds the whole StoredRoom. When the game reaches `finished`, the result is
 // written once through `recordMatch` (participants, league points, answers, seen, ratings).
 //
 // Contestant ids in DB-backed rooms are `p<playerId>` for a player and `t<teamId>` for a team.
 
-import type { LiveState } from '../engine/live.ts';
-import { summarizeLive } from '../engine/live.ts';
 import { one, query } from './db.ts';
+import { adapterFor } from './games/index.ts';
+import { parseSeatId } from './games/types.ts';
 import { createMatch, saveMatchState, type MatchStatus } from './repo/matches.ts';
 import type { RoomStore, StoredRoom } from './rooms.ts';
-import { recordMatch, type RecordAnswer, type RecordMatchInput, type RecordParticipant } from './services/results.ts';
+import { recordMatch } from './services/results.ts';
+
+export { liveRecordInput } from './games/quiz.ts';
 
 /** Rooms untouched for this long are abandoned instead of restored. */
 export const STALE_ROOM_MS = 2 * 24 * 60 * 60 * 1000;
@@ -17,69 +19,23 @@ export const STALE_ROOM_MS = 2 * 24 * 60 * 60 * 1000;
 export const playerContestantId = (playerId: number) => `p${playerId}`;
 export const teamContestantId = (teamId: number) => `t${teamId}`;
 
-export function parseContestantId(id: string): { kind: 'player' | 'team'; id: number } | null {
-  const m = /^([pt])(\d{1,15})$/.exec(id);
-  if (!m) return null;
-  return { kind: m[1] === 'p' ? 'player' : 'team', id: Number(m[2]) };
-}
+export const parseContestantId = parseSeatId;
 
-/** Match status for a room state; `finished` is set by recordMatch, never here. */
-function statusFor(state: LiveState): MatchStatus | undefined {
-  if (state.phase === 'lobby') return 'lobby';
-  if (state.phase === 'finished') return undefined;
+/** Match status for a room; `finished` is set by recordMatch, never here. */
+function statusFor(room: StoredRoom): MatchStatus | undefined {
+  const adapter = adapterFor(room.game);
+  if (adapter.isLobby(room.state)) return 'lobby';
+  if (adapter.isFinished(room.state)) return undefined;
   return 'running';
 }
 
-/**
- * Result of a finished live game in the shape of recordMatch. Kicked contestants left the game
- * and are not recorded; places are recomputed among the rest (ties share a place).
- */
-export function liveRecordInput(matchId: number, state: LiveState, playedAt: string): RecordMatchInput {
-  const kicked = new Set(state.kicked);
-  const ranking = summarizeLive(state).ranking.filter((r) => !kicked.has(r.contestant.id));
-  const participants: RecordParticipant[] = [];
-  let place = 0;
-  let prevScore: number | null = null;
-  ranking.forEach((r, i) => {
-    if (prevScore === null || r.score !== prevScore) place = i + 1;
-    prevScore = r.score;
-    const parsed = parseContestantId(r.contestant.id);
-    if (!parsed) throw new Error(`[room-store-db] contestant id ${r.contestant.id} is not a DB id`);
-    const memberIds = r.contestant.memberIds.map(Number).filter((n) => Number.isInteger(n) && n > 0);
-    participants.push({
-      participantId: r.contestant.id,
-      kind: parsed.kind,
-      ...(parsed.kind === 'player' ? { playerId: parsed.id } : { teamId: parsed.id }),
-      memberIds: parsed.kind === 'player' ? [parsed.id] : memberIds,
-      place,
-      score: r.score,
-    });
-  });
-  const seats = new Map(participants.map((p) => [p.participantId, p]));
-  const answers: RecordAnswer[] = [];
-  for (const a of state.answers) {
-    const seat = seats.get(a.contestantId);
-    const q = state.questions[a.questionId];
-    if (!seat || !q) continue;
-    answers.push({
-      participantId: seat.participantId,
-      ...(seat.kind === 'player' ? { playerId: seat.playerId } : { teamId: seat.teamId }),
-      questionId: q.id,
-      theme: q.theme,
-      level: q.level,
-      roundNo: a.round + 1,
-      correct: a.correct,
-      points: a.points,
-    });
-  }
-  return { matchId, gameType: 'quiz', playedAt, participants, answers };
-}
+const isFinished = (room: StoredRoom) => adapterFor(room.game).isFinished(room.state);
 
 export type OnFinished = (householdId: number, matchId: number, room: StoredRoom) => Promise<void>;
 
 export const recordLiveResult: OnFinished = async (householdId, matchId, room) => {
   const playedAt = new Date(room.updatedAt || Date.now()).toISOString();
-  await recordMatch(householdId, liveRecordInput(matchId, room.state, playedAt));
+  await recordMatch(householdId, adapterFor(room.game).recordInput(matchId, room.state, playedAt));
 };
 
 export interface DbRoomStoreOptions {
@@ -118,22 +74,22 @@ export class DbRoomStore implements RoomStore {
         const householdId = room.meta?.householdId;
         if (!householdId) throw new Error(`[room-store-db] room ${room.code} has no household (meta.householdId)`);
         const created = await createMatch(householdId, {
-          game_type: 'quiz',
+          game_type: room.game ?? 'quiz',
           mode: 'live',
           room_code: room.code,
           night_id: room.meta?.nightId ?? null,
-          status: statusFor(room.state) ?? 'running',
+          status: statusFor(room) ?? 'running',
           state: room,
         });
         id = created.id;
         this.households.set(room.code, householdId);
       }
       this.ids.set(room.code, id);
-      if (existing) await saveMatchState(id, room, statusFor(room.state));
+      if (existing) await saveMatchState(id, room, statusFor(room));
     } else {
-      await saveMatchState(id, room, statusFor(room.state));
+      await saveMatchState(id, room, statusFor(room));
     }
-    if (room.state.phase === 'finished') await this.finish(room, id);
+    if (isFinished(room)) await this.finish(room, id);
   }
 
   async load(code: string): Promise<StoredRoom | null> {
@@ -160,7 +116,7 @@ export class DbRoomStore implements RoomStore {
       }
       this.ids.set(room.code, row.id);
       this.households.set(room.code, row.household_id);
-      if (room.state.phase === 'finished') await this.finish(room, row.id);
+      if (isFinished(room)) await this.finish(room, row.id);
       out.push(room);
     }
     return out;

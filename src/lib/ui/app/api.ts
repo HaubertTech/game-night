@@ -35,8 +35,14 @@ export async function api<T = unknown>(path: string, init: { method?: string; bo
   return data as T;
 }
 
-export const GAME_LABELS = { quiz: 'Kvíz', prsi: 'Prší', zoliky: 'Žolíky' } as const;
-export const GAME_EMOJI = { quiz: '🦉', prsi: '🃏', zoliky: '🂡' } as const;
+export const GAME_LABELS = {
+  quiz: 'Kvíz',
+  aktivity: 'Řekni-ukaž-nakresli',
+  mjz: 'Město-jméno-zvíře',
+  prsi: 'Prší',
+  zoliky: 'Žolíky',
+} as const;
+export const GAME_EMOJI = { quiz: '🦉', aktivity: '🎭', mjz: '✍️', prsi: '🃏', zoliky: '🂡' } as const;
 
 export function formatDate(value: string | Date | null | undefined): string {
   if (!value) return '';

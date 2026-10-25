@@ -8,6 +8,8 @@
   import Standings from '#lib/ui/Standings.svelte';
   import ConnectionBadge from '#lib/ui/live/ConnectionBadge.svelte';
   import Countdown from '#lib/ui/live/Countdown.svelte';
+  import AktivityPhone from '#lib/ui/live/AktivityPhone.svelte';
+  import MjzPhone from '#lib/ui/live/MjzPhone.svelte';
   import LiveFinal from '#lib/ui/live/LiveFinal.svelte';
   import LiveQuestion from '#lib/ui/live/LiveQuestion.svelte';
   import RevealCard from '#lib/ui/live/RevealCard.svelte';
@@ -57,7 +59,13 @@
   }
 </script>
 
-<svelte:head><title>Kvízovna · {code}</title></svelte:head>
+<svelte:head><title>{room.game === 'aktivity' ? 'Řekni, ukaž, nakresli' : room.game === 'mjz' ? 'Město, jméno, zvíře' : 'Kvízovna'} · {code}</title></svelte:head>
+
+{#if room.game === 'aktivity'}
+  <AktivityPhone {room} {code} />
+{:else if room.game === 'mjz'}
+  <MjzPhone {room} {code} />
+{:else}
 
 <main class="phone" data-testid="phone" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''}>
   <header class="bar">
@@ -183,6 +191,7 @@
     <p class="toast" role="alert">{room.error.message}</p>
   {/if}
 </main>
+{/if}
 
 <style>
   .phone {

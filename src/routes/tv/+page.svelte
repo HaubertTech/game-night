@@ -5,6 +5,9 @@
   import { LEVELS, LEVEL_LABELS, THEMES, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
   import { writeToken } from '#lib/live-client/tokens.ts';
   import { LEVEL_EMOJI, THEME_EMOJI } from '#lib/ui/labels.ts';
+  import { isRoomGame, ROOM_GAME_EMOJI, ROOM_GAME_LABELS, ROOM_GAMES, type RoomGame } from '#lib/live/games.ts';
+  import AktivitySetup from '#lib/ui/live/AktivitySetup.svelte';
+  import MjzSetup from '#lib/ui/live/MjzSetup.svelte';
 
   interface PlayerRow {
     id: number;
@@ -37,6 +40,14 @@
   /** Evening the match belongs to (night pages link to /tv?night=<id>). */
   const nightParam = page.url.searchParams.get('night');
   const nightId = nightParam && /^\d{1,15}$/.test(nightParam) ? Number(nightParam) : null;
+  /** Game picked on the cards; `?hra=aktivity|mjz` preselects it (rozcestník, večer). */
+  const gameParam = page.url.searchParams.get('hra');
+  let game = $state<RoomGame>(isRoomGame(gameParam) ? gameParam : 'quiz');
+  const GAME_HINTS: Record<RoomGame, string> = {
+    quiz: 'Otázky na telefonech, každý na své úrovni.',
+    aktivity: 'Týmy vysvětlují slova — slovem, pantomimou, kresbou.',
+    mjz: 'Písmeno, kategorie, Stop! a hlasování o sporných odpovědích.',
+  };
 
   const inTeam = $derived(new Set(Object.keys(selectedTeams).flatMap((id) => teams.find((t) => t.id === Number(id))?.member_ids ?? [])));
   const count = $derived(selectedPlayers.length + Object.keys(selectedTeams).length);
@@ -143,8 +154,22 @@
     <a class="btn small ghost" href="/">Zpět</a>
   </header>
 
+  <section class="games" role="group" aria-label="Hra">
+    {#each ROOM_GAMES as g (g)}
+      <button class="game-card" aria-pressed={game === g} onclick={() => (game = g)} data-game={g}>
+        <span class="emoji">{ROOM_GAME_EMOJI[g]}</span>
+        <strong>{ROOM_GAME_LABELS[g]}</strong>
+        <span class="muted">{GAME_HINTS[g]}</span>
+      </button>
+    {/each}
+  </section>
+
   {#if loading}
     <p class="muted">Načítám hráče…</p>
+  {:else if game === 'aktivity'}
+    <AktivitySetup {players} {nightId} />
+  {:else if game === 'mjz'}
+    <MjzSetup {players} {nightId} />
   {:else}
     <section class="card stack">
       <h2>Kdo hraje</h2>
@@ -236,5 +261,30 @@
   .error {
     color: var(--bad);
     font-weight: 700;
+  }
+  .games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 16px 18px;
+    text-align: left;
+    background: var(--paper);
+    border: 2px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    font-size: 1.15rem;
+  }
+  .game-card .emoji {
+    font-size: 2.4rem;
+  }
+  .game-card[aria-pressed='true'] {
+    border-color: var(--sage-dark);
+    background: var(--sage-light);
   }
 </style>
