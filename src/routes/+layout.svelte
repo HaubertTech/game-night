@@ -13,13 +13,29 @@
     if (!bare && !session.loaded) loadSession();
   });
 
-  const links = [
+  interface NavLink {
+    href: string;
+    label: string;
+    emoji: string;
+  }
+
+  const householdLinks: NavLink[] = [
     { href: '/', label: 'Domů', emoji: '🏠' },
     { href: '/vecery', label: 'Večery', emoji: '🌙' },
     { href: '/liga', label: 'Liga', emoji: '🏆' },
     { href: '/hraci', label: 'Hráči', emoji: '👪' },
+    { href: '/sachy', label: 'Šachy', emoji: '♟️' },
+    { href: '/trenink', label: 'Trénink karet', emoji: '🃏' },
     { href: '/domacnost', label: 'Nastavení', emoji: '⚙️' },
   ];
+  // Without an account: the games that run on one device and save nothing on the server.
+  const guestLinks: NavLink[] = [
+    { href: '/', label: 'Domů', emoji: '🏠' },
+    { href: '/tablet', label: 'Kvízovna na tabletu', emoji: '🦉' },
+    { href: '/sachy', label: 'Šachy', emoji: '♟️' },
+    { href: '/trenink', label: 'Trénink karet', emoji: '🃏' },
+  ];
+  const links = $derived(session.household ? householdLinks : guestLinks);
 
   function active(href: string): boolean {
     const path = page.url.pathname;
@@ -29,14 +45,18 @@
   }
 </script>
 
-{#if !bare && session.household}
+{#if !bare && session.loaded}
   <nav class="app-nav" aria-label="Hlavní navigace">
     {#each links as l (l.href)}
       <a href={l.href} class="nav-link" aria-current={active(l.href) ? 'page' : undefined}>
         <span class="emoji" aria-hidden="true">{l.emoji}</span><span>{l.label}</span>
       </a>
     {/each}
-    <span class="nav-home muted">{session.household.name}</span>
+    {#if session.household}
+      <span class="nav-home muted">{session.household.name}</span>
+    {:else if !session.offline}
+      <a class="nav-link nav-login" href="/">Přihlásit</a>
+    {/if}
   </nav>
 {/if}
 
@@ -78,6 +98,10 @@
     background: var(--sage-light);
     color: var(--sage-dark);
   }
+  .nav-login {
+    margin-left: auto;
+    border: 2px solid var(--line);
+  }
   .nav-home {
     margin-left: auto;
     font-weight: 650;
@@ -87,6 +111,9 @@
   @media (max-width: 560px) {
     .nav-home {
       display: none;
+    }
+    .nav-link {
+      padding: 6px 12px;
     }
   }
 </style>

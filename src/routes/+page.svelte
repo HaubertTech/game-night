@@ -4,6 +4,10 @@
   import { exportData, loadHistory, loadProfiles } from '#lib/storage.ts';
   import { api, ApiError, formatDate } from '#lib/ui/app/api.ts';
   import { loadSession, session } from '#lib/ui/app/session.svelte.ts';
+  import Art from '#lib/ui/art/Art.svelte';
+  import GameCard from '#lib/ui/art/GameCard.svelte';
+  import { GAME_ART, GAME_NAMES } from '#lib/ui/art/art.ts';
+  import type { RoomGame } from '#lib/live/games.ts';
 
   interface NightRow {
     id: number;
@@ -94,6 +98,10 @@
     });
   }
 
+  function tvHref(game: RoomGame): string {
+    return `/tv?hra=${game}${today ? `&night=${today.id}` : ''}`;
+  }
+
   function cardsHref(game: 'prsi' | 'zoliky'): string {
     return `/karty/nova?hra=${game}${today ? `&night=${today.id}` : ''}`;
   }
@@ -124,12 +132,23 @@
   }
 </script>
 
+<svelte:head><title>Herní večer</title></svelte:head>
+
+{#snippet freeGames()}
+  <GameCard art={GAME_ART.kvizovna} title={`${GAME_NAMES.kvizovna} na tabletu`} text="Jeden tablet koluje kolem stolu. Funguje i bez účtu." href="/tablet" testid="game-tablet" />
+  <GameCard art={GAME_ART.sachy} title={GAME_NAMES.sachy} text="Proti počítači, ve dvou nebo s lekcemi od sovy." href="/sachy" testid="game-sachy" />
+  <GameCard art={GAME_ART.prsi} title={`Trénink: ${GAME_NAMES.prsi}`} text="Lekce a hra s počítačem." href="/trenink/prsi" testid="game-trenink-prsi" />
+  <GameCard art={GAME_ART.zoliky} title={`Trénink: ${GAME_NAMES.zoliky}`} text="Lekce a hra s počítačem." href="/trenink/zoliky" testid="game-trenink-zoliky" />
+{/snippet}
+
 <main class="page stack home">
-  <header class="hero">
-    <span class="emoji logo" aria-hidden="true">🏡</span>
-    <div>
+  <header class="hero" class:compact={!!session.household}>
+    <div class="hero-pic">
+      <Art name="hero.uvod" eager sizes="(max-width: 700px) 100vw, 1100px" />
+    </div>
+    <div class="hero-text">
       <h1>Herní večer</h1>
-      <p class="muted">Kvízy, řekni-ukaž-nakresli, město-jméno-zvíře, prší a žolíky — večery, tabulka sezóny a statistiky celé rodiny.</p>
+      <p class="muted">Kvízovna, Řekni-ukaž-nakresli, Město-jméno-zvíře, Šachy, Prší a Žolíky. Večery, tabulka sezóny a statistiky celé rodiny.</p>
     </div>
   </header>
 
@@ -138,13 +157,19 @@
   {:else if session.offline}
     <section class="card stack">
       <h2>Server není dostupný</h2>
-      <p class="muted">Ligu, večery a karty teď uložit nejde. Kvíz na jednom tabletu funguje i bez serveru.</p>
+      <p class="muted">Ligu, večery a zápis karet teď uložit nejde. Hry níže fungují i bez serveru.</p>
       <div class="row">
-        <a class="btn primary big" href="/tablet">🦉 Kvíz na jednom tabletu</a>
-        <button class="btn ghost" onclick={() => loadSession()}>Zkusit znovu</button>
+        <button class="btn" onclick={() => loadSession()}>Zkusit znovu</button>
       </div>
     </section>
+    <section class="games" aria-label="Hry bez účtu">{@render freeGames()}</section>
   {:else if !session.household}
+    <section class="stack">
+      <h2 class="section-title">Hrát hned, bez účtu</h2>
+      <div class="games" aria-label="Hry bez účtu">{@render freeGames()}</div>
+    </section>
+    <h2 class="section-title">Přihlášení domácnosti</h2>
+    <p class="muted intro">S účtem se večery, liga a statistiky ukládají a hraje se i na televizi s mobily.</p>
     <div class="login-grid">
       <form class="card stack narrow" onsubmit={loginAccount} data-testid="login">
         <h2>Přihlášení</h2>
@@ -181,11 +206,10 @@
         <button class="btn big" type="submit" disabled={busy || pin.length < 4}>Přihlásit PINem</button>
       </form>
     </div>
-    <a class="btn ghost" href="/tablet">🦉 Kvíz na tabletu bez přihlášení</a>
   {:else}
     {#if session.needsAccount}
       <a class="card note-card row" href="/domacnost" data-testid="needs-account">
-        <span class="emoji big-emoji">🔐</span>
+        <span class="emoji big-emoji" aria-hidden="true">🔐</span>
         <span class="grow"><strong>Doplň účet správce</strong><br /><span class="muted">Domácnost zatím nemá e-mail a heslo. Bez nich nejde obnovit přístup ani stáhnout data.</span></span>
         <span class="btn primary">Doplnit účet</span>
       </a>
@@ -196,30 +220,51 @@
         {#if info}<p class="muted" role="status">{info}</p>{/if}
       </section>
     {/if}
-    {#if today}
-      <a class="card today row" href={`/vecery/${today.id}`}>
-        <span class="emoji big-emoji">🌙</span>
-        <span class="grow"><strong>Dnešní večer</strong><br /><span class="muted">{today.title ?? formatDate(today.played_on)} · partií: {today.matches}</span></span>
-        <span class="btn primary">Pokračovat</span>
-      </a>
-    {/if}
-    <section class="tiles" aria-label="Rozcestník">
-      <button class="tile primary-tile" onclick={newNight} disabled={busy}><span class="emoji">🌙</span>Nový večer</button>
-      <a class="tile" href={today ? `/tv?night=${today.id}` : '/tv'}><span class="emoji">📺</span>Kvíz na TV a mobilech</a>
-      <a class="tile" href={today ? `/tablet?night=${today.id}` : '/tablet'}><span class="emoji">🦉</span>Kvíz na jednom tabletu</a>
-      <a class="tile" href={today ? `/tv?night=${today.id}&hra=aktivity` : '/tv?hra=aktivity'}><span class="emoji">🎭</span>Řekni, ukaž, nakresli</a>
-      <a class="tile" href={today ? `/tv?night=${today.id}&hra=mjz` : '/tv?hra=mjz'}><span class="emoji">✍️</span>Město, jméno, zvíře</a>
-      <a class="tile" href={cardsHref('prsi')}><span class="emoji">🃏</span>Prší</a>
-      <a class="tile" href={cardsHref('zoliky')}><span class="emoji">🂡</span>Žolíky</a>
-      <a class="tile" href="/liga"><span class="emoji">🏆</span>Liga</a>
-      <a class="tile" href="/hraci"><span class="emoji">👪</span>Hráči</a>
-      <a class="tile" href="/vecery"><span class="emoji">📅</span>Večery</a>
-      <a class="tile" href="/domacnost"><span class="emoji">⚙️</span>Nastavení domácnosti</a>
-    </section>
+
+    <div class="row night-row">
+      {#if today}
+        <a class="card today row grow" href={`/vecery/${today.id}`}>
+          <Art name="rewards.vitez-vecera" size={56} decorative class="today-art" />
+          <span class="grow"><strong>Dnešní večer</strong><br /><span class="muted">{today.title ?? formatDate(today.played_on)} · partií: {today.matches}</span></span>
+          <span class="btn primary">Pokračovat</span>
+        </a>
+      {/if}
+      <button class="btn primary big" onclick={newNight} disabled={busy}>🌙 Nový večer</button>
+    </div>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
 
+    <section class="stack">
+      <h2 class="section-title">Hry</h2>
+      {#if today}<p class="muted intro">Partie se zapíšou do dnešního večera.</p>{/if}
+      <div class="games" aria-label="Hry">
+        <GameCard art={GAME_ART.kvizovna} title={GAME_NAMES.kvizovna} text="Otázky na televizi, odpovědi na mobilech." href={tvHref('quiz')} testid="game-kvizovna" />
+        <GameCard art={GAME_ART.aktivity} title={GAME_NAMES.aktivity} text="Týmy vysvětlují slova slovem, pantomimou a kresbou." href={tvHref('aktivity')} testid="game-aktivity" />
+        <GameCard art={GAME_ART.mjz} title={GAME_NAMES.mjz} text="Písmeno, kategorie, Stop! Píše se na mobilech." href={tvHref('mjz')} testid="game-mjz" />
+        <GameCard art={GAME_ART.sachy} title={GAME_NAMES.sachy} text="Proti počítači, ve dvou nebo s lekcemi od sovy." href="/sachy" testid="game-sachy" />
+        <GameCard art={GAME_ART.prsi} title={GAME_NAMES.prsi} text="Zápis partie s opravdovými kartami." href={cardsHref('prsi')} testid="game-prsi" />
+        <GameCard art={GAME_ART.zoliky} title={GAME_NAMES.zoliky} text="Zápis partie s opravdovými kartami." href={cardsHref('zoliky')} testid="game-zoliky" />
+      </div>
+      <div class="row more" aria-label="Další způsoby hry">
+        <a class="btn" href={today ? `/tablet?night=${today.id}` : '/tablet'}>🦉 Kvízovna na jednom tabletu</a>
+        <a class="btn" href={tvHref('chess')}>📺 Šachy na televizi</a>
+        <a class="btn" href={tvHref('prsi-hra')}>📺 Prší na televizi</a>
+        <a class="btn" href={tvHref('zoliky-hra')}>📺 Žolíky na televizi</a>
+        <a class="btn" href="/trenink">🎓 Trénink karet</a>
+      </div>
+    </section>
+
+    <section class="stack">
+      <h2 class="section-title">Rodina</h2>
+      <div class="games small-games">
+        <GameCard small art="cards.liga" title="Liga" text="Tabulka sezóny, ratingy a rekordy." href="/liga" />
+        <GameCard small art="rewards.vitez-vecera" title="Večery" text="Odehrané večery a jejich výsledky." href="/vecery" />
+        <GameCard small art="avatars.liska" title="Hráči" text="Profily, avatary a týmy." href="/hraci" />
+        <GameCard small art="ui.zvonek" title="Nastavení domácnosti" text="Účet, PIN, pozvánky a data." href="/domacnost" />
+      </div>
+    </section>
+
     <section class="card stack">
-      <h2>📲 Import z tabletu</h2>
+      <h2>Import z tabletu</h2>
       <p class="muted">Přenese profily, odehrané kvízy a viděné otázky z tabletové verze. Opakovaný import nic nezdvojí.</p>
       <div class="row">
         <button class="btn" onclick={importFromDevice} disabled={busy || (localGames === 0 && localProfiles === 0)}>
@@ -242,22 +287,46 @@
 <style>
   .hero {
     display: flex;
-    gap: 18px;
-    align-items: center;
-    padding: 8px 4px;
+    flex-direction: column;
+    gap: 14px;
   }
-  .hero h1 {
+  .hero-pic {
+    overflow: hidden;
+    border: 2px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background: var(--sage-light);
+    aspect-ratio: 16 / 7;
+  }
+  .hero-pic :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero.compact .hero-pic {
+    aspect-ratio: 16 / 4.5;
+  }
+  .hero-text h1 {
     font-size: 2.6rem;
     margin: 0;
   }
-  .hero p {
+  .hero-text p {
     margin: 4px 0 0;
   }
-  .logo {
-    font-size: 4rem;
-    background: var(--sage-light);
-    border-radius: var(--radius);
-    padding: 12px;
+  .intro {
+    margin: 0;
+  }
+  .games {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 14px;
+  }
+  .small-games {
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  }
+  .more .btn {
+    min-height: 52px;
+    font-size: 1.05rem;
   }
   .login-grid {
     display: grid;
@@ -275,6 +344,9 @@
   }
   .small-link {
     color: var(--ink-soft);
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
   .field {
     display: flex;
@@ -290,48 +362,22 @@
     padding: 10px 16px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
     width: 100%;
   }
-  .tiles {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 14px;
-  }
-  .tile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 8px;
-    min-height: 130px;
-    padding: 18px 20px;
-    border: 2px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--paper);
-    box-shadow: var(--shadow);
-    color: var(--ink);
-    text-decoration: none;
-    font-size: 1.25rem;
-    font-weight: 800;
-    text-align: left;
-  }
-  .tile .emoji {
-    font-size: 2.6rem;
-  }
-  .tile:active {
-    transform: translateY(2px);
-  }
-  .primary-tile {
-    background: var(--sage-dark);
-    border-color: #3f4b37;
-    color: #fbf8f1;
+  .night-row {
+    align-items: stretch;
   }
   .today {
     text-decoration: none;
     color: inherit;
     background: var(--clay-light);
     border-color: var(--clay);
+    padding: 12px 16px;
+  }
+  .today :global(.today-art) {
+    width: 56px;
+    height: 56px;
   }
   .big-emoji {
     font-size: 2.4rem;
@@ -354,5 +400,23 @@
   }
   .end {
     justify-content: flex-end;
+  }
+  @media (max-width: 700px) {
+    .hero-pic,
+    .hero.compact .hero-pic {
+      aspect-ratio: 16 / 8;
+    }
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+    .games {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+  }
+  @media (max-width: 340px) {
+    .games {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
