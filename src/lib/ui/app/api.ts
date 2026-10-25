@@ -42,8 +42,9 @@ export const GAME_LABELS = {
   prsi: 'Prší',
   zoliky: 'Žolíky',
   chess: 'Šachy',
+  clovece: 'Člověče, nezlob se',
 } as const;
-export const GAME_EMOJI = { quiz: '🦉', aktivity: '🎭', mjz: '✍️', prsi: '🃏', zoliky: '🂡', chess: '♟️' } as const;
+export const GAME_EMOJI = { quiz: '🦉', aktivity: '🎭', mjz: '✍️', prsi: '🃏', zoliky: '🂡', chess: '♟️', clovece: '🎲' } as const;
 
 export function formatDate(value: string | Date | null | undefined): string {
   if (!value) return '';

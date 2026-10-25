@@ -1,5 +1,5 @@
-// Creating live rooms for „Řekni, ukaž, nakresli“, „Město, jméno, zvíře“, chess and the digital
-// card games from an API body.
+// Creating live rooms for „Řekni, ukaž, nakresli“, „Město, jméno, zvíře“, chess, the digital
+// card games and Člověče, nezlob se from an API body.
 // Contestant ids are `p<playerId>` / `t<teamId>` like in the live quiz, so the DB store can
 // record the finished game. Errors are SvelteKit HttpErrors with Czech messages.
 
@@ -16,6 +16,7 @@ import { listPlayers, type Player } from '../repo/players.ts';
 import { loadSeen } from '../repo/seen.ts';
 import { createTeam, findTeamWithMembers, listTeams } from '../repo/teams.ts';
 import { DEFAULT_AI_DELAY_MS } from '../games/card-table.ts';
+import { createCloveceRoom } from '../games/clovece.ts';
 import { createPrsiRoom } from '../games/prsi-hra.ts';
 import { createZolikyRoom } from '../games/zoliky-hra.ts';
 import type { CreatedRoom } from '../rooms.ts';
@@ -274,6 +275,66 @@ export async function createCardRoom(hub: LiveHub, householdId: number, game: 'p
       game === 'prsi-hra'
         ? createPrsiRoom({ ...common, id: `prsi-${code}`, createdAt, now, settings: { deals: count as number } })
         : createZolikyRoom({ ...common, id: `zoliky-${code}`, createdAt, now, settings: { rounds: count as number } }),
+    { householdId, nightId },
+  );
+}
+
+// ---------- Člověče, nezlob se ----------
+
+/**
+ * Body: { player_ids, computers?: 0–3, computer_level?: 1 | 2 | 3, hints_for?: player_ids, turn_seconds?: null | 15–120,
+ * pawns?: 2 | 4, capture?: boolean, enter_on_one?: boolean, three_tries?: boolean, night_id? }. 2–4 seats; at least one person.
+ */
+export async function createCloveceRoomFor(hub: LiveHub, householdId: number, body: Record<string, unknown>): Promise<CreatedRoom> {
+  const playerIds = idList(body.player_ids, 'player_ids');
+  if (playerIds.length === 0) fail(400, 'Vyber aspoň jednoho hráče.');
+  const computers = body.computers ?? 0;
+  if (!Number.isInteger(computers) || (computers as number) < 0 || (computers as number) > 3) fail(400, 'Počítačů může být 0 až 3.');
+  const total = playerIds.length + (computers as number);
+  if (total < 2 || total > 4) fail(400, 'Hrají 2 až 4 hráči včetně počítačů.');
+  const level = body.computer_level ?? 2;
+  if (level !== 1 && level !== 2 && level !== 3) fail(400, 'Síla počítače je 1, 2 nebo 3.');
+  const hintsFor = new Set(idList(body.hints_for, 'hints_for'));
+  const turnSeconds = body.turn_seconds ?? null;
+  if (!TURN_LIMITS.includes(turnSeconds as number | null)) fail(400, 'Neplatný čas na tah.');
+  const pawns = body.pawns ?? 4;
+  if (pawns !== 2 && pawns !== 4) fail(400, 'Figurek může být 2 nebo 4.');
+  const flags: Record<string, boolean> = {};
+  for (const key of ['capture', 'enter_on_one', 'three_tries'] as const) {
+    const v = body[key];
+    if (v !== undefined && typeof v !== 'boolean') fail(400, `${key} je ano/ne.`);
+    if (typeof v === 'boolean') flags[key] = v;
+  }
+
+  const players = await listPlayers(householdId);
+  const byId = new Map(players.map((p) => [p.id, p]));
+  const seats: TableSeat[] = playerIds.map((id) => {
+    const p = byId.get(id) ?? fail(400, 'Někteří hráči do domácnosti nepatří.');
+    return { id: playerSeat(p.id), name: p.name, avatar: p.avatar, level: p.level, ai: null, hints: hintsFor.has(p.id) };
+  });
+  for (let i = 0; i < (computers as number); i++) {
+    seats.push({ id: `ai${i + 1}`, name: COMPUTER_NAMES[i], avatar: '🤖', level: 'hospoda', ai: level, hints: false });
+  }
+  const nightId = await resolveNight(householdId, body.night_id);
+  return hub.rooms.createGameRoom(
+    'clovece',
+    (code, createdAt, now) =>
+      createCloveceRoom({
+        id: `clovece-${code}`,
+        createdAt,
+        now,
+        seed: seed(),
+        seats,
+        nightId: nightId === null ? null : String(nightId),
+        turnSeconds: turnSeconds as number | null,
+        aiDelayMs: aiDelayMs(),
+        settings: {
+          pawns: pawns as 2 | 4,
+          ...(flags.capture !== undefined ? { capture: flags.capture } : {}),
+          ...(flags.enter_on_one !== undefined ? { enterOnOne: flags.enter_on_one } : {}),
+          ...(flags.three_tries !== undefined ? { threeTries: flags.three_tries } : {}),
+        },
+      }),
     { householdId, nightId },
   );
 }

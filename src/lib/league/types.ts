@@ -3,7 +3,7 @@
 
 import type { Level, Theme } from '../types.ts';
 
-export const GAME_TYPES = ['quiz', 'aktivity', 'mjz', 'prsi', 'zoliky', 'chess'] as const;
+export const GAME_TYPES = ['quiz', 'aktivity', 'mjz', 'prsi', 'zoliky', 'chess', 'clovece'] as const;
 export type GameType = (typeof GAME_TYPES)[number];
 
 export type ParticipantKind = 'player' | 'team';

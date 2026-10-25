@@ -1,7 +1,7 @@
 // Live rooms without any networking: clients are opaque ids, messages go out through an
 // injected `send`, time comes from an injected `clock` and timeouts from a `scheduler`.
 // The ws server (ws.ts) and the tests drive the same code.
-// The game itself (quiz, aktivity, mjz, chess, prší, žolíky) sits behind an adapter (server/games/*.ts).
+// The game itself (quiz, aktivity, mjz, chess, prší, žolíky, Člověče) sits behind an adapter (server/games/*.ts).
 
 import { createHash, randomBytes } from 'node:crypto';
 import type { Question } from '../types.ts';
@@ -10,7 +10,7 @@ import type { AktivityState } from '../games/aktivity/engine.ts';
 import type { ChessState } from '../games/chess/engine.ts';
 import type { MjzState } from '../games/mjz/engine.ts';
 import type { RoomGame } from '../live/games.ts';
-import type { PrsiRoomState, ZolikyRoomState } from '../live/table-games.ts';
+import type { CloveceRoomState, PrsiRoomState, ZolikyRoomState } from '../live/table-games.ts';
 import {
   errorMessage,
   isSupportedVersion,
@@ -25,7 +25,7 @@ import {
 import { adapterFor, type AnyAdapter } from './games/index.ts';
 import type { RoomActor } from './games/types.ts';
 
-export type RoomState = LiveState | AktivityState | MjzState | ChessState | PrsiRoomState | ZolikyRoomState;
+export type RoomState = LiveState | AktivityState | MjzState | ChessState | PrsiRoomState | ZolikyRoomState | CloveceRoomState;
 
 /** Room codes avoid look-alike characters (0/O, 1/I/L). */
 export const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';

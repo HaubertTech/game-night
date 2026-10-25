@@ -7,7 +7,7 @@ import { playerContestantId, teamContestantId } from '#lib/server/room-store-db.
 import { listPlayers } from '#lib/server/repo/players.ts';
 import { loadSeen } from '#lib/server/repo/seen.ts';
 import { listTeams } from '#lib/server/repo/teams.ts';
-import { createAktivityRoom, createCardRoom, createChessRoom, createMjzRoom } from '#lib/server/services/game-rooms.ts';
+import { createAktivityRoom, createCardRoom, createChessRoom, createCloveceRoomFor, createMjzRoom } from '#lib/server/services/game-rooms.ts';
 import { getLiveHub } from '#lib/server/ws.ts';
 
 const MAX_CONTESTANTS = 12;
@@ -23,7 +23,7 @@ function idList(raw: unknown, what: string): number[] {
 
 /**
  * Creates a live room for the logged-in household.
- * `game` = 'quiz' (default) | 'aktivity' | 'mjz' | 'chess' | 'prsi-hra' | 'zoliky-hra'; the rest of
+ * `game` = 'quiz' (default) | 'aktivity' | 'mjz' | 'chess' | 'prsi-hra' | 'zoliky-hra' | 'clovece'; the rest of
  * the body depends on the game (see services/game-rooms.ts).
  * Quiz body: { player_ids, teams: [{ id, level }], themes, questions_per_contestant, timer_seconds, on_tv: [contestantId], night_id }
  */
@@ -40,6 +40,10 @@ export const POST: RequestHandler = async (event) => {
   }
   if (game === 'chess' || game === 'prsi-hra' || game === 'zoliky-hra') {
     const room = game === 'chess' ? await createChessRoom(getLiveHub(), household.id, body) : await createCardRoom(getLiveHub(), household.id, game, body);
+    return json({ code: room.code, host_token: room.hostToken, game }, { status: 201 });
+  }
+  if (game === 'clovece') {
+    const room = await createCloveceRoomFor(getLiveHub(), household.id, body);
     return json({ code: room.code, host_token: room.hostToken, game }, { status: 201 });
   }
   if (game !== 'quiz') fail(400, 'Neznámá hra.');
