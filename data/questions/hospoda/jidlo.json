@@ -1,0 +1,501 @@
+[
+  {
+    "id": "hospoda-jidlo-001",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje vánoční cukroví z křehkého těsta slepované marmeládou?",
+    "options": [
+      "Vosí hnízda",
+      "Pracny",
+      "Linecké",
+      "Vanilkové rohlíčky"
+    ],
+    "answer": "Linecké",
+    "fact": "Název pochází od rakouského města Linec.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Linecké_pečivo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-002",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Z mléka kterého zvířete je pravá mozzarella di bufala?",
+    "answer": "Buvolí",
+    "accept": [
+      "buvol",
+      "buvolice",
+      "z buvolího"
+    ],
+    "fact": "Buvolice se kvůli ní chovají hlavně v Kampánii kolem Neapole.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mozzarella",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-003",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce uvařil Český akciový pivovar, předchůdce Budvaru, první várku?",
+    "answer": 1895,
+    "unit": "rok",
+    "fact": "Pivo se v Budějovicích vaří už od středověku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Budějovický_Budvar_(podnik)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-004",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který sýr se vyrábí v Loštičích?",
+    "options": [
+      "Eidam",
+      "Hermelín",
+      "Niva",
+      "Olomoucké tvarůžky"
+    ],
+    "answer": "Olomoucké tvarůžky",
+    "fact": "Olomoucké tvarůžky mají chráněné zeměpisné označení Evropské unie.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Olomoucké_tvarůžky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-005",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co je Becherovka?",
+    "options": [
+      "Pivní likér",
+      "Bylinný likér",
+      "Vinná pálenka",
+      "Švestková pálenka"
+    ],
+    "answer": "Bylinný likér",
+    "fact": "Vyrábí se v Karlových Varech od roku 1807.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Becherovka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-006",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která oblast je u nás nejznámější chovem kaprů?",
+    "options": [
+      "Třeboňsko",
+      "Lipensko",
+      "Českolipsko",
+      "Hostýnské vrchy"
+    ],
+    "answer": "Třeboňsko",
+    "fact": "Největší český rybník Rožmberk vybudoval v 16. století Jakub Krčín.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Třeboňsko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-008",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která oblast u nás je proslulá pěstováním chmele?",
+    "options": [
+      "Chodsko",
+      "Žatecko",
+      "Haná",
+      "Třeboňsko"
+    ],
+    "answer": "Žatecko",
+    "fact": "Žatecký poloraný červeňák je jednou z nejznámějších odrůd chmele na světě.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Žatecký_chmel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-009",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se zkrátka říká oblíbenému jídlu z vepřové pečeně, knedlíku a zelí?",
+    "answer": "Vepřo knedlo zelo",
+    "accept": [
+      "vepřo-knedlo-zelo",
+      "vepřoknedlozelo"
+    ],
+    "fact": "Knedlík k němu bývá houskový, v mnoha rodinách i bramborový.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Vepřo_knedlo_zelo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-010",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje slovenské národní jídlo s ovčím sýrem?",
+    "options": [
+      "Lokše",
+      "Kapustnica",
+      "Pirohy",
+      "Bryndzové halušky"
+    ],
+    "answer": "Bryndzové halušky",
+    "fact": "Brynza se vyrábí z ovčího hrudkového sýra.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bryndzové_halušky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-011",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik let musí nejméně zrát skotská whisky?",
+    "answer": 3,
+    "unit": "roky",
+    "fact": "Věk na lahvi udává nejmladší whisky ve směsi.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Scotch_whisky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-012",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého obilí musí být aspoň z poloviny americká whiskey bourbon?",
+    "options": [
+      "Z kukuřice",
+      "Z pšenice",
+      "Z ječmene",
+      "Z žita"
+    ],
+    "answer": "Z kukuřice",
+    "fact": "Bourbon musí zrát v nových dubových sudech s vypáleným vnitřkem.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Bourbon_whiskey",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-013",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje pálivá zelená pasta, která se podává k sushi?",
+    "answer": "Wasabi",
+    "accept": [
+      "vasabi"
+    ],
+    "fact": "V restauracích bývá často jen napodobenina z křenu a hořčice.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Wasabi",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-014",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jaké maso patří do klasické svíčkové na smetaně?",
+    "options": [
+      "Vepřové",
+      "Jehněčí",
+      "Hovězí",
+      "Kuřecí"
+    ],
+    "answer": "Hovězí",
+    "fact": "Omáčka se dělá z kořenové zeleniny – mrkve, petržele a celeru.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Svíčková_na_smetaně",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-015",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které oříšky dávají Nutelle typickou chuť?",
+    "options": [
+      "Mandle",
+      "Vlašské",
+      "Arašídy",
+      "Lískové"
+    ],
+    "answer": "Lískové",
+    "fact": "Recept vznikl v poválečné Itálii, kdy bylo kakao drahé a míchalo se s oříšky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Nutella",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-016",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik dní trvá křesťanská postní doba před Velikonocemi (bez nedělí)?",
+    "answer": 40,
+    "unit": "dní",
+    "fact": "Postní doba začíná Popeleční středou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Postní_doba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-017",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje italský dezert z mascarpone, piškotů a kávy?",
+    "options": [
+      "Tiramisu",
+      "Panna cotta",
+      "Cannoli",
+      "Zabaione"
+    ],
+    "answer": "Tiramisu",
+    "fact": "Tiramisu znamená volně „vytáhni mě nahoru“.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tiramisu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-018",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se hlavně dělá hummus?",
+    "options": [
+      "Z fazolí",
+      "Z čočky",
+      "Z cizrny",
+      "Z hrachu"
+    ],
+    "answer": "Z cizrny",
+    "fact": "Kromě cizrny do hummusu patří sezamová pasta tahini.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hummus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-019",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření dává bramborákům typickou chuť?",
+    "options": [
+      "Hřebíček",
+      "Majoránka",
+      "Vanilka",
+      "Skořice"
+    ],
+    "answer": "Majoránka",
+    "fact": "Na Plzeňsku se bramborákům říká cmunda.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bramborák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-020",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co je hlavní surovinou mexického guacamole?",
+    "options": [
+      "Cuketa",
+      "Avokádo",
+      "Okurka",
+      "Brokolice"
+    ],
+    "answer": "Avokádo",
+    "fact": "Botanicky je avokádo bobule.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Guacamole",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-021",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve kterém roce se v Plzni uvařil první ležák plzeňského typu?",
+    "options": [
+      "1842",
+      "1742",
+      "1918",
+      "1892"
+    ],
+    "answer": "1842",
+    "fact": "Uvařil ho bavorský sládek Josef Groll.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Plzeňský_Prazdroj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-022",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje český sýr s bílou plísní, podobný camembertu?",
+    "options": [
+      "Eidam",
+      "Niva",
+      "Hermelín",
+      "Tvarůžky"
+    ],
+    "answer": "Hermelín",
+    "fact": "Jméno vzniklo, protože název camembert byl chráněný; přihlášeno bylo v roce 1946.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hermelín_(sýr)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-023",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jaké rostliny se vyrábí tequila?",
+    "options": [
+      "Z kaktusu",
+      "Z kukuřice",
+      "Z cukrové třtiny",
+      "Z agáve"
+    ],
+    "answer": "Z agáve",
+    "fact": "Pravá tequila smí pocházet jen z několika oblastí Mexika, hlavně ze státu Jalisco.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tequila",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-024",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje jihočeská polévka z hub, brambor, smetany a kopru?",
+    "options": [
+      "Kyselo",
+      "Kulajda",
+      "Zelňačka",
+      "Bramboračka"
+    ],
+    "answer": "Kulajda",
+    "fact": "Kyselo je zase krkonošská polévka z chlebového kvasu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kulajda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-025",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje hustá pomazánka z dlouho vařených švestek?",
+    "answer": "Povidla",
+    "accept": [
+      "švestková povidla",
+      "povidlo"
+    ],
+    "fact": "Pravá povidla se vaří bez cukru celé hodiny, dokud nezhoustnou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Povidla",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-026",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého ovoce se pálí slivovice?",
+    "options": [
+      "Z hrušek",
+      "Z třešní",
+      "Z meruněk",
+      "Ze švestek"
+    ],
+    "answer": "Ze švestek",
+    "fact": "Ve Vizovicích se každý rok koná slavnost Trnkobraní.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Slivovice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-027",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve kterém městě se vaří pivo Budějovický Budvar?",
+    "options": [
+      "V Českých Budějovicích",
+      "V Plzni",
+      "V Písku",
+      "V Táboře"
+    ],
+    "answer": "V Českých Budějovicích",
+    "fact": "Spory o značku Budweiser s americkým Anheuser-Busch se táhnou od začátku 20. století.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Budějovický_Budvar_(podnik)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-028",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření dává guláši typickou červenou barvu?",
+    "options": [
+      "Kurkuma",
+      "Šafrán",
+      "Paprika",
+      "Skořice"
+    ],
+    "answer": "Paprika",
+    "fact": "Guláš pochází z Maďarska, kde ho v kotlíku vařili pastevci.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Guláš",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-029",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého města pochází pizza Margherita?",
+    "options": [
+      "Z Říma",
+      "Z Benátek",
+      "Z Milána",
+      "Z Neapole"
+    ],
+    "answer": "Z Neapole",
+    "fact": "Podle legendy dostala jméno po italské královně Markétě Savojské.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pizza_Margherita",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-030",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření je podle hmotnosti nejdražší na světě?",
+    "options": [
+      "Kardamom",
+      "Vanilka",
+      "Šafrán",
+      "Skořice"
+    ],
+    "answer": "Šafrán",
+    "fact": "Na kilogram šafránu je potřeba zhruba 150 000 květů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Šafrán",
+    "status": "verified"
+  }
+]

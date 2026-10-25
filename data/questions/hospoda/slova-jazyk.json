@@ -1,0 +1,509 @@
+[
+  {
+    "id": "hospoda-slova-jazyk-001",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov patří mezi vyjmenovaná slova po B?",
+    "options": [
+      "bitva",
+      "bič",
+      "bicykl",
+      "bylina"
+    ],
+    "answer": "bylina",
+    "fact": "Mezi vyjmenovaná slova po B patří i město Přibyslav.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Vyjmenovaná_slova",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-002",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov je napsané správně?",
+    "options": [
+      "výnimka",
+      "výjimka",
+      "vyjímka",
+      "vyjimka"
+    ],
+    "answer": "výjimka",
+    "fact": "Slovo souvisí s vyjmout, a přesto se píše s dlouhým ý.",
+    "difficulty": 2,
+    "source": "https://prirucka.ujc.cas.cz/?slovo=výjimka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-003",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov se používá jen v množném čísle?",
+    "options": [
+      "ponožky",
+      "boty",
+      "kalhoty",
+      "rukavice"
+    ],
+    "answer": "kalhoty",
+    "fact": "Pomnožná jsou i slova nůžky, housle nebo Vánoce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pomnožné_podstatné_jméno",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-004",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "Kolik písmen má anglická abeceda?",
+    "answer": 26,
+    "unit": "písmen",
+    "fact": "Nejčastějším písmenem v angličtině je e.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Anglická_abeceda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-005",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak končí přísloví „Bez práce…“?",
+    "options": [
+      "…nejsou koláče",
+      "…není radosti",
+      "…není chleba",
+      "…nejsou peníze"
+    ],
+    "answer": "…nejsou koláče",
+    "fact": "Slováci říkají skoro totéž: „Bez práce nie sú koláče.“",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Seznam_českých_přísloví",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-006",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Jak se jmenuje dobrý voják z románu Jaroslava Haška?",
+    "answer": "Švejk",
+    "accept": [
+      "Josef Švejk",
+      "dobrý voják Švejk"
+    ],
+    "fact": "Hašek román nedokončil, zemřel v roce 1923.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Josef_Švejk",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-007",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se nazývá slovo, které se čte stejně zepředu i zezadu, jako „kajak“?",
+    "options": [
+      "Synonymum",
+      "Palindrom",
+      "Homonymum",
+      "Anagram"
+    ],
+    "answer": "Palindrom",
+    "fact": "Funguje to i s celou větou: „Kobyla má malý bok.“",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Palindrom",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-008",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal sbírku balad Kytice?",
+    "options": [
+      "Karel Hynek Mácha",
+      "Jan Neruda",
+      "Karel Jaromír Erben",
+      "Karel Havlíček Borovský"
+    ],
+    "answer": "Karel Jaromír Erben",
+    "fact": "Podle Erbenova Vodníka složil Dvořák stejnojmennou symfonickou báseň.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kytice_(Erben)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-009",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "V jakém roce vyšel Máchův Máj?",
+    "answer": 1836,
+    "unit": "rok",
+    "fact": "Mácha ho vydal vlastním nákladem.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Máj_(báseň)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-010",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplňte rčení: „Chodit kolem něčeho jako kočka kolem…“",
+    "options": [
+      "…horké kaše",
+      "…pece",
+      "…mléka",
+      "…myši"
+    ],
+    "answer": "…horké kaše",
+    "fact": "Říká se tomu, kdo se bojí jít k věci přímo.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-011",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak zní 5. pád (oslovení) slova „pes“?",
+    "options": [
+      "psovi",
+      "pesi",
+      "psi",
+      "pse"
+    ],
+    "answer": "pse",
+    "fact": "Pátý pád používáme jen při oslovení.",
+    "difficulty": 2,
+    "source": "https://prirucka.ujc.cas.cz/?slovo=pes",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-012",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které dílo začíná veršem „Byl pozdní večer – první máj“?",
+    "options": [
+      "Máj",
+      "Babička",
+      "Romance pro křídlovku",
+      "Kytice"
+    ],
+    "answer": "Máj",
+    "fact": "Mácha zemřel ještě v roce vydání Máje, bylo mu teprve 25 let.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Máj_(báseň)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-013",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená rčení „házet hrách na stěnu“?",
+    "options": [
+      "Dělat zbytečný hluk",
+      "Marně někoho přesvědčovat",
+      "Plýtvat jídlem",
+      "Slavit dobrou úrodu"
+    ],
+    "answer": "Marně někoho přesvědčovat",
+    "fact": "Podobně se říká „mluvit do dubu“.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-014",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo dal světu Karel Čapek (vymyslel ho jeho bratr Josef)?",
+    "options": [
+      "Automat",
+      "Kyborg",
+      "Android",
+      "Robot"
+    ],
+    "answer": "Robot",
+    "fact": "Poprvé se objevilo ve hře R.U.R. z roku 1920.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Robot",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-015",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená rčení „mít máslo na hlavě“?",
+    "options": [
+      "Být bohatý",
+      "Být hloupý",
+      "Mít sám něco na svědomí",
+      "Mít pleš"
+    ],
+    "answer": "Mít sám něco na svědomí",
+    "fact": "Vysvětluje se tím, že máslo schované pod čepicí na slunci steče a prozradí zloděje.",
+    "difficulty": 3,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-016",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal Babičku?",
+    "options": [
+      "Karel Václav Rais",
+      "Božena Němcová",
+      "Karolina Světlá",
+      "Karel Jaromír Erben"
+    ],
+    "answer": "Božena Němcová",
+    "fact": "Portrét Němcové byl na pětisetkorunové bankovce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Božena_Němcová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-017",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik pádů má čeština?",
+    "options": [
+      "8",
+      "5",
+      "7",
+      "6"
+    ],
+    "answer": "7",
+    "fact": "Sedmý pád, instrumentál, odpovídá na otázku kým, čím.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pád_(mluvnice)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-018",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo nakreslil slavné ilustrace k Haškovu Švejkovi?",
+    "options": [
+      "Adolf Born",
+      "Zdeněk Miler",
+      "Jiří Trnka",
+      "Josef Lada"
+    ],
+    "answer": "Josef Lada",
+    "fact": "Švejka přeložili do desítek jazyků.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Osudy_dobrého_vojáka_Švejka_za_světové_války",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-019",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplňte přísloví: „Kde nic není, ani … nebere.“",
+    "options": [
+      "smrt",
+      "vrána",
+      "zloděj",
+      "pán"
+    ],
+    "answer": "smrt",
+    "fact": "Smysl je jasný: od chudého nic nevymůžeš.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-020",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "V jakém roce poprvé knižně vyšla Babička Boženy Němcové?",
+    "answer": 1855,
+    "unit": "rok",
+    "fact": "Psala ji v Praze v době, kdy žila v bídě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Babička_(kniha)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-021",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplňte přísloví: „Ráno moudřejší…“",
+    "options": [
+      "…poledne",
+      "…noci",
+      "…dne",
+      "…večera"
+    ],
+    "answer": "…večera",
+    "fact": "Stejné přísloví znají i Rusové.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-022",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená latinské „carpe diem“?",
+    "options": [
+      "Pamatuj na smrt",
+      "Ve víně je pravda",
+      "Užívej dne",
+      "Tak jde sláva světa"
+    ],
+    "answer": "Užívej dne",
+    "fact": "Pochází z ódy římského básníka Horatia.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Carpe_diem",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-023",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov se do angličtiny a dalších jazyků dostalo z češtiny?",
+    "options": [
+      "pistole",
+      "kanón",
+      "granát",
+      "mušketa"
+    ],
+    "answer": "pistole",
+    "fact": "Pochází od husitské palné zbraně zvané píšťala.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Pistol",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-024",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se jmenuje písmo, kterým píší Rusové?",
+    "options": [
+      "Alfabeta",
+      "Cyrilice",
+      "Hlaholice",
+      "Latinka"
+    ],
+    "answer": "Cyrilice",
+    "fact": "Jmenuje se po svatém Cyrilovi, ten ale vymyslel starší hlaholici.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Cyrilice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-025",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Z jakého jazyka k nám přišlo slovo knedlík?",
+    "options": [
+      "Z němčiny",
+      "Z maďarštiny",
+      "Z polštiny",
+      "Z latiny"
+    ],
+    "answer": "Z němčiny",
+    "fact": "Opačnou cestou šla buchta – Rakušané jí říkají Buchtel.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Buchteln",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-026",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Komu se tradičně připisuje zavedení háčků a čárek do českého pravopisu?",
+    "options": [
+      "Karlu IV.",
+      "Janu Husovi",
+      "Josefu Dobrovskému",
+      "Janu Amosi Komenskému"
+    ],
+    "answer": "Janu Husovi",
+    "fact": "Místo háčků navrhl tečky nad písmeny, háček z nich vznikl až později.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Diakritický_pravopis",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-027",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Doplňte známou větu bez samohlásek: „Strč prst skrz …“",
+    "answer": "krk",
+    "fact": "Čeština to zvládne, protože r a l umějí tvořit slabiku samy.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Slabikotvorná_souhláska",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-028",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "Kolik písmen má ruská azbuka?",
+    "answer": 33,
+    "unit": "písmen",
+    "fact": "Dvě z nich, tvrdý a měkký znak, nemají vlastní hlásku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Ruská_abeceda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-029",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Doplňte přísloví: „Darovanému koni na … nehleď.“",
+    "answer": "zuby",
+    "accept": [
+      "zub"
+    ],
+    "fact": "Podle zubů se dá odhadnout, jak je kůň starý.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-030",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Jak se nazývají slova opačného významu, třeba velký a malý?",
+    "answer": "Antonyma",
+    "accept": [
+      "antonymum",
+      "opozita"
+    ],
+    "fact": "Slova stejného významu jsou synonyma.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Antonymum",
+    "status": "verified"
+  }
+]

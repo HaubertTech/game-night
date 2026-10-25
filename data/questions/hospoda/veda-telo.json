@@ -1,0 +1,510 @@
+[
+  {
+    "id": "hospoda-veda-telo-001",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik tisíc kilometrů je v průměru Měsíc od Země?",
+    "answer": 384,
+    "unit": "tisíc km",
+    "fact": "Měsíc se od Země každý rok vzdálí asi o 3,8 cm.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Měsíc",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-002",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik litrů krve má v těle dospělý člověk?",
+    "answer": 5,
+    "unit": "litrů",
+    "fact": "Krev tvoří zhruba 7–8 procent hmotnosti těla.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Krev",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-003",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta je největší ve sluneční soustavě?",
+    "options": [
+      "Neptun",
+      "Jupiter",
+      "Uran",
+      "Saturn"
+    ],
+    "answer": "Jupiter",
+    "fact": "Do Jupiteru by se vešlo přes 1 300 Zemí.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jupiter_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-004",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta má nejvýraznější prstence?",
+    "options": [
+      "Jupiter",
+      "Venuše",
+      "Saturn",
+      "Mars"
+    ],
+    "answer": "Saturn",
+    "fact": "Saturn má menší hustotu než voda – ve velké vaně by plaval.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Saturn_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-005",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co objevil Alexander Fleming v roce 1928?",
+    "options": [
+      "Penicilin",
+      "Inzulin",
+      "Očkování proti neštovicím",
+      "Rentgenové záření"
+    ],
+    "answer": "Penicilin",
+    "fact": "Objev přišel náhodou – plíseň mu zamořila misku s bakteriemi.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Alexander_Fleming",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-006",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jakou chemickou značku má zlato?",
+    "options": [
+      "Ag",
+      "Go",
+      "Zn",
+      "Au"
+    ],
+    "answer": "Au",
+    "fact": "Značka pochází z latinského aurum.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Zlato",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-007",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který orgán čistí krev a tvoří moč?",
+    "options": [
+      "Slezina",
+      "Plíce",
+      "Ledviny",
+      "Játra"
+    ],
+    "answer": "Ledviny",
+    "fact": "Ledviny vytvoří denně kolem 180 litrů prvotní moči, většinu ale vstřebají zpět.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ledvina",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-008",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "V jakém roce přistáli první lidé na Měsíci?",
+    "answer": 1969,
+    "unit": "rok",
+    "fact": "Armstrong a Aldrin strávili venku na povrchu asi dvě a půl hodiny.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Apollo_11",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-009",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdo objevil zákony dědičnosti při pokusech s hrachem v Brně?",
+    "options": [
+      "Jan Evangelista Purkyně",
+      "Gregor Johann Mendel",
+      "Charles Darwin",
+      "Louis Pasteur"
+    ],
+    "answer": "Gregor Johann Mendel",
+    "fact": "Pokusy dělal na zahradě augustiniánského kláštera na Starém Brně.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Gregor_Johann_Mendel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-010",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje nejdelší kost lidského těla?",
+    "answer": "Stehenní kost",
+    "accept": [
+      "stehenní",
+      "kost stehenní",
+      "femur"
+    ],
+    "fact": "Stehenní kost tvoří zhruba čtvrtinu výšky člověka.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Femur",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-011",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který vitamin si tělo vyrobí v kůži díky slunci?",
+    "options": [
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin A"
+    ],
+    "answer": "Vitamin D",
+    "fact": "Vitamin D pomáhá vstřebávat vápník do kostí.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vitamin_D",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-012",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik zubů má dospělý člověk včetně zubů moudrosti?",
+    "options": [
+      "36",
+      "30",
+      "28",
+      "32"
+    ],
+    "answer": "32",
+    "fact": "Mléčných zubů je jen dvacet.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Chrup_člověka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-013",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který orgán lidského těla je největší?",
+    "options": [
+      "Mozek",
+      "Plíce",
+      "Játra",
+      "Kůže"
+    ],
+    "answer": "Kůže",
+    "fact": "Kůže dospělého má plochu zhruba 1,5 až 2 metry čtvereční.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kůže",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-014",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který Čech jako první rozdělil lidskou krev do čtyř skupin?",
+    "options": [
+      "Jan Evangelista Purkyně",
+      "Jaroslav Heyrovský",
+      "Jan Janský",
+      "Otto Wichterle"
+    ],
+    "answer": "Jan Janský",
+    "fact": "Landsteiner popsal v roce 1901 tři skupiny, Janský v roce 1907 všechny čtyři.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Janský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-015",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co měří Richterova stupnice?",
+    "options": [
+      "Kyselost roztoků",
+      "Sílu zemětřesení",
+      "Tvrdost nerostů",
+      "Sílu větru"
+    ],
+    "answer": "Sílu zemětřesení",
+    "fact": "Sílu větru měří Beaufortova stupnice.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Richterova_stupnice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-016",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak rychle se zhruba šíří světlo ve vakuu?",
+    "options": [
+      "Asi 300 000 km/s",
+      "Asi 3 000 km/s",
+      "Asi 30 000 km/s",
+      "Asi 3 000 000 km/s"
+    ],
+    "answer": "Asi 300 000 km/s",
+    "fact": "Světlo ze Slunce k nám letí zhruba osm minut.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rychlost_světla",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-017",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Která hvězda je Zemi nejblíž?",
+    "answer": "Slunce",
+    "fact": "Hned po Slunci je to Proxima Centauri, vzdálená asi 4,2 světelného roku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Proxima_Centauri",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-018",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik kostí má zhruba dospělý člověk?",
+    "options": [
+      "306",
+      "186",
+      "206",
+      "106"
+    ],
+    "answer": "206",
+    "fact": "Novorozenec jich má kolem 300, část z nich časem sroste.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kostra_člověka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-019",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdo vynalezl měkké kontaktní čočky?",
+    "options": [
+      "Jaroslav Heyrovský",
+      "Prokop Diviš",
+      "František Křižík",
+      "Otto Wichterle"
+    ],
+    "answer": "Otto Wichterle",
+    "fact": "První čočky vyrobil doma na strojku sestaveném ze stavebnice Merkur.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Otto_Wichterle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-020",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Ve kterém orgánu se tvoří inzulin?",
+    "options": [
+      "Ve slinivce břišní",
+      "V játrech",
+      "V žaludku",
+      "Ve štítné žláze"
+    ],
+    "answer": "Ve slinivce břišní",
+    "fact": "Inzulin poprvé použili k léčbě cukrovky v roce 1922.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Inzulin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-021",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který český vědec dostal Nobelovu cenu za objev polarografie?",
+    "options": [
+      "Jaroslav Seifert",
+      "Jaroslav Heyrovský",
+      "Otto Wichterle",
+      "Jan Evangelista Purkyně"
+    ],
+    "answer": "Jaroslav Heyrovský",
+    "fact": "Nobelovu cenu za chemii převzal v roce 1959.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jaroslav_Heyrovský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-022",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Krev které skupiny se dá v nouzi podat komukoli?",
+    "options": [
+      "0 negativní",
+      "B pozitivní",
+      "A negativní",
+      "AB pozitivní"
+    ],
+    "answer": "0 negativní",
+    "fact": "Člověk se skupinou AB pozitivní je naopak univerzální příjemce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Krevní_skupina",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-023",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdo byl prvním Čechem ve vesmíru?",
+    "options": [
+      "Georgi Ivanov",
+      "Aleš Svoboda",
+      "Vladimír Remek",
+      "Mirosław Hermaszewski"
+    ],
+    "answer": "Vladimír Remek",
+    "fact": "Remek letěl v roce 1978 jako první kosmonaut odjinud než ze SSSR a USA.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vladimír_Remek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-024",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje nejmenší kost v lidském těle?",
+    "options": [
+      "Kladívko",
+      "Třmínek",
+      "Jařmová kost",
+      "Kovadlinka"
+    ],
+    "answer": "Třmínek",
+    "fact": "Třmínek sedí ve středním uchu a měří jen asi 3 mm.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Třmínek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-025",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik procent těla dospělého muže tvoří voda?",
+    "answer": 60,
+    "unit": "%",
+    "fact": "U novorozenců je to ještě víc, kolem 75 procent.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Body_water",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-026",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta obíhá „vleže“, s osou nakloněnou skoro o 98°?",
+    "options": [
+      "Saturn",
+      "Mars",
+      "Neptun",
+      "Uran"
+    ],
+    "answer": "Uran",
+    "fact": "Na pólech Uranu proto trvá den i noc zhruba 42 let.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Uran_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-027",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který nerost je na Mohsově stupnici tvrdosti úplně nejměkčí?",
+    "options": [
+      "Křemen",
+      "Sádrovec",
+      "Mastek",
+      "Kalcit"
+    ],
+    "answer": "Mastek",
+    "fact": "Mastek se dá rýpnout nehtem, mletý je základem pudru.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Mohsova_stupnice_tvrdosti",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-028",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenoval první člověk ve vesmíru?",
+    "answer": "Jurij Gagarin",
+    "accept": [
+      "Gagarin",
+      "Jurij Alexejevič Gagarin"
+    ],
+    "fact": "Jeho let 12. dubna 1961 trval 108 minut.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jurij_Gagarin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-029",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Který český kněz postavil v roce 1754 na farské zahradě v Příměticích u Znojma uzemněný bleskosvod?",
+    "answer": "Prokop Diviš",
+    "accept": [
+      "Diviš"
+    ],
+    "fact": "Sousedé mu ho v roce 1759 zničili, protože ho vinili ze sucha.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Prokop_Diviš",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-030",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který plyn tvoří většinu vzduchu?",
+    "options": [
+      "Argon",
+      "Dusík",
+      "Kyslík",
+      "Oxid uhličitý"
+    ],
+    "answer": "Dusík",
+    "fact": "Kyslíku je ve vzduchu jen asi 21 procent.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Atmosféra_Země",
+    "status": "verified"
+  }
+]

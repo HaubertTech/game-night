@@ -1,0 +1,510 @@
+[
+  {
+    "id": "hospoda-sport-hry-001",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Který Čech vyhrál olympijský desetiboj v Athénách 2004?",
+    "answer": "Roman Šebrle",
+    "accept": [
+      "Šebrle"
+    ],
+    "fact": "V roce 2001 jako první člověk překonal hranici 9 000 bodů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Roman_Šebrle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-002",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterých disciplínách vyhrála Ester Ledecká zlato na olympiádě 2018?",
+    "options": [
+      "Slalom a skikros",
+      "Super-G a paralelní obří slalom na snowboardu",
+      "Sjezd a snowboardcross",
+      "Super-G a U-rampa"
+    ],
+    "answer": "Super-G a paralelní obří slalom na snowboardu",
+    "fact": "Jako první vyhrála na jedněch zimních hrách zlato na lyžích i na snowboardu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ester_Ledecká",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-003",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce se běžela první Velká pardubická?",
+    "answer": 1874,
+    "unit": "rok",
+    "fact": "Je to sportovní událost s nejdelší tradicí v Česku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Velká_pardubická",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-004",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje sport, kde se po ledě posílají kameny a hráči zametají?",
+    "answer": "Curling",
+    "accept": [
+      "kerling"
+    ],
+    "fact": "Nejznámější curlingové kameny se brousí ze žuly ze skotského ostrůvku Ailsa Craig.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Curling",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-005",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje „míček“ v badmintonu?",
+    "options": [
+      "Kroužek",
+      "Kuželka",
+      "Puk",
+      "Košíček"
+    ],
+    "answer": "Košíček",
+    "fact": "Rekordní smeč v badmintonu přesáhl rychlost 500 km/h.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Badminton",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-006",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém roce vyhráli čeští hokejisté olympijské zlato v Naganu?",
+    "options": [
+      "2006",
+      "2002",
+      "1998",
+      "1994"
+    ],
+    "answer": "1998",
+    "fact": "Ve finále porazili Rusko 1:0.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Lední_hokej_na_Zimních_olympijských_hrách_1998",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-007",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik jamek má plné kolo na golfovém hřišti?",
+    "options": [
+      "18",
+      "12",
+      "9",
+      "24"
+    ],
+    "answer": "18",
+    "fact": "Osmnáct jamek se ustálilo ve skotském St Andrews.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Golf_course",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-008",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik bodů má v basketbalu koš z dálky za čarou?",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "answer": "3",
+    "fact": "V NBA tříbodovou čáru zavedli až v sezoně 1979/80.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Three-point_field_goal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-009",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které hře se dělá rošáda?",
+    "options": [
+      "V šachu",
+      "V go",
+      "V dámě",
+      "V mlýnu"
+    ],
+    "answer": "V šachu",
+    "fact": "Rošádu smí každý hráč udělat jen jednou za partii.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rošáda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-010",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik olympijských zlatých medailí získala gymnastka Věra Čáslavská?",
+    "options": [
+      "5",
+      "4",
+      "9",
+      "7"
+    ],
+    "answer": "7",
+    "fact": "V Mexiku 1968 při sovětské hymně na protest proti okupaci sklopila hlavu.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Věra_Čáslavská",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-011",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik zlatých medailí získal Emil Zátopek na olympiádě v Helsinkách 1952?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": "3",
+    "fact": "Maraton tam tehdy běžel úplně poprvé v životě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Emil_Zátopek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-012",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Kterému českému brankáři se přezdívá Dominátor?",
+    "answer": "Dominik Hašek",
+    "accept": [
+      "Hašek"
+    ],
+    "fact": "Vezinovu trofej pro nejlepšího brankáře NHL dostal šestkrát.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Dominik_Hašek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-013",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik kruhů je na olympijské vlajce?",
+    "options": [
+      "4",
+      "7",
+      "6",
+      "5"
+    ],
+    "answer": "5",
+    "fact": "Barvy kruhů spolu s bílým pozadím měly podle Coubertina obsáhnout barvu z vlajky každé země.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Olympijská_vlajka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-014",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo vyhrál mistrovství světa v hokeji 2024 v Praze a Ostravě?",
+    "options": [
+      "Česko",
+      "Švýcarsko",
+      "Kanada",
+      "Švédsko"
+    ],
+    "answer": "Česko",
+    "fact": "Ve finále porazili Švýcarsko 2:0, byl to první titul od roku 2010.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mistrovství_světa_v_ledním_hokeji_2024",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-015",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "S jakým číslem na dresu hrál Jaromír Jágr?",
+    "options": [
+      "99",
+      "68",
+      "10",
+      "88"
+    ],
+    "answer": "68",
+    "fact": "Číslo připomíná rok 1968 a sovětskou okupaci.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jaromír_Jágr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-016",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik metrů měří olympijský plavecký bazén?",
+    "answer": 50,
+    "unit": "m",
+    "fact": "Krátký bazén má poloviční délku, 25 metrů, a koná se v něm samostatné mistrovství světa.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Plavecký_bazén",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-017",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které zemi vznikl nohejbal?",
+    "options": [
+      "V Brazílii",
+      "V Portugalsku",
+      "V Československu",
+      "V Thajsku"
+    ],
+    "answer": "V Československu",
+    "fact": "Začali ho hrát fotbalisté Slavie v roce 1922 jako „fotbal přes šňůru“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Nohejbal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-018",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která česká lyžařka vyhrála v Turíně 2006 olympijský závod na 30 km?",
+    "options": [
+      "Ester Ledecká",
+      "Šárka Strachová",
+      "Kateřina Neumannová",
+      "Martina Sáblíková"
+    ],
+    "answer": "Kateřina Neumannová",
+    "fact": "V cíli jí naproti vyběhla malá dcera Lucie.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kateřina_Neumannová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-019",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje nejslavnější překážka Velké pardubické?",
+    "options": [
+      "Valentýnův potok",
+      "Becherův potok",
+      "Křeslo",
+      "Taxisův příkop"
+    ],
+    "answer": "Taxisův příkop",
+    "fact": "Jedinou ženou, která Velkou pardubickou vyhrála, je Lata Brandisová (1937).",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Velká_pardubická",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-020",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která tenistka vyhrála Wimbledon ve dvouhře devětkrát?",
+    "options": [
+      "Martina Navrátilová",
+      "Steffi Grafová",
+      "Petra Kvitová",
+      "Hana Mandlíková"
+    ],
+    "answer": "Martina Navrátilová",
+    "fact": "Rodačka z Prahy posbírala i se čtyřhrami 59 grandslamových titulů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Martina_Navrátilová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-021",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém městě se konaly první novodobé olympijské hry?",
+    "options": [
+      "V Paříži",
+      "V Athénách",
+      "V Římě",
+      "V Londýně"
+    ],
+    "answer": "V Athénách",
+    "fact": "Maraton tam vyhrál řecký nosič vody Spyridon Louis.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Letní_olympijské_hry_1896",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-022",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo se stal prvním českým vítězem zimních olympijských her?",
+    "options": [
+      "Aleš Valenta",
+      "Kateřina Neumannová",
+      "Pavel Ploc",
+      "Jiří Raška"
+    ],
+    "answer": "Jiří Raška",
+    "fact": "Zlato vybojoval v roce 1968 v Grenoblu na středním můstku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Jiří_Raška",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-023",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo vstřelil jediný gól finále v Naganu proti Rusku?",
+    "options": [
+      "Jaromír Jágr",
+      "Robert Reichel",
+      "Petr Svoboda",
+      "Pavel Patera"
+    ],
+    "answer": "Petr Svoboda",
+    "fact": "Svoboda byl obránce a gól dal střelou od modré čáry ve třetí třetině.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Petr_Svoboda_(lední_hokejista)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-024",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik gólů nastřílel Jaromír Jágr v základní části NHL?",
+    "answer": 766,
+    "unit": "gólů",
+    "fact": "V NHL odehrál 24 sezon.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Jaromír_Jágr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-025",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří maraton?",
+    "answer": 42.195,
+    "unit": "km",
+    "fact": "Přesná délka se ustálila podle olympiády v Londýně 1908.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Maraton",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-026",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se v tenise říká stavu 40:40?",
+    "options": [
+      "Výhoda",
+      "Shoda",
+      "Nula",
+      "Plichta"
+    ],
+    "answer": "Shoda",
+    "fact": "Proč se v tenise počítá 15, 30, 40, nikdo s jistotou neví.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tenis",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-027",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje česká stolní hra, ve které se místo ulic kupují dostihoví koně?",
+    "answer": "Dostihy a sázky",
+    "accept": [
+      "Dostihy"
+    ],
+    "fact": "Kromě koní se v ní kupují i stáje, přeprava a trenéři.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dostihy_a_sázky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-028",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se přezdívalo Emilu Zátopkovi?",
+    "options": [
+      "Lokomotiva",
+      "Blesk",
+      "Gazela",
+      "Šíp"
+    ],
+    "answer": "Lokomotiva",
+    "fact": "Jeho žena Dana vyhrála v Helsinkách oštěp ve stejný den, kdy on běh na 5 km.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Dana_Zátopková",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-029",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik karet má balíček na mariáš?",
+    "options": [
+      "52",
+      "36",
+      "24",
+      "32"
+    ],
+    "answer": "32",
+    "fact": "Barvy mariášových karet jsou srdce, listy, žaludy a kule.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mariáš_(karetní_hra)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-030",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik polí má šachovnice?",
+    "options": [
+      "49",
+      "100",
+      "64",
+      "81"
+    ],
+    "answer": "64",
+    "fact": "Na začátku partie má každý hráč šestnáct figur.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Šachovnice",
+    "status": "verified"
+  }
+]

@@ -1,0 +1,513 @@
+[
+  {
+    "id": "hospoda-priroda-001",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se myslivecky nazývá samice jelena?",
+    "options": [
+      "Bachyně",
+      "Laň",
+      "Srna",
+      "Koza"
+    ],
+    "answer": "Laň",
+    "fact": "Srna je samice srnce a bachyně samice divokého prasete.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jelen_lesní",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-002",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje největší kočkovitá šelma na světě?",
+    "answer": "Tygr",
+    "accept": [
+      "tygr ussurijský",
+      "tygr sibiřský"
+    ],
+    "fact": "Pruhovanou má tygr nejen srst, ale i kůži.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Tiger",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-003",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš jehličnan je jedovatý téměř celý, kromě červeného dužnatého obalu semene?",
+    "options": [
+      "Smrk ztepilý",
+      "Jalovec obecný",
+      "Jedle bělokorá",
+      "Tis červený"
+    ],
+    "answer": "Tis červený",
+    "fact": "Tis roste velmi pomalu a dožívá se i stovek let.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Tis_červený",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-004",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která sova je u nás největší?",
+    "options": [
+      "Výr velký",
+      "Puštík obecný",
+      "Sova pálená",
+      "Kalous ušatý"
+    ],
+    "answer": "Výr velký",
+    "fact": "Výr si poradí i s ježkem – bodliny mu nevadí.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Výr_velký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-005",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik měsíců trvá březost slonice africké?",
+    "answer": 22,
+    "unit": "měsíců",
+    "fact": "Je to nejdelší březost ze všech savců.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/African_bush_elephant",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-006",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který z těchto savců opravdu aktivně létá, a ne jen plachtí?",
+    "options": [
+      "Vakoveverka létavá",
+      "Letucha",
+      "Netopýr",
+      "Poletucha"
+    ],
+    "answer": "Netopýr",
+    "fact": "Většina netopýrů se v noci orientuje ozvěnou vlastních ultrazvukových výkřiků.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Letouni",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-007",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje kříženec osla a koňské klisny?",
+    "options": [
+      "Mezek",
+      "Zebroid",
+      "Mula",
+      "Poník"
+    ],
+    "answer": "Mula",
+    "fact": "Mezek je naopak potomek koňského hřebce a oslice.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mula",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-008",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik srdcí má chobotnice?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "8"
+    ],
+    "answer": "3",
+    "fact": "Chobotnice má modrou krev, kyslík v ní nese měď místo železa.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Octopus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-009",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták je největší na světě?",
+    "options": [
+      "Pštros dvouprstý",
+      "Kasuár přilbový",
+      "Emu hnědý",
+      "Albatros stěhovavý"
+    ],
+    "answer": "Pštros dvouprstý",
+    "fact": "Pštros snáší i největší vejce ze všech žijících ptáků.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-010",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře je největším žijícím suchozemským savcem?",
+    "options": [
+      "Žirafa",
+      "Hroch obojživelný",
+      "Nosorožec bílý",
+      "Slon africký"
+    ],
+    "answer": "Slon africký",
+    "fact": "Dospělý samec slona afrického váží kolem šesti tun.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/African_bush_elephant",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-011",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik křídel má včela medonosná?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "fact": "Včela mávne křídly zhruba 230krát za sekundu, odtud to bzučení.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Western_honey_bee",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-012",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták se k nám vrací na jaře a hnízdí rád na komínech a sloupech?",
+    "options": [
+      "Volavka popelavá",
+      "Labuť velká",
+      "Čáp bílý",
+      "Jeřáb popelavý"
+    ],
+    "answer": "Čáp bílý",
+    "fact": "Čápi zimují v Africe, někteří doletí až na jih kontinentu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Čáp_bílý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-013",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kam táhne úhoř říční z evropských řek ke tření?",
+    "options": [
+      "Do Baltského moře",
+      "Do Severního moře",
+      "Do Středozemního moře",
+      "Do Sargasového moře"
+    ],
+    "answer": "Do Sargasového moře",
+    "fact": "Larvy pak s Golfským proudem plují do Evropy klidně několik let.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Úhoř_říční",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-014",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik dní sedí slepice na vejcích, než se vylíhnou kuřata?",
+    "answer": 21,
+    "unit": "dní",
+    "fact": "Kuře proklubává skořápku pomocí vaječného zubu na zobáčku.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Egg_tooth",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-015",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš jehličnan na zimu shazuje jehlice?",
+    "options": [
+      "Modřín opadavý",
+      "Borovice lesní",
+      "Jedle bělokorá",
+      "Tis červený"
+    ],
+    "answer": "Modřín opadavý",
+    "fact": "Na podzim modřínové jehlice zezlátnou a pak opadají.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Modřín_opadavý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-016",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jakou barvu má kůže ledního medvěda pod srstí?",
+    "options": [
+      "Šedou",
+      "Černou",
+      "Růžovou",
+      "Bílou"
+    ],
+    "answer": "Černou",
+    "fact": "Jeho chlupy nejsou bílé, ale průhledné a duté.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Polar_bear",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-017",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kterou šelmu vrátili na Šumavu vysazením v 80. letech 20. století?",
+    "options": [
+      "Vlka obecného",
+      "Medvěda hnědého",
+      "Kočku divokou",
+      "Rysa ostrovida"
+    ],
+    "answer": "Rysa ostrovida",
+    "fact": "Rysy přivezli ze Slovenska a vypouštěli je v letech 1982 až 1989.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Rys_ostrovid",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-018",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Na kterém keři či stromku se na jaře objevují chlupaté „kočičky“?",
+    "answer": "Vrba jíva",
+    "accept": [
+      "jíva",
+      "vrba",
+      "vrba jíva"
+    ],
+    "fact": "Jívové kočičky patří k prvním jarním pastvám pro včely.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Vrba_jíva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-019",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře staví na řekách hráze z pokácených stromů?",
+    "options": [
+      "Vydra říční",
+      "Nutrie",
+      "Bobr evropský",
+      "Ondatra pižmová"
+    ],
+    "answer": "Bobr evropský",
+    "fact": "Bobří zuby jsou oranžové, protože ve sklovině mají železo.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Eurasian_beaver",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-020",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jaký je správný botanický název pampelišky?",
+    "options": [
+      "Smetánka lékařská",
+      "Sedmikráska chudobka",
+      "Podběl lékařský",
+      "Pryskyřník prudký"
+    ],
+    "answer": "Smetánka lékařská",
+    "fact": "Z jejích květů se vaří sirup, kterému se říká pampeliškový med.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Smetánka_lékařská",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-021",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře je nejrychlejší na souši?",
+    "options": [
+      "Vidloroh americký",
+      "Lev",
+      "Gepard",
+      "Pakůň"
+    ],
+    "answer": "Gepard",
+    "fact": "Gepard zrychlí až na zhruba 100 km/h, takové tempo ale vydrží jen krátce.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Cheetah",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-022",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje samec kachny?",
+    "answer": "Kačer",
+    "accept": [
+      "kačer"
+    ],
+    "fact": "Kačera kachny divoké poznáte podle lesklé zelené hlavy.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kachna_divoká",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-023",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které z těchto zvířat neklade vejce?",
+    "options": [
+      "Delfín",
+      "Krokodýl",
+      "Ježura",
+      "Ptakopysk"
+    ],
+    "answer": "Delfín",
+    "fact": "Ptakopysk a ježury jsou jediní savci, kteří kladou vejce.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Monotreme",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-024",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře je nejtěžší na světě?",
+    "options": [
+      "Slon africký",
+      "Vorvaň obrovský",
+      "Žralok obrovský",
+      "Plejtvák obrovský"
+    ],
+    "answer": "Plejtvák obrovský",
+    "fact": "Plejtvák je nejtěžší známé zvíře, jaké kdy žilo – těžší i než dinosauři.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Blue_whale",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-025",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Čím se živí panda velká skoro výhradně?",
+    "options": [
+      "Rybami",
+      "Bambusem",
+      "Eukalyptem",
+      "Termity"
+    ],
+    "answer": "Bambusem",
+    "fact": "Panda patří mezi šelmy, přestože jí skoro jen rostliny.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Giant_panda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-026",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje mládě srnce a srny?",
+    "answer": "Srnče",
+    "accept": [
+      "srnčí mládě"
+    ],
+    "fact": "Bílé skvrnky na kožíšku mu pomáhají splynout s trávou.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Srnec_obecný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-027",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik zubů má dospělý pes?",
+    "answer": 42,
+    "unit": "zubů",
+    "fact": "Štěně má mléčných zubů jen 28.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Dog_anatomy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-028",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která masožravá rostlina roste i v českých rašeliništích?",
+    "options": [
+      "Bledule jarní",
+      "Suchopýr pochvatý",
+      "Vachta trojlistá",
+      "Rosnatka okrouhlolistá"
+    ],
+    "answer": "Rosnatka okrouhlolistá",
+    "fact": "Lepkavé kapky na listech přilákají hmyz a rostlina ho pak stráví.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Rosnatka_okrouhlolistá",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-029",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který z těchto živočichů není hmyz?",
+    "options": [
+      "Moucha",
+      "Vážka",
+      "Klíště",
+      "Mravenec"
+    ],
+    "answer": "Klíště",
+    "fact": "Klíště patří mezi pavoukovce, a proto má dospělé klíště osm nohou.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Klíště_obecné",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-030",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik krčních obratlů má žirafa?",
+    "answer": 7,
+    "unit": "obratlů",
+    "fact": "Stejně jako člověk – jen jeden obratel měří až kolem 28 cm.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Giraffe",
+    "status": "verified"
+  }
+]

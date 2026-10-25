@@ -1,0 +1,513 @@
+[
+  {
+    "id": "hospoda-dejiny-001",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ze které firmy vznikla automobilka Škoda Auto?",
+    "options": [
+      "Aero",
+      "Laurin & Klement",
+      "Tatra",
+      "Praga"
+    ],
+    "answer": "Laurin & Klement",
+    "fact": "Václav Laurin a Václav Klement začínali v roce 1895 s jízdními koly.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Laurin_&_Klement",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-002",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kterému českému králi se přezdívalo „král železný a zlatý“?",
+    "options": [
+      "Karlu IV.",
+      "Janu Lucemburskému",
+      "Václavu II.",
+      "Přemyslu Otakaru II."
+    ],
+    "answer": "Přemyslu Otakaru II.",
+    "fact": "Padl v roce 1278 v bitvě na Moravském poli.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Přemysl_Otakar_II.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-003",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo napsal Orbis pictus a říká se mu učitel národů?",
+    "options": [
+      "Josef Jungmann",
+      "Josef Dobrovský",
+      "Jan Amos Komenský",
+      "František Palacký"
+    ],
+    "answer": "Jan Amos Komenský",
+    "fact": "Zemřel v exilu a je pohřben v nizozemském Naardenu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Amos_Komenský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-004",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který z těchto vynálezů je nejstarší?",
+    "options": [
+      "Kompas",
+      "Žárovka",
+      "Dalekohled",
+      "Parní stroj"
+    ],
+    "answer": "Kompas",
+    "fact": "K navigaci na moři používali kompas Číňané už kolem roku 1100.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Kompas",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-005",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "Kolik let vládla Marie Terezie?",
+    "answer": 40,
+    "unit": "let",
+    "fact": "Za tu dobu porodila šestnáct dětí.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Marie_Terezie",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-006",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který ze sedmi divů antického světa se dochoval dodnes?",
+    "options": [
+      "Velká pyramida v Gíze",
+      "Rhodský kolos",
+      "Visuté zahrady Semiramidiny",
+      "Maják na Faru"
+    ],
+    "answer": "Velká pyramida v Gíze",
+    "fact": "Přes 3 800 let byla nejvyšší stavbou na světě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Cheopsova_pyramida",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-007",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "U kterého moravského města se roku 1805 odehrála bitva tří císařů?",
+    "options": [
+      "U Hradce Králové",
+      "U Znojma",
+      "U Slavkova",
+      "U Kroměříže"
+    ],
+    "answer": "U Slavkova",
+    "fact": "Napoleon v ní porazil rakouského a ruského císaře.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bitva_u_Slavkova",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-008",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "O kterém husitském vojevůdci se traduje, že nikdy neprohrál bitvu?",
+    "options": [
+      "Jiří z Poděbrad",
+      "Jan Žižka",
+      "Prokop Holý",
+      "Jan Roháč z Dubé"
+    ],
+    "answer": "Jan Žižka",
+    "fact": "Jeho socha na Vítkově je největší jezdecká socha v Česku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Žižka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-009",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve kterém roce se Československo rozdělilo na Česko a Slovensko?",
+    "options": [
+      "1995",
+      "1992",
+      "1990",
+      "1993"
+    ],
+    "answer": "1993",
+    "fact": "Oba státy vznikly 1. ledna 1993, bez referenda.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rozdělení_Československa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-010",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce si Alexander Graham Bell patentoval telefon?",
+    "answer": 1876,
+    "unit": "rok",
+    "fact": "Jeho soupeř Elisha Gray podal svůj návrh telefonu na patentový úřad ve stejný den.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Alexander_Graham_Bell",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-011",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce byla založena Univerzita Karlova?",
+    "answer": 1348,
+    "unit": "rok",
+    "fact": "Je to nejstarší univerzita ve střední Evropě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Univerzita_Karlova",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-012",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce byl poprvé zmíněn pražský orloj?",
+    "answer": 1410,
+    "unit": "rok",
+    "fact": "Je to nejstarší orloj na světě, který dodnes funguje.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Pražský_orloj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-013",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo si v roce 1827 nechal patentovat lodní šroub?",
+    "options": [
+      "Viktor Kaplan",
+      "Josef Ressel",
+      "František Křižík",
+      "Prokop Diviš"
+    ],
+    "answer": "Josef Ressel",
+    "fact": "Ressel se narodil v Chrudimi.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Josef_Ressel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-014",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co vynalezli bratři Montgolfierové?",
+    "options": [
+      "Letadlo",
+      "Padák",
+      "Horkovzdušný balon",
+      "Vzducholoď"
+    ],
+    "answer": "Horkovzdušný balon",
+    "fact": "Prvními pasažéry balonu byli ovce, kachna a kohout.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bratři_Montgolfierové",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-015",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo v Evropě vynalezl knihtisk s pohyblivými literami?",
+    "options": [
+      "Johannes Gutenberg",
+      "Martin Luther",
+      "Albrecht Dürer",
+      "Leonardo da Vinci"
+    ],
+    "answer": "Johannes Gutenberg",
+    "fact": "Jeho nejslavnějším tiskem je dvaačtyřicetiřádková bible.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Johannes_Gutenberg",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-016",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl v roce 1415 upálen v Kostnici?",
+    "options": [
+      "Jan Želivský",
+      "Jan Žižka",
+      "Jeroným Pražský",
+      "Jan Hus"
+    ],
+    "answer": "Jan Hus",
+    "fact": "Den jeho smrti, 6. července, je státní svátek.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Hus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-017",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo postavil první pražskou elektrickou tramvaj?",
+    "options": [
+      "Václav Klement",
+      "Emil Kolben",
+      "František Křižík",
+      "Emil Škoda"
+    ],
+    "answer": "František Křižík",
+    "fact": "Jezdila od roku 1891 na Letné k Jubilejní výstavě.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/František_Křižík",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-018",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kde byl zavražděn kníže Václav?",
+    "options": [
+      "Ve Staré Boleslavi",
+      "Na Vyšehradě",
+      "Na Budči",
+      "Na Levém Hradci"
+    ],
+    "answer": "Ve Staré Boleslavi",
+    "fact": "Za vraždou stál jeho vlastní bratr Boleslav.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Svatý_Václav",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-019",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenovala loď, která se v roce 1912 potopila na své první plavbě?",
+    "answer": "Titanic",
+    "accept": [
+      "RMS Titanic"
+    ],
+    "fact": "Do ledovce narazila 14. dubna před půlnocí, potopila se 15. dubna ve 2:20.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Titanic",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-020",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Který kníže a patron české země má jezdeckou sochu na Václavském náměstí?",
+    "answer": "Svatý Václav",
+    "accept": [
+      "Václav",
+      "sv. Václav",
+      "kníže Václav"
+    ],
+    "fact": "Jezdeckou sochu vytvořil Josef Václav Myslbek.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pomník_svatého_Václava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-021",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl prvním prezidentem samostatné České republiky?",
+    "options": [
+      "Gustáv Husák",
+      "Václav Havel",
+      "Václav Klaus",
+      "Edvard Beneš"
+    ],
+    "answer": "Václav Havel",
+    "fact": "Předtím byl i posledním prezidentem Československa.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Václav_Havel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-022",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo na brněnské technice vynalezl vodní turbínu, která nese jeho jméno?",
+    "options": [
+      "Lester Pelton",
+      "James Francis",
+      "Josef Ressel",
+      "Viktor Kaplan"
+    ],
+    "answer": "Viktor Kaplan",
+    "fact": "Kaplanovy turbíny dnes pohánějí vodní elektrárny po celém světě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Viktor_Kaplan",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-023",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Která automobilka, jedna z nejstarších na světě, sídlí v Kopřivnici?",
+    "options": [
+      "Avia",
+      "Jawa",
+      "Praga",
+      "Tatra"
+    ],
+    "answer": "Tatra",
+    "fact": "Prvním automobilem odtud byl Präsident z roku 1897.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tatra_(firma)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-024",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který český král padl jako slepý v bitvě u Kresčaku?",
+    "options": [
+      "Vladislav Jagellonský",
+      "Václav III.",
+      "Jan Lucemburský",
+      "Jiří z Poděbrad"
+    ],
+    "answer": "Jan Lucemburský",
+    "fact": "Psal se rok 1346 a do boje ho dovedli rytíři, kteří k jeho koni přivázali své.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Lucemburský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-025",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Která panovnice zavedla povinnou školní docházku?",
+    "options": [
+      "Marie Terezie",
+      "Eliška Přemyslovna",
+      "Kateřina Veliká",
+      "Královna Viktorie"
+    ],
+    "answer": "Marie Terezie",
+    "fact": "Od roku 1774 měly děti chodit do školy od šesti do dvanácti let.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tereziánské_reformy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-026",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo nechal postavit hrad Karlštejn?",
+    "options": [
+      "Václav IV.",
+      "Karel IV.",
+      "Rudolf II.",
+      "Přemysl Otakar II."
+    ],
+    "answer": "Karel IV.",
+    "fact": "Hrad měl chránit korunovační klenoty a svaté relikvie.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Karlštejn",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-027",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve které bitvě roku 1620 prohráli čeští stavové?",
+    "options": [
+      "U Slavkova",
+      "Na Moravském poli",
+      "U Lipan",
+      "Na Bílé hoře"
+    ],
+    "answer": "Na Bílé hoře",
+    "fact": "Samotná bitva trvala jen jednu až dvě hodiny.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bitva_na_Bílé_hoře",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-028",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenuje bájná kněžna, která podle pověsti věštila slávu Prahy?",
+    "answer": "Libuše",
+    "accept": [
+      "kněžna Libuše"
+    ],
+    "fact": "Za muže si podle pověsti vzala oráče Přemysla.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Libuše",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-029",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve kterém roce padla Berlínská zeď?",
+    "options": [
+      "1991",
+      "1989",
+      "1990",
+      "1987"
+    ],
+    "answer": "1989",
+    "fact": "O osm dní později začala v Československu sametová revoluce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pád_Berlínské_zdi",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-030",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenoval faraon, jehož téměř neporušenou hrobku objevil v roce 1922 Howard Carter?",
+    "answer": "Tutanchamon",
+    "accept": [
+      "Tutanchamón",
+      "Tutankhamun"
+    ],
+    "fact": "Jeho zlatá posmrtná maska váží přes deset kilogramů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tutanchamon",
+    "status": "verified"
+  }
+]

@@ -1,0 +1,511 @@
+[
+  {
+    "id": "hospoda-cesko-svet-001",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na soutoku kterých řek leží Mělník?",
+    "options": [
+      "Vltavy a Berounky",
+      "Labe a Jizery",
+      "Labe a Ohře",
+      "Vltavy a Labe"
+    ],
+    "answer": "Vltavy a Labe",
+    "fact": "Víno se na mělnických svazích pěstuje od středověku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mělník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-002",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje hlavní město Kanady?",
+    "answer": "Ottawa",
+    "accept": [
+      "Otava"
+    ],
+    "fact": "Toronto i Montreal jsou větší, hlavním městem je přesto Ottawa.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Ottawa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-003",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které jezero je nejhlubší na světě?",
+    "options": [
+      "Bajkal",
+      "Kaspické moře",
+      "Tanganika",
+      "Viktoriino jezero"
+    ],
+    "answer": "Bajkal",
+    "fact": "Bajkal drží zhruba pětinu sladké povrchové vody na Zemi.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bajkal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-004",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které z těchto hlavních měst NELEŽÍ na Dunaji?",
+    "options": [
+      "Bratislava",
+      "Bělehrad",
+      "Záhřeb",
+      "Vídeň"
+    ],
+    "answer": "Záhřeb",
+    "fact": "Dunaj protéká čtyřmi hlavními městy, víc než kterákoli jiná řeka.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Danube",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-005",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která evropská země má na mapě tvar boty?",
+    "options": [
+      "Portugalsko",
+      "Itálie",
+      "Španělsko",
+      "Řecko"
+    ],
+    "answer": "Itálie",
+    "fact": "Uvnitř Itálie leží dva samostatné státy: Vatikán a San Marino.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Itálie",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-006",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "V jakém roce otevřeli Petřínskou rozhlednu?",
+    "answer": 1891,
+    "unit": "rok",
+    "fact": "Postavili ji pro Jubilejní zemskou výstavu po vzoru Eiffelovy věže.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Petřínská_rozhledna",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-007",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které město je hlavním městem Austrálie?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Perth",
+      "Melbourne"
+    ],
+    "answer": "Canberra",
+    "fact": "Canberru postavili jako kompromis mezi soupeřícím Sydney a Melbourne.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Canberra",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-008",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejhlubší propast v Česku?",
+    "options": [
+      "Macocha",
+      "Hranická propast",
+      "Koněpruská propast",
+      "Javoříčská propast"
+    ],
+    "answer": "Hranická propast",
+    "fact": "Je to nejhlubší známá zatopená sladkovodní jeskyně světa a dno zatím nikdo nenašel.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hranická_propast",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-009",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kterým hlavním městem prochází nultý poledník?",
+    "options": [
+      "Paříží",
+      "Lisabonem",
+      "Londýnem",
+      "Madridem"
+    ],
+    "answer": "Londýnem",
+    "fact": "Poledník vede přes hvězdárnu v londýnské čtvrti Greenwich.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Nultý_poledník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-010",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje známá propast v Moravském krasu, hluboká přes 130 metrů?",
+    "answer": "Macocha",
+    "accept": [
+      "propast Macocha"
+    ],
+    "fact": "Na dně propasti leží dvě jezírka, Horní a Dolní.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Macocha",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-011",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které moře omývá pobřeží Chorvatska?",
+    "options": [
+      "Tyrhénské",
+      "Černé",
+      "Egejské",
+      "Jaderské"
+    ],
+    "answer": "Jaderské",
+    "fact": "Chorvatsko má přes tisíc ostrovů a ostrůvků.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Chorvatsko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-012",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které krajské město leží nejvýchodněji?",
+    "options": [
+      "Pardubice",
+      "Ostrava",
+      "Zlín",
+      "Olomouc"
+    ],
+    "answer": "Ostrava",
+    "fact": "Úplně nejvýchodnější bod Česka je v obci Bukovec u Jablunkova.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Krajní_body_Česka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-013",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě je kostnice vyzdobená lidskými kostmi, kam jezdí turisté z celého světa?",
+    "options": [
+      "Kolín",
+      "Písek",
+      "Kutná Hora",
+      "Tábor"
+    ],
+    "answer": "Kutná Hora",
+    "fact": "Na výzdobu sedlecké kostnice padly ostatky desítek tisíc lidí.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kostnice_(Sedlec)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-014",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která země má nejvíc časových pásem, když počítáme i zámořská území?",
+    "options": [
+      "Spojené království",
+      "USA",
+      "Rusko",
+      "Francie"
+    ],
+    "answer": "Francie",
+    "fact": "Bez zámořských území by vedlo Rusko s jedenácti pásmy.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Time_in_France",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-015",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kolik krajů má Česko, když počítáme i Prahu?",
+    "options": [
+      "14",
+      "13",
+      "12",
+      "8"
+    ],
+    "answer": "14",
+    "fact": "Současné kraje vznikly 1. ledna 2000.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kraje_v_Česku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-016",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí nejstarší dochovaný most v Česku?",
+    "options": [
+      "V Praze",
+      "V Písku",
+      "V Českém Krumlově",
+      "V Roudnici nad Labem"
+    ],
+    "answer": "V Písku",
+    "fact": "Písecký kamenný most je nejspíš z druhé poloviny 13. století.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kamenný_most_(Písek)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-017",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik metrů nad mořem měří Sněžka?",
+    "answer": 1603,
+    "unit": "m n. m.",
+    "fact": "Na vrchol jezdí kabinová lanovka z Pece pod Sněžkou.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sněžka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-018",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi leží incké město Machu Picchu?",
+    "options": [
+      "Bolívie",
+      "Chile",
+      "Mexiko",
+      "Peru"
+    ],
+    "answer": "Peru",
+    "fact": "Inkové ho vystavěli v 15. století vysoko v Andách.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-019",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí hrad Špilberk a katedrála na Petrově?",
+    "options": [
+      "Plzeň",
+      "Ostrava",
+      "Brno",
+      "Olomouc"
+    ],
+    "answer": "Brno",
+    "fact": "Špilberk býval obávanou věznicí, přezdívanou žalář národů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Špilberk",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-020",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě je zámek s barokním divadlem a Plášťovým mostem?",
+    "options": [
+      "Český Krumlov",
+      "Kroměříž",
+      "Telč",
+      "Litomyšl"
+    ],
+    "answer": "Český Krumlov",
+    "fact": "Krumlovské zámecké divadlo má dodnes původní barokní jevištní stroje.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zámek_Český_Krumlov",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-021",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "S kolika státy sousedí Česko?",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ],
+    "answer": "4",
+    "fact": "Nejdelší společnou hranici máme s Německem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Státní_hranice_Česka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-022",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří Vltava?",
+    "answer": 430,
+    "unit": "km",
+    "fact": "Vltava je nejdelší řekou na území Česka.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vltava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-023",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém pohoří leží Praděd?",
+    "options": [
+      "Krkonoše",
+      "Hrubý Jeseník",
+      "Beskydy",
+      "Orlické hory"
+    ],
+    "answer": "Hrubý Jeseník",
+    "fact": "Praděd je nejvyšší horou Moravy i Slezska.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Praděd",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-024",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Slovenska?",
+    "options": [
+      "Kriváň",
+      "Lomnický štít",
+      "Gerlachovský štít",
+      "Rysy"
+    ],
+    "answer": "Gerlachovský štít",
+    "fact": "Je zároveň nejvyšší horou celých Karpat.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Gerlachovský_štít",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-025",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Do které řeky se v Ostravě vlévá Ostravice?",
+    "answer": "Odra",
+    "accept": [
+      "Odry",
+      "do Odry"
+    ],
+    "fact": "Odra pramení v Oderských vrších a ústí do Baltského moře.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Ostravice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-026",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejteplejší a nejmohutnější pramen v Karlových Varech?",
+    "options": [
+      "Vřídlo",
+      "Mlýnský pramen",
+      "Ambrožův pramen",
+      "Rudolfův pramen"
+    ],
+    "answer": "Vřídlo",
+    "fact": "Vřídlo má kolem 73 °C a tryská do výšky přes 10 metrů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vřídlo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-027",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Která řeka vzniká v Plzni soutokem Mže a Radbuzy?",
+    "answer": "Berounka",
+    "accept": [
+      "Berounky"
+    ],
+    "fact": "V Plzni se do ní vlévá ještě Úslava, Úhlava ústí už předtím do Radbuzy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Berounka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-028",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik metrů nad mořem leží nejnižší bod Česka – hladina Labe u Hřenska?",
+    "answer": 115,
+    "unit": "m n. m.",
+    "fact": "Na tomhle místě Labe opouští Česko a teče dál do Německa.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Krajní_body_Česka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-029",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém kraji leží vodní nádrž Lipno?",
+    "options": [
+      "Libereckém",
+      "Jihočeském",
+      "Plzeňském",
+      "Kraji Vysočina"
+    ],
+    "answer": "Jihočeském",
+    "fact": "Lipno je největší vodní plocha v Česku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Lipno_(vodní_nádrž)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-030",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které je nejvýše položené město v Česku?",
+    "options": [
+      "Boží Dar",
+      "Železná Ruda",
+      "Vimperk",
+      "Jáchymov"
+    ],
+    "answer": "Boží Dar",
+    "fact": "Boží Dar leží v Krušných horách ve výšce přes 1 000 metrů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Boží_Dar",
+    "status": "verified"
+  }
+]

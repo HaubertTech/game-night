@@ -1,0 +1,511 @@
+[
+  {
+    "id": "hospoda-pohadky-film-hudba-001",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenují dva nešikovní kutilové z večerníčku „A je to!“?",
+    "options": [
+      "Pat a Mat",
+      "Rumcajs a Cipísek",
+      "Bob a Bobek",
+      "Křemílek a Vochomůrka"
+    ],
+    "answer": "Pat a Mat",
+    "fact": "První díl Kuťáci vznikl v roce 1976 a oba kutilové v seriálu nemluví.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pat_a_Mat",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-002",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který český film získal v roce 1997 Oscara za nejlepší cizojazyčný film?",
+    "options": [
+      "Tmavomodrý svět",
+      "Pelíšky",
+      "Obecná škola",
+      "Kolja"
+    ],
+    "answer": "Kolja",
+    "fact": "Před ním Oscara získaly Obchod na korze a Ostře sledované vlaky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kolja",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-003",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil symfonii Z Nového světa?",
+    "options": [
+      "Bedřich Smetana",
+      "Leoš Janáček",
+      "Antonín Dvořák",
+      "Bohuslav Martinů"
+    ],
+    "answer": "Antonín Dvořák",
+    "fact": "Premiéru měla v roce 1893 v newyorské Carnegie Hall, kde Dvořák tehdy vedl konzervatoř.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Symphony_No._9_(Dvořák)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-004",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenují dva skřítci z pařezové chaloupky?",
+    "options": [
+      "Mach a Šebestová",
+      "Křemílek a Vochomůrka",
+      "Spejbl a Hurvínek",
+      "Bob a Bobek"
+    ],
+    "answer": "Křemílek a Vochomůrka",
+    "fact": "Předlohu napsal Václav Čtvrtek.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pohádka_z_mechu_a_kapradí",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-005",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce měla premiéru pohádka Tři oříšky pro Popelku?",
+    "answer": 1973,
+    "unit": "rok",
+    "fact": "Norská televize ji vysílá každé Vánoce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tři_oříšky_pro_Popelku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-006",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce poprvé vysílala televize Večerníček?",
+    "answer": 1965,
+    "unit": "rok",
+    "fact": "Chlapečka s papírovou čepicí nakreslil Radek Pilař.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Večerníček",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-007",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje syn loupežníka Rumcajse?",
+    "answer": "Cipísek",
+    "accept": [
+      "Cipisek"
+    ],
+    "fact": "Maminkou Cipíska je Manka.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-008",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jaké zvíře je Ferda z knížek Ondřeje Sekory?",
+    "answer": "Mravenec",
+    "accept": [
+      "mravenec Ferda",
+      "Ferda Mravenec"
+    ],
+    "fact": "Příhody Ferdy Mravence začaly vycházet v roce 1933 v Lidových novinách.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-009",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve kterém lese žil loupežník Rumcajs?",
+    "options": [
+      "Na Šumavě",
+      "V Brdech",
+      "V Řáholci",
+      "Na Kokořínsku"
+    ],
+    "answer": "V Řáholci",
+    "fact": "Václav Čtvrtek si příběhy zasadil do krajiny kolem Jičína.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-010",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Která kapela vydala album The Dark Side of the Moon?",
+    "options": [
+      "Genesis",
+      "Pink Floyd",
+      "Yes",
+      "Led Zeppelin"
+    ],
+    "answer": "Pink Floyd",
+    "fact": "Album vydrželo v americkém žebříčku Billboard 200 přes 900 týdnů.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-011",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo režíroval film Amadeus?",
+    "options": [
+      "Roman Polanski",
+      "Jiří Menzel",
+      "Ivan Passer",
+      "Miloš Forman"
+    ],
+    "answer": "Miloš Forman",
+    "fact": "Velká část filmu se natáčela v Praze, mimo jiné ve Stavovském divadle.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Amadeus_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-012",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik trpaslíků žije se Sněhurkou?",
+    "options": [
+      "7",
+      "5",
+      "9",
+      "6"
+    ],
+    "answer": "7",
+    "fact": "Disneyho Sněhurka z roku 1937 byla prvním celovečerním filmem jeho studia.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sněhurka_a_sedm_trpaslíků_(film,_1937)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-013",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce vydali Beatles své první album Please Please Me?",
+    "answer": 1963,
+    "unit": "rok",
+    "fact": "Většinu alba nahráli za jediný den.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Please_Please_Me",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-014",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve které kapele zpíval Freddie Mercury?",
+    "options": [
+      "Queen",
+      "The Beatles",
+      "Deep Purple",
+      "The Rolling Stones"
+    ],
+    "answer": "Queen",
+    "fact": "Bohemian Rhapsody trvá skoro šest minut a nemá klasický refrén.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Queen",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-015",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje Hurvínkův pes?",
+    "answer": "Žeryk",
+    "accept": [
+      "Žerik"
+    ],
+    "fact": "Do rodiny patří ještě Mánička a paní Kateřina.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Spejbl_a_Hurvínek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-016",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze které opery je árie Měsíčku na nebi hlubokém?",
+    "options": [
+      "Libuše",
+      "Jakobín",
+      "Prodaná nevěsta",
+      "Rusalka"
+    ],
+    "answer": "Rusalka",
+    "fact": "Dvořákova Rusalka měla premiéru v roce 1901 v Národním divadle.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rusalka_(Dvořák)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-017",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal Povídání o pejskovi a kočičce?",
+    "options": [
+      "Josef Lada",
+      "Karel Čapek",
+      "Josef Čapek",
+      "Jan Werich"
+    ],
+    "answer": "Josef Čapek",
+    "fact": "Josef Čapek byl hlavně malíř a knížku si sám ilustroval.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Povídání_o_pejskovi_a_kočičce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-018",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje opera Leoše Janáčka o lišce?",
+    "options": [
+      "Věc Makropulos",
+      "Příhody lišky Bystroušky",
+      "Káťa Kabanová",
+      "Její pastorkyňa"
+    ],
+    "answer": "Příhody lišky Bystroušky",
+    "fact": "Předlohou byl novinový seriál Rudolfa Těsnohlídka s kresbami Stanislava Lolka.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Příhody_lišky_Bystroušky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-019",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "Kolik symfonií složil Antonín Dvořák?",
+    "answer": 9,
+    "unit": "symfonií",
+    "fact": "Novosvětská je jeho devátá a poslední.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Antonín_Dvořák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-020",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operu Prodaná nevěsta?",
+    "options": [
+      "Leoš Janáček",
+      "Zdeněk Fibich",
+      "Bedřich Smetana",
+      "Antonín Dvořák"
+    ],
+    "answer": "Bedřich Smetana",
+    "fact": "Premiéra byla v roce 1866 v pražském Prozatímním divadle.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Prodaná_nevěsta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-021",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo nakreslil a vymyslel Krtečka?",
+    "options": [
+      "Zdeněk Miler",
+      "Radek Pilař",
+      "Václav Čtvrtek",
+      "Jiří Trnka"
+    ],
+    "answer": "Zdeněk Miler",
+    "fact": "Krtek poprvé ožil v roce 1957 ve filmu Jak krtek ke kalhotkám přišel.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Krtek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-022",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo proslavil píseň Lady Carneval?",
+    "options": [
+      "Pavel Bobek",
+      "Waldemar Matuška",
+      "Václav Neckář",
+      "Karel Gott"
+    ],
+    "answer": "Karel Gott",
+    "fact": "Gott vyhrál Zlatého a později Českého slavíka víc než čtyřicetkrát.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Karel_Gott",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-023",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo hrál Popelku ve filmu Tři oříšky pro Popelku?",
+    "options": [
+      "Iva Janžurová",
+      "Libuše Šafránková",
+      "Magda Vášáryová",
+      "Jana Brejchová"
+    ],
+    "answer": "Libuše Šafránková",
+    "fact": "Film se natáčel na saském zámku Moritzburg a v zasněžených lesích u Javorné na Šumavě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tři_oříšky_pro_Popelku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-024",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Která kapela má v repertoáru hity Jasná zpráva a Želva?",
+    "options": [
+      "Žlutý pes",
+      "Lucie",
+      "Olympic",
+      "Katapult"
+    ],
+    "answer": "Olympic",
+    "fact": "Petr Janda je ve skupině od roku 1963 a brzy se stal jejím lídrem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Olympic_(hudební_skupina)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-025",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje lakomý statkář z Krkonošských pohádek?",
+    "options": [
+      "Trautenberk",
+      "Krakonoš",
+      "Rampušák",
+      "Kuba"
+    ],
+    "answer": "Trautenberk",
+    "fact": "Trautenberka hrál Josef Dvořák.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Krkonošské_pohádky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-026",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Která skladba ze Smetanova cyklu Má vlast líčí řeku?",
+    "options": [
+      "Tábor",
+      "Vltava",
+      "Šárka",
+      "Blaník"
+    ],
+    "answer": "Vltava",
+    "fact": "Smetana cyklus dokončil, když už úplně ohluchl.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Má_vlast",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-027",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Který skladatel napsal Glagolskou mši a Sinfoniettu?",
+    "answer": "Leoš Janáček",
+    "accept": [
+      "Janáček"
+    ],
+    "fact": "Sinfoniettu věnoval československé armádě.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Sinfonietta_(Janáček)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-028",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo vytvořil loutky Spejbla a Hurvínka?",
+    "options": [
+      "Jiří Trnka",
+      "Miloš Kirschner",
+      "Matěj Kopecký",
+      "Josef Skupa"
+    ],
+    "answer": "Josef Skupa",
+    "fact": "Spejbl vznikl v roce 1919, Hurvínek o sedm let později.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Josef_Skupa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-029",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který film Jiřího Menzela podle Hrabala získal Oscara?",
+    "options": [
+      "Rozmarné léto",
+      "Postřižiny",
+      "Ostře sledované vlaky",
+      "Skřivánci na niti"
+    ],
+    "answer": "Ostře sledované vlaky",
+    "fact": "Oscara za nejlepší cizojazyčný film získal v roce 1968.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ostře_sledované_vlaky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-030",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo vymyslel postavu Járy Cimrmana spolu s Jiřím Šebánkem?",
+    "options": [
+      "Jiří Suchý",
+      "Zdeněk Svěrák",
+      "Jan Werich",
+      "Miroslav Šimek"
+    ],
+    "answer": "Zdeněk Svěrák",
+    "fact": "V anketě Největší Čech vedl, ale vyřadili ho jako smyšlenou postavu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jára_Cimrman",
+    "status": "verified"
+  }
+]

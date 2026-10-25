@@ -1,0 +1,511 @@
+[
+  {
+    "id": "hospoda-cisla-logika-001",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik hran má krychle?",
+    "options": [
+      "8",
+      "12",
+      "24",
+      "6"
+    ],
+    "answer": "12",
+    "fact": "Vrcholů má krychle osm a stěn šest.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Krychle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-002",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik minut má jeden den?",
+    "options": [
+      "1 440",
+      "1 600",
+      "1 240",
+      "1 000"
+    ],
+    "answer": "1 440",
+    "fact": "Sekund má den 86 400.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-003",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dává součet bodů na protilehlých stěnách hrací kostky?",
+    "options": [
+      "6",
+      "9",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "fact": "Proto jednička leží vždy naproti šestce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hrací_kostka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-004",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik minut jsou tři čtvrtě hodiny?",
+    "options": [
+      "50",
+      "30",
+      "40",
+      "45"
+    ],
+    "answer": "45",
+    "fact": "Pozor na češtinu: „tři čtvrtě na dvě“ znamená 1:45.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-005",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik kostek má klasická sada domina od nuly do šestky?",
+    "options": [
+      "21",
+      "24",
+      "36",
+      "28"
+    ],
+    "answer": "28",
+    "fact": "Každá dvojice čísel od 0 do 6 je v sadě přesně jednou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Domino",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-006",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik kusů je dvanáct tuctů?",
+    "options": [
+      "144",
+      "124",
+      "120",
+      "156"
+    ],
+    "answer": "144",
+    "fact": "Dvanácti tuctům se říká veletucet.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tucet",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-007",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Otec je o 30 let starší než syn. Za 5 let bude třikrát starší. Kolik je synovi teď?",
+    "options": [
+      "15",
+      "10",
+      "5",
+      "12"
+    ],
+    "answer": "10",
+    "fact": "Stačí jedna rovnice: x + 35 = 3 · (x + 5).",
+    "difficulty": 3,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-008",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Která římská číslice znamená 500?",
+    "answer": "D",
+    "accept": [
+      "d"
+    ],
+    "fact": "M je tisíc, C sto a L padesát.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Římské_číslice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-009",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Šnek leze na 10metrový sloup: ve dne 3 m nahoru, v noci 2 m dolů. Kolikátý den bude nahoře?",
+    "options": [
+      "10.",
+      "9.",
+      "8.",
+      "7."
+    ],
+    "answer": "8.",
+    "fact": "Osmý den ráno je ve výšce 7 metrů, vyleze nahoru a sklouznout už nestihne.",
+    "difficulty": 3,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-010",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které z těchto čísel je dělitelné třemi?",
+    "options": [
+      "470",
+      "469",
+      "471",
+      "472"
+    ],
+    "answer": "471",
+    "fact": "Číslo je dělitelné třemi, když je jeho ciferný součet dělitelný třemi.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dělitelnost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-011",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik je součet všech čísel od 1 do 100?",
+    "answer": 5050,
+    "unit": "",
+    "fact": "Podle legendy to jako školák během chvilky spočítal Carl Friedrich Gauss.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-012",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dekagramů je v jednom kilogramu?",
+    "options": [
+      "50",
+      "100",
+      "10",
+      "1 000"
+    ],
+    "answer": "100",
+    "fact": "Deka je typicky česká míra – v obchodě chceme „deset deka šunky“.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Dekagram",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-013",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak pokračuje řada 2, 6, 12, 20, 30, …?",
+    "options": [
+      "42",
+      "36",
+      "40",
+      "44"
+    ],
+    "answer": "42",
+    "fact": "Rozdíly mezi čísly rostou vždy o dvě: 4, 6, 8, 10, 12.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-014",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje číslo, které má za jedničkou sto nul?",
+    "answer": "Googol",
+    "accept": [
+      "gúgol",
+      "gugol"
+    ],
+    "fact": "Po něm se, s překlepem, jmenuje firma Google.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Googol",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-015",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik stupňů je součet vnitřních úhlů trojúhelníku?",
+    "options": [
+      "270",
+      "360",
+      "90",
+      "180"
+    ],
+    "answer": "180",
+    "fact": "Ve čtyřúhelníku je to 360 stupňů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Trojúhelník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-016",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 15 procent z 200?",
+    "options": [
+      "30",
+      "20",
+      "35",
+      "15"
+    ],
+    "answer": "30",
+    "fact": "Procento znamená doslova „ze sta“.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-017",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik je 17 × 23?",
+    "answer": 391,
+    "unit": "",
+    "fact": "Dá se to spočítat zpaměti: (20 − 3) · (20 + 3) = 400 − 9.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-018",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 2 na desátou?",
+    "options": [
+      "512",
+      "1 000",
+      "2 048",
+      "1 024"
+    ],
+    "answer": "1 024",
+    "fact": "Proto má kilobajt v počítačích někdy 1 024 bajtů místo tisíce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mocnina_dvou",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-019",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik úhlopříček má pětiúhelník?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "10"
+    ],
+    "answer": "5",
+    "fact": "Úhlopříčky pravidelného pětiúhelníku tvoří pěticípou hvězdu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pětiúhelník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-020",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo do řady nepatří: 16, 25, 36, 48?",
+    "options": [
+      "16",
+      "48",
+      "36",
+      "25"
+    ],
+    "answer": "48",
+    "fact": "Ostatní jsou druhé mocniny: 4², 5² a 6².",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-021",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký letopočet znamenají římské číslice MCMLXXXIX?",
+    "options": [
+      "1979",
+      "1991",
+      "1989",
+      "1489"
+    ],
+    "answer": "1989",
+    "fact": "Římské číslice neznaly nulu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Římské_číslice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-022",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik sekund má jedna hodina?",
+    "answer": 3600,
+    "unit": "s",
+    "fact": "Šedesátkové dělení času pochází už od starých Babyloňanů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Šedesátková_soustava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-023",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které z těchto čísel je prvočíslo?",
+    "options": [
+      "97",
+      "91",
+      "87",
+      "51"
+    ],
+    "answer": "97",
+    "fact": "91 vypadá jako prvočíslo, ale je to 7 × 13.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Prvočíslo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-024",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolikrát za den se překryjí hodinová a minutová ručička?",
+    "options": [
+      "23",
+      "24",
+      "12",
+      "22"
+    ],
+    "answer": "22",
+    "fact": "Mezi jedenáctou a jednou se překryjí jen jednou – přesně ve dvanáct.",
+    "difficulty": 3,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-025",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který z těchto roků byl přestupný?",
+    "options": [
+      "1900",
+      "2000",
+      "1800",
+      "2100"
+    ],
+    "answer": "2000",
+    "fact": "Rok dělitelný stem je přestupný, jen když je dělitelný i čtyřmi sty.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Přestupný_rok",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-026",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jaké nejmenší kladné číslo je dělitelné všemi čísly od 1 do 10?",
+    "answer": "2520",
+    "accept": [
+      "2 520"
+    ],
+    "fact": "Stačí vynásobit 8 · 9 · 5 · 7.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Nejmenší_společný_násobek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-027",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Kolik je dva krát dva plus dva krát dva?",
+    "answer": "8",
+    "accept": [
+      "osm"
+    ],
+    "fact": "Násobení má přednost před sčítáním.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-028",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik nul má milion?",
+    "options": [
+      "7",
+      "9",
+      "6",
+      "5"
+    ],
+    "answer": "6",
+    "fact": "Miliarda má devět nul, Angličané jí říkají billion.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Milion",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-029",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak pokračuje řada 1, 1, 2, 3, 5, 8, …?",
+    "options": [
+      "13",
+      "12",
+      "16",
+      "11"
+    ],
+    "answer": "13",
+    "fact": "Fibonacciho čísla najdete i v uspořádání semínek slunečnice.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Fibonacciho_posloupnost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-030",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik čtverečních metrů má jeden hektar?",
+    "answer": 10000,
+    "unit": "m²",
+    "fact": "Fotbalové hřiště má zhruba tři čtvrtě hektaru.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hektar",
+    "status": "verified"
+  }
+]
