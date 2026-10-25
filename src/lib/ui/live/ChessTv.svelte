@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Chess room on the TV: lobby with the join code, then the board for the spectators with both
   // clocks, the move list and the result. The TV never moves; the players use their phones.
   import './game.css';
@@ -70,7 +71,7 @@
             {#each ['w', 'b'] as const as color (color)}
               {@const p = game.players[color]}
               <li data-testid="lobby-contestant" data-contestant={p.id} data-online={room.presence[p.id]?.online ? 'yes' : 'no'}>
-                <span class="emoji g-avatar">{p.avatar ?? '🙂'}</span>
+                <span class="emoji g-avatar"><Avatar value={p.avatar} fallback="🙂" px={96} /></span>
                 <strong class="g-grow">{color === 'w' ? '⚪' : '⚫'} {p.name}</strong>
                 <span class="muted">{presenceLabel(p.id)}</span>
               </li>
@@ -90,7 +91,7 @@
             <div class="board-box"><Board fen={game.fen} orientation="w" interactive={false} {lastMove} {check} /></div>
           {/if}
           <div class="player" class:active={turn === color && !game.result} data-testid={`tv-player-${color}`}>
-            <span class="emoji">{p.avatar ?? (color === 'w' ? '⚪' : '⚫')}</span>
+            <span class="emoji"><Avatar value={p.avatar} fallback={color === 'w' ? '⚪' : '⚫'} px={96} /></span>
             <strong class="g-grow">{p.name}</strong>
             {#if clock}<span class="clock" class:low={(remainingMs(game, color, room.serverNow()) ?? 1e9) < 20_000} data-testid={`clock-${color}`}>{clock}</span>{/if}
           </div>

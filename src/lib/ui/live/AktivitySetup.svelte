@@ -1,8 +1,10 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { LEVEL_LABELS, type Level } from '../../types.ts';
-  import { LEVEL_EMOJI } from '../labels.ts';
   import { createRoom, loadSetting, saveSetting } from './setup-api.ts';
 
   interface PlayerRow {
@@ -115,7 +117,7 @@
   <ul class="assign">
     {#each players as p (p.id)}
       <li>
-        <span class="who"><span class="emoji">{p.avatar}</span> {p.name} <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span></span>
+        <span class="who"><span class="emoji"><Avatar value={p.avatar} /></span> {p.name} <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span></span>
         <span class="row" role="group" aria-label={`Tým hráče ${p.name}`}>
           <button class="chip" aria-pressed={assign[p.id] === undefined} onclick={() => setTeam(p.id, null)}>Nehraje</button>
           {#each Array.from({ length: teamCount }, (_, i) => i) as i (i)}

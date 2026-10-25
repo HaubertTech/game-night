@@ -1,10 +1,12 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import './game.css';
   import type { AktivityCommand } from '../../games/aktivity/engine.ts';
   import { LEVEL_LABELS } from '../../types.ts';
   import { AKTIVITY_MODE_LABELS, DIFFICULTIES, type AktivityMode, type Difficulty } from '../../games/aktivity/types.ts';
   import type { LiveRoom } from '../../live-client/room.svelte.ts';
-  import { LEVEL_EMOJI } from '../labels.ts';
   import Standings from '../Standings.svelte';
   import ConnectionBadge from './ConnectionBadge.svelte';
   import Countdown from './Countdown.svelte';
@@ -63,13 +65,13 @@
           <h1>Týmy</h1>
           {#each view.teams as t (t.id)}
             <div class="card stack team">
-              <h2><span class="emoji">{t.avatar ?? '👥'}</span> {t.name}</h2>
+              <h2><span class="emoji"><Avatar value={t.avatar} fallback="👥" px={96} /></span> {t.name}</h2>
               <ul class="g-people">
                 {#each t.players as p (p.id)}
                   <li data-testid="lobby-contestant" data-contestant={p.id} data-online={room.presence[p.id]?.online ? 'yes' : 'no'}>
-                    <span class="emoji g-avatar">{p.avatar ?? '🙂'}</span>
+                    <span class="emoji g-avatar"><Avatar value={p.avatar} fallback="🙂" px={96} /></span>
                     <strong class="g-grow">{p.name}</strong>
-                    <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span>
+                    <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
                     <span class="muted">{presenceLabel(p.id)}</span>
                   </li>
                 {/each}
@@ -82,8 +84,8 @@
       </section>
     {:else if view.phase === 'turnIntro' && cur && curTeam}
       <section class="stack g-center g-narrow" data-testid="turn-intro">
-        <p class="turn-team">Na tahu je <strong>{curTeam.avatar ?? '👥'} {curTeam.name}</strong></p>
-        <div class="emoji g-huge">{explainer?.avatar ?? '🙂'}</div>
+        <p class="turn-team">Na tahu je <strong><Avatar value={curTeam.avatar} fallback="👥" /> {curTeam.name}</strong></p>
+        <div class="emoji g-huge"><Avatar value={explainer?.avatar} fallback="🙂" px={192} /></div>
         <h1 data-testid="explainer">Vysvětluje {explainer?.name}</h1>
         {#if helper}<p class="g-note">Slovo přečte {helper.name} — {explainer?.name} je předškolák, hraje se jen ukaž a nakresli.</p>{/if}
         <p class="muted">Obtížnost vybírá vysvětlující na telefonu (3, 4 nebo 5 bodů).</p>
@@ -103,7 +105,7 @@
       </section>
     {:else if view.phase === 'playing' && cur && curTeam}
       <section class="stack g-center g-narrow" data-testid="playing">
-        <p class="turn-team">{curTeam.avatar ?? '👥'} <strong>{curTeam.name}</strong> · vysvětluje {explainer?.name}</p>
+        <p class="turn-team"><Avatar value={curTeam.avatar} fallback="👥" /> <strong>{curTeam.name}</strong> · vysvětluje {explainer?.name}</p>
         <p class="mode" data-testid="mode">{modeLabel(cur.mode)}</p>
         <p class="muted diff-line">Za {cur.difficulty} {cur.difficulty === 5 ? 'bodů' : 'body'}</p>
         {#if cur.allPlay}<p class="g-note all-play">🙌 Všichni hádají! Body bere tým, který uhodne první.</p>{/if}

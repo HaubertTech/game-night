@@ -1,7 +1,9 @@
 <script lang="ts">
+  import Art from '#lib/ui/art/Art.svelte';
+  import { THEME_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { THEME_LABELS, type Theme } from '../types.ts';
   import type { Contestant } from '../engine/select.ts';
-  import { THEME_EMOJI } from './labels.ts';
 
   let {
     theme,
@@ -25,7 +27,7 @@
 
 <article class="intro" data-testid="round-intro">
   <p class="muted round">Kolo {roundNumber} z {roundCount}</p>
-  <div class="emoji theme-emoji" aria-hidden="true">{THEME_EMOJI[theme]}</div>
+  <Art name={THEME_ART[theme]} decorative size={160} class="theme-art" eager />
   <h1>{THEME_LABELS[theme]}</h1>
 
   <section class="card jokers">
@@ -41,7 +43,7 @@
           aria-label={`Žolík ${c.name}`}
           onclick={() => onToggleJoker(c.id)}
         >
-          <span class="emoji avatar">{c.avatar}</span>
+          <span class="emoji avatar"><Avatar value={c.avatar} /></span>
           <span class="name">{c.name}</span>
           <span class="state">{state === 'here' ? '🃏 ×2 v tomto kole' : state === 'used' ? 'už použil(a)' : 'nechat na později'}</span>
         </button>
@@ -65,8 +67,9 @@
     margin: 0;
     font-weight: 700;
   }
-  .theme-emoji {
-    font-size: 6rem;
+  .intro :global(.theme-art) {
+    width: 160px;
+    height: 160px;
   }
   h1 {
     font-size: clamp(2rem, 5vw, 3rem);

@@ -1,7 +1,10 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import type { ContestantView, RevealedAnswer } from '../../live/protocol.ts';
   import { LEVEL_LABELS } from '../../types.ts';
-  import { LEVEL_EMOJI, pointsLabel } from '../labels.ts';
+  import {pointsLabel } from '../labels.ts';
   import { correctAnswerText, givenText, revealTitle } from './view-helpers.ts';
 
   let {
@@ -24,9 +27,9 @@
 <article class="reveal card {state}" class:mine data-testid="reveal-card" data-contestant={reveal.contestantId} data-state={state}>
   <header>
     {#if contestant}
-      <span class="emoji avatar">{contestant.avatar}</span>
+      <span class="emoji avatar"><Avatar value={contestant.avatar} px={96} /></span>
       <span class="name">{contestant.name}</span>
-      <span class="badge {contestant.level}">{LEVEL_EMOJI[contestant.level]} {LEVEL_LABELS[contestant.level]}</span>
+      <span class="badge {contestant.level}"><ArtIcon name={LEVEL_ART[contestant.level]} /> {LEVEL_LABELS[contestant.level]}</span>
     {/if}
     <span class="verdict">{revealTitle(reveal)}</span>
   </header>

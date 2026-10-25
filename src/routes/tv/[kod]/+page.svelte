@@ -1,11 +1,13 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { page } from '$app/state';
   import { LEVEL_LABELS, THEME_LABELS } from '#lib/types.ts';
   import { LiveRoom } from '#lib/live-client/room.svelte.ts';
   import { readToken } from '#lib/live-client/tokens.ts';
   import { questionSpeech, speak, stop } from '#lib/tts.ts';
-  import { LEVEL_EMOJI, THEME_EMOJI } from '#lib/ui/labels.ts';
   import RoundIntro from '#lib/ui/RoundIntro.svelte';
   import Standings from '#lib/ui/Standings.svelte';
   import ConnectionBadge from '#lib/ui/live/ConnectionBadge.svelte';
@@ -127,7 +129,7 @@
     <span class="brand">📺 Kvízovna</span>
     <span class="code-small" data-testid="room-code-small">Místnost <strong>{code}</strong></span>
     {#if view && view.phase !== 'lobby' && view.theme}
-      <span class="round">Kolo {view.roundIndex + 1}/{view.roundCount} · {THEME_EMOJI[view.theme]} {THEME_LABELS[view.theme]}</span>
+      <span class="round">Kolo {view.roundIndex + 1}/{view.roundCount} · <ArtIcon name={THEME_ART[view.theme]} /> {THEME_LABELS[view.theme]}</span>
     {/if}
     <ConnectionBadge status={room.status} />
   </header>
@@ -157,10 +159,10 @@
           <ul class="people">
             {#each active as c (c.id)}
               <li data-testid="lobby-contestant" data-contestant={c.id} data-online={room.presence[c.id]?.online ? 'yes' : 'no'}>
-                <span class="emoji avatar">{c.avatar}</span>
+                <span class="emoji avatar"><Avatar value={c.avatar} px={96} /></span>
                 <span class="person">
                   <strong>{c.name}</strong>
-                  <span class="badge {c.level}">{LEVEL_EMOJI[c.level]} {LEVEL_LABELS[c.level]}</span>
+                  <span class="badge {c.level}"><ArtIcon name={LEVEL_ART[c.level]} /> {LEVEL_LABELS[c.level]}</span>
                   <span class="muted">{presenceLabel(c.id, c.onTv)}</span>
                 </span>
                 {#if isHost}
@@ -191,12 +193,12 @@
           onStart={() => room.act({ type: 'startRound' })}
         />
       {:else}
-        <section class="center"><div class="emoji big-emoji">{THEME_EMOJI[view.theme]}</div><h1>{THEME_LABELS[view.theme]}</h1></section>
+        <section class="center"><ArtIcon name={THEME_ART[view.theme]} em={10} px={260} /><h1>{THEME_LABELS[view.theme]}</h1></section>
       {/if}
     {:else if view.phase === 'asking' && view.stage === 'tv' && view.question && tvContestant}
       <section class="tv-turn stack">
         <p class="turn-who" data-testid="tv-turn">
-          📺 Odpovídá <span class="emoji">{tvContestant.avatar}</span> <strong>{tvContestant.name}</strong>
+          📺 Odpovídá <span class="emoji"><Avatar value={tvContestant.avatar} px={96} /></span> <strong>{tvContestant.name}</strong>
           {#if tvContestant.joker === view.roundIndex}<span class="badge joker">🃏 ×2</span>{/if}
         </p>
         <Countdown seconds={room.remaining} total={view.timerSeconds} />
@@ -227,7 +229,7 @@
         <ul class="answered">
           {#each active.filter((c) => c.inStep) as c (c.id)}
             <li class:done={c.answered} data-testid="answer-status" data-contestant={c.id} data-answered={c.answered ? 'yes' : 'no'}>
-              <span class="emoji avatar">{c.avatar}</span>
+              <span class="emoji avatar"><Avatar value={c.avatar} px={96} /></span>
               <strong>{c.name}</strong>
               <span>{c.onTv ? '📺 po telefonech' : c.answered ? '✅ odpověděl(a)' : room.presence[c.id]?.online ? '🤔 přemýšlí…' : '📴 nepřipojen(a)'}</span>
             </li>

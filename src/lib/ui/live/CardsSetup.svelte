@@ -1,11 +1,13 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // TV setup of digital prší / žolíky: people on phones, computers for the free seats, hints for
   // children, the length of the game and an optional time limit per turn.
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { LEVEL_LABELS as PLAYER_LEVEL_LABELS, type Level } from '../../types.ts';
   import type { AiLevel } from '../../games/karty-hra/prsi-engine.ts';
-  import { LEVEL_EMOJI } from '../labels.ts';
   import { LEVEL_LABELS } from '../karty-hra/storage.ts';
   import { createRoom, loadSetting, saveSetting } from './setup-api.ts';
 
@@ -97,7 +99,7 @@
   <div class="row" role="group" aria-label="Hráči">
     {#each players as p (p.id)}
       <button class="chip" aria-pressed={selected.includes(p.id)} onclick={() => toggle(p)} aria-label={`${p.name} hraje`}>
-        <span class="emoji">{p.avatar}</span> {p.name} <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {PLAYER_LEVEL_LABELS[p.level]}</span>
+        <span class="emoji"><Avatar value={p.avatar} /></span> {p.name} <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {PLAYER_LEVEL_LABELS[p.level]}</span>
       </button>
     {/each}
   </div>

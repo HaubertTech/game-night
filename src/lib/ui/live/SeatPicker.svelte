@@ -1,6 +1,8 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { LEVEL_LABELS, type Level } from '../../types.ts';
-  import { LEVEL_EMOJI } from '../labels.ts';
   import type { Presence } from '../../live/protocol.ts';
 
   interface Seat {
@@ -19,9 +21,9 @@
     {#each seats as c (c.id)}
       {@const taken = presence[c.id]?.claimed}
       <button class="who" disabled={taken} onclick={() => onPick(c.id)} aria-label={`Jsem ${c.name}`}>
-        <span class="emoji avatar">{c.avatar}</span>
+        <span class="emoji avatar"><Avatar value={c.avatar} /></span>
         <span class="name">{c.name}</span>
-        <span class="badge {c.level}">{LEVEL_EMOJI[c.level]} {LEVEL_LABELS[c.level]}</span>
+        <span class="badge {c.level}"><ArtIcon name={LEVEL_ART[c.level]} /> {LEVEL_LABELS[c.level]}</span>
         {#if c.group}<span class="muted small">{c.group}</span>{/if}
         {#if taken}<span class="muted small">už hraje jiný telefon</span>{/if}
       </button>

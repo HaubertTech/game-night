@@ -1,10 +1,12 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { page } from '$app/state';
   import { LEVEL_LABELS, THEME_LABELS } from '#lib/types.ts';
   import { LiveRoom } from '#lib/live-client/room.svelte.ts';
   import { questionSpeech, speak, stop } from '#lib/tts.ts';
-  import { LEVEL_EMOJI, THEME_EMOJI } from '#lib/ui/labels.ts';
   import Standings from '#lib/ui/Standings.svelte';
   import ConnectionBadge from '#lib/ui/live/ConnectionBadge.svelte';
   import Countdown from '#lib/ui/live/Countdown.svelte';
@@ -80,7 +82,7 @@
 <main class="phone" data-testid="phone" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''}>
   <header class="bar">
     {#if me}
-      <span class="me"><span class="emoji">{me.avatar}</span> <strong>{me.name}</strong></span>
+      <span class="me"><span class="emoji"><Avatar value={me.avatar} /></span> <strong>{me.name}</strong></span>
       <span class="score" data-testid="my-score">{me.score} b.</span>
     {:else}
       <span class="me">📱 Místnost <strong>{code}</strong></span>
@@ -108,9 +110,9 @@
         {#each pickable as c (c.id)}
           {@const taken = room.presence[c.id]?.claimed}
           <button class="who" disabled={taken} onclick={() => room.join(c.id)} aria-label={`Jsem ${c.name}`}>
-            <span class="emoji avatar">{c.avatar}</span>
+            <span class="emoji avatar"><Avatar value={c.avatar} /></span>
             <span class="name">{c.name}</span>
-            <span class="badge {c.level}">{LEVEL_EMOJI[c.level]} {LEVEL_LABELS[c.level]}</span>
+            <span class="badge {c.level}"><ArtIcon name={LEVEL_ART[c.level]} /> {LEVEL_LABELS[c.level]}</span>
             {#if taken}<span class="muted small">už hraje jiný telefon</span>{/if}
           </button>
         {/each}
@@ -124,7 +126,7 @@
     </section>
   {:else if view.phase === 'lobby'}
     <section class="center stack" data-testid="waiting">
-      <div class="emoji huge">{me.avatar}</div>
+      <div class="emoji huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi ve hře!</h1>
       <p class="muted">Čekáme, až hostitel spustí hru na televizi.</p>
       <button class="btn small ghost" onclick={() => room.leave()}>Nejsem {me.name}</button>
@@ -132,7 +134,7 @@
   {:else if view.phase === 'roundIntro' && view.theme}
     <section class="center stack">
       <p class="muted">Kolo {view.roundIndex + 1} z {view.roundCount}</p>
-      <div class="emoji huge">{THEME_EMOJI[view.theme]}</div>
+      <ArtIcon name={THEME_ART[view.theme]} em={5} px={160} />
       <h1>{THEME_LABELS[view.theme]}</h1>
       <button
         class="btn big joker"
@@ -185,7 +187,7 @@
         <ul>
           {#each view.reveal?.filter((r) => r.contestantId !== room.me) ?? [] as r (r.contestantId)}
             {@const c = byId.get(r.contestantId)}
-            <li>{c?.avatar} {c?.name}: {givenText(r.question, r.given)} {r.awaitingJudge ? '❔' : r.correct ? '✅' : '❌'}</li>
+            <li><Avatar value={c?.avatar} /> {c?.name}: {givenText(r.question, r.given)} {r.awaitingJudge ? '❔' : r.correct ? '✅' : '❌'}</li>
           {/each}
         </ul>
       </details>

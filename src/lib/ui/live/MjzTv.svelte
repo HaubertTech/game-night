@@ -1,9 +1,11 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import './game.css';
   import type { MjzCommand } from '../../games/mjz/engine.ts';
   import { LEVEL_LABELS } from '../../types.ts';
   import type { LiveRoom } from '../../live-client/room.svelte.ts';
-  import { LEVEL_EMOJI } from '../labels.ts';
   import Standings from '../Standings.svelte';
   import ConnectionBadge from './ConnectionBadge.svelte';
   import Countdown from './Countdown.svelte';
@@ -64,9 +66,9 @@
           <ul class="g-people">
             {#each active as c (c.id)}
               <li data-testid="lobby-contestant" data-contestant={c.id} data-online={room.presence[c.id]?.online ? 'yes' : 'no'}>
-                <span class="emoji g-avatar">{c.avatar}</span>
+                <span class="emoji g-avatar"><Avatar value={c.avatar} px={96} /></span>
                 <strong class="g-grow">{c.name}</strong>
-                <span class="badge {c.level}">{LEVEL_EMOJI[c.level]} {LEVEL_LABELS[c.level]}</span>
+                <span class="badge {c.level}"><ArtIcon name={LEVEL_ART[c.level]} /> {LEVEL_LABELS[c.level]}</span>
                 <span class="muted">{presenceLabel(c.id, c.assisted)}</span>
               </li>
             {/each}
@@ -102,7 +104,7 @@
         <ul class="progress">
           {#each active as c (c.id)}
             <li class:done={c.done} data-testid="mjz-progress" data-contestant={c.id} data-done={c.done ? 'yes' : 'no'}>
-              <span class="emoji g-avatar">{c.avatar}</span>
+              <span class="emoji g-avatar"><Avatar value={c.avatar} px={96} /></span>
               <strong>{c.name}</strong>
               <span>{c.done ? '✅ odevzdáno' : `✍️ ${c.filled} z ${c.total}`}</span>
             </li>
@@ -110,7 +112,7 @@
         </ul>
         {#each assisted as c (c.id)}
           <div class="card stack">
-            <h2>{c.avatar} Píšeš za: {c.name}</h2>
+            <h2><Avatar value={c.avatar} /> Píšeš za: {c.name}</h2>
             <MjzSheet
               categories={categoriesOf(c.id)}
               sheet={view.sheets[c.id] ?? {}}
@@ -138,7 +140,7 @@
           {#each focusAnswers as a (a.contestantId)}
             {@const c = byId.get(a.contestantId)}
             <li data-testid="mjz-answer" data-contestant={a.contestantId} data-category={a.categoryId} data-verdict={a.verdict} class={a.verdict}>
-              <span class="emoji g-avatar">{c?.avatar}</span>
+              <span class="emoji g-avatar"><Avatar value={c?.avatar} px={96} /></span>
               <span class="who"><strong>{c?.name}</strong></span>
               <span class="text">{a.text || '—'}</span>
               <span class="meta">

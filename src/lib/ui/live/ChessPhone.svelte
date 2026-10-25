@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Chess room on a phone: pick white or black, then the shared GameScreen in room mode
   // (moves only on the own turn, draw offer, resignation).
   import './game.css';
@@ -29,7 +30,7 @@
 <main class="g-phone chess-phone" data-testid="phone" data-game="chess" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''} data-color={view?.color ?? ''}>
   <header class="g-bar">
     {#if me && game}
-      <span><span class="emoji">{game.players[me].avatar ?? '🙂'}</span> <strong>{game.players[me].name}</strong> · {me === 'w' ? '⚪ bílé' : '⚫ černé'}</span>
+      <span><span class="emoji"><Avatar value={game.players[me].avatar} fallback="🙂" /></span> <strong>{game.players[me].name}</strong> · {me === 'w' ? '⚪ bílé' : '⚫ černé'}</span>
     {:else}
       <span>♟️ Místnost <strong>{code}</strong></span>
     {/if}

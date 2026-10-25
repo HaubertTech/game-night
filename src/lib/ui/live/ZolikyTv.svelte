@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital žolíky on the TV: stock, the top of the discard pile and every laid-down combination,
   // the players with their card counts and totals. Hands stay on the phones.
   import './game.css';
@@ -51,7 +52,7 @@
       <section class="seats">
         {#each view.players as p (p.id)}
           <div class="seat" class:turn={view.turn === p.id && view.phase === 'playing'} data-testid="tv-seat" data-seat={p.id} data-cards={p.cards}>
-            <span class="emoji g-avatar">{seatOf(p.id)?.avatar ?? '🙂'}</span>
+            <span class="emoji g-avatar"><Avatar value={seatOf(p.id)?.avatar} fallback="🙂" px={96} /></span>
             <div class="stack tight">
               <strong>{p.name}</strong>
               <span class="muted">{p.cards} karet · {p.opened ? 'vyloženo' : 'nevyloženo'} · {p.total} b.</span>

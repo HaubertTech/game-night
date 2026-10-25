@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Lobby of a card room on the TV: the join code, who sits at the table (people and computers)
   // and the start button for the host.
   import type { Presence } from '../../live/protocol.ts';
@@ -24,7 +25,7 @@
     <ul class="g-people">
       {#each seats as s (s.id)}
         <li data-testid="lobby-contestant" data-contestant={s.id} data-online={s.ai || presence[s.id]?.online ? 'yes' : 'no'}>
-          <span class="emoji g-avatar">{s.avatar}</span>
+          <span class="emoji g-avatar"><Avatar value={s.avatar} px={96} /></span>
           <strong class="g-grow">{s.name}{#if s.hints} 💡{/if}</strong>
           <span class="muted">{label(s)}</span>
         </li>

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import './game.css';
   import type { MjzCommand } from '../../games/mjz/engine.ts';
   import type { LiveRoom } from '../../live-client/room.svelte.ts';
@@ -25,7 +26,7 @@
 <main class="g-phone" data-testid="phone" data-game="mjz" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''}>
   <header class="g-bar">
     {#if me}
-      <span><span class="emoji">{me.avatar}</span> <strong>{me.name}</strong></span>
+      <span><span class="emoji"><Avatar value={me.avatar} /></span> <strong>{me.name}</strong></span>
       <span class="score" data-testid="my-score">{me.score} b.</span>
     {:else}
       <span>✍️ Místnost <strong>{code}</strong></span>
@@ -52,7 +53,7 @@
     <section class="stack g-center"><h1>Hostitel tě ze hry odebral</h1></section>
   {:else if view.phase === 'setup'}
     <section class="stack g-center" data-testid="waiting">
-      <div class="emoji g-huge">{me.avatar}</div>
+      <div class="emoji g-huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi ve hře!</h1>
       <p class="muted">Čekáme, až hostitel spustí hru na televizi.</p>
       <button class="btn small ghost" onclick={() => room.leave()}>Nejsem {me.name}</button>
@@ -101,7 +102,7 @@
           {@const mine = a.contestantId === me.id}
           <li data-testid="mjz-answer" data-contestant={a.contestantId} data-category={a.categoryId} data-verdict={a.verdict}>
             <div class="row line">
-              <span class="emoji">{c?.avatar}</span>
+              <span class="emoji"><Avatar value={c?.avatar} /></span>
               <strong class="g-grow">{mine ? 'Ty' : c?.name}: {a.text || '—'}</strong>
               <span class="points">{a.points} b.</span>
             </div>

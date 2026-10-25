@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital žolíky on a phone: the own hand and the combinations on the table. Take a card, select
   // cards and put them into groups, lay them down, tap a combination on the table to add the
   // selected cards (or swap a joker), and finally discard one card. Children with hints can let
@@ -143,7 +144,7 @@
 <main class="g-phone" data-testid="phone" data-game="zoliky-hra" data-phase={view?.roomPhase ?? 'loading'} data-me={room.me ?? ''} data-my-turn={myTurn ? 'yes' : 'no'} data-seq={view?.log.at(-1)?.seq ?? 0} data-step={view?.step ?? ''}>
   <header class="g-bar">
     {#if me}
-      <span><span class="emoji">{me.avatar}</span> <strong>{me.name}</strong></span>
+      <span><span class="emoji"><Avatar value={me.avatar} /></span> <strong>{me.name}</strong></span>
       {#if view && view.roomPhase !== 'lobby'}<button class="btn small ghost" onclick={() => (sheetOpen = !sheetOpen)}>Arch</button>{/if}
     {:else}
       <span>🂡 Místnost <strong>{code}</strong></span>
@@ -163,7 +164,7 @@
     <SeatPicker seats={people} presence={room.presence} onPick={(id) => room.join(id)} />
   {:else if view.roomPhase === 'lobby'}
     <section class="stack g-center" data-testid="waiting">
-      <div class="emoji g-huge">{me.avatar}</div>
+      <div class="emoji g-huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi u stolu!</h1>
       <p class="muted">Čekáme, až hostitel na televizi rozdá karty.</p>
       <button class="btn small ghost" onclick={() => room.leave()}>Nejsem {me.name}</button>

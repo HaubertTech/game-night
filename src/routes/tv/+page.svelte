@@ -1,10 +1,12 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
   import { LEVELS, LEVEL_LABELS, THEMES, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
   import { writeToken } from '#lib/live-client/tokens.ts';
-  import { LEVEL_EMOJI, THEME_EMOJI } from '#lib/ui/labels.ts';
   import { isRoomGame, ROOM_GAME_EMOJI, ROOM_GAME_LABELS, ROOM_GAMES, type RoomGame } from '#lib/live/games.ts';
   import AktivitySetup from '#lib/ui/live/AktivitySetup.svelte';
   import MjzSetup from '#lib/ui/live/MjzSetup.svelte';
@@ -194,7 +196,7 @@
             onclick={() => togglePlayer(p.id)}
             aria-label={`${p.name} hraje`}
           >
-            <span class="emoji">{p.avatar}</span> {p.name} <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span>
+            <span class="emoji"><Avatar value={p.avatar} px={96} /></span> {p.name} <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
           </button>
         {/each}
       </div>
@@ -203,13 +205,13 @@
         {#each teams as t (t.id)}
           <div class="row team">
             <button class="chip" aria-pressed={!!selectedTeams[t.id]} onclick={() => toggleTeam(t)} aria-label={`Tým ${t.name} hraje`}>
-              <span class="emoji">{t.avatar}</span> {t.name}
+              <span class="emoji"><Avatar value={t.avatar} px={96} /></span> {t.name}
             </button>
             {#if selectedTeams[t.id]}
               <div class="row" role="group" aria-label={`Úroveň týmu ${t.name}`}>
                 {#each LEVELS as level (level)}
                   <button class="chip" aria-pressed={selectedTeams[t.id] === level} onclick={() => (selectedTeams = { ...selectedTeams, [t.id]: level })}>
-                    {LEVEL_EMOJI[level]} {LEVEL_LABELS[level]}
+                    <ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]}
                   </button>
                 {/each}
               </div>
@@ -225,7 +227,7 @@
       <div class="row" role="group" aria-label="Témata">
         {#each THEMES as t (t)}
           <button class="chip" aria-pressed={themes.includes(t)} onclick={() => toggleTheme(t)}>
-            <span class="emoji">{THEME_EMOJI[t]}</span> {THEME_LABELS[t]}
+            <ArtIcon name={THEME_ART[t]} em={1.6} /> {THEME_LABELS[t]}
           </button>
         {/each}
       </div>

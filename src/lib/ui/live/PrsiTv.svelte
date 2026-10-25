@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital prší on the TV: the table for everyone — the card on top, the suit to follow, how many
   // cards each player holds, whose turn it is and what just happened. Hands stay on the phones.
   import './game.css';
@@ -52,7 +53,7 @@
       <section class="seats">
         {#each view.players as p (p.id)}
           <div class="seat" class:turn={view.turn === p.id && view.phase === 'playing'} data-testid="tv-seat" data-seat={p.id} data-cards={p.cards}>
-            <span class="emoji g-avatar">{seatOf(p.id)?.avatar ?? '🙂'}</span>
+            <span class="emoji g-avatar"><Avatar value={seatOf(p.id)?.avatar} fallback="🙂" px={96} /></span>
             <div class="stack tight">
               <strong>{p.name}</strong>
               <span class="muted">{p.place ? `${p.place}. místo` : `${p.cards} ${p.cards === 1 ? 'karta' : p.cards < 5 ? 'karty' : 'karet'}`}</span>

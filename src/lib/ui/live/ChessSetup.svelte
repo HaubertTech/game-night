@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // TV setup of a chess room: who plays white, who black, and the clock.
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
@@ -85,7 +86,7 @@
     <div class="row" role="group" aria-label={side.color === 'w' ? 'Bílé' : 'Černé'}>
       {#each players as p (p.id)}
         <button class="chip" aria-pressed={side.value === p.id} onclick={() => pick(side.color, p.id)}>
-          <span class="emoji">{p.avatar}</span> {p.name}
+          <span class="emoji"><Avatar value={p.avatar} /></span> {p.name}
         </button>
       {/each}
     </div>

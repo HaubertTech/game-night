@@ -1,7 +1,8 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { THEME_ART } from '#lib/ui/art/art.ts';
   import type { PublicQuestion } from '../../live/protocol.ts';
   import { THEME_LABELS } from '../../types.ts';
-  import { THEME_EMOJI } from '../labels.ts';
   import { splitEmoji } from './view-helpers.ts';
 
   let {
@@ -38,7 +39,7 @@
 </script>
 
 <article class="q {size}" class:kids data-testid="live-question" data-type={question.type} data-level={question.level}>
-  {#if question.fallback}<p class="mix">🪣 Mix Pískoviště · {THEME_EMOJI[question.theme]} {THEME_LABELS[question.theme]}</p>{/if}
+  {#if question.fallback}<p class="mix">🪣 Mix Pískoviště · <ArtIcon name={THEME_ART[question.theme]} /> {THEME_LABELS[question.theme]}</p>{/if}
   {#if question.image}<div class="image emoji" aria-hidden="true">{question.image}</div>{/if}
   <h2 class="text">{question.text}</h2>
   {#if onSpeak}

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   // Digital prší on a phone: the own hand only. Tap a card to play it, a svršek asks for the
   // suit; the big button draws (or stands on an ace). Children with hints see which cards fit and
   // may ask the owl for advice.
@@ -92,7 +93,7 @@
 <main class="g-phone" data-testid="phone" data-game="prsi-hra" data-phase={view?.roomPhase ?? 'loading'} data-me={room.me ?? ''} data-my-turn={myTurn ? 'yes' : 'no'} data-seq={view?.log.at(-1)?.seq ?? 0}>
   <header class="g-bar">
     {#if me}
-      <span><span class="emoji">{me.avatar}</span> <strong>{me.name}</strong></span>
+      <span><span class="emoji"><Avatar value={me.avatar} /></span> <strong>{me.name}</strong></span>
     {:else}
       <span>🃏 Místnost <strong>{code}</strong></span>
     {/if}
@@ -111,7 +112,7 @@
     <SeatPicker seats={people} presence={room.presence} onPick={(id) => room.join(id)} />
   {:else if view.roomPhase === 'lobby'}
     <section class="stack g-center" data-testid="waiting">
-      <div class="emoji g-huge">{me.avatar}</div>
+      <div class="emoji g-huge"><Avatar value={me.avatar} px={192} /></div>
       <h1>Jsi u stolu!</h1>
       <p class="muted">Čekáme, až hostitel na televizi rozdá karty.</p>
       <button class="btn small ghost" onclick={() => room.leave()}>Nejsem {me.name}</button>

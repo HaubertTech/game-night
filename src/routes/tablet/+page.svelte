@@ -1,4 +1,8 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { ART_AVATARS, avatarName, freeArtAvatar, LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
+  import Art from '#lib/ui/art/Art.svelte';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
@@ -19,7 +23,7 @@
     type HistoryEntry,
     type Profile,
   } from '#lib/storage.ts';
-  import { AVATARS, gamesLabel, LEVEL_EMOJI, TEAM_AVATARS, THEME_EMOJI } from '#lib/ui/labels.ts';
+  import { AVATARS, gamesLabel, TEAM_AVATARS } from '#lib/ui/labels.ts';
   import type { GameState } from '#lib/engine/quiz.ts';
   import { rememberTabletNight } from '#lib/ui/app/tablet-sync.ts';
 
@@ -43,7 +47,7 @@
   let running = $state<GameState | null>(null);
 
   let formName = $state('');
-  let formAvatar = $state(AVATARS[0]);
+  let formAvatar = $state(ART_AVATARS[0]);
   let formLevel = $state<Level>('hospoda');
   let editingId = $state<string | null>(null);
 
@@ -64,7 +68,7 @@
   });
 
   function nextAvatar(): string {
-    return AVATARS.find((a) => !profiles.some((p) => p.avatar === a)) ?? AVATARS[profiles.length % AVATARS.length];
+    return freeArtAvatar(profiles.map((p) => p.avatar));
   }
 
   function persistProfiles() {
@@ -204,14 +208,16 @@
   }
 </script>
 
+<svelte:head><title>Kvízovna na tabletu · Herní večer</title></svelte:head>
+
 <main class="page stack" data-testid="setup">
   <header class="hero">
-    <span class="emoji logo" aria-hidden="true">🦉</span>
+    <Art name="mascot.sova-otazka" decorative size={96} eager class="logo" />
     <div>
       <h1>Kvízovna</h1>
       <p class="muted">Kvíz u stolu pro celou rodinu — tablet koluje, každý dostane otázku své úrovně.</p>
     </div>
-    <a class="btn small ghost home-link" href={nightId ? `/vecery/${nightId}` : '/'} aria-label="Herní večer">🏡</a>
+    <a class="btn small ghost home-link" href={nightId ? `/vecery/${nightId}` : '/'} aria-label={nightId ? 'Zpět na večer' : 'Zpět na Herní večer'}>🏡</a>
   </header>
   {#if nightId}
     <p class="note">🌙 Hra se po dohrání zapíše do večera (když je tablet přihlášený k domácnosti).</p>
@@ -243,9 +249,9 @@
               aria-label={`${p.name} hraje`}
               onclick={() => toggleSelected(p.id)}
             >
-              <span class="emoji avatar">{p.avatar}</span>
+              <span class="emoji avatar"><Avatar value={p.avatar} /></span>
               <span class="profile-name">{p.name}</span>
-              <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span>
+              <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
               <span class="tick" aria-hidden="true">{selected.includes(p.id) ? '✓' : ''}</span>
             </button>
             <div class="profile-tools">
@@ -268,7 +274,7 @@
         <div class="row" role="group" aria-label="Úroveň">
           {#each LEVELS as level (level)}
             <button type="button" class="chip" aria-pressed={formLevel === level} onclick={() => (formLevel = level)}>
-              <span class="emoji">{LEVEL_EMOJI[level]}</span>{LEVEL_LABELS[level]}
+              <span class="emoji"><ArtIcon name={LEVEL_ART[level]} /></span>{LEVEL_LABELS[level]}
             </button>
           {/each}
         </div>
@@ -277,8 +283,14 @@
       <div class="field">
         <span>Obrázek</span>
         <div class="avatars" role="group" aria-label="Obrázek">
+          {#each ART_AVATARS as a (a)}
+            <button type="button" class="avatar-pick" aria-pressed={formAvatar === a} aria-label={avatarName(a)} onclick={() => (formAvatar = a)}><Avatar value={a} px={52} /></button>
+          {/each}
+        </div>
+        <span class="muted small-note">nebo emoji</span>
+        <div class="avatars" role="group" aria-label="Emoji">
           {#each AVATARS as a (a)}
-            <button type="button" class="avatar-pick emoji" aria-pressed={formAvatar === a} aria-label={a} onclick={() => (formAvatar = a)}>{a}</button>
+            <button type="button" class="avatar-pick emoji-pick" aria-pressed={formAvatar === a} aria-label={a} onclick={() => (formAvatar = a)}><Avatar value={a} /></button>
           {/each}
         </div>
       </div>
@@ -305,20 +317,20 @@
       {#each teams as team (team.id)}
         <div class="team stack">
           <div class="row">
-            <span class="emoji avatar">{team.avatar}</span>
+            <span class="emoji avatar"><Avatar value={team.avatar} /></span>
             <input type="text" bind:value={team.name} aria-label="Název týmu" maxlength="20" />
           </div>
           <div class="row" role="group" aria-label="Úroveň týmu">
             {#each LEVELS as level (level)}
               <button type="button" class="chip" aria-pressed={team.level === level} onclick={() => (team.level = level)}>
-                <span class="emoji">{LEVEL_EMOJI[level]}</span>{LEVEL_LABELS[level]}
+                <span class="emoji"><ArtIcon name={LEVEL_ART[level]} /></span>{LEVEL_LABELS[level]}
               </button>
             {/each}
           </div>
           <div class="row">
             {#each selectedProfiles as p (p.id)}
               <button type="button" class="chip" aria-pressed={team.memberIds.includes(p.id)} onclick={() => toggleMember(team, p.id)}>
-                <span class="emoji">{p.avatar}</span>{p.name}
+                <span class="emoji"><Avatar value={p.avatar} /></span>{p.name}
               </button>
             {/each}
           </div>
@@ -338,7 +350,7 @@
       {#each THEMES as theme (theme)}
         {@const index = themes.indexOf(theme)}
         <button class="theme" aria-pressed={index >= 0} onclick={() => toggleTheme(theme)}>
-          <span class="emoji theme-emoji">{THEME_EMOJI[theme]}</span>
+          <ArtIcon name={THEME_ART[theme]} em={2.6} px={96} />
           <span>{THEME_LABELS[theme]}</span>
           {#if index >= 0}<span class="order" aria-label={`kolo ${index + 1}`}>{index + 1}</span>{/if}
         </button>
@@ -401,7 +413,7 @@
           <li>
             <span>{new Date(h.playedAt).toLocaleString('cs-CZ', { dateStyle: 'short', timeStyle: 'short' })}</span>
             <span>🏆 {winnerOf(h)}</span>
-            <span class="muted">{h.themes.map((t) => THEME_EMOJI[t]).join(' ')}</span>
+            <span class="muted theme-row">{#each h.themes as t, i (i)}<ArtIcon name={THEME_ART[t]} label={THEME_LABELS[t]} />{/each}</span>
           </li>
         {/each}
       </ul>
@@ -428,11 +440,13 @@
   .hero p {
     margin: 4px 0 0;
   }
-  .logo {
-    font-size: 4rem;
+  .hero :global(.logo) {
+    width: 96px;
+    height: 96px;
+    flex: none;
     background: var(--sage-light);
     border-radius: var(--radius);
-    padding: 12px;
+    padding: 6px;
   }
   .running {
     background: var(--clay-light);
@@ -460,7 +474,7 @@
     align-items: stretch;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--paper);
     overflow: hidden;
   }
   .profile.selected {
@@ -530,12 +544,20 @@
     gap: 8px;
   }
   .avatar-pick {
-    width: 60px;
-    height: 60px;
-    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    padding: 0;
+    font-size: 2.2rem;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--paper);
+  }
+  .emoji-pick {
+    width: 52px;
+    height: 52px;
+    font-size: 1.5rem;
   }
   .avatar-pick[aria-pressed='true'] {
     border-color: var(--sage-dark);
@@ -564,7 +586,7 @@
     padding: 10px 16px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--paper);
     font-weight: 700;
     font-size: 1.05rem;
     text-align: left;
@@ -584,7 +606,7 @@
     height: 32px;
     border-radius: 50%;
     background: var(--slate-dark);
-    color: #fff;
+    color: var(--paper);
     display: grid;
     place-items: center;
     font-size: 1rem;

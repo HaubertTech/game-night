@@ -1,4 +1,6 @@
 <script lang="ts">
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
+  import { THEME_ART } from '#lib/ui/art/art.ts';
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { THEME_LABELS } from '#lib/types.ts';
@@ -18,7 +20,6 @@
   } from '#lib/engine/index.ts';
   import { addSeen, clearCurrentGame, downloadHistory, loadCurrentGame, recordGame, saveCurrentGame } from '#lib/storage.ts';
   import { questionSpeech, speak, stop } from '#lib/tts.ts';
-  import { THEME_EMOJI } from '#lib/ui/labels.ts';
   import RoundIntro from '#lib/ui/RoundIntro.svelte';
   import Handover from '#lib/ui/Handover.svelte';
   import QuestionCard from '#lib/ui/QuestionCard.svelte';
@@ -143,7 +144,7 @@
       <button class="btn small ghost" onclick={leave} aria-label="Zpět na start">🏠</button>
       {#if round && game.phase !== 'finished'}
         <span class="where">
-          <span class="emoji">{THEME_EMOJI[round.theme]}</span>
+          <ArtIcon name={THEME_ART[round.theme]} em={1.6} />
           {THEME_LABELS[round.theme]} · kolo {game.roundIndex + 1}/{game.rounds.length}
           {#if game.phase !== 'roundIntro' && game.phase !== 'roundEnd'}· otázka {game.turnIndex + 1}/{round.turns.length}{/if}
         </span>

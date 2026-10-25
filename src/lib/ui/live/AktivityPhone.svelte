@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import './game.css';
   import type { AktivityCommand } from '../../games/aktivity/engine.ts';
   import { AKTIVITY_MODE_LABELS, DIFFICULTIES, type Difficulty } from '../../games/aktivity/types.ts';
@@ -31,7 +32,7 @@
 <main class="g-phone" data-testid="phone" data-game="aktivity" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''}>
   <header class="g-bar">
     {#if me}
-      <span><span class="emoji">{me.avatar ?? '🙂'}</span> <strong>{me.name}</strong>{#if myTeam} · {myTeam.name}{/if}</span>
+      <span><span class="emoji"><Avatar value={me.avatar} fallback="🙂" /></span> <strong>{me.name}</strong>{#if myTeam} · {myTeam.name}{/if}</span>
       <span class="score" data-testid="my-score">{myScore} b.</span>
     {:else}
       <span>🎭 Místnost <strong>{code}</strong></span>
@@ -56,7 +57,7 @@
     <SeatPicker {seats} presence={room.presence} onPick={(id) => room.join(id)} />
   {:else if view.phase === 'setup'}
     <section class="stack g-center" data-testid="waiting">
-      <div class="emoji g-huge">{me.avatar ?? '🙂'}</div>
+      <div class="emoji g-huge"><Avatar value={me.avatar} fallback="🙂" px={192} /></div>
       <h1>Jsi ve hře!</h1>
       <p class="muted">Hraješ za {myTeam?.name}. Čekáme, až hostitel spustí hru.</p>
       <button class="btn small ghost" onclick={() => room.leave()}>Nejsem {me.name}</button>
@@ -76,7 +77,7 @@
       </section>
     {:else}
       <section class="stack g-center" data-testid="wait-turn">
-        <div class="emoji g-huge">{explainer?.avatar ?? '🙂'}</div>
+        <div class="emoji g-huge"><Avatar value={explainer?.avatar} fallback="🙂" px={192} /></div>
         <h1>Vysvětluje {explainer?.name}</h1>
         <p class="muted">{ourTurn ? 'Váš tým je na tahu — připravte se hádat!' : `Na tahu je ${teamById.get(cur.teamId)?.name}.`}</p>
       </section>
