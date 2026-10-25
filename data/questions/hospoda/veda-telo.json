@@ -1021,5 +1021,1025 @@
     "difficulty": 1,
     "source": "https://cs.wikipedia.org/wiki/Ozonová_vrstva",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-061",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který plyn vytvářejí kvasinky v kynoucím těstě?",
+    "options": [
+      "Oxid uhličitý",
+      "Dusík",
+      "Kyslík",
+      "Vodík"
+    ],
+    "answer": "Oxid uhličitý",
+    "fact": "Kvasinky při tom tvoří i trochu alkoholu, ten se ale při pečení odpaří.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Droždí",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-062",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který vnitřní orgán je v lidském těle největší?",
+    "options": [
+      "Plíce",
+      "Játra",
+      "Mozek",
+      "Slezina"
+    ],
+    "answer": "Játra",
+    "fact": "Játra umějí dorůst – i když chirurg odebere velkou část, zbytek se během několika měsíců zvětší skoro do původní velikosti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Játra",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-063",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje šlacha, která spojuje lýtkový sval s patní kostí?",
+    "options": [
+      "Herkulova",
+      "Odysseova",
+      "Achillova",
+      "Hektorova"
+    ],
+    "answer": "Achillova",
+    "fact": "Podle řecké báje ponořila matka malého Achilla do řeky Styx a držela ho za patu – jen ta mu zůstala zranitelná.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Achillova_šlacha",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-064",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Ve které části oka jsou tyčinky a čípky, buňky citlivé na světlo?",
+    "options": [
+      "V rohovce",
+      "V duhovce",
+      "V čočce",
+      "V sítnici"
+    ],
+    "answer": "V sítnici",
+    "fact": "Čípky rozlišují barvy, tyčinky pracují i za šera. Proto v noci vidíme spíš v odstínech šedi.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sítnice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-065",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik chromozomů má běžná buňka lidského těla?",
+    "options": [
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "answer": "46",
+    "fact": "Šimpanzi a gorily jich mají 48. Náš chromozom číslo 2 vznikl kdysi splynutím dvou menších.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Chromosome_2",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-066",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který orgán spotřebuje zhruba pětinu energie těla, přestože váží jen asi dvě procenta jeho hmotnosti?",
+    "options": [
+      "Srdce",
+      "Mozek",
+      "Ledviny",
+      "Játra"
+    ],
+    "answer": "Mozek",
+    "fact": "Mozek sám nemá receptory bolesti, proto se některé operace mozku dělají při vědomí pacienta.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Human_brain",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-067",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na které planetě trvá jedna otočka kolem osy déle než celý oběh kolem Slunce?",
+    "options": [
+      "Na Merkuru",
+      "Na Marsu",
+      "Na Venuši",
+      "Na Neptunu"
+    ],
+    "answer": "Na Venuši",
+    "fact": "Venuše se navíc točí opačně než většina planet, takže tam Slunce vychází na západě.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Venuše_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-068",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje obří sopka na Marsu, víc než dvakrát vyšší než Mount Everest?",
+    "options": [
+      "Mauna Kea",
+      "Tharsis Tholus",
+      "Maxwell Montes",
+      "Olympus Mons"
+    ],
+    "answer": "Olympus Mons",
+    "fact": "Je tak rozlehlá, že by ji člověk stojící na povrchu Marsu nepřehlédl celou – část by mu zakryl obzor planety.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Olympus_Mons",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-069",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která sonda se jako první dostala do mezihvězdného prostoru za hranici vlivu Slunce?",
+    "options": [
+      "Voyager 1",
+      "Galileo",
+      "Pioneer 10",
+      "New Horizons"
+    ],
+    "answer": "Voyager 1",
+    "fact": "Na palubě veze pozlacenou desku se zvuky a hudbou Země a s pozdravy v 55 jazycích.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Voyager_1",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-070",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenovala první umělá družice Země, vypuštěná v roce 1957?",
+    "options": [
+      "Vostok 1",
+      "Sputnik 1",
+      "Luna 1",
+      "Explorer 1"
+    ],
+    "answer": "Sputnik 1",
+    "fact": "Vysílala jen pravidelné pípání, které zachytili i radioamatéři po celém světě. Shořela v atmosféře po třech měsících.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sputnik_1",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-071",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenovala první československá družice, vypuštěná v roce 1978?",
+    "options": [
+      "Ondřejov",
+      "Mimosa",
+      "Magion",
+      "Vlasta"
+    ],
+    "answer": "Magion",
+    "fact": "Vyvinuli ji vědci Geofyzikálního ústavu ČSAV a do vesmíru odstartovala ze sovětského kosmodromu Pleseck.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Magion",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-072",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdo v roce 1610 objevil čtyři největší měsíce Jupiteru?",
+    "options": [
+      "Johannes Kepler",
+      "Mikuláš Koperník",
+      "Tycho Brahe",
+      "Galileo Galilei"
+    ],
+    "answer": "Galileo Galilei",
+    "fact": "Pojmenoval je Medicejské hvězdy na počest svých mecenášů. Dnes se jim říká Galileovy měsíce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Galileovy_měsíce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-073",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který astronom zformuloval během pobytu v Praze první dva zákony o pohybu planet?",
+    "options": [
+      "Johannes Kepler",
+      "Tycho Brahe",
+      "Galileo Galilei",
+      "Mikuláš Koperník"
+    ],
+    "answer": "Johannes Kepler",
+    "fact": "Vyšly v roce 1609 v knize Astronomia nova. Kepler v ní využil přesná pozorování Marsu, která po sobě zanechal Tycho Brahe.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Johannes_Kepler",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-074",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak mikrovlnná trouba ohřívá jídlo?",
+    "options": [
+      "Rozpálí vzduch v troubě",
+      "Rozkmitá molekuly vody v jídle",
+      "Pouští jídlem elektrický proud",
+      "Svítí na jídlo ultrafialovým světlem"
+    ],
+    "answer": "Rozkmitá molekuly vody v jídle",
+    "fact": "Objev přišel náhodou: Percy Spencer si v roce 1945 všiml, že mu u zapnutého radaru roztála čokoláda v kapse.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mikrovlnná_trouba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-075",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdo sestrojil obloukovou lampu, která v roce 1881 získala zlatou medaili na výstavě v Paříži?",
+    "options": [
+      "Josef Ressel",
+      "Emil Škoda",
+      "František Křižík",
+      "Viktor Kaplan"
+    ],
+    "answer": "František Křižík",
+    "fact": "Jeho lampa sama udržovala stálou vzdálenost uhlíků, takže svítila klidně a víc lamp mohlo svítit na jednom obvodu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/František_Křižík",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-076",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Podle kterého českého fyziologa se jmenují vlákna, která v srdci rozvádějí vzruch?",
+    "options": [
+      "Podle Jana Janského",
+      "Podle Jaroslava Heyrovského",
+      "Podle Gregora Mendela",
+      "Podle Jana Evangelisty Purkyně"
+    ],
+    "answer": "Podle Jana Evangelisty Purkyně",
+    "fact": "Purkyně už v roce 1823 rozdělil otisky prstů do devíti skupin – desítky let předtím, než je začala používat policie.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Jan_Evangelista_Purkyně",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-077",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Proti které nemoci pomáhají léky, které vyvinul český chemik Antonín Holý?",
+    "options": [
+      "Proti HIV",
+      "Proti tuberkulóze",
+      "Proti chřipce",
+      "Proti malárii"
+    ],
+    "answer": "Proti HIV",
+    "fact": "Jeho látky dnes užívají miliony lidí a licenční poplatky z nich přinesly ústavu Akademie věd miliardy korun.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Antonín_Holý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-078",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která rodačka z Prahy získala v roce 1947 jako první žena Nobelovu cenu za fyziologii a lékařství?",
+    "options": [
+      "Lise Meitnerová",
+      "Gerty Coriová",
+      "Marie Curie-Skłodowská",
+      "Berta von Suttnerová"
+    ],
+    "answer": "Gerty Coriová",
+    "fact": "Cenu sdílela s manželem Carlem, se kterým se seznámila při studiu medicíny na pražské německé univerzitě.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Gerty_Coriová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-079",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik chladicích věží má jaderná elektrárna Dukovany?",
+    "options": [
+      "Čtyři",
+      "Šest",
+      "Osm",
+      "Deset"
+    ],
+    "answer": "Osm",
+    "fact": "První blok Dukovan začal vyrábět elektřinu v roce 1985 a elektrárna dlouhodobě pokrývá asi pětinu spotřeby Česka.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jaderná_elektrárna_Dukovany",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-080",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který český chemik stál za vznikem umělého vlákna silon?",
+    "options": [
+      "Vladimír Prelog",
+      "Jaroslav Heyrovský",
+      "Antonín Holý",
+      "Otto Wichterle"
+    ],
+    "answer": "Otto Wichterle",
+    "fact": "Silon vznikl za války ve zlínské laboratoři firmy Baťa. Pokusy se dělaly jen v malém, aby se o nich nedozvěděli Němci.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Silon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-081",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Proč rozkrojené jablko na vzduchu zhnědne?",
+    "options": [
+      "Látky v něm reagují se vzduchem",
+      "Vysychá",
+      "Začíná plesnivět",
+      "Ztrácí cukr"
+    ],
+    "answer": "Látky v něm reagují se vzduchem",
+    "fact": "Zabrání tomu pár kapek citronové šťávy: kyselina a vitamin C reakci zpomalí.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Food_browning",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-082",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje reakce cukrů a bílkovin, díky které má pečený chléb nebo maso kůrku a vůni?",
+    "options": [
+      "Pasteurova",
+      "Maillardova",
+      "Lavoisierova",
+      "Daltonova"
+    ],
+    "answer": "Maillardova",
+    "fact": "Popsal ji francouzský lékař a chemik Louis Camille Maillard v roce 1912.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Maillardova_reakce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-083",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která kyselina je v žaludeční šťávě?",
+    "options": [
+      "Sírová",
+      "Octová",
+      "Chlorovodíková",
+      "Mléčná"
+    ],
+    "answer": "Chlorovodíková",
+    "fact": "Žaludek se před ní chrání vrstvou hlenu a jeho výstelka se obnovuje každých pár dní.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Žaludeční_šťáva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-084",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který prvek dává ohňostroji červenou barvu?",
+    "options": [
+      "Baryum",
+      "Sodík",
+      "Měď",
+      "Stroncium"
+    ],
+    "answer": "Stroncium",
+    "fact": "Zelenou barvu dává baryum, modrou měď a žlutou sodík.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Fireworks",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-085",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak podle nejrozšířenější teorie vznikly vltavíny?",
+    "options": [
+      "Při dopadu meteoritu",
+      "Zkameněním pryskyřice",
+      "Výbuchem sopky",
+      "Krystalizací v jeskyních"
+    ],
+    "answer": "Při dopadu meteoritu",
+    "fact": "Dopad vytvořil před miliony let kráter Ries v Bavorsku. Roztavená hornina dolétla až do jižních Čech a na Moravu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vltavín",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-086",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se odborně jmenuje nerost, kterému se říká český granát?",
+    "options": [
+      "Almandin",
+      "Pyrop",
+      "Jaspis",
+      "Rubín"
+    ],
+    "answer": "Pyrop",
+    "fact": "Název pochází z řeckého slova pro „ohnivý“, podle sytě rudé barvy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pyrop",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-087",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Proč je denní obloha modrá?",
+    "options": [
+      "Odráží barvu moří",
+      "Kyslík je modrý plyn",
+      "Vzduch rozptyluje modré světlo víc než červené",
+      "Modře svítí ozonová vrstva"
+    ],
+    "answer": "Vzduch rozptyluje modré světlo víc než červené",
+    "fact": "Při západu Slunce letí světlo atmosférou delší cestu, modrá se rozptýlí a zůstane červená a oranžová.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rayleighův_rozptyl",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-088",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak rychle se zhruba šíří zvuk ve vzduchu?",
+    "options": [
+      "34 m/s",
+      "340 m/s",
+      "3 400 m/s",
+      "34 000 m/s"
+    ],
+    "answer": "340 m/s",
+    "fact": "Podle toho se dá odhadnout vzdálenost bouřky: tři vteřiny mezi bleskem a hromem znamenají zhruba kilometr.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rychlost_zvuku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-089",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který antický učenec objevil zákon o nadlehčování těles ponořených v kapalině?",
+    "options": [
+      "Archimédés",
+      "Eukleidés",
+      "Aristotelés",
+      "Pythagoras"
+    ],
+    "answer": "Archimédés",
+    "fact": "Podle Vitruvia na to přišel ve vaně a radostí vyběhl na ulici s výkřikem „Heuréka!“ – našel jsem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Archimédův_zákon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-090",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "V jaké jednotce se měří elektrický odpor?",
+    "options": [
+      "Ve voltech",
+      "V ohmech",
+      "V ampérech",
+      "Ve wattech"
+    ],
+    "answer": "V ohmech",
+    "fact": "Jednotka nese jméno Georga Ohma, který v roce 1827 popsal vztah mezi proudem, napětím a odporem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ohm",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-091",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenují nejtenčí cévy v lidském těle?",
+    "options": [
+      "Tepny",
+      "Žíly",
+      "Vlásečnice",
+      "Mízovody"
+    ],
+    "answer": "Vlásečnice",
+    "fact": "Všechny cévy dospělého člověka by po spojení měřily kolem 100 000 km – víc než dvakrát kolem Země.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Vlásečnice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-092",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který orgán likviduje opotřebované červené krvinky a dá se bez něj žít?",
+    "options": [
+      "Slinivka břišní",
+      "Játra",
+      "Ledviny",
+      "Slezina"
+    ],
+    "answer": "Slezina",
+    "fact": "Slezina slouží i jako zásobárna krve. Po jejím odstranění převezmou část práce játra a kostní dřeň.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Slezina",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-093",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje barvivo, které dává barvu kůži a vlasům?",
+    "options": [
+      "Melanin",
+      "Chlorofyl",
+      "Hemoglobin",
+      "Keratin"
+    ],
+    "answer": "Melanin",
+    "fact": "Opálení je obrana těla: kůže na slunci vyrábí víc melaninu, aby se chránila před ultrafialovým zářením.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Melanin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-094",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Z jaké bílkoviny jsou hlavně vlasy a nehty?",
+    "options": [
+      "Kolagen",
+      "Keratin",
+      "Inzulin",
+      "Albumin"
+    ],
+    "answer": "Keratin",
+    "fact": "Stejná bílkovina tvoří i kopyta, rohy, drápy a peří zvířat.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Keratin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-095",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který prvek obsahuje hemoglobin v červených krvinkách?",
+    "options": [
+      "Měď",
+      "Vápník",
+      "Železo",
+      "Zinek"
+    ],
+    "answer": "Železo",
+    "fact": "Okysličená krev je jasně červená, odkysličená tmavě rudá. Modrá není nikdy – modře jen prosvítají žíly kůží.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hemoglobin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-096",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který vitamin je potřeba pro srážení krve?",
+    "options": [
+      "Vitamin C",
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin K"
+    ],
+    "answer": "Vitamin K",
+    "fact": "Písmeno K pochází z německého slova „Koagulation“. Vitamin objevil dánský biochemik Henrik Dam.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Vitamín_K",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-097",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která plíce je u člověka menší?",
+    "options": [
+      "Levá",
+      "Pravá",
+      "Obě jsou stejné",
+      "Záleží na pohlaví"
+    ],
+    "answer": "Levá",
+    "fact": "Levá plíce má jen dva laloky, pravá tři. Vlevo musí plíce uvolnit místo srdci.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Plíce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-098",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Za jak dlouho zhruba oběhne Zemi Mezinárodní vesmírná stanice?",
+    "options": [
+      "Za 12 hodin",
+      "Za 90 minut",
+      "Za 24 hodin",
+      "Za týden"
+    ],
+    "answer": "Za 90 minut",
+    "fact": "Posádka tak za jeden den uvidí zhruba 16 východů a 16 západů Slunce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mezinárodní_vesmírná_stanice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-099",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Podle kterého astronoma se jmenuje vesmírný dalekohled vypuštěný v roce 1990?",
+    "options": [
+      "Podle Keplera",
+      "Podle Herschela",
+      "Podle Hubbla",
+      "Podle Webba"
+    ],
+    "answer": "Podle Hubbla",
+    "fact": "Po startu se ukázalo, že má nepatrně špatně vybroušené zrcadlo. Ostré snímky začal posílat až po opravě astronauty v roce 1993.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hubbleův_vesmírný_dalekohled",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-100",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje kometa, která se ke Slunci vrací zhruba jednou za 76 let?",
+    "options": [
+      "Hale-Bopp",
+      "Shoemaker-Levy",
+      "Enckeho",
+      "Halleyova"
+    ],
+    "answer": "Halleyova",
+    "fact": "Naposledy byla vidět v roce 1986, příště se ke Slunci přiblíží v roce 2061.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Halleyova_kometa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-101",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje roj „padajících hvězd“, který vrcholí kolem 12. srpna?",
+    "options": [
+      "Perseidy",
+      "Geminidy",
+      "Kvadrantidy",
+      "Leonidy"
+    ],
+    "answer": "Perseidy",
+    "fact": "Jsou to zrnka prachu z komety Swift-Tuttle. Lidově se jim říká slzy svatého Vavřince.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Perseidy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-102",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která hvězda je na noční obloze nejjasnější?",
+    "options": [
+      "Polárka",
+      "Sírius",
+      "Vega",
+      "Betelgeuze"
+    ],
+    "answer": "Sírius",
+    "fact": "Polárka zdaleka nejjasnější není. Je užitečná jen tím, že stojí skoro přesně nad severním pólem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sírius",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-103",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Ve kterém souhvězdí leží Polárka?",
+    "options": [
+      "Ve Velké medvědici",
+      "V Kasiopeji",
+      "V Malé medvědici",
+      "V Orionu"
+    ],
+    "answer": "V Malé medvědici",
+    "fact": "Najdeme ji, když prodloužíme zadní stěnu Velkého vozu zhruba pětkrát.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Polárka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-104",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který kov vede elektrický proud nejlépe?",
+    "options": [
+      "Měď",
+      "Hliník",
+      "Zlato",
+      "Stříbro"
+    ],
+    "answer": "Stříbro",
+    "fact": "Na dráty se přesto používá měď – vede proud skoro stejně dobře a je mnohem levnější.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Stříbro",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-105",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik Zemí by se zhruba vešlo do Slunce?",
+    "answer": 1300000,
+    "unit": "Zemí",
+    "fact": "Přesto je Slunce jen průměrně velká hvězda, žlutý trpaslík. Tvoří ale přes 99 procent hmotnosti celé sluneční soustavy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Slunce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-106",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik stupňů Celsia je zhruba na povrchu Slunce?",
+    "answer": 5500,
+    "unit": "°C",
+    "fact": "Sluneční koróna nad povrchem má přes milion stupňů. Proč je tak horká, vědci dodnes úplně nevysvětlili.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Slunce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-107",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří průměr Měsíce?",
+    "answer": 3474,
+    "unit": "km",
+    "fact": "Měsíc je pátý největší měsíc ve sluneční soustavě. Větší jsou jen Ganymedes, Titan, Callisto a Io.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Měsíc",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-108",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "V jakém roce objevil Wilhelm Röntgen paprsky X?",
+    "answer": 1895,
+    "unit": "rok",
+    "fact": "Prvním lékařským snímkem byla ruka jeho ženy Anny Berthy i se snubním prstenem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rentgenové_záření",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-109",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Při kolika stupních Celsia taje čisté železo?",
+    "answer": 1538,
+    "unit": "°C",
+    "fact": "Litina se taví už kolem 1 200 °C, a proto se z ní tak dobře odlévají třeba pánve nebo kanálové poklopy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Železo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-110",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "V jakém roce provedl Christiaan Barnard první transplantaci lidského srdce?",
+    "answer": 1967,
+    "unit": "rok",
+    "fact": "Operace proběhla v Kapském Městě. Pacient Louis Washkansky žil s novým srdcem 18 dní.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-111",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik milionů kilometrů je průměrně od Země ke Slunci?",
+    "answer": 150,
+    "unit": "milionů km",
+    "fact": "Tahle vzdálenost se jmenuje astronomická jednotka a slouží jako měřítko celé sluneční soustavy.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Astronomická_jednotka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-112",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "V jakém roce se v Brně narodilo první československé dítě ze zkumavky?",
+    "answer": 1982,
+    "unit": "rok",
+    "fact": "Na světě se první dítě ze zkumavky, Louise Brownová, narodilo o čtyři roky dřív v Anglii.",
+    "difficulty": 3,
+    "source": "https://cnn.iprima.cz/prvni-ceske-dite-ze-zkumavky-slavi-43-let-dnes-sanci-na-oplodneni-zvysuje-ai-490695",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-113",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje bod na obloze přímo nad hlavou pozorovatele?",
+    "answer": "Zenit",
+    "accept": [
+      "nadhlavník",
+      "zenith"
+    ],
+    "fact": "Opačný bod pod nohama se jmenuje nadir. Oba názvy pocházejí z arabštiny.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zenit",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-114",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje největší měsíc Saturnu?",
+    "answer": "Titan",
+    "accept": [],
+    "fact": "Jako jediný měsíc sluneční soustavy má hustou atmosféru. V roce 2005 na něm přistála evropská sonda Huygens.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Titan_(měsíc)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-115",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje kost, která spojuje hrudní kost s lopatkou?",
+    "answer": "Klíční kost",
+    "accept": [
+      "klicni",
+      "klicni kost",
+      "klíček"
+    ],
+    "fact": "Patří k nejčastěji zlomeným kostem, typicky při pádu na nataženou ruku nebo na rameno.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Klíční_kost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-116",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje přístroj, kterým lékař poslouchá srdce a plíce?",
+    "answer": "Fonendoskop",
+    "accept": [
+      "stetoskop",
+      "fonendoskop",
+      "fonendo"
+    ],
+    "fact": "První vynalezl v roce 1816 Francouz René Laennec – nechtěl přikládat ucho přímo k hrudi mladé pacientky.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Fonendoskop",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-117",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje jednotka síly, pojmenovaná po anglickém fyzikovi?",
+    "answer": "Newton",
+    "accept": [
+      "newtony",
+      "N"
+    ],
+    "fact": "Jeden newton je zhruba síla, kterou tlačí na dlaň jablko o hmotnosti 100 gramů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Newton",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-118",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje přeměna, kdy látka přejde z pevného skupenství rovnou do plynného?",
+    "answer": "Sublimace",
+    "accept": [
+      "sublimace"
+    ],
+    "fact": "Takhle mizí suchý led a takhle uschne i prádlo pověšené venku v mrazu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sublimace",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-119",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje největší těleso v pásu planetek mezi Marsem a Jupiterem?",
+    "answer": "Ceres",
+    "accept": [
+      "Ceres"
+    ],
+    "fact": "Objevil ji v roce 1801 Giuseppe Piazzi a celé půlstoletí se počítala mezi planety.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Ceres_(trpasličí_planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-120",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Ve které jihočeské obci stojí jaderná elektrárna se čtyřmi chladicími věžemi?",
+    "answer": "Temelín",
+    "accept": [
+      "temelin"
+    ],
+    "fact": "Věže jsou vysoké skoro 155 metrů a stoupá z nich jen vodní pára, žádný kouř.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jaderná_elektrárna_Temelín",
+    "status": "verified"
   }
 ]

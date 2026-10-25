@@ -998,5 +998,1015 @@
     "difficulty": 2,
     "source": "https://cs.wikipedia.org/wiki/Eiffelova_věž",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-061",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které krajské město leží na Lužické Nise?",
+    "options": [
+      "Ústí nad Labem",
+      "Liberec",
+      "Hradec Králové",
+      "Karlovy Vary"
+    ],
+    "answer": "Liberec",
+    "fact": "Lužická Nisa dál tvoří hranici Polska a Německa a vlévá se do Odry.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Lužická_Nisa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-062",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které krajské město dostalo kvůli Gočárově architektuře přezdívku salon republiky?",
+    "options": [
+      "Hradec Králové",
+      "Olomouc",
+      "Zlín",
+      "Pardubice"
+    ],
+    "answer": "Hradec Králové",
+    "fact": "Josef Gočár navrhl v meziválečné době regulační plán města i řadu budov, třeba Tylovo gymnázium.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hradec_Králové",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-063",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které krajské město leží na soutoku Labe a Chrudimky?",
+    "options": [
+      "Hradec Králové",
+      "Pardubice",
+      "Kolín",
+      "Chrudim"
+    ],
+    "answer": "Pardubice",
+    "fact": "V pardubické továrně v Semtíně vznikla v 60. letech plastická trhavina, která dostala jméno semtex.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pardubice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-064",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí na skále Parthenón?",
+    "options": [
+      "V Římě",
+      "V Athénách",
+      "V Soluni",
+      "V Istanbulu"
+    ],
+    "answer": "V Athénách",
+    "fact": "Turci v něm skladovali střelný prach a v roce 1687 ho zasáhla benátská dělová koule. Výbuch zničil velkou část chrámu.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Parthenon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-065",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který zámek tvoří s Valticemi Lednicko-valtický areál zapsaný do UNESCO?",
+    "options": [
+      "Lednice",
+      "Mikulov",
+      "Kroměříž",
+      "Bučovice"
+    ],
+    "answer": "Lednice",
+    "fact": "V lednickém parku stojí romantický minaret vysoký přes 60 metrů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Lednický_minaret",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-066",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který hrad v Českém ráji má dvě věže zvané Panna a Baba?",
+    "options": [
+      "Kost",
+      "Trosky",
+      "Valdštejn",
+      "Bezděz"
+    ],
+    "answer": "Trosky",
+    "fact": "Vyšší Panna je nepřístupná, na nižší Babu vede od roku 2000 schodiště.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Trosky_(hrad)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-067",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který jihočeský zámek přestavěli Schwarzenbergové podle vzoru anglického Windsoru?",
+    "options": [
+      "Hluboká",
+      "Červená Lhota",
+      "Jindřichův Hradec",
+      "Orlík"
+    ],
+    "answer": "Hluboká",
+    "fact": "O zámek rod přišel v roce 1947 zvláštním zákonem, kterému se říká lex Schwarzenberg.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hluboká_nad_Vltavou_(zámek)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-068",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který moravský hrad podle tradice nikdo nikdy nedobyl, přestože ho v roce 1645 obléhali Švédové?",
+    "options": [
+      "Pernštejn",
+      "Bouzov",
+      "Veveří",
+      "Helfštýn"
+    ],
+    "answer": "Pernštejn",
+    "fact": "Erbem pánů z Pernštejna byla zubří hlava s kruhem v nose.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pernštejn_(hrad)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-069",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí Arcibiskupský zámek a Květná zahrada zapsané do UNESCO?",
+    "options": [
+      "V Olomouci",
+      "V Kroměříži",
+      "Ve Zlíně",
+      "V Holešově"
+    ],
+    "answer": "V Kroměříži",
+    "fact": "V zámku natáčel Miloš Forman scény svého filmu Amadeus.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Gardens_and_Castle_at_Kroměříž",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-070",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který kraj je rozlohou největší v Česku?",
+    "options": [
+      "Jihočeský",
+      "Středočeský",
+      "Vysočina",
+      "Plzeňský"
+    ],
+    "answer": "Středočeský",
+    "fact": "Jeho krajský úřad přesto leží mimo území kraje – sídlí v Praze.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Středočeský_kraj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-071",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka tvoří u Hodonína hranici se Slovenskem?",
+    "options": [
+      "Dyje",
+      "Morava",
+      "Bečva",
+      "Olše"
+    ],
+    "answer": "Morava",
+    "fact": "Na soutoku Moravy a Dyje se stýkají hranice Česka, Slovenska a Rakouska a leží tam nejnižší bod Moravy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Morava_(řeka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-072",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na které hoře se stýkají povodí Severního, Baltského a Černého moře?",
+    "options": [
+      "Na Sněžce",
+      "Na Klepém",
+      "Na Pradědu",
+      "Na Lysé hoře"
+    ],
+    "answer": "Na Klepém",
+    "fact": "Hora leží v Králickém Sněžníku a říká se jí střecha Evropy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Klepý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-074",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který hřebčín je zapsaný do UNESCO?",
+    "options": [
+      "Kladruby nad Labem",
+      "Písek",
+      "Tlumačov",
+      "Slatiňany"
+    ],
+    "answer": "Kladruby nad Labem",
+    "fact": "Starokladrubští koně tahali ceremoniální kočáry rakouského císařského dvora.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Národní_hřebčín_Kladruby_nad_Labem",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-075",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které z těchto lázeňských měst je od roku 2021 na seznamu UNESCO?",
+    "options": [
+      "Luhačovice",
+      "Teplice",
+      "Františkovy Lázně",
+      "Poděbrady"
+    ],
+    "answer": "Františkovy Lázně",
+    "fact": "Spolu s Karlovými Vary a Mariánskými Lázněmi patří do památky Slavná lázeňská města Evropy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Slavná_lázeňská_města_Evropy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-076",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Brazílie?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "answer": "Brasília",
+    "fact": "Město vyrostlo na zelené louce uprostřed savany a hlavním se stalo v roce 1960. Jeho půdorys připomíná letadlo.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Brasília",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-077",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Nového Zélandu?",
+    "options": [
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Dunedin"
+    ],
+    "answer": "Wellington",
+    "fact": "Je nejjižněji položeným hlavním městem nezávislého státu na světě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Wellington",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-078",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Maroka?",
+    "options": [
+      "Casablanca",
+      "Marrákeš",
+      "Fès",
+      "Rabat"
+    ],
+    "answer": "Rabat",
+    "fact": "Největším marockým městem je Casablanca, kterou proslavil stejnojmenný film.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rabat",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-079",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě sídlí švýcarská vláda a parlament?",
+    "options": [
+      "V Curychu",
+      "V Ženevě",
+      "V Bernu",
+      "V Basileji"
+    ],
+    "answer": "V Bernu",
+    "fact": "Švýcarská ústava žádné hlavní město neuvádí. Bern je oficiálně jen „spolkové město“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bern",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-080",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které hlavní město má nejnižší průměrnou roční teplotu na světě?",
+    "options": [
+      "Ulánbátar",
+      "Moskva",
+      "Reykjavík",
+      "Ottawa"
+    ],
+    "answer": "Ulánbátar",
+    "fact": "Průměrná roční teplota je tu jen kolem 0 °C a v lednu mrzne i pod −30 °C.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-081",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Vietnamu?",
+    "options": [
+      "Ho Či Minovo Město",
+      "Hanoj",
+      "Hue",
+      "Da Nang"
+    ],
+    "answer": "Hanoj",
+    "fact": "Jméno znamená „město uvnitř řek“ – leží v ohybu Rudé řeky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hanoj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-082",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Nigérie?",
+    "options": [
+      "Lagos",
+      "Abuja",
+      "Kano",
+      "Ibadan"
+    ],
+    "answer": "Abuja",
+    "fact": "Hlavním městem je od roku 1991. Dřív jím byl Lagos, který je dodnes největším městem země.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Abuja",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-083",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Myanmaru (Barmy)?",
+    "options": [
+      "Rangún",
+      "Mandalaj",
+      "Neipyijto",
+      "Bago"
+    ],
+    "answer": "Neipyijto",
+    "fact": "Vláda se sem přestěhovala z Rangúnu v roce 2005. Město má až dvacetiproudé silnice, které bývají skoro prázdné.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Neipyijto",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-084",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Římem?",
+    "options": [
+      "Arno",
+      "Pád",
+      "Tibera",
+      "Adiže"
+    ],
+    "answer": "Tibera",
+    "fact": "Podle pověsti vyplavila na svém břehu dvojčata Romula a Rema, která pak našla vlčice.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tibera",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-085",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Londýnem?",
+    "options": [
+      "Temže",
+      "Severn",
+      "Trent",
+      "Avon"
+    ],
+    "answer": "Temže",
+    "fact": "V roce 1858 páchla tak, že tomu Londýňané říkali Velký smrad, a parlament pak schválil stavbu moderní kanalizace.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Temže",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-086",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Varšavou?",
+    "options": [
+      "Odra",
+      "Visla",
+      "Warta",
+      "Bug"
+    ],
+    "answer": "Visla",
+    "fact": "Je nejdelší polskou řekou a u Gdaňska se vlévá do Baltského moře.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Visla",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-087",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka obtéká skálu Loreley?",
+    "options": [
+      "Dunaj",
+      "Mohan",
+      "Rýn",
+      "Mosela"
+    ],
+    "answer": "Rýn",
+    "fact": "Podle pověsti víla Lorelei na skále česala vlasy a zpěvem lákala lodníky na útesy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Loreley",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-088",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Do kterého moře se vlévá Dunaj?",
+    "options": [
+      "Do Černého",
+      "Do Jaderského",
+      "Do Egejského",
+      "Do Baltského"
+    ],
+    "answer": "Do Černého",
+    "fact": "Protéká deseti státy, víc než kterákoli jiná řeka na světě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Dunaj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-089",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Lisabonem?",
+    "options": [
+      "Douro",
+      "Tejo",
+      "Guadiana",
+      "Ebro"
+    ],
+    "answer": "Tejo",
+    "fact": "Je nejdelší řekou Pyrenejského poloostrova a pramení ve Španělsku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Tajo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-090",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Afriky?",
+    "options": [
+      "Keňa",
+      "Kilimandžáro",
+      "Rwenzori",
+      "Kamerun"
+    ],
+    "answer": "Kilimandžáro",
+    "fact": "Přestože leží jen asi 300 kilometrů od rovníku, na vrcholu jsou ledovce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kilimandžáro",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-091",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém pohoří leží Matterhorn?",
+    "options": [
+      "V Pyrenejích",
+      "V Alpách",
+      "Ve Vysokých Tatrách",
+      "V Dolomitech"
+    ],
+    "answer": "V Alpách",
+    "fact": "Jeho jehlanovitý tvar byl desítky let na obalu známé švýcarské čokolády.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Matterhorn",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-092",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Polska?",
+    "options": [
+      "Sněžka",
+      "Babia hora",
+      "Rysy",
+      "Kasprův vrch"
+    ],
+    "answer": "Rysy",
+    "fact": "Hranice vede přes vrchol a nejvyšší bod hory leží na slovenské straně.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Rysy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-093",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora české části Šumavy?",
+    "options": [
+      "Boubín",
+      "Plechý",
+      "Velký Javor",
+      "Poledník"
+    ],
+    "answer": "Plechý",
+    "fact": "Je i nejvyšší horou Jihočeského kraje. Pod vrcholem leží ledovcové Plešné jezero.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Plechý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-094",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Krušných hor?",
+    "options": [
+      "Klínovec",
+      "Fichtelberg",
+      "Bouřňák",
+      "Loučná"
+    ],
+    "answer": "Klínovec",
+    "fact": "Je o 30 metrů vyšší než německý Fichtelberg, který se tyčí hned naproti.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Klínovec",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-095",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi leží posvátná skála Uluru?",
+    "options": [
+      "V Austrálii",
+      "Na Novém Zélandu",
+      "V Namibii",
+      "V USA"
+    ],
+    "answer": "V Austrálii",
+    "fact": "Pro Aboridžince je skála posvátná a od roku 2019 je výstup na ni zakázaný.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Uluru",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-096",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi leží skalní město Petra?",
+    "options": [
+      "V Egyptě",
+      "V Jordánsku",
+      "V Sýrii",
+      "V Libanonu"
+    ],
+    "answer": "V Jordánsku",
+    "fact": "Nabatejci celé město vytesali do růžového pískovce před více než dvěma tisíci lety.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Petra",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-097",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém indickém městě stojí Tádž Mahal?",
+    "options": [
+      "V Dillí",
+      "V Bombaji",
+      "V Ágře",
+      "V Džajpuru"
+    ],
+    "answer": "V Ágře",
+    "fact": "Je to hrobka, kterou dal mughalský panovník Šáhdžahán postavit pro svou zesnulou manželku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tádž_Mahal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-098",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi leží Transylvánie?",
+    "options": [
+      "V Maďarsku",
+      "V Rumunsku",
+      "V Bulharsku",
+      "V Srbsku"
+    ],
+    "answer": "V Rumunsku",
+    "fact": "Česky se jí říká Sedmihradsko podle sedmi významných historických měst, mezi které patří Brašov, Sibiu a Sighișoara.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sedmihradsko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-099",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Islandu?",
+    "options": [
+      "Akureyri",
+      "Reykjavík",
+      "Tórshavn",
+      "Nuuk"
+    ],
+    "answer": "Reykjavík",
+    "fact": "Je nejsevernějším hlavním městem nezávislého státu. Jméno znamená „kouřící zátoka“ podle par z horkých pramenů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Reykjavík",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-100",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který gotický hrad v Českém ráji stojí na pískovcové skále nad údolím Plakánek?",
+    "options": [
+      "Kost",
+      "Trosky",
+      "Valečov",
+      "Hrubá Skála"
+    ],
+    "answer": "Kost",
+    "fact": "Hrad založili ve 14. století páni z Vartenberka a dodnes se zachoval téměř v původní gotické podobě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kost_(hrad)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-101",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které krajské město se v letech 1949 až 1989 jmenovalo Gottwaldov?",
+    "options": [
+      "Ostrava",
+      "Zlín",
+      "Olomouc",
+      "Jihlava"
+    ],
+    "answer": "Zlín",
+    "fact": "Z malého městečka ho ve 20. a 30. letech přestavěla firma Baťa na moderní město s domky z červených cihel.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zlín",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-102",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Do které řeky se v Karlových Varech vlévá Teplá?",
+    "options": [
+      "Do Ohře",
+      "Do Berounky",
+      "Do Labe",
+      "Do Mže"
+    ],
+    "answer": "Do Ohře",
+    "fact": "Ohře pramení v Německu ve Smrčinách a v Litoměřicích se vlévá do Labe.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ohře",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-103",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které jezero je největší ve střední Evropě?",
+    "options": [
+      "Neziderské",
+      "Bodamské",
+      "Balaton",
+      "Ženevské"
+    ],
+    "answer": "Balaton",
+    "fact": "Maďaři mu říkají maďarské moře, přestože je v průměru hluboké jen asi tři metry.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Balaton",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-104",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která země je rozlohou největší v Africe?",
+    "options": [
+      "Súdán",
+      "Kongo",
+      "Alžírsko",
+      "Libye"
+    ],
+    "answer": "Alžírsko",
+    "fact": "Prvenství získalo v roce 2011, kdy se od Súdánu oddělil Jižní Súdán.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Alžírsko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-105",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který průliv odděluje Asii od Ameriky?",
+    "options": [
+      "Beringův",
+      "Magalhãesův",
+      "Hormuzský",
+      "Davisův"
+    ],
+    "answer": "Beringův",
+    "fact": "Leží v něm dva Diomedovy ostrovy, ruský a americký, vzdálené od sebe jen asi 4 kilometry.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Beringův_průliv",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-106",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "S kolika státy sousedí Německo?",
+    "answer": 9,
+    "unit": "státy",
+    "fact": "Jsou to Dánsko, Polsko, Česko, Rakousko, Švýcarsko, Francie, Lucembursko, Belgie a Nizozemsko.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Německo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-107",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik metrů nad mořem měří Ještěd?",
+    "answer": 1012,
+    "unit": "m",
+    "fact": "Na vrchol jezdí od roku 1933 kabinová lanovka z Horního Hanychova.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ještěd",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-108",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik metrů nad mořem měří Mount Everest podle společného čínsko-nepálského měření z roku 2020?",
+    "answer": 8849,
+    "unit": "m",
+    "fact": "Tibeťané mu říkají Čomolungma a Nepálci Sagarmatha.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mount_Everest",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-109",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří Dunaj?",
+    "answer": 2850,
+    "unit": "km",
+    "fact": "Kilometry se na Dunaji počítají pozpátku – od ústí v Černém moři proti proudu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dunaj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-110",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik metrů nad mořem měří Praděd?",
+    "answer": 1491,
+    "unit": "m",
+    "fact": "Samotný vrchol leží ve Slezsku. Nejvyšší bod Moravy je zhruba 50 metrů od něj.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Praděd",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-111",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří státní hranice Česka?",
+    "answer": 2327,
+    "unit": "km",
+    "fact": "Nejdelší společnou hranici máme s Německem, skoro 820 kilometrů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Státní_hranice_Česka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-112",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "V jakém roce otevřeli Suezský průplav?",
+    "answer": 1869,
+    "unit": "rok",
+    "fact": "Do té doby lodě z Evropy do Asie obeplouvaly celou Afriku kolem mysu Dobré naděje.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Suezský_průplav",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-113",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik kilometrů čtverečních měří rozloha Česka?",
+    "answer": 78871,
+    "unit": "km²",
+    "fact": "Rakousko je asi o 5 000 km² větší, Slovensko má asi 49 000 km².",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Česko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-114",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje hlavní město Norska?",
+    "answer": "Oslo",
+    "fact": "Nobelova cena míru se předává v Oslu, ostatní Nobelovy ceny ve Stockholmu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Oslo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-115",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje hlavní město Finska?",
+    "answer": "Helsinki",
+    "accept": [
+      "helsinky"
+    ],
+    "fact": "Úřední jsou dvě jména – finské Helsinki a švédské Helsingfors.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Helsinky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-116",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje nejvyšší hora Slovinska, kterou má země i ve státním znaku?",
+    "answer": "Triglav",
+    "fact": "Podle slovinského rčení by měl každý správný Slovinec aspoň jednou v životě vystoupit na vrchol.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Triglav",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-117",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Na které řece leží Olomouc?",
+    "answer": "Morava",
+    "accept": [
+      "řeka morava"
+    ],
+    "fact": "Olomouc byla hlavním městem Moravy až do roku 1641, kdy se stavovské úřady přestěhovaly do Brna.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Olomouc",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-118",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje největší ostrov Středozemního moře?",
+    "answer": "Sicílie",
+    "fact": "Je na ní Etna, nejvyšší činná sopka Evropy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sicílie",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-119",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje hlavní město Argentiny?",
+    "answer": "Buenos Aires",
+    "accept": [
+      "buenos aires"
+    ],
+    "fact": "Jméno znamená ve španělštině „dobré větry“. Pochází od Panny Marie Dobrého větru, kterou uctívali španělští námořníci.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Buenos_Aires",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-120",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Ve kterém skalním městě stojí skály Starosta a Starostová nebo Milenci?",
+    "answer": "Adršpach",
+    "accept": [
+      "adršpašské skály",
+      "adršpašsko-teplické skály",
+      "adrspach"
+    ],
+    "fact": "Pískovec, z něhož jsou skály, se usazoval na dně moře v době křídové.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Adršpašsko-teplické_skály",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-121",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje nejdelší jeskynní systém v Česku, v Moravském krasu?",
+    "answer": "Amatérská jeskyně",
+    "accept": [
+      "amatérská",
+      "amaterska jeskyne"
+    ],
+    "fact": "Jméno dostala podle jeskyňářů-amatérů, kteří ji objevili v roce 1969.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Amatérská_jeskyně",
+    "status": "verified"
   }
 ]

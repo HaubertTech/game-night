@@ -989,5 +989,1042 @@
     "difficulty": 1,
     "source": "https://cs.wikipedia.org/wiki/Kapybara",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-061",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš hřib po rozlomení okamžitě tmavě modrá?",
+    "options": [
+      "Hřib smrkový",
+      "Hřib kovář",
+      "Hřib dubový",
+      "Hřib borový"
+    ],
+    "answer": "Hřib kovář",
+    "fact": "Barvu mění oxidace látek v dužnině na vzduchu. Modrání neznamená jedovatost – kovář je po tepelné úpravě dobře jedlý.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hřib_kovář",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-062",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Podhoubí které houby v Oregonu zabírá kolem 9 km² a patří k největším organismům na Zemi?",
+    "options": [
+      "Hřibu",
+      "Lišky",
+      "Václavky",
+      "Muchomůrky"
+    ],
+    "answer": "Václavky",
+    "fact": "Celé podhoubí je jediný jedinec, jehož stáří vědci odhadují na více než dva tisíce let.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Armillaria_ostoyae",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-063",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co mají hřiby na spodní straně klobouku místo lupenů?",
+    "options": [
+      "Lišty",
+      "Ostny",
+      "Rourky",
+      "Záhyby"
+    ],
+    "answer": "Rourky",
+    "fact": "V rourkách dozrávají výtrusy. Lišky mají místo nich tupé lišty a lošáky ostny.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hřib",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-064",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Pod kterým stromem roste klouzek sličný?",
+    "options": [
+      "Pod smrkem",
+      "Pod bukem",
+      "Pod břízou",
+      "Pod modřínem"
+    ],
+    "answer": "Pod modřínem",
+    "fact": "Podhoubí obaluje kořeny stromu a vyměňuje si s ním živiny. Bez modřínu tahle houba neroste.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Klouzek_sličný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-065",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která houba po dozrání vypustí oblak výtrusů, když na ni šlápnete?",
+    "options": [
+      "Pýchavka",
+      "Hlíva",
+      "Václavka",
+      "Holubinka"
+    ],
+    "answer": "Pýchavka",
+    "fact": "Příbuzný vatovec obrovský může ve své plodnici ukrývat i několik bilionů výtrusů.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Calvatia_gigantea",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-066",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která jedlá houba umí svými vlákny lovit a trávit drobné červy háďátka?",
+    "options": [
+      "Žampion",
+      "Hlíva ústřičná",
+      "Liška obecná",
+      "Bedla vysoká"
+    ],
+    "answer": "Hlíva ústřičná",
+    "fact": "Dřevo, na kterém roste, je chudé na dusík, a ten si hlíva doplňuje z ulovených háďátek.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-067",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která zvířata se tradičně používala k hledání lanýžů?",
+    "options": [
+      "Kozy",
+      "Prasata",
+      "Kočky",
+      "Fretky"
+    ],
+    "answer": "Prasata",
+    "fact": "Dnes se k hledání víc používají psi: na rozdíl od prasat nemají chuť nalezený lanýž sníst.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Truffle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-068",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták je největším pěvcem na světě?",
+    "options": [
+      "Havran polní",
+      "Krkavec velký",
+      "Straka obecná",
+      "Sojka obecná"
+    ],
+    "answer": "Krkavec velký",
+    "fact": "Patří k nejchytřejším ptákům: řeší úlohy na několik kroků a umí napodobit i lidskou řeč.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Krkavec_velký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-069",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje náš největší kurovitý pták, dnes kriticky ohrožený?",
+    "options": [
+      "Tetřev hlušec",
+      "Bažant obecný",
+      "Koroptev polní",
+      "Jeřábek lesní"
+    ],
+    "answer": "Tetřev hlušec",
+    "fact": "Jméno má podle toho, že během tokání na pár vteřin skoro ohluchne – nejspíš kvůli silnému stažení svalů středního ucha.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tetřev_hlušec",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-070",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který chocholatý pták k nám přilétá v zimě ze severu, hlavně v letech, kdy tam chybí plody jeřábu?",
+    "options": [
+      "Brkoslav severní",
+      "Dlask tlustozobý",
+      "Hýl obecný",
+      "Čečetka zimní"
+    ],
+    "answer": "Brkoslav severní",
+    "fact": "V zimě 2004–2005 jich jen v Německu napočítali přes půl milionu.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Bohemian_waxwing",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-071",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták táhne každý rok z Arktidy až k Antarktidě a zpět?",
+    "options": [
+      "Čáp bílý",
+      "Rybák dlouhoocasý",
+      "Vlaštovka obecná",
+      "Albatros stěhovavý"
+    ],
+    "answer": "Rybák dlouhoocasý",
+    "fact": "Za třicet let života nalétá kolem 2,4 milionu kilometrů – víc než třikrát cestu na Měsíc a zpět.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Arctic_tern",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-072",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták dokáže strávit ve vzduchu až deset měsíců bez přistání?",
+    "options": [
+      "Sokol stěhovavý",
+      "Vlaštovka obecná",
+      "Rorýs obecný",
+      "Čáp černý"
+    ],
+    "answer": "Rorýs obecný",
+    "fact": "Ve vzduchu jí, pije i spí. Na zem dobrovolně nesedá, protože by se z ní těžko odrážel.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Common_swift",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-073",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš pták si nabodává ulovený hmyz a myši na trny?",
+    "options": [
+      "Ťuhýk obecný",
+      "Strnad obecný",
+      "Pěnkava obecná",
+      "Rehek domácí"
+    ],
+    "answer": "Ťuhýk obecný",
+    "fact": "Nemá silné pařáty jako dravci, a tak kořist trnem přidrží. Zároveň si tak dělá zásoby na horší dny.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ťuhýk_obecný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-074",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš pták umí šplhat po kmeni i hlavou dolů?",
+    "options": [
+      "Strakapoud velký",
+      "Šoupálek dlouhoprstý",
+      "Sýkora koňadra",
+      "Brhlík lesní"
+    ],
+    "answer": "Brhlík lesní",
+    "fact": "Když je vletový otvor dutiny moc velký, zazdí ho hlínou smíchanou se slinami, aby se dovnitř nedostal větší pták.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Brhlík_lesní",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-075",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který oceán je největší?",
+    "options": [
+      "Atlantský",
+      "Indický",
+      "Tichý",
+      "Severní ledový"
+    ],
+    "answer": "Tichý",
+    "fact": "Je větší než veškerá souš na Zemi dohromady. Tichým ho pojmenoval Magalhães, když jím proplul za klidného počasí.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tichý_oceán",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-076",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který živočich má největší oči v celé živočišné říši?",
+    "options": [
+      "Plejtvák obrovský",
+      "Kalmar Hamiltonův",
+      "Pštros dvouprstý",
+      "Žralok velrybí"
+    ],
+    "answer": "Kalmar Hamiltonův",
+    "fact": "Oko měří 27 až 30 centimetrů, je velké asi jako talíř a pomáhá mu v temnotě hlubin.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Colossal_squid",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-077",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo staví korálové útesy?",
+    "options": [
+      "Mořské houby",
+      "Korálnatci",
+      "Řasy chaluhy",
+      "Mlži"
+    ],
+    "answer": "Korálnatci",
+    "fact": "Drobné polypy si z vápníku z mořské vody budují schránky; útes jsou miliony těchto schránek nad sebou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Korálnatci",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-078",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která ryba je největší na světě?",
+    "options": [
+      "Žralok bílý",
+      "Měsíčník svítivý",
+      "Žralok velrybí",
+      "Vyza velká"
+    ],
+    "answer": "Žralok velrybí",
+    "fact": "Přestože dorůstá přes 12 metrů, živí se planktonem a pro člověka je neškodný.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Whale_shark",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-079",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který mořský živočich se umí z dospělosti vrátit do stadia mládí, a proto se mu říká nesmrtelný?",
+    "options": [
+      "Mořská hvězdice",
+      "Sasanka",
+      "Medúza Turritopsis",
+      "Ježovka"
+    ],
+    "answer": "Medúza Turritopsis",
+    "fact": "Měří jen asi půl centimetru. Při stresu se promění zpět v přisedlý polyp a začne život znovu.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-080",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik ramen mívá nejčastěji mořská hvězdice?",
+    "options": [
+      "Tři",
+      "Čtyři",
+      "Pět",
+      "Osm"
+    ],
+    "answer": "Pět",
+    "fact": "Ztracené rameno jí doroste a u některých druhů vyroste z utrženého ramene celá nová hvězdice.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hvězdice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-081",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Ze dřeva kterého stromu se vyrábějí vrchní desky houslí?",
+    "options": [
+      "Ze smrku",
+      "Z dubu",
+      "Z buku",
+      "Z lípy"
+    ],
+    "answer": "Ze smrku",
+    "fact": "Hledají se smrky z horských poloh, které rostou pomalu a mají husté a pravidelné letokruhy.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Tonewood",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-082",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Plodům kterého stromu říkají děti nosánky?",
+    "options": [
+      "Jasanu",
+      "Javoru",
+      "Habru",
+      "Lípy"
+    ],
+    "answer": "Javoru",
+    "fact": "Dvojnažky se při pádu roztočí jako vrtule, a vítr je tak odnese dál od mateřského stromu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Javor",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-083",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš strom má bílou kůru, která se odlupuje jako papír?",
+    "options": [
+      "Bříza",
+      "Buk",
+      "Olše",
+      "Topol"
+    ],
+    "answer": "Bříza",
+    "fact": "Bílou barvu jí dává látka betulin. Z březové kůry si lidé už v pravěku vyráběli dehet, který jim sloužil jako lepidlo.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bříza",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-084",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Z kterého stromu se získává korek?",
+    "options": [
+      "Z buku lesního",
+      "Z dubu korkového",
+      "Z platanu",
+      "Z borovice"
+    ],
+    "answer": "Z dubu korkového",
+    "fact": "Kůra se loupe zhruba jednou za devět let a strom to přežije. Nejvíc korku dává Portugalsko.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Quercus_suber",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-085",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který strom přezdívaný živoucí fosilie přežil i atomový výbuch v Hirošimě?",
+    "options": [
+      "Tis červený",
+      "Sekvoj",
+      "Jinan dvoulaločný",
+      "Cedr libanonský"
+    ],
+    "answer": "Jinan dvoulaločný",
+    "fact": "Jinany velmi podobné dnešnímu rostly už v době dinosaurů před 170 miliony let.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Ginkgo_biloba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-086",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje brouk, jehož samičky v létě v noci svítí v trávě?",
+    "options": [
+      "Svatojánek",
+      "Slunéčko",
+      "Chroust",
+      "Tesařík"
+    ],
+    "answer": "Svatojánek",
+    "fact": "Světlo vzniká chemickou reakcí látky luciferinu a skoro nehřeje, proto se mu říká studené světlo.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Světluškovití",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-087",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik očí má včela medonosná?",
+    "options": [
+      "Dvě",
+      "Čtyři",
+      "Pět",
+      "Osm"
+    ],
+    "answer": "Pět",
+    "fact": "Dvě velké složené oči vidí i ultrafialové světlo, tři malá očka na temeni vnímají jeho intenzitu.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Včela_medonosná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-088",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který motýl každý podzim táhne z Kanady a USA až do hor v Mexiku?",
+    "options": [
+      "Babočka admirál",
+      "Monarcha stěhovavý",
+      "Otakárek fenyklový",
+      "Bělásek zelný"
+    ],
+    "answer": "Monarcha stěhovavý",
+    "fact": "Žádný motýl cestu neudělá celou – na sever se vrací až jeho potomci po několika generacích.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-089",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Larva kterého hmyzu se na lukách schovává v pěně, jíž se lidově říká kukaččí sliny?",
+    "options": [
+      "Kobylky",
+      "Pěnodějky",
+      "Mšice",
+      "Cvrčka"
+    ],
+    "answer": "Pěnodějky",
+    "fact": "Dospělá pěnodějka je skokan: vyskočí až 70 cm, což je vzhledem k její váze víc, než dokáže blecha.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Spittlebug",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-090",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které australské zvíře má vak otevřený dozadu, aby mu při hrabání nepadala do vaku hlína?",
+    "options": [
+      "Klokan",
+      "Koala",
+      "Vombat",
+      "Vakoveverka"
+    ],
+    "answer": "Vombat",
+    "fact": "Vombati mají trus ve tvaru kostiček. Vědci, kteří vysvětlili, jak vzniká, dostali v roce 2019 Ig Nobelovu cenu.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Wombat",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-091",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš savec prospí zimu nejdéle, až sedm měsíců?",
+    "options": [
+      "Ježek",
+      "Jezevec",
+      "Plch velký",
+      "Medvěd"
+    ],
+    "answer": "Plch velký",
+    "fact": "Staří Římané plchy chovali v hliněných nádobách zvaných glirarium a vykrmovali je jako pochoutku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Plch_velký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-092",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co jsou v myslivecké mluvě „světla“?",
+    "options": [
+      "Oči",
+      "Uši",
+      "Nohy",
+      "Zuby"
+    ],
+    "answer": "Oči",
+    "fact": "Myslivci mají vlastní slova i pro další části těla: nos spárkaté zvěře je větrník a tlama je morda.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Myslivecká_mluva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-093",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co jsou v myslivecké mluvě „slechy“?",
+    "options": [
+      "Oči",
+      "Uši",
+      "Nohy",
+      "Zuby"
+    ],
+    "answer": "Uši",
+    "fact": "Myslivecká mluva má vlastní slova i pro další věci: nohy zvěře jsou běhy a krev se nazývá barva.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Myslivecká_mluva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-094",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která rostlina má největší jednotlivý květ na světě?",
+    "options": [
+      "Raflesie Arnoldova",
+      "Viktorie královská",
+      "Lotos indický",
+      "Slunečnice"
+    ],
+    "answer": "Raflesie Arnoldova",
+    "fact": "Květ páchne jako zdechlina, aby přilákal mouchy, které ho opylují. Rostlina nemá listy ani stonek.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Rafflesia_arnoldii",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-095",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která rostlina dokáže za jediný den vyrůst až o 90 centimetrů?",
+    "options": [
+      "Bambus",
+      "Kukuřice",
+      "Chmel",
+      "Kopřiva"
+    ],
+    "answer": "Bambus",
+    "fact": "Ačkoli vypadá jako strom, patří bambus mezi trávy, stejně jako obilí.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Bamboo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-096",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Šťávu které jedovaté rostliny si ženy kapaly do očí, aby měly velké zornice?",
+    "options": [
+      "Blínu černého",
+      "Durmanu",
+      "Rulíku zlomocného",
+      "Náprstníku"
+    ],
+    "answer": "Rulíku zlomocného",
+    "fact": "Proto dostal rulík latinské jméno belladonna – italsky „krásná paní“.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Atropa_belladonna",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-097",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Šťáva které invazní rostliny způsobuje na slunci těžké popáleniny kůže?",
+    "options": [
+      "Netýkavky žláznaté",
+      "Bolševníku velkolepého",
+      "Křídlatky",
+      "Zlatobýlu"
+    ],
+    "answer": "Bolševníku velkolepého",
+    "fact": "Do Evropy ho v 19. století přivezli z Kavkazu do zámeckých parků jako okrasnou rostlinu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bolševník_velkolepý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-098",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "List které vodní rostliny unese i malé dítě?",
+    "options": [
+      "Leknínu bílého",
+      "Stulíku žlutého",
+      "Viktorie královské",
+      "Lotosu indického"
+    ],
+    "answer": "Viktorie královské",
+    "fact": "Listy mají průměr až 3 metry. Jejich žebrování inspirovalo stavbu Křišťálového paláce v Londýně.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Victoria_amazonica",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-099",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták snáší vejce, které váží až pětinu hmotnosti samice?",
+    "options": [
+      "Pštros",
+      "Kivi",
+      "Emu",
+      "Tučňák císařský"
+    ],
+    "answer": "Kivi",
+    "fact": "Kvůli takto velkému vejci nemá samice v posledních dnech před snesením skoro kam jíst.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Kiwi_(bird)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-100",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který tučňák je největší?",
+    "options": [
+      "Tučňák patagonský",
+      "Tučňák císařský",
+      "Tučňák kroužkový",
+      "Tučňák Humboldtův"
+    ],
+    "answer": "Tučňák císařský",
+    "fact": "Samec zahřívá vejce na nohou přes dva měsíce antarktické zimy a celou tu dobu nejí.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Emperor_penguin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-102",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který had je v Česku nejdelší?",
+    "options": [
+      "Užovka obojková",
+      "Užovka stromová",
+      "Zmije obecná",
+      "Užovka hladká"
+    ],
+    "answer": "Užovka stromová",
+    "fact": "Největší u nás změřená měla 196 cm. Žije jen v teplých místech – v Podyjí a v údolí Ohře na Karlovarsku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Užovka_stromová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-103",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která naše žába šplhá díky přísavkám na prstech po keřích a stromech?",
+    "options": [
+      "Ropucha obecná",
+      "Skokan zelený",
+      "Rosnička zelená",
+      "Kuňka obecná"
+    ],
+    "answer": "Rosnička zelená",
+    "fact": "Podle lidové víry předpovídá počasí, a tak ji lidé chovali ve sklenici se žebříčkem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rosnička_zelená",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-104",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš obojživelník je černý se žlutými skvrnami?",
+    "options": [
+      "Čolek obecný",
+      "Mlok skvrnitý",
+      "Kuňka žlutobřichá",
+      "Blatnice skvrnitá"
+    ],
+    "answer": "Mlok skvrnitý",
+    "fact": "Samice nekladou vajíčka – do potoka rodí už vyvinuté larvy.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mlok_skvrnitý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-105",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik nohou mají krabi včetně klepet?",
+    "options": [
+      "Šest",
+      "Osm",
+      "Deset",
+      "Dvanáct"
+    ],
+    "answer": "Deset",
+    "fact": "Patří proto mezi desetinožce, stejně jako humři, raci a krevety.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Desetinožci",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-106",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik metrů je hluboká Challengerova hlubina v Mariánském příkopu, nejhlubší místo oceánů?",
+    "answer": 10935,
+    "unit": "m",
+    "fact": "Batyskaf Trieste na dno sestupoval v roce 1960 téměř pět hodin.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Challenger_Deep",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-107",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik procent povrchu Země pokrývají oceány a moře?",
+    "answer": 71,
+    "unit": "%",
+    "fact": "Oceány obsahují asi 97 % veškeré vody na Zemi.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Světový_oceán",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-108",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Až kolik nohou má mnohonožka Eumillipes persephone, zvíře s nejvíc nohama na Zemi?",
+    "answer": 1306,
+    "unit": "nohou",
+    "fact": "Objevili ji v roce 2020 v Austrálii 60 metrů pod zemí v průzkumném vrtu. Je slepá a bledá.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Eumillipes_persephone",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-109",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Jakou nejvyšší rychlost v km/h naměřili sokolovi stěhovavému při střemhlavém letu?",
+    "answer": 389,
+    "unit": "km/h",
+    "fact": "Je to nejrychlejší známé zvíře vůbec. Ze vzduchu loví hlavně ptáky.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-110",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří Velký bariérový útes u Austrálie?",
+    "answer": 2300,
+    "unit": "km",
+    "fact": "Netvoří ho jeden útes, ale přes 2 900 samostatných útesů a asi 900 ostrovů.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-111",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "V jakém roce byl vyhlášen Krkonošský národní park, nejstarší v Česku?",
+    "answer": 1963,
+    "unit": "rok",
+    "fact": "Na Slovensku vznikl Tatranský národní park už v roce 1949.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Krkonošský_národní_park",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-112",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "V jakém roce vznikla nejstarší česká chráněná krajinná oblast Český ráj?",
+    "answer": 1955,
+    "unit": "rok",
+    "fact": "Jméno Český ráj se pro tuhle krajinu skal a hradů začalo používat už v 19. století.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Chráněná_krajinná_oblast_Český_ráj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-113",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "V jakém roce rybáři u Jihoafrické republiky ulovili latimérii, rybu považovanou za dávno vymřelou?",
+    "answer": 1938,
+    "unit": "rok",
+    "fact": "Do té doby ji vědci znali jen ze zkamenělin a měli za to, že vymřela spolu s dinosaury.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Coelacanth",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-114",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Po kolika letech vylézají ze země periodické cikády s delším cyklem v Severní Americe?",
+    "answer": 17,
+    "unit": "let",
+    "fact": "Druhá skupina má cyklus 13 let. Obě čísla jsou prvočísla, což podle vědců ztěžuje predátorům se jim přizpůsobit.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Magicicada",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-115",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje mořský savec, který si na břiše rozbíjí mušle kamenem?",
+    "answer": "Kalan",
+    "accept": [
+      "kalan mořský",
+      "vydra mořská",
+      "mořská vydra"
+    ],
+    "fact": "Má nejhustší srst ze všech zvířat – až 150 000 chlupů na čtvereční centimetr.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Sea_otter",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-116",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Z kůry kterého stromu se získává chinin?",
+    "answer": "Chinovník",
+    "accept": [
+      "chinovník lékařský",
+      "chinovníku"
+    ],
+    "fact": "Chinin dodává hořkou chuť toniku. Dřív se jím léčila malárie.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Chinovník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-117",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje mořský živočich s ostny, příbuzný hvězdic, jehož vnitřnosti Japonci jedí jako uni?",
+    "answer": "Ježovka",
+    "accept": [
+      "ježovky",
+      "mořský ježek",
+      "mořští ježci"
+    ],
+    "fact": "Ústní ústrojí ježovky s pěti zuby popsal už Aristotelés, proto se mu říká Aristotelova lucerna.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ježovky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-118",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se myslivecky nazývá ocas lišky?",
+    "answer": "Oháňka",
+    "accept": [
+      "ohanka"
+    ],
+    "fact": "Liška si jí v zimě při spánku zakrývá čenich i tlapky jako přikrývkou.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Liška_obecná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-119",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se nazývá obydlí, které si bobr staví z větví a bahna?",
+    "answer": "Hrad",
+    "accept": [
+      "bobří hrad",
+      "hrádek"
+    ],
+    "fact": "Vchod do něj bývá pod vodní hladinou, takže se k bobrům predátor nedostane.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bobr_evropský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-120",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Plody kterého stromu se jmenují bukvice?",
+    "answer": "Buk",
+    "accept": [
+      "buk lesní",
+      "buku"
+    ],
+    "fact": "Syrové bukvice ve větším množství škodí, protože obsahují jedovatý fagin.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Buk_lesní",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-121",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se nazývá skupina vlků, která spolu žije a loví?",
+    "answer": "Smečka",
+    "accept": [
+      "vlčí smečka"
+    ],
+    "fact": "Smečku tvoří obvykle jedna rodina – rodičovský pár a jeho potomci z posledních let.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Vlk_obecný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-122",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje houba rostoucí na stromech, ze které se dřív dělal troud k rozdělávání ohně?",
+    "answer": "Troudnatec",
+    "accept": [
+      "troudnatec kopytovitý",
+      "troudnatec"
+    ],
+    "fact": "Kus troudnatce měl u sebe i ledový muž Ötzi, který zemřel v Alpách před více než 5 000 lety.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Fomes_fomentarius",
+    "status": "verified"
   }
 ]
