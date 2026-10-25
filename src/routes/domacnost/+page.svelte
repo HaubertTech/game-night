@@ -52,7 +52,7 @@
       if (done) info = done;
       if (session.role === 'manager') await load();
     } catch (err) {
-      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo.';
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo. Zkus to znovu.';
     } finally {
       busy = false;
     }
@@ -224,7 +224,7 @@
           <h2>Smazat můj účet</h2>
           <p class="muted">Domácnost zůstane ostatním správcům.</p>
           <label class="field"><span>Heslo</span><input class="text-password" type="password" bind:value={accountPassword} autocomplete="current-password" maxlength="200" /></label>
-          <div><button class="btn" type="submit" disabled={busy || !accountPassword}>Smazat můj účet</button></div>
+          <div><button class="btn danger" type="submit" disabled={busy || !accountPassword}>Smazat můj účet</button></div>
         </form>
       {/if}
 
@@ -233,7 +233,7 @@
         <p class="muted">Nevratně smaže domácnost, všechny správce, hráče, večery, partie a statistiky. Ze záloh data zmizí nejpozději do 14 dní. Předtím si můžeš stáhnout data.</p>
         <label class="field"><span>Pro potvrzení napiš název: {settings.household.name}</span><input type="text" bind:value={deleteName} maxlength="60" autocomplete="off" /></label>
         <label class="field"><span>Heslo</span><input class="text-password" type="password" bind:value={deletePassword} autocomplete="current-password" maxlength="200" /></label>
-        <div><button class="btn" type="submit" disabled={busy || deleteName.trim() !== settings.household.name || !deletePassword}>Smazat domácnost</button></div>
+        <div><button class="btn danger" type="submit" disabled={busy || deleteName.trim() !== settings.household.name || !deletePassword}>Smazat domácnost</button></div>
       </form>
     {:else}
       <p class="muted">Načítám…</p>

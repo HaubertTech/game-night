@@ -51,7 +51,7 @@
     try {
       await fn();
     } catch (err) {
-      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo.';
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo. Zkus to znovu.';
     } finally {
       busy = false;
     }

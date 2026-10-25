@@ -13,7 +13,7 @@
     try {
       sent = (await api<{ message: string }>('/api/auth/reset/request', { body: { email } })).message;
     } catch (err) {
-      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo.';
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo. Zkus to znovu.';
     } finally {
       busy = false;
     }

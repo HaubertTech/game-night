@@ -142,6 +142,12 @@ button,
   color: var(--on-dark);
 }
 
+.btn.danger {
+  border-color: var(--bad);
+  box-shadow: 0 3px 0 var(--bad);
+  color: var(--bad);
+}
+
 .btn.big {
   min-height: 76px;
   font-size: 1.4rem;

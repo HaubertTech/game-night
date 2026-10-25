@@ -22,7 +22,7 @@
       await loadSession();
       goto('/');
     } catch (err) {
-      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo.';
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo. Zkus to znovu.';
     } finally {
       busy = false;
     }

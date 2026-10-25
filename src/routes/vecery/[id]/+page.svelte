@@ -52,7 +52,7 @@
       await api(`/api/nights/${detail.night.id}`, { method: 'PATCH', body: { status } });
       await load(String(detail.night.id));
     } catch (err) {
-      message = err instanceof ApiError ? err.message : 'Nepovedlo se.';
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo. Zkus to znovu.';
     }
   }
 
@@ -62,7 +62,7 @@
       await api(`/api/matches/${id}`, { method: 'DELETE' });
       await load(String(detail.night.id));
     } catch (err) {
-      message = err instanceof ApiError ? err.message : 'Nepovedlo se.';
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo. Zkus to znovu.';
     }
   }
 
