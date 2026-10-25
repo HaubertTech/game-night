@@ -1018,5 +1018,991 @@
     "difficulty": 1,
     "source": "https://en.wikipedia.org/wiki/Sudoku",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-061",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Při jaké teplotě ukazují stupnice Celsia a Fahrenheita stejné číslo?",
+    "options": [
+      "−40 °C",
+      "−32 °C",
+      "0 °C",
+      "40 °C"
+    ],
+    "answer": "−40 °C",
+    "fact": "Anders Celsius měl původně 0 jako bod varu a 100 jako bod tání. Stupnici obrátili až po jeho smrti.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Stupeň_Celsia",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-062",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaké číslo zapisují římské číslice XLIX?",
+    "options": [
+      "41",
+      "49",
+      "51",
+      "59"
+    ],
+    "answer": "49",
+    "fact": "Odečítat se smí jen podle pravidel: 49 není IL, ale XL a IX dohromady.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Římské_číslice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-063",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak se římskými číslicemi zapíše rok 2026?",
+    "options": [
+      "MMXXIV",
+      "MMXVI",
+      "MMXXVI",
+      "MCMXXVI"
+    ],
+    "answer": "MMXXVI",
+    "fact": "Na cifernících hodin se čtyřka často píše IIII místo IV, nejspíš kvůli souměrnosti s VIII na druhé straně.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Římské_číslice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-064",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik zhruba měřil sáh, stará míra odvozená od rozpětí rozpažených rukou?",
+    "options": [
+      "Půl metru",
+      "6 metrů",
+      "3 metry",
+      "1,8 metru"
+    ],
+    "answer": "1,8 metru",
+    "fact": "Anglický sáh (fathom) se dodnes používá k měření hloubky moře.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sáh",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-065",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik kilometrů zhruba měří jedna anglická míle?",
+    "options": [
+      "1,2 km",
+      "1,6 km",
+      "1,85 km",
+      "2,5 km"
+    ],
+    "answer": "1,6 km",
+    "fact": "Slovo pochází z latinského „mille passuum“ – tisíc dvojkroků římských legionářů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Míle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-066",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik centimetrů má jeden palec, kterým se měří třeba úhlopříčka televize?",
+    "options": [
+      "1,5 cm",
+      "2,54 cm",
+      "3 cm",
+      "4,2 cm"
+    ],
+    "answer": "2,54 cm",
+    "fact": "Televize s úhlopříčkou 55 palců má tedy úhlopříčku skoro 140 centimetrů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Palec_(jednotka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-067",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik stop má jeden yard?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ],
+    "answer": "3",
+    "fact": "Stopa má 12 palců, yard tedy 36 palců – něco přes 91 centimetrů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Yard",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-068",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik gramů zhruba váží jedna unce?",
+    "options": [
+      "28 g",
+      "45 g",
+      "100 g",
+      "200 g"
+    ],
+    "answer": "28 g",
+    "fact": "Zlato se ale váží v trojských uncích, které mají 31,1 gramu.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Unce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-069",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak je dnes definován metr?",
+    "options": [
+      "Pomocí rychlosti světla",
+      "Jako desetimiliontina poledníku",
+      "Podle kovové tyče v Paříži",
+      "Podle délky kyvadla"
+    ],
+    "answer": "Pomocí rychlosti světla",
+    "fact": "Od roku 1983 je metr vzdálenost, kterou světlo urazí ve vakuu za 1/299 792 458 sekundy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Metr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-070",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Která země zavedla metrickou soustavu jako první?",
+    "options": [
+      "Anglie",
+      "Francie",
+      "Rakousko",
+      "Prusko"
+    ],
+    "answer": "Francie",
+    "fact": "V Rakousku, a tedy i v Čechách, platí metr povinně od roku 1876.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Metrická_soustava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-071",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik litrů má jeden barel ropy?",
+    "options": [
+      "100",
+      "159",
+      "200",
+      "250"
+    ],
+    "answer": "159",
+    "fact": "Míra pochází z pensylvánských ropných polí 19. století, kde se ropa vozila v dřevěných sudech.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Barel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-072",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dní se vynechalo, když v roce 1582 začal platit gregoriánský kalendář?",
+    "options": [
+      "7",
+      "10",
+      "13",
+      "14"
+    ],
+    "answer": "10",
+    "fact": "Po čtvrtku 4. října 1582 následoval rovnou pátek 15. října.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Gregoriánský_kalendář",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-073",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "V jakém roce začal v českých zemích platit gregoriánský kalendář?",
+    "options": [
+      "1582",
+      "1584",
+      "1620",
+      "1700"
+    ],
+    "answer": "1584",
+    "fact": "Rusko přešlo až v roce 1918. Proto Říjnová revoluce připadá podle našeho kalendáře na listopad.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Gregoriánský_kalendář",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-074",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Dnes je pondělí. Jaký den v týdnu bude za 100 dní?",
+    "options": [
+      "Úterý",
+      "Středa",
+      "Čtvrtek",
+      "Pondělí"
+    ],
+    "answer": "Středa",
+    "fact": "Čtvrtek a pátek dostaly jméno podle pořadí – čtvrtý a pátý den týdne. Úterý je staré „vterý“, tedy druhý.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-075",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Tři kočky chytí tři myši za tři minuty. Kolik koček chytí sto myší za sto minut?",
+    "options": [
+      "3",
+      "33",
+      "100",
+      "300"
+    ],
+    "answer": "3",
+    "fact": "Každá kočka chytí jednu myš za tři minuty, za sto minut tedy zhruba 33. Tři kočky to zvládnou samy.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-076",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik měsíců v roce má 28 dní?",
+    "options": [
+      "Jeden",
+      "Dva",
+      "Jedenáct",
+      "Všech dvanáct"
+    ],
+    "answer": "Všech dvanáct",
+    "fact": "Únor je jediný, který jich víc nemá – a v přestupném roce má i on 29.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-077",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Při běhu předběhnete toho, kdo běží druhý. Na kolikátém místě teď jste?",
+    "options": [
+      "Na druhém",
+      "Na prvním",
+      "Na třetím",
+      "Nedá se říct"
+    ],
+    "answer": "Na druhém",
+    "fact": "Většina lidí napoprvé odpoví „na prvním“. Vy jste ale jen zaujali místo toho, koho jste předběhli.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-078",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Zboží zdraží o 10 % a pak zlevní o 10 %. Jak se změní jeho cena oproti původní?",
+    "options": [
+      "Nezmění se",
+      "Klesne o 1 %",
+      "Stoupne o 1 %",
+      "Klesne o 10 %"
+    ],
+    "answer": "Klesne o 1 %",
+    "fact": "Ze 100 Kč je po zdražení 110 Kč a zlevnění o desetinu ubere 11 Kč, zůstane 99 Kč.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-079",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je prvočísel menších než 20?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "8",
+    "fact": "Prvočísel je nekonečně mnoho. Dokázal to už Eukleidés kolem roku 300 před naším letopočtem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Prvočíslo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-080",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo je nejmenší prvočíslo?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2",
+    "fact": "Je to zároveň jediné sudé prvočíslo. Jednička mezi prvočísla nepatří, protože nemá dva různé dělitele.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Prvočíslo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-081",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik stupňů má každý vnitřní úhel pravidelného šestiúhelníku?",
+    "options": [
+      "90°",
+      "108°",
+      "120°",
+      "135°"
+    ],
+    "answer": "120°",
+    "fact": "Tři šestiúhelníky se proto sejdou v jednom bodě bez mezer (3 × 120° = 360°), jako ve včelí plástvi nebo v dlažbě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Šestiúhelník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-082",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak se jmenuje nejdelší strana pravoúhlého trojúhelníku?",
+    "options": [
+      "Odvěsna",
+      "Přepona",
+      "Těžnice",
+      "Výška"
+    ],
+    "answer": "Přepona",
+    "fact": "U trojúhelníku se stranami 3, 4 a 5 platí Pythagorova věta krásně celými čísly: 9 + 16 = 25.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pythagorova_věta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-083",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký obsah má zhruba kruh s poloměrem 10 cm?",
+    "options": [
+      "31,4 cm²",
+      "62,8 cm²",
+      "314 cm²",
+      "628 cm²"
+    ],
+    "answer": "314 cm²",
+    "fact": "Archimédés dokázal, že pí leží mezi 3 10/71 a 3 1/7.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kruh",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-084",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik hran má čtyřstěn?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "6",
+    "fact": "Tvar pravidelného čtyřstěnu má i molekula metanu: uhlík je uprostřed a čtyři vodíky v rozích.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Čtyřstěn",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-085",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaké číslo znamená v šestnáctkové soustavě zápis FF?",
+    "options": [
+      "99",
+      "150",
+      "255",
+      "256"
+    ],
+    "answer": "255",
+    "fact": "Barvy na webu se proto zapisují jako #FF0000 – červená, zelená i modrá složka má hodnotu od 0 do 255.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Šestnáctková_soustava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-086",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik bitů má jeden bajt?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "8",
+    "fact": "Osm bitů dává 256 různých kombinací, a tak se do jednoho bajtu vejde jedno písmeno ze starších kódových tabulek.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bajt",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-087",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Dvě mince mají dohromady 15 Kč a jedna z nich není desetikoruna. Jaké to jsou mince?",
+    "options": [
+      "Dvě sedmikoruny",
+      "Dvacetikoruna a pětikoruna",
+      "Desetikoruna a pětikoruna",
+      "Takové mince neexistují"
+    ],
+    "answer": "Desetikoruna a pětikoruna",
+    "fact": "Chyták stojí na tom, že „jedna není desetikoruna“ neznamená, že žádná není. Desetikoruna je ta druhá.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-088",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Hodiny odbijí šest hodin za 5 sekund. Za jak dlouho odbijí dvanáct?",
+    "options": [
+      "Za 10 s",
+      "Za 14 s",
+      "Za 12 s",
+      "Za 11 s"
+    ],
+    "answer": "Za 11 s",
+    "fact": "Čas zabírají mezery mezi údery, ne údery samy: šest úderů má pět mezer, dvanáct úderů jedenáct.",
+    "difficulty": 3,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-089",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik čtverců všech velikostí najdete na šachovnici 8 × 8?",
+    "options": [
+      "64",
+      "128",
+      "204",
+      "256"
+    ],
+    "answer": "204",
+    "fact": "Je to součet druhých mocnin: 1 + 4 + 9 + … + 64. Čtverec o velikosti celé šachovnice je jen jeden.",
+    "difficulty": 3,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-090",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Ve kterém roce začalo 21. století?",
+    "options": [
+      "1999",
+      "2000",
+      "2001",
+      "2010"
+    ],
+    "answer": "2001",
+    "fact": "Náš letopočet nezná rok nula. Po roce 1 před naším letopočtem následuje rovnou rok 1.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/21._století",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-091",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaká je pravděpodobnost, že na dvou kostkách padnou dvě šestky?",
+    "options": [
+      "1/6",
+      "1/12",
+      "1/18",
+      "1/36"
+    ],
+    "answer": "1/36",
+    "fact": "Nejčastější součet dvou kostek je sedm. Padá v šesti z 36 možností, tedy v každém šestém hodu.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-092",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Mince padla pětkrát po sobě rubem. Jaká je šance, že rubem padne i pošesté?",
+    "options": [
+      "1/2",
+      "1/6",
+      "1/32",
+      "1/64"
+    ],
+    "answer": "1/2",
+    "fact": "Víra, že „teď už musí padnout líc“, se jmenuje gamblerův omyl. Mince si předchozí hody nepamatuje.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Gambler's_fallacy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-094",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dní je zhruba tisíc hodin?",
+    "options": [
+      "10",
+      "24",
+      "30",
+      "42"
+    ],
+    "answer": "42",
+    "fact": "Milion hodin je naproti tomu přes 114 let.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-095",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik metrů za sekundu je rychlost 36 km/h?",
+    "options": [
+      "3,6",
+      "10",
+      "36",
+      "100"
+    ],
+    "answer": "10",
+    "fact": "Stačí dělit 3,6. Rychlost 1 m/s je tedy 3,6 km/h – tempo pomalé chůze.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-096",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik litrů je jeden krychlový metr?",
+    "options": [
+      "10",
+      "100",
+      "1 000",
+      "10 000"
+    ],
+    "answer": "1 000",
+    "fact": "Litr je přesně krychlový decimetr – krychle o hraně 10 centimetrů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Litr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-097",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Starý rakouský cent měl 100 vídeňských liber. Kolik kilogramů zhruba vážil?",
+    "options": [
+      "5",
+      "10",
+      "56",
+      "100"
+    ],
+    "answer": "56",
+    "fact": "Vídeňská libra vážila 56 dekagramů a dělila se na 32 lotů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Libra_(jednotka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-098",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co se v Čechách měřilo na korce?",
+    "options": [
+      "Pivo",
+      "Obilí",
+      "Sukno",
+      "Dřevo"
+    ],
+    "answer": "Obilí",
+    "fact": "Pražský korec měl kolem 93 litrů. Korec byl i mírou plochy – pole, na které se vysel jeden korec obilí.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Korec_(jednotka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-099",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Podle čeho se určuje datum Velikonoc?",
+    "options": [
+      "Podle konce masopustu",
+      "Podle letního slunovratu",
+      "Podle prvního jarního úplňku",
+      "Podle prvního dubnového pondělí"
+    ],
+    "answer": "Podle prvního jarního úplňku",
+    "fact": "Velikonoční neděle proto připadne nejdřív na 22. března a nejpozději na 25. dubna.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Velikonoce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-100",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak pokračuje řada J, D, T, Č, P, …?",
+    "options": [
+      "S",
+      "Z",
+      "Č",
+      "Š"
+    ],
+    "answer": "Š",
+    "fact": "Jsou to první písmena číslovek jedna, dva, tři, čtyři, pět – další je šest.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-101",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak pokračuje řada L, Ú, B, D, K, Č, Č, …?",
+    "options": [
+      "S",
+      "Z",
+      "Ř",
+      "L"
+    ],
+    "answer": "S",
+    "fact": "Jsou to začáteční písmena měsíců. Česká jména měsíců jsou slovanská, většina evropských jazyků používá latinská.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-102",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Pan Novák má pět dcer a každá z nich má jednoho bratra. Kolik má pan Novák dětí?",
+    "options": [
+      "Pět",
+      "Šest",
+      "Deset",
+      "Jedenáct"
+    ],
+    "answer": "Šest",
+    "fact": "Bratr je pro všechny dcery tentýž. Chyták svádí k tomu, abychom bratry násobili.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-103",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik stupňů je na ciferníku mezi dvěma sousedními čísly?",
+    "options": [
+      "15°",
+      "30°",
+      "45°",
+      "60°"
+    ],
+    "answer": "30°",
+    "fact": "Minutová ručička urazí za minutu 6°, za pět minut tedy právě jeden dílek.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-105",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik gramů má jedna anglická libra?",
+    "answer": 454,
+    "unit": "g",
+    "fact": "Zkratka lb pochází z latinského slova libra, které znamenalo váhu i váhy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Libra_(jednotka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-106",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik průsečíků má deska hry go s 19 × 19 čarami?",
+    "answer": 361,
+    "unit": "průsečíků",
+    "fact": "Možných pozic na ní je víc, než se odhaduje atomů v pozorovatelném vesmíru.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Go_(hra)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-107",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik bilionů kilometrů měří jeden světelný rok?",
+    "answer": 9.46,
+    "unit": "bilionů km",
+    "fact": "Světelný rok je jednotka vzdálenosti, ne času – i když to název svádí.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Světelný_rok",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-108",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik kilometrů měřila stará rakouská míle, kterou se počítaly vzdálenosti i v Čechách?",
+    "answer": 7.586,
+    "unit": "km",
+    "fact": "Byla skoro pětkrát delší než anglická míle. Míle v Rakousku měla 24 000 stop.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Mile",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-109",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "V jakém roce uložili ve Francii platinový vzor metru, takzvaný archivní metr?",
+    "answer": 1799,
+    "unit": "rok",
+    "fact": "Aby si lidé zvykli, nechali v Paříži osadit do zdí mramorové desky s délkou metru. Dvě z nich jsou tam dodnes.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Metr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-110",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik minut má jeden týden?",
+    "answer": 10080,
+    "unit": "minut",
+    "fact": "Hodina má 60 minut díky Babyloňanům, kteří počítali v šedesátkové soustavě.",
+    "difficulty": 2,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-111",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik nul má číslo trilion?",
+    "answer": 18,
+    "unit": "nul",
+    "fact": "Americký „trillion“ má jen 12 nul a odpovídá našemu bilionu. Při překladu z angličtiny se to snadno splete.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Trilion",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-112",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik centimetrů měří jedna anglická stopa?",
+    "answer": 30.48,
+    "unit": "cm",
+    "fact": "Míra vychází z délky chodidla. V letectví se v ní dodnes udává letová výška.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Stopa_(jednotka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-113",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje úhel menší než 90 stupňů?",
+    "answer": "Ostrý",
+    "accept": [
+      "ostry",
+      "ostrý úhel",
+      "ostry uhel"
+    ],
+    "fact": "Úhly mezi 90° a 180° jsou tupé. Každý trojúhelník má aspoň dva ostré úhly.",
+    "difficulty": 1,
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-114",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje trojúhelník, který má všechny tři strany stejně dlouhé?",
+    "answer": "Rovnostranný",
+    "accept": [
+      "rovnostranny",
+      "rovnostranný trojúhelník"
+    ],
+    "fact": "Všechny jeho úhly mají 60° a šest takových trojúhelníků složí pravidelný šestiúhelník.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rovnostranný_trojúhelník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-115",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje číslo, které nejde zapsat jako zlomek dvou celých čísel, třeba pí?",
+    "answer": "Iracionální",
+    "accept": [
+      "iracionalni",
+      "iracionální číslo",
+      "iracionalni cislo"
+    ],
+    "fact": "Že odmocnina ze dvou nejde zapsat zlomkem, věděli už staří Řekové z Pythagorovy školy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Iracionální_číslo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-116",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje výsledek dělení?",
+    "answer": "Podíl",
+    "accept": [
+      "podil"
+    ],
+    "fact": "Výsledek násobení je součin, sčítání součet a odčítání rozdíl.",
+    "difficulty": 1,
+    "source": "RVP ZV",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-117",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje pomůcka, kterou se ve škole měří úhly?",
+    "answer": "Úhloměr",
+    "accept": [
+      "uhlomer"
+    ],
+    "fact": "Námořníci měřili úhel Slunce nad obzorem sextantem a podle něj určovali zeměpisnou šířku.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Úhloměr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-118",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje starověké počitadlo s kuličkami nebo kamínky na tyčkách?",
+    "answer": "Abakus",
+    "accept": [
+      "abacus",
+      "abakus"
+    ],
+    "fact": "Japonská verze se jmenuje soroban a děti v Japonsku na ní dodnes soutěží v rychlém počítání.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Abakus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-119",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje nejkratší spojnice dvou bodů v rovině?",
+    "answer": "Úsečka",
+    "accept": [
+      "usecka"
+    ],
+    "fact": "Na zeměkouli je nejkratší cestou oblouk, a proto letadla z Evropy do Severní Ameriky často letí nad Grónskem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Úsečka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-120",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jak se jmenuje těleso, které má tvar plechovky?",
+    "answer": "Válec",
+    "accept": [
+      "valec"
+    ],
+    "fact": "Archimédés si přál mít na hrobě kouli vepsanou do válce. Podle ní jeho zarostlý hrob o 137 let později našel Cicero.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Válec",
+    "status": "verified"
   }
 ]
