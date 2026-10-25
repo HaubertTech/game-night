@@ -595,8 +595,10 @@ function changedThisTurn(state: ZolikyGameState, playerId: string): boolean {
   const snap = state.snapshot;
   if (!snap) return false;
   const hand = state.hands[playerId] ?? [];
-  if (state.melds !== snap.melds || state.meldSeq !== snap.meldSeq || hand.length !== snap.hand.length) return true;
-  return hand.some((c, i) => c !== snap.hand[i]);
+  if (state.meldSeq !== snap.meldSeq || hand.length !== snap.hand.length || state.melds.length !== snap.melds.length) return true;
+  if (hand.some((c, i) => c !== snap.hand[i])) return true;
+  // By value, not by reference: the state comes back from localStorage, the wire or a Svelte proxy.
+  return JSON.stringify(state.melds) !== JSON.stringify(snap.melds);
 }
 
 export function viewFor(state: ZolikyGameState, viewer: ZolikyViewer): ZolikyView {

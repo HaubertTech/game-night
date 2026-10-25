@@ -292,6 +292,15 @@ describe('žolíky — zavření a body (domácí pravidla)', () => {
     expect(viewFor(t, me).canReset).toBe(true);
     expect(viewFor(ok(act(t, 'a', { type: 'resetTurn' })), me).canReset).toBe(false);
   });
+
+  it('keeps „Vrátit tah“ hidden after the state went through JSON (localStorage, the wire)', () => {
+    const s = table(
+      { a: ['srdce-6-1', 'piky-5-0', 'piky-9-0'], b: ['krize-2-0'], c: ['krize-3-0'] },
+      { melds: [{ ...run(), id: 'm1', owner: 'b' }], opened: { a: true, b: true, c: false }, openedBefore: true },
+    );
+    const restored = JSON.parse(JSON.stringify(s)) as typeof s;
+    expect(viewFor(restored, { role: 'contestant', contestantId: 'a' }).canReset).toBe(false);
+  });
 });
 
 function run() {
