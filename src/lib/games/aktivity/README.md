@@ -33,6 +33,10 @@ data v `data/aktivity/<úroveň>.json`, kontrola dat `node --disable-warning=Exp
   - **pískoviště** – předškoláci (nečtou): jen **ukaž** a **nakresli**, karta má velké emoji.
     Slovo jim přečte dospělý z týmu (`helperId` – první hráč úrovně hospoda, jinak lavice), který
     proto slovo vidí také a sám nehádá.
+  - **kočárek** – jako pískoviště (jen ukaž a nakresli, s pomocníkem),
+  - **prvňáček** – všechny tři způsoby.
+  - Úroveň bez vlastních karet bere karty nejbližší úrovně (`cardLevelFor` → `nearestLevel`, při shodě
+    mladší): kočárek → pískoviště, prvňáček → pískoviště, dokud nemá vlastní `data/aktivity/prvnacek.json`.
 - **Bez opakování:** karta ani stejné slovo (i z jiné úrovně) se během hry nezopakuje. Karty, které
   domácnost už hrála (`seen`), jdou na konec balíčku.
 

@@ -5,7 +5,7 @@
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { LEVEL_LABELS, type Level } from '../../types.ts';
-  import { ADULT_CATEGORIES, KIDS_CATEGORIES } from '../../games/mjz/engine.ts';
+  import { ADULT_CATEGORIES, KIDS_CATEGORIES, MJZ_LEVELS } from '../../games/mjz/engine.ts';
   import { createRoom, loadSetting, saveSetting } from './setup-api.ts';
 
   interface PlayerRow {
@@ -14,7 +14,10 @@
     avatar: string;
     level: Level;
   }
-  let { players, nightId }: { players: PlayerRow[]; nightId: number | null } = $props();
+  let { players: allPlayers, nightId }: { players: PlayerRow[]; nightId: number | null } = $props();
+  // Kocarek does not write a sheet; it sits with an adult as a helper.
+  const players = $derived(allPlayers.filter((p) => MJZ_LEVELS.includes(p.level)));
+  const helpers = $derived(allPlayers.filter((p) => !MJZ_LEVELS.includes(p.level)));
 
   const KEY = 'domaci-liga:live:setup:mjz';
   const ROUNDS = [1, 3, 5, 8];
@@ -82,7 +85,10 @@
       </button>
     {/each}
   </div>
-  <p class="muted">Lavice má na psaní o 30 s víc, pískoviště o 60 s; za předškoláka může psát hostitel na televizi.</p>
+  {#if helpers.length > 0}
+    <p class="muted" data-testid="mjz-helpers">{helpers.map((p) => p.name).join(', ')} ({LEVEL_LABELS.kocarek}) hraje jako pomocník u dospělého — vlastní list nemá.</p>
+  {/if}
+  <p class="muted">Lavice má na psaní o 30 s víc, prvňáček a pískoviště o 60 s. Prvňáček píše dětské kategorie; za prvňáčka a předškoláka může psát hostitel na televizi.</p>
 </section>
 
 <section class="card stack">
@@ -107,7 +113,7 @@
   <div class="row" role="group" aria-label="Pravidla">
     <span class="label">Pravidla</span>
     <button class="chip" aria-pressed={includeCh} onclick={() => (includeCh = !includeCh)}>Hrát i na Ch</button>
-    <button class="chip" aria-pressed={kidsBonus} onclick={() => (kidsBonus = !kidsBonus)}>Dětský bonus (lavice ×1,5)</button>
+    <button class="chip" aria-pressed={kidsBonus} onclick={() => (kidsBonus = !kidsBonus)}>Dětský bonus (prvňáček a lavice ×1,5)</button>
   </div>
 </section>
 

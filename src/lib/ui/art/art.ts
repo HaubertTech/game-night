@@ -83,10 +83,17 @@ export const THEME_ART: Record<Theme, string> = {
   dejiny: 'themes.dejiny-vynalezy',
 };
 
+/** Own art when the manifest has it, otherwise the closest existing level picture. */
+function levelArtKey(level: string, fallback: string): string {
+  return `levels.${level}` in MANIFEST ? `levels.${level}` : fallback;
+}
+
 export const LEVEL_ART: Record<Level | 'vsichni', string> = {
-  hospoda: 'levels.hospoda',
-  lavice: 'levels.lavice',
+  kocarek: levelArtKey('kocarek', 'levels.piskoviste'),
   piskoviste: 'levels.piskoviste',
+  prvnacek: levelArtKey('prvnacek', 'levels.lavice'),
+  lavice: 'levels.lavice',
+  hospoda: 'levels.hospoda',
   vsichni: 'levels.vsichni',
 };
 

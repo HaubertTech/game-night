@@ -2,7 +2,7 @@
 // data/questions/README.md). No Node APIs here, so it is type-checked and unit-tested.
 
 import type { Level, Theme } from '../src/lib/types.ts';
-import { LEVELS, PRESCHOOL_THEMES, THEMES } from '../src/lib/types.ts';
+import { CHILD_LEVELS, LEVELS, LEVEL_LABELS, LEVEL_THEMES, LEVEL_TYPES, THEMES } from '../src/lib/types.ts';
 
 export interface QuestionFile {
   /** Path relative to the dataset root, e.g. `hospoda/priroda.json`. */
@@ -30,20 +30,31 @@ export interface ValidationResult {
   summary: Summary;
 }
 
-export const TEXT_LIMITS: Record<Level, number> = { hospoda: 160, lavice: 100, piskoviste: 60 };
-export const OPTION_COUNTS: Record<Level, [number, number]> = { hospoda: [4, 4], lavice: [3, 4], piskoviste: [2, 3] };
-export const ALLOWED_TYPES: Record<Level, string[]> = {
-  hospoda: ['choice', 'estimate', 'open'],
-  lavice: ['choice'],
-  piskoviste: ['choice'],
+// Level rules from docs/UROVNE.md.
+export const TEXT_LIMITS: Record<Level, number> = { kocarek: 50, piskoviste: 70, prvnacek: 90, lavice: 110, hospoda: 160 };
+/** Option counts for `choice` and `point` questions. */
+export const OPTION_COUNTS: Record<Level, [number, number]> = {
+  kocarek: [2, 4],
+  piskoviste: [3, 4],
+  prvnacek: [3, 3],
+  lavice: [3, 4],
+  hospoda: [4, 4],
 };
-export const TARGETS: Record<Level, number> = { hospoda: 270, lavice: 135, piskoviste: 84 };
+export const ALLOWED_TYPES: Record<Level, readonly string[]> = LEVEL_TYPES;
+/** Target counts of verified questions per level (reported, never an error). */
+export const TARGETS: Record<Level, number> = { kocarek: 120, piskoviste: 180, prvnacek: 200, lavice: 270, hospoda: 540 };
+/** Levels whose questions need a picture and emoji-led options (children who do not read yet). */
+export const PICTURE_LEVELS: readonly Level[] = CHILD_LEVELS;
+/** A fact longer than this is hard to read out after the answer. */
+export const FACT_LIMIT = 220;
 
 const COMMON_FIELDS = ['id', 'level', 'theme', 'type', 'text', 'fact', 'difficulty', 'image', 'source', 'status'];
 const TYPE_FIELDS: Record<string, string[]> = {
   choice: ['options', 'answer'],
   estimate: ['answer', 'unit'],
   open: ['answer', 'accept'],
+  point: ['options', 'answer'],
+  imitate: ['answer'],
 };
 
 // Pictographs, flags and keycaps ("5️⃣").
@@ -82,8 +93,8 @@ export function validateQuestionFiles(files: QuestionFile[]): ValidationResult {
     }
     const fileLevel = levelPart as Level;
     const fileTheme = themePart as Theme;
-    if (fileLevel === 'piskoviste' && !PRESCHOOL_THEMES.includes(fileTheme)) {
-      warn(`Téma ${fileTheme} není mezi tématy Pískoviště (PRESCHOOL_THEMES).`);
+    if (!LEVEL_THEMES[fileLevel].includes(fileTheme)) {
+      warn(`Téma ${fileTheme} není mezi tématy úrovně ${LEVEL_LABELS[fileLevel]} (LEVEL_THEMES).`);
     }
 
     let data: unknown;
@@ -142,16 +153,20 @@ export function validateQuestionFiles(files: QuestionFile[]): ValidationResult {
       else if ([...q.text].length > TEXT_LIMITS[level]) e(`Text má ${[...q.text].length} znaků, limit je ${TEXT_LIMITS[level]}.`);
 
       // fact, difficulty, status, image, source
-      if (!isNonEmptyString(q.fact)) e('Chybí fact.');
+      if (!isNonEmptyString(q.fact)) e('Chybí fact (zajímavost je povinná).');
+      else if ([...q.fact.trim()].length > FACT_LIMIT) w(`fact má ${[...q.fact.trim()].length} znaků, doporučeno nejvýš ${FACT_LIMIT}.`);
+      else if (isNonEmptyString(q.text) && normalizeText(q.fact) === normalizeText(q.text)) e('fact jen opakuje otázku.');
       if (q.difficulty !== 1 && q.difficulty !== 2 && q.difficulty !== 3) e('difficulty musí být 1, 2 nebo 3.');
       if (q.status !== 'verified' && q.status !== 'draft') e('status musí být verified nebo draft.');
       if (q.image !== undefined && !isNonEmptyString(q.image)) e('image musí být neprázdný řetězec.');
-      if (level === 'piskoviste' && !isNonEmptyString(q.image)) e('Pískoviště musí mít image.');
+      if ((PICTURE_LEVELS.includes(level) || type === 'imitate') && !isNonEmptyString(q.image)) {
+        e(`${LEVEL_LABELS[level]}${type === 'imitate' ? ' (imitate)' : ''} musí mít image.`);
+      }
       if (q.source !== undefined && !isNonEmptyString(q.source)) e('source musí být neprázdný řetězec.');
       if (q.source === undefined) w('Chybí source.');
 
       // type-specific
-      if (type === 'choice') {
+      if (type === 'choice' || type === 'point') {
         const options = q.options;
         if (!Array.isArray(options) || !options.every(isNonEmptyString)) e('options musí být pole neprázdných řetězců.');
         else {
@@ -161,14 +176,17 @@ export function validateQuestionFiles(files: QuestionFile[]): ValidationResult {
           }
           if (new Set(options.map((o) => o.trim().toLowerCase())).size !== options.length) e('Možnosti se opakují.');
           if (!isNonEmptyString(q.answer) || !options.includes(q.answer)) e('answer musí přesně odpovídat jedné z možností.');
-          if (level === 'piskoviste') {
+          if (PICTURE_LEVELS.includes(level) || type === 'point') {
             const bad = options.filter((o) => !STARTS_WITH_EMOJI.test(o));
-            if (bad.length) e(`Možnosti Pískoviště musí začínat emoji: ${bad.join(', ')}.`);
+            if (bad.length) e(`Možnosti úrovně ${LEVEL_LABELS[level]} musí začínat emoji: ${bad.join(', ')}.`);
           }
         }
       } else if (type === 'estimate') {
         if (typeof q.answer !== 'number' || !Number.isFinite(q.answer) || q.answer <= 0) e('answer odhadu musí být kladné číslo.');
         if (typeof q.unit !== 'string') e('Odhad musí mít unit.');
+      } else if (type === 'imitate') {
+        if (!isNonEmptyString(q.answer)) e('answer napodobování musí být neprázdný vzor („Mééé“).');
+        if (q.options !== undefined) e('Napodobování (imitate) nemá options.');
       } else if (type === 'open') {
         if (!isNonEmptyString(q.answer)) e('answer otevřené otázky musí být neprázdný řetězec.');
         else if (q.answer.trim().split(/\s+/).length > 3) w('Odpověď má víc než tři slova.');
@@ -239,7 +257,9 @@ export function formatReport(result: ValidationResult): string {
     const types = Object.entries(result.summary.types[level] ?? {})
       .map(([t, n]) => `${t} ${n}`)
       .join(', ');
-    lines.push(`  ${level.padEnd(10)} ${String(verified).padStart(4)} verified, ${String(draft).padStart(3)} draft (cíl ${TARGETS[level]})${types ? ` · ${types}` : ''}`);
+    const missing = Math.max(0, TARGETS[level] - verified);
+    const goal = missing > 0 ? `cíl ${TARGETS[level]}, chybí ${missing}` : `cíl ${TARGETS[level]} splněn`;
+    lines.push(`  ${level.padEnd(10)} ${String(verified).padStart(4)} verified, ${String(draft).padStart(3)} draft (${goal})${types ? ` · ${types}` : ''}`);
     if (row.length) lines.push(`             ${row.join(' · ')}`);
   }
   lines.push(`  celkem ${result.summary.total} otázek · ${errors.length} chyb · ${warnings.length} varování`);

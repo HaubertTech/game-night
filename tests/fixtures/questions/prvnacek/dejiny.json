@@ -1,0 +1,4 @@
+[
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "prvnacek-dejiny-001", "level": "prvnacek", "theme": "dejiny", "type": "choice", "text": "Kdo bydlel na hradě?", "options": ["👑 Král", "🚀 Kosmonaut", "🤖 Robot"], "answer": "👑 Král", "image": "🏰", "fact": "Testovací zajímavost R4."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "prvnacek-dejiny-002", "level": "prvnacek", "theme": "dejiny", "type": "choice", "text": "Čím se dřív svítilo?", "options": ["🕯️ Svíčkou", "💡 Žárovkou", "📱 Mobilem"], "answer": "🕯️ Svíčkou", "image": "🌙", "fact": "Testovací zajímavost R5."}
+]

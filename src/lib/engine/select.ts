@@ -1,7 +1,7 @@
 // Deterministic question drawing for a whole game.
 
 import type { Level, Question, Theme } from '../types.ts';
-import { PRESCHOOL_THEMES } from '../types.ts';
+import { LEVEL_THEMES, hasOptions } from '../types.ts';
 import { pickIndex, shuffle, type Rand } from './rng.ts';
 
 /** A seat at the table: a single player or a team. A team plays at one level. */
@@ -17,7 +17,7 @@ export interface Contestant {
 export interface Turn {
   contestantId: string;
   questionId: string;
-  /** Shuffled options for choice questions (dataset order often hints the answer). */
+  /** Shuffled options for choice and point questions (dataset order often hints the answer). */
   options?: string[];
   /** True when the question comes from another theme than the round (e.g. preschool mix). */
   fallback: boolean;
@@ -44,7 +44,7 @@ type Tier = (q: Question) => boolean;
 /**
  * Picks one question for a contestant. Preference order:
  * 1. round theme, unseen
- * 2. (preschool) any preschool theme, unseen — the "Mix Pískoviště"
+ * 2. any theme the level is meant to have (LEVEL_THEMES), unseen — e.g. "Mix Pískoviště"
  * 3. any theme of the level, unseen
  * 4. round theme, already seen
  * 5. anything of the level not used in this game
@@ -62,9 +62,8 @@ function pickQuestion(
   const tiers: { test: Tier; fallback: boolean }[] = [
     { test: (q) => q.theme === theme && fresh(q), fallback: false },
   ];
-  if (level === 'piskoviste') {
-    tiers.push({ test: (q) => PRESCHOOL_THEMES.includes(q.theme) && fresh(q), fallback: true });
-  }
+  const levelThemes = LEVEL_THEMES[level];
+  tiers.push({ test: (q) => levelThemes.includes(q.theme) && fresh(q), fallback: true });
   tiers.push(
     { test: fresh, fallback: true },
     { test: (q) => q.theme === theme && notUsed(q), fallback: false },
@@ -115,7 +114,7 @@ export function drawGame(input: DrawInput): DrawResult {
         turns.push({
           contestantId: c.id,
           questionId: q.id,
-          options: q.type === 'choice' ? shuffle(q.options, rand) : undefined,
+          options: hasOptions(q) ? shuffle(q.options, rand) : undefined,
           fallback: picked.fallback,
         });
       }

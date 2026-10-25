@@ -7,7 +7,7 @@
   import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { page } from '$app/state';
-  import { LEVEL_LABELS, THEME_LABELS } from '#lib/types.ts';
+  import { LEVEL_LABELS, LEVEL_READER, THEME_LABELS } from '#lib/types.ts';
   import { LiveRoom } from '#lib/live-client/room.svelte.ts';
   import { readToken } from '#lib/live-client/tokens.ts';
   import { questionSpeech, speak, stop } from '#lib/tts.ts';
@@ -76,7 +76,7 @@
     if (q) speak(...questionSpeech(q.text, q.options ?? []));
   }
 
-  // Read the TV contestant's question aloud when it appears (preschool cannot read).
+  // Read the TV contestant's question aloud when it appears (piskoviste cannot read; prvnacek taps 🔊, kocarek has a parent).
   let spokenKey = '';
   $effect(() => {
     const q = view?.question;
@@ -84,7 +84,7 @@
     const key = `${view.roundIndex}/${view.step}/${view.questionFor}`;
     if (key === spokenKey) return;
     spokenKey = key;
-    if (q.level === 'piskoviste') readTvQuestion();
+    if (LEVEL_READER[q.level] === 'tts') readTvQuestion();
   });
 
   // …and the result of a TV preschooler at reveal.
@@ -94,7 +94,7 @@
     const key = `${view.roundIndex}/${view.step}`;
     if (key === revealKey) return;
     revealKey = key;
-    const kid = view.reveal.find((r) => byId.get(r.contestantId)?.onTv && r.question.level === 'piskoviste');
+    const kid = view.reveal.find((r) => byId.get(r.contestantId)?.onTv && LEVEL_READER[r.question.level] === 'tts');
     if (kid) speak(kid.correct ? 'Správně!' : `Správně je ${correctAnswerText(kid.question)}.`, kid.question.fact);
   });
 

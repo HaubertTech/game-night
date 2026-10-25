@@ -7,7 +7,7 @@
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
   import { dev } from '$app/env';
-  import { LEVELS, LEVEL_LABELS, THEMES, THEME_LABELS, PRESCHOOL_THEMES, type Level, type Theme } from '#lib/types.ts';
+  import { LEVELS, LEVEL_AGES, LEVEL_LABELS, THEMES, THEME_LABELS, LEVEL_THEMES, type Level, type Theme } from '#lib/types.ts';
   import { countQuestions, loadQuestions } from '#lib/questions.ts';
   import { createGame, mulberry32, shuffle, type Contestant } from '#lib/engine/index.ts';
   import {
@@ -23,7 +23,7 @@
     type HistoryEntry,
     type Profile,
   } from '#lib/storage.ts';
-  import { AVATARS, gamesLabel, TEAM_AVATARS } from '#lib/ui/labels.ts';
+  import { AVATARS, gamesLabel, LEVEL_EMOJI, TEAM_AVATARS } from '#lib/ui/labels.ts';
   import type { GameState } from '#lib/engine/quiz.ts';
   import { rememberTabletNight } from '#lib/ui/app/tablet-sync.ts';
 
@@ -164,8 +164,9 @@
     Array.from(new Set(contestants.map((c) => c.level))).filter((level) => counts[level].total === 0),
   );
 
-  const usesPreschoolMix = $derived(
-    contestants.some((c) => c.level === 'piskoviste') && themes.some((t) => !PRESCHOOL_THEMES.includes(t)),
+  /** Levels that get a "Mix" in some of the chosen rounds (they have no questions for that theme). */
+  const mixLevels = $derived(
+    LEVELS.filter((l) => contestants.some((c) => c.level === l) && themes.some((t) => !LEVEL_THEMES[l].includes(t))),
   );
 
   const canStart = $derived(contestants.length > 0 && themes.length > 0 && missingLevels.length === 0);
@@ -276,11 +277,11 @@
         <div class="row" role="group" aria-label="Úroveň">
           {#each LEVELS as level (level)}
             <button type="button" class="chip" aria-pressed={formLevel === level} onclick={() => (formLevel = level)}>
-              <span class="emoji"><ArtIcon name={LEVEL_ART[level]} /></span>{LEVEL_LABELS[level]}
+              <span class="emoji"><ArtIcon name={LEVEL_ART[level]} /></span>{LEVEL_LABELS[level]} <small class="level-age">{LEVEL_AGES[level]}</small>
             </button>
           {/each}
         </div>
-        <span class="muted small-note">Hospoda = dospělí · Lavice = 1. stupeň · Pískoviště = předškoláci (předčítá se)</span>
+        <span class="muted small-note">Kočárek = 2–3 roky, předčítá rodič · Pískoviště = školka, předčítá tablet · Prvňáček = 1. třída · Lavice = 2.–5. třída · Hospoda = dospělí</span>
       </div>
       <div class="field">
         <span>Obrázek</span>
@@ -325,7 +326,7 @@
           <div class="row" role="group" aria-label="Úroveň týmu">
             {#each LEVELS as level (level)}
               <button type="button" class="chip" aria-pressed={team.level === level} onclick={() => (team.level = level)}>
-                <span class="emoji"><ArtIcon name={LEVEL_ART[level]} /></span>{LEVEL_LABELS[level]}
+                <span class="emoji"><ArtIcon name={LEVEL_ART[level]} /></span>{LEVEL_LABELS[level]} <small class="level-age">{LEVEL_AGES[level]}</small>
               </button>
             {/each}
           </div>
@@ -358,9 +359,10 @@
         </button>
       {/each}
     </div>
-    {#if usesPreschoolMix}
-      <p class="note">🪣 Pro Pískoviště nejsou otázky z Dějin a ze Slov — v těch kolech dostane „Mix Pískoviště“.</p>
-    {/if}
+    {#each mixLevels as l (l)}
+      {@const missing = themes.filter((t) => !LEVEL_THEMES[l].includes(t))}
+      <p class="note" data-testid="mix-note">{LEVEL_EMOJI[l]} {LEVEL_LABELS[l]} nemá otázky z témat {missing.map((t) => THEME_LABELS[t]).join(', ')} — v těch kolech dostane „Mix {LEVEL_LABELS[l]}“.</p>
+    {/each}
 
     <div class="field">
       <span>Otázek na hráče v kole</span>
@@ -377,7 +379,7 @@
           <button class="chip" aria-pressed={timer === t} onclick={() => (timer = t)}>{t === null ? 'Vypnuto' : `${t} s`}</button>
         {/each}
       </div>
-      <span class="muted small-note">U Pískoviště je časovač vždy vypnutý.</span>
+      <span class="muted small-note">U Kočárku a Pískoviště je časovač vždy vypnutý, Prvňáček má o polovinu víc času.</span>
     </div>
   </section>
 
@@ -425,6 +427,11 @@
 </main>
 
 <style>
+  .level-age {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--ink-soft);
+  }
   .hero {
     display: flex;
     gap: 18px;

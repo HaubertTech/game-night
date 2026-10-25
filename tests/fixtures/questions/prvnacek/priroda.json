@@ -1,0 +1,5 @@
+[
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "prvnacek-priroda-001", "level": "prvnacek", "theme": "priroda", "type": "choice", "text": "Které zvíře spí celou zimu?", "options": ["🐻 Medvěd", "🐰 Zajíc", "🦊 Liška"], "answer": "🐻 Medvěd", "image": "❄️", "fact": "Testovací zajímavost R1."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "prvnacek-priroda-002", "level": "prvnacek", "theme": "priroda", "type": "choice", "text": "Kolik nohou má pavouk?", "options": ["8️⃣ Osm", "6️⃣ Šest", "4️⃣ Čtyři"], "answer": "8️⃣ Osm", "image": "🕷️", "fact": "Testovací zajímavost R2."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "prvnacek-priroda-003", "level": "prvnacek", "theme": "priroda", "type": "choice", "text": "Co dělá včela?", "options": ["🍯 Med", "🥛 Mléko", "🥚 Vajíčka"], "answer": "🍯 Med", "image": "🐝", "fact": "Testovací zajímavost R3."}
+]

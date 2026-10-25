@@ -1,6 +1,8 @@
 <script lang="ts">
   import type { Contestant } from '../engine/select.ts';
   import ContestantTag from './ContestantTag.svelte';
+  import { LEVEL_LABELS, LEVEL_READER } from '../types.ts';
+  import { LEVEL_EMOJI } from './labels.ts';
 
   let { contestant, joker, mix, onReady }: { contestant: Contestant; joker: boolean; mix: boolean; onReady: () => void } = $props();
 </script>
@@ -10,7 +12,10 @@
   <h1 class="visually-hidden">Na řadě je {contestant.name}</h1>
   <p class="who">Na řadě je</p>
   <ContestantTag {contestant} {joker} size="big" />
-  {#if mix}<p class="mix">🪣 Mix Pískoviště</p>{/if}
+  {#if mix}<p class="mix">{LEVEL_EMOJI[contestant.level]} Mix {LEVEL_LABELS[contestant.level]}</p>{/if}
+  {#if LEVEL_READER[contestant.level] === 'parent'}
+    <p class="muted" data-testid="parent-hint">Otázku přečte dítěti rodič a u napodobování potvrdí, jestli to zvládlo.</p>
+  {/if}
   <button class="btn primary big" onclick={onReady}>👋 Jsem tu, ukaž otázku</button>
 </article>
 

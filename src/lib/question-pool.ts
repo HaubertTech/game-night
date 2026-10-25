@@ -15,9 +15,9 @@ export function isQuestion(value: unknown): value is Question {
     typeof q.text === 'string' &&
     LEVELS.includes(q.level as Level) &&
     THEMES.includes(q.theme as Theme) &&
-    (q.type === 'choice' ? Array.isArray(q.options) && typeof q.answer === 'string'
+    (q.type === 'choice' || q.type === 'point' ? Array.isArray(q.options) && typeof q.answer === 'string'
       : q.type === 'estimate' ? typeof q.answer === 'number'
-      : q.type === 'open' ? typeof q.answer === 'string'
+      : q.type === 'open' || q.type === 'imitate' ? typeof q.answer === 'string'
       : false)
   );
 }

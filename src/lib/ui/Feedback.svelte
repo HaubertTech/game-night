@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Question } from '../types.ts';
+  import { hasOptions, type Question } from '../types.ts';
   import type { AnswerRecord } from '../engine/quiz.ts';
   import { deviationLabel, formatEstimate, pointsLabel } from './labels.ts';
 
@@ -7,7 +7,11 @@
     $props();
 
   const title = $derived(
-    answer.timedOut ? '⏰ Čas vypršel' : answer.correct ? (answer.precise ? '🎯 Výborný odhad!' : '✅ Správně!') : '🙈 Tentokrát ne',
+    answer.timedOut
+      ? '⏰ Čas vypršel'
+      : question.type === 'imitate'
+        ? answer.correct ? '✅ Zvládl/a!' : '🙂 Zkusíme jinou'
+        : answer.correct ? (answer.precise ? '🎯 Výborný odhad!' : '✅ Správně!') : '🙈 Tentokrát ne',
   );
 </script>
 
@@ -24,8 +28,9 @@
           ({deviationLabel(question, answer.given, question.answer)})</span>
       {/if}
     {:else}
+      {#if question.type === 'imitate'}<span class="muted">Vzor</span>{/if}
       <strong>{question.answer}</strong>
-      {#if question.type === 'choice' && answer.given && !answer.correct}
+      {#if hasOptions(question) && answer.given && !answer.correct}
         <span>Tvoje odpověď: {answer.given}</span>
       {/if}
     {/if}

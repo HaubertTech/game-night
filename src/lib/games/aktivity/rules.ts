@@ -2,7 +2,7 @@
 // scripts/check-aktivity.ts only reads the files and prints the report.
 
 import { LEVELS, type Level } from '../../types.ts';
-import { AKTIVITY_MODES, DIFFICULTIES, PRESCHOOL_MODES, type AktivityCard } from './types.ts';
+import { AKTIVITY_MODES, DIFFICULTIES, PRESCHOOL_LEVELS, PRESCHOOL_MODES, type AktivityCard } from './types.ts';
 
 export interface AktivityFile {
   /** File name relative to data/aktivity, e.g. `hospoda.json`. */
@@ -70,14 +70,14 @@ export function validateAktivityFiles(files: AktivityFile[]): AktivityReport {
         if (!wordLevels.has(key)) wordLevels.set(key, new Set());
         wordLevels.get(key)!.add(level);
       }
-      const modes: readonly string[] = level === 'piskoviste' ? [...PRESCHOOL_MODES, 'any'] : [...AKTIVITY_MODES, 'any'];
+      const modes: readonly string[] = PRESCHOOL_LEVELS.includes(level) ? [...PRESCHOOL_MODES, 'any'] : [...AKTIVITY_MODES, 'any'];
       if (typeof raw.mode !== 'string' || !modes.includes(raw.mode)) {
         err(`mode musí být ${modes.join('/')}.`, id);
       }
       if (!(DIFFICULTIES as readonly unknown[]).includes(raw.difficulty)) err('difficulty musí být 3, 4 nebo 5.', id);
       else byDifficulty.set(raw.difficulty as number, (byDifficulty.get(raw.difficulty as number) ?? 0) + 1);
       if (raw.image !== undefined && (typeof raw.image !== 'string' || raw.image.trim() === '')) err('image musí být emoji.', id);
-      if (level === 'piskoviste' && !raw.image) err('Předškolák nečte: image (emoji) je povinný.', id);
+      if (PRESCHOOL_LEVELS.includes(level) && !raw.image) err('Předškolák nečte: image (emoji) je povinný.', id);
       if (raw.forbidden !== undefined) {
         const f = raw.forbidden;
         if (!Array.isArray(f) || f.some((x) => typeof x !== 'string' || x.trim() === '')) {

@@ -1,0 +1,6 @@
+[
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "kocarek-priroda-001", "level": "kocarek", "theme": "priroda", "type": "point", "text": "Ukaž pejska.", "options": ["🐶 Pejsek", "🐱 Kočička"], "answer": "🐶 Pejsek", "image": "🐶", "fact": "Testovací zajímavost K1."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "kocarek-priroda-002", "level": "kocarek", "theme": "priroda", "type": "imitate", "text": "Jak dělá koza?", "answer": "Mééé", "image": "🐐", "fact": "Testovací zajímavost K2."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "kocarek-priroda-003", "level": "kocarek", "theme": "priroda", "type": "point", "text": "Ukaž kačenku.", "options": ["🦆 Kačenka", "🐮 Kravička", "🐷 Prasátko"], "answer": "🦆 Kačenka", "image": "🦆", "fact": "Testovací zajímavost K3."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "kocarek-priroda-004", "level": "kocarek", "theme": "priroda", "type": "imitate", "text": "Jak dělá pejsek?", "answer": "Haf haf", "image": "🐶", "fact": "Testovací zajímavost K4."}
+]

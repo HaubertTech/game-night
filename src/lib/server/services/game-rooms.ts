@@ -6,12 +6,12 @@
 import process from 'node:process';
 import type { AktivityGoal, AktivityTeam } from '../../games/aktivity/engine.ts';
 import { MAX_TEAMS, MAX_TIMER_SECONDS, MIN_TEAMS, MIN_TIMER_SECONDS } from '../../games/aktivity/engine.ts';
-import { ADULT_CATEGORIES, KIDS_CATEGORIES, alphabet, type MjzSettings } from '../../games/mjz/engine.ts';
+import { ADULT_CATEGORIES, KIDS_CATEGORIES, MJZ_LEVELS, alphabet, type MjzSettings } from '../../games/mjz/engine.ts';
 import { createChessGame } from '../../games/chess/engine.ts';
 import type { Contestant } from '../../engine/select.ts';
 import type { TableSeat } from '../../live/table-games.ts';
 import { one } from '../db.ts';
-import { fail, isLevel } from '../http.ts';
+import { fail, isLevel, LEVEL_LIST } from '../http.ts';
 import { listPlayers, type Player } from '../repo/players.ts';
 import { loadSeen } from '../repo/seen.ts';
 import { createTeam, findTeamWithMembers, listTeams } from '../repo/teams.ts';
@@ -164,7 +164,7 @@ export async function createMjzRoom(hub: LiveHub, householdId: number, body: Rec
     const o = isObj(raw) ? raw : {};
     const t = Number.isInteger(o.id) ? teamById.get(o.id as number) : undefined;
     if (!t) fail(400, 'Některé týmy do domácnosti nepatří.');
-    if (!isLevel(o.level)) fail(400, 'Tým musí mít úroveň hospoda, lavice nebo piskoviste.');
+    if (!isLevel(o.level)) fail(400, `Tým musí mít úroveň: ${LEVEL_LIST}.`);
     for (const m of t.member_ids) {
       if (playerIds.includes(m) || inTeams.has(m)) fail(400, 'Hráč nemůže hrát zároveň sám a v týmu.');
       inTeams.add(m);
@@ -172,6 +172,9 @@ export async function createMjzRoom(hub: LiveHub, householdId: number, body: Rec
     contestants.push({ id: teamSeat(t.id), name: t.name, avatar: t.avatar, level: o.level, memberIds: t.member_ids.map(String) });
   }
   if (contestants.length === 0) fail(400, 'Vyber aspoň jednoho hráče nebo tým.');
+  if (contestants.some((c) => !MJZ_LEVELS.includes(c.level))) {
+    fail(400, 'Kočárek Město-jméno-zvíře nehraje sám — může pomáhat dospělému.');
+  }
   if (contestants.length > MAX_MJZ_CONTESTANTS) fail(400, `Nejvýš ${MAX_MJZ_CONTESTANTS} hráčů.`);
 
   const nightId = await resolveNight(householdId, body.night_id);

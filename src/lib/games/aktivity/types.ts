@@ -1,7 +1,7 @@
 // Shared contract between the dataset (data/aktivity/*.json) and the game engine of
 // „Řekni, ukaž, nakresli“.
 
-import type { Level } from '../../types.ts';
+import { LEVELS, nearestLevel, type Level } from '../../types.ts';
 
 /** How the word is explained: describe it, act it out, draw it. */
 export const AKTIVITY_MODES = ['rekni', 'ukaz', 'nakresli'] as const;
@@ -35,7 +35,18 @@ export interface AktivityCard {
   forbidden?: string[];
 }
 
+/** Levels that only act out and draw (they do not read; an adult whispers the word). */
+export const PRESCHOOL_LEVELS: readonly Level[] = ['kocarek', 'piskoviste'];
+
 /** Modes allowed for an explainer of the given level. */
 export function modesForLevel(level: Level): readonly AktivityMode[] {
-  return level === 'piskoviste' ? PRESCHOOL_MODES : AKTIVITY_MODES;
+  return PRESCHOOL_LEVELS.includes(level) ? PRESCHOOL_MODES : AKTIVITY_MODES;
+}
+
+/**
+ * Which level's cards a player draws: their own when the dataset has them, otherwise the nearest
+ * level (kocarek → piskoviste with a parent's help; prvnacek → piskoviste/lavice until it has its own).
+ */
+export function cardLevelFor(level: Level, available: readonly Level[]): Level {
+  return nearestLevel(level, LEVELS.filter((l) => available.includes(l))) ?? level;
 }

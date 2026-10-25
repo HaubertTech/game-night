@@ -5,7 +5,7 @@
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
-  import { LEVELS, LEVEL_LABELS, THEMES, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
+  import { LEVELS, LEVEL_AGES, LEVEL_LABELS, THEMES, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
   import { writeToken } from '#lib/live-client/tokens.ts';
   import { isRoomGame, ROOM_GAME_ART, ROOM_GAME_LABELS, ROOM_GAMES, type RoomGame } from '#lib/live/games.ts';
   import GameCard from '#lib/ui/art/GameCard.svelte';
@@ -208,7 +208,7 @@
               <div class="row" role="group" aria-label={`Úroveň týmu ${t.name}`}>
                 {#each LEVELS as level (level)}
                   <button class="chip" aria-pressed={selectedTeams[t.id] === level} onclick={() => (selectedTeams = { ...selectedTeams, [t.id]: level })}>
-                    <ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]}
+                    <ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]} <small class="level-age">{LEVEL_AGES[level]}</small>
                   </button>
                 {/each}
               </div>
@@ -216,7 +216,7 @@
           </div>
         {/each}
       {/if}
-      <p class="muted">Kdo nemá telefon (třeba předškolák), toho v čekárně přepneš na „hraje na TV“.</p>
+      <p class="muted">Kdo nemá telefon (třeba předškolák), toho v čekárně přepneš na „hraje na TV“. Kočárek hraje na TV s rodičem: rodič přečte otázku a u napodobování potvrdí ✓/✗.</p>
     </section>
 
     <section class="card stack">
@@ -244,7 +244,7 @@
           <button class="chip" aria-pressed={timer === t} onclick={() => (timer = t)}>{t === null ? 'Bez časovače' : `${t} s`}</button>
         {/each}
       </div>
-      <p class="muted">Pískoviště hraje vždy bez časovače.</p>
+      <p class="muted">Kočárek a Pískoviště hrají vždy bez časovače, Prvňáček má o polovinu víc času.</p>
     </section>
 
     {#if error}<p class="error" role="alert">{error}</p>{/if}
@@ -255,6 +255,11 @@
 </main>
 
 <style>
+  .level-age {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--ink-soft);
+  }
   .head h1 {
     margin: 0;
     flex: 1;

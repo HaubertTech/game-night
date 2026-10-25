@@ -7,11 +7,12 @@
 // The state is plain JSON. Time never comes from the clock here: every action carries `now`
 // (epoch ms) and the server sends `timeout` once `deadline` has passed.
 
-import type { Level, Question, Theme } from '../types.ts';
+import { hasOptions, isJudged, type Level, type Question, type Theme } from '../types.ts';
 import {
   createGame,
   scoreEstimate,
   estimateTolerance,
+  levelTimer,
   standings,
   summarize,
   STATE_VERSION,
@@ -27,6 +28,9 @@ import {
 export const LIVE_STATE_VERSION = 1;
 /** Longest accepted free-text answer to an open question. */
 export const OPEN_ANSWER_MAX = 200;
+/** Imitate answers the host (or a parent on a phone) gives directly: done / try another one. */
+export const IMITATE_DONE = '✓';
+export const IMITATE_FAILED = '✗';
 
 export interface LiveContestant extends Contestant {
   /** Plays on the TV instead of a phone (answers after the phones, read aloud). */
@@ -183,9 +187,9 @@ export function isKicked(state: LiveState, id: string): boolean {
   return state.kicked.includes(id);
 }
 
-/** Timer for one contestant in seconds; preschool never has one. */
+/** Timer for one contestant in seconds; kocarek and piskoviste never have one, prvnacek has a longer one. */
 export function liveTimerFor(state: LiveState, level: Level): number | null {
-  return level === 'piskoviste' ? null : state.config.timerSeconds;
+  return levelTimer(level, state.config.timerSeconds);
 }
 
 /** Number of steps in a round = most questions any contestant has in it. */
@@ -271,8 +275,9 @@ export function summarizeLive(state: LiveState): GameSummary {
 // ---------- transitions ----------
 
 function deadlineFor(state: LiveState, contestants: LiveContestant[], now: number): number | null {
-  const timer = contestants.some((c) => liveTimerFor(state, c.level) !== null) ? state.config.timerSeconds : null;
-  return timer === null ? null : now + timer * 1000;
+  // Everyone in the stage answers at once: the longest timer of the timed contestants wins.
+  const timers = contestants.map((c) => liveTimerFor(state, c.level)).filter((t): t is number => t !== null);
+  return timers.length === 0 ? null : now + Math.max(...timers) * 1000;
 }
 
 function beginStep(state: LiveState, step: number, now: number): LiveState {
@@ -313,7 +318,7 @@ function record(state: LiveState, c: LiveContestant): AnswerRecord {
   if (p.given === null) {
     return { ...base, given: null, correct: false, basePoints: 0, points: 0, ...(p.timedOut ? { timedOut: true } : {}) };
   }
-  if (q.type === 'choice') {
+  if (hasOptions(q)) {
     const correct = p.given === q.answer;
     const basePoints = correct ? 1 : 0;
     return { ...base, given: p.given, correct, basePoints, points: basePoints * multiplier };
@@ -322,7 +327,12 @@ function record(state: LiveState, c: LiveContestant): AnswerRecord {
     const { points, error, diff, closeness, precise } = scoreEstimate(p.given as number, q.answer, estimateTolerance(q));
     return { ...base, given: p.given, correct: points > 0, basePoints: points, points: points * multiplier, error, diff, closeness, precise };
   }
-  // Open question: 0 until the host judges it.
+  if (q.type === 'imitate' && (p.given === IMITATE_DONE || p.given === IMITATE_FAILED)) {
+    const correct = p.given === IMITATE_DONE;
+    const basePoints = correct ? 1 : 0;
+    return { ...base, given: p.given, correct, basePoints, points: basePoints * multiplier };
+  }
+  // Open (and imitate without a direct verdict): 0 until the host judges it.
   return { ...base, given: p.given, correct: false, basePoints: 0, points: 0 };
 }
 
@@ -331,7 +341,7 @@ function toReveal(state: LiveState): LiveState {
   const scores = { ...state.scores };
   for (const r of records) scores[r.contestantId] = (scores[r.contestantId] ?? 0) + r.points;
   const unjudged = records
-    .filter((r) => r.given !== null && state.questions[r.questionId]?.type === 'open')
+    .filter((r) => r.given !== null && needsJudging(state.questions[r.questionId], r.given))
     .map((r) => r.contestantId);
   return {
     ...state,
@@ -355,8 +365,15 @@ function advanceIfDone(state: LiveState, now: number): LiveState {
   return state;
 }
 
+/** Open answers, and imitate answers that only say "done" (a phone), wait for the host's ✓/✗. */
+function needsJudging(q: Question | undefined, given: string | number): boolean {
+  if (!q) return false;
+  if (q.type === 'open') return true;
+  return q.type === 'imitate' && given !== IMITATE_DONE && given !== IMITATE_FAILED;
+}
+
 function validAnswer(q: Question, turn: Turn, value: unknown): value is string | number {
-  if (q.type === 'choice') return typeof value === 'string' && (turn.options ?? q.options).includes(value);
+  if (hasOptions(q)) return typeof value === 'string' && (turn.options ?? q.options).includes(value);
   if (q.type === 'estimate') return typeof value === 'number' && Number.isFinite(value);
   return typeof value === 'string' && value.length <= OPEN_ANSWER_MAX;
 }
@@ -429,7 +446,7 @@ export function applyLive(state: LiveState, action: LiveAction): LiveResult {
       if (!st) return fail(state, 'forbidden');
       if (state.pending[contestantId]) return fail(state, 'alreadyAnswered');
       const q = state.questions[st.turn.questionId];
-      const value = q.type === 'open' && typeof action.value === 'string' ? action.value.trim() : action.value;
+      const value = isJudged(q) && typeof action.value === 'string' ? action.value.trim() : action.value;
       if (!validAnswer(q, st.turn, value)) return fail(state, 'invalidAnswer');
       const next = { ...state, pending: { ...state.pending, [contestantId]: { given: value, at: now } } };
       return ok(advanceIfDone(next, now));
@@ -467,7 +484,8 @@ export function applyLive(state: LiveState, action: LiveAction): LiveResult {
         (a) => a.round === state.roundIndex && a.turn === st.index && a.contestantId === action.contestantId,
       );
       const old = state.answers[i];
-      if (!old || state.questions[old.questionId]?.type !== 'open') return fail(state, 'forbidden');
+      const judgedQ = old ? state.questions[old.questionId] : undefined;
+      if (!old || !judgedQ || !isJudged(judgedQ)) return fail(state, 'forbidden');
       const multiplier = state.jokers[action.contestantId] === state.roundIndex ? 2 : 1;
       const basePoints = action.correct ? 1 : 0;
       const updated: AnswerRecord = { ...old, correct: action.correct, basePoints, points: basePoints * multiplier };

@@ -13,9 +13,11 @@ export const THEME_EMOJI: Record<Theme, string> = {
 };
 
 export const LEVEL_EMOJI: Record<Level, string> = {
-  hospoda: '🍺',
-  lavice: '✏️',
+  kocarek: '🍼',
   piskoviste: '🪣',
+  prvnacek: '🎒',
+  lavice: '✏️',
+  hospoda: '🍺',
 };
 
 export const AVATARS = ['🦊', '🐻', '🐸', '🦉', '🐰', '🐢', '🦔', '🐱', '🐶', '🐼', '🦁', '🐝', '🐞', '🐿️', '🦄', '🐧', '🐙', '🦕'];

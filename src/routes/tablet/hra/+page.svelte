@@ -3,7 +3,7 @@
   import { THEME_ART } from '#lib/ui/art/art.ts';
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
-  import { THEME_LABELS } from '#lib/types.ts';
+  import { LEVEL_READER, THEME_LABELS, hasOptions, isChildLevel } from '#lib/types.ts';
   import {
     currentContestant,
     currentQuestion,
@@ -91,28 +91,30 @@
   const turn = $derived(game ? currentTurn(game) : undefined);
   const contestant = $derived(game ? currentContestant(game) : undefined);
   const question = $derived(game ? currentQuestion(game) : undefined);
-  const kids = $derived(contestant?.level === 'piskoviste');
+  const kids = $derived(contestant ? isChildLevel(contestant.level) : false);
+  /** Piskoviste does not read: the app reads the question and the result aloud. Prvnacek reads on a tap. */
+  const autoRead = $derived(contestant ? LEVEL_READER[contestant.level] === 'tts' : false);
   const timer = $derived(game ? timerFor(game) : null);
   const jokerNow = $derived(game && contestant ? hasJokerInRound(game, contestant.id) : false);
 
   function readQuestion() {
     if (!question || !turn) return;
-    speak(...questionSpeech(question.text, question.type === 'choice' ? (turn.options ?? question.options) : []));
+    speak(...questionSpeech(question.text, hasOptions(question) ? (turn.options ?? question.options) : []));
   }
 
   function onReady() {
     dispatch({ type: 'ready' });
     // Speak inside the tap handler: iPad Safari only allows speech started by a user gesture.
-    if (kids) readQuestion();
+    if (autoRead) readQuestion();
   }
 
   function onAnswer(value: string | number) {
     stop();
     dispatch({ type: 'answer', value });
-    if (kids && game) {
+    if (autoRead && game) {
       const a = lastAnswer(game);
       const q = question;
-      if (a && q && q.type === 'choice') speak(a.correct ? 'Správně!' : `Správně je ${q.answer}.`, q.fact);
+      if (a && q && hasOptions(q)) speak(a.correct ? 'Správně!' : `Správně je ${q.answer}.`, q.fact);
     }
   }
 

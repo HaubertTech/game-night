@@ -7,7 +7,7 @@
 // messages are unchanged, so version 1 clients keep working with quiz rooms. Chess and the
 // digital card games (`chess`, `prsi-hra`, `zoliky-hra`) use the same v2 messages.
 
-import type { Level, Question, Theme } from '../types.ts';
+import { hasOptions, type Level, type Question, type Theme } from '../types.ts';
 import type { GameSummary } from '../engine/quiz.ts';
 import {
   currentTvContestant,
@@ -166,9 +166,11 @@ export interface PublicQuestion {
   theme: Theme;
   text: string;
   image?: string;
-  /** Shuffled options of the turn (choice only). */
+  /** Shuffled options of the turn (choice and point). */
   options?: string[];
   unit?: string;
+  /** Imitate only: the model answer for the parent („Mééé“) — not a secret, the child acts it out. */
+  model?: string;
   /** Question comes from another theme than the round (preschool mix). */
   fallback: boolean;
 }
@@ -255,7 +257,8 @@ function publicQuestion(state: LiveState, contestantId: string): PublicQuestion 
     theme: q.theme,
     text: q.text,
     ...(q.image ? { image: q.image } : {}),
-    ...(q.type === 'choice' ? { options: (st.turn.options ?? q.options).slice() } : {}),
+    ...(hasOptions(q) ? { options: (st.turn.options ?? q.options).slice() } : {}),
+    ...(q.type === 'imitate' ? { model: q.answer } : {}),
     ...(q.type === 'estimate' ? { unit: q.unit } : {}),
     fallback: st.turn.fallback,
   };
