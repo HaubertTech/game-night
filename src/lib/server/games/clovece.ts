@@ -1,5 +1,5 @@
 // Člověče, nezlob se in a live room: the TV shows the board, each person rolls and picks a pawn on
-// their phone, computers fill the free seats and play on the server after a short pause (the
+// their phone (a person without a phone plays on the TV through the host), computers fill the free seats and play on the server after a short pause (the
 // same scheduling as the digital card games, card-table.ts). The finished game goes to the league
 // as gameType 'clovece' (computers are left out, places stay as at the whole table).
 
@@ -72,6 +72,13 @@ export function createCloveceRoom(input: CreateCloveceRoomInput): CloveceRoomSta
   };
 }
 
+/** The seat on turn when it plays on the TV (the host moves for it), else null. */
+function tvSeatOnTurn(room: CloveceRoomState): string | null {
+  if (!room.started || room.table.phase !== 'playing') return null;
+  const seat = room.seats.find((s) => s.id === room.table.turn);
+  return seat?.onTv && !seat.ai ? seat.id : null;
+}
+
 function hintFor(room: CloveceRoomState, me: string | null): CloveceRoomView['hint'] {
   const t = room.table;
   if (!me || !viewerSeatHints(room, me) || !room.started || t.phase !== 'playing' || t.turn !== me) return null;
@@ -81,6 +88,8 @@ function hintFor(room: CloveceRoomState, me: string | null): CloveceRoomView['hi
 
 export function cloveceRoomView(room: CloveceRoomState, viewer: Parameters<typeof viewFor>[1]): CloveceRoomView {
   const me = viewer.role === 'contestant' ? viewer.contestantId : null;
+  // The host gets the owl for a TV seat on its turn, as the phone would.
+  const hintSeat = me ?? (viewer.role === 'host' ? tvSeatOnTurn(room) : null);
   return {
     ...viewFor(room.table, viewer),
     viewer: viewer.role,
@@ -90,7 +99,7 @@ export function cloveceRoomView(room: CloveceRoomState, viewer: Parameters<typeo
     seats: room.seats,
     deadline: room.nextKind === 'turn' ? room.nextAt : null,
     turnSeconds: room.turnSeconds,
-    hint: hintFor(room, me),
+    hint: hintFor(room, hintSeat),
   };
 }
 
@@ -109,10 +118,15 @@ export const cloveceRoomAdapter: GameAdapter<CloveceRoomState, CloveceRoomComman
       return { ok: true, state: reschedule({ ...room, started: true }, ops, now) };
     }
     if (!room.started) return { ok: false, error: 'wrongPhase' };
-    // The TV only watches; people play on their phones, computers on the server.
-    if (by.role !== 'contestant') return { ok: false, error: 'forbidden' };
-    if (room.seats.find((s) => s.id === by.contestantId)?.ai) return { ok: false, error: 'forbidden' };
-    const r = applyClovece(room.table, { ...command, by, now });
+    // People play on their phones, computers on the server; the host only for a seat on the TV.
+    let actor = by;
+    if (by.role === 'host') {
+      const tvSeat = tvSeatOnTurn(room);
+      if (!tvSeat) return { ok: false, error: 'forbidden' };
+      actor = { role: 'contestant', contestantId: tvSeat };
+    } else if (by.role !== 'contestant') return { ok: false, error: 'forbidden' };
+    else if (room.seats.find((s) => s.id === by.contestantId)?.ai) return { ok: false, error: 'forbidden' };
+    const r = applyClovece(room.table, { ...command, by: actor, now });
     if (!r.ok) return { ok: false, error: ERRORS[r.error] };
     return { ok: true, state: reschedule({ ...room, table: r.state }, ops, now) };
   },
@@ -121,7 +135,7 @@ export const cloveceRoomAdapter: GameAdapter<CloveceRoomState, CloveceRoomComman
   },
   timeoutAt: (room) => room.nextAt,
   timeout: (room, now) => runServerMove(room, ops, now, 'clovece'),
-  seats: (room) => room.seats.filter((s) => !s.ai).map((s) => ({ id: s.id, joinable: room.table.phase !== 'finished' })),
+  seats: (room) => room.seats.filter((s) => !s.ai).map((s) => ({ id: s.id, joinable: !s.onTv && room.table.phase !== 'finished' })),
   kicked: () => [],
   kickTarget: () => null,
   isLobby: (room) => !room.started,

@@ -2,7 +2,9 @@
 
 Digitální deskovka pro 2–4 hráče: na jednom tabletu (`/clovece`), proti počítači a v místnosti
 televize + mobily (`/tv`, adaptér `src/lib/server/games/clovece.ts`). Dohraná hra jde do ligy jako
-`gameType: 'clovece'` (počítače se nezapisují, pořadí lidí zůstává podle celého stolu).
+`gameType: 'clovece'` (počítače se nezapisují, pořadí lidí zůstává podle celého stolu, takže prohra
+s počítačem není výhra). Hráč bez telefonu (malé dítě) se v nastavení označí „📺 na TV“: když je na
+tahu, hostitel za něj hází a vybírá figurku přímo na televizi, se sovou, má-li zapnuté nápovědy.
 
 | Soubor | Co dělá |
 |---|---|

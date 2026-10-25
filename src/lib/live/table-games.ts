@@ -42,6 +42,8 @@ export interface TableSeat {
   ai: AiLevel | null;
   /** Hints for children on this player's phone. */
   hints: boolean;
+  /** Člověče: a person without a phone; the host rolls and moves for them on the TV. */
+  onTv?: boolean;
 }
 
 export interface CardRoomBase {

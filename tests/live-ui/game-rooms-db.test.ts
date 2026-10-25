@@ -350,6 +350,18 @@ describe('POST /api/rooms: Člověče, nezlob se', () => {
     expect(pawns.status).toBe(400);
     const flag = await httpError(() => postRoom(fakeEvent({ body: { game: 'clovece', player_ids: [p[0].id], computers: 1, capture: 'ne' }, household: home })));
     expect(flag.status).toBe(400);
+    const stranger = await httpError(() => postRoom(fakeEvent({ body: { game: 'clovece', player_ids: [p[0].id], computers: 1, on_tv: [p[1].id] }, household: home })));
+    expect(stranger.message).toMatch(/na TV/i);
+  });
+
+  it('marks players without a phone as TV seats', async () => {
+    const { code } = await create({ game: 'clovece', player_ids: [p[0].id, p[2].id], on_tv: [p[2].id] });
+    const state = hub.rooms.getState<CloveceRoomState>(code)!;
+    expect(state.seats.map((s) => [s.id, s.onTv])).toEqual([
+      [`p${p[0].id}`, false],
+      [`p${p[2].id}`, true],
+    ]);
+    expect(hub.rooms.seats(code).map((s) => s.joinable)).toEqual([true, false]);
   });
 
   it('plays with a computer and records the people as clovece', async () => {

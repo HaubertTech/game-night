@@ -1,4 +1,4 @@
-// Člověče, nezlob se in a live room: seats for phones, the TV only watches, computers move through
+// Člověče, nezlob se in a live room: seats for phones, the TV plays only for a seat without a phone, computers move through
 // the scheduler, the owl's hint for children, a whole game and its league input.
 
 import { describe, expect, it } from 'vitest';
@@ -98,6 +98,35 @@ describe('rooms: Člověče, nezlob se', () => {
     expect(tv.last('error')?.code).toBe('forbidden');
     await phone.send({ type: 'action', game: 'clovece', action: { type: 'roll' } });
     expect(phone.last('error')?.code).toBe('notYourTurn');
+  });
+
+  it('the host rolls and moves for a player on the TV, only on that player\'s turn', async () => {
+    const s = setup();
+    const kid: TableSeat = { ...seat('p2', 'Bára', null, true), level: 'piskoviste', onTv: true };
+    const { code, tv, phone } = await room(s, [kid, seat('p1', 'Táta')]);
+    expect(s.manager.seats(code)).toEqual([
+      { id: 'p2', joinable: false, kicked: false },
+      { id: 'p1', joinable: true, kicked: false },
+    ]);
+    const other = s.client('phone2');
+    await other.send({ type: 'hello', code, role: 'player' });
+    await other.send({ type: 'join', contestantId: 'p2' });
+    expect(other.last('error')?.code).toBe('forbidden');
+
+    await tv.send({ type: 'action', game: 'clovece', action: { type: 'start' } });
+    expect(tv.view()).toMatchObject({ turn: 'p2', hint: { text: 'Hoď kostkou.', pawn: null } });
+    expect(phone.view()?.hint).toBeNull();
+    for (let i = 0; i < 200 && s.manager.getState<CloveceRoomState>(code)!.table.turn === 'p2'; i++) {
+      const st = s.manager.getState<CloveceRoomState>(code)!;
+      await tv.send({ type: 'action', game: 'clovece', action: adviseClovece(st.table, 2).command });
+      expect(tv.last('error')).toBeUndefined();
+    }
+    const st = s.manager.getState<CloveceRoomState>(code)!;
+    expect(st.table.turn).toBe('p1');
+    expect(st.table.seq).toBeGreaterThan(0);
+    expect(tv.view()?.hint).toBeNull();
+    await tv.send({ type: 'action', game: 'clovece', action: { type: 'roll' } });
+    expect(tv.last('error')?.code).toBe('forbidden');
   });
 
   it('computers move after the pause and pass the turn to the phone', async () => {

@@ -3,7 +3,8 @@
   import { LEVEL_ART } from '#lib/ui/art/art.ts';
   import Avatar from '#lib/ui/art/Avatar.svelte';
   // TV setup of Člověče, nezlob se: people on phones, computers for the free seats (2–4 in all),
-  // the owl's hints for children, the variants and an optional time limit per turn.
+  // the owl's hints for children, who plays on the TV without a phone, the variants and an optional
+  // time limit per turn.
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { AI_LEVEL_LABELS } from '../../games/clovece/ai.ts';
@@ -26,18 +27,20 @@
   let computers = $state(1);
   let level = $state<AiLevel>(2);
   let hints = $state<number[]>([]);
+  let onTv = $state<number[]>([]);
   let turnSeconds = $state<number | null>(null);
   let settings = $state<CloveceSettings>({ ...DEFAULT_SETTINGS });
   let busy = $state(false);
   let error = $state('');
 
   onMount(() => {
-    const saved = loadSetting<{ selected?: number[]; computers?: number; level?: AiLevel; hints?: number[]; turnSeconds?: number | null; settings?: CloveceSettings }>(KEY);
+    const saved = loadSetting<{ selected?: number[]; computers?: number; level?: AiLevel; hints?: number[]; onTv?: number[]; turnSeconds?: number | null; settings?: CloveceSettings }>(KEY);
     if (!saved) return;
     selected = (saved.selected ?? []).filter((id) => players.some((p) => p.id === id)).slice(0, MAX_PLAYERS);
     if (Number.isInteger(saved.computers)) computers = Math.max(0, Math.min(3, saved.computers!));
     if (saved.level === 1 || saved.level === 2 || saved.level === 3) level = saved.level;
     hints = (saved.hints ?? []).filter((id) => selected.includes(id));
+    onTv = (saved.onTv ?? []).filter((id) => selected.includes(id));
     if (saved.turnSeconds === null || TURN_LIMITS.includes(saved.turnSeconds ?? null)) turnSeconds = saved.turnSeconds ?? null;
     if (saved.settings) settings = { ...DEFAULT_SETTINGS, ...saved.settings };
   });
@@ -50,6 +53,7 @@
     if (selected.includes(p.id)) {
       selected = selected.filter((x) => x !== p.id);
       hints = hints.filter((x) => x !== p.id);
+      onTv = onTv.filter((x) => x !== p.id);
       return;
     }
     if (selected.length >= MAX_PLAYERS) return;
@@ -68,6 +72,7 @@
         computers: Math.min(computers, maxComputers),
         computer_level: level,
         hints_for: hints.filter((id) => selected.includes(id)),
+        on_tv: onTv.filter((id) => selected.includes(id)),
         turn_seconds: turnSeconds,
         pawns: settings.pawns,
         capture: settings.capture,
@@ -76,7 +81,7 @@
         ...(nightId !== null ? { night_id: nightId } : {}),
       });
       if ('unauthorized' in result) return goto('/');
-      saveSetting(KEY, { selected, computers, level, hints, turnSeconds, settings });
+      saveSetting(KEY, { selected, computers, level, hints, onTv, turnSeconds, settings });
       await goto(`/tv/${result.code}`);
     } catch (err) {
       error = (err as Error).message;
@@ -87,7 +92,7 @@
 </script>
 
 <section class="card stack">
-  <h2>Kdo hraje na telefonu</h2>
+  <h2>Kdo hraje</h2>
   {#if players.length === 0}
     <p class="muted">V domácnosti zatím nejsou hráči. Přidej je na <a href="/hraci">stránce hráčů</a>.</p>
   {/if}
@@ -105,6 +110,13 @@
         <button class="chip" aria-pressed={hints.includes(p.id)} onclick={() => (hints = hints.includes(p.id) ? hints.filter((x) => x !== p.id) : [...hints, p.id])} aria-label={`Nápovědy: ${p.name}`}>🦉 {p.name}</button>
       {/each}
     </div>
+    <div class="row" role="group" aria-label="Hraje na televizi">
+      <span class="label">Bez telefonu, na TV</span>
+      {#each players.filter((p) => selected.includes(p.id)) as p (p.id)}
+        <button class="chip" aria-pressed={onTv.includes(p.id)} onclick={() => (onTv = onTv.includes(p.id) ? onTv.filter((x) => x !== p.id) : [...onTv, p.id])} aria-label={`Na televizi: ${p.name}`}>📺 {p.name}</button>
+      {/each}
+    </div>
+    <p class="muted">Kdo hraje na TV, za toho hází a táhne hostitel na televizi.</p>
   {/if}
 </section>
 

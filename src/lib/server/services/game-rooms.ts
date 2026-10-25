@@ -298,6 +298,8 @@ export async function createCloveceRoomFor(hub: LiveHub, householdId: number, bo
   const level = body.computer_level ?? 2;
   if (level !== 1 && level !== 2 && level !== 3) fail(400, 'Síla počítače je 1, 2 nebo 3.');
   const hintsFor = new Set(idList(body.hints_for, 'hints_for'));
+  const onTv = new Set(idList(body.on_tv, 'on_tv'));
+  if ([...onTv].some((id) => !playerIds.includes(id))) fail(400, 'Na TV může hrát jen vybraný hráč.');
   const turnSeconds = body.turn_seconds ?? null;
   if (!TURN_LIMITS.includes(turnSeconds as number | null)) fail(400, 'Neplatný čas na tah.');
   const pawns = body.pawns ?? 4;
@@ -313,7 +315,7 @@ export async function createCloveceRoomFor(hub: LiveHub, householdId: number, bo
   const byId = new Map(players.map((p) => [p.id, p]));
   const seats: TableSeat[] = playerIds.map((id) => {
     const p = byId.get(id) ?? fail(400, 'Někteří hráči do domácnosti nepatří.');
-    return { id: playerSeat(p.id), name: p.name, avatar: p.avatar, level: p.level, ai: null, hints: hintsFor.has(p.id) };
+    return { id: playerSeat(p.id), name: p.name, avatar: p.avatar, level: p.level, ai: null, hints: hintsFor.has(p.id), onTv: onTv.has(p.id) };
   });
   for (let i = 0; i < (computers as number); i++) {
     seats.push({ id: `ai${i + 1}`, name: COMPUTER_NAMES[i], avatar: '🤖', level: 'hospoda', ai: level, hints: false });
