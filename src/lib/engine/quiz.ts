@@ -41,6 +41,8 @@ export interface AnswerRecord {
   points: number;
   /** Relative error of an estimate (0.05 = 5 %). */
   error?: number;
+  /** Estimate within the tight tolerance (praise only, no extra point). */
+  precise?: boolean;
   /** Absolute difference of an estimate (|given − answer|). */
   diff?: number;
   /** Error measured against the partial tolerance (0 = exact, 1 = edge of 1 point); used to pick the best estimate. */
@@ -145,13 +147,16 @@ export function scoreEstimate(
   given: number,
   answer: number,
   tolerance: EstimateTolerance = { kind: 'relative', full: ESTIMATE_FULL, partial: ESTIMATE_PARTIAL },
-): { points: number; error: number; diff: number; closeness: number } {
+): { points: number; error: number; diff: number; closeness: number; precise: boolean } {
   const diff = Math.abs(given - answer);
   const error = answer === 0 ? (given === 0 ? 0 : Infinity) : diff / Math.abs(answer);
   const measured = tolerance.kind === 'absolute' ? diff : error;
-  const points = measured <= tolerance.full + 1e-9 ? 2 : measured <= tolerance.partial + 1e-9 ? 1 : 0;
+  // One point max, same as any other question — two points made adults' estimates worth more
+  // than children's questions. `precise` only changes the praise.
+  const precise = measured <= tolerance.full + 1e-9;
+  const points = measured <= tolerance.partial + 1e-9 ? 1 : 0;
   const closeness = tolerance.partial > 0 ? measured / tolerance.partial : measured === 0 ? 0 : Infinity;
-  return { points, error, diff, closeness };
+  return { points, error, diff, closeness, precise };
 }
 
 // ---------- selectors ----------
@@ -272,8 +277,8 @@ export function reduce(state: GameState, action: Action): GameState {
       if (q.type === 'estimate') {
         const value = typeof action.value === 'number' ? action.value : Number.NaN;
         if (!Number.isFinite(value)) return state;
-        const { points, error, diff, closeness } = scoreEstimate(value, q.answer, estimateTolerance(q));
-        return finishTurn(state, { given: value, correct: points > 0, basePoints: points, error, diff, closeness });
+        const { points, error, diff, closeness, precise } = scoreEstimate(value, q.answer, estimateTolerance(q));
+        return finishTurn(state, { given: value, correct: points > 0, basePoints: points, error, diff, closeness, precise });
       }
       return state; // open questions go through reveal → judge
     }

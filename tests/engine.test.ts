@@ -213,9 +213,11 @@ describe('reduce', () => {
 
 describe('estimate scoring', () => {
   it('gives 2 points within 10 %, 1 point within 25 %, otherwise 0', () => {
-    expect(scoreEstimate(100, 100).points).toBe(2);
-    expect(scoreEstimate(110, 100).points).toBe(2);
-    expect(scoreEstimate(90, 100).points).toBe(2);
+    expect(scoreEstimate(100, 100).points).toBe(1);
+    expect(scoreEstimate(100, 100).precise).toBe(true);
+    expect(scoreEstimate(110, 100).points).toBe(1);
+    expect(scoreEstimate(111, 100).precise).toBe(false);
+    expect(scoreEstimate(90, 100).points).toBe(1);
     expect(scoreEstimate(111, 100).points).toBe(1);
     expect(scoreEstimate(75, 100).points).toBe(1);
     expect(scoreEstimate(74, 100).points).toBe(0);
@@ -226,8 +228,9 @@ describe('estimate scoring', () => {
   it('scores years with an absolute tolerance instead of percent', () => {
     const years = estimateTolerance({ unit: 'rok' });
     expect(years).toEqual({ kind: 'absolute', full: 3, partial: 10 });
-    expect(scoreEstimate(1918, 1918, years).points).toBe(2);
-    expect(scoreEstimate(1921, 1918, years).points).toBe(2);
+    expect(scoreEstimate(1918, 1918, years).points).toBe(1);
+    expect(scoreEstimate(1921, 1918, years)).toMatchObject({ points: 1, precise: true });
+    expect(scoreEstimate(1922, 1918, years).precise).toBe(false);
     expect(scoreEstimate(1922, 1918, years).points).toBe(1);
     expect(scoreEstimate(1908, 1918, years).points).toBe(1);
     expect(scoreEstimate(1907, 1918, years).points).toBe(0);

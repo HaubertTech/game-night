@@ -7,7 +7,7 @@
     $props();
 
   const title = $derived(
-    answer.timedOut ? '⏰ Čas vypršel' : answer.correct ? (answer.basePoints === 2 ? '🎯 Výborný odhad!' : '✅ Správně!') : '🙈 Tentokrát ne',
+    answer.timedOut ? '⏰ Čas vypršel' : answer.correct ? (answer.precise ? '🎯 Výborný odhad!' : '✅ Správně!') : '🙈 Tentokrát ne',
   );
 </script>
 

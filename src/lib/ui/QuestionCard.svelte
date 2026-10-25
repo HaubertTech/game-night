@@ -80,7 +80,13 @@
       <span class="unit">{question.unit}</span>
       <button class="btn primary big" type="submit" disabled={!estimateValid}>Odpovědět</button>
     </form>
-    <p class="muted hint">2 body do 10 % od správné hodnoty, 1 bod do 25 %.</p>
+    <p class="muted hint">
+      {#if question.unit.trim().toLowerCase() === 'rok' || question.tolerance}
+        1 bod, když se trefíš do ±{question.tolerance?.partial ?? 10} {question.unit === 'rok' ? 'let' : question.unit}.
+      {:else}
+        1 bod, když se trefíš do 25 % od správné hodnoty.
+      {/if}
+    </p>
   {:else if phase === 'question'}
     <p class="muted hint">Řekni odpověď nahlas, pak ji ukaž ostatním.</p>
     <button class="btn clay big" onclick={onReveal}>👀 Ukázat odpověď</button>
