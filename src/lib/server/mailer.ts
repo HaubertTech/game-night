@@ -189,7 +189,7 @@ export function getMailer(): Mailer {
   if (mailer) return mailer;
   loadEnv();
   const url = process.env.SMTP_URL;
-  const from = process.env.MAIL_FROM || 'Domácí liga <liga@localhost>';
+  const from = process.env.MAIL_FROM || 'Herní večer <hry@localhost>';
   mailer = url ? new SmtpMailer(url, from) : new ConsoleMailer();
   if (!url) console.warn('[mail] SMTP_URL not set, e-mails go to the outbox directory only');
   return mailer;

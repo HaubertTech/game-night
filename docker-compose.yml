@@ -1,4 +1,4 @@
-# Local Postgres for Domácí liga. Credentials come from .env (see .env.example).
+# Local Postgres for Herní večer. Credentials come from .env (see .env.example).
 name: domaci-liga
 
 services:

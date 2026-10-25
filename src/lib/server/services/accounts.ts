@@ -100,7 +100,7 @@ async function sendVerification(account: Pick<Account, 'id' | 'email'>, origin: 
   await createToken(account.id, 'verify', hash, VERIFY_TTL_MINUTES);
   await sendSafely({
     to: account.email,
-    subject: 'Domácí liga: ověř svůj e-mail',
+    subject: 'Herní večer: ověř svůj e-mail',
     text: [
       'Ahoj,',
       '',
@@ -238,7 +238,7 @@ export async function requestPasswordReset(emailRaw: unknown, origin: string): P
   await createToken(account.id, 'reset', hash, RESET_TTL_MINUTES);
   await sendSafely({
     to: account.email,
-    subject: 'Domácí liga: nové heslo',
+    subject: 'Herní večer: nové heslo',
     text: [
       'Ahoj,',
       '',
@@ -302,7 +302,7 @@ export async function inviteManager(household: Household, account: Account, emai
   const invite = await createInvite(household.id, email, hash, account.id, INVITE_TTL_DAYS);
   await sendSafely({
     to: email,
-    subject: `Domácí liga: pozvánka do domácnosti ${household.name}`,
+    subject: `Herní večer: pozvánka do domácnosti ${household.name}`,
     text: [
       'Ahoj,',
       '',

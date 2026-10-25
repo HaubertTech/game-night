@@ -127,7 +127,7 @@
   }
 </script>
 
-<svelte:head><title>Nastavení domácnosti · Domácí liga</title></svelte:head>
+<svelte:head><title>Nastavení domácnosti · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <h1>⚙️ Nastavení domácnosti</h1>

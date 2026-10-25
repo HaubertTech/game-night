@@ -31,7 +31,7 @@
   }
 </script>
 
-<svelte:head><title>Založit domácnost · Domácí liga</title></svelte:head>
+<svelte:head><title>Založit domácnost · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <p><a href="/">← Zpět</a></p>

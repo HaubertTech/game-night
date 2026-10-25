@@ -1,4 +1,4 @@
-# Provoz – Domácí liga
+# Provoz – Herní večer
 
 ## Spuštění
 
@@ -44,7 +44,7 @@ kontejner skončí.
 | `PORT`, `HOST` | Port (výchozí 3000) a adresa; za proxy `HOST=127.0.0.1` |
 | `BODY_SIZE_LIMIT` | adapter-node, výchozí 512K; pro import z tabletu doporučeno `2M` |
 | `SMTP_URL` | `smtps://user:heslo@smtp.example.cz:465` nebo `smtp://user:heslo@host:587` (STARTTLS). Bez něj se e-maily ukládají do souborů |
-| `MAIL_FROM` | např. `Domácí liga <liga@example.cz>` |
+| `MAIL_FROM` | např. `Herní večer <hry@example.cz>` |
 | `MAIL_OUTBOX_DIR` | Výchozí `data/outbox`; bez SMTP sem ConsoleMailer ukládá e-maily (ve vývoji odtud vezmeš ověřovací odkaz). V kontejneru je to volume `app-outbox` |
 
 Hodnoty z `.env` nikam nekopíruj ani nevypisuj.

@@ -2,7 +2,7 @@
   import { OPERATOR_CONTACT, OPERATOR_NAME } from '#lib/legal.ts';
 </script>
 
-<svelte:head><title>Zásady ochrany osobních údajů – Domácí liga</title></svelte:head>
+<svelte:head><title>Zásady ochrany osobních údajů – Herní večer</title></svelte:head>
 
 <main class="page stack">
   <p><a href="/">← Zpět na úvod</a> · <a href="/podminky">Podmínky používání</a></p>

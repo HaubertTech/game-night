@@ -29,7 +29,7 @@
   }
 </script>
 
-<svelte:head><title>Nové heslo · Domácí liga</title></svelte:head>
+<svelte:head><title>Nové heslo · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <form class="card stack narrow" onsubmit={submit}>

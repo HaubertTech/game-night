@@ -41,7 +41,7 @@
   }
 </script>
 
-<svelte:head><title>Pozvánka · Domácí liga</title></svelte:head>
+<svelte:head><title>Pozvánka · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <form class="card stack narrow" onsubmit={submit}>

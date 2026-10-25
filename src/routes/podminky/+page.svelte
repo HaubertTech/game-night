@@ -2,7 +2,7 @@
   import { OPERATOR_CONTACT, OPERATOR_NAME } from '#lib/legal.ts';
 </script>
 
-<svelte:head><title>Podmínky používání – Domácí liga</title></svelte:head>
+<svelte:head><title>Podmínky používání – Herní večer</title></svelte:head>
 
 <main class="page stack">
   <p><a href="/">← Zpět na úvod</a> · <a href="/soukromi">Zásady ochrany osobních údajů</a></p>
@@ -11,7 +11,7 @@
 
   <section class="card stack">
     <h2>Kdo službu provozuje</h2>
-    <p>Domácí ligu (kvízy, Řekni-ukaž-nakresli, Město-jméno-zvíře, prší, žolíky, liga, večery a statistiky) provozuje {OPERATOR_NAME}, fyzická osoba. Kontakt: <a href="mailto:{OPERATOR_CONTACT}">{OPERATOR_CONTACT}</a>.</p>
+    <p>Herní večer (kvízy, Řekni-ukaž-nakresli, Město-jméno-zvíře, prší, žolíky, liga, večery a statistiky) provozuje {OPERATOR_NAME}, fyzická osoba. Kontakt: <a href="mailto:{OPERATOR_CONTACT}">{OPERATOR_CONTACT}</a>.</p>
     <p class="note">Údaje o provozovateli a kontakt jsou zatím předběžné. Provozovatel je před veřejným spuštěním zkontroluje a případně upraví.</p>
   </section>
 

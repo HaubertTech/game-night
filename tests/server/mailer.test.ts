@@ -20,7 +20,7 @@ describe('ConsoleMailer', () => {
 
 describe('buildMessage', () => {
   it('encodes Czech subject and body as UTF-8', () => {
-    const raw = buildMessage('Domácí liga <liga@example.test>', { to: 'a@example.test', subject: 'Žluťoučký kůň', text: 'Příliš\nžluťoučký' });
+    const raw = buildMessage('Herní večer <liga@example.test>', { to: 'a@example.test', subject: 'Žluťoučký kůň', text: 'Příliš\nžluťoučký' });
     expect(raw).toContain('Subject: =?UTF-8?B?');
     expect(raw).toContain('Content-Transfer-Encoding: base64');
     expect(raw).toContain('To: <a@example.test>');
@@ -70,7 +70,7 @@ describe('SmtpMailer', () => {
   it('talks SMTP with AUTH PLAIN to a local relay', async () => {
     const { server, port, log } = await fakeSmtp();
     try {
-      const mailer = new SmtpMailer(`smtp://user%40x:tajne@127.0.0.1:${port}?starttls=0`, 'Domácí liga <liga@example.test>');
+      const mailer = new SmtpMailer(`smtp://user%40x:tajne@127.0.0.1:${port}?starttls=0`, 'Herní večer <liga@example.test>');
       await mailer.send({ to: 'b@example.test', subject: 'Test', text: '.začíná tečkou\nhttp://localhost/x' });
       expect(log).toContain('MAIL FROM:<liga@example.test>');
       expect(log).toContain('RCPT TO:<b@example.test>');

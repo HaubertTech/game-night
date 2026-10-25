@@ -20,7 +20,7 @@
   });
 </script>
 
-<svelte:head><title>Ověření e-mailu · Domácí liga</title></svelte:head>
+<svelte:head><title>Ověření e-mailu · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <section class="card stack narrow" data-testid="verify">

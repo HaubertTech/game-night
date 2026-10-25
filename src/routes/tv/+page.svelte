@@ -145,7 +145,7 @@
   }
 </script>
 
-<svelte:head><title>Kvízovna · hra na televizi</title></svelte:head>
+<svelte:head><title>Herní večer · hra na televizi</title></svelte:head>
 
 <main class="page stack">
   <header class="row head">

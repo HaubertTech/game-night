@@ -20,7 +20,7 @@
   }
 </script>
 
-<svelte:head><title>Zapomenuté heslo · Domácí liga</title></svelte:head>
+<svelte:head><title>Zapomenuté heslo · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <p><a href="/">← Zpět</a></p>

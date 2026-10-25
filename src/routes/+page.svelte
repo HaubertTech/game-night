@@ -128,7 +128,7 @@
   <header class="hero">
     <span class="emoji logo" aria-hidden="true">🏡</span>
     <div>
-      <h1>Domácí liga</h1>
+      <h1>Herní večer</h1>
       <p class="muted">Kvízy, řekni-ukaž-nakresli, město-jméno-zvíře, prší a žolíky — večery, tabulka sezóny a statistiky celé rodiny.</p>
     </div>
   </header>

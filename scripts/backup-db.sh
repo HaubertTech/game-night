@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Dumps the Domácí liga database (pg_dump custom format) and rotates old dumps.
+# Dumps the Herní večer database (pg_dump custom format) and rotates old dumps.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

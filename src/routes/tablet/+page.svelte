@@ -211,7 +211,7 @@
       <h1>Kvízovna</h1>
       <p class="muted">Kvíz u stolu pro celou rodinu — tablet koluje, každý dostane otázku své úrovně.</p>
     </div>
-    <a class="btn small ghost home-link" href={nightId ? `/vecery/${nightId}` : '/'} aria-label="Domácí liga">🏡</a>
+    <a class="btn small ghost home-link" href={nightId ? `/vecery/${nightId}` : '/'} aria-label="Herní večer">🏡</a>
   </header>
   {#if nightId}
     <p class="note">🌙 Hra se po dohrání zapíše do večera (když je tablet přihlášený k domácnosti).</p>
