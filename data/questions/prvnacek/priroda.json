@@ -394,5 +394,347 @@
     "source": "https://cs.wikipedia.org/wiki/Sovy",
     "status": "verified",
     "id": "prvnacek-priroda-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje mládě psa?",
+    "options": [
+      "🐥 Kuřátko",
+      "🐶 Štěně",
+      "🐱 Kotě"
+    ],
+    "answer": "🐶 Štěně",
+    "fact": "Štěňata se rodí slepá. Očička otevřou asi za dva týdny.",
+    "difficulty": 1,
+    "image": "🐕",
+    "source": "https://cs.wikipedia.org/wiki/Pes_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-priroda-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která velká ryba v moři má ostré zuby v několika řadách?",
+    "options": [
+      "🦈 Žralok",
+      "🐟 Kapr",
+      "🐠 Rybička klaun"
+    ],
+    "answer": "🦈 Žralok",
+    "fact": "Když žralok přijde o zub, brzy mu naroste nový.",
+    "difficulty": 1,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDraloci",
+    "status": "verified",
+    "id": "prvnacek-priroda-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik křídel má motýl?",
+    "options": [
+      "2️⃣ 2",
+      "4️⃣ 4",
+      "6️⃣ 6"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Motýlí křídla pokrývají drobné šupinky. Když motýla chytíš, zůstanou ti na prstech jako prášek.",
+    "difficulty": 2,
+    "image": "🦋",
+    "source": "https://cs.wikipedia.org/wiki/Mot%C3%BDli",
+    "status": "verified",
+    "id": "prvnacek-priroda-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře s dlouhou tlamou číhá v řece na kořist?",
+    "options": [
+      "🐊 Krokodýl",
+      "🐸 Žába",
+      "🦆 Kachna"
+    ],
+    "answer": "🐊 Krokodýl",
+    "fact": "Krokodýl dokáže zůstat pod vodou i hodinu.",
+    "difficulty": 1,
+    "image": "🏞️",
+    "source": "https://cs.wikipedia.org/wiki/Krokod%C3%BDli",
+    "status": "verified",
+    "id": "prvnacek-priroda-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které roční období přijde po létě?",
+    "options": [
+      "🍂 Podzim",
+      "🌷 Jaro",
+      "❄️ Zima"
+    ],
+    "answer": "🍂 Podzim",
+    "fact": "Na podzim dozrávají jablka, ořechy i šípky.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "https://cs.wikipedia.org/wiki/Podzim",
+    "status": "verified",
+    "id": "prvnacek-priroda-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik ročních období má náš rok?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "4️⃣ 4"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "V teplých krajích u rovníku je teplo celý rok. Střídá se tam hlavně období dešťů a sucha.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/Ro%C4%8Dn%C3%AD_obdob%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-priroda-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která květina vyroste na jaře z cibulky?",
+    "options": [
+      "🌷 Tulipán",
+      "🌻 Slunečnice",
+      "🌹 Růže"
+    ],
+    "answer": "🌷 Tulipán",
+    "fact": "Tulipány se k nám dostaly z Turecka už před víc než 400 lety.",
+    "difficulty": 2,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Tulip%C3%A1n",
+    "status": "verified",
+    "id": "prvnacek-priroda-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták neumí létat?",
+    "options": [
+      "🦆 Kachna",
+      "🐧 Tučňák",
+      "🦉 Sova"
+    ],
+    "answer": "🐧 Tučňák",
+    "fact": "Tučňák křídly pod vodou mává jako ploutvemi. Plave tak rychle, jako by ve vodě létal.",
+    "difficulty": 1,
+    "image": "🧊",
+    "source": "https://cs.wikipedia.org/wiki/Tu%C4%8D%C5%88%C3%A1kovit%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-priroda-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře z lesa nosí na hlavě parohy?",
+    "options": [
+      "🦊 Liška",
+      "🦌 Jelen",
+      "🐗 Divočák"
+    ],
+    "answer": "🦌 Jelen",
+    "fact": "Jelenovi parohy každý rok odpadnou a narostou mu nové.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Jelen_evropsk%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-priroda-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo žije v hlíně a dělá v ní chodbičky?",
+    "options": [
+      "🐌 Šnek",
+      "🪱 Žížala",
+      "🐞 Beruška"
+    ],
+    "answer": "🪱 Žížala",
+    "fact": "Žížala nemá oči ani nohy. Dýchá celou kůží.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BD%C3%AD%C5%BEala_obecn%C3%A1",
+    "status": "verified",
+    "id": "prvnacek-priroda-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Odkud padá déšť?",
+    "options": [
+      "⭐ Z hvězd",
+      "☁️ Z mraků",
+      "🌙 Z Měsíce"
+    ],
+    "answer": "☁️ Z mraků",
+    "fact": "Mrak je z malinkých kapiček vody. Když se kapičky spojí a ztěžknou, spadnou jako déšť.",
+    "difficulty": 1,
+    "image": "🌧️",
+    "source": "https://cs.wikipedia.org/wiki/D%C3%A9%C5%A1%C5%A5",
+    "status": "verified",
+    "id": "prvnacek-priroda-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdy jsou dny nejkratší?",
+    "options": [
+      "❄️ V zimě",
+      "☀️ V létě",
+      "🌷 Na jaře"
+    ],
+    "answer": "❄️ V zimě",
+    "fact": "Nejkratší den v roce bývá kolem 21. prosince. Pak se dny zase prodlužují.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Zimn%C3%AD_slunovrat",
+    "status": "verified",
+    "id": "prvnacek-priroda-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co se stane s rybníkem, když je velký mráz?",
+    "options": [
+      "🔥 Ohřeje se",
+      "🧊 Zamrzne",
+      "🌊 Vyteče"
+    ],
+    "answer": "🧊 Zamrzne",
+    "fact": "Ryby přečkají zimu dole v hluboké vodě. Tam rybník nezamrzne.",
+    "difficulty": 1,
+    "image": "🐟",
+    "source": "https://cs.wikipedia.org/wiki/Rybn%C3%ADk",
+    "status": "verified",
+    "id": "prvnacek-priroda-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co jí žirafa?",
+    "options": [
+      "🍃 Listy stromů",
+      "🥩 Maso",
+      "🐟 Ryby"
+    ],
+    "answer": "🍃 Listy stromů",
+    "fact": "Žirafa má tmavý jazyk dlouhý skoro půl metru. Obtočí jím větev a listy si strhne.",
+    "difficulty": 1,
+    "image": "🦒",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDirafa",
+    "status": "verified",
+    "id": "prvnacek-priroda-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták umí opakovat slova?",
+    "options": [
+      "🦉 Sova",
+      "🦆 Kachna",
+      "🦜 Papoušek"
+    ],
+    "answer": "🦜 Papoušek",
+    "fact": "Velcí papoušci se mohou dožít víc než 50 let.",
+    "difficulty": 1,
+    "image": "🗣️",
+    "source": "https://cs.wikipedia.org/wiki/Papou%C5%A1ci",
+    "status": "verified",
+    "id": "prvnacek-priroda-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co dělají ptáci na jaře?",
+    "options": [
+      "💤 Usínají",
+      "🐦 Staví hnízda",
+      "⛄ Staví sněhuláky"
+    ],
+    "answer": "🐦 Staví hnízda",
+    "fact": "Do hnízda si ptáci nosí i mech, chlupy a peříčka, aby bylo mláďatům měkko.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/Hn%C3%ADzdo",
+    "status": "verified",
+    "id": "prvnacek-priroda-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která velká kočka má oranžové a černé pruhy?",
+    "options": [
+      "🦁 Lev",
+      "🐯 Tygr",
+      "🐆 Levhart"
+    ],
+    "answer": "🐯 Tygr",
+    "fact": "Tygr na rozdíl od většiny koček rád plave. Přeplave i širokou řeku.",
+    "difficulty": 1,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/Tygr",
+    "status": "verified",
+    "id": "prvnacek-priroda-042"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co udělá had, když mu je kůže malá?",
+    "options": [
+      "👕 Svlékne ji",
+      "🧥 Oblékne bundu",
+      "💧 Vykoupe se"
+    ],
+    "answer": "👕 Svlékne ji",
+    "fact": "Starou kůži shodí had vcelku, i s průhlednou šupinkou přes oči.",
+    "difficulty": 2,
+    "image": "🐍",
+    "source": "https://cs.wikipedia.org/wiki/Hadi",
+    "status": "verified",
+    "id": "prvnacek-priroda-044"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo v létě v noci svítí v trávě?",
+    "options": [
+      "🦋 Motýl",
+      "🐞 Beruška",
+      "✨ Světluška"
+    ],
+    "answer": "✨ Světluška",
+    "fact": "Světlušky svítí, aby se navzájem našly. Jejich světlo vůbec nehřeje.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Sv%C4%9Btlu%C5%A1kovit%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-priroda-045"
   }
 ]

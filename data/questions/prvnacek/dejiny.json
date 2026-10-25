@@ -376,5 +376,347 @@
     "source": "https://cs.wikipedia.org/wiki/Přemysl_Oráč",
     "status": "verified",
     "id": "prvnacek-dejiny-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co vymysleli lidé, aby si mohli povídat s někým daleko?",
+    "options": [
+      "📞 Telefon",
+      "🔨 Kladivo",
+      "🪣 Kbelík"
+    ],
+    "answer": "📞 Telefon",
+    "fact": "U prvních telefonů hovor spojovala paní na ústředně. Zapojila kabel do správné dírky.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/Telefon",
+    "status": "verified",
+    "id": "prvnacek-dejiny-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na čem se dřív pouštěly písničky z černých desek?",
+    "options": [
+      "📺 Na televizi",
+      "🎶 Na gramofonu",
+      "📱 Na mobilu"
+    ],
+    "answer": "🎶 Na gramofonu",
+    "fact": "Po desce jede jehla. Drážka, po které jede, v sobě schovává zvuk.",
+    "difficulty": 2,
+    "image": "💿",
+    "source": "https://cs.wikipedia.org/wiki/Gramofon",
+    "status": "verified",
+    "id": "prvnacek-dejiny-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co vymysleli lidé dávno, aby se dal vůz snadno táhnout?",
+    "options": [
+      "💡 Žárovku",
+      "⭕ Kolo",
+      "🔋 Baterii"
+    ],
+    "answer": "⭕ Kolo",
+    "fact": "Kolo vymysleli lidé už před víc než pěti tisíci lety.",
+    "difficulty": 1,
+    "image": "🐂",
+    "source": "https://cs.wikipedia.org/wiki/Kolo",
+    "status": "verified",
+    "id": "prvnacek-dejiny-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co dnes svítí v lampách místo svíček?",
+    "options": [
+      "🔥 Táborák",
+      "⭐ Hvězda",
+      "💡 Žárovka"
+    ],
+    "answer": "💡 Žárovka",
+    "fact": "Obyčejná žárovka svítí, protože se v ní tenký drátek rozžhaví do běla.",
+    "difficulty": 1,
+    "image": "🛋️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BD%C3%A1rovka",
+    "status": "verified",
+    "id": "prvnacek-dejiny-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenuje velký dinosaurus s krátkýma předníma nohama?",
+    "options": [
+      "🦖 Tyranosaurus",
+      "🦕 Brontosaurus",
+      "🐊 Krokodýl"
+    ],
+    "answer": "🦖 Tyranosaurus",
+    "fact": "Tyranosaurus měl zuby velké jako banány.",
+    "difficulty": 2,
+    "image": "🦴",
+    "source": "https://cs.wikipedia.org/wiki/Tyrannosaurus",
+    "status": "verified",
+    "id": "prvnacek-dejiny-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kde dnes uvidíme kostry dinosaurů?",
+    "options": [
+      "🏪 V obchodě",
+      "🏛️ V muzeu",
+      "🌳 V parku na lavičce"
+    ],
+    "answer": "🏛️ V muzeu",
+    "fact": "Kosti dinosaurů se miliony let měnily v kámen. Takovým kostem se říká zkameněliny.",
+    "difficulty": 1,
+    "image": "🦖",
+    "source": "https://cs.wikipedia.org/wiki/Zkamen%C4%9Blina",
+    "status": "verified",
+    "id": "prvnacek-dejiny-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co pravěkým lidem pomohlo ohřát se a upéct maso?",
+    "options": [
+      "🔥 Oheň",
+      "💡 Žárovka",
+      "🔦 Baterka"
+    ],
+    "answer": "🔥 Oheň",
+    "fact": "Pravěcí lidé rozdělávali oheň třením dřívek nebo křesáním kamenů.",
+    "difficulty": 1,
+    "image": "🪨",
+    "source": "https://cs.wikipedia.org/wiki/Ohe%C5%88",
+    "status": "verified",
+    "id": "prvnacek-dejiny-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Které zvíře si lidé ochočili jako první?",
+    "options": [
+      "🐱 Kočku",
+      "🐶 Psa",
+      "🐴 Koně"
+    ],
+    "answer": "🐶 Psa",
+    "fact": "Pes žije s lidmi už víc než patnáct tisíc let.",
+    "difficulty": 2,
+    "image": "🏕️",
+    "source": "https://cs.wikipedia.org/wiki/Pes_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-dejiny-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který pták dřív nosil psaníčka?",
+    "options": [
+      "🦆 Kachna",
+      "🦉 Sova",
+      "🕊️ Holub"
+    ],
+    "answer": "🕊️ Holub",
+    "fact": "Poštovní holub najde cestu domů i ze vzdálenosti stovek kilometrů.",
+    "difficulty": 1,
+    "image": "✉️",
+    "source": "https://cs.wikipedia.org/wiki/Po%C5%A1tovn%C3%AD_holub",
+    "status": "verified",
+    "id": "prvnacek-dejiny-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo bavil krále na hradě vtipy a kotrmelci?",
+    "options": [
+      "🤡 Šašek",
+      "💂 Strážný",
+      "👨‍🍳 Kuchař"
+    ],
+    "answer": "🤡 Šašek",
+    "fact": "Šašek měl čepici s rolničkami, které cinkaly při každém pohybu.",
+    "difficulty": 1,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0a%C5%A1ek",
+    "status": "verified",
+    "id": "prvnacek-dejiny-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na čem se dřív cestovalo přes moře, když nebyla letadla?",
+    "options": [
+      "🚂 Na vlaku",
+      "⛵ Na lodi",
+      "🚲 Na kole"
+    ],
+    "answer": "⛵ Na lodi",
+    "fact": "Plavba plachetnicí z Evropy do Ameriky trvala kdysi několik týdnů.",
+    "difficulty": 1,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/Plachetnice",
+    "status": "verified",
+    "id": "prvnacek-dejiny-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak lidé dřív poznali čas bez hodinek?",
+    "options": [
+      "📱 Podle mobilu",
+      "☀️ Podle slunečních hodin",
+      "📺 Podle televize"
+    ],
+    "answer": "☀️ Podle slunečních hodin",
+    "fact": "Sluneční hodiny ukazují čas stínem. Když je zataženo, nefungují.",
+    "difficulty": 2,
+    "image": "🕰️",
+    "source": "https://cs.wikipedia.org/wiki/Slune%C4%8Dn%C3%AD_hodiny",
+    "status": "verified",
+    "id": "prvnacek-dejiny-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Odkud lidé brali vodu, když ještě nebyl vodovod?",
+    "options": [
+      "🪣 Ze studny",
+      "🏪 Z obchodu",
+      "🌧️ Z mraku"
+    ],
+    "answer": "🪣 Ze studny",
+    "fact": "Ze studny se voda vytahovala vědrem na řetězu nebo pumpou.",
+    "difficulty": 1,
+    "image": "💧",
+    "source": "https://cs.wikipedia.org/wiki/Studna",
+    "status": "verified",
+    "id": "prvnacek-dejiny-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo vyrábí hrnky a mísy z hlíny?",
+    "options": [
+      "🔨 Kovář",
+      "🍞 Pekař",
+      "🏺 Hrnčíř"
+    ],
+    "answer": "🏺 Hrnčíř",
+    "fact": "Hrnčíř tvaruje hlínu na kruhu, který se točí. Pak ji vypálí v peci.",
+    "difficulty": 1,
+    "image": "🫖",
+    "source": "https://cs.wikipedia.org/wiki/Hrn%C4%8D%C3%AD%C5%99stv%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-dejiny-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo přibíjí koním podkovy?",
+    "options": [
+      "🔨 Kovář",
+      "🏺 Hrnčíř",
+      "💇 Kadeřník"
+    ],
+    "answer": "🔨 Kovář",
+    "fact": "Podkova chrání koňské kopyto, aby se o kamení neodíralo.",
+    "difficulty": 1,
+    "image": "🐴",
+    "source": "https://cs.wikipedia.org/wiki/Kov%C3%A1%C5%99",
+    "status": "verified",
+    "id": "prvnacek-dejiny-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "V čem se dřív koupalo, když doma nebyla koupelna?",
+    "options": [
+      "🚿 Ve sprše",
+      "🏊 V aquaparku",
+      "🪣 V dřevěném škopku"
+    ],
+    "answer": "🪣 V dřevěném škopku",
+    "fact": "Celá rodina se často koupala v téže vodě, jeden po druhém.",
+    "difficulty": 2,
+    "image": "🏚️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-dejiny-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co vymysleli Číňané a my na tom dnes kreslíme?",
+    "options": [
+      "📄 Papír",
+      "🔋 Baterii",
+      "📺 Televizi"
+    ],
+    "answer": "📄 Papír",
+    "fact": "Papír se dřív vyráběl z hadrů. Dnes se dělá hlavně ze dřeva.",
+    "difficulty": 2,
+    "image": "✏️",
+    "source": "https://cs.wikipedia.org/wiki/Pap%C3%ADr",
+    "status": "verified",
+    "id": "prvnacek-dejiny-042"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo táhl v Praze tramvaje, než začaly jezdit na elektřinu?",
+    "options": [
+      "🐴 Koně",
+      "🐶 Psi",
+      "🐮 Krávy"
+    ],
+    "answer": "🐴 Koně",
+    "fact": "Tramvaje tažené koňmi jezdily v Praze od roku 1875.",
+    "difficulty": 2,
+    "image": "🚋",
+    "source": "https://cs.wikipedia.org/wiki/Kon%C4%9Bsp%C5%99e%C5%BEn%C3%A1_tramvaj_v_Praze",
+    "status": "verified",
+    "id": "prvnacek-dejiny-044"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo hledá v zemi staré věci z dávných dob?",
+    "options": [
+      "👨‍🍳 Kuchař",
+      "⛏️ Archeolog",
+      "👨‍🚒 Hasič"
+    ],
+    "answer": "⛏️ Archeolog",
+    "fact": "Archeolog kope opatrně, často jen štětečkem, aby nic nerozbil.",
+    "difficulty": 2,
+    "image": "🏺",
+    "source": "https://cs.wikipedia.org/wiki/Archeologie",
+    "status": "verified",
+    "id": "prvnacek-dejiny-045"
   }
 ]

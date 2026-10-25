@@ -412,5 +412,347 @@
     "source": "obecná znalost",
     "status": "verified",
     "id": "prvnacek-pohadky-film-hudba-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Které zvířátko s dlouhým ocáskem kamarádí s Krtkem?",
+    "options": [
+      "🐱 Kočka",
+      "🐭 Myška",
+      "🐶 Pes"
+    ],
+    "answer": "🐭 Myška",
+    "fact": "Plyšový Krtek se v roce 2011 podíval i do vesmíru. Vzal si ho s sebou americký astronaut.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Krtek",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaké zvířátko je Bambi?",
+    "options": [
+      "🐰 Zajíček",
+      "🦊 Lištička",
+      "🦌 Srneček"
+    ],
+    "answer": "🦌 Srneček",
+    "fact": "Příběh o Bambim napsal rakouský spisovatel Felix Salten.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Felix_Salten",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje malý kamarád Medvídka Pú?",
+    "options": [
+      "🐷 Prasátko",
+      "🐭 Myška",
+      "🦔 Ježek"
+    ],
+    "answer": "🐷 Prasátko",
+    "fact": "Medvídka Pú vymyslel A. A. Milne podle plyšového medvídka svého syna.",
+    "difficulty": 1,
+    "image": "🧸",
+    "source": "https://cs.wikipedia.org/wiki/Medv%C3%ADdek_P%C3%BA",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kam běží liška v písničce?",
+    "options": [
+      "🏰 K Táboru",
+      "🏙️ K Praze",
+      "🏞️ K Brnu"
+    ],
+    "answer": "🏰 K Táboru",
+    "fact": "Tábor je město na jihu Čech. Založili ho husité.",
+    "difficulty": 1,
+    "image": "🦊",
+    "source": "https://cs.wikipedia.org/wiki/T%C3%A1bor",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na který nástroj se hraje roztahováním a stlačováním?",
+    "options": [
+      "🥁 Buben",
+      "🎻 Housle",
+      "🪗 Harmonika"
+    ],
+    "answer": "🪗 Harmonika",
+    "fact": "Měch harmoniky žene vzduch na kovové jazýčky a ty se rozezní.",
+    "difficulty": 1,
+    "image": "🎶",
+    "source": "https://cs.wikipedia.org/wiki/Tahac%C3%AD_harmonika",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo řídí orchestr?",
+    "options": [
+      "👮 Policista",
+      "🎼 Dirigent",
+      "🧑‍🍳 Kuchař"
+    ],
+    "answer": "🎼 Dirigent",
+    "fact": "Dirigent mává tenkou hůlkou, které se říká taktovka.",
+    "difficulty": 2,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/Dirigent",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik zvířátek šlo v pohádce do Brém za muzikanty?",
+    "options": [
+      "2️⃣ 2",
+      "4️⃣ 4",
+      "6️⃣ 6"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Brémy jsou opravdové město v Německu. Socha osla, psa, kočky a kohouta tam stojí u radnice.",
+    "difficulty": 2,
+    "image": "🐴",
+    "source": "https://cs.wikipedia.org/wiki/Br%C3%A9m%C5%A1t%C3%AD_muzikanti",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co nosil chytrý kocour z pohádky na nohou?",
+    "options": [
+      "🧦 Ponožky",
+      "👢 Boty",
+      "🛼 Brusle"
+    ],
+    "answer": "👢 Boty",
+    "fact": "Chytrý kocour pomohl svému chudému pánovi, aby si vzal princeznu.",
+    "difficulty": 1,
+    "image": "🐱",
+    "source": "https://cs.wikipedia.org/wiki/Kocour_v_bot%C3%A1ch",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaké zvíře je Simba z Lvího krále?",
+    "options": [
+      "🐯 Tygr",
+      "🦁 Lev",
+      "🐻 Medvěd"
+    ],
+    "answer": "🦁 Lev",
+    "fact": "Slovo simba znamená ve svahilštině lev. Svahilsky se mluví ve východní Africe.",
+    "difficulty": 1,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Lv%C3%AD_kr%C3%A1l_(film,_1994)",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo z trojice Dlouhý, Široký a Bystrozraký viděl skrz hory?",
+    "options": [
+      "📏 Dlouhý",
+      "🎈 Široký",
+      "👀 Bystrozraký"
+    ],
+    "answer": "👀 Bystrozraký",
+    "fact": "Dlouhý se uměl natáhnout do výšky a Široký se nafouknout do šířky.",
+    "difficulty": 2,
+    "image": "⛰️",
+    "source": "https://cs.wikipedia.org/wiki/Dlouh%C3%BD,_%C5%A0irok%C3%BD_a_Bystrozrak%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje brouk, kamarád Ferdy Mravence?",
+    "options": [
+      "🐝 Včelka Mája",
+      "🪲 Brouk Pytlík",
+      "🐞 Beruška Puntík"
+    ],
+    "answer": "🪲 Brouk Pytlík",
+    "fact": "Brouk Pytlík se rád chlubí, že všechno zná a všechno umí.",
+    "difficulty": 2,
+    "image": "🐜",
+    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jakou barvu mají Šmoulové?",
+    "options": [
+      "🔵 Modrou",
+      "🟢 Zelenou",
+      "🔴 Červenou"
+    ],
+    "answer": "🔵 Modrou",
+    "fact": "Šmoulové bydlí ve vesnici v domečcích, které vypadají jako houby.",
+    "difficulty": 1,
+    "image": "🍄",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0moulov%C3%A9",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik dalmatinů je v názvu slavného filmu?",
+    "options": [
+      "🔟 10",
+      "💯 100",
+      "🔢 101"
+    ],
+    "answer": "🔢 101",
+    "fact": "Štěňata dalmatinů se rodí úplně bílá. Puntíky jim narostou až později.",
+    "difficulty": 2,
+    "image": "🐶",
+    "source": "https://cs.wikipedia.org/wiki/Dalmatin",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo měl v pohádce kouzelnou lampu?",
+    "options": [
+      "🧙 Merlin",
+      "👸 Popelka",
+      "👦 Aladin"
+    ],
+    "answer": "👦 Aladin",
+    "fact": "Když Aladin lampu promnul, objevil se džin a splnil, co si přál.",
+    "difficulty": 1,
+    "image": "✨",
+    "source": "https://cs.wikipedia.org/wiki/Aladin",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo nikdy nevyroste a létá do Země Nezemě?",
+    "options": [
+      "🧒 Petr Pan",
+      "🐰 Bob",
+      "👦 Hloupý Honza"
+    ],
+    "answer": "🧒 Petr Pan",
+    "fact": "Petr Pan létá díky kouzelnému prachu víly Zvonilky.",
+    "difficulty": 1,
+    "image": "🧚",
+    "source": "https://cs.wikipedia.org/wiki/Petr_Pan",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo probudil Šípkovou Růženku?",
+    "options": [
+      "🤴 Princ",
+      "🐸 Žabák",
+      "🧙 Čaroděj"
+    ],
+    "answer": "🤴 Princ",
+    "fact": "Šípková Růženka usnula, když se píchla o vřeteno.",
+    "difficulty": 1,
+    "image": "🌹",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0%C3%ADpkov%C3%A1_R%C5%AF%C5%BEenka",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co nosí Ferda Mravenec na krku?",
+    "options": [
+      "🧣 Puntíkatý šátek",
+      "👔 Kravatu",
+      "📿 Korále"
+    ],
+    "answer": "🧣 Puntíkatý šátek",
+    "fact": "Ferda je pracovitý a vyzkoušel si spoustu řemesel.",
+    "difficulty": 2,
+    "image": "🐜",
+    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kam jdeme, když chceme vidět film na velkém plátně?",
+    "options": [
+      "🎬 Do kina",
+      "📚 Do knihovny",
+      "🏊 Do bazénu"
+    ],
+    "answer": "🎬 Do kina",
+    "fact": "První filmy byly němé. Hudbu k nim v kině hrál klavírista.",
+    "difficulty": 1,
+    "image": "🍿",
+    "source": "https://cs.wikipedia.org/wiki/N%C4%9Bm%C3%BD_film",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-043"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaká zvířata jsou Tom a Jerry?",
+    "options": [
+      "🐶 Pes a kočka",
+      "🐱 Kocour a myš",
+      "🐰 Dva zajíci"
+    ],
+    "answer": "🐱 Kocour a myš",
+    "fact": "Kocour Tom a myšák Jerry se honí už od roku 1940.",
+    "difficulty": 1,
+    "image": "📺",
+    "source": "https://cs.wikipedia.org/wiki/Tom_a_Jerry",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-045"
   }
 ]

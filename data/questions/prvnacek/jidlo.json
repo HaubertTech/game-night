@@ -394,5 +394,293 @@
     "source": "https://cs.wikipedia.org/wiki/Ementál",
     "status": "verified",
     "id": "prvnacek-jidlo-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje jídlo, které jíme večer?",
+    "options": [
+      "☀️ Snídaně",
+      "🍲 Oběd",
+      "🌙 Večeře"
+    ],
+    "answer": "🌙 Večeře",
+    "fact": "Večeři je dobré sníst aspoň dvě hodiny před spaním. Pak se lépe spí.",
+    "difficulty": 1,
+    "image": "🍽️",
+    "source": "https://cs.wikipedia.org/wiki/Ve%C4%8De%C5%99e",
+    "status": "verified",
+    "id": "prvnacek-jidlo-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce má nahoře zelenou korunu z listů?",
+    "options": [
+      "🍓 Jahoda",
+      "🍍 Ananas",
+      "🍐 Hruška"
+    ],
+    "answer": "🍍 Ananas",
+    "fact": "Ananas neroste na stromě. Roste u země uprostřed trsu ostrých listů.",
+    "difficulty": 1,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Ananas",
+    "status": "verified",
+    "id": "prvnacek-jidlo-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která zelenina umí pálit v puse?",
+    "options": [
+      "🥒 Okurka",
+      "🥕 Mrkev",
+      "🌶️ Chilli paprička"
+    ],
+    "answer": "🌶️ Chilli paprička",
+    "fact": "Když chilli pálí, pomůže víc mléko než voda.",
+    "difficulty": 1,
+    "image": "🥵",
+    "source": "https://cs.wikipedia.org/wiki/Kapsaicin",
+    "status": "verified",
+    "id": "prvnacek-jidlo-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která zelenina roste jako velká kulatá hlávka?",
+    "options": [
+      "🥕 Mrkev",
+      "🥬 Zelí",
+      "🌽 Kukuřice"
+    ],
+    "answer": "🥬 Zelí",
+    "fact": "Ze zelí se dělá kysané zelí. Vydrží dlouho a má hodně vitaminu C.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Kysan%C3%A9_zel%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-jidlo-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jakou barvu mívá zralá švestka?",
+    "options": [
+      "🟢 Zelenou",
+      "🟣 Fialovou",
+      "🔴 Červenou"
+    ],
+    "answer": "🟣 Fialovou",
+    "fact": "Švestky dozrávají na konci léta.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/Povidla",
+    "status": "verified",
+    "id": "prvnacek-jidlo-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenují placky z nastrouhaných brambor?",
+    "options": [
+      "🥞 Palačinky",
+      "🥔 Bramboráky",
+      "🍕 Pizza"
+    ],
+    "answer": "🥔 Bramboráky",
+    "fact": "Bramboráky se smaží na pánvi dozlatova.",
+    "difficulty": 1,
+    "image": "🍳",
+    "source": "https://cs.wikipedia.org/wiki/Brambor%C3%A1k",
+    "status": "verified",
+    "id": "prvnacek-jidlo-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se připravuje čaj?",
+    "options": [
+      "🍃 Ze sušených lístků",
+      "🧀 Ze sýra",
+      "🥩 Z masa"
+    ],
+    "answer": "🍃 Ze sušených lístků",
+    "fact": "Heřmánkový čaj se vaří ze sušených kvítků heřmánku.",
+    "difficulty": 1,
+    "image": "🫖",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Caj",
+    "status": "verified",
+    "id": "prvnacek-jidlo-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kdo prodává maso, párky a klobásy?",
+    "options": [
+      "💊 Lékárník",
+      "📚 Knihovnice",
+      "🥩 Řezník"
+    ],
+    "answer": "🥩 Řezník",
+    "fact": "Řezník umí maso rozdělit na kusy, třeba na řízky nebo na guláš.",
+    "difficulty": 1,
+    "image": "🌭",
+    "source": "https://cs.wikipedia.org/wiki/%C5%98ezn%C3%ADk",
+    "status": "verified",
+    "id": "prvnacek-jidlo-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "V čem roste hrášek?",
+    "options": [
+      "🍎 V jablkách",
+      "🌱 V luscích",
+      "🥚 Ve vajíčkách"
+    ],
+    "answer": "🌱 V luscích",
+    "fact": "Mladý hrášek je sladký a dá se jíst rovnou z lusku.",
+    "difficulty": 2,
+    "image": "🟢",
+    "source": "https://cs.wikipedia.org/wiki/Hr%C3%A1ch_set%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-jidlo-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které pečivo se plní jablky a skořicí?",
+    "options": [
+      "🥐 Rohlík",
+      "🍞 Chleba",
+      "🥧 Závin"
+    ],
+    "answer": "🥧 Závin",
+    "fact": "Těsto na závin se natahuje tak tenké, že je skrz něj skoro vidět.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Z%C3%A1vin",
+    "status": "verified",
+    "id": "prvnacek-jidlo-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která velká oranžová zelenina roste na podzim na zahradě?",
+    "options": [
+      "🎃 Dýně",
+      "🍉 Meloun",
+      "🍊 Pomeranč"
+    ],
+    "answer": "🎃 Dýně",
+    "fact": "Z dýně se vaří polévka a její semínka se dají opéct.",
+    "difficulty": 1,
+    "image": "🍂",
+    "source": "https://cs.wikipedia.org/wiki/Tykev_obecn%C3%A1",
+    "status": "verified",
+    "id": "prvnacek-jidlo-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází sushi?",
+    "options": [
+      "🌍 Z Japonska",
+      "🌍 Z Itálie",
+      "🌍 Z Mexika"
+    ],
+    "answer": "🌍 Z Japonska",
+    "fact": "Sushi je rýže s rybou nebo zeleninou. Často se balí do mořské řasy.",
+    "difficulty": 2,
+    "image": "🍣",
+    "source": "https://cs.wikipedia.org/wiki/Su%C5%A1i",
+    "status": "verified",
+    "id": "prvnacek-jidlo-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kde doma uložíme mléko, aby se nezkazilo?",
+    "options": [
+      "☀️ Na okno na slunce",
+      "❄️ Do lednice",
+      "🔥 Do trouby"
+    ],
+    "answer": "❄️ Do lednice",
+    "fact": "V chladu se bakterie množí pomaleji, a proto se jídlo v lednici tak rychle nekazí.",
+    "difficulty": 1,
+    "image": "🥛",
+    "source": "https://cs.wikipedia.org/wiki/Chladni%C4%8Dka",
+    "status": "verified",
+    "id": "prvnacek-jidlo-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co vyroste z jadérka jablka?",
+    "options": [
+      "🌲 Smrk",
+      "🌻 Slunečnice",
+      "🌳 Jabloň"
+    ],
+    "answer": "🌳 Jabloň",
+    "fact": "Jablka na nové jabloni můžou chutnat úplně jinak než to jablko, ze kterého bylo jadérko.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Jablo%C5%88",
+    "status": "verified",
+    "id": "prvnacek-jidlo-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který teplý nápoj se dělá z mléka a hnědého prášku?",
+    "options": [
+      "🍋 Limonáda",
+      "🍫 Kakao",
+      "🥤 Džus"
+    ],
+    "answer": "🍫 Kakao",
+    "fact": "V dávném Mexiku pili lidé kakao hořké a s pálivou paprikou.",
+    "difficulty": 1,
+    "image": "☕",
+    "source": "https://cs.wikipedia.org/wiki/Kakao",
+    "status": "verified",
+    "id": "prvnacek-jidlo-042"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co přidáváme do polévky, aby byla slaná?",
+    "options": [
+      "🍬 Cukr",
+      "🧂 Sůl",
+      "🍯 Med"
+    ],
+    "answer": "🧂 Sůl",
+    "fact": "Sůl bývala kdysi tak drahá, že se jí říkalo bílé zlato.",
+    "difficulty": 1,
+    "image": "🍲",
+    "source": "https://cs.wikipedia.org/wiki/Kuchy%C5%88sk%C3%A1_s%C5%AFl",
+    "status": "verified",
+    "id": "prvnacek-jidlo-043"
   }
 ]

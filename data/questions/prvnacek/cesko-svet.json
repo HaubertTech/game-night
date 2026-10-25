@@ -394,5 +394,365 @@
     "source": "https://cs.wikipedia.org/wiki/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna",
     "status": "verified",
     "id": "prvnacek-cesko-svet-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Čím chlapci o Velikonocích vyšlehají děvčata?",
+    "options": [
+      "🌿 Pomlázkou",
+      "🥄 Vařečkou",
+      "🧹 Koštětem"
+    ],
+    "answer": "🌿 Pomlázkou",
+    "fact": "Pomlázka se plete z mladých vrbových proutků.",
+    "difficulty": 1,
+    "image": "🥚",
+    "source": "https://cs.wikipedia.org/wiki/Poml%C3%A1zka",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kolik svíček je na adventním věnci?",
+    "options": [
+      "3️⃣ 3",
+      "4️⃣ 4",
+      "7️⃣ 7"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Každou adventní neděli se zapálí o jednu svíčku víc.",
+    "difficulty": 1,
+    "image": "🕯️",
+    "source": "https://cs.wikipedia.org/wiki/Adventn%C3%AD_v%C4%9Bnec",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdy je Štědrý den?",
+    "options": [
+      "📅 1. ledna",
+      "📅 24. prosince",
+      "📅 31. prosince"
+    ],
+    "answer": "📅 24. prosince",
+    "fact": "Kdo na Štědrý den vydrží do večera nejíst, uvidí podle staré pověry zlaté prasátko.",
+    "difficulty": 2,
+    "image": "🎄",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0t%C4%9Bdr%C3%BD_den",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje poslední den v roce?",
+    "options": [
+      "🎆 Silvestr",
+      "🎄 Štědrý den",
+      "🥚 Velikonoce"
+    ],
+    "answer": "🎆 Silvestr",
+    "fact": "Silvestr dostal jméno podle svatého Silvestra, který má svátek právě 31. prosince.",
+    "difficulty": 1,
+    "image": "🎉",
+    "source": "https://cs.wikipedia.org/wiki/Silvestr",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi stojí Eiffelova věž?",
+    "options": [
+      "🌍 V Itálii",
+      "🌍 V Polsku",
+      "🌍 Ve Francii"
+    ],
+    "answer": "🌍 Ve Francii",
+    "fact": "V létě je Eiffelova věž o kousek vyšší. Železo se v horku roztahuje.",
+    "difficulty": 1,
+    "image": "🗼",
+    "source": "https://cs.wikipedia.org/wiki/Eiffelova_v%C4%9B%C5%BE",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde je velká poušť Sahara?",
+    "options": [
+      "🌍 V Africe",
+      "🌍 V Evropě",
+      "🌍 V Antarktidě"
+    ],
+    "answer": "🌍 V Africe",
+    "fact": "Sahara je největší horká poušť na světě. Je skoro tak velká jako celá Evropa.",
+    "difficulty": 2,
+    "image": "🐪",
+    "source": "https://cs.wikipedia.org/wiki/Sahara",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi stojí Velká zeď dlouhá tisíce kilometrů?",
+    "options": [
+      "🧱 V Itálii",
+      "🧱 V Číně",
+      "🧱 V Česku"
+    ],
+    "answer": "🧱 V Číně",
+    "fact": "Velká čínská zeď se stavěla mnoho staletí. Měla chránit zemi před nájezdníky.",
+    "difficulty": 2,
+    "image": "🏯",
+    "source": "https://cs.wikipedia.org/wiki/Velk%C3%A1_%C4%8D%C3%ADnsk%C3%A1_ze%C4%8F",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě u nás jezdí metro?",
+    "options": [
+      "🚇 V Brně",
+      "🚇 V Praze",
+      "🚇 V Plzni"
+    ],
+    "answer": "🚇 V Praze",
+    "fact": "Pražské metro jezdí hluboko pod zemí, a dokonce i pod řekou Vltavou.",
+    "difficulty": 1,
+    "image": "🚇",
+    "source": "https://cs.wikipedia.org/wiki/Metro_v_Praze",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co podle pověsti visí na brněnské radnici?",
+    "options": [
+      "🐻 Medvěd",
+      "🐉 Drak",
+      "🐟 Ryba"
+    ],
+    "answer": "🐉 Drak",
+    "fact": "Brněnský drak je ve skutečnosti vycpaný krokodýl.",
+    "difficulty": 2,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/Brn%C4%9Bnsk%C3%BD_drak",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co najdeme pod zemí v Moravském krasu?",
+    "options": [
+      "🌋 Sopky",
+      "🌊 Moře",
+      "🪨 Jeskyně"
+    ],
+    "answer": "🪨 Jeskyně",
+    "fact": "V Moravském krasu je přes 1 600 jeskyní. Punkevní jeskyní se dá proplout na lodičce po podzemní říčce.",
+    "difficulty": 2,
+    "image": "🔦",
+    "source": "https://cs.wikipedia.org/wiki/Moravsk%C3%BD_kras",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Čím jsou známé Karlovy Vary?",
+    "options": [
+      "🏖️ Mořem",
+      "💧 Horkými prameny",
+      "🏔️ Sopkou"
+    ],
+    "answer": "💧 Horkými prameny",
+    "fact": "Z nejteplejšího pramene tryská voda teplejší než 70 stupňů.",
+    "difficulty": 2,
+    "image": "⛲",
+    "source": "https://cs.wikipedia.org/wiki/Karlovy_Vary",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co se o Vánocích pouští na vodu se svíčkou?",
+    "options": [
+      "🦆 Kačenky",
+      "⛵ Lodičky ze skořápek",
+      "🐟 Rybičky"
+    ],
+    "answer": "⛵ Lodičky ze skořápek",
+    "fact": "Komu lodička dopluje daleko, toho podle zvyku čeká dlouhá cesta do světa.",
+    "difficulty": 2,
+    "image": "🕯️",
+    "source": "https://www.novinky.cz/clanek/vanoce-co-predpovida-pousteni-lodicek-ze-skorapek-vlasskych-orechu-40263141",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co se o Vánocích rozkrojí, aby se ukázala hvězdička?",
+    "options": [
+      "🥔 Brambora",
+      "🥚 Vejce",
+      "🍎 Jablko"
+    ],
+    "answer": "🍎 Jablko",
+    "fact": "Hvězdičku tvoří jadýrka. Podle zvyku slibuje zdraví na celý příští rok.",
+    "difficulty": 1,
+    "image": "⭐",
+    "source": "https://cs.wikipedia.org/wiki/V%C3%A1no%C4%8Dn%C3%AD_zvyky",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdy se pálí čarodějnice?",
+    "options": [
+      "📅 30. dubna",
+      "📅 24. prosince",
+      "📅 1. září"
+    ],
+    "answer": "📅 30. dubna",
+    "fact": "Lidé kdysi věřili, že oheň chrání před zlými silami. Dnes je to hlavně veselá slavnost.",
+    "difficulty": 2,
+    "image": "🔥",
+    "source": "https://cs.wikipedia.org/wiki/P%C3%A1len%C3%AD_%C4%8Darod%C4%9Bjnic",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora světa?",
+    "options": [
+      "⛰️ Sněžka",
+      "🏔️ Mount Everest",
+      "⛰️ Říp"
+    ],
+    "answer": "🏔️ Mount Everest",
+    "fact": "Everest je víc než pětkrát vyšší než naše Sněžka.",
+    "difficulty": 1,
+    "image": "🧗",
+    "source": "https://cs.wikipedia.org/wiki/Mount_Everest",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou barvu mají v Londýně patrové autobusy?",
+    "options": [
+      "🔴 Červenou",
+      "🟢 Zelenou",
+      "🟡 Žlutou"
+    ],
+    "answer": "🔴 Červenou",
+    "fact": "Z horního patra londýnského autobusu je výhled na celou ulici.",
+    "difficulty": 1,
+    "image": "🚌",
+    "source": "https://en.wikipedia.org/wiki/Buses_in_London",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo nosí dárky dětem v Americe?",
+    "options": [
+      "👶 Ježíšek",
+      "🐰 Zajíček",
+      "🎅 Santa Claus"
+    ],
+    "answer": "🎅 Santa Claus",
+    "fact": "Podle příběhů bydlí Santa Claus na severním pólu a jezdí na saních, které táhnou sobi.",
+    "difficulty": 1,
+    "image": "🎁",
+    "source": "https://cs.wikipedia.org/wiki/Santa_Claus",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-042"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou chuť má voda v moři?",
+    "options": [
+      "🍬 Sladkou",
+      "🧂 Slanou",
+      "🍋 Kyselou"
+    ],
+    "answer": "🧂 Slanou",
+    "fact": "Mořskou vodu nepijeme. Po soli bychom měli ještě větší žízeň.",
+    "difficulty": 1,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/Mo%C5%99sk%C3%A1_voda",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-043"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou řečí se mluví na Slovensku?",
+    "options": [
+      "🗣️ Slovensky",
+      "🗣️ Německy",
+      "🗣️ Anglicky"
+    ],
+    "answer": "🗣️ Slovensky",
+    "fact": "Češi a Slováci si většinou rozumějí, i když každý mluví svou řečí.",
+    "difficulty": 1,
+    "image": "🏞️",
+    "source": "https://cs.wikipedia.org/wiki/Sloven%C5%A1tina",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-044"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou řečí se mluví v Německu i v Rakousku?",
+    "options": [
+      "🗣️ Polsky",
+      "🗣️ Německy",
+      "🗣️ Francouzsky"
+    ],
+    "answer": "🗣️ Německy",
+    "fact": "Německy se mluví i ve velké části Švýcarska.",
+    "difficulty": 2,
+    "image": "🥨",
+    "source": "https://cs.wikipedia.org/wiki/N%C4%9Bm%C4%8Dina",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-045"
   }
 ]

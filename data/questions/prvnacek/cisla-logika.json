@@ -412,5 +412,383 @@
     "source": "RVP ZV",
     "status": "verified",
     "id": "prvnacek-cisla-logika-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 8 + 5?",
+    "options": [
+      "🔢 12",
+      "🔢 13",
+      "🔢 14"
+    ],
+    "answer": "🔢 13",
+    "fact": "Pomůže doplnit do desítky: 8 + 2 = 10 a pak ještě 3.",
+    "difficulty": 2,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 15 − 5?",
+    "options": [
+      "🔟 10",
+      "🔢 11",
+      "5️⃣ 5"
+    ],
+    "answer": "🔟 10",
+    "fact": "Když od patnácti odebereš pětku, zůstane celá desítka.",
+    "difficulty": 1,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 6 + 6?",
+    "options": [
+      "🔢 11",
+      "🔢 12",
+      "🔢 13"
+    ],
+    "answer": "🔢 12",
+    "fact": "Dvanácti kusům se říká tucet.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "https://cs.wikipedia.org/wiki/Tucet",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 9 + 1?",
+    "options": [
+      "8️⃣ 8",
+      "🔟 10",
+      "🔢 11"
+    ],
+    "answer": "🔟 10",
+    "fact": "Počítáme po desítkách nejspíš proto, že máme na rukou deset prstů.",
+    "difficulty": 1,
+    "image": "✋",
+    "source": "https://cs.wikipedia.org/wiki/Des%C3%ADtkov%C3%A1_soustava",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo je nejmenší?",
+    "options": [
+      "🔢 11",
+      "🔢 19",
+      "9️⃣ 9"
+    ],
+    "answer": "9️⃣ 9",
+    "fact": "Číslo napsané jednou číslicí je vždycky menší než číslo napsané dvěma číslicemi.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo je hned před 10?",
+    "options": [
+      "8️⃣ 8",
+      "9️⃣ 9",
+      "🔢 11"
+    ],
+    "answer": "9️⃣ 9",
+    "fact": "Devítka otočená vzhůru nohama vypadá jako šestka.",
+    "difficulty": 1,
+    "image": "🔟",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co bude dál: 1, 3, 5, …?",
+    "options": [
+      "6️⃣ 6",
+      "7️⃣ 7",
+      "8️⃣ 8"
+    ],
+    "answer": "7️⃣ 7",
+    "fact": "Čísla 1, 3, 5 a 7 jsou lichá. Na dvě stejné hromádky se rozdělit nedají.",
+    "difficulty": 2,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co bude dál: 10, 9, 8, …?",
+    "options": [
+      "7️⃣ 7",
+      "9️⃣ 9",
+      "6️⃣ 6"
+    ],
+    "answer": "7️⃣ 7",
+    "fact": "Takhle pozpátku se odpočítává start rakety.",
+    "difficulty": 1,
+    "image": "🚀",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je polovina z 10?",
+    "options": [
+      "2️⃣ 2",
+      "5️⃣ 5",
+      "🔢 20"
+    ],
+    "answer": "5️⃣ 5",
+    "fact": "Polovinu jablka dostaneš, když ho rozkrojíš na dva stejné kusy.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Máš 10 korun a koupíš lízátko za 4 koruny. Kolik ti zbude?",
+    "options": [
+      "6️⃣ 6",
+      "4️⃣ 4",
+      "🔢 14"
+    ],
+    "answer": "6️⃣ 6",
+    "fact": "U nás platíme mincemi za 1, 2, 5, 10, 20 a 50 korun.",
+    "difficulty": 2,
+    "image": "🍭",
+    "source": "https://www.cnb.cz/cs/bankovky-a-mince/mince/",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik korun jsou dvě pětikoruny?",
+    "options": [
+      "7️⃣ 7",
+      "🔟 10",
+      "🔢 15"
+    ],
+    "answer": "🔟 10",
+    "fact": "Na desetikoruně je brněnská katedrála na Petrově.",
+    "difficulty": 2,
+    "image": "🪙",
+    "source": "https://www.cnb.cz/cs/bankovky-a-mince/mince/",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik nohou mají dvě slepice?",
+    "options": [
+      "2️⃣ 2",
+      "4️⃣ 4",
+      "8️⃣ 8"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Slepice spí na bidýlku, vysoko nad zemí.",
+    "difficulty": 1,
+    "image": "🐔",
+    "source": "https://cs.wikipedia.org/wiki/Kur_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik uší mají tři kočky?",
+    "options": [
+      "3️⃣ 3",
+      "6️⃣ 6",
+      "9️⃣ 9"
+    ],
+    "answer": "6️⃣ 6",
+    "fact": "Kočka umí každé ucho natočit na jinou stranu.",
+    "difficulty": 2,
+    "image": "🐱",
+    "source": "https://cs.wikipedia.org/wiki/Ko%C4%8Dka_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který tvar nemá žádný roh?",
+    "options": [
+      "🟥 Čtverec",
+      "🔺 Trojúhelník",
+      "⚪ Kruh"
+    ],
+    "answer": "⚪ Kruh",
+    "fact": "Kola jsou kulatá, aby se hladce otáčela a auto nedrncalo.",
+    "difficulty": 1,
+    "image": "🔵",
+    "source": "https://cs.wikipedia.org/wiki/Kruh",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik rohů mají dva trojúhelníky dohromady?",
+    "options": [
+      "4️⃣ 4",
+      "5️⃣ 5",
+      "6️⃣ 6"
+    ],
+    "answer": "6️⃣ 6",
+    "fact": "Trojúhelník má nejméně rohů ze všech tvarů, které se dají nakreslit rovnými čarami.",
+    "difficulty": 2,
+    "image": "🔺",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Která věc přijde v řadě dál: 🔺 ⚪ 🔺 ⚪ 🔺 …?",
+    "options": [
+      "🔺 Trojúhelník",
+      "⚪ Kolečko",
+      "🟥 Čtverec"
+    ],
+    "answer": "⚪ Kolečko",
+    "fact": "Pravidelný vzor staví i včely: plástev je ze samých stejných šestihranných políček.",
+    "difficulty": 1,
+    "image": "🔁",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Ve kterém měsíci začíná škola?",
+    "options": [
+      "📅 V září",
+      "📅 V červenci",
+      "📅 V prosinci"
+    ],
+    "answer": "📅 V září",
+    "fact": "Letní prázdniny trvají celý červenec a srpen.",
+    "difficulty": 1,
+    "image": "🎒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 11 + 7?",
+    "options": [
+      "🔢 17",
+      "🔢 18",
+      "🔢 19"
+    ],
+    "answer": "🔢 18",
+    "fact": "Stačí sečíst jednotky: 1 + 7 = 8. Desítka zůstane, jak byla.",
+    "difficulty": 2,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-042"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 17 − 3?",
+    "options": [
+      "🔢 13",
+      "🔢 14",
+      "🔢 15"
+    ],
+    "answer": "🔢 14",
+    "fact": "Malé číslo odečteš tak, že odpočítáš po jedné: 16, 15, 14.",
+    "difficulty": 2,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-043"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Je poledne. Kam ukazují obě ručičky hodin?",
+    "options": [
+      "🕛 Na 12",
+      "🕕 Na 6",
+      "🕒 Na 3"
+    ],
+    "answer": "🕛 Na 12",
+    "fact": "V poledne se v mnoha městech a vesnicích rozezní zvony.",
+    "difficulty": 2,
+    "image": "🕰️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-044"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 0 + 5?",
+    "options": [
+      "0️⃣ 0",
+      "5️⃣ 5",
+      "🔢 50"
+    ],
+    "answer": "5️⃣ 5",
+    "fact": "Nulu začali lidé v Evropě používat až ve středověku.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "https://cs.wikipedia.org/wiki/Nula",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-045"
   }
 ]

@@ -394,5 +394,401 @@
     "source": "RVP ZV",
     "status": "verified",
     "id": "prvnacek-slova-jazyk-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „plný“?",
+    "options": [
+      "🔥 Horký",
+      "🪣 Prázdný",
+      "🐘 Velký"
+    ],
+    "answer": "🪣 Prázdný",
+    "fact": "Některé protiklady vzniknou přidáním ne-: hezký a nehezký, zdravý a nezdravý.",
+    "difficulty": 1,
+    "image": "🥛",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „dlouhý“?",
+    "options": [
+      "✂️ Krátký",
+      "🐢 Pomalý",
+      "🌙 Tmavý"
+    ],
+    "answer": "✂️ Krátký",
+    "fact": "Krátký i dlouhý může být den, cesta, vlasy i písnička.",
+    "difficulty": 1,
+    "image": "🐍",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „ráno“?",
+    "options": [
+      "☀️ Poledne",
+      "🌙 Večer",
+      "🌅 Svítání"
+    ],
+    "answer": "🌙 Večer",
+    "fact": "Večer se v přírodě ozývají sovy a netopýři vylétají na lov.",
+    "difficulty": 1,
+    "image": "🌄",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které roční období je opakem zimy?",
+    "options": [
+      "🌷 Jaro",
+      "🍂 Podzim",
+      "☀️ Léto"
+    ],
+    "answer": "☀️ Léto",
+    "fact": "Když je u nás zima, v Austrálii je léto.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Ro%C4%8Dn%C3%AD_obdob%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „kočka“?",
+    "options": [
+      "⚫ Tečka",
+      "🐶 Pes",
+      "🥛 Mléko"
+    ],
+    "answer": "⚫ Tečka",
+    "fact": "Tečku má i malé písmeno i a j.",
+    "difficulty": 1,
+    "image": "🐱",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „hora“?",
+    "options": [
+      "🌳 Strom",
+      "🕳️ Nora",
+      "🐟 Ryba"
+    ],
+    "answer": "🕳️ Nora",
+    "fact": "Nora jezevce mívá mnoho vchodů a dlouhé chodby pod zemí.",
+    "difficulty": 1,
+    "image": "⛰️",
+    "source": "https://cs.wikipedia.org/wiki/Jezevec_lesn%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „ryba“?",
+    "options": [
+      "❌ Chyba",
+      "🐱 Kočka",
+      "🌊 Moře"
+    ],
+    "answer": "❌ Chyba",
+    "fact": "Staré přísloví říká: chybami se člověk učí.",
+    "difficulty": 1,
+    "image": "🐟",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „lev“?",
+    "options": [
+      "🌳 Strom",
+      "🎵 Zpěv",
+      "🐱 Kočka"
+    ],
+    "answer": "🎵 Zpěv",
+    "fact": "Řev lva je slyšet i na několik kilometrů daleko.",
+    "difficulty": 1,
+    "image": "🦁",
+    "source": "https://cs.wikipedia.org/wiki/Lev_pustinn%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „bota“?",
+    "options": [
+      "🎵 Nota",
+      "🧦 Ponožka",
+      "👟 Tenisky"
+    ],
+    "answer": "🎵 Nota",
+    "fact": "Noty se píšou na pět čar. Říká se jim notová osnova.",
+    "difficulty": 1,
+    "image": "👢",
+    "source": "https://cs.wikipedia.org/wiki/Nota",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo končí na hlásku K?",
+    "options": [
+      "🐟 Ryba",
+      "🐌 Šnek",
+      "🐱 Kočka"
+    ],
+    "answer": "🐌 Šnek",
+    "fact": "Šnekovi se říká taky hlemýžď.",
+    "difficulty": 2,
+    "image": "🔤",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik písmen má slovo „les“?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "4️⃣ 4"
+    ],
+    "answer": "3️⃣ 3",
+    "fact": "Lesy pokrývají asi třetinu Česka.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Lesy_v_%C4%8Cesku",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik slabik má slovo „motýl“?",
+    "options": [
+      "1️⃣ 1",
+      "2️⃣ 2",
+      "3️⃣ 3"
+    ],
+    "answer": "2️⃣ 2",
+    "fact": "Motýli ochutnávají jídlo nohama.",
+    "difficulty": 1,
+    "image": "🦋",
+    "source": "https://cs.wikipedia.org/wiki/Mot%C3%BDli",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik slabik má slovo „papoušek“?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "4️⃣ 4"
+    ],
+    "answer": "3️⃣ 3",
+    "fact": "Ou se čte dohromady v jedné slabice: pa-pou-šek.",
+    "difficulty": 2,
+    "image": "🦜",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které písmeno chybí: KO_A (zvíře, které dělá mééé)?",
+    "options": [
+      "🔤 S",
+      "🔤 L",
+      "🔤 Z"
+    ],
+    "answer": "🔤 Z",
+    "fact": "Když místo Z napíšeš S, vznikne kosa. To je nástroj na sekání trávy.",
+    "difficulty": 2,
+    "image": "🐐",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak říkáme tátovu tátovi?",
+    "options": [
+      "👴 Dědeček",
+      "👨 Strýc",
+      "👦 Bratr"
+    ],
+    "answer": "👴 Dědeček",
+    "fact": "Pro dědečka jsi jeho vnouče. Kluk je vnuk a holka vnučka.",
+    "difficulty": 1,
+    "image": "👨‍👩‍👧",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak říkáme maminčině sestře?",
+    "options": [
+      "👵 Babička",
+      "👩 Teta",
+      "👧 Sestřenice"
+    ],
+    "answer": "👩 Teta",
+    "fact": "Maminčin nebo tatínkův bratr je zase strýc.",
+    "difficulty": 1,
+    "image": "👩‍👧",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jakým písmenem začíná věta?",
+    "options": [
+      "🔠 Velkým",
+      "🔡 Malým",
+      "🔢 Číslem"
+    ],
+    "answer": "🔠 Velkým",
+    "fact": "Velkým písmenem začínají i jména lidí a zvířat, třeba Ferda nebo Mikeš.",
+    "difficulty": 1,
+    "image": "📖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo je pozdrav?",
+    "options": [
+      "🍞 Chleba",
+      "👋 Ahoj",
+      "🐶 Pes"
+    ],
+    "answer": "👋 Ahoj",
+    "fact": "Slovo ahoj k nám připlulo z námořnického pokřiku ahoy.",
+    "difficulty": 1,
+    "image": "😀",
+    "source": "https://cs.wikipedia.org/wiki/Ahoj",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co řekneme, když o něco slušně žádáme?",
+    "options": [
+      "🙏 Prosím",
+      "👋 Ahoj",
+      "😴 Dobrou noc"
+    ],
+    "answer": "🙏 Prosím",
+    "fact": "Prosím a děkuji se říká kouzelná slovíčka. Otevřou skoro každé dveře.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které písmeno má nad sebou háček?",
+    "options": [
+      "🔤 C",
+      "🔤 O",
+      "🔤 Č"
+    ],
+    "answer": "🔤 Č",
+    "fact": "Psaní s háčky a čárkami se připisuje Janu Husovi.",
+    "difficulty": 2,
+    "image": "✏️",
+    "source": "https://cs.wikipedia.org/wiki/H%C3%A1%C4%8Dek_(diakritika)",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-042"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se anglicky řekne pes?",
+    "options": [
+      "🐱 Cat",
+      "🐶 Dog",
+      "🐮 Cow"
+    ],
+    "answer": "🐶 Dog",
+    "fact": "Anglický pes neštěká haf haf, ale woof woof.",
+    "difficulty": 2,
+    "image": "💬",
+    "source": "https://cs.wiktionary.org/wiki/dog",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-043"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se anglicky pozdravíme?",
+    "options": [
+      "👋 Hello",
+      "🐶 Dog",
+      "🍎 Apple"
+    ],
+    "answer": "👋 Hello",
+    "fact": "Hello říkají Angličané i do telefonu, když ho zvednou.",
+    "difficulty": 1,
+    "image": "🗣️",
+    "source": "https://cs.wiktionary.org/wiki/hello",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-044"
   }
 ]
