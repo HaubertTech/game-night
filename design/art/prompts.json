@@ -210,6 +210,16 @@
       "kind": "scene",
       "aspect": "4:3",
       "prompt": "Landscape illustration, 4:3. A calm hallway corner of a Czech family home: a small wooden shelf by the front door with a little key rack holding a bunch of house keys on a ring with a wooden fob, a small notepad with a pencil, an old brass doorbell button, a pot with a fern. Below: a bench with a folded checked blanket, slippers and rubber boots neatly side by side, a coat hook with a scarf and a cap. A small toolbox with a screwdriver on the floor. Soft daylight from a little window. Tidy, orderly, calm, homely. Straight-on view."
+    },
+    {
+      "id": "card-clovece",
+      "out": "originals/cards/clovece.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A family plays the classic Czech board game Člověče, nezlob se (a cross-shaped race board game like ludo) on a big wooden kitchen table in the afternoon: the square board lies in the middle, a cross-shaped track of round spaces with four coloured corner home areas (muted sage green, slate blue, ochre yellow and brick red) and little wooden cone-shaped pawns in the same colours, one white wooden die with pips mid-roll on the board. A girl of about six shakes a die cup with both hands and squeals with excitement, her older brother pretends to be outraged because his pawn was just sent home, mum laughs with a hand over her mouth, grandma calmly counts spaces with her finger. The owl MADAM OWL from the attached model sheet sits on the edge of the table like a referee, holding up one wing. Details: a jug of raspberry syrup and glasses, a plate of poppy-seed buchty buns, a cat batting a fallen pawn on the floor, a kitchen dresser with plates and a window with geraniums. Diorama view slightly from above. The die shows only pips (dots), never digits."
     }
   ]
 }

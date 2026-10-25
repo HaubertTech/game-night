@@ -239,6 +239,20 @@
       }
     ]
   },
+  "cards.clovece": {
+    "path": "/art/cards/clovece.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Rodina u kuchyňského stolu hraje Člověče, nezlob se, sova dělá rozhodčí",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/clovece-600.webp"
+      }
+    ]
+  },
   "levels.hospoda": {
     "path": "/art/levels/hospoda.webp",
     "width": 512,
