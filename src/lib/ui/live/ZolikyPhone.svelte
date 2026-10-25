@@ -140,7 +140,7 @@
   }
 </script>
 
-<main class="g-phone" data-testid="phone" data-game="zoliky-hra" data-phase={view?.roomPhase ?? 'loading'} data-me={room.me ?? ''} data-my-turn={myTurn ? 'yes' : 'no'} data-step={view?.step ?? ''}>
+<main class="g-phone" data-testid="phone" data-game="zoliky-hra" data-phase={view?.roomPhase ?? 'loading'} data-me={room.me ?? ''} data-my-turn={myTurn ? 'yes' : 'no'} data-seq={view?.log.at(-1)?.seq ?? 0} data-step={view?.step ?? ''}>
   <header class="g-bar">
     {#if me}
       <span><span class="emoji">{me.avatar}</span> <strong>{me.name}</strong></span>

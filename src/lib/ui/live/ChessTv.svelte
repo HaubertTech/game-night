@@ -125,7 +125,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: min(60vw, calc(100vh - 220px));
+    width: min(60vw, calc(100vh - 270px));
   }
   .player {
     display: flex;

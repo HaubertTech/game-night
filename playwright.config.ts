@@ -6,7 +6,7 @@ import { defineConfig, devices } from '@playwright/test';
 const PORT = 5181;
 /** Live mode (TV + phones) needs the database: its own dev server against the test DB. */
 const LIVE_PORT = 5182;
-// live.spec.ts (quiz), live-aktivity.spec.ts and live-mjz.spec.ts: TV + phones against the test DB.
+// live*.spec.ts (quiz, aktivity, mjz, chess, cards): TV + phones against the test DB.
 const LIVE_SPECS = /live.*\.spec\.ts$/;
 /** League flows (evenings, cards, profiles) also need the database: they reuse the live server. */
 const LIGA_SPECS = /e2e\/liga[^/]*\.spec\.ts$/;
@@ -54,6 +54,8 @@ export default defineConfig({
         // Registration e2e reads the verification link from here (same path as e2e/helpers/account.ts).
         MAIL_OUTBOX_DIR: join(tmpdir(), 'domaci-liga-e2e-outbox'),
         SMTP_URL: '',
+        // Computer card players move quickly, so a whole prší game fits in one test.
+        CARD_AI_DELAY_MS: '150',
       },
       url: `http://localhost:${LIVE_PORT}`,
       reuseExistingServer: false,
