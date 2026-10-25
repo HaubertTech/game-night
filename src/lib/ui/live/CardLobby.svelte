@@ -29,6 +29,7 @@
 
   function label(s: TableSeat): string {
     if (s.ai) return computerLabel(s);
+    if (s.onTv) return '📺 hraje na televizi';
     const p = presence[s.id];
     if (p?.online) return '📱 připojen(a)';
     if (p?.claimed) return '📴 telefon odpojen';
@@ -42,7 +43,7 @@
     <h1>Kdo hraje</h1>
     <ul class="g-people">
       {#each seats as s (s.id)}
-        <li data-testid="lobby-contestant" data-contestant={s.id} data-online={s.ai || presence[s.id]?.online ? 'yes' : 'no'}>
+        <li data-testid="lobby-contestant" data-contestant={s.id} data-online={s.ai || s.onTv || presence[s.id]?.online ? 'yes' : 'no'}>
           <span class="emoji g-avatar"><Avatar value={s.avatar} px={96} /></span>
           <strong class="g-grow">{s.name}{#if s.hints} 💡{/if}</strong>
           <span class="muted">{label(s)}</span>

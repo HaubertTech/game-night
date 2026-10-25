@@ -22,7 +22,7 @@
   let { room, code }: { room: LiveRoom; code: string } = $props();
 
   const view = $derived(room.clovece);
-  const people = $derived((view?.seats ?? []).filter((s) => !s.ai));
+  const people = $derived((view?.seats ?? []).filter((s) => !s.ai && !s.onTv));
   const me = $derived(room.me ? view?.seats.find((s) => s.id === room.me) : undefined);
   const mine = $derived(view && me ? view.players.find((p) => p.id === me.id) : undefined);
   const myTurn = $derived(!!view && !!me && view.phase === 'playing' && view.roomPhase !== 'lobby' && view.turn === me.id);

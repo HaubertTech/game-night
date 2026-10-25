@@ -115,3 +115,57 @@ test('Člověče: TV, jeden telefon a počítač, dohraná hra, výsledek v DB',
   await phoneContext.close();
   await tvContext.close();
 });
+
+test('Člověče: dítě bez telefonu hraje na TV, hostitel hází a táhne za něj', async ({ browser, baseURL }) => {
+  test.setTimeout(90_000);
+  const tvContext = await browser.newContext({ viewport: { width: 1600, height: 900 }, baseURL, reducedMotion: 'reduce' });
+  const tv = await tvContext.newPage();
+  await loginManager(tv.request, manager);
+  const res = await tv.request.post('/api/players', { data: { name: 'Bára', level: 'kocarek', avatar: '🐰' } });
+  expect(res.status()).toBe(201);
+  const baraId = (await res.json()).player.id as number;
+
+  await tv.goto('/tv');
+  await tv.getByTestId('game-clovece').click();
+  await tv.getByRole('button', { name: 'Bára hraje' }).click();
+  await tv.getByRole('button', { name: 'Na televizi: Bára' }).click();
+  await tv.getByRole('group', { name: 'Počet počítačů' }).getByRole('button', { name: '1', exact: true }).click();
+  await tv.getByRole('button', { name: 'Založit místnost' }).click();
+  await expect(tv).toHaveURL(/\/tv\/[A-Z0-9]{4}$/);
+  const tvMain = tv.getByTestId('tv-clovece');
+  const seat = tv.locator(`[data-testid="lobby-contestant"][data-contestant="p${baraId}"]`);
+  await expect(seat).toHaveAttribute('data-online', 'yes');
+  await expect(seat).toContainText('hraje na televizi');
+  const code = (await tv.getByTestId('room-code').innerText()).trim();
+
+  // The phone has no seat to pick: Bára plays on the TV.
+  const phoneContext = await browser.newContext({ ...devices['Pixel 7'], reducedMotion: 'reduce' });
+  const phone = await phoneContext.newPage();
+  await phone.goto(`${baseURL}/m/${code}`);
+  await expect(phone.getByTestId('phone')).toBeVisible();
+  await expect(phone.getByRole('button', { name: /^Jsem / })).toHaveCount(0);
+  await phoneContext.close();
+
+  await tv.getByRole('button', { name: /Začít hru/ }).click();
+  await expect(tvMain).toHaveAttribute('data-phase', 'playing');
+
+  // Three of Bára's turns played from the TV: roll, then the advised pawn when there is a choice.
+  let turns = 0;
+  const until = Date.now() + 70_000;
+  while (turns < 3 && Date.now() < until) {
+    if ((await tvMain.getAttribute('data-turn')) !== `p${baraId}`) {
+      await tv.waitForTimeout(80);
+      continue;
+    }
+    const seq = await tvMain.getAttribute('data-seq');
+    if ((await tvMain.getAttribute('data-stage')) === 'roll') {
+      await tv.getByTestId('clovece-roll').click();
+      turns++;
+    } else {
+      await tv.getByTestId('tv-clovece-move').first().click();
+    }
+    await expect(tvMain).not.toHaveAttribute('data-seq', seq ?? '');
+  }
+  expect(turns).toBe(3);
+  await tvContext.close();
+});

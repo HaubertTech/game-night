@@ -1,8 +1,11 @@
 <script lang="ts">
   // Člověče, nezlob se on the TV: the big board, the die, who is on turn and what just happened.
-  // People roll and move on their phones; the TV only watches (the host starts the game).
+  // People roll and move on their phones; for a player without a phone the host rolls and picks the
+  // pawn right on the TV (with the owl when the player has hints).
   import './game.css';
   import { AI_LEVEL_LABELS } from '../../games/clovece/ai.ts';
+  import { TRACK } from '../../games/clovece/engine.ts';
+  import Owl from '../art/Owl.svelte';
   import type { LiveRoom } from '../../live-client/room.svelte.ts';
   import Board from '../clovece/Board.svelte';
   import Die from '../clovece/Die.svelte';
@@ -18,6 +21,16 @@
   const view = $derived(room.clovece);
   const isHost = $derived(view?.viewer === 'host');
   const current = $derived(view?.players.find((p) => p.id === view.turn));
+  const tvSeat = $derived(view?.seats.find((s) => s.id === view.turn && s.onTv && !s.ai));
+  /** The host plays this turn on the TV. */
+  const tvTurn = $derived(!!view && isHost && !!tvSeat && view.phase === 'playing' && view.roomPhase !== 'lobby');
+
+  function moveLabel(m: (typeof view & {})['moves'][number]): string {
+    if (m.kind === 'enter') return `Figurka ${m.pawn + 1}: nasadit`;
+    if (m.to >= TRACK) return `Figurka ${m.pawn + 1}: do domečku`;
+    const n = m.to - m.from;
+    return `Figurka ${m.pawn + 1}: o ${n} ${n < 5 ? 'pole' : 'polí'}${m.captures ? ' a vyhodit' : ''}`;
+  }
   const lines = $derived(view ? recentLines(view.players, view.log, 6) : []);
   const winner = $derived(view?.players.find((p) => p.id === view.finished[0]));
   const note = $derived(
@@ -34,7 +47,7 @@
   );
 </script>
 
-<main class="g-tv clovece-tv" data-testid="tv-clovece" data-phase={view?.roomPhase ?? 'loading'} data-turn={view?.turn ?? ''}>
+<main class="g-tv clovece-tv" data-testid="tv-clovece" data-phase={view?.roomPhase ?? 'loading'} data-turn={view?.turn ?? ''} data-stage={view?.stage ?? ''} data-seq={view?.seq ?? 0}>
   <header class="g-bar">
     <span class="g-brand">🎲 Člověče, nezlob se</span>
     <span>Místnost <strong>{code}</strong></span>
@@ -66,17 +79,36 @@
     {:else}
       <section class="table">
         <div class="board-wrap">
-          <Board players={view.players} pawns={view.pawns} lastMove={view.lastMove} turn={view.turn} moves={view.moves} />
+          <Board
+            players={view.players}
+            pawns={view.pawns}
+            lastMove={view.lastMove}
+            turn={view.turn}
+            moves={view.moves}
+            interactive={tvTurn && view.stage === 'move'}
+            onPick={(pawn) => room.actClovece({ type: 'move', pawn })}
+          />
         </div>
         <aside class="stack side">
           {#if view.phase === 'playing' && current}
             <div class="turn">
-              <Die value={view.dice} rollKey={view.seq} size={120} />
+              <Die value={view.dice} rollKey={view.seq} size={120} canRoll={tvTurn && view.stage === 'roll'} onRoll={tvTurn ? () => room.actClovece({ type: 'roll' }) : undefined} />
               <div class="stack tight">
                 <p class="who" data-testid="tv-turn">Hraje <strong>{current.name}</strong>{#if current.ai} 🤖{/if}</p>
-                <p class="muted">{view.stage === 'roll' ? (current.ai ? 'Počítač hází…' : 'Hází na telefonu') : 'Vybírá figurku'}</p>
+                <p class="muted" data-testid="tv-stage">
+                  {#if tvSeat}{view.stage === 'roll' ? (isHost ? 'Hoď kostkou tady na televizi' : 'Hází na televizi') : (isHost ? 'Vyber figurku' : 'Vybírá figurku')}
+                  {:else}{view.stage === 'roll' ? (current.ai ? 'Počítač hází…' : 'Hází na telefonu') : 'Vybírá figurku'}{/if}
+                </p>
                 {#if view.deadline}<Countdown seconds={room.remaining} total={view.turnSeconds} />{/if}
               </div>
+            </div>
+          {/if}
+          {#if tvTurn && view.hint}<Owl pose="otazka" text={view.hint.text} compact />{/if}
+          {#if tvTurn && view.stage === 'move'}
+            <div class="tv-moves">
+              {#each view.moves as m (m.pawn)}
+                <button type="button" class="btn" class:primary={view.hint?.pawn === m.pawn} data-testid="tv-clovece-move" data-pawn={m.pawn} onclick={() => room.actClovece({ type: 'move', pawn: m.pawn })}>{moveLabel(m)}</button>
+              {/each}
             </div>
           {/if}
           <Players players={view.players} pawns={view.pawns} turn={view.turn} places={view.places} finished={view.phase === 'finished'} big />
@@ -127,6 +159,15 @@
   .who {
     margin: 0;
     font-size: 1.8rem;
+  }
+  .tv-moves {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .tv-moves .btn {
+    min-height: 56px;
+    font-size: 1.2rem;
   }
   .log {
     list-style: none;
