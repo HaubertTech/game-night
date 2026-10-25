@@ -2,7 +2,7 @@
 // The state is plain JSON (no Map/Set/Date), so it can be stored in localStorage today
 // and live on a server for the phone-controller mode later.
 
-import { YEAR_TOLERANCE, type EstimateQuestion, type Level, type Question, type Theme } from '../types.ts';
+import { YEAR_TOLERANCE, hasOptions, isJudged, type EstimateQuestion, type Level, type Question, type Theme } from '../types.ts';
 import { mulberry32 } from './rng.ts';
 import { drawGame, type Contestant, type Turn } from './select.ts';
 
@@ -14,7 +14,7 @@ export type Phase =
   | 'roundIntro' // choose jokers, then start the round
   | 'handover' // "Na řadě je … (podej tablet)"
   | 'question' // contestant answers
-  | 'judge' // open question: answer revealed, others confirm ✓/✗
+  | 'judge' // open / imitate question: answer revealed, others (the parent) confirm ✓/✗
   | 'feedback' // correct answer + fact
   | 'roundEnd' // standings after the round
   | 'finished';
@@ -23,9 +23,20 @@ export interface GameConfig {
   seed: number;
   themes: Theme[];
   questionsPerContestant: number;
-  /** Seconds per question, null = no timer. Preschool never has a timer. */
+  /** Seconds per question, null = no timer. Kocarek and piskoviste never have a timer (levelTimer). */
   timerSeconds: number | null;
   contestants: Contestant[];
+}
+
+/** Prvňáček reads slower: half as much time again. */
+export const PRVNACEK_TIMER_FACTOR = 1.5;
+
+/** Timer for a level given the game's base timer: none for the youngest, longer for prvnacek. */
+export function levelTimer(level: Level | undefined, base: number | null): number | null {
+  if (base === null) return null;
+  if (level === 'kocarek' || level === 'piskoviste') return null;
+  if (level === 'prvnacek') return Math.round(base * PRVNACEK_TIMER_FACTOR);
+  return base;
 }
 
 export interface AnswerRecord {
@@ -197,9 +208,7 @@ export function canUseJoker(state: GameState, contestantId: string): boolean {
 }
 
 export function timerFor(state: GameState, level?: Level): number | null {
-  const lvl = level ?? currentContestant(state)?.level;
-  if (lvl === 'piskoviste') return null;
-  return state.config.timerSeconds;
+  return levelTimer(level ?? currentContestant(state)?.level, state.config.timerSeconds);
 }
 
 export interface Standing {
@@ -269,7 +278,7 @@ export function reduce(state: GameState, action: Action): GameState {
       const q = currentQuestion(state);
       const turn = currentTurn(state);
       if (!q || !turn) return state;
-      if (q.type === 'choice') {
+      if (hasOptions(q)) {
         if (typeof action.value !== 'string' || !q.options.includes(action.value)) return state;
         const correct = action.value === q.answer;
         return finishTurn(state, { given: action.value, correct, basePoints: correct ? 1 : 0 });
@@ -280,18 +289,22 @@ export function reduce(state: GameState, action: Action): GameState {
         const { points, error, diff, closeness, precise } = scoreEstimate(value, q.answer, estimateTolerance(q));
         return finishTurn(state, { given: value, correct: points > 0, basePoints: points, error, diff, closeness, precise });
       }
-      return state; // open questions go through reveal → judge
+      return state; // open and imitate questions go through reveal → judge
     }
     case 'timeout':
       if (state.phase !== 'question') return state;
       return finishTurn(state, { given: null, correct: false, basePoints: 0, timedOut: true });
-    case 'reveal':
-      return state.phase === 'question' && currentQuestion(state)?.type === 'open'
-        ? { ...state, phase: 'judge' }
-        : state;
-    case 'judge':
-      if (state.phase !== 'judge') return state;
+    case 'reveal': {
+      const q = currentQuestion(state);
+      return state.phase === 'question' && q && isJudged(q) ? { ...state, phase: 'judge' } : state;
+    }
+    case 'judge': {
+      // The parent sees the model answer of an imitate question right away, so ✓/✗ works from the question too.
+      const q = currentQuestion(state);
+      const direct = state.phase === 'question' && q?.type === 'imitate';
+      if (state.phase !== 'judge' && !direct) return state;
       return finishTurn(state, { given: null, correct: action.correct, basePoints: action.correct ? 1 : 0 });
+    }
     case 'next': {
       if (state.phase === 'feedback') {
         const round = currentRound(state)!;

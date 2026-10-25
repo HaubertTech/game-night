@@ -63,6 +63,14 @@ describe('players API', () => {
     expect(err.status).toBe(400);
   });
 
+  it('stores the new levels kocarek and prvnacek', async () => {
+    for (const level of ['kocarek', 'prvnacek']) {
+      const res = await createRoute(fakeEvent({ household: home, body: { name: `Dítě ${level}`, level } }));
+      expect(res.status).toBe(201);
+      expect((await res.json()).player.level).toBe(level);
+    }
+  });
+
   it('answers 404 for a player of another household', async () => {
     const [adam] = await listPlayers(home.id);
     const err = await httpError(() => patchRoute(fakeEvent({ household: other, params: { id: String(adam.id) }, body: { name: 'Y' } })));

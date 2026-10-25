@@ -1,97 +1,98 @@
 [
   {
-    "id": "lavice-pohadky-film-hudba-001",
     "level": "lavice",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Jaké zvíře je Ferda?",
+    "text": "Jak se jmenuje vládce hor z pohádek o Krkonoších?",
     "options": [
-      "Mravenec",
-      "Včela",
-      "Moucha",
-      "Brouk"
-    ],
-    "answer": "Mravenec",
-    "fact": "Ferdu Mravence vymyslel malíř a spisovatel Ondřej Sekora.",
-    "difficulty": 1,
-    "image": "📚",
-    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-pohadky-film-hudba-002",
-    "level": "lavice",
-    "theme": "pohadky-film-hudba",
-    "type": "choice",
-    "text": "Jak se jmenují dva kutilové, kterým se všechno pokazí?",
-    "options": [
-      "Křemílek a Vochomůrka",
-      "Pat a Mat",
-      "Bob a Bobek",
-      "Spejbl a Hurvínek"
-    ],
-    "answer": "Pat a Mat",
-    "fact": "Pat a Mat vždycky řeknou „A je to!“, i když to dopadne všelijak.",
-    "difficulty": 1,
-    "image": "🔨",
-    "source": "https://cs.wikipedia.org/wiki/Pat_a_Mat",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-pohadky-film-hudba-003",
-    "level": "lavice",
-    "theme": "pohadky-film-hudba",
-    "type": "choice",
-    "text": "Jaká zvířátka jsou Bob a Bobek?",
-    "options": [
-      "Veverky",
-      "Ježci",
-      "Králíci",
-      "Myšky"
-    ],
-    "answer": "Králíci",
-    "fact": "Bob a Bobek vyskakují z kouzelníkova klobouku.",
-    "difficulty": 1,
-    "image": "🎩",
-    "source": "https://cs.wikipedia.org/wiki/Bob_a_Bobek_%E2%80%93_kr%C3%A1l%C3%ADci_z_klobouku",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-pohadky-film-hudba-004",
-    "level": "lavice",
-    "theme": "pohadky-film-hudba",
-    "type": "choice",
-    "text": "Jak se jmenuje loupežník z lesa Řáholce?",
-    "options": [
-      "Ferda",
       "Rumcajs",
       "Hurvínek",
+      "Kašpárek",
       "Krakonoš"
     ],
-    "answer": "Rumcajs",
-    "fact": "Rumcajs byl dřív ševcem v Jičíně.",
+    "answer": "Krakonoš",
+    "fact": "Krakonoš podle pověstí trestá zlé lidi a pomáhá dobrým.",
     "difficulty": 1,
-    "image": "🌲",
-    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
-    "status": "verified"
+    "image": "🏔️",
+    "source": "https://cs.wikipedia.org/wiki/Krakono%C5%A1",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-001"
   },
   {
-    "id": "lavice-pohadky-film-hudba-005",
     "level": "lavice",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Které zvíře s dlouhýma ušima kamarádí s Krtkem?",
+    "text": "Jak se jmenuje obrovský pes, kamarád holčičky Ájy?",
     "options": [
-      "Zajíc",
-      "Tygr",
-      "Slon"
+      "Maxipes Fík",
+      "Žeryk",
+      "Punťa",
+      "Ferda"
     ],
-    "answer": "Zajíc",
-    "fact": "Krtek a jeho kamarádi skoro nemluví, a přesto jim všichni rozumí.",
-    "difficulty": 1,
-    "image": "📺",
-    "source": "https://cs.wikipedia.org/wiki/Krtek",
-    "status": "verified"
+    "answer": "Maxipes Fík",
+    "fact": "Fíka vymyslel spisovatel Rudolf Čechura a nakreslil Jiří Šalamoun.",
+    "difficulty": 2,
+    "image": "🐕",
+    "source": "https://cs.wikipedia.org/wiki/Maxipes_F%C3%ADk",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Malý princ?",
+    "options": [
+      "Hans Christian Andersen",
+      "Antoine de Saint-Exupéry",
+      "Bratři Grimmové",
+      "Josef Lada"
+    ],
+    "answer": "Antoine de Saint-Exupéry",
+    "fact": "Autor byl pilot a obrázky do knížky nakreslil sám.",
+    "difficulty": 3,
+    "image": "🌹",
+    "source": "https://cs.wikipedia.org/wiki/Mal%C3%BD_princ",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-003"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal pohádku O malé mořské víle?",
+    "options": [
+      "Bratři Grimmové",
+      "Božena Němcová",
+      "Hans Christian Andersen",
+      "Karel Jaromír Erben"
+    ],
+    "answer": "Hans Christian Andersen",
+    "fact": "V dánské Kodani sedí u moře bronzová socha Malé mořské víly.",
+    "difficulty": 2,
+    "image": "🧜",
+    "source": "https://cs.wikipedia.org/wiki/Mal%C3%A1_mo%C5%99sk%C3%A1_v%C3%ADla",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-004"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo sebral a zapsal pohádku o Sněhurce a sedmi trpaslících?",
+    "options": [
+      "Hans Christian Andersen",
+      "Josef Lada",
+      "Jan Werich",
+      "Bratři Grimmové"
+    ],
+    "answer": "Bratři Grimmové",
+    "fact": "Bratři Grimmové byli Němci a zapisovali pohádky, které si lidé vyprávěli.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Brat%C5%99i_Grimmov%C3%A9",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-005"
   },
   {
     "id": "lavice-pohadky-film-hudba-006",
@@ -113,23 +114,23 @@
     "status": "verified"
   },
   {
-    "id": "lavice-pohadky-film-hudba-007",
     "level": "lavice",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Kteří dva skřítci bydlí v pařezové chaloupce?",
+    "text": "Kdo napsal pohádkovou knížku Fimfárum?",
     "options": [
-      "Křemílek a Vochomůrka",
-      "Pat a Mat",
-      "Spejbl a Hurvínek",
-      "Bob a Bobek"
+      "Jan Werich",
+      "Karel Čapek",
+      "Josef Lada",
+      "Ondřej Sekora"
     ],
-    "answer": "Křemílek a Vochomůrka",
-    "fact": "Jejich příběhy napsal Václav Čtvrtek.",
+    "answer": "Jan Werich",
+    "fact": "Jan Werich byl i slavný herec, hrál třeba v Císařově pekaři.",
     "difficulty": 2,
-    "image": "🍄",
-    "source": "https://cs.wikipedia.org/wiki/Poh%C3%A1dky_z_mechu_a_kaprad%C3%AD",
-    "status": "verified"
+    "image": "📖",
+    "source": "https://cs.wikipedia.org/wiki/Fimf%C3%A1rum",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-007"
   },
   {
     "id": "lavice-pohadky-film-hudba-008",
@@ -282,5 +283,841 @@
     "image": "👩",
     "source": "https://cs.wikipedia.org/wiki/Rumcajs",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Dášeňka čili Život štěněte?",
+    "options": [
+      "Josef Lada",
+      "Karel Čapek",
+      "Jan Werich",
+      "Ondřej Sekora"
+    ],
+    "answer": "Karel Čapek",
+    "fact": "Dášeňka byla skutečná fenka foxteriéra, kterou Karel Čapek sám fotografoval.",
+    "difficulty": 2,
+    "image": "🐶",
+    "source": "https://cs.wikipedia.org/wiki/D%C3%A1%C5%A1e%C5%88ka_%C4%8Dili_%C5%BEivot_%C5%A1t%C4%9Bn%C4%9Bte",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo vymyslel příběhy o loupežníku Rumcajsovi?",
+    "options": [
+      "Josef Lada",
+      "Ondřej Sekora",
+      "Václav Čtvrtek",
+      "Zdeněk Miler"
+    ],
+    "answer": "Václav Čtvrtek",
+    "fact": "Čtvrtek vymyslel i Křemílka a Vochomůrku nebo vílu Amálku.",
+    "difficulty": 2,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/V%C3%A1clav_%C4%8Ctvrtek",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na který nástroj se hraje smyčcem?",
+    "options": [
+      "Na trubku",
+      "Na klavír",
+      "Na buben",
+      "Na housle"
+    ],
+    "answer": "Na housle",
+    "fact": "Smyčec se vyrábí z koňských žíní.",
+    "difficulty": 1,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/Smy%C4%8Dec",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik strun mají housle?",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "12"
+    ],
+    "answer": "4",
+    "fact": "Kytara jich má obvykle šest.",
+    "difficulty": 2,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/Housle",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik kláves má klasický klavír?",
+    "options": [
+      "52",
+      "88",
+      "100",
+      "64"
+    ],
+    "answer": "88",
+    "fact": "Bílých kláves je 52 a černých 36.",
+    "difficulty": 3,
+    "image": "🎹",
+    "source": "https://cs.wikipedia.org/wiki/Klav%C3%ADr",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operu Rusalka?",
+    "options": [
+      "Bedřich Smetana",
+      "Leoš Janáček",
+      "Antonín Dvořák",
+      "Bohuslav Martinů"
+    ],
+    "answer": "Antonín Dvořák",
+    "fact": "Nejslavnější písní z Rusalky je árie Měsíčku na nebi hlubokém.",
+    "difficulty": 3,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Rusalka_(Dvo%C5%99%C3%A1k)",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Broučci?",
+    "options": [
+      "Karel Jaromír Erben",
+      "Josef Lada",
+      "Václav Čtvrtek",
+      "Jan Karafiát"
+    ],
+    "answer": "Jan Karafiát",
+    "fact": "Broučci jsou světlušky, které v noci svítí.",
+    "difficulty": 3,
+    "image": "🪲",
+    "source": "https://cs.wikipedia.org/wiki/Brou%C4%8Dci",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Hurvínkova kamarádka?",
+    "options": [
+      "Mánička",
+      "Manka",
+      "Maruška",
+      "Amálka"
+    ],
+    "answer": "Mánička",
+    "fact": "Hurvínek má taky psa, který se jmenuje Žeryk.",
+    "difficulty": 2,
+    "image": "🎭",
+    "source": "https://cs.wikipedia.org/wiki/M%C3%A1ni%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Popelčin kůň ve filmu Tři oříšky pro Popelku?",
+    "options": [
+      "Šemík",
+      "Jurášek",
+      "Bělouš",
+      "Ferda"
+    ],
+    "answer": "Jurášek",
+    "fact": "Film Tři oříšky pro Popelku vznikl v roce 1973 a Popelku v něm hrála Libuše Šafránková.",
+    "difficulty": 3,
+    "image": "🐴",
+    "source": "https://www.novinky.cz/clanek/vanoce-tri-orisky-pro-popelku-k-vanocum-neodmyslitelne-patri-209689",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve které vesnici žil kocour Mikeš?",
+    "options": [
+      "V Kocourkově",
+      "V Lhotě",
+      "V Hrusicích",
+      "V Kozlově"
+    ],
+    "answer": "V Hrusicích",
+    "fact": "V Hrusicích se narodil i Mikešův autor Josef Lada a je tam jeho památník.",
+    "difficulty": 3,
+    "image": "🐈",
+    "source": "https://cs.wikipedia.org/wiki/Hrusice",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Za kým skočila Alenka do nory v říši divů?",
+    "options": [
+      "Za černou kočkou",
+      "Za myškou",
+      "Za pejskem",
+      "Za bílým králíkem"
+    ],
+    "answer": "Za bílým králíkem",
+    "fact": "Knížku napsal anglický matematik Lewis Carroll.",
+    "difficulty": 2,
+    "image": "🐇",
+    "source": "https://cs.wikipedia.org/wiki/Alenka_v_%C5%99%C3%AD%C5%A1i_div%C5%AF",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížky o Pipi Dlouhé punčoše?",
+    "options": [
+      "Astrid Lindgrenová",
+      "Hans Christian Andersen",
+      "Bratři Grimmové",
+      "Lewis Carroll"
+    ],
+    "answer": "Astrid Lindgrenová",
+    "fact": "Astrid Lindgrenová byla Švédka a napsala i Děti z Bullerbynu.",
+    "difficulty": 3,
+    "image": "👧",
+    "source": "https://cs.wikipedia.org/wiki/Astrid_Lindgrenov%C3%A1",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje česká hymna?",
+    "options": [
+      "Ach synku, synku",
+      "Kde domov můj",
+      "Prší, prší",
+      "Skákal pes"
+    ],
+    "answer": "Kde domov můj",
+    "fact": "Hymna pochází z divadelní hry Fidlovačka z roku 1834.",
+    "difficulty": 2,
+    "image": "🇨🇿",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_hymna",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje prasátko, kamarád kocoura Mikeše?",
+    "options": [
+      "Čuník",
+      "Bobeš",
+      "Pašík",
+      "Ferda"
+    ],
+    "answer": "Pašík",
+    "fact": "Mikešovým kamarádem je i kozel Bobeš.",
+    "difficulty": 3,
+    "image": "🐷",
+    "source": "https://cs.wikipedia.org/wiki/Josef_Lada",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který nástroj s píšťalami a klávesami najdeš v kostele?",
+    "options": [
+      "Harfa",
+      "Housle",
+      "Kytara",
+      "Varhany"
+    ],
+    "answer": "Varhany",
+    "fact": "Velké varhany mají i tisíce píšťal.",
+    "difficulty": 2,
+    "image": "⛪",
+    "source": "https://cs.wikipedia.org/wiki/Varhany",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje opička Pipi Dlouhé punčochy?",
+    "options": [
+      "Pan Nilsson",
+      "Jonatán",
+      "Žeryk",
+      "Ferda"
+    ],
+    "answer": "Pan Nilsson",
+    "fact": "Pipi má i koně a je tak silná, že ho zvedne nad hlavu.",
+    "difficulty": 3,
+    "image": "🐒",
+    "source": "https://cs.wikipedia.org/wiki/Pipi_Dlouh%C3%A1_pun%C4%8Docha",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knihy o Harrym Potterovi?",
+    "options": [
+      "J. K. Rowlingová",
+      "Astrid Lindgrenová",
+      "Roald Dahl",
+      "Lewis Carroll"
+    ],
+    "answer": "J. K. Rowlingová",
+    "fact": "Nápad na Harryho dostala Rowlingová ve vlaku, který měl zpoždění.",
+    "difficulty": 1,
+    "image": "🧙",
+    "source": "https://cs.wikipedia.org/wiki/Harry_Potter",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje sova Harryho Pottera?",
+    "options": [
+      "Hedvika",
+      "Rozárka",
+      "Bělka",
+      "Mája"
+    ],
+    "answer": "Hedvika",
+    "fact": "Hedvika je sova sněžná. Ve volné přírodě žije na dalekém severu.",
+    "difficulty": 2,
+    "image": "🦉",
+    "source": "https://cs.wikipedia.org/wiki/Harry_Potter",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Karlík a továrna na čokoládu?",
+    "options": [
+      "Roald Dahl",
+      "Astrid Lindgrenová",
+      "Lewis Carroll",
+      "Karel Čapek"
+    ],
+    "answer": "Roald Dahl",
+    "fact": "Roald Dahl napsal i knížku Matylda.",
+    "difficulty": 2,
+    "image": "🍫",
+    "source": "https://cs.wikipedia.org/wiki/Roald_Dahl",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje chlapec, kterého v Knize džunglí vychovali vlci?",
+    "options": [
+      "Mauglí",
+      "Tarzan",
+      "Robinson",
+      "Petr Pan"
+    ],
+    "answer": "Mauglí",
+    "fact": "Knihu džunglí napsal Rudyard Kipling.",
+    "difficulty": 1,
+    "image": "🐺",
+    "source": "https://cs.wikipedia.org/wiki/Kniha_d%C5%BEungl%C3%AD",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje medvěd z Knihy džunglí?",
+    "options": [
+      "Balú",
+      "Pú",
+      "Bagíra",
+      "Šer Chán"
+    ],
+    "answer": "Balú",
+    "fact": "Mauglího kamarád, černý panter, se jmenuje Bagíra.",
+    "difficulty": 2,
+    "image": "🐻",
+    "source": "https://cs.wikipedia.org/wiki/Kniha_d%C5%BEungl%C3%AD",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-036"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal příběhy o Rychlých šípech?",
+    "options": [
+      "Jaroslav Foglar",
+      "Karel Poláček",
+      "Eduard Petiška",
+      "Josef Lada"
+    ],
+    "answer": "Jaroslav Foglar",
+    "fact": "Rychlé šípy je klub pěti kluků. Jejich příběhy vycházely jako komiks v časopisech.",
+    "difficulty": 3,
+    "image": "🏹",
+    "source": "https://cs.wikipedia.org/wiki/Rychl%C3%A9_%C5%A1%C3%ADpy",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-037"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Čím se kouzlí v seriálu Arabela?",
+    "options": [
+      "Kouzelným prstenem",
+      "Kouzelným sluchátkem",
+      "Buřinkou",
+      "Lampou"
+    ],
+    "answer": "Kouzelným prstenem",
+    "fact": "Kouzelný prsten Arabele ukradne zlý kouzelník Rumburak.",
+    "difficulty": 3,
+    "image": "💍",
+    "source": "https://cs.wikipedia.org/wiki/Arabela_(seri%C3%A1l)",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje pyšná princezna z filmové pohádky?",
+    "options": [
+      "Krasomila",
+      "Zlatovláska",
+      "Arabela",
+      "Maruška"
+    ],
+    "answer": "Krasomila",
+    "fact": "V Půlnočním království, odkud princezna pochází, bylo zakázané i zpívat.",
+    "difficulty": 3,
+    "image": "👸",
+    "source": "https://www.novinky.cz/clanek/vanoce-mam-te-rada-i-kdyz-jsi-kral-pysna-princezna-je-stalici-vanoc-40498022",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje sněhulák z filmu Ledové království?",
+    "options": [
+      "Olaf",
+      "Sven",
+      "Kristoff",
+      "Hans"
+    ],
+    "answer": "Olaf",
+    "fact": "Olaf má rád teplá objetí a sní o tom, jaké je to v létě.",
+    "difficulty": 1,
+    "image": "⛄",
+    "source": "https://cs.wikipedia.org/wiki/Ledov%C3%A9_kr%C3%A1lovstv%C3%AD",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal příběhy o náčelníkovi Vinnetouovi?",
+    "options": [
+      "Karl May",
+      "Jules Verne",
+      "Mark Twain",
+      "Jaroslav Foglar"
+    ],
+    "answer": "Karl May",
+    "fact": "Karl May byl Němec. Do Ameriky, o které psal, se podíval až na konci života.",
+    "difficulty": 3,
+    "image": "🪶",
+    "source": "https://cs.wikipedia.org/wiki/Karl_May",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-042"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Dobrodružství Toma Sawyera?",
+    "options": [
+      "Mark Twain",
+      "Karl May",
+      "Roald Dahl",
+      "Jules Verne"
+    ],
+    "answer": "Mark Twain",
+    "fact": "Tom Sawyer bydlí v městečku u veliké řeky Mississippi.",
+    "difficulty": 3,
+    "image": "🛶",
+    "source": "https://cs.wikipedia.org/wiki/Dobrodru%C5%BEstv%C3%AD_Toma_Sawyera",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik hudebníků hraje ve smyčcovém kvartetu?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "fact": "Smyčcové kvarteto tvoří dvoje housle, viola a violoncello.",
+    "difficulty": 2,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/Smy%C4%8Dcov%C3%BD_kvartet",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na který nástroj se hraje paličkami po dřevěných destičkách?",
+    "options": [
+      "Xylofon",
+      "Kytara",
+      "Flétna",
+      "Housle"
+    ],
+    "answer": "Xylofon",
+    "fact": "Slovo xylofon pochází z řečtiny a znamená dřevěný zvuk.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "https://cs.wikipedia.org/wiki/Xylofon",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Do které skupiny nástrojů patří trubka?",
+    "options": [
+      "Smyčcové",
+      "Žesťové",
+      "Bicí",
+      "Klávesové"
+    ],
+    "answer": "Žesťové",
+    "fact": "U žesťových nástrojů vzniká zvuk chvěním rtů o nátrubek.",
+    "difficulty": 3,
+    "image": "🎺",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDes%C5%A5ov%C3%A9_n%C3%A1stroje",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jakým znakem začíná notová osnova pro zobcovou flétnu?",
+    "options": [
+      "Houslový klíč",
+      "Basový klíč",
+      "Pomlka",
+      "Takt"
+    ],
+    "answer": "Houslový klíč",
+    "fact": "Houslový klíč se kreslí od druhé linky zdola, kde leží tón g. Proto se mu říká i klíč g.",
+    "difficulty": 3,
+    "image": "🎼",
+    "source": "https://cs.wikipedia.org/wiki/Houslov%C3%BD_kl%C3%AD%C4%8D",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaké zvíře je Kubula z knížky Kubula a Kuba Kubikula?",
+    "options": [
+      "Medvěd",
+      "Pes",
+      "Kocour",
+      "Kůň"
+    ],
+    "answer": "Medvěd",
+    "fact": "Vančura ty příběhy nejdřív vyprávěl své dceři Alence.",
+    "difficulty": 3,
+    "image": "🐻",
+    "source": "https://cs.wikipedia.org/wiki/Kubula_a_Kuba_Kubikula",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje lev z knížek o Narnii?",
+    "options": [
+      "Aslan",
+      "Simba",
+      "Šer Chán",
+      "Bagíra"
+    ],
+    "answer": "Aslan",
+    "fact": "Do Narnie se děti dostanou skrz starou skříň s kožichy.",
+    "difficulty": 3,
+    "image": "🦁",
+    "source": "https://cs.wikipedia.org/wiki/Letopisy_Narnie",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje země malinkých lidí, do které doplul Gulliver?",
+    "options": [
+      "Liliput",
+      "Narnie",
+      "Bullerbyn",
+      "Nezemě"
+    ],
+    "answer": "Liliput",
+    "fact": "Liliputáni byli asi dvanáctkrát menší než Gulliver.",
+    "difficulty": 3,
+    "image": "⛵",
+    "source": "https://cs.wikipedia.org/wiki/Gulliverovy_cesty",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje hobit, který v knize Hobit putuje k drakovi Šmakovi?",
+    "options": [
+      "Bilbo Pytlík",
+      "Harry Potter",
+      "Mauglí",
+      "Petr Pan"
+    ],
+    "answer": "Bilbo Pytlík",
+    "fact": "Příběhy o Hobitovi vyprávěl J. R. R. Tolkien nejdřív svým dětem.",
+    "difficulty": 3,
+    "image": "🐉",
+    "source": "https://cs.wikipedia.org/wiki/Hobit",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje sova, která ve filmu Tři oříšky pro Popelku hlídá oříšky?",
+    "options": [
+      "Rozárka",
+      "Hedvika",
+      "Jurášek",
+      "Micka"
+    ],
+    "answer": "Rozárka",
+    "fact": "Film Tři oříšky pro Popelku se v Česku i v Německu vysílá skoro každé Vánoce.",
+    "difficulty": 2,
+    "image": "🌰",
+    "source": "https://cs.wikipedia.org/wiki/T%C5%99i_o%C5%99%C3%AD%C5%A1ky_pro_Popelku",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-052"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Malá čarodějnice?",
+    "options": [
+      "Otfried Preussler",
+      "Astrid Lindgrenová",
+      "Roald Dahl",
+      "Josef Lada"
+    ],
+    "answer": "Otfried Preussler",
+    "fact": "Malé čarodějnici je teprve 127 let, a tak je mezi čarodějnicemi ještě dítě.",
+    "difficulty": 3,
+    "image": "🧹",
+    "source": "https://cs.wikipedia.org/wiki/Otfried_Preussler",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo nakreslil první komiksy Čtyřlístku?",
+    "options": [
+      "Jaroslav Němeček",
+      "Zdeněk Miler",
+      "Josef Lada",
+      "Ondřej Sekora"
+    ],
+    "answer": "Jaroslav Němeček",
+    "fact": "Čtyřlístek tvoří Fifinka, Myšpulín, Bobík a Pinďa.",
+    "difficulty": 3,
+    "image": "🍀",
+    "source": "https://cs.wikipedia.org/wiki/Jaroslav_N%C4%9Bme%C4%8Dek",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Honzíkova cesta?",
+    "options": [
+      "Bohumil Říha",
+      "Josef Lada",
+      "Karel Poláček",
+      "Václav Čtvrtek"
+    ],
+    "answer": "Bohumil Říha",
+    "fact": "Honzík v knížce jede poprvé sám vlakem k dědečkovi a babičce na vesnici.",
+    "difficulty": 3,
+    "image": "🚂",
+    "source": "https://cs.wikipedia.org/wiki/Honz%C3%ADkova_cesta",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje královna z Ledového království, která umí vyčarovat led?",
+    "options": [
+      "Elsa",
+      "Anna",
+      "Fiona",
+      "Locika"
+    ],
+    "answer": "Elsa",
+    "fact": "Film volně vychází z Andersenovy pohádky Sněhová královna.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Ledov%C3%A9_kr%C3%A1lovstv%C3%AD",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaká ryba je Nemo z filmu Hledá se Nemo?",
+    "options": [
+      "Klaun",
+      "Žralok",
+      "Kapr",
+      "Štika"
+    ],
+    "answer": "Klaun",
+    "fact": "Rybky klauni žijí mezi žahavými rameny sasanek. Klaunům neublíží.",
+    "difficulty": 1,
+    "image": "🐠",
+    "source": "https://cs.wikipedia.org/wiki/Klaun_o%C4%8Dkat%C3%BD",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje kovboj z filmu Toy Story?",
+    "options": [
+      "Woody",
+      "Buzz",
+      "Shrek",
+      "Olaf"
+    ],
+    "answer": "Woody",
+    "fact": "Woodyho kamarád je astronaut Buzz Rakeťák.",
+    "difficulty": 1,
+    "image": "🤠",
+    "source": "https://cs.wikipedia.org/wiki/Toy_Story:_P%C5%99%C3%ADb%C4%9Bh_hra%C4%8Dek",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje princezna, která si vzala zlobra Shreka?",
+    "options": [
+      "Fiona",
+      "Elsa",
+      "Popelka",
+      "Arabela"
+    ],
+    "answer": "Fiona",
+    "fact": "Zlobr Shrek bydlí v bažině a chce mít hlavně klid.",
+    "difficulty": 1,
+    "image": "👹",
+    "source": "https://cs.wikipedia.org/wiki/Shrek",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Trautenberkův čeledín z Krkonošských pohádek?",
+    "options": [
+      "Kuba",
+      "Honza",
+      "Bivoj",
+      "Rumcajs"
+    ],
+    "answer": "Kuba",
+    "fact": "Kubovou milou je Anče.",
+    "difficulty": 3,
+    "image": "🏔️",
+    "source": "https://cs.wikipedia.org/wiki/Krkono%C5%A1sk%C3%A9_poh%C3%A1dky",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-060"
   }
 ]

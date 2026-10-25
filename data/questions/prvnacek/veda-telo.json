@@ -1,0 +1,740 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik prstů máš na jedné ruce?",
+    "options": [
+      "6️⃣ 6",
+      "5️⃣ 5",
+      "4️⃣ 4"
+    ],
+    "answer": "5️⃣ 5",
+    "fact": "Palcem dosáhneš na všechny ostatní prsty, a proto věci pevně uchopíš.",
+    "difficulty": 1,
+    "image": "✋",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na jakou barvu na semaforu smí chodec přejít?",
+    "options": [
+      "🔴 Červenou",
+      "🟠 Oranžovou",
+      "🟢 Zelenou"
+    ],
+    "answer": "🟢 Zelenou",
+    "fact": "I na zelenou se rozhlédni, jestli auta opravdu stojí.",
+    "difficulty": 1,
+    "image": "🚦",
+    "source": "zákon č. 361/2000 Sb.",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím slyšíme?",
+    "options": [
+      "👂 Ušima",
+      "👄 Ústy",
+      "👀 Očima"
+    ],
+    "answer": "👂 Ušima",
+    "fact": "V uchu je nejmenší kost lidského těla, třmínek.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "https://cs.wikipedia.org/wiki/T%C5%99m%C3%ADnek",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co máš mít na hlavě, když jedeš na kole?",
+    "options": [
+      "🧢 Kšiltovku",
+      "⛑️ Přilbu",
+      "🎧 Sluchátka"
+    ],
+    "answer": "⛑️ Přilbu",
+    "fact": "Do 18 let je přilba na kole povinná ze zákona.",
+    "difficulty": 1,
+    "image": "🚲",
+    "source": "zákon č. 361/2000 Sb., § 58",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak často si máš čistit zuby?",
+    "options": [
+      "📅 Jednou za týden",
+      "🗓️ Jednou za měsíc",
+      "🪥 Dvakrát denně"
+    ],
+    "answer": "🪥 Dvakrát denně",
+    "fact": "Zuby čistíme ráno a večer aspoň dvě minuty.",
+    "difficulty": 1,
+    "image": "🦷",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na jakém čísle zavoláme hasiče?",
+    "options": [
+      "📞 150",
+      "📞 155",
+      "📞 158"
+    ],
+    "answer": "📞 150",
+    "fact": "Hasiči nejen hasí, pomáhají i při povodních a nehodách.",
+    "difficulty": 1,
+    "image": "🚒",
+    "source": "https://cs.wikipedia.org/wiki/T%C3%ADs%C5%88ov%C3%A9_vol%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na jakém čísle zavoláme policii?",
+    "options": [
+      "📞 150",
+      "📞 158",
+      "📞 155"
+    ],
+    "answer": "📞 158",
+    "fact": "Policisté pomáhají i dětem, které se ztratily.",
+    "difficulty": 2,
+    "image": "🚓",
+    "source": "https://cs.wikipedia.org/wiki/T%C3%ADs%C5%88ov%C3%A9_vol%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kde bezpečně přejdeme silnici?",
+    "options": [
+      "🛣️ Kdekoli",
+      "🚗 Mezi auty",
+      "🦓 Na přechodu"
+    ],
+    "answer": "🦓 Na přechodu",
+    "fact": "Přechodu se říká zebra, protože má bílé a černé pruhy.",
+    "difficulty": 1,
+    "image": "🚸",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Díky čemu nás řidič uvidí ve tmě u silnice?",
+    "options": [
+      "✨ Reflexní páska",
+      "🕶️ Sluneční brýle",
+      "🧢 Kšiltovka"
+    ],
+    "answer": "✨ Reflexní páska",
+    "fact": "Řidič uvidí reflexní pásku mnohem dřív než tmavé oblečení.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "https://www.ibesip.cz/",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím dýcháme?",
+    "options": [
+      "🦴 Kostmi",
+      "🫁 Plícemi",
+      "💪 Svaly"
+    ],
+    "answer": "🫁 Plícemi",
+    "fact": "Když běháme, dýcháme rychleji, protože tělo potřebuje víc vzduchu.",
+    "difficulty": 2,
+    "image": "🌬️",
+    "source": "https://cs.wikipedia.org/wiki/Pl%C3%ADce",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kde máme loket?",
+    "options": [
+      "🦵 Na noze",
+      "🙂 Na hlavě",
+      "💪 Na ruce"
+    ],
+    "answer": "💪 Na ruce",
+    "fact": "Na noze máme místo lokte koleno.",
+    "difficulty": 1,
+    "image": "🧍",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik mléčných zoubků mají malé děti?",
+    "options": [
+      "🔢 20",
+      "🔟 10",
+      "🔢 32"
+    ],
+    "answer": "🔢 20",
+    "fact": "Mléčné zuby začínají vypadávat kolem šesti let a rostou nové.",
+    "difficulty": 2,
+    "image": "🦷",
+    "source": "https://cs.wikipedia.org/wiki/Ml%C3%A9%C4%8Dn%C3%BD_chrup",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kam kýcháme, abychom nikoho nenakazili?",
+    "options": [
+      "👐 Do dlaní",
+      "💪 Do lokte",
+      "😮 Na kamaráda"
+    ],
+    "answer": "💪 Do lokte",
+    "fact": "Při kýchnutí letí z nosu drobné kapičky hodně daleko.",
+    "difficulty": 1,
+    "image": "🤧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kde máme mozek?",
+    "options": [
+      "🦶 V noze",
+      "✋ V ruce",
+      "🧠 V hlavě"
+    ],
+    "answer": "🧠 V hlavě",
+    "fact": "Mozek řídí celé tělo, i když spíme.",
+    "difficulty": 1,
+    "image": "🤔",
+    "source": "https://cs.wikipedia.org/wiki/Mozek",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nám ukáže teploměr?",
+    "options": [
+      "🌡️ Jak je teplo",
+      "⏰ Kolik je hodin",
+      "⚖️ Kolik vážíme"
+    ],
+    "answer": "🌡️ Jak je teplo",
+    "fact": "Zdravý člověk má teplotu kolem 36 a půl stupně.",
+    "difficulty": 1,
+    "image": "🤒",
+    "source": "https://cs.wikipedia.org/wiki/T%C4%9Blesn%C3%A1_teplota",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co obíhá kolem Země?",
+    "options": [
+      "☀️ Slunce",
+      "🌙 Měsíc",
+      "⭐ Hvězdy"
+    ],
+    "answer": "🌙 Měsíc",
+    "fact": "Měsíc nesvítí sám, jen odráží světlo Slunce.",
+    "difficulty": 2,
+    "image": "🌍",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na které planetě žijeme?",
+    "options": [
+      "🔴 Na Marsu",
+      "🪐 Na Saturnu",
+      "🌍 Na Zemi"
+    ],
+    "answer": "🌍 Na Zemi",
+    "fact": "Země je jediná planeta, o které víme, že na ní je život.",
+    "difficulty": 1,
+    "image": "🚀",
+    "source": "https://cs.wikipedia.org/wiki/Zem%C4%9B",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta má kolem sebe velké prstence?",
+    "options": [
+      "🪐 Saturn",
+      "🌍 Země",
+      "🔴 Mars"
+    ],
+    "answer": "🪐 Saturn",
+    "fact": "Prstence Saturnu jsou z kousků ledu a kamení.",
+    "difficulty": 2,
+    "image": "🔭",
+    "source": "https://cs.wikipedia.org/wiki/Saturn_(planeta)",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co se stane s ledem v teple?",
+    "options": [
+      "🔥 Shoří",
+      "💧 Roztaje",
+      "🪨 Ztvrdne"
+    ],
+    "answer": "💧 Roztaje",
+    "fact": "Z ledu se v teple stane voda a z vody v mrazu zase led.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdy se na nebi objeví duha?",
+    "options": [
+      "🌙 V noci",
+      "❄️ Když mrzne",
+      "🌦️ Když prší a svítí slunce"
+    ],
+    "answer": "🌦️ Když prší a svítí slunce",
+    "fact": "Duha má barvy od červené až po fialovou.",
+    "difficulty": 1,
+    "image": "🌈",
+    "source": "https://cs.wikipedia.org/wiki/Duha",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co si dáme na kůži, když jdeme na sluníčko?",
+    "options": [
+      "🧴 Opalovací krém",
+      "🧣 Šálu",
+      "🧤 Rukavice"
+    ],
+    "answer": "🧴 Opalovací krém",
+    "fact": "Slunce umí spálit kůži, i když nám není horko.",
+    "difficulty": 1,
+    "image": "🏖️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co uděláme po záchodě?",
+    "options": [
+      "🎮 Jdeme si hrát",
+      "🧼 Umyjeme si ruce",
+      "🍪 Sníme sušenku"
+    ],
+    "answer": "🧼 Umyjeme si ruce",
+    "fact": "Ruce myjeme mýdlem aspoň dvacet vteřin.",
+    "difficulty": 1,
+    "image": "🚽",
+    "source": "https://cs.wikipedia.org/wiki/Myt%C3%AD_rukou",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolem čeho obíhá naše Země?",
+    "options": [
+      "🌙 Kolem Měsíce",
+      "☀️ Kolem Slunce",
+      "🪐 Kolem Saturnu"
+    ],
+    "answer": "☀️ Kolem Slunce",
+    "fact": "Jedna cesta Země kolem Slunce trvá celý rok.",
+    "difficulty": 2,
+    "image": "🌍",
+    "source": "https://cs.wikipedia.org/wiki/Slunce",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím se letí do vesmíru?",
+    "options": [
+      "✈️ Letadlem",
+      "🎈 Balonem",
+      "🚀 Raketou"
+    ],
+    "answer": "🚀 Raketou",
+    "fact": "Ve vesmíru se všechno vznáší. I voda se tam drží v kuličkách.",
+    "difficulty": 1,
+    "image": "🧑‍🚀",
+    "source": "https://cs.wikipedia.org/wiki/Raketa",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co dýcháme?",
+    "options": [
+      "💨 Vzduch",
+      "💧 Vodu",
+      "🍞 Chleba"
+    ],
+    "answer": "💨 Vzduch",
+    "fact": "Pod vodou dýchat neumíme. Potápěči proto nosí na zádech láhev se vzduchem.",
+    "difficulty": 1,
+    "image": "👃",
+    "source": "https://cs.wikipedia.org/wiki/D%C3%BDch%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik prstů máš na obou nohou dohromady?",
+    "options": [
+      "5️⃣ 5",
+      "8️⃣ 8",
+      "🔟 10"
+    ],
+    "answer": "🔟 10",
+    "fact": "Prsty na nohou nám pomáhají udržet rovnováhu, když chodíme a běháme.",
+    "difficulty": 1,
+    "image": "🦶",
+    "source": "https://cs.wikipedia.org/wiki/Noha",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co roztočí větrník?",
+    "options": [
+      "💨 Vítr",
+      "💧 Voda",
+      "🌙 Měsíc"
+    ],
+    "answer": "💨 Vítr",
+    "fact": "Velké větrné elektrárny vyrábějí z větru elektřinu.",
+    "difficulty": 1,
+    "image": "🌬️",
+    "source": "https://cs.wikipedia.org/wiki/V%C4%9Btrn%C3%A1_elektr%C3%A1rna",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kam zmizí louže, když dlouho svítí sluníčko?",
+    "options": [
+      "🕳️ Spadne do díry",
+      "☁️ Vypaří se do vzduchu",
+      "🐸 Vypijí ji žáby"
+    ],
+    "answer": "☁️ Vypaří se do vzduchu",
+    "fact": "Voda se v teple mění v neviditelnou páru. Ta stoupá vzhůru a pomáhá vytvořit mraky.",
+    "difficulty": 2,
+    "image": "🌧️",
+    "source": "https://cs.wikipedia.org/wiki/Vypa%C5%99ov%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím změříme, jak jsme vysocí?",
+    "options": [
+      "📏 Metrem",
+      "⚖️ Váhou",
+      "🌡️ Teploměrem"
+    ],
+    "answer": "📏 Metrem",
+    "fact": "Ráno jsme o kousek vyšší než večer. Přes den se nám chrupavky v zádech trochu stlačí.",
+    "difficulty": 2,
+    "image": "🧍",
+    "source": "https://cs.wikipedia.org/wiki/P%C3%A1te%C5%99",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jaký tvar má Země?",
+    "options": [
+      "🟥 Hranatý",
+      "⚪ Kulatý",
+      "🔺 Trojúhelníkový"
+    ],
+    "answer": "⚪ Kulatý",
+    "fact": "Že je Země kulatá, věděli učenci už ve starém Řecku. Dávno předtím, než ji někdo vyfotil z vesmíru.",
+    "difficulty": 1,
+    "image": "🌍",
+    "source": "https://cs.wikipedia.org/wiki/Zem%C4%9B",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co přilepíme na malou ranku?",
+    "options": [
+      "🧲 Magnet",
+      "🍯 Med",
+      "🩹 Náplast"
+    ],
+    "answer": "🩹 Náplast",
+    "fact": "Ranka se sama zavře strupem. Pod ním zatím roste nová kůže.",
+    "difficulty": 1,
+    "image": "🦵",
+    "source": "https://cs.wikipedia.org/wiki/R%C3%A1na",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím rozkoušeme jídlo?",
+    "options": [
+      "🦷 Zuby",
+      "👃 Nosem",
+      "👂 Ušima"
+    ],
+    "answer": "🦷 Zuby",
+    "fact": "Zubní sklovina je nejtvrdší věc v celém našem těle.",
+    "difficulty": 1,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Zubn%C3%AD_sklovina",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Míč se skutálí na silnici. Co uděláš?",
+    "options": [
+      "🏃 Běžím pro něj",
+      "🙋 Řeknu to dospělému",
+      "🙈 Zavřu oči"
+    ],
+    "answer": "🙋 Řeknu to dospělému",
+    "fact": "Řidič auta nemusí stihnout zastavit, když mu někdo vběhne do cesty.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "https://besip.gov.cz/",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik barev svítí na semaforu pro auta?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "4️⃣ 4"
+    ],
+    "answer": "3️⃣ 3",
+    "fact": "Oranžová říká řidičům: pozor, světlo se bude měnit.",
+    "difficulty": 1,
+    "image": "🚦",
+    "source": "https://cs.wikipedia.org/wiki/Sv%C4%9Bteln%C3%A9_signaliza%C4%8Dn%C3%AD_za%C5%99%C3%ADzen%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kde na Zemi je největší zima?",
+    "options": [
+      "🏜️ Na poušti",
+      "🏖️ U moře",
+      "🧊 U jižního pólu"
+    ],
+    "answer": "🧊 U jižního pólu",
+    "fact": "Na jižním pólu mrzne i v létě. Leží tam led silný přes dva kilometry.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Antarktida",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím zjistíme, kolik vážíme?",
+    "options": [
+      "📏 Pravítkem",
+      "⚖️ Váhou",
+      "🌡️ Teploměrem"
+    ],
+    "answer": "⚖️ Váhou",
+    "fact": "Na Měsíci by tě váha ukázala šestkrát méně. Měsíc totiž přitahuje mnohem slaběji než Země.",
+    "difficulty": 1,
+    "image": "🧍",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nám roste na hlavě a stříhá nám to kadeřník?",
+    "options": [
+      "💇 Vlasy",
+      "👂 Uši",
+      "🦷 Zuby"
+    ],
+    "answer": "💇 Vlasy",
+    "fact": "Vlasy nám narostou asi o centimetr za měsíc.",
+    "difficulty": 1,
+    "image": "✂️",
+    "source": "https://cs.wikipedia.org/wiki/Vlas",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kam se podíváš jako první, než přejdeš silnici?",
+    "options": [
+      "➡️ Doprava",
+      "⬅️ Doleva",
+      "⬆️ Na nebe"
+    ],
+    "answer": "⬅️ Doleva",
+    "fact": "Pravidlo zní: vlevo, vpravo a ještě jednou vlevo. Auta, která jedou blíž k tobě, přijíždějí zleva.",
+    "difficulty": 2,
+    "image": "🚸",
+    "source": "https://besip.gov.cz/",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Dá se Měsíc vidět i ve dne?",
+    "options": [
+      "✅ Ano, někdy",
+      "❌ Nikdy",
+      "🌧️ Jen když prší"
+    ],
+    "answer": "✅ Ano, někdy",
+    "fact": "Ve dne bývá Měsíc vidět často, jen je bledý, protože kolem je světlá obloha.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jaká barva vznikne, když smícháš červenou a žlutou?",
+    "options": [
+      "🟠 Oranžová",
+      "🟣 Fialová",
+      "🟢 Zelená"
+    ],
+    "answer": "🟠 Oranžová",
+    "fact": "Z červené, žluté a modré se dají namíchat skoro všechny ostatní barvy.",
+    "difficulty": 2,
+    "image": "🎨",
+    "source": "https://cs.wikipedia.org/wiki/Subtraktivn%C3%AD_m%C3%ADch%C3%A1n%C3%AD_barev",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-043"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co dělá tělo silné?",
+    "options": [
+      "📺 Koukat na televizi",
+      "🏃 Hodně se hýbat",
+      "🍬 Jíst bonbony"
+    ],
+    "answer": "🏃 Hodně se hýbat",
+    "fact": "Svaly sílí, když je používáme. Když je nepoužíváme, slábnou.",
+    "difficulty": 1,
+    "image": "💪",
+    "source": "https://cs.wikipedia.org/wiki/Sval",
+    "status": "verified",
+    "id": "prvnacek-veda-telo-044"
+  }
+]

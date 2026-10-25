@@ -1,93 +1,93 @@
 [
   {
-    "id": "piskoviste-priroda-001",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Kdo dělá „haf haf“?",
+    "text": "Kde bydlí liška?",
     "options": [
-      "🐶 Pes",
-      "🐱 Kočka",
-      "🐮 Kráva"
+      "🌊 Ve vodě",
+      "🐔 V kurníku",
+      "🕳️ V noře"
     ],
-    "answer": "🐶 Pes",
-    "fact": "Pes štěká, když nás chce na něco upozornit.",
-    "difficulty": 1,
-    "image": "👂",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🕳️ V noře",
+    "fact": "Liščí nora mívá několik vchodů, aby liška mohla rychle utéct.",
+    "difficulty": 2,
+    "image": "🦊",
+    "source": "https://cs.wikipedia.org/wiki/Li%C5%A1ka_obecn%C3%A1",
+    "status": "verified",
+    "id": "piskoviste-priroda-001"
   },
   {
-    "id": "piskoviste-priroda-002",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Kdo dělá „bú“?",
+    "text": "Co si veverka schovává na zimu?",
     "options": [
-      "🐔 Slepice",
-      "🐷 Prasátko",
-      "🐮 Kráva"
+      "🌰 Oříšky",
+      "🥩 Maso",
+      "🐟 Rybičky"
     ],
-    "answer": "🐮 Kráva",
-    "fact": "Kráva nám dává mléko.",
-    "difficulty": 1,
-    "image": "🌾",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🌰 Oříšky",
+    "fact": "Veverka si zásoby schovává na spoustu míst a na některá pak zapomene. Z oříšků potom vyrostou nové stromy.",
+    "difficulty": 2,
+    "image": "🐿️",
+    "source": "https://cs.wikipedia.org/wiki/Veverka_obecn%C3%A1",
+    "status": "verified",
+    "id": "piskoviste-priroda-002"
   },
   {
-    "id": "piskoviste-priroda-003",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Jak se říká malé kočičce?",
+    "text": "Jehňátko je mládě kterého zvířátka?",
     "options": [
-      "🐱 Kotě",
-      "🐶 Štěně",
-      "🐥 Kuře"
+      "🐄 Kravičky",
+      "🐑 Ovečky",
+      "🐷 Prasátka"
     ],
-    "answer": "🐱 Kotě",
-    "fact": "Koťátka se rodí se zavřenýma očima.",
-    "difficulty": 1,
-    "image": "🐈",
+    "answer": "🐑 Ovečky",
+    "fact": "Jehňátko se postaví na nožičky brzy po narození.",
+    "difficulty": 2,
+    "image": "🍼",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-priroda-003"
   },
   {
-    "id": "piskoviste-priroda-004",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Kdo má na zádech bodliny?",
+    "text": "Selátko je mládě kterého zvířátka?",
     "options": [
-      "🐿️ Veverka",
-      "🦔 Ježek",
-      "🐰 Zajíček"
+      "🐐 Kozy",
+      "🐄 Kravičky",
+      "🐷 Prasátka"
     ],
-    "answer": "🦔 Ježek",
-    "fact": "Když se ježek bojí, stočí se do klubíčka.",
-    "difficulty": 1,
-    "image": "🍂",
+    "answer": "🐷 Prasátka",
+    "fact": "Selátka pijí mléko od maminky a rychle rostou.",
+    "difficulty": 2,
+    "image": "🍼",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-priroda-004"
   },
   {
-    "id": "piskoviste-priroda-005",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Kdo žije ve vodě?",
+    "text": "Kůzlátko je mládě kterého zvířátka?",
     "options": [
-      "🐟 Rybička",
-      "🐄 Kráva",
-      "🐑 Ovečka"
+      "🐑 Ovečky",
+      "🐐 Kozy",
+      "🐄 Kravičky"
     ],
-    "answer": "🐟 Rybička",
-    "fact": "Rybička dýchá pod vodou žábrami.",
-    "difficulty": 1,
-    "image": "💧",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🐐 Kozy",
+    "fact": "Kozy jsou skvělé lezkyně a umějí šplhat i po skalách.",
+    "difficulty": 3,
+    "image": "🍼",
+    "source": "https://cs.wikipedia.org/wiki/Koza_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-priroda-005"
   },
   {
     "id": "piskoviste-priroda-006",
@@ -114,8 +114,9 @@
     "type": "choice",
     "text": "Kdy padá sníh?",
     "options": [
+      "☀️ V létě",
       "❄️ V zimě",
-      "☀️ V létě"
+      "🌷 Na jaře"
     ],
     "answer": "❄️ V zimě",
     "fact": "Ze sněhu postavíme sněhuláka.",
@@ -143,40 +144,40 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-priroda-009",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Kdo dělá „kokodák“?",
+    "text": "Kdo bydlí v mraveništi?",
     "options": [
-      "🐔 Slepice",
-      "🦆 Kachna",
-      "🐸 Žába"
+      "🐝 Včelky",
+      "🐞 Berušky",
+      "🐜 Mravenci"
     ],
-    "answer": "🐔 Slepice",
-    "fact": "Slepice snáší vajíčka.",
+    "answer": "🐜 Mravenci",
+    "fact": "V jednom mraveništi žijí tisíce mravenců a každý tam má svou práci.",
     "difficulty": 2,
-    "image": "🥚",
-    "source": "obecná znalost",
-    "status": "verified"
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Mraveni%C5%A1t%C4%9B",
+    "status": "verified",
+    "id": "piskoviste-priroda-009"
   },
   {
-    "id": "piskoviste-priroda-010",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Jakou barvu má tráva?",
+    "text": "Kdo přespí zimu v brlohu?",
     "options": [
-      "🟣 Fialovou",
-      "🔵 Modrou",
-      "🟢 Zelenou"
+      "🐻 Medvěd",
+      "🦌 Jelen",
+      "🐗 Divočák"
     ],
-    "answer": "🟢 Zelenou",
-    "fact": "Tráva roste, když prší a svítí sluníčko.",
+    "answer": "🐻 Medvěd",
+    "fact": "Medvíďata se rodí v zimě přímo v brlohu.",
     "difficulty": 2,
-    "image": "🌱",
-    "source": "obecná znalost",
-    "status": "verified"
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Medv%C4%9Bd_hn%C4%9Bd%C3%BD",
+    "status": "verified",
+    "id": "piskoviste-priroda-010"
   },
   {
     "id": "piskoviste-priroda-011",
@@ -197,21 +198,602 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-priroda-012",
     "level": "piskoviste",
     "theme": "priroda",
     "type": "choice",
-    "text": "Kdo umí létat?",
+    "text": "Které z nich není zvířátko?",
     "options": [
-      "🐢 Želva",
-      "🐦 Ptáček",
+      "🐱 Kočka",
+      "🌳 Strom",
+      "🐰 Králík"
+    ],
+    "answer": "🌳 Strom",
+    "fact": "Strom je rostlina. Pejsek, kočka a králík jsou zvířátka.",
+    "difficulty": 2,
+    "image": "🐶🐱🐰🌳",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-priroda-012"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo má nejdelší krk?",
+    "options": [
+      "🐘 Slon",
+      "🦓 Zebra",
+      "🦒 Žirafa"
+    ],
+    "answer": "🦒 Žirafa",
+    "fact": "Žirafa má v krku jen sedm kostí, stejně jako my. Každá je ale moc dlouhá.",
+    "difficulty": 2,
+    "image": "📏",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDirafa",
+    "status": "verified",
+    "id": "piskoviste-priroda-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo nosí svůj domeček na zádech?",
+    "options": [
+      "🐌 Hlemýžď",
+      "🐛 Housenka",
+      "🐞 Beruška"
+    ],
+    "answer": "🐌 Hlemýžď",
+    "fact": "Když je sucho, hlemýžď se schová do ulity a zavře ji víčkem.",
+    "difficulty": 2,
+    "image": "🏠",
+    "source": "https://cs.wikipedia.org/wiki/Hlem%C3%BD%C5%BE%C4%8F_zahradn%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-priroda-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Z koho se stane motýl?",
+    "options": [
+      "🐟 Z rybičky",
+      "🐛 Z housenky",
+      "🐦 Z ptáčka"
+    ],
+    "answer": "🐛 Z housenky",
+    "fact": "Housenka se nejdřív zakuklí a z kukly pak vyleze motýl.",
+    "difficulty": 2,
+    "image": "🦋",
+    "source": "https://cs.wikipedia.org/wiki/Mot%C3%BDli",
+    "status": "verified",
+    "id": "piskoviste-priroda-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo nám dává vlnu na svetr?",
+    "options": [
+      "🐷 Prasátko",
+      "🐔 Slepička",
+      "🐑 Ovečka"
+    ],
+    "answer": "🐑 Ovečka",
+    "fact": "Ovečky se stříhají obvykle jednou za rok, aby jim v létě nebylo horko.",
+    "difficulty": 2,
+    "image": "🧶",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-priroda-016"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo žije na poušti?",
+    "options": [
+      "🐪 Velbloud",
+      "🐧 Tučňák",
+      "🐻‍❄️ Lední medvěd"
+    ],
+    "answer": "🐪 Velbloud",
+    "fact": "Velbloud vydrží bez pití i mnoho dní.",
+    "difficulty": 2,
+    "image": "🏜️",
+    "source": "https://cs.wikipedia.org/wiki/Velbloud",
+    "status": "verified",
+    "id": "piskoviste-priroda-017"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo žije tam, kde je všude led a sníh?",
+    "options": [
+      "🦁 Lev",
+      "🐻‍❄️ Lední medvěd",
+      "🐒 Opička"
+    ],
+    "answer": "🐻‍❄️ Lední medvěd",
+    "fact": "Lední medvěd má pod bílou srstí černou kůži, která ho zahřívá.",
+    "difficulty": 2,
+    "image": "🧊",
+    "source": "https://cs.wikipedia.org/wiki/Medv%C4%9Bd_ledn%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-priroda-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co mají ptáčci na těle místo srsti?",
+    "options": [
+      "🧶 Vlnu",
+      "🐚 Ulitu",
+      "🪶 Peří"
+    ],
+    "answer": "🪶 Peří",
+    "fact": "Peří ptáčky zahřeje a pomáhá jim létat.",
+    "difficulty": 2,
+    "image": "🐦",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-priroda-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jaký strom vyroste ze žaludu?",
+    "options": [
+      "🌳 Dub",
+      "🌷 Tulipán",
+      "🌵 Kaktus"
+    ],
+    "answer": "🌳 Dub",
+    "fact": "Dub se může dožít mnoha set let.",
+    "difficulty": 3,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Dub_letn%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-priroda-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co dělá včelka na kytičce?",
+    "options": [
+      "😴 Spí",
+      "🍯 Sbírá sladkou šťávu",
+      "🎨 Maluje"
+    ],
+    "answer": "🍯 Sbírá sladkou šťávu",
+    "fact": "Ze sladké šťávy z květů, nektaru, udělají včely v úlu med.",
+    "difficulty": 2,
+    "image": "🌸",
+    "source": "https://cs.wikipedia.org/wiki/Med",
+    "status": "verified",
+    "id": "piskoviste-priroda-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo umí měnit barvu?",
+    "options": [
+      "🐘 Slon",
+      "🐄 Kráva",
+      "🦎 Chameleon"
+    ],
+    "answer": "🦎 Chameleon",
+    "fact": "Chameleon umí koukat každým okem jinam.",
+    "difficulty": 3,
+    "image": "🎨",
+    "source": "https://cs.wikipedia.org/wiki/Chameleonovit%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-priroda-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Je víc berušek, nebo včelek?",
+    "options": [
+      "🐞 Berušek",
+      "🐝 Včelek",
+      "🟰 Stejně"
+    ],
+    "answer": "🐞 Berušek",
+    "fact": "Berušky jedí mšice, a tak pomáhají na zahradě.",
+    "difficulty": 2,
+    "image": "🐞🐞🐞🐝🐝",
+    "source": "https://cs.wikipedia.org/wiki/Slunéčko_sedmitečné",
+    "status": "verified",
+    "id": "piskoviste-priroda-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo spí v kurníku?",
+    "options": [
+      "🐟 Rybičky",
+      "🐔 Slepičky",
+      "🐻 Medvědi"
+    ],
+    "answer": "🐔 Slepičky",
+    "fact": "Slepičky spí vysoko na bidýlku, kde se cítí v bezpečí.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-priroda-024"
+  },
+  {
+    "id": "piskoviste-priroda-025",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Káčátko je mládě kterého zvířátka?",
+    "options": [
+      "🐔 Slepice",
+      "🦆 Kachny",
+      "🐸 Žáby"
+    ],
+    "answer": "🦆 Kachny",
+    "fact": "Káčátka umí plavat brzy poté, co se vylíhnou.",
+    "difficulty": 2,
+    "image": "🍼",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-026",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolouch je mládě kterého zvířátka?",
+    "options": [
+      "🐰 Zajíce",
+      "🐻 Medvěda",
+      "🦌 Jelena"
+    ],
+    "answer": "🦌 Jelena",
+    "fact": "Kolouch má na hřbetě světlé skvrnky.",
+    "difficulty": 3,
+    "image": "🍼",
+    "source": "https://cs.wikipedia.org/wiki/Jelen_lesn%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-028",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdy padá listí ze stromů?",
+    "options": [
+      "🌷 Na jaře",
+      "🍂 Na podzim",
+      "☀️ V létě",
+      "❄️ V zimě"
+    ],
+    "answer": "🍂 Na podzim",
+    "fact": "Na jaře stromům narostou nové lístky.",
+    "difficulty": 2,
+    "image": "🌳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-029",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdy se koupeme v rybníce?",
+    "options": [
+      "❄️ V zimě",
+      "🍂 Na podzim",
+      "☀️ V létě"
+    ],
+    "answer": "☀️ V létě",
+    "fact": "Léto je nejteplejší roční období.",
+    "difficulty": 1,
+    "image": "🏊",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-030",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdy rozkvetou stromy?",
+    "options": [
+      "🌸 Na jaře",
+      "🍂 Na podzim",
+      "❄️ V zimě"
+    ],
+    "answer": "🌸 Na jaře",
+    "fact": "Z květů na stromech potom vyrostou jablka a třešně.",
+    "difficulty": 2,
+    "image": "🌳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-031",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co si obujeme v zimě do sněhu?",
+    "options": [
+      "🩴 Žabky",
+      "🥾 Zimní boty",
+      "🧦 Jen ponožky"
+    ],
+    "answer": "🥾 Zimní boty",
+    "fact": "Zimní boty mají teplou podšívku a podrážku, která neklouže.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-032",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které oblečení patří k létu?",
+    "options": [
+      "🧤 Rukavice",
+      "🧣 Šála",
+      "🩳 Kraťasy",
+      "🧥 Bunda"
+    ],
+    "answer": "🩳 Kraťasy",
+    "fact": "V létě nás chrání před sluncem čepice a opalovací krém.",
+    "difficulty": 2,
+    "image": "☀️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-033",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co uslyšíme po blesku?",
+    "options": [
+      "💥 Hrom",
+      "🎵 Písničku",
+      "🐶 Štěkot"
+    ],
+    "answer": "💥 Hrom",
+    "fact": "Blesk vidíme dřív, než uslyšíme hrom. Světlo je rychlejší než zvuk.",
+    "difficulty": 2,
+    "image": "⚡",
+    "source": "https://cs.wikipedia.org/wiki/Hrom",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-034",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Z čeho vznikne louže?",
+    "options": [
+      "☀️ Ze slunce",
+      "🌧️ Z deště",
+      "💨 Z větru"
+    ],
+    "answer": "🌧️ Z deště",
+    "fact": "Když svítí slunce, louže pomalu vyschne.",
+    "difficulty": 1,
+    "image": "🥾",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-035",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Co je na obloze, když bude pršet?",
+    "options": [
+      "☀️ Sluníčko",
+      "🌈 Duha",
+      "☁️ Tmavé mraky"
+    ],
+    "answer": "☁️ Tmavé mraky",
+    "fact": "Z mraků padá déšť, sníh i kroupy.",
+    "difficulty": 2,
+    "image": "☂️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-036",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Ze kterého stromu je šiška?",
+    "options": [
+      "🌲 Ze smrku",
+      "🍎 Z jabloně",
+      "🌴 Z palmy"
+    ],
+    "answer": "🌲 Ze smrku",
+    "fact": "Semínka ze šišek rády jedí veverky.",
+    "difficulty": 2,
+    "image": "🐿️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-037",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která kytka má trny?",
+    "options": [
+      "🌷 Tulipán",
+      "🌹 Růže",
+      "🌻 Slunečnice"
+    ],
+    "answer": "🌹 Růže",
+    "fact": "Trny chrání růži, aby ji zvířata nespásla.",
+    "difficulty": 2,
+    "image": "🌿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-038",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kde žije velryba?",
+    "options": [
+      "🏞️ V rybníce",
+      "🌲 V lese",
+      "🌊 V moři"
+    ],
+    "answer": "🌊 V moři",
+    "fact": "Velryba plejtvák obrovský je největší zvíře na světě.",
+    "difficulty": 2,
+    "image": "🐋",
+    "source": "https://cs.wikipedia.org/wiki/Plejtv%C3%A1k_obrovsk%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-039",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kde bydlí krtek?",
+    "options": [
+      "🕳️ Pod zemí",
+      "🌳 Na stromě",
+      "🌊 Ve vodě"
+    ],
+    "answer": "🕳️ Pod zemí",
+    "fact": "Krtek špatně vidí, ale má skvělý čich a hmat.",
+    "difficulty": 2,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Krtek_obecn%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-040",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo spí přes den hlavou dolů?",
+    "options": [
+      "🐶 Pes",
+      "🦇 Netopýr",
+      "🐮 Kráva"
+    ],
+    "answer": "🦇 Netopýr",
+    "fact": "Netopýr v noci létá a chytá hmyz.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Netop%C3%BD%C5%99i",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-041",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvířátko má krunýř?",
+    "options": [
+      "🐸 Žába",
+      "🐍 Had",
+      "🐢 Želva"
+    ],
+    "answer": "🐢 Želva",
+    "fact": "Želva se do krunýře schová, když se bojí.",
+    "difficulty": 1,
+    "image": "🛡️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-042",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo umí plavat i létat?",
+    "options": [
+      "🦆 Kachna",
+      "🐟 Ryba",
+      "🐶 Pes",
       "🐌 Šnek"
     ],
-    "answer": "🐦 Ptáček",
-    "fact": "Ptáčci mají křídla z peříček.",
-    "difficulty": 2,
-    "image": "☁️",
+    "answer": "🦆 Kachna",
+    "fact": "Kachny mají peří, které nepromokne.",
+    "difficulty": 3,
+    "image": "🌊",
     "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-043",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo z nich je pták?",
+    "options": [
+      "🐟 Ryba",
+      "🐧 Tučňák",
+      "🐸 Žába",
+      "🦇 Netopýr"
+    ],
+    "answer": "🐧 Tučňák",
+    "fact": "Netopýr sice létá, ale ptákem není. Nemá peří ani zobák.",
+    "difficulty": 3,
+    "image": "🪶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-044",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo má na nohou kopyta?",
+    "options": [
+      "🐱 Kočka",
+      "🐔 Slepice",
+      "🐴 Kůň"
+    ],
+    "answer": "🐴 Kůň",
+    "fact": "Koním se na kopyta přibíjejí podkovy.",
+    "difficulty": 2,
+    "image": "👣",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-priroda-045",
+    "level": "piskoviste",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kdo má největší uši?",
+    "options": [
+      "🐘 Slon",
+      "🐭 Myš",
+      "🐶 Pes",
+      "🐔 Slepice"
+    ],
+    "answer": "🐘 Slon",
+    "fact": "Velkýma ušima si slon ovívá tělo, když je horko.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/Slon_africk%C3%BD",
     "status": "verified"
   }
 ]

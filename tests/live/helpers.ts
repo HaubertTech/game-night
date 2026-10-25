@@ -2,6 +2,8 @@
 
 import type { Level, Question, Theme } from '../../src/lib/types.ts';
 import {
+  IMITATE_DONE,
+  IMITATE_FAILED,
   stepTurn,
   type Actor,
   type LiveCommand,
@@ -28,6 +30,8 @@ export function makePool(types: Partial<Record<Level, QType>>, themes: Theme[] =
           status: 'verified' as const,
         };
         if (type === 'choice') out.push({ ...base, type, options: ['Ano', 'Ne', 'Možná'], answer: 'Ano' });
+        else if (type === 'point') out.push({ ...base, type, image: '🐶', options: ['🐶 Pejsek', '🐱 Kočička'], answer: '🐶 Pejsek' });
+        else if (type === 'imitate') out.push({ ...base, type, image: '🐐', answer: 'Mééé' });
         else if (type === 'estimate') out.push({ ...base, type, answer: 100, unit: 'kg' });
         else out.push({ ...base, type, answer: 'Praha', accept: ['praha'] });
       }
@@ -56,7 +60,8 @@ export function act(state: LiveState, command: LiveCommand, by: Actor = HOST, no
 /** A correct (or wrong) answer value for the contestant's question in the current step. */
 export function valueFor(state: LiveState, contestantId: string, correct = true): string | number {
   const q = state.questions[stepTurn(state, contestantId)!.turn.questionId];
-  if (q.type === 'choice') return correct ? q.answer : q.options.find((o) => o !== q.answer)!;
+  if (q.type === 'choice' || q.type === 'point') return correct ? q.answer : q.options.find((o) => o !== q.answer)!;
   if (q.type === 'estimate') return correct ? q.answer : q.answer * 10;
+  if (q.type === 'imitate') return correct ? IMITATE_DONE : IMITATE_FAILED;
   return correct ? 'Praha' : 'Brno';
 }

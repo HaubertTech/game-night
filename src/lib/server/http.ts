@@ -50,6 +50,9 @@ export function parseId(raw: string | undefined, what = 'záznam'): number {
   return Number(raw);
 }
 
+/** Error text for an unknown level („kocarek, piskoviste, …“). */
+export const LEVEL_LIST = LEVELS.join(', ');
+
 export function isLevel(value: unknown): value is Level {
   return typeof value === 'string' && (LEVELS as readonly string[]).includes(value);
 }

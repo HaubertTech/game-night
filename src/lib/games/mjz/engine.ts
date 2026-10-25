@@ -68,7 +68,7 @@ export interface MjzSettings {
   categories: MjzCategory[];
   /** "Ch" may be drawn as its own letter. */
   includeCh: boolean;
-  /** Lavice (1st grade) round points ×1.5, rounded up. */
+  /** Prvnacek and lavice round points ×1.5, rounded up. */
   kidsBonus: boolean;
   levelRules: Record<Level, LevelRule>;
 }
@@ -83,7 +83,11 @@ export const DEFAULT_SETTINGS: MjzSettings = {
   levelRules: {
     hospoda: { extraSeconds: 0, categoryIds: null, assisted: false },
     lavice: { extraSeconds: 30, categoryIds: null, assisted: false },
+    // First graders write the children's categories (whatever of them the chosen set has) and slowly.
+    prvnacek: { extraSeconds: 60, categoryIds: KIDS_CATEGORIES.map((c) => c.id), assisted: true },
     piskoviste: { extraSeconds: 60, categoryIds: null, assisted: true },
+    // Kocarek does not play on its own (MJZ_LEVELS); a rule still exists for a team or an old room.
+    kocarek: { extraSeconds: 60, categoryIds: KIDS_CATEGORIES.map((c) => c.id), assisted: true },
   },
 };
 
@@ -335,8 +339,14 @@ export function scoreAnswers(answers: ScoredAnswer[]): ScoredAnswer[] {
   });
 }
 
+/** Levels that get the optional kids bonus. */
+export const KIDS_BONUS_LEVELS: readonly Level[] = ['prvnacek', 'lavice'];
+
+/** Levels offered as players; kocarek only helps (sits with an adult), it does not get a sheet. */
+export const MJZ_LEVELS: readonly Level[] = ['piskoviste', 'prvnacek', 'lavice', 'hospoda'];
+
 export function applyKidsBonus(points: number, level: Level, kidsBonus: boolean): number {
-  return kidsBonus && level === 'lavice' ? Math.ceil(points * 1.5) : points;
+  return kidsBonus && KIDS_BONUS_LEVELS.includes(level) ? Math.ceil(points * 1.5) : points;
 }
 
 function roundResult(state: MjzState): RoundResult {

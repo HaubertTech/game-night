@@ -1,0 +1,776 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se hraje tenis?",
+    "options": [
+      "🎾 Raketou",
+      "🏒 Hokejkou",
+      "⛳ Golfovou holí"
+    ],
+    "answer": "🎾 Raketou",
+    "fact": "Tenisové míčky jsou žluté hlavně proto, aby byly dobře vidět v televizi.",
+    "difficulty": 1,
+    "image": "🏟️",
+    "source": "https://www.hellomagazine.com/travel/2017071140538/wimbledon-tennis-balls-yellow/",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kam se snaží fotbalista dostat míč?",
+    "options": [
+      "🏀 Do koše",
+      "🥅 Do branky",
+      "🏐 Přes síť"
+    ],
+    "answer": "🥅 Do branky",
+    "fact": "Fotbalová branka je široká přes sedm metrů.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "https://cs.wikipedia.org/wiki/Fotbal",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se hraje lední hokej?",
+    "options": [
+      "⚪ Kuličkou",
+      "🎾 Míčkem",
+      "🏒 Pukem"
+    ],
+    "answer": "🏒 Pukem",
+    "fact": "Puk je z tvrdé gumy a před zápasem se chladí, aby lépe klouzal.",
+    "difficulty": 1,
+    "image": "⛸️",
+    "source": "https://cs.wikipedia.org/wiki/Puk",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik stěn má hrací kostka?",
+    "options": [
+      "6️⃣ 6",
+      "8️⃣ 8",
+      "4️⃣ 4"
+    ],
+    "answer": "6️⃣ 6",
+    "fact": "Protější stěny kostky dají dohromady vždycky sedm.",
+    "difficulty": 1,
+    "image": "🎲",
+    "source": "https://cs.wikipedia.org/wiki/Hrac%C3%AD_kostka",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se hází míč do koše?",
+    "options": [
+      "🤾 Házená",
+      "🏀 Basketbal",
+      "🏐 Volejbal"
+    ],
+    "answer": "🏀 Basketbal",
+    "fact": "Koš visí ve výšce přes tři metry.",
+    "difficulty": 2,
+    "image": "🧺",
+    "source": "https://cs.wikipedia.org/wiki/Basketbal",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik kruhů je na olympijské vlajce?",
+    "options": [
+      "3️⃣ 3",
+      "🔟 10",
+      "5️⃣ 5"
+    ],
+    "answer": "5️⃣ 5",
+    "fact": "Kruhy jsou spojené, protože na olympiádu se sjíždí celý svět.",
+    "difficulty": 2,
+    "image": "🏅",
+    "source": "https://cs.wikipedia.org/wiki/Olympijsk%C3%A9_symboly",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na čem se jezdí z kopce na sněhu se dvěma holemi?",
+    "options": [
+      "🎿 Na lyžích",
+      "🛹 Na skejtu",
+      "🛴 Na koloběžce"
+    ],
+    "answer": "🎿 Na lyžích",
+    "fact": "První lyže byly ze dřeva.",
+    "difficulty": 1,
+    "image": "🏔️",
+    "source": "https://cs.wikipedia.org/wiki/Ly%C5%BEe",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kde se hraje plážový volejbal?",
+    "options": [
+      "🧊 Na ledě",
+      "🏖️ Na písku",
+      "🌊 Ve vodě"
+    ],
+    "answer": "🏖️ Na písku",
+    "fact": "Plážový volejbal se hraje většinou bosky.",
+    "difficulty": 1,
+    "image": "🏐",
+    "source": "https://cs.wikipedia.org/wiki/Pl%C3%A1%C5%BEov%C3%BD_volejbal",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na čem jezdíme a odrážíme se nohou?",
+    "options": [
+      "🚗 V autě",
+      "🚂 Ve vlaku",
+      "🛴 Na koloběžce"
+    ],
+    "answer": "🛴 Na koloběžce",
+    "fact": "I na koloběžce je dobré mít přilbu.",
+    "difficulty": 1,
+    "image": "🦶",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které hře hledáme dvojice stejných obrázků?",
+    "options": [
+      "🃏 Pexeso",
+      "♟️ Šachy",
+      "🎲 Člověče, nezlob se"
+    ],
+    "answer": "🃏 Pexeso",
+    "fact": "Slovo pexeso vzniklo z věty „pekelně se soustřeď“.",
+    "difficulty": 1,
+    "image": "🧠",
+    "source": "https://cs.wikipedia.org/wiki/Pexeso",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se v bowlingu shazují kuželky?",
+    "options": [
+      "🏀 Míčem na koš",
+      "🎳 Koulí",
+      "🥏 Létajícím talířem"
+    ],
+    "answer": "🎳 Koulí",
+    "fact": "V bowlingu se shazuje deset kuželek.",
+    "difficulty": 1,
+    "image": "🏆",
+    "source": "https://cs.wikipedia.org/wiki/Bowling",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co si plavec dává na oči?",
+    "options": [
+      "🧣 Šálu",
+      "🎧 Sluchátka",
+      "🥽 Brýle"
+    ],
+    "answer": "🥽 Brýle",
+    "fact": "Plavecké brýle chrání oči před vodou z bazénu, která štípe.",
+    "difficulty": 1,
+    "image": "🏊",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se hraje badminton?",
+    "options": [
+      "🏸 Raketou a košíčkem",
+      "⚽ Míčem",
+      "🏒 Hokejkou"
+    ],
+    "answer": "🏸 Raketou a košíčkem",
+    "fact": "Závodní košíčky se dělají z husích peříček.",
+    "difficulty": 2,
+    "image": "🌬️",
+    "source": "https://cs.wikipedia.org/wiki/Badminton",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje sport, kde se jezdí na koni?",
+    "options": [
+      "🚴 Cyklistika",
+      "🏇 Jezdectví",
+      "🏊 Plavání"
+    ],
+    "answer": "🏇 Jezdectví",
+    "fact": "Kůň umí spát i vestoje.",
+    "difficulty": 2,
+    "image": "🐴",
+    "source": "https://cs.wikipedia.org/wiki/K%C5%AF%C5%88_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo chytá míč v brance?",
+    "options": [
+      "🏃 Útočník",
+      "📣 Fanoušek",
+      "🧤 Brankář"
+    ],
+    "answer": "🧤 Brankář",
+    "fact": "Brankář nosí rukavice, aby míč lépe chytil.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "https://cs.wikipedia.org/wiki/Brank%C3%A1%C5%99",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co porazí kámen ve hře kámen, nůžky, papír?",
+    "options": [
+      "📄 Papír",
+      "✂️ Nůžky",
+      "🪨 Kámen"
+    ],
+    "answer": "📄 Papír",
+    "fact": "Papír kámen zabalí, kámen nůžky ztupí a nůžky papír rozstříhají.",
+    "difficulty": 2,
+    "image": "✊",
+    "source": "https://cs.wikipedia.org/wiki/K%C3%A1men,_n%C5%AF%C5%BEky,_pap%C3%ADr",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se závodí na kole?",
+    "options": [
+      "🏊 Plavání",
+      "🚴 Cyklistika",
+      "⛷️ Lyžování"
+    ],
+    "answer": "🚴 Cyklistika",
+    "fact": "Nejslavnější cyklistický závod se jmenuje Tour de France.",
+    "difficulty": 1,
+    "image": "🏁",
+    "source": "https://cs.wikipedia.org/wiki/Tour_de_France",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se střílí v lukostřelbě?",
+    "options": [
+      "🎾 Raketou",
+      "🏒 Hokejkou",
+      "🏹 Lukem a šípy"
+    ],
+    "answer": "🏹 Lukem a šípy",
+    "fact": "Lukostřelci míří na terč s barevnými kruhy.",
+    "difficulty": 1,
+    "image": "🎯",
+    "source": "https://cs.wikipedia.org/wiki/Lukost%C5%99elba",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje hra, kdy jeden chytá ostatní?",
+    "options": [
+      "🏃 Na honěnou",
+      "🙈 Na schovávanou",
+      "🧩 Puzzle"
+    ],
+    "answer": "🏃 Na honěnou",
+    "fact": "Koho honič plácne, ten honí.",
+    "difficulty": 1,
+    "image": "👫",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co si dáme na kolena na kolečkových bruslích?",
+    "options": [
+      "🧦 Ponožky",
+      "🛡️ Chrániče",
+      "🎀 Mašle"
+    ],
+    "answer": "🛡️ Chrániče",
+    "fact": "Chrániče se dávají na kolena, lokty i zápěstí.",
+    "difficulty": 1,
+    "image": "🛼",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kde se jezdí na snowboardu?",
+    "options": [
+      "🌊 Na vodě",
+      "🛣️ Na silnici",
+      "🏔️ Na sněhu"
+    ],
+    "answer": "🏔️ Na sněhu",
+    "fact": "Na snowboardu má jezdec obě nohy připnuté na jednom prkně.",
+    "difficulty": 1,
+    "image": "🏂",
+    "source": "https://cs.wikipedia.org/wiki/Snowboarding",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kam musí hokejista, když poruší pravidla?",
+    "options": [
+      "🪑 Na trestnou lavici",
+      "🏠 Domů",
+      "🥅 Do branky"
+    ],
+    "answer": "🪑 Na trestnou lavici",
+    "fact": "Za menší prohřešek sedí hokejista na trestné lavici dvě minuty.",
+    "difficulty": 2,
+    "image": "🏒",
+    "source": "https://cs.wikipedia.org/wiki/Lední_hokej",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kam se golfista snaží dostat míček?",
+    "options": [
+      "🥅 Do branky",
+      "🕳️ Do jamky",
+      "🏀 Do koše"
+    ],
+    "answer": "🕳️ Do jamky",
+    "fact": "Golfový míček má na sobě důlky. Díky nim doletí mnohem dál.",
+    "difficulty": 1,
+    "image": "⛳",
+    "source": "https://cs.wikipedia.org/wiki/Golf",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-023"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik koleček má skateboard?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "4️⃣ 4"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Skateboarding je olympijský sport od olympiády v Tokiu.",
+    "difficulty": 1,
+    "image": "🛹",
+    "source": "https://cs.wikipedia.org/wiki/Skateboarding",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-024"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na co se hází šipky?",
+    "options": [
+      "🎯 Na terč",
+      "🥅 Do branky",
+      "🏀 Do koše"
+    ],
+    "answer": "🎯 Na terč",
+    "fact": "Malému kolečku uprostřed terče se říká býčí oko.",
+    "difficulty": 1,
+    "image": "🏹",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0ipky",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-025"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím vodák pohání loďku?",
+    "options": [
+      "🏒 Hokejkou",
+      "🛶 Pádlem",
+      "🎾 Raketou"
+    ],
+    "answer": "🛶 Pádlem",
+    "fact": "Kanoista pádluje pádlem s jednou lopatkou, kajakář pádlem se dvěma.",
+    "difficulty": 1,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/P%C3%A1dlo",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-026"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se kreslí panák na chodník?",
+    "options": [
+      "🖌️ Barvou na plátno",
+      "🖍️ Křídou",
+      "✏️ Propiskou"
+    ],
+    "answer": "🖍️ Křídou",
+    "fact": "Při skákání panáka se do políček hází kamínek.",
+    "difficulty": 1,
+    "image": "🦶",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-027"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů spolu hraje jednu partii šachů?",
+    "options": [
+      "1️⃣ 1",
+      "2️⃣ 2",
+      "4️⃣ 4"
+    ],
+    "answer": "2️⃣ 2",
+    "fact": "Nejsilnější šachovou figurou je dáma.",
+    "difficulty": 1,
+    "image": "♟️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0achy",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-028"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo píská a hlídá pravidla zápasu?",
+    "options": [
+      "🧤 Brankář",
+      "📣 Fanoušek",
+      "🧑‍⚖️ Rozhodčí"
+    ],
+    "answer": "🧑‍⚖️ Rozhodčí",
+    "fact": "Rozhodčímu ve fotbale pomáhají dva asistenti s praporky na krajích hřiště.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "https://cs.wikipedia.org/wiki/Rozhod%C4%8D%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-029"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co musí udělat fotbalista, který dostane červenou kartu?",
+    "options": [
+      "🏃 Odejít ze hřiště",
+      "🥅 Jít do branky",
+      "🎉 Zatancovat si"
+    ],
+    "answer": "🏃 Odejít ze hřiště",
+    "fact": "Žlutou a červenou kartu vymyslel anglický rozhodčí, když čekal autem na semaforu.",
+    "difficulty": 2,
+    "image": "🟥",
+    "source": "https://en.wikipedia.org/wiki/Ken_Aston",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-030"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se cvičí na kladině a skáče přes koně?",
+    "options": [
+      "🤸 V gymnastice",
+      "🏊 V plavání",
+      "⚽ Ve fotbale"
+    ],
+    "answer": "🤸 V gymnastice",
+    "fact": "Kladina je široká jen deset centimetrů, a přesto se na ní dělají salta.",
+    "difficulty": 2,
+    "image": "🏅",
+    "source": "https://cs.wikipedia.org/wiki/Sportovn%C3%AD_gymnastika",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-031"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se míč odbíjí rukama přes vysokou síť?",
+    "options": [
+      "🏐 Ve volejbale",
+      "⚽ Ve fotbale",
+      "🏒 V hokeji"
+    ],
+    "answer": "🏐 Ve volejbale",
+    "fact": "Ve volejbale se míč nesmí chytit a držet. Smí se jen odrazit.",
+    "difficulty": 1,
+    "image": "🥅",
+    "source": "https://cs.wikipedia.org/wiki/Volejbal",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-032"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu zápasníci nosí bílé kimono a pásek?",
+    "options": [
+      "🏊 V plavání",
+      "🥋 V judu",
+      "🚴 V cyklistice"
+    ],
+    "answer": "🥋 V judu",
+    "fact": "Barva pásku ukazuje, jak zkušený zápasník je. Mistři mají černý.",
+    "difficulty": 1,
+    "image": "🤼",
+    "source": "https://cs.wikipedia.org/wiki/Judo",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-033"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "S čím skáčou děti, když se nad nimi točí lano?",
+    "options": [
+      "⚽ S míčem",
+      "🎈 S balonkem",
+      "🪢 Se švihadlem"
+    ],
+    "answer": "🪢 Se švihadlem",
+    "fact": "Přes dlouhé švihadlo umí skákat i tři děti najednou.",
+    "difficulty": 1,
+    "image": "🦘",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0vihadlo",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-034"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které hře se trefuje míčem do hráčů druhého týmu?",
+    "options": [
+      "🎳 V bowlingu",
+      "⚾ Ve vybíjené",
+      "🏓 Ve stolním tenise"
+    ],
+    "answer": "⚾ Ve vybíjené",
+    "fact": "Koho míč trefí, musí z pole ven za čáru.",
+    "difficulty": 1,
+    "image": "🏫",
+    "source": "https://cs.wikipedia.org/wiki/Vyb%C3%ADjen%C3%A1",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-035"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kde běhají atleti závody?",
+    "options": [
+      "🏟️ Na dráze stadionu",
+      "🌊 Ve vodě",
+      "🧊 Na ledě"
+    ],
+    "answer": "🏟️ Na dráze stadionu",
+    "fact": "Atletický ovál má obvykle osm běžeckých drah vedle sebe.",
+    "difficulty": 1,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/Atletika",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-036"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje závod, kde si běžci předávají kolík?",
+    "options": [
+      "🏁 Maraton",
+      "🔁 Štafeta",
+      "🚶 Chůze"
+    ],
+    "answer": "🔁 Štafeta",
+    "fact": "Ve štafetě běží obvykle čtyři běžci a každý uběhne kus trati.",
+    "difficulty": 2,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0tafeta",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-037"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co zvedá nad hlavu tým, který vyhrál?",
+    "options": [
+      "🏆 Pohár",
+      "🪣 Kbelík",
+      "🎒 Batoh"
+    ],
+    "answer": "🏆 Pohár",
+    "fact": "Na olympiádě vítězové pohár nedostávají. Dostávají zlaté medaile.",
+    "difficulty": 1,
+    "image": "🎉",
+    "source": "https://cs.wikipedia.org/wiki/Stanley_Cup",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-038"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje hřiště na tenis?",
+    "options": [
+      "⛸️ Kluziště",
+      "🎾 Kurt",
+      "🏊 Bazén"
+    ],
+    "answer": "🎾 Kurt",
+    "fact": "Tenisová síť je uprostřed o kousek nižší než na krajích.",
+    "difficulty": 2,
+    "image": "🥅",
+    "source": "https://cs.wikipedia.org/wiki/Tenisov%C3%BD_dvorec",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-039"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje cvik, kdy se převalíme přes hlavu?",
+    "options": [
+      "🧘 Svíčka",
+      "🤸 Kotoul",
+      "🏃 Sprint"
+    ],
+    "answer": "🤸 Kotoul",
+    "fact": "Kotoul cvičíme na měkké žíněnce, aby to nebolelo.",
+    "difficulty": 1,
+    "image": "🏫",
+    "source": "https://cs.wikipedia.org/wiki/Kotoul",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-040"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na čem jezdí jezdci ve Velké pardubické?",
+    "options": [
+      "🚴 Na kolech",
+      "🐎 Na koních",
+      "🛷 Na saních"
+    ],
+    "answer": "🐎 Na koních",
+    "fact": "Koně musí na trati přeskočit 31 překážek.",
+    "difficulty": 2,
+    "image": "🏆",
+    "source": "https://cs.wikipedia.org/wiki/Velk%C3%A1_pardubick%C3%A1",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-041"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ze které země pochází stavebnice Lego?",
+    "options": [
+      "🌍 Z Dánska",
+      "🌍 Z Česka",
+      "🌍 Z Austrálie"
+    ],
+    "answer": "🌍 Z Dánska",
+    "fact": "Jméno Lego vzniklo z dánských slov leg godt. Znamenají hraj si dobře.",
+    "difficulty": 2,
+    "image": "🧱",
+    "source": "https://cs.wikipedia.org/wiki/Lego",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-043"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje hra, kde se kreslí křížky a kolečka do řady?",
+    "options": [
+      "❌ Piškvorky",
+      "🃏 Pexeso",
+      "🎲 Člověče, nezlob se"
+    ],
+    "answer": "❌ Piškvorky",
+    "fact": "Piškvorky si můžeš zahrát kdekoli, stačí tužka a papír.",
+    "difficulty": 1,
+    "image": "✏️",
+    "source": "https://cs.wikipedia.org/wiki/Pi%C5%A1kvorky",
+    "status": "verified",
+    "id": "prvnacek-sport-hry-044"
+  }
+]

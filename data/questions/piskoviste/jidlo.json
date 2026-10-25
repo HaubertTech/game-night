@@ -1,21 +1,21 @@
 [
   {
-    "id": "piskoviste-jidlo-001",
     "level": "piskoviste",
     "theme": "jidlo",
     "type": "choice",
-    "text": "Jakou barvu má banán?",
+    "text": "Co nepatří mezi ovoce?",
     "options": [
-      "🔵 Modrou",
-      "🟣 Fialovou",
-      "🟡 Žlutou"
+      "🥕 Mrkev",
+      "🍇 Hrozny",
+      "🍐 Hruška"
     ],
-    "answer": "🟡 Žlutou",
-    "fact": "Banány rostou v teplých krajích.",
-    "difficulty": 1,
-    "image": "🍌",
+    "answer": "🥕 Mrkev",
+    "fact": "Mrkev je zelenina. Králíci ji chroupou moc rádi.",
+    "difficulty": 2,
+    "image": "🍎🍐🍇🥕",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-jidlo-001"
   },
   {
     "id": "piskoviste-jidlo-002",
@@ -54,76 +54,40 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-jidlo-004",
     "level": "piskoviste",
     "theme": "jidlo",
     "type": "choice",
-    "text": "Co nám dává kráva?",
+    "text": "Z čeho se dělá kečup?",
     "options": [
-      "🍯 Med",
-      "🥛 Mléko",
-      "🥚 Vajíčko"
+      "🍌 Z banánů",
+      "🥒 Z okurek",
+      "🍅 Z rajčat"
     ],
-    "answer": "🥛 Mléko",
-    "fact": "Z mléka se dělá i sýr.",
-    "difficulty": 1,
-    "image": "🐄",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🍅 Z rajčat",
+    "fact": "Rajčata k nám kdysi přivezli až z daleké Ameriky.",
+    "difficulty": 2,
+    "image": "🍟",
+    "source": "https://cs.wikipedia.org/wiki/Rajče",
+    "status": "verified",
+    "id": "piskoviste-jidlo-005"
   },
   {
-    "id": "piskoviste-jidlo-005",
     "level": "piskoviste",
     "theme": "jidlo",
     "type": "choice",
-    "text": "Čím jíme polévku?",
+    "text": "Co sbíráme v lese do košíku?",
     "options": [
-      "🍴 Vidličkou",
-      "🔪 Nožem",
-      "🥄 Lžící"
+      "🍕 Pizzu",
+      "🍄 Houby",
+      "🍩 Koblihy"
     ],
-    "answer": "🥄 Lžící",
-    "fact": "Před jídlem si popřejeme dobrou chuť.",
-    "difficulty": 1,
-    "image": "🍲",
+    "answer": "🍄 Houby",
+    "fact": "Houby sbíráme jen s dospělým, protože některé jsou jedovaté.",
+    "difficulty": 2,
+    "image": "🌲",
     "source": "obecná znalost",
-    "status": "verified"
-  },
-  {
-    "id": "piskoviste-jidlo-006",
-    "level": "piskoviste",
-    "theme": "jidlo",
-    "type": "choice",
-    "text": "Co je studené?",
-    "options": [
-      "🍲 Polévka",
-      "🍦 Zmrzlina",
-      "☕ Horký čaj"
-    ],
-    "answer": "🍦 Zmrzlina",
-    "fact": "Zmrzlina se v teple rychle rozpustí.",
-    "difficulty": 1,
-    "image": "🧊",
-    "source": "obecná znalost",
-    "status": "verified"
-  },
-  {
-    "id": "piskoviste-jidlo-007",
-    "level": "piskoviste",
-    "theme": "jidlo",
-    "type": "choice",
-    "text": "Jakou barvu mívá zralé rajče?",
-    "options": [
-      "🔴 Červenou",
-      "🔵 Modrou",
-      "⚫ Černou"
-    ],
-    "answer": "🔴 Červenou",
-    "fact": "Rajčata rostou na zahradě v létě.",
-    "difficulty": 1,
-    "image": "🥗",
-    "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-jidlo-007"
   },
   {
     "id": "piskoviste-jidlo-008",
@@ -180,22 +144,22 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-jidlo-011",
     "level": "piskoviste",
     "theme": "jidlo",
     "type": "choice",
-    "text": "Co pijeme, když máme žízeň?",
+    "text": "Je víc jahod, nebo třešní?",
     "options": [
-      "💧 Vodu",
-      "🧂 Sůl",
-      "🍞 Chleba"
+      "🍒 Třešní",
+      "🟰 Stejně",
+      "🍓 Jahod"
     ],
-    "answer": "💧 Vodu",
-    "fact": "Na žízeň je nejlepší obyčejná voda.",
+    "answer": "🍓 Jahod",
+    "fact": "Jahody mají semínka na povrchu, ne uvnitř.",
     "difficulty": 2,
-    "image": "🚰",
-    "source": "obecná znalost",
-    "status": "verified"
+    "image": "🍓🍓🍓🍓🍒🍒",
+    "source": "https://cs.wikipedia.org/wiki/Jahodn%C3%ADk",
+    "status": "verified",
+    "id": "piskoviste-jidlo-011"
   },
   {
     "id": "piskoviste-jidlo-012",
@@ -212,6 +176,605 @@
     "fact": "Vánoční cukroví často pečeme s maminkou nebo babičkou.",
     "difficulty": 2,
     "image": "🎄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kolik je tu hrušek?",
+    "options": [
+      "6️⃣ Šest",
+      "5️⃣ Pět",
+      "7️⃣ Sedm"
+    ],
+    "answer": "6️⃣ Šest",
+    "fact": "Hruška dozraje i v míse, když ji utrhneme trochu dřív.",
+    "difficulty": 2,
+    "image": "🍐🍐🍐🍐🍐🍐",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce je uvnitř červené s černými semínky?",
+    "options": [
+      "🍌 Banán",
+      "🍉 Meloun",
+      "🍐 Hruška"
+    ],
+    "answer": "🍉 Meloun",
+    "fact": "Meloun je skoro celý z vody, proto tak osvěží.",
+    "difficulty": 2,
+    "image": "🧺",
+    "source": "https://cs.wikipedia.org/wiki/Melouny",
+    "status": "verified",
+    "id": "piskoviste-jidlo-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kdo rád chroupe mrkev?",
+    "options": [
+      "🐱 Kočička",
+      "🐟 Rybička",
+      "🐰 Zajíček"
+    ],
+    "answer": "🐰 Zajíček",
+    "fact": "Zajíci a králíci jedí hlavně trávu a seno, mrkev je pro ně pamlsek.",
+    "difficulty": 1,
+    "image": "🥕",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co dáme ptáčkům v zimě do krmítka?",
+    "options": [
+      "🌻 Semínka",
+      "🍬 Bonbony",
+      "🍟 Hranolky"
+    ],
+    "answer": "🌻 Semínka",
+    "fact": "Ptáčkům nedáváme chleba ani nic slaného, mohlo by jim to ublížit.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-016"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "V čem se vaří polévka?",
+    "options": [
+      "🧺 V košíku",
+      "🥤 V hrnku",
+      "🍲 V hrnci"
+    ],
+    "answer": "🍲 V hrnci",
+    "fact": "Polévka se vaří na sporáku. K horkému sporáku nesaháme.",
+    "difficulty": 1,
+    "image": "🥕🥔",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co nepatří mezi pití?",
+    "options": [
+      "🍞 Chleba",
+      "🧃 Džus",
+      "🥛 Mléko"
+    ],
+    "answer": "🍞 Chleba",
+    "fact": "Nejvíc pití potřebujeme, když běháme a je horko.",
+    "difficulty": 2,
+    "image": "🥛🧃💧🍞",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce přijde v řadě dál?",
+    "options": [
+      "🍌 Banán",
+      "🍎 Jablko",
+      "🍇 Hrozny"
+    ],
+    "answer": "🍎 Jablko",
+    "fact": "Jablka rostou na jabloni a dozrávají na konci léta a na podzim.",
+    "difficulty": 2,
+    "image": "🍎🍌🍎🍌❓",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co roste na poli?",
+    "options": [
+      "🍌 Banány",
+      "🍍 Ananas",
+      "🌽 Kukuřice"
+    ],
+    "answer": "🌽 Kukuřice",
+    "fact": "Z kukuřice se dělá i popcorn.",
+    "difficulty": 2,
+    "image": "🚜",
+    "source": "https://cs.wikipedia.org/wiki/Kuku%C5%99ice_set%C3%A1",
+    "status": "verified",
+    "id": "piskoviste-jidlo-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co je nejlepší na svačinu?",
+    "options": [
+      "🍎 Jablko",
+      "🍭 Lízátko",
+      "🍬 Bonbon"
+    ],
+    "answer": "🍎 Jablko",
+    "fact": "Sladkosti škodí zoubkům, proto si po nich čistíme zuby.",
+    "difficulty": 1,
+    "image": "🎒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se dělá džus?",
+    "options": [
+      "🧀 Ze sýra",
+      "🍊 Z pomerančů",
+      "🥚 Z vajíček"
+    ],
+    "answer": "🍊 Z pomerančů",
+    "fact": "Na jednu skleničku džusu je potřeba několik pomerančů.",
+    "difficulty": 2,
+    "image": "🧃",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-jidlo-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co se dělá z mléka?",
+    "options": [
+      "🍞 Chleba",
+      "🍯 Med",
+      "🧀 Sýr"
+    ],
+    "answer": "🧀 Sýr",
+    "fact": "Na kilo sýra je potřeba skoro deset litrů mléka.",
+    "difficulty": 2,
+    "image": "🐄",
+    "source": "https://cs.wikipedia.org/wiki/S%C3%BDr",
+    "status": "verified",
+    "id": "piskoviste-jidlo-024"
+  },
+  {
+    "id": "piskoviste-jidlo-026",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co roste pod zemí?",
+    "options": [
+      "🥔 Brambora",
+      "🍎 Jablko",
+      "🍒 Třešně",
+      "🍌 Banán"
+    ],
+    "answer": "🥔 Brambora",
+    "fact": "V zemi rostou také mrkev a ředkvička.",
+    "difficulty": 2,
+    "image": "🌱",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-027",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce roste u nás na zahradě?",
+    "options": [
+      "🍌 Banán",
+      "🍍 Ananas",
+      "🥥 Kokos",
+      "🍎 Jablko"
+    ],
+    "answer": "🍎 Jablko",
+    "fact": "Banány a ananasy k nám vozí z teplých zemí.",
+    "difficulty": 2,
+    "image": "🏡",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-028",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se dělá omeleta?",
+    "options": [
+      "🍌 Z banánů",
+      "🍎 Z jablek",
+      "🥚 Z vajíček"
+    ],
+    "answer": "🥚 Z vajíček",
+    "fact": "Na omeletu se vajíčka rozklepnou a rozšlehají.",
+    "difficulty": 1,
+    "image": "🍳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-030",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co pijí malá miminka?",
+    "options": [
+      "☕ Kávu",
+      "🥛 Mléko",
+      "🧃 Limonádu"
+    ],
+    "answer": "🥛 Mléko",
+    "fact": "Zoubky začnou miminku růst, když je mu asi půl roku.",
+    "difficulty": 1,
+    "image": "👶",
+    "source": "https://cs.wikipedia.org/wiki/Ml%C3%A9%C4%8Dn%C3%BD_chrup",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-031",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co kazí zoubky, když toho sníme moc?",
+    "options": [
+      "🥕 Mrkev",
+      "🧀 Sýr",
+      "🍬 Bonbony",
+      "🥒 Okurka"
+    ],
+    "answer": "🍬 Bonbony",
+    "fact": "Po sladkém je dobré vypláchnout si pusu vodou.",
+    "difficulty": 1,
+    "image": "🦷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-032",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co uděláme s jablkem, než ho sníme?",
+    "options": [
+      "💧 Umyjeme ho",
+      "🧊 Zmrazíme ho",
+      "🎨 Pomalujeme ho"
+    ],
+    "answer": "💧 Umyjeme ho",
+    "fact": "Voda smyje ze slupky prach a nečistoty.",
+    "difficulty": 1,
+    "image": "🍎",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-033",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce má uvnitř pecku?",
+    "options": [
+      "🍌 Banán",
+      "🍒 Třešeň",
+      "🍓 Jahoda"
+    ],
+    "answer": "🍒 Třešeň",
+    "fact": "Pecky z třešní nepolykáme, ale vyplivneme.",
+    "difficulty": 2,
+    "image": "🌳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-034",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co sbíráme na podzim a děláme z toho panáčky?",
+    "options": [
+      "🍌 Banány",
+      "🥚 Vajíčka",
+      "🌰 Kaštany"
+    ],
+    "answer": "🌰 Kaštany",
+    "fact": "Lidé kaštany nejí, ale lesní zvěři chutnají.",
+    "difficulty": 2,
+    "image": "🍂",
+    "source": "https://cs.wikipedia.org/wiki/J%C3%ADrovec_ma%C4%8Fal",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-035",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která zelenina je oranžová?",
+    "options": [
+      "🥕 Mrkev",
+      "🥒 Okurka",
+      "🥔 Brambora"
+    ],
+    "answer": "🥕 Mrkev",
+    "fact": "Mrkev může být i žlutá nebo fialová.",
+    "difficulty": 2,
+    "image": "🎨",
+    "source": "https://cs.wikipedia.org/wiki/Mrkev_obecn%C3%A1",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-036",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která zelenina je zelená?",
+    "options": [
+      "🥕 Mrkev",
+      "🥦 Brokolice",
+      "🍅 Rajče",
+      "🌽 Kukuřice"
+    ],
+    "answer": "🥦 Brokolice",
+    "fact": "Brokolice vypadá jako malý stromeček.",
+    "difficulty": 2,
+    "image": "🎨",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-037",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co nepatří mezi zeleninu?",
+    "options": [
+      "🥒 Okurka",
+      "🥔 Brambora",
+      "🍓 Jahoda"
+    ],
+    "answer": "🍓 Jahoda",
+    "fact": "Jahoda je ovoce, i když roste nízko u země.",
+    "difficulty": 2,
+    "image": "🥕🥒🥔🍓",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-038",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co nepatří mezi sladkosti?",
+    "options": [
+      "🥦 Brokolice",
+      "🍫 Čokoláda",
+      "🍭 Lízátko"
+    ],
+    "answer": "🥦 Brokolice",
+    "fact": "Sladkosti jíme jen občas, aby nás nebolely zuby.",
+    "difficulty": 2,
+    "image": "🍫🍬🍭🥦",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-039",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kdy obědváme?",
+    "options": [
+      "🌅 Brzy ráno",
+      "🕛 V poledne",
+      "🌙 V noci"
+    ],
+    "answer": "🕛 V poledne",
+    "fact": "Ráno jíme snídani, v poledne oběd a večer večeři.",
+    "difficulty": 2,
+    "image": "🍽️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-040",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vaří marmeláda?",
+    "options": [
+      "🧀 Ze sýra",
+      "🥚 Z vajec",
+      "🍓 Z ovoce"
+    ],
+    "answer": "🍓 Z ovoce",
+    "fact": "Ovoce se na marmeládu vaří s cukrem.",
+    "difficulty": 1,
+    "image": "🥄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-041",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se dělá mouka?",
+    "options": [
+      "🌾 Z obilí",
+      "🥕 Z mrkve",
+      "🍓 Z jahod"
+    ],
+    "answer": "🌾 Z obilí",
+    "fact": "Mouka vznikne, když se umelou zrníčka pšenice.",
+    "difficulty": 3,
+    "image": "🍞",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-042",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kde roste kokos?",
+    "options": [
+      "🌲 Na smrku",
+      "🌴 Na palmě",
+      "🌱 V zemi"
+    ],
+    "answer": "🌴 Na palmě",
+    "fact": "Uvnitř kokosového ořechu je kokosová voda.",
+    "difficulty": 2,
+    "image": "🥥",
+    "source": "https://cs.wikipedia.org/wiki/Kokosovn%C3%ADk_o%C5%99echoplod%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-043",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce má chlupatou slupku?",
+    "options": [
+      "🍎 Jablko",
+      "🍌 Banán",
+      "🥝 Kiwi",
+      "🍇 Hrozny"
+    ],
+    "answer": "🥝 Kiwi",
+    "fact": "Kiwi je uvnitř zelené a má malá černá semínka.",
+    "difficulty": 2,
+    "image": "🧺",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-044",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co jedí kravičky?",
+    "options": [
+      "🌿 Trávu",
+      "🍫 Čokoládu",
+      "🐟 Rybičky"
+    ],
+    "answer": "🌿 Trávu",
+    "fact": "Kráva spase za den spoustu trávy.",
+    "difficulty": 1,
+    "image": "🐄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-045",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co jí koník?",
+    "options": [
+      "🍕 Pizzu",
+      "🌾 Seno",
+      "🍭 Lízátko"
+    ],
+    "answer": "🌾 Seno",
+    "fact": "Koníci rádi dostanou jako odměnu mrkev nebo jablko.",
+    "difficulty": 1,
+    "image": "🐴",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-046",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co nám pomáhá být zdraví?",
+    "options": [
+      "🍬 Bonbony",
+      "🍟 Hranolky",
+      "🥗 Ovoce a zelenina"
+    ],
+    "answer": "🥗 Ovoce a zelenina",
+    "fact": "Každý den bychom měli sníst několik kousků ovoce a zeleniny.",
+    "difficulty": 1,
+    "image": "💪",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-047",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co uděláme, když v lese najdeme houbu?",
+    "options": [
+      "🙋 Ukážeme ji dospělému",
+      "😋 Hned ji sníme",
+      "⚽ Kopneme do ní"
+    ],
+    "answer": "🙋 Ukážeme ji dospělému",
+    "fact": "Některé houby jsou jedovaté. Pozná je jen zkušený houbař.",
+    "difficulty": 1,
+    "image": "🍄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-jidlo-048",
+    "level": "piskoviste",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co dáme sněhulákovi místo nosu?",
+    "options": [
+      "🍌 Banán",
+      "🥕 Mrkev",
+      "🥒 Okurku"
+    ],
+    "answer": "🥕 Mrkev",
+    "fact": "Místo očí má sněhulák uhlíky nebo kamínky.",
+    "difficulty": 1,
+    "image": "⛄",
     "source": "obecná znalost",
     "status": "verified"
   }

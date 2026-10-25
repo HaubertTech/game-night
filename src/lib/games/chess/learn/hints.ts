@@ -31,7 +31,9 @@ export interface HintProfile {
 }
 
 export const HINT_PROFILES: Record<Level, HintProfile> = {
+  kocarek: { showMoves: true, threatWarnings: true, blunderCheck: true, adviceLimit: null },
   piskoviste: { showMoves: true, threatWarnings: true, blunderCheck: true, adviceLimit: null },
+  prvnacek: { showMoves: true, threatWarnings: true, blunderCheck: true, adviceLimit: null },
   lavice: { showMoves: true, threatWarnings: true, blunderCheck: true, adviceLimit: 5 },
   hospoda: { showMoves: true, threatWarnings: false, blunderCheck: false, adviceLimit: 3 },
 };

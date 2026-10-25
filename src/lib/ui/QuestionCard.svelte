@@ -1,7 +1,9 @@
 <script lang="ts">
-  import type { Question } from '../types.ts';
+  import { LEVEL_READER, hasOptions, isChildLevel, type Question } from '../types.ts';
   import type { Turn } from '../engine/select.ts';
   import { isSpeechSupported } from '../tts.ts';
+  import Pic from './art/Pic.svelte';
+  import QuestionImage from './QuestionImage.svelte';
 
   let {
     question,
@@ -22,8 +24,10 @@
   } = $props();
 
   let estimate = $state('');
-  const kids = $derived(question.level === 'piskoviste');
-  const options = $derived(question.type === 'choice' ? (turn.options ?? question.options) : []);
+  const kids = $derived(isChildLevel(question.level));
+  /** Kocarek: the parent reads the question to the child and confirms imitations. */
+  const parentLed = $derived(LEVEL_READER[question.level] === 'parent');
+  const options = $derived(hasOptions(question) ? (turn.options ?? question.options) : []);
   const parsedEstimate = $derived(Number(estimate.replace(/\s/g, '').replace(',', '.')));
   const estimateValid = $derived(estimate.trim() !== '' && Number.isFinite(parsedEstimate));
 
@@ -39,24 +43,37 @@
   }
 </script>
 
-<article class="question" class:kids data-testid="question" data-type={question.type}>
+<article class="question" class:kids class:parent={parentLed} data-testid="question" data-type={question.type} data-level={question.level}>
   {#if question.image}
-    <div class="image emoji" aria-hidden="true">{question.image}</div>
+    <QuestionImage image={question.image} big={kids} />
+  {/if}
+  {#if parentLed}
+    <p class="read-to" data-testid="read-to">📖 Přečti dítěti:</p>
   {/if}
   <h2 class="text">{question.text}</h2>
-  {#if kids || isSpeechSupported()}
+  {#if isSpeechSupported() || LEVEL_READER[question.level] === 'tts'}
     <div class="speak">
-      <button class="btn small ghost" onclick={onSpeak}>🔊 Zopakuj</button>
+      <button class="btn small ghost" data-testid="speak" onclick={onSpeak}>{LEVEL_READER[question.level] === 'tts' ? '🔊 Zopakuj' : '🔊 Přečíst'}</button>
     </div>
   {/if}
 
-  {#if question.type === 'choice'}
+  {#if question.type === 'imitate'}
+    <div class="reveal card model" data-testid="model-answer">
+      <span class="muted">Vzor pro rodiče</span>
+      <strong class="answer">{question.answer}</strong>
+    </div>
+    <p class="judge-q">Zvládl/a to?</p>
+    <div class="row judge">
+      <button class="btn primary big" data-testid="imitate-yes" onclick={() => onJudge(true)}>Zvládl/a ✓</button>
+      <button class="btn big" data-testid="imitate-no" onclick={() => onJudge(false)}>Zkusíme jinou ✗</button>
+    </div>
+  {:else if hasOptions(question)}
     <div class="options" class:two={options.length === 2}>
       {#each options as option (option)}
         {#if kids}
           {@const [pic, label] = splitEmoji(option)}
           <button class="option tile" data-testid="option" onclick={() => onAnswer(option)}>
-            <span class="emoji pic">{pic}</span>
+            <Pic emoji={pic} size={112} decorative class="pic" />
             <span class="label">{label}</span>
           </button>
         {:else}
@@ -94,7 +111,7 @@
     <div class="reveal card">
       <span class="muted">Správná odpověď</span>
       <strong class="answer">{question.answer}</strong>
-      {#if question.accept?.length}<span class="muted">Platí i: {question.accept.join(', ')}</span>{/if}
+      {#if question.type === 'open' && question.accept?.length}<span class="muted">Platí i: {question.accept.join(', ')}</span>{/if}
     </div>
     <p class="judge-q">Ostatní hráči: řekl(a) to správně?</p>
     <div class="row judge">
@@ -112,11 +129,11 @@
     gap: 18px;
     text-align: center;
   }
-  .image {
-    font-size: 5rem;
-  }
-  .kids .image {
-    font-size: 7rem;
+  .read-to {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--ink-soft);
   }
   .text {
     font-size: clamp(1.6rem, 3.4vw, 2.3rem);
@@ -161,8 +178,9 @@
     min-height: 240px;
     background: var(--paper);
   }
-  .pic {
-    font-size: 6rem;
+  .tile :global(.pic) {
+    width: 112px;
+    height: 112px;
   }
   .label {
     font-size: 1.5rem;

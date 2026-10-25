@@ -6,7 +6,7 @@
   import Avatar from '#lib/ui/art/Avatar.svelte';
   import { onMount } from 'svelte';
   import { page } from '$app/state';
-  import { LEVEL_LABELS, THEME_LABELS } from '#lib/types.ts';
+  import { LEVEL_LABELS, LEVEL_READER, THEME_LABELS, type Level } from '#lib/types.ts';
   import { LiveRoom } from '#lib/live-client/room.svelte.ts';
   import { questionSpeech, speak, stop } from '#lib/tts.ts';
   import Standings from '#lib/ui/Standings.svelte';
@@ -29,7 +29,11 @@
   const view = $derived(room.view);
   const byId = $derived(view ? contestantMap(view) : new Map());
   const me = $derived(room.me ? byId.get(room.me) : undefined);
-  const kids = $derived(me?.level === 'piskoviste');
+  /** Piskoviste and prvnacek get the question read aloud on a tap. */
+  const kids = $derived.by(() => {
+    const reader = me ? LEVEL_READER[me.level as Level] : undefined;
+    return reader === 'tts' || reader === 'tts-button';
+  });
   const mine = $derived(view?.reveal?.find((r) => r.contestantId === room.me));
   const tvNow = $derived(view?.stage === 'tv' ? view.contestants.filter((c) => c.onTv && c.inStep && !c.answered) : []);
   const pickable = $derived(view ? view.contestants.filter((c) => !c.onTv && !c.kicked) : []);

@@ -509,5 +509,1536 @@
     "difficulty": 2,
     "source": "https://cs.wikipedia.org/wiki/Tutanchamon",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-031",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který velkomoravský kníže si u byzantského císaře vyžádal věrozvěsty Konstantina a Metoděje?",
+    "options": [
+      "Rastislav",
+      "Svatopluk",
+      "Mojmír I.",
+      "Bořivoj"
+    ],
+    "answer": "Rastislav",
+    "fact": "Bratři pocházeli z řecké Soluně a slovanský jazyk znali z okolí svého rodného města. Na Moravu dorazili roku 863.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Rastislav",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-032",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který panovník získal roku 1212 Zlatou bulu sicilskou, která zaručila dědičný královský titul?",
+    "options": [
+      "Václav I.",
+      "Přemysl Otakar I.",
+      "Vladislav II.",
+      "Přemysl Otakar II."
+    ],
+    "answer": "Přemysl Otakar I.",
+    "fact": "Sicilská se jmenuje podle pečeti: Fridrich II. ji vydal jako sicilský král, římským králem ještě nebyl korunován.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zlatá_bula_sicilská",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-033",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kde byl roku 1306 zavražděn Václav III., poslední Přemyslovec po meči?",
+    "options": [
+      "V Praze",
+      "V Brně",
+      "V Olomouci",
+      "V Kutné Hoře"
+    ],
+    "answer": "V Olomouci",
+    "fact": "Nebylo mu ani sedmnáct. Kdo vraždu objednal, se nikdy nezjistilo.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Václav_III.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-034",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Za kterého krále se od roku 1300 začal razit pražský groš?",
+    "options": [
+      "Karla IV.",
+      "Jana Lucemburského",
+      "Přemysla Otakara II.",
+      "Václava II."
+    ],
+    "answer": "Václava II.",
+    "fact": "Razil se z kutnohorského stříbra a patřil k nejrozšířenějším mincím střední Evropy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pražský_groš",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-035",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo vedl průvod, který roku 1419 vyhodil konšely z oken Novoměstské radnice?",
+    "options": [
+      "Jan Želivský",
+      "Jan Žižka",
+      "Prokop Holý",
+      "Jan Rokycana"
+    ],
+    "answer": "Jan Želivský",
+    "fact": "První pražská defenestrace odstartovala husitské války. Želivského o tři roky později popravili na Staroměstské radnici.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/První_pražská_defenestrace",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-036",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který český král navrhoval mírový svaz evropských panovníků, předobraz sjednocené Evropy?",
+    "options": [
+      "Karel IV.",
+      "Jiří z Poděbrad",
+      "Rudolf II.",
+      "Vladislav Jagellonský"
+    ],
+    "answer": "Jiří z Poděbrad",
+    "fact": "Byl jediným českým králem, který nepocházel z panovnického rodu; zvolili ho roku 1458.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jiří_z_Poděbrad",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-037",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve kterém městě byl roku 1634 zavražděn vojevůdce Albrecht z Valdštejna?",
+    "options": [
+      "V Jičíně",
+      "Ve Frýdlantu",
+      "V Chebu",
+      "V Praze"
+    ],
+    "answer": "V Chebu",
+    "fact": "Zabili ho důstojníci jeho vlastního vojska se souhlasem císaře Ferdinanda II., který se bál jeho moci.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Albrecht_z_Valdštejna",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-038",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který panovník roku 1781 zrušil v českých zemích nevolnictví?",
+    "options": [
+      "Marie Terezie",
+      "Leopold II.",
+      "František I.",
+      "Josef II."
+    ],
+    "answer": "Josef II.",
+    "fact": "Téhož roku vydal i toleranční patent, který povolil vedle katolické víry i protestantská vyznání.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Josef_II.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-039",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Která dvě města spojila koněspřežná železnice dokončená roku 1832?",
+    "options": [
+      "České Budějovice a Linec",
+      "Praha a Vídeň",
+      "Brno a Vídeň",
+      "Plzeň a Řezno"
+    ],
+    "answer": "České Budějovice a Linec",
+    "fact": "Byla jednou z prvních veřejných železnic na evropské pevnině. Koně po ní tahali vozy až do 70. let 19. století.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Budweis%E2%80%93Linz%E2%80%93Gmunden_Horse-Drawn_Railway",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-040",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který průkopník letectví přeletěl roku 1911 z Pardubic do Prahy?",
+    "options": [
+      "Igo Etrich",
+      "Jan Kašpar",
+      "Evžen Čihák",
+      "Alois Šmolík"
+    ],
+    "answer": "Jan Kašpar",
+    "fact": "Let dlouhý 121 km trval 92 minut a přistál v Chuchli.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Kašpar",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-041",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenovala operace, při které parašutisté zaútočili roku 1942 na Reinharda Heydricha?",
+    "options": [
+      "Overlord",
+      "Barbarossa",
+      "Anthropoid",
+      "Silver A"
+    ],
+    "answer": "Anthropoid",
+    "fact": "Parašutisté se nakonec ukrývali a padli v kryptě kostela sv. Cyrila a Metoděje v Resslově ulici.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Operace_Anthropoid",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-042",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl jako první tajemník KSČ tváří pražského jara 1968?",
+    "options": [
+      "Ludvík Svoboda",
+      "Gustáv Husák",
+      "Antonín Novotný",
+      "Alexander Dubček"
+    ],
+    "answer": "Alexander Dubček",
+    "fact": "Po vyloučení ze strany pracoval skoro dvacet let jako mechanik v lesním podniku v Bratislavě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Alexander_Dubček",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-043",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který student se v lednu 1969 upálil na Václavském náměstí na protest proti okupaci?",
+    "options": [
+      "Jan Palach",
+      "Jan Zajíc",
+      "Jan Opletal",
+      "Josef Toufar"
+    ],
+    "answer": "Jan Palach",
+    "fact": "Chtěl lidi probudit z rezignace. Jeho pohřeb se proměnil v tichou manifestaci desetitisíců lidí.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Palach",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-044",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Výprava kterého mořeplavce jako první obeplula Zemi?",
+    "options": [
+      "Kryštof Kolumbus",
+      "Fernão de Magalhães",
+      "Vasco da Gama",
+      "James Cook"
+    ],
+    "answer": "Fernão de Magalhães",
+    "fact": "Sám to nedokončil, zahynul na Filipínách. Z pěti lodí se do Španělska vrátila jediná, Victoria.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Fernão_de_Magalhães",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-045",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl prvním římským císařem?",
+    "options": [
+      "Julius Caesar",
+      "Nero",
+      "Augustus",
+      "Konstantin Veliký"
+    ],
+    "answer": "Augustus",
+    "fact": "Po něm se jmenuje měsíc srpen, v mnoha jazycích August.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Augustus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-046",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kterou zemi napadlo nacistické Německo 1. září 1939?",
+    "options": [
+      "Československo",
+      "Francii",
+      "Rakousko",
+      "Polsko"
+    ],
+    "answer": "Polsko",
+    "fact": "Podle tradice válka začala ostřelováním polské posádky na poloostrově Westerplatte u Gdaňsku z lodi Schleswig-Holstein.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Invaze_do_Polska",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-047",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo roku 1903 uskutečnil první řízený let letadla s motorem?",
+    "options": [
+      "Bratři Wrightové",
+      "Bratři Lumièrové",
+      "Otto Lilienthal",
+      "Louis Blériot"
+    ],
+    "answer": "Bratři Wrightové",
+    "fact": "První let pilotoval Orville Wright: trval 12 sekund a letadlo urazilo 37 metrů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bratři_Wrightové",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-048",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co vynalezli bratranci František a Václav Veverkovi z Rybitví?",
+    "options": [
+      "Mlátičku",
+      "Ruchadlo",
+      "Secí stroj",
+      "Žací stroj"
+    ],
+    "answer": "Ruchadlo",
+    "fact": "Vynález si nepatentovali a ruchadlo pak za své vydával Jan Kainz. Oficiálního uznání se bratranci za života nedočkali.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ruchadlo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-049",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo roku 1815 předvedl v pražské Královské oboře první parní vůz v českých zemích?",
+    "options": [
+      "František Křižík",
+      "Josef Ressel",
+      "Josef Božek",
+      "Václav Klement"
+    ],
+    "answer": "Josef Božek",
+    "fact": "Při další předváděčce roku 1817 mu ukradli pokladnu se vstupným. Zadlužený Božek vůz rozbil a parní stroje opustil.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Josef_Božek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-050",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo vynalezl dynamit?",
+    "options": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "James Watt",
+      "Alfred Nobel"
+    ],
+    "answer": "Alfred Nobel",
+    "fact": "Ve své závěti z roku 1895 odkázal na Nobelovy ceny asi 94 procent svého majetku.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Alfred_Nobel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-051",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo dal jméno telegrafní abecedě z teček a čárek?",
+    "options": [
+      "Samuel Morse",
+      "Alexander Bell",
+      "Guglielmo Marconi",
+      "Thomas Edison"
+    ],
+    "answer": "Samuel Morse",
+    "fact": "Morse byl původně uznávaný malíř portrétů. K telegrafu se dostal až po čtyřicítce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Samuel_Morse",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-052",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který velkomoravský vládce podle legendy učil syny svornosti na třech prutech?",
+    "options": [
+      "Rastislav",
+      "Svatopluk",
+      "Mojmír I.",
+      "Pribina"
+    ],
+    "answer": "Svatopluk",
+    "fact": "Synové ho neposlechli: brzy po jeho smrti v roce 894 se pohádali a říše se začala rozpadat.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Svatopluk_I.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-053",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "Kolik mužů popravili 21. června 1621 na Staroměstském náměstí?",
+    "answer": 27,
+    "unit": "mužů",
+    "fact": "Připomíná je 27 křížů v dlažbě. Rektor univerzity Jan Jesenius měl před popravou vyříznutý jazyk.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Staroměstská_exekuce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-054",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce doplul Kryštof Kolumbus do Ameriky?",
+    "answer": 1492,
+    "unit": "rok",
+    "fact": "Až do smrti věřil, že doplul do Asie. Proto se původním obyvatelům Ameriky začalo říkat indiáni.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kryštof_Kolumbus",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-055",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce dobyli Pařížané Bastilu?",
+    "answer": 1789,
+    "unit": "rok",
+    "fact": "V pevnosti tehdy sedělo jen sedm vězňů. Šlo hlavně o zásoby střelného prachu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dobytí_Bastily",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-056",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce se odehrála bitva u Lipan, která ukončila moc radikálních husitů?",
+    "answer": 1434,
+    "unit": "rok",
+    "fact": "Radikální husity neporazili křižáci, ale spojené vojsko umírněných husitů a katolíků.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bitva_u_Lipan",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-057",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenoval dokument z ledna 1977, ve kterém disidenti kritizovali porušování lidských práv?",
+    "answer": "Charta 77",
+    "accept": [
+      "Charta"
+    ],
+    "fact": "Jedním z podnětů byl soudní proces s undergroundovou kapelou The Plastic People of the Universe.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Charta_77",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-058",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Ve kterém městě podepsali roku 1938 dohodu, podle níž muselo Československo odstoupit pohraničí?",
+    "answer": "Mnichov",
+    "accept": [
+      "v Mnichově",
+      "Mnichove"
+    ],
+    "fact": "Zástupce Československa k jednání nikdo nepozval. Odtud rčení „o nás bez nás“.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mnichovská_dohoda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-059",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Které jihočeské město založili husité roku 1420 a pojmenovali po biblické hoře?",
+    "answer": "Tábor",
+    "accept": [
+      "Hradiště hory Tábor"
+    ],
+    "fact": "Podle něj se radikálním husitům říkalo táborité. Pod městem vede síť středověkých podzemních chodeb.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tábor",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-060",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jakou zkratku nesl československý stát v letech 1960–1990?",
+    "answer": "ČSSR",
+    "accept": [
+      "CSSR"
+    ],
+    "fact": "Po roce 1989 se Češi a Slováci přeli o nový název státu; spor dostal jméno pomlčková válka.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pomlčková_válka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-061",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenuje pravěká soška ženy z pálené hlíny nalezená na jižní Moravě v roce 1925?",
+    "options": [
+      "Willendorfská venuše",
+      "Věstonická venuše",
+      "Mikulovská venuše",
+      "Pavlovská bohyně"
+    ],
+    "answer": "Věstonická venuše",
+    "fact": "Je stará asi 25 až 29 tisíc let a patří k nejstarším keramickým předmětům na světě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Věstonická_venuše",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-062",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Podle kterého keltského kmene dostaly Čechy latinské jméno Bohemia?",
+    "options": [
+      "Podle Helvétů",
+      "Podle Volků",
+      "Podle Bójů",
+      "Podle Galů"
+    ],
+    "answer": "Podle Bójů",
+    "fact": "Latinské Boiohaemum znamenalo „domov Bójů“. Jméno zemi zůstalo, i když Keltové odešli.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bójové",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-063",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo je první historicky doložený přemyslovský kníže?",
+    "options": [
+      "Krok",
+      "Václav",
+      "Bořivoj I.",
+      "Spytihněv I."
+    ],
+    "answer": "Bořivoj I.",
+    "fact": "S manželkou Ludmilou přijal křest. Podle tradice ho pokřtil Metoděj na Velké Moravě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bořivoj_I.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-064",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který kníže založil roku 993 s biskupem Vojtěchem Břevnovský klášter?",
+    "options": [
+      "Boleslav I.",
+      "Boleslav II.",
+      "Oldřich",
+      "Břetislav I."
+    ],
+    "answer": "Boleslav II.",
+    "fact": "Je to nejstarší mužský klášter v Čechách. Dnes v něm sídlí i pivovar.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Břevnovský_klášter",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-065",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který rod nechal Boleslav II. roku 995 vyvraždit na hradišti Libice?",
+    "options": [
+      "Vršovce",
+      "Slavníkovce",
+      "Rožmberky",
+      "Mojmírovce"
+    ],
+    "answer": "Slavníkovce",
+    "fact": "Masakr přežil i biskup Vojtěch, Slavníkovec, který byl tou dobou v Římě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Slavníkovci",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-066",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který Přemyslovec se roku 1085 stal prvním českým králem?",
+    "options": [
+      "Přemysl Otakar I.",
+      "Břetislav I.",
+      "Vladislav I.",
+      "Vratislav II."
+    ],
+    "answer": "Vratislav II.",
+    "fact": "Korunu dostal od císaře Jindřicha IV. jako odměnu za vojenskou pomoc. Byla jen jeho osobní, nebyla dědičná.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Vratislav_II.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-067",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byla matka Karla IV.?",
+    "options": [
+      "Kunhuta Uherská",
+      "Eliška Přemyslovna",
+      "Anežka Česká",
+      "Blanka z Valois"
+    ],
+    "answer": "Eliška Přemyslovna",
+    "fact": "Byla dcerou Václava II. Sňatkem s Janem Lucemburským přivedla na český trůn Lucemburky.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Eliška_Přemyslovna",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-068",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Za vlády kterého krále byl roku 1393 svržen z Karlova mostu Jan Nepomucký?",
+    "options": [
+      "Karla IV.",
+      "Zikmunda",
+      "Václava IV.",
+      "Jana Lucemburského"
+    ],
+    "answer": "Václava IV.",
+    "fact": "Generálního vikáře Jana z Pomuku po mučení svrhli do Vltavy. Za svatého byl prohlášen o víc než tři staletí později, v roce 1729.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Nepomucký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-069",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kterému lucemburskému panovníkovi husité přezdívali „liška ryšavá“?",
+    "options": [
+      "Zikmundovi",
+      "Václavovi IV.",
+      "Janu Lucemburskému",
+      "Albrechtovi II."
+    ],
+    "answer": "Zikmundovi",
+    "fact": "Husité ho vinili z Husovy smrti, protože Husovi dal na cestu do Kostnice ochranný glejt a nedodržel ho.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zikmund_Lucemburský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-070",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který Habsburk přenesl sídlo panovníka z Vídně do Prahy?",
+    "options": [
+      "Ferdinand I.",
+      "Matyáš",
+      "Ferdinand II.",
+      "Rudolf II."
+    ],
+    "answer": "Rudolf II.",
+    "fact": "Rudolf sbíral obrazy, sochy i kuriozity. Jeho kunstkomora na Pražském hradě patřila k největším sbírkám v Evropě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rudolf_II.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-071",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který dvorní astronom Rudolfa II. je pohřben v pražském Týnském chrámu?",
+    "options": [
+      "Johannes Kepler",
+      "Tycho Brahe",
+      "Mikuláš Koperník",
+      "Galileo Galilei"
+    ],
+    "answer": "Tycho Brahe",
+    "fact": "Exhumace v roce 2010 vyvrátila starou domněnku, že ho otrávili rtutí.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tycho_Brahe",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-072",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kterému českému králi se přezdívalo „zimní král“?",
+    "options": [
+      "Ferdinandu II.",
+      "Ladislavu Pohrobkovi",
+      "Fridrichu Falckému",
+      "Matyášovi"
+    ],
+    "answer": "Fridrichu Falckému",
+    "fact": "Na trůně vydržel jen asi rok, od podzimu 1619 do podzimu 1620.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Fridrich_Falcký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-073",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl otcem Marie Terezie?",
+    "options": [
+      "Leopold I.",
+      "Josef I.",
+      "Karel VI.",
+      "František I."
+    ],
+    "answer": "Karel VI.",
+    "fact": "Neměl žijícího syna, a tak Pragmatickou sankcí z roku 1713 zajistil, že habsburské země může zdědit i dcera.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Karel_VI.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-074",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenoval manžel Marie Terezie?",
+    "options": [
+      "Josef II.",
+      "František Štěpán Lotrinský",
+      "Leopold II.",
+      "Karel Lotrinský"
+    ],
+    "answer": "František Štěpán Lotrinský",
+    "fact": "Byl římským císařem, ale o vládě v habsburských zemích rozhodovala Marie Terezie.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/František_I._Štěpán_Lotrinský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-075",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který rakousko-uherský panovník vládl 68 let?",
+    "options": [
+      "Josef II.",
+      "Ferdinand V.",
+      "František Josef I.",
+      "Karel I."
+    ],
+    "answer": "František Josef I.",
+    "fact": "Přežil manželku Alžbětu (Sisi), bratra Maxmiliána i jediného syna Rudolfa.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/František_Josef_I.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-076",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo napsal Dějiny národu českého v Čechách a v Moravě?",
+    "options": [
+      "Josef Pekař",
+      "Josef Jungmann",
+      "Karel Havlíček Borovský",
+      "František Palacký"
+    ],
+    "answer": "František Palacký",
+    "fact": "Palackému se říkalo Otec národa. Jeho portrét je na tisícikorunové bankovce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/František_Palacký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-077",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Po které železnici se čs. legionáři probíjeli z Ruska až do Vladivostoku?",
+    "options": [
+      "Po Transsibiřské magistrále",
+      "Po Bajkalsko-amurské magistrále",
+      "Po Orient expresu",
+      "Po Kavkazské dráze"
+    ],
+    "answer": "Po Transsibiřské magistrále",
+    "fact": "Z Vladivostoku se domů vraceli lodí kolem světa. Poslední transporty dorazily až v roce 1920.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Československé_legie",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-078",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který slovenský astronom a generál spoluzakládal Československo?",
+    "options": [
+      "Andrej Hlinka",
+      "Milan Rastislav Štefánik",
+      "Milan Hodža",
+      "Ľudovít Štúr"
+    ],
+    "answer": "Milan Rastislav Štefánik",
+    "fact": "Zahynul v květnu 1919 při letecké havárii nedaleko Bratislavy, když se vracel domů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Milan_Rastislav_Štefánik",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-079",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl druhým prezidentem Československa?",
+    "options": [
+      "Emil Hácha",
+      "Klement Gottwald",
+      "Antonín Zápotocký",
+      "Edvard Beneš"
+    ],
+    "answer": "Edvard Beneš",
+    "fact": "Předtím byl sedmnáct let nepřetržitě ministrem zahraničí, od roku 1918 do roku 1935.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Edvard_Beneš",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-080",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve které obci je pohřben T. G. Masaryk?",
+    "options": [
+      "V Hodoníně",
+      "V Praze",
+      "V Lánech",
+      "V Topolčiankách"
+    ],
+    "answer": "V Lánech",
+    "fact": "Zámek v Lánech byl jeho letním sídlem. Prezidenti ho jako sídlo používají dodnes.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Lány_(okres_Kladno)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-081",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Armáda kterého státu měla v srpnu 1968 vtrhnout do Československa, ale nakonec až na výjimky zůstala za hranicí?",
+    "options": [
+      "Polska",
+      "Maďarska",
+      "NDR",
+      "Bulharska"
+    ],
+    "answer": "NDR",
+    "fact": "Do země tak vstoupila vojska SSSR, Polska, Maďarska a Bulharska. Rumunsko se invaze neúčastnilo a otevřeně ji odsoudilo.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Invaze_vojsk_Varšavské_smlouvy_do_Československa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-082",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl posledním komunistickým prezidentem Československa?",
+    "options": [
+      "Ludvík Svoboda",
+      "Antonín Novotný",
+      "Gustáv Husák",
+      "Miloš Jakeš"
+    ],
+    "answer": "Gustáv Husák",
+    "fact": "Abdikoval v prosinci 1989, hned poté, co jmenoval vládu národního porozumění.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Gustáv_Husák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-083",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kterou událost z roku 1939 si 17. listopadu připomínáme vedle sametové revoluce?",
+    "options": [
+      "Vznik protektorátu",
+      "Uzavření českých vysokých škol",
+      "Atentát na Hitlera",
+      "Odchod vlády do exilu"
+    ],
+    "answer": "Uzavření českých vysokých škol",
+    "fact": "Nacisté tehdy popravili devět studentských vůdců a přes 1 200 studentů odvlekli do koncentračního tábora Sachsenhausen.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mezinárodní_den_studentstva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-084",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Pro kterého faraona byla postavena Velká pyramida v Gíze?",
+    "options": [
+      "Ramesse II.",
+      "Tutanchamona",
+      "Chufua",
+      "Achnatona"
+    ],
+    "answer": "Chufua",
+    "fact": "Podle odhadů ji tvoří asi 2,3 milionu kamenných bloků.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Chufuova_pyramida",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-085",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který babylonský král dal vytesat do kamene jeden z nejstarších zákoníků?",
+    "options": [
+      "Nabukadnezar II.",
+      "Chammurapi",
+      "Sargon",
+      "Kýros"
+    ],
+    "answer": "Chammurapi",
+    "fact": "Zákoník je vytesaný na více než dvoumetrové stéle z černého kamene. Dnes je v pařížském Louvru.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Chammurapiho_zákoník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-086",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl zavražděn o březnových idách roku 44 př. n. l.?",
+    "options": [
+      "Augustus",
+      "Nero",
+      "Pompeius",
+      "Julius Caesar"
+    ],
+    "answer": "Julius Caesar",
+    "fact": "Spiklenců bylo kolem šedesáti. Podle Suetonia ho zasáhli 23 ranami.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Gaius_Julius_Caesar",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-087",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který vojevůdce v roce 218 př. n. l. překročil se slony Alpy?",
+    "options": [
+      "Hannibal",
+      "Alexandr Veliký",
+      "Scipio",
+      "Attila"
+    ],
+    "answer": "Hannibal",
+    "fact": "Kartaginci táhli do Itálie ze Španělska. Přechod přes zasněžené Alpy stál Hannibala velkou část vojska i zvířat.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hannibal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-088",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl o Vánocích roku 800 v Římě korunován císařem?",
+    "options": [
+      "Ota I. Veliký",
+      "Konstantin Veliký",
+      "Karel Veliký",
+      "Justinián I."
+    ],
+    "answer": "Karel Veliký",
+    "fact": "Korunoval ho papež Lev III. Podle Karla se v mnoha slovanských jazycích jmenuje král: král, kral, król.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Karel_Veliký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-089",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenuje listina, kterou roku 1215 musel podepsat anglický král Jan Bezzemek?",
+    "options": [
+      "Zlatá bula",
+      "Bill of Rights",
+      "Habeas corpus",
+      "Magna charta"
+    ],
+    "answer": "Magna charta",
+    "fact": "Omezila moc krále vůči šlechtě. Z roku 1215 se dochovaly čtyři originály.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Magna_charta_libertatum",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-090",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se říká epidemii moru, která v polovině 14. století zabila asi třetinu Evropanů?",
+    "options": [
+      "Španělská chřipka",
+      "Černá smrt",
+      "Bílá smrt",
+      "Asijská nákaza"
+    ],
+    "answer": "Černá smrt",
+    "fact": "Mor šířily blechy, které žily na krysách a cestovaly s nimi na obchodních lodích.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Černá_smrt",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-091",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byla francouzská hrdinka, kterou Angličané roku 1431 upálili v Rouenu?",
+    "options": [
+      "Kateřina Medicejská",
+      "Marie Antoinetta",
+      "Johanka z Arku",
+      "Eleonora Akvitánská"
+    ],
+    "answer": "Johanka z Arku",
+    "fact": "O 25 let později ji církevní soud očistil. Za svatou byla prohlášena v roce 1920.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Johanka_z_Arku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-092",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Podle koho dostala jméno Amerika?",
+    "options": [
+      "Podle Kryštofa Kolumba",
+      "Podle Johna Cabota",
+      "Podle Ameriga Vespucciho",
+      "Podle Vasca da Gamy"
+    ],
+    "answer": "Podle Ameriga Vespucciho",
+    "fact": "Jméno poprvé použil německý kartograf Martin Waldseemüller na mapě světa z roku 1507.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Amerigo_Vespucci",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-093",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Které město dobyli Osmané v roce 1453?",
+    "options": [
+      "Vídeň",
+      "Athény",
+      "Bělehrad",
+      "Konstantinopol"
+    ],
+    "answer": "Konstantinopol",
+    "fact": "Poslední byzantský císař Konstantin XI. padl při obraně městských hradeb.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pád_Konstantinopole",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-094",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo roku 1517 zveřejnil 95 tezí proti prodeji odpustků?",
+    "options": [
+      "Martin Luther",
+      "Jan Kalvín",
+      "Ulrich Zwingli",
+      "Erasmus Rotterdamský"
+    ],
+    "answer": "Martin Luther",
+    "fact": "Luther později přeložil Bibli do němčiny. Jeho překlad zásadně ovlivnil podobu spisovné němčiny.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Martin_Luther",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-095",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který anglický král měl šest manželek?",
+    "options": [
+      "Richard III.",
+      "Jindřich VIII.",
+      "Eduard VI.",
+      "Karel I."
+    ],
+    "answer": "Jindřich VIII.",
+    "fact": "Dvě z nich, Annu Boleynovou a Kateřinu Howardovou, nechal popravit.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jindřich_VIII.",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-096",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl prvním prezidentem USA?",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "answer": "George Washington",
+    "fact": "Je jediným americkým prezidentem, který nebyl členem žádné politické strany.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/George_Washington",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-097",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo v roce 1877 vynalezl fonograf, první přístroj, který uměl zvuk nahrát a přehrát?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Alva Edison",
+      "Emil Berliner",
+      "Nikola Tesla"
+    ],
+    "answer": "Thomas Alva Edison",
+    "fact": "První větou, kterou Edison nahrál, byla dětská říkanka Mary Had a Little Lamb.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Fonograf",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-098",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenovala loď, která v roce 1620 dovezla z Anglie do Ameriky Otce poutníky?",
+    "options": [
+      "Santa María",
+      "Endeavour",
+      "Mayflower",
+      "Victoria"
+    ],
+    "answer": "Mayflower",
+    "fact": "Plula se 102 cestujícími a místo k ústí Hudsonu doplula k mysu Cod v dnešním Massachusetts.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mayflower",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-099",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo roku 1894 založil ve Zlíně obuvnickou firmu, která se stala jednou z největších na světě?",
+    "options": [
+      "Tomáš Baťa",
+      "Emil Škoda",
+      "Václav Klement",
+      "Ignác Šustala"
+    ],
+    "answer": "Tomáš Baťa",
+    "fact": "Firmu založil se sourozenci Antonínem a Annou. Sám zahynul v roce 1932, když jeho letadlo startovalo v mlze z letiště v Otrokovicích.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tomáš_Baťa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-100",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo v 18. století zásadně zdokonalil parní stroj?",
+    "options": [
+      "George Stephenson",
+      "Robert Fulton",
+      "James Watt",
+      "Isaac Newton"
+    ],
+    "answer": "James Watt",
+    "fact": "Podle něj se jmenuje jednotka výkonu watt.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/James_Watt",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-101",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který šlechtický rod vymřel roku 1611 smrtí Petra Voka?",
+    "options": [
+      "Páni z Hradce",
+      "Lobkovicové",
+      "Šternberkové",
+      "Rožmberkové"
+    ],
+    "answer": "Rožmberkové",
+    "fact": "Petr Vok zemřel bez potomků. Rožmberské panství s Třeboní a Českým Krumlovem připadlo Švamberkům.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rožmberkové",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-102",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo roku 1869 koupil strojírnu v Plzni a vybudoval z ní velký průmyslový podnik?",
+    "options": [
+      "Tomáš Baťa",
+      "Emil Škoda",
+      "Ringhoffer",
+      "Václav Laurin"
+    ],
+    "answer": "Emil Škoda",
+    "fact": "Strojírnu koupil od hraběte Valdštejna. Za první světové války z ní byla největší zbrojovka monarchie.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Emil_Škoda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-103",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenuje nejstarší česky psaná veršovaná kronika ze 14. století?",
+    "options": [
+      "Kosmova kronika",
+      "Dalimilova kronika",
+      "Kronika trojánská",
+      "Pulkavova kronika"
+    ],
+    "answer": "Dalimilova kronika",
+    "fact": "Autor je neznámý. Jméno Dalimil kronice omylem přiřkl až v 16. století Václav Hájek z Libočan.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Dalimilova_kronika",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-104",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který český a uherský král zahynul roku 1526 po bitvě u Moháče?",
+    "options": [
+      "Vladislav Jagellonský",
+      "Ludvík Jagellonský",
+      "Matyáš Korvín",
+      "Ladislav Pohrobek"
+    ],
+    "answer": "Ludvík Jagellonský",
+    "fact": "Po jeho smrti zvolili čeští stavové králem Ferdinanda I. Habsburského. Habsburkové pak v Čechách vládli až do roku 1918.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Ludvík_Jagellonský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-105",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce skončila třicetiletá válka?",
+    "answer": 1648,
+    "unit": "rok",
+    "fact": "Poslední boje se odehrály v Praze na Karlově mostě, kde studenti a měšťané bránili Staré Město proti Švédům.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Třicetiletá_válka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-106",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce byla v českých zemích zrušena robota?",
+    "answer": 1848,
+    "unit": "rok",
+    "fact": "Návrh podal ve vídeňském sněmu slezský poslanec Hans Kudlich. Sedláci mu pak říkali osvoboditel.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Robota",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-107",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce krátce po otevření vyhořelo Národní divadlo?",
+    "answer": 1881,
+    "unit": "rok",
+    "fact": "Sbírka na jeho obnovu vynesla za 47 dní milion zlatých. Znovu se otevíralo v roce 1883.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Národní_divadlo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-108",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce proběhla v Československu měnová reforma, která lidem znehodnotila úspory?",
+    "answer": 1953,
+    "unit": "rok",
+    "fact": "V Plzni proti ní vyšly do ulic tisíce dělníků ze Škodovky a na čas obsadily radnici.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Měnová_reforma_1953",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-109",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce zanikla Západořímská říše?",
+    "answer": 476,
+    "unit": "rok",
+    "fact": "Posledního císaře, chlapce Romula Augustula, sesadil germánský vojevůdce Odoakar.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Západořímská_říše",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-110",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce se odehrála bitva u Hastingsu?",
+    "answer": 1066,
+    "unit": "rok",
+    "fact": "Normanské dobytí Anglie zachycuje asi 70 metrů dlouhá vyšívaná tapisérie z Bayeux.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bitva_u_Hastingsu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-111",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "V jakém roce byla přijata Deklarace nezávislosti Spojených států?",
+    "answer": 1776,
+    "unit": "rok",
+    "fact": "Dva z jejích autorů, Thomas Jefferson a John Adams, zemřeli přesně o 50 let později, oba 4. července 1826.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Deklarace_nezávislosti_Spojených_států_amerických",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-112",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "estimate",
+    "text": "Kolik let trvala stoletá válka mezi Anglií a Francií?",
+    "answer": 116,
+    "unit": "let",
+    "fact": "Šlo o řadu válek z let 1337–1453, přerušovanou dlouhými příměřími.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Stoletá_válka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-113",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenoval franský kupec, který v 7. století vládl první známé slovanské říši?",
+    "answer": "Sámo",
+    "accept": [
+      "Samo",
+      "kupec Sámo"
+    ],
+    "fact": "Podle Fredegarovy kroniky měl dvanáct slovanských manželek, 22 synů a 15 dcer.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Sámo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-114",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenovala babička svatého Václava, zavražděná na Tetíně?",
+    "answer": "Ludmila",
+    "accept": [
+      "svatá Ludmila",
+      "Ludmila Česká"
+    ],
+    "fact": "Je první českou světicí. Podle legendy ji vrahové poslaní snachou Drahomírou uškrtili jejím vlastním závojem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Svatá_Ludmila",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-115",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Kterou obec u Kladna vyhladili nacisté v červnu 1942?",
+    "answer": "Lidice",
+    "accept": [
+      "Lidicích"
+    ],
+    "fact": "Po válce vznikla v Británii kampaň „Lidice shall live“. Po obci se pak pojmenovala místa v desítkách zemí světa.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Lidice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-116",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Které město zasypal sopečný popel při výbuchu Vesuvu roku 79?",
+    "answer": "Pompeje",
+    "accept": [
+      "Pompeii",
+      "Pompeje a Herculaneum"
+    ],
+    "fact": "Archeologové vyplnili dutiny po tělech v popelu sádrou. Tak vznikly odlitky lidí v poloze, v jaké je zastihla smrt.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pompeje",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-117",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Na kterém ostrově zemřel Napoleon Bonaparte?",
+    "answer": "Svatá Helena",
+    "accept": [
+      "Svaté Heleně",
+      "Saint Helena"
+    ],
+    "fact": "Ostrov leží v Atlantiku, skoro 2 000 km od Afriky. Z prvního vyhnanství na Elbě Napoleon utekl, odsud už ne.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Svatá_Helena",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-118",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Které velké české město osvobodila v květnu 1945 americká armáda?",
+    "answer": "Plzeň",
+    "accept": [
+      "Plzni"
+    ],
+    "fact": "Plzeň to každý rok slaví Slavnostmi svobody s přehlídkou historických vojenských vozidel.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Osvobození_Československa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-119",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Ve kterém městě byl v červnu 1914 zastřelen následník trůnu František Ferdinand d’Este?",
+    "answer": "Sarajevo",
+    "accept": [
+      "Sarajevu"
+    ],
+    "fact": "Následník žil na zámku Konopiště u Benešova, kde je dnes jeho sbírka loveckých trofejí.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Atentát_v_Sarajevu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-dejiny-120",
+    "level": "hospoda",
+    "theme": "dejiny",
+    "type": "open",
+    "text": "Jak se jmenoval kůň Alexandra Velikého?",
+    "answer": "Bukefalos",
+    "accept": [
+      "Bukefal",
+      "Bucephalus",
+      "Búkefalás"
+    ],
+    "fact": "Podle Plútarcha ho Alexandr zkrotil jako chlapec. Všiml si, že se kůň bojí vlastního stínu, a otočil ho proti slunci.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bukefalos",
+    "status": "verified"
   }
 ]

@@ -5,7 +5,8 @@
   FORCE=1 python3 tools/gen-batch.py --only hero         # přegenerovat
 
 Skládání promptu podle `kind`: sheet/scene = style + prompt + notext,
-grid = grid + magenta + style + prompt + notext (2×2 na purpurové, rozřeže tools/process.py).
+grid = grid + magenta + style [+ pics] + prompt + notext (2×2 na purpurové, rozřeže tools/process.py).
+`pics: true` přidá zadání pro obrázkový slovník předškoláků, `ref_kind: "style"` bere refs jen jako stylovou předlohu.
 Úlohy s `refs` počkají, až referenční soubor existuje.
 """
 import argparse, json, os, subprocess, time
@@ -19,7 +20,10 @@ def build(cfg, j):
     parts = []
     if j["kind"] == "grid":
         parts += [cfg["grid"], cfg["magenta"]]
-    parts += [cfg["style"], j["prompt"], cfg["notext"]]
+    parts += [cfg["style"]]
+    if j.get("pics"):
+        parts.append(cfg["pics"])
+    parts += [j["prompt"], cfg["notext"]]
     return "\n".join(parts)
 
 def run(cfg, j):
@@ -31,8 +35,9 @@ def run(cfg, j):
         if all(r.exists() for r in refs): break
         time.sleep(10)
     t = time.time()
+    env = dict(os.environ, REF_KIND=j.get("ref_kind", "model"))
     r = subprocess.run([str(GEN), str(out), build(cfg, j)] + [str(p) for p in refs],
-                       text=True, capture_output=True)
+                       text=True, capture_output=True, env=env)
     return f"{(r.stdout or r.stderr).strip()} ({int(time.time()-t)} s)"
 
 if __name__ == "__main__":

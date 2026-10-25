@@ -147,9 +147,9 @@ describe('ws server', () => {
 describe('questions-fs', () => {
   it('loads only verified questions like the Vite loader', () => {
     const qs = loadQuestionsFromDir(join(import.meta.dirname, '..', 'fixtures', 'questions'));
-    expect(qs).toHaveLength(20);
+    expect(qs).toHaveLength(31);
     expect(qs.every((q) => q.status === 'verified')).toBe(true);
-    expect(loadQuestionsFromDir(join(import.meta.dirname, '..', 'fixtures', 'questions'), { includeDraft: true })).toHaveLength(21);
+    expect(loadQuestionsFromDir(join(import.meta.dirname, '..', 'fixtures', 'questions'), { includeDraft: true })).toHaveLength(32);
   });
 
   it('returns nothing for a missing directory', () => {

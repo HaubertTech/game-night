@@ -7,12 +7,12 @@ const source = import.meta.glob('./fixtures/questions/**/*.json', { eager: true,
 describe('questions loader', () => {
   it('returns only verified questions by default', () => {
     const qs = loadQuestions({}, source);
-    expect(qs.length).toBe(20);
+    expect(qs.length).toBe(31);
     expect(qs.every((q) => q.status === 'verified')).toBe(true);
   });
 
   it('includes drafts on request', () => {
-    expect(loadQuestions({ includeDraft: true }, source).length).toBe(21);
+    expect(loadQuestions({ includeDraft: true }, source).length).toBe(32);
   });
 
   it('survives an empty or malformed dataset', () => {

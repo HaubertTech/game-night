@@ -1,21 +1,21 @@
 [
   {
-    "id": "piskoviste-cisla-logika-001",
     "level": "piskoviste",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Kolik je tu jablíček?",
+    "text": "Která barva přijde v řadě dál?",
     "options": [
-      "5️⃣ Pět",
-      "2️⃣ Dvě",
-      "3️⃣ Tři"
+      "🔵 Modrá",
+      "🔴 Červená",
+      "🟡 Žlutá"
     ],
-    "answer": "3️⃣ Tři",
-    "fact": "Tři jablíčka spočítáme na třech prstech.",
-    "difficulty": 1,
-    "image": "🍎🍎🍎",
+    "answer": "🔴 Červená",
+    "fact": "Barvám, které se opakují, říkáme vzor. Najdeme ho třeba na pruhovaném tričku.",
+    "difficulty": 2,
+    "image": "🔴🔵🔴🔵❓",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-001"
   },
   {
     "id": "piskoviste-cisla-logika-002",
@@ -36,39 +36,40 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-cisla-logika-003",
     "level": "piskoviste",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Jaký tvar má kolo od auta?",
+    "text": "Co přijde v řadě po hvězdičce?",
     "options": [
-      "⚪ Kruh",
-      "🔺 Trojúhelník",
-      "🟥 Čtverec"
+      "⭐ Hvězdička",
+      "☀️ Slunce",
+      "🌙 Měsíc"
     ],
-    "answer": "⚪ Kruh",
-    "fact": "Kulaté je i sluníčko nebo talíř.",
-    "difficulty": 1,
-    "image": "🛞",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🌙 Měsíc",
+    "fact": "Měsíc sám nesvítí, odráží světlo Slunce.",
+    "difficulty": 2,
+    "image": "⭐🌙⭐🌙⭐❓",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-003"
   },
   {
-    "id": "piskoviste-cisla-logika-004",
     "level": "piskoviste",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Kdo je větší?",
+    "text": "Kolik je tu kytiček?",
     "options": [
-      "🐭 Myška",
-      "🐘 Slon"
+      "8️⃣ Osm",
+      "7️⃣ Sedm",
+      "9️⃣ Devět"
     ],
-    "answer": "🐘 Slon",
-    "fact": "Slon je největší zvíře, které chodí po souši.",
-    "difficulty": 1,
-    "image": "⚖️",
+    "answer": "8️⃣ Osm",
+    "fact": "Osm nožiček má pavouk.",
+    "difficulty": 3,
+    "image": "🌷🌷🌷🌷🌷🌷🌷🌷",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-004"
   },
   {
     "id": "piskoviste-cisla-logika-005",
@@ -89,22 +90,22 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-cisla-logika-006",
     "level": "piskoviste",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Kolik je tu hvězdiček?",
+    "text": "Kolik je tu kuřátek?",
     "options": [
-      "1️⃣ Jedna",
-      "3️⃣ Tři",
-      "2️⃣ Dvě"
+      "5️⃣ Pět",
+      "6️⃣ Šest",
+      "7️⃣ Sedm"
     ],
-    "answer": "2️⃣ Dvě",
-    "fact": "Hvězdy na nebi uvidíme hlavně v noci.",
-    "difficulty": 1,
-    "image": "⭐⭐",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "6️⃣ Šest",
+    "fact": "Kuřátko se z vajíčka vylíhne asi za tři týdny.",
+    "difficulty": 2,
+    "image": "🐥🐥🐥🐥🐥🐥",
+    "source": "https://cs.wikipedia.org/wiki/Kur_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-006"
   },
   {
     "id": "piskoviste-cisla-logika-007",
@@ -204,12 +205,612 @@
     "text": "Co přijde po noci?",
     "options": [
       "🌙 Večer",
+      "🌃 Půlnoc",
       "☀️ Ráno"
     ],
     "answer": "☀️ Ráno",
     "fact": "Ráno vstáváme a snídáme.",
     "difficulty": 2,
     "image": "🛏️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Je víc pejsků, nebo koček?",
+    "options": [
+      "🐱 Koček",
+      "🐶 Pejsků",
+      "🟰 Stejně"
+    ],
+    "answer": "🐱 Koček",
+    "fact": "Kočky prospí většinu dne.",
+    "difficulty": 2,
+    "image": "🐶🐶🐱🐱🐱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Je víc aut, nebo autobusů?",
+    "options": [
+      "🚗 Aut",
+      "🟰 Stejně",
+      "🚌 Autobusů"
+    ],
+    "answer": "🟰 Stejně",
+    "fact": "Do autobusu se vejde mnohem víc lidí než do auta.",
+    "difficulty": 3,
+    "image": "🚗🚗🚗🚌🚌🚌",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který tvar sem nepatří?",
+    "options": [
+      "🔺 Trojúhelník",
+      "🟥 Čtverec",
+      "⚪ Kolečko"
+    ],
+    "answer": "⚪ Kolečko",
+    "fact": "Kolečko jako jediné nemá žádné rohy.",
+    "difficulty": 2,
+    "image": "🔺🔺⚪🔺",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co je nejlehčí?",
+    "options": [
+      "🪨 Kámen",
+      "🪶 Pírko",
+      "🧱 Cihla"
+    ],
+    "answer": "🪶 Pírko",
+    "fact": "Pírko je tak lehké, že ho odfoukne i malý dech.",
+    "difficulty": 2,
+    "image": "⚖️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-017"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Tři sušenky a jedna navíc. Kolik jich je?",
+    "options": [
+      "3️⃣ Tři",
+      "5️⃣ Pět",
+      "4️⃣ Čtyři"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Na prstech jedné ruky spočítáme až do pěti.",
+    "difficulty": 2,
+    "image": "🍪🍪🍪➕🍪",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Bylo pět balonků a jeden uletěl. Kolik zbylo?",
+    "options": [
+      "4️⃣ Čtyři",
+      "3️⃣ Tři",
+      "5️⃣ Pět"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Balonky naplněné plynem héliem samy letí nahoru.",
+    "difficulty": 3,
+    "image": "🎈🎈🎈🎈🎈",
+    "source": "https://cs.wikipedia.org/wiki/Helium",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo přijde po trojce?",
+    "options": [
+      "5️⃣ Pět",
+      "4️⃣ Čtyři",
+      "2️⃣ Dvě"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Po čtyřce přijde pětka. Tolik prstů máme na jedné ruce.",
+    "difficulty": 2,
+    "image": "1️⃣2️⃣3️⃣❓",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kdo je nejdelší?",
+    "options": [
+      "🐜 Mravenec",
+      "🐞 Beruška",
+      "🐍 Had"
+    ],
+    "answer": "🐍 Had",
+    "fact": "Had nemá nožičky, plazí se po bříšku.",
+    "difficulty": 1,
+    "image": "📏",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik kol má auto?",
+    "options": [
+      "4️⃣ Čtyři",
+      "2️⃣ Dvě",
+      "3️⃣ Tři"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Mnoho aut vozí v kufru ještě náhradní kolo.",
+    "difficulty": 2,
+    "image": "🚗",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik ponožek je v jednom páru?",
+    "options": [
+      "1️⃣ Jedna",
+      "2️⃣ Dvě",
+      "3️⃣ Tři"
+    ],
+    "answer": "2️⃣ Dvě",
+    "fact": "Pár jsou dvě věci, které patří k sobě, třeba boty nebo rukavice.",
+    "difficulty": 2,
+    "image": "🧦",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik nožiček má beruška?",
+    "options": [
+      "4️⃣ Čtyři",
+      "8️⃣ Osm",
+      "6️⃣ Šest"
+    ],
+    "answer": "6️⃣ Šest",
+    "fact": "Šest nožiček má každý brouček, včelka i motýl.",
+    "difficulty": 3,
+    "image": "🐞",
+    "source": "https://cs.wikipedia.org/wiki/Hmyz",
+    "status": "verified",
+    "id": "piskoviste-cisla-logika-024"
+  },
+  {
+    "id": "piskoviste-cisla-logika-025",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je tu hvězdiček?",
+    "options": [
+      "8️⃣ Osm",
+      "🔟 Deset",
+      "9️⃣ Devět"
+    ],
+    "answer": "9️⃣ Devět",
+    "fact": "Za jasné noci vidíme na nebi tisíce hvězd.",
+    "difficulty": 3,
+    "image": "⭐⭐⭐⭐⭐⭐⭐⭐⭐",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-026",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je tu jablíček?",
+    "options": [
+      "🔟 Deset",
+      "9️⃣ Devět",
+      "7️⃣ Sedm"
+    ],
+    "answer": "🔟 Deset",
+    "fact": "Deset je o jedno víc než devět.",
+    "difficulty": 3,
+    "image": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-027",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Je víc mrkví, nebo jablek?",
+    "options": [
+      "🍎 Jablek",
+      "🥕 Mrkví",
+      "🟰 Stejně"
+    ],
+    "answer": "🥕 Mrkví",
+    "fact": "Když počítáme, ukážeme si prstem na každou věc jen jednou.",
+    "difficulty": 2,
+    "image": "🥕🥕🥕🥕🍎🍎🍎",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-028",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Je méně rybiček, nebo žabek?",
+    "options": [
+      "🐟 Rybiček",
+      "🟰 Stejně",
+      "🐸 Žabek"
+    ],
+    "answer": "🐸 Žabek",
+    "fact": "Ze žabích vajíček se líhnou pulci.",
+    "difficulty": 2,
+    "image": "🐟🐟🐟🐟🐸🐸",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-029",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co bude v řadě dál?",
+    "options": [
+      "⚪ Kolečko",
+      "🔺 Trojúhelník",
+      "🟥 Čtverec"
+    ],
+    "answer": "⚪ Kolečko",
+    "fact": "Vzory najdeme na tričkách, dlaždičkách i na plotě.",
+    "difficulty": 3,
+    "image": "🔺🔺⚪🔺🔺⚪🔺🔺❓",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-030",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které zvířátko bude v řadě dál?",
+    "options": [
+      "🐭 Myška",
+      "🐱 Kočička",
+      "🐶 Pejsek"
+    ],
+    "answer": "🐱 Kočička",
+    "fact": "Kočky prospí velkou část dne.",
+    "difficulty": 3,
+    "image": "🐶🐱🐭🐶🐱🐭🐶❓",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-031",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Která barva bude v řadě dál?",
+    "options": [
+      "🔵 Modrá",
+      "🔴 Červená",
+      "🟡 Žlutá"
+    ],
+    "answer": "🟡 Žlutá",
+    "fact": "Žlutá je barva sluníčka a pampelišek.",
+    "difficulty": 3,
+    "image": "🟡🟡🔵🟡🟡🔵🟡❓",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-032",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo chybí?",
+    "options": [
+      "3️⃣ Tři",
+      "6️⃣ Šest",
+      "1️⃣ Jedna"
+    ],
+    "answer": "3️⃣ Tři",
+    "fact": "Když počítáme od jedné do pěti, napočítáme prsty na jedné ruce.",
+    "difficulty": 2,
+    "image": "1️⃣2️⃣❓4️⃣5️⃣",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-033",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo přijde po sedmičce?",
+    "options": [
+      "9️⃣ Devět",
+      "8️⃣ Osm",
+      "6️⃣ Šest"
+    ],
+    "answer": "8️⃣ Osm",
+    "fact": "Chobotnice má osm chapadel.",
+    "difficulty": 3,
+    "image": "5️⃣6️⃣7️⃣❓",
+    "source": "https://cs.wikipedia.org/wiki/Chobotnice",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-034",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které zvířátko sem nepatří?",
+    "options": [
+      "🐷 Prasátko",
+      "🐑 Ovečka",
+      "🦁 Lev"
+    ],
+    "answer": "🦁 Lev",
+    "fact": "Na statku žijí zvířata, o která se stará zemědělec.",
+    "difficulty": 2,
+    "image": "🐄🐷🐑🦁",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-035",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Která věc sem nepatří?",
+    "options": [
+      "🚗 Auto",
+      "✈️ Letadlo",
+      "🎈 Balonek"
+    ],
+    "answer": "🚗 Auto",
+    "fact": "Letadlo, vrtulník i balonek se vznesou do vzduchu.",
+    "difficulty": 3,
+    "image": "✈️🚁🎈🚗",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-036",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik oušek mají dva zajíčci?",
+    "options": [
+      "2️⃣ Dvě",
+      "4️⃣ Čtyři",
+      "6️⃣ Šest"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Zajíc umí každým uchem otočit jiným směrem.",
+    "difficulty": 3,
+    "image": "🐰🐰",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-037",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kde je modrý čtverec?",
+    "options": [
+      "🔵 Modré kolečko",
+      "🟥 Červený čtverec",
+      "🟦 Modrý čtverec",
+      "🟩 Zelený čtverec"
+    ],
+    "answer": "🟦 Modrý čtverec",
+    "fact": "Okna mívají tvar čtverce nebo obdélníku.",
+    "difficulty": 2,
+    "image": "🎨",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-038",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kde je červené kolečko?",
+    "options": [
+      "🔴 Červené kolečko",
+      "🟥 Červený čtverec",
+      "🟠 Oranžové kolečko",
+      "🔺 Červený trojúhelník"
+    ],
+    "answer": "🔴 Červené kolečko",
+    "fact": "Kolečko nemá žádné rohy.",
+    "difficulty": 2,
+    "image": "🎨",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-039",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kde je zelený čtverec?",
+    "options": [
+      "🟢 Zelené kolečko",
+      "🟩 Zelený čtverec",
+      "🟦 Modrý čtverec",
+      "🟨 Žlutý čtverec"
+    ],
+    "answer": "🟩 Zelený čtverec",
+    "fact": "Zelená je barva trávy a listí.",
+    "difficulty": 2,
+    "image": "🎨",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-040",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Dvě kuřátka a přiběhla tři. Kolik jich je?",
+    "options": [
+      "4️⃣ Čtyři",
+      "6️⃣ Šest",
+      "5️⃣ Pět"
+    ],
+    "answer": "5️⃣ Pět",
+    "fact": "Kuřátka běhají za slepičkou v hloučku.",
+    "difficulty": 3,
+    "image": "🐥🐥➕🐥🐥🐥",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-041",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Bylo šest jahod a dvě jsme snědli. Kolik zbylo?",
+    "options": [
+      "4️⃣ Čtyři",
+      "3️⃣ Tři",
+      "5️⃣ Pět"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Jahody se u nás sbírají hlavně v červnu.",
+    "difficulty": 3,
+    "image": "🍓🍓🍓🍓🍓🍓",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-042",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co je nejtěžší?",
+    "options": [
+      "🐱 Kočka",
+      "🐘 Slon",
+      "🐰 Králík",
+      "🐭 Myš"
+    ],
+    "answer": "🐘 Slon",
+    "fact": "Dospělý slon váží víc než tři auta.",
+    "difficulty": 1,
+    "image": "⚖️",
+    "source": "https://cs.wikipedia.org/wiki/Slon_africk%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-043",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co je nejrychlejší?",
+    "options": [
+      "🚲 Kolo",
+      "🐢 Želva",
+      "✈️ Letadlo",
+      "🚶 Chodec"
+    ],
+    "answer": "✈️ Letadlo",
+    "fact": "Letadlo doletí za pár hodin do daleké země.",
+    "difficulty": 2,
+    "image": "🏁",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-044",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik prstíků mají dvě ruce?",
+    "options": [
+      "🔟 Deset",
+      "5️⃣ Pět",
+      "8️⃣ Osm"
+    ],
+    "answer": "🔟 Deset",
+    "fact": "Na nohou máme také deset prstů.",
+    "difficulty": 2,
+    "image": "✋✋",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-045",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co si obujeme dřív?",
+    "options": [
+      "👟 Boty",
+      "🧦 Ponožky",
+      "👢 Holínky"
+    ],
+    "answer": "🧦 Ponožky",
+    "fact": "Ponožky chrání nožičky, aby je boty neodřely.",
+    "difficulty": 2,
+    "image": "🦶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cisla-logika-046",
+    "level": "piskoviste",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které z těch čísel je největší?",
+    "options": [
+      "2️⃣ Dvě",
+      "5️⃣ Pět",
+      "9️⃣ Devět"
+    ],
+    "answer": "9️⃣ Devět",
+    "fact": "Devítka je největší číslo, které napíšeme jednou číslicí.",
+    "difficulty": 2,
+    "image": "🔢",
     "source": "obecná znalost",
     "status": "verified"
   }

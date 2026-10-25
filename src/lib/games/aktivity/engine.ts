@@ -13,7 +13,9 @@ import type { MatchParticipant, MatchResult } from '../../league/types.ts';
 import { mulberry32, pickIndex, seedFromString, shuffle } from '../../engine/rng.ts';
 import {
   DIFFICULTIES,
+  cardLevelFor,
   modesForLevel,
+  PRESCHOOL_LEVELS,
   type AktivityCard,
   type AktivityMode,
   type Difficulty,
@@ -209,10 +211,11 @@ function buildDeck(
   size: number,
 ): Record<Difficulty, string[]> {
   const modes = modesForLevel(level);
+  const cardLevel = cardLevelFor(level, [...new Set(pool.map((c) => c.level))]);
   const deck = {} as Record<Difficulty, string[]>;
   for (const d of DIFFICULTIES) {
     const rand = mulberry32(seedFromString(`${seed}:${level}:${d}`));
-    const fits = pool.filter((c) => c.level === level && c.difficulty === d && (c.mode === 'any' || modes.includes(c.mode)));
+    const fits = pool.filter((c) => c.level === cardLevel && c.difficulty === d && (c.mode === 'any' || modes.includes(c.mode)));
     const fresh = shuffle(fits.filter((c) => !seen.has(c.id)), rand);
     const old = shuffle(fits.filter((c) => seen.has(c.id)), rand);
     deck[d] = [...fresh, ...old].slice(0, size).map((c) => c.id);
@@ -362,9 +365,9 @@ export { aktivityToMatchResult as toMatchResult };
 
 // ---------- transitions ----------
 
-/** Preschoolers explain with an adult who reads them the word; prefer hospoda, then lavice. */
+/** Preschoolers (and kocarek) explain with an adult who reads them the word; prefer hospoda, then lavice. */
 function helperFor(team: AktivityTeam, explainer: AktivityPlayer): string | null {
-  if (explainer.level !== 'piskoviste') return null;
+  if (!PRESCHOOL_LEVELS.includes(explainer.level)) return null;
   const mates = team.players.filter((p) => p.id !== explainer.id);
   return (mates.find((p) => p.level === 'hospoda') ?? mates.find((p) => p.level === 'lavice'))?.id ?? null;
 }

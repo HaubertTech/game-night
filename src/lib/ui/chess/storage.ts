@@ -2,6 +2,7 @@
 // games waiting for the league. Every access is wrapped — private mode must never break the game.
 
 import type { ChessMatchResult, ChessState } from '../../games/chess/engine.ts';
+import type { Level } from '../../types.ts';
 
 const PREFIX = 'domaci-liga:chess:';
 
@@ -57,7 +58,7 @@ export interface Learner {
   id: string;
   name: string;
   avatar: string;
-  level: 'hospoda' | 'lavice' | 'piskoviste';
+  level: Level;
 }
 
 export const GUEST: Learner = { id: 'host', name: 'Host', avatar: '🦉', level: 'lavice' };

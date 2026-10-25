@@ -1,0 +1,2103 @@
+[
+ {
+  "grid": "animals-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "pes",
+    "alt": "Pes",
+    "emoji": [
+     "🐶",
+     "🐕",
+     "🦮"
+    ],
+    "subject": "a friendly brown-and-white dog standing, side view, tail up"
+   },
+   {
+    "key": "stene",
+    "alt": "Štěně",
+    "emoji": [],
+    "subject": "a small clumsy puppy sitting, big head, floppy ears, clearly a baby dog, same colors as the dog"
+   },
+   {
+    "key": "kocka",
+    "alt": "Kočka",
+    "emoji": [
+     "🐱",
+     "🐈"
+    ],
+    "subject": "a grey tabby cat sitting, side view, long tail curled"
+   },
+   {
+    "key": "kotatko",
+    "alt": "Koťátko",
+    "emoji": [],
+    "subject": "a tiny fluffy kitten, big head and big eyes, clearly a baby cat, same grey tabby colors"
+   }
+  ]
+ },
+ {
+  "grid": "animals-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "krava",
+    "alt": "Kráva",
+    "emoji": [
+     "🐮",
+     "🐄"
+    ],
+    "subject": "a black-and-white spotted dairy cow standing, side view, pink udder, small horns"
+   },
+   {
+    "key": "tele",
+    "alt": "Tele",
+    "emoji": [],
+    "subject": "a small calf with long legs, black-and-white spots, clearly a baby cow"
+   },
+   {
+    "key": "koza",
+    "alt": "Koza",
+    "emoji": [
+     "🐐"
+    ],
+    "subject": "a white goat standing, side view, small horns and a beard"
+   },
+   {
+    "key": "kuzle",
+    "alt": "Kůzle",
+    "emoji": [],
+    "subject": "a tiny white kid goat jumping, no horns, clearly a baby goat"
+   }
+  ]
+ },
+ {
+  "grid": "animals-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "ovce",
+    "alt": "Ovce",
+    "emoji": [
+     "🐑"
+    ],
+    "subject": "a fluffy white sheep with a dark face, standing, side view"
+   },
+   {
+    "key": "jehne",
+    "alt": "Jehně",
+    "emoji": [],
+    "subject": "a tiny fluffy white lamb, clearly a baby sheep"
+   },
+   {
+    "key": "prase",
+    "alt": "Prase",
+    "emoji": [
+     "🐷",
+     "🐖"
+    ],
+    "subject": "a pink pig standing, side view, curly tail, round snout"
+   },
+   {
+    "key": "sele",
+    "alt": "Sele",
+    "emoji": [],
+    "subject": "a tiny pink piglet, clearly a baby pig, curly tail"
+   }
+  ]
+ },
+ {
+  "grid": "animals-4",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "kun",
+    "alt": "Kůň",
+    "emoji": [
+     "🐴",
+     "🐎"
+    ],
+    "subject": "a brown horse with a dark mane standing, side view"
+   },
+   {
+    "key": "hribe",
+    "alt": "Hříbě",
+    "emoji": [],
+    "subject": "a small foal with very long thin legs, same brown, clearly a baby horse"
+   },
+   {
+    "key": "slepice",
+    "alt": "Slepice",
+    "emoji": [
+     "🐔"
+    ],
+    "subject": "a brown hen standing, side view, small red comb"
+   },
+   {
+    "key": "kuratko",
+    "alt": "Kuřátko",
+    "emoji": [
+     "🐥",
+     "🐤",
+     "🐣"
+    ],
+    "subject": "a tiny round fluffy yellow chick"
+   }
+  ]
+ },
+ {
+  "grid": "animals-5",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "kohout",
+    "alt": "Kohout",
+    "emoji": [
+     "🐓"
+    ],
+    "subject": "a proud rooster with a big red comb and colorful long tail feathers, side view"
+   },
+   {
+    "key": "kachna",
+    "alt": "Kachna",
+    "emoji": [
+     "🦆"
+    ],
+    "subject": "a mallard duck standing, side view, green head, yellow beak"
+   },
+   {
+    "key": "husa",
+    "alt": "Husa",
+    "emoji": [
+     "🪿"
+    ],
+    "subject": "a white farm goose standing, long neck, orange beak"
+   },
+   {
+    "key": "zajic",
+    "alt": "Zajíc",
+    "emoji": [
+     "🐰",
+     "🐇"
+    ],
+    "subject": "a brown hare sitting, side view, long upright ears"
+   }
+  ]
+ },
+ {
+  "grid": "animals-6",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "jezek",
+    "alt": "Ježek",
+    "emoji": [
+     "🦔"
+    ],
+    "subject": "a hedgehog, side view, brown spikes, small black nose"
+   },
+   {
+    "key": "liska",
+    "alt": "Liška",
+    "emoji": [
+     "🦊"
+    ],
+    "subject": "a red fox standing, side view, big bushy tail with white tip"
+   },
+   {
+    "key": "medved",
+    "alt": "Medvěd",
+    "emoji": [
+     "🐻"
+    ],
+    "subject": "a brown bear standing on four legs, side view"
+   },
+   {
+    "key": "jelen",
+    "alt": "Jelen",
+    "emoji": [
+     "🦌"
+    ],
+    "subject": "a red deer stag standing, side view, big antlers"
+   }
+  ]
+ },
+ {
+  "grid": "animals-7",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "veverka",
+    "alt": "Veverka",
+    "emoji": [
+     "🐿️",
+     "🐿"
+    ],
+    "subject": "a red squirrel sitting holding a nut, big bushy tail"
+   },
+   {
+    "key": "sova",
+    "alt": "Sova",
+    "emoji": [
+     "🦉"
+    ],
+    "subject": "a brown owl perched, front view, big round eyes, no clothes"
+   },
+   {
+    "key": "zaba",
+    "alt": "Žába",
+    "emoji": [
+     "🐸"
+    ],
+    "subject": "a green frog sitting, front view, big eyes"
+   },
+   {
+    "key": "ryba",
+    "alt": "Ryba",
+    "emoji": [
+     "🐟",
+     "🐠"
+    ],
+    "subject": "a simple fish, side view, fins and tail, slate blue and ochre"
+   }
+  ]
+ },
+ {
+  "grid": "animals-8",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "motyl",
+    "alt": "Motýl",
+    "emoji": [
+     "🦋"
+    ],
+    "subject": "a butterfly seen from above, wings spread, ochre and slate blue pattern"
+   },
+   {
+    "key": "vcela",
+    "alt": "Včela",
+    "emoji": [
+     "🐝"
+    ],
+    "subject": "a round bee, side view, yellow and black stripes, small wings"
+   },
+   {
+    "key": "beruska",
+    "alt": "Beruška",
+    "emoji": [
+     "🐞"
+    ],
+    "subject": "a ladybird seen from above, red with black dots"
+   },
+   {
+    "key": "snek",
+    "alt": "Šnek",
+    "emoji": [
+     "🐌"
+    ],
+    "subject": "a snail, side view, spiral shell, two eye stalks"
+   }
+  ]
+ },
+ {
+  "grid": "animals-9",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "slon",
+    "alt": "Slon",
+    "emoji": [
+     "🐘"
+    ],
+    "subject": "a grey elephant standing, side view, trunk and big ears"
+   },
+   {
+    "key": "zirafa",
+    "alt": "Žirafa",
+    "emoji": [
+     "🦒"
+    ],
+    "subject": "a giraffe standing, side view, very long neck, brown patches"
+   },
+   {
+    "key": "lev",
+    "alt": "Lev",
+    "emoji": [
+     "🦁"
+    ],
+    "subject": "a lion standing, side view, big shaggy mane"
+   },
+   {
+    "key": "opice",
+    "alt": "Opice",
+    "emoji": [
+     "🐒",
+     "🐵"
+    ],
+    "subject": "a brown monkey sitting, front view, long curly tail"
+   }
+  ]
+ },
+ {
+  "grid": "mix-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "zebra",
+    "alt": "Zebra",
+    "emoji": [
+     "🦓"
+    ],
+    "subject": "a zebra standing, side view, black and white stripes"
+   },
+   {
+    "key": "tucnak",
+    "alt": "Tučňák",
+    "emoji": [
+     "🐧"
+    ],
+    "subject": "a penguin standing, front view, black and white, orange feet"
+   },
+   {
+    "key": "balonek",
+    "alt": "Balónek",
+    "emoji": [
+     "🎈"
+    ],
+    "subject": "a single round red balloon on a string"
+   },
+   {
+    "key": "strom",
+    "alt": "Strom",
+    "emoji": [
+     "🌳"
+    ],
+    "subject": "a single round leafy deciduous tree with a brown trunk"
+   }
+  ]
+ },
+ {
+  "grid": "body-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "oko",
+    "alt": "Oko",
+    "emoji": [
+     "👁️",
+     "👁",
+     "👀"
+    ],
+    "subject": "one human eye with eyelashes and an eyebrow, front view"
+   },
+   {
+    "key": "ucho",
+    "alt": "Ucho",
+    "emoji": [
+     "👂"
+    ],
+    "subject": "one human ear, side view, simple"
+   },
+   {
+    "key": "nos",
+    "alt": "Nos",
+    "emoji": [
+     "👃"
+    ],
+    "subject": "one human nose, side view, simple"
+   },
+   {
+    "key": "pusa",
+    "alt": "Pusa",
+    "emoji": [
+     "👄"
+    ],
+    "subject": "a smiling mouth with pink lips, front view"
+   }
+  ]
+ },
+ {
+  "grid": "body-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "ruka",
+    "alt": "Ruka",
+    "emoji": [
+     "✋",
+     "🖐️",
+     "🖐",
+     "👋"
+    ],
+    "subject": "an open child's hand, palm forward, five fingers spread"
+   },
+   {
+    "key": "noha",
+    "alt": "Noha",
+    "emoji": [
+     "🦶",
+     "🦵"
+    ],
+    "subject": "a child's bare foot, side view, five toes"
+   },
+   {
+    "key": "zmrzlina",
+    "alt": "Zmrzlina",
+    "emoji": [
+     "🍦",
+     "🍨"
+    ],
+    "subject": "an ice cream cone with two scoops, pink and cream"
+   },
+   {
+    "key": "hrad",
+    "alt": "Hrad",
+    "emoji": [
+     "🏰"
+    ],
+    "subject": "a small storybook castle with two round towers and a gate"
+   }
+  ]
+ },
+ {
+  "grid": "food-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "jablko",
+    "alt": "Jablko",
+    "emoji": [
+     "🍎",
+     "🍏"
+    ],
+    "subject": "a red apple with a leaf"
+   },
+   {
+    "key": "hruska",
+    "alt": "Hruška",
+    "emoji": [
+     "🍐"
+    ],
+    "subject": "a yellow-green pear with a stalk"
+   },
+   {
+    "key": "banan",
+    "alt": "Banán",
+    "emoji": [
+     "🍌"
+    ],
+    "subject": "a single yellow banana"
+   },
+   {
+    "key": "jahoda",
+    "alt": "Jahoda",
+    "emoji": [
+     "🍓"
+    ],
+    "subject": "a red strawberry with green leaves"
+   }
+  ]
+ },
+ {
+  "grid": "food-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "tresne",
+    "alt": "Třešně",
+    "emoji": [
+     "🍒"
+    ],
+    "subject": "two dark red cherries joined by stalks"
+   },
+   {
+    "key": "hrozny",
+    "alt": "Hrozny",
+    "emoji": [
+     "🍇"
+    ],
+    "subject": "a bunch of green grapes"
+   },
+   {
+    "key": "mrkev",
+    "alt": "Mrkev",
+    "emoji": [
+     "🥕"
+    ],
+    "subject": "an orange carrot with green leaves"
+   },
+   {
+    "key": "rajce",
+    "alt": "Rajče",
+    "emoji": [
+     "🍅"
+    ],
+    "subject": "a round red tomato with a green stalk"
+   }
+  ]
+ },
+ {
+  "grid": "food-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "okurka",
+    "alt": "Okurka",
+    "emoji": [
+     "🥒"
+    ],
+    "subject": "a green cucumber"
+   },
+   {
+    "key": "brambora",
+    "alt": "Brambora",
+    "emoji": [
+     "🥔"
+    ],
+    "subject": "a brown potato"
+   },
+   {
+    "key": "chleb",
+    "alt": "Chléb",
+    "emoji": [
+     "🍞"
+    ],
+    "subject": "a round Czech loaf of bread"
+   },
+   {
+    "key": "rohlik",
+    "alt": "Rohlík",
+    "emoji": [
+     "🥐"
+    ],
+    "subject": "a Czech rohlik, a long crescent-shaped bread roll with poppy seeds"
+   }
+  ]
+ },
+ {
+  "grid": "food-4",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "mleko",
+    "alt": "Mléko",
+    "emoji": [
+     "🥛"
+    ],
+    "subject": "a glass bottle of white milk next to a glass of milk"
+   },
+   {
+    "key": "syr",
+    "alt": "Sýr",
+    "emoji": [
+     "🧀"
+    ],
+    "subject": "a wedge of yellow cheese with holes"
+   },
+   {
+    "key": "vajicko",
+    "alt": "Vajíčko",
+    "emoji": [
+     "🥚"
+    ],
+    "subject": "a white hen's egg, whole"
+   },
+   {
+    "key": "buchta",
+    "alt": "Buchta",
+    "emoji": [],
+    "subject": "a Czech buchta: a square golden baked sweet bun dusted with sugar"
+   }
+  ]
+ },
+ {
+  "grid": "toys-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "mic",
+    "alt": "Míč",
+    "emoji": [],
+    "subject": "a colorful round play ball with stripes"
+   },
+   {
+    "key": "panenka",
+    "alt": "Panenka",
+    "emoji": [
+     "🪆"
+    ],
+    "subject": "a toy doll with braids in a dress, standing"
+   },
+   {
+    "key": "kostky",
+    "alt": "Kostky",
+    "emoji": [],
+    "subject": "a small stack of wooden toy building blocks in different colors, plain faces"
+   },
+   {
+    "key": "auticko",
+    "alt": "Autíčko",
+    "emoji": [],
+    "subject": "a small wooden toy car with round wheels"
+   }
+  ]
+ },
+ {
+  "grid": "toys-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "plysak",
+    "alt": "Plyšák",
+    "emoji": [
+     "🧸"
+    ],
+    "subject": "a plush teddy bear sitting"
+   },
+   {
+    "key": "kolo",
+    "alt": "Kolo",
+    "emoji": [
+     "🚲"
+    ],
+    "subject": "a child's bicycle, side view"
+   },
+   {
+    "key": "kolobezka",
+    "alt": "Koloběžka",
+    "emoji": [
+     "🛴"
+    ],
+    "subject": "a kick scooter, side view"
+   },
+   {
+    "key": "mesic",
+    "alt": "Měsíc",
+    "emoji": [
+     "🌙",
+     "🌛",
+     "🌜"
+    ],
+    "subject": "a yellow crescent moon"
+   }
+  ]
+ },
+ {
+  "grid": "vehicles-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "auto",
+    "alt": "Auto",
+    "emoji": [
+     "🚗",
+     "🚙"
+    ],
+    "subject": "a red family car, side view"
+   },
+   {
+    "key": "autobus",
+    "alt": "Autobus",
+    "emoji": [
+     "🚌",
+     "🚍"
+    ],
+    "subject": "a yellow city bus, side view"
+   },
+   {
+    "key": "vlak",
+    "alt": "Vlak",
+    "emoji": [
+     "🚂",
+     "🚆",
+     "🚃"
+    ],
+    "subject": "an old steam locomotive with one carriage, side view"
+   },
+   {
+    "key": "tramvaj",
+    "alt": "Tramvaj",
+    "emoji": [
+     "🚋",
+     "🚊"
+    ],
+    "subject": "a red-and-cream city tram, side view, pantograph on the roof"
+   }
+  ]
+ },
+ {
+  "grid": "vehicles-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "letadlo",
+    "alt": "Letadlo",
+    "emoji": [
+     "✈️",
+     "✈",
+     "🛩️"
+    ],
+    "subject": "a small propeller airplane flying, side view"
+   },
+   {
+    "key": "lod",
+    "alt": "Loď",
+    "emoji": [
+     "🚢",
+     "⛵"
+    ],
+    "subject": "a sailing boat on a small wave, side view"
+   },
+   {
+    "key": "traktor",
+    "alt": "Traktor",
+    "emoji": [
+     "🚜"
+    ],
+    "subject": "a green farm tractor, side view, big rear wheels"
+   },
+   {
+    "key": "hasicske-auto",
+    "alt": "Hasičské auto",
+    "emoji": [
+     "🚒"
+    ],
+    "subject": "a red fire engine with a ladder, side view"
+   }
+  ]
+ },
+ {
+  "grid": "vehicles-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "sanitka",
+    "alt": "Sanitka",
+    "emoji": [
+     "🚑"
+    ],
+    "subject": "a white ambulance van with a red stripe and a blue light, side view, no cross symbol and no lettering"
+   },
+   {
+    "key": "policejni-auto",
+    "alt": "Policejní auto",
+    "emoji": [
+     "🚓",
+     "🚔"
+    ],
+    "subject": "a white-and-blue police car with a blue light on the roof, side view, no lettering"
+   },
+   {
+    "key": "destnik",
+    "alt": "Deštník",
+    "emoji": [
+     "☂️",
+     "☂",
+     "☔"
+    ],
+    "subject": "an open umbrella with a curved handle"
+   },
+   {
+    "key": "more",
+    "alt": "Moře",
+    "emoji": [
+     "🌊"
+    ],
+    "subject": "a big curling blue sea wave"
+   }
+  ]
+ },
+ {
+  "grid": "jobs-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "hasic",
+    "alt": "Hasič",
+    "emoji": [
+     "🧑‍🚒",
+     "👨‍🚒",
+     "👩‍🚒"
+    ],
+    "subject": "a firefighter in a dark uniform with a helmet holding a hose, full body"
+   },
+   {
+    "key": "lekar",
+    "alt": "Lékař",
+    "emoji": [
+     "🧑‍⚕️",
+     "👨‍⚕️",
+     "👩‍⚕️"
+    ],
+    "subject": "a doctor in a white coat with a stethoscope, full body"
+   },
+   {
+    "key": "kuchar",
+    "alt": "Kuchař",
+    "emoji": [
+     "🧑‍🍳",
+     "👨‍🍳",
+     "👩‍🍳"
+    ],
+    "subject": "a cook in a white chef's hat and apron holding a wooden spoon, full body"
+   },
+   {
+    "key": "zednik",
+    "alt": "Zedník",
+    "emoji": [
+     "👷"
+    ],
+    "subject": "a bricklayer in a yellow hard hat holding a trowel next to a small brick wall, full body"
+   }
+  ]
+ },
+ {
+  "grid": "jobs-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "prodavacka",
+    "alt": "Prodavačka",
+    "emoji": [],
+    "subject": "a shop assistant woman in an apron holding a basket with bread and apples, full body"
+   },
+   {
+    "key": "ucitelka",
+    "alt": "Učitelka",
+    "emoji": [
+     "🧑‍🏫",
+     "👩‍🏫",
+     "👨‍🏫"
+    ],
+    "subject": "a teacher woman with glasses holding a book and pointing at a small blank green chalkboard, full body"
+   },
+   {
+    "key": "slunce",
+    "alt": "Slunce",
+    "emoji": [
+     "☀️",
+     "☀",
+     "🌞"
+    ],
+    "subject": "a round yellow sun with short rays"
+   },
+   {
+    "key": "dest",
+    "alt": "Déšť",
+    "emoji": [
+     "🌧️",
+     "🌧"
+    ],
+    "subject": "a grey cloud with blue raindrops falling"
+   }
+  ]
+ },
+ {
+  "grid": "seasons",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "jaro",
+    "alt": "Jaro",
+    "emoji": [],
+    "subject": "SPRING: a small young tree full of pink blossoms, little flowers in fresh grass at its foot"
+   },
+   {
+    "key": "leto",
+    "alt": "Léto",
+    "emoji": [
+     "🏖️",
+     "🏖"
+    ],
+    "subject": "SUMMER: the SAME small tree, now lush dark green with red apples, bright sun above"
+   },
+   {
+    "key": "podzim",
+    "alt": "Podzim",
+    "emoji": [],
+    "subject": "AUTUMN: the SAME small tree with orange and brown leaves, some leaves falling"
+   },
+   {
+    "key": "zima",
+    "alt": "Zima",
+    "emoji": [],
+    "subject": "WINTER: the SAME small tree, bare branches covered with snow, a small snowman next to it"
+   }
+  ]
+ },
+ {
+  "grid": "weather-shapes",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "snih",
+    "alt": "Sníh",
+    "emoji": [
+     "❄️",
+     "❄",
+     "🌨️"
+    ],
+    "subject": "a large six-pointed white-and-pale-blue snowflake"
+   },
+   {
+    "key": "vitr",
+    "alt": "Vítr",
+    "emoji": [
+     "💨",
+     "🌬️"
+    ],
+    "subject": "a puffy cloud with a face blowing wind: curly wind lines and a few leaves flying"
+   },
+   {
+    "key": "kruh",
+    "alt": "Kruh",
+    "emoji": [],
+    "subject": "a plain flat CIRCLE shape, solid slate blue watercolor fill, ink outline, nothing else"
+   },
+   {
+    "key": "ctverec",
+    "alt": "Čtverec",
+    "emoji": [],
+    "subject": "a plain flat SQUARE shape, solid ochre watercolor fill, ink outline, nothing else"
+   }
+  ]
+ },
+ {
+  "grid": "shapes-colors",
+  "key": "distance",
+  "items": [
+   {
+    "key": "trojuhelnik",
+    "alt": "Trojúhelník",
+    "emoji": [
+     "🔺",
+     "🔼"
+    ],
+    "subject": "a plain flat TRIANGLE shape (equilateral), solid sage green watercolor fill, ink outline, nothing else"
+   },
+   {
+    "key": "hvezda",
+    "alt": "Hvězda",
+    "emoji": [
+     "⭐",
+     "🌟"
+    ],
+    "subject": "a plain flat five-pointed STAR shape, solid mustard yellow watercolor fill, ink outline, nothing else"
+   },
+   {
+    "key": "barva-cervena",
+    "alt": "Červená kostka",
+    "emoji": [
+     "🔴",
+     "🟥"
+    ],
+    "subject": "one plain wooden toy cube painted clearly RED all over, three-quarter view, no letters"
+   },
+   {
+    "key": "barva-zluta",
+    "alt": "Žlutá kostka",
+    "emoji": [
+     "🟡",
+     "🟨"
+    ],
+    "subject": "one plain wooden toy cube painted clearly YELLOW all over, three-quarter view, no letters"
+   }
+  ]
+ },
+ {
+  "grid": "colors",
+  "key": "distance",
+  "items": [
+   {
+    "key": "barva-zelena",
+    "alt": "Zelená kostka",
+    "emoji": [
+     "🟢",
+     "🟩"
+    ],
+    "subject": "one plain wooden toy cube painted clearly GREEN all over, three-quarter view, no letters"
+   },
+   {
+    "key": "barva-modra",
+    "alt": "Modrá kostka",
+    "emoji": [
+     "🔵",
+     "🟦"
+    ],
+    "subject": "one plain wooden toy cube painted clearly BLUE all over, three-quarter view, no letters"
+   },
+   {
+    "key": "barva-oranzova",
+    "alt": "Oranžová kostka",
+    "emoji": [
+     "🟠",
+     "🟧"
+    ],
+    "subject": "one plain wooden toy cube painted clearly ORANGE all over, three-quarter view, no letters"
+   },
+   {
+    "key": "barva-fialova",
+    "alt": "Fialová kostka",
+    "emoji": [
+     "🟣",
+     "🟪"
+    ],
+    "subject": "one plain wooden toy cube painted clearly deep VIOLET (bluish purple, not pink) all over, three-quarter view, no letters"
+   }
+  ]
+ },
+ {
+  "grid": "nature-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "kapka",
+    "alt": "Kapka vody",
+    "emoji": [
+     "💧"
+    ],
+    "subject": "one big single blue water drop, teardrop shape"
+   },
+   {
+    "key": "smrk",
+    "alt": "Smrk",
+    "emoji": [
+     "🌲"
+    ],
+    "subject": "a single dark green spruce tree, tall triangular shape, short brown trunk"
+   },
+   {
+    "key": "led",
+    "alt": "Led",
+    "emoji": [
+     "🧊"
+    ],
+    "subject": "two pale blue translucent ice cubes"
+   },
+   {
+    "key": "ohen",
+    "alt": "Oheň",
+    "emoji": [
+     "🔥"
+    ],
+    "subject": "a small campfire: orange and red flames over three crossed wooden logs"
+   }
+  ]
+ },
+ {
+  "grid": "nature-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "klicek",
+    "alt": "Klíček",
+    "emoji": [
+     "🌱"
+    ],
+    "subject": "a tiny green seedling with two round leaves growing out of a small mound of brown soil"
+   },
+   {
+    "key": "hora",
+    "alt": "Hora",
+    "emoji": [
+     "🏔️",
+     "🏔",
+     "⛰️",
+     "⛰",
+     "🗻"
+    ],
+    "subject": "one big mountain with a white snowy peak"
+   },
+   {
+    "key": "tulipan",
+    "alt": "Tulipán",
+    "emoji": [
+     "🌷"
+    ],
+    "subject": "a single red tulip flower with a green stem and two leaves"
+   },
+   {
+    "key": "kamen",
+    "alt": "Kámen",
+    "emoji": [
+     "🪨"
+    ],
+    "subject": "one big grey rounded stone"
+   }
+  ]
+ },
+ {
+  "grid": "nature-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "klasy",
+    "alt": "Klasy",
+    "emoji": [
+     "🌾"
+    ],
+    "subject": "a small bundle of three golden wheat ears with long stalks"
+   },
+   {
+    "key": "listek",
+    "alt": "Lísteček",
+    "emoji": [
+     "🍃"
+    ],
+    "subject": "one single fresh green leaf with veins"
+   },
+   {
+    "key": "vetvicka",
+    "alt": "Větvička",
+    "emoji": [
+     "🌿"
+    ],
+    "subject": "a small green twig with several pairs of leaves"
+   },
+   {
+    "key": "kastan",
+    "alt": "Kaštan",
+    "emoji": [
+     "🌰"
+    ],
+    "subject": "one shiny brown horse chestnut lying in half of its open spiky green shell"
+   }
+  ]
+ },
+ {
+  "grid": "nature-4",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "zemekoule",
+    "alt": "Zeměkoule",
+    "emoji": [
+     "🌍",
+     "🌎",
+     "🌏"
+    ],
+    "subject": "the planet Earth seen from space: a round ball with blue seas and green-and-ochre continents, no stand"
+   },
+   {
+    "key": "snehulak",
+    "alt": "Sněhulák",
+    "emoji": [
+     "⛄",
+     "☃️",
+     "☃"
+    ],
+    "subject": "a snowman made of three snowballs with a carrot nose, coal eyes, a small pot as a hat and twig arms"
+   },
+   {
+    "key": "mrak",
+    "alt": "Mrak",
+    "emoji": [
+     "☁️",
+     "☁"
+    ],
+    "subject": "one single fluffy white cloud"
+   },
+   {
+    "key": "pirko",
+    "alt": "Pírko",
+    "emoji": [
+     "🪶"
+    ],
+    "subject": "one single soft light brown bird feather"
+   }
+  ]
+ },
+ {
+  "grid": "animals-10",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "mys",
+    "alt": "Myš",
+    "emoji": [
+     "🐭",
+     "🐁"
+    ],
+    "subject": "a small grey mouse, side view, round ears, long thin tail"
+   },
+   {
+    "key": "mravenec",
+    "alt": "Mravenec",
+    "emoji": [
+     "🐜"
+    ],
+    "subject": "one ant, side view, dark brown, six legs, two antennae, drawn big"
+   },
+   {
+    "key": "zelva",
+    "alt": "Želva",
+    "emoji": [
+     "🐢"
+    ],
+    "subject": "a tortoise walking, side view, olive green shell with a pattern"
+   },
+   {
+    "key": "ptacek",
+    "alt": "Ptáček",
+    "emoji": [
+     "🐦"
+    ],
+    "subject": "a small songbird (a blue tit) standing, side view, blue cap and yellow belly, no branch"
+   }
+  ]
+ },
+ {
+  "grid": "animals-11",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "had",
+    "alt": "Had",
+    "emoji": [
+     "🐍"
+    ],
+    "subject": "a friendly green snake coiled in a loose S shape, head raised"
+   },
+   {
+    "key": "lahvicka",
+    "alt": "Lahvička",
+    "emoji": [
+     "🍼"
+    ],
+    "subject": "a baby feeding bottle with white milk and a rubber teat"
+   },
+   {
+    "key": "kostka-hraci",
+    "alt": "Hrací kostka",
+    "emoji": [
+     "🎲"
+    ],
+    "subject": "one white game die (dice), three-quarter view, black dots on its faces"
+   },
+   {
+    "key": "med",
+    "alt": "Med",
+    "emoji": [
+     "🍯"
+    ],
+    "subject": "a round clay honey pot full of golden honey with a wooden honey dipper"
+   }
+  ]
+ },
+ {
+  "grid": "people-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "dite",
+    "alt": "Dítě",
+    "emoji": [
+     "🧒"
+    ],
+    "subject": "a small child about four years old standing, front view, t-shirt and trousers, full body"
+   },
+   {
+    "key": "holcicka",
+    "alt": "Holčička",
+    "emoji": [
+     "👧"
+    ],
+    "subject": "a little girl with two pigtails in a dress, standing, front view, full body"
+   },
+   {
+    "key": "chlapec",
+    "alt": "Chlapec",
+    "emoji": [
+     "👦"
+    ],
+    "subject": "a little boy in a t-shirt and shorts, standing, front view, full body"
+   },
+   {
+    "key": "dedecek",
+    "alt": "Dědeček",
+    "emoji": [
+     "👴"
+    ],
+    "subject": "a grandfather with white hair, a white moustache and glasses, holding a walking stick, full body"
+   }
+  ]
+ },
+ {
+  "grid": "people-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "princezna",
+    "alt": "Princezna",
+    "emoji": [
+     "👸"
+    ],
+    "subject": "a princess in a long dusty pink dress with a small golden crown, full body"
+   },
+   {
+    "key": "policista",
+    "alt": "Policista",
+    "emoji": [
+     "👮",
+     "👮‍♂️",
+     "👮‍♀️"
+    ],
+    "subject": "a policeman in a dark blue uniform and a cap, full body, no badge lettering"
+   },
+   {
+    "key": "kadernice",
+    "alt": "Kadeřnice",
+    "emoji": [
+     "💇",
+     "💇‍♀️",
+     "💇‍♂️"
+    ],
+    "subject": "a hairdresser woman holding scissors in one hand and a comb in the other, full body"
+   },
+   {
+    "key": "kosmonaut",
+    "alt": "Kosmonaut",
+    "emoji": [
+     "🧑‍🚀",
+     "👨‍🚀",
+     "👩‍🚀"
+    ],
+    "subject": "an astronaut in a white spacesuit with a round helmet, full body, no flags or patches"
+   }
+  ]
+ },
+ {
+  "grid": "people-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "spi",
+    "alt": "Spinká",
+    "emoji": [
+     "😴",
+     "💤"
+    ],
+    "subject": "a small child sleeping peacefully on a pillow under a blanket, eyes closed"
+   },
+   {
+    "key": "bezi",
+    "alt": "Běží",
+    "emoji": [
+     "🏃",
+     "🏃‍♂️",
+     "🏃‍♀️"
+    ],
+    "subject": "a child running fast, side view, mid-stride"
+   },
+   {
+    "key": "plavec",
+    "alt": "Plavec",
+    "emoji": [
+     "🏊",
+     "🏊‍♂️",
+     "🏊‍♀️"
+    ],
+    "subject": "a child swimming in a small oval patch of blue water, head and one arm above the water"
+   },
+   {
+    "key": "stoji",
+    "alt": "Stojí",
+    "emoji": [
+     "🧍",
+     "🧍‍♂️",
+     "🧍‍♀️"
+    ],
+    "subject": "a child standing perfectly still like a statue, arms straight down by the sides, front view"
+   }
+  ]
+ },
+ {
+  "grid": "people-4",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "cyklista",
+    "alt": "Cyklista",
+    "emoji": [
+     "🚴",
+     "🚴‍♂️",
+     "🚴‍♀️"
+    ],
+    "subject": "a child riding a bicycle wearing a helmet, side view"
+   },
+   {
+    "key": "sval",
+    "alt": "Silná ruka",
+    "emoji": [
+     "💪"
+    ],
+    "subject": "one flexed strong arm showing a big bicep"
+   },
+   {
+    "key": "vila",
+    "alt": "Víla",
+    "emoji": [
+     "🧚",
+     "🧚‍♀️"
+    ],
+    "subject": "a small fairy girl with transparent dragonfly wings holding a magic wand with a star on its tip"
+   },
+   {
+    "key": "zub",
+    "alt": "Zub",
+    "emoji": [
+     "🦷"
+    ],
+    "subject": "one single white tooth with two roots, simple and clean"
+   }
+  ]
+ },
+ {
+  "grid": "food-5",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "bonbon",
+    "alt": "Bonbon",
+    "emoji": [
+     "🍬"
+    ],
+    "subject": "one wrapped sweet with twisted wrapper ends"
+   },
+   {
+    "key": "cokolada",
+    "alt": "Čokoláda",
+    "emoji": [
+     "🍫"
+    ],
+    "subject": "a bar of brown chocolate in squares, partly unwrapped from its paper, no lettering"
+   },
+   {
+    "key": "pizza",
+    "alt": "Pizza",
+    "emoji": [
+     "🍕"
+    ],
+    "subject": "one triangular slice of pizza with tomato, cheese and salami"
+   },
+   {
+    "key": "susenka",
+    "alt": "Sušenka",
+    "emoji": [
+     "🍪"
+    ],
+    "subject": "one round cookie with chocolate chips"
+   }
+  ]
+ },
+ {
+  "grid": "food-6",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "polevka",
+    "alt": "Polévka",
+    "emoji": [
+     "🍲",
+     "🥣"
+    ],
+    "subject": "a bowl of hot soup with a spoon in it and a little steam"
+   },
+   {
+    "key": "hrnek",
+    "alt": "Hrnek čaje",
+    "emoji": [
+     "☕"
+    ],
+    "subject": "a cup of hot tea on a saucer with a little steam"
+   },
+   {
+    "key": "citron",
+    "alt": "Citron",
+    "emoji": [
+     "🍋"
+    ],
+    "subject": "one yellow lemon with a leaf"
+   },
+   {
+    "key": "pomeranc",
+    "alt": "Pomeranč",
+    "emoji": [
+     "🍊"
+    ],
+    "subject": "one round orange fruit with a small leaf"
+   }
+  ]
+ },
+ {
+  "grid": "food-7",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "dort",
+    "alt": "Dort",
+    "emoji": [
+     "🎂",
+     "🍰"
+    ],
+    "subject": "a round birthday cake with pink icing and three lit candles"
+   },
+   {
+    "key": "panev",
+    "alt": "Smažené vajíčko",
+    "emoji": [
+     "🍳"
+    ],
+    "subject": "a black frying pan with one fried egg in it, seen from above at an angle"
+   },
+   {
+    "key": "lzice",
+    "alt": "Lžíce",
+    "emoji": [
+     "🥄"
+    ],
+    "subject": "one silver spoon"
+   },
+   {
+    "key": "talir",
+    "alt": "Talíř",
+    "emoji": [
+     "🍽️",
+     "🍽"
+    ],
+    "subject": "one empty round white plate, seen from slightly above"
+   }
+  ]
+ },
+ {
+  "grid": "home-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "dum",
+    "alt": "Dům",
+    "emoji": [
+     "🏠",
+     "🏡"
+    ],
+    "subject": "a small house with a red tiled roof, a chimney, a door and two windows, front view"
+   },
+   {
+    "key": "skola",
+    "alt": "Škola",
+    "emoji": [
+     "🏫"
+    ],
+    "subject": "a small school building with a little bell tower on the roof, many windows and a door, no clock face and no lettering"
+   },
+   {
+    "key": "kosik",
+    "alt": "Košík",
+    "emoji": [
+     "🧺"
+    ],
+    "subject": "an empty wicker basket with a handle"
+   },
+   {
+    "key": "kyblik",
+    "alt": "Kyblík",
+    "emoji": [
+     "🪣"
+    ],
+    "subject": "a child's sand bucket with a handle"
+   }
+  ]
+ },
+ {
+  "grid": "home-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "mydlo",
+    "alt": "Mýdlo",
+    "emoji": [
+     "🧼"
+    ],
+    "subject": "a bar of soap with a few soap bubbles"
+   },
+   {
+    "key": "zarovka",
+    "alt": "Žárovka",
+    "emoji": [
+     "💡"
+    ],
+    "subject": "one glowing light bulb"
+   },
+   {
+    "key": "budik",
+    "alt": "Budík",
+    "emoji": [
+     "⏰"
+    ],
+    "subject": "an old alarm clock with two bells on top, the dial has only two hands and short tick marks, no numbers"
+   },
+   {
+    "key": "telefon",
+    "alt": "Telefon",
+    "emoji": [
+     "📞",
+     "☎️",
+     "☎"
+    ],
+    "subject": "an old-fashioned rotary telephone with its handset"
+   }
+  ]
+ },
+ {
+  "grid": "clothes-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "rukavice",
+    "alt": "Rukavice",
+    "emoji": [
+     "🧤"
+    ],
+    "subject": "a pair of knitted winter mittens"
+   },
+   {
+    "key": "ponozky",
+    "alt": "Ponožky",
+    "emoji": [
+     "🧦"
+    ],
+    "subject": "a pair of striped socks"
+   },
+   {
+    "key": "sala",
+    "alt": "Šála",
+    "emoji": [
+     "🧣"
+    ],
+    "subject": "one long knitted winter scarf with fringes"
+   },
+   {
+    "key": "boty",
+    "alt": "Boty",
+    "emoji": [
+     "👟"
+    ],
+    "subject": "a pair of children's sneakers, side view"
+   }
+  ]
+ },
+ {
+  "grid": "clothes-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "holinky",
+    "alt": "Holínky",
+    "emoji": [
+     "👢"
+    ],
+    "subject": "a pair of rubber boots"
+   },
+   {
+    "key": "batoh",
+    "alt": "Batoh",
+    "emoji": [
+     "🎒"
+    ],
+    "subject": "a children's school backpack with two straps"
+   },
+   {
+    "key": "tricko",
+    "alt": "Tričko",
+    "emoji": [
+     "👕"
+    ],
+    "subject": "one t-shirt, front view, plain without print"
+   },
+   {
+    "key": "bunda",
+    "alt": "Bunda",
+    "emoji": [
+     "🧥"
+    ],
+    "subject": "one warm winter jacket with a hood and a zip, front view"
+   }
+  ]
+ },
+ {
+  "grid": "music-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "noty",
+    "alt": "Noty",
+    "emoji": [
+     "🎵",
+     "🎶",
+     "🎼"
+    ],
+    "subject": "two joined musical eighth notes, drawn big"
+   },
+   {
+    "key": "buben",
+    "alt": "Bubínek",
+    "emoji": [
+     "🥁"
+    ],
+    "subject": "a toy drum with two drumsticks"
+   },
+   {
+    "key": "trumpeta",
+    "alt": "Trumpeta",
+    "emoji": [
+     "🎺"
+    ],
+    "subject": "a brass trumpet, side view"
+   },
+   {
+    "key": "housle",
+    "alt": "Housle",
+    "emoji": [
+     "🎻"
+    ],
+    "subject": "a violin with its bow"
+   }
+  ]
+ },
+ {
+  "grid": "music-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "kytara",
+    "alt": "Kytara",
+    "emoji": [
+     "🎸"
+    ],
+    "subject": "an acoustic guitar"
+   },
+   {
+    "key": "klavir",
+    "alt": "Klavír",
+    "emoji": [
+     "🎹"
+    ],
+    "subject": "a small upright piano, front view, black and white keys"
+   },
+   {
+    "key": "televize",
+    "alt": "Televize",
+    "emoji": [
+     "📺"
+    ],
+    "subject": "an old television set with an antenna and a blank grey screen"
+   },
+   {
+    "key": "koruna",
+    "alt": "Koruna",
+    "emoji": [
+     "👑"
+    ],
+    "subject": "a golden king's crown"
+   }
+  ]
+ },
+ {
+  "grid": "sport-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "fotbalovy-mic",
+    "alt": "Fotbalový míč",
+    "emoji": [
+     "⚽"
+    ],
+    "subject": "a black-and-white football (soccer ball)"
+   },
+   {
+    "key": "basketbalovy-mic",
+    "alt": "Basketbalový míč",
+    "emoji": [
+     "🏀"
+    ],
+    "subject": "an orange basketball with black lines"
+   },
+   {
+    "key": "tenis",
+    "alt": "Tenis",
+    "emoji": [
+     "🎾"
+    ],
+    "subject": "a tennis racket with a yellow tennis ball next to it"
+   },
+   {
+    "key": "hokejka",
+    "alt": "Hokejka",
+    "emoji": [
+     "🏒"
+    ],
+    "subject": "an ice hockey stick with a black puck"
+   }
+  ]
+ },
+ {
+  "grid": "sport-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "branka",
+    "alt": "Branka",
+    "emoji": [
+     "🥅"
+    ],
+    "subject": "a football goal with a white net, front view"
+   },
+   {
+    "key": "brusle",
+    "alt": "Brusle",
+    "emoji": [
+     "⛸️",
+     "⛸"
+    ],
+    "subject": "one ice skate boot with a blade, side view"
+   },
+   {
+    "key": "sane",
+    "alt": "Sáňky",
+    "emoji": [
+     "🛷"
+    ],
+    "subject": "a wooden sled, side view"
+   },
+   {
+    "key": "pohar",
+    "alt": "Pohár",
+    "emoji": [
+     "🏆"
+    ],
+    "subject": "a golden trophy cup with two handles"
+   }
+  ]
+ },
+ {
+  "grid": "toys-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "drak",
+    "alt": "Drak",
+    "emoji": [
+     "🪁"
+    ],
+    "subject": "a diamond-shaped flying kite with a long tail of little bows"
+   },
+   {
+    "key": "puzzle",
+    "alt": "Puzzle",
+    "emoji": [
+     "🧩"
+    ],
+    "subject": "one single jigsaw puzzle piece"
+   },
+   {
+    "key": "vanocni-stromek",
+    "alt": "Vánoční stromek",
+    "emoji": [
+     "🎄"
+    ],
+    "subject": "a small Christmas tree with red baubles and a star on top"
+   },
+   {
+    "key": "paleta",
+    "alt": "Malířská paleta",
+    "emoji": [
+     "🎨"
+    ],
+    "subject": "a wooden painter's palette with blobs of paint and a brush"
+   }
+  ]
+ },
+ {
+  "grid": "things-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "kladivo",
+    "alt": "Kladivo",
+    "emoji": [
+     "🔨"
+    ],
+    "subject": "a hammer with a wooden handle"
+   },
+   {
+    "key": "cihly",
+    "alt": "Cihly",
+    "emoji": [
+     "🧱"
+    ],
+    "subject": "a small stack of red bricks"
+   },
+   {
+    "key": "knihy",
+    "alt": "Knížky",
+    "emoji": [
+     "📚"
+    ],
+    "subject": "a stack of three closed books with plain covers, no lettering"
+   },
+   {
+    "key": "lupa",
+    "alt": "Lupa",
+    "emoji": [
+     "🔍",
+     "🔎"
+    ],
+    "subject": "a magnifying glass with a wooden handle"
+   }
+  ]
+ },
+ {
+  "grid": "things-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "vahy",
+    "alt": "Váhy",
+    "emoji": [
+     "⚖️",
+     "⚖"
+    ],
+    "subject": "an old balance scale with two pans hanging level"
+   },
+   {
+    "key": "sipka-nahoru",
+    "alt": "Šipka nahoru",
+    "emoji": [
+     "⬆️",
+     "⬆"
+    ],
+    "subject": "one thick brick red arrow pointing straight UP"
+   },
+   {
+    "key": "sipka-dolu",
+    "alt": "Šipka dolů",
+    "emoji": [
+     "⬇️",
+     "⬇"
+    ],
+    "subject": "one thick brick red arrow pointing straight DOWN"
+   },
+   {
+    "key": "sipka-vpravo",
+    "alt": "Šipka doprava",
+    "emoji": [
+     "➡️",
+     "➡"
+    ],
+    "subject": "one thick brick red arrow pointing straight to the RIGHT"
+   }
+  ]
+ },
+ {
+  "grid": "dots-1",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "tecky-1",
+    "alt": "Jedna tečka",
+    "emoji": [
+     "1️⃣"
+    ],
+    "subject": "dots:1"
+   },
+   {
+    "key": "tecky-2",
+    "alt": "Dvě tečky",
+    "emoji": [
+     "2️⃣"
+    ],
+    "subject": "dots:2"
+   },
+   {
+    "key": "tecky-3",
+    "alt": "Tři tečky",
+    "emoji": [
+     "3️⃣"
+    ],
+    "subject": "dots:3"
+   },
+   {
+    "key": "tecky-4",
+    "alt": "Čtyři tečky",
+    "emoji": [
+     "4️⃣"
+    ],
+    "subject": "dots:4"
+   }
+  ],
+  "compose": "dots"
+ },
+ {
+  "grid": "dots-2",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "tecky-5",
+    "alt": "Pět teček",
+    "emoji": [
+     "5️⃣"
+    ],
+    "subject": "dots:5"
+   },
+   {
+    "key": "tecky-6",
+    "alt": "Šest teček",
+    "emoji": [
+     "6️⃣"
+    ],
+    "subject": "dots:6"
+   },
+   {
+    "key": "tecky-7",
+    "alt": "Sedm teček",
+    "emoji": [
+     "7️⃣"
+    ],
+    "subject": "dots:5+2"
+   },
+   {
+    "key": "tecky-8",
+    "alt": "Osm teček",
+    "emoji": [
+     "8️⃣"
+    ],
+    "subject": "dots:4+4"
+   }
+  ],
+  "compose": "dots"
+ },
+ {
+  "grid": "dots-3",
+  "key": "magenta",
+  "items": [
+   {
+    "key": "tecky-9",
+    "alt": "Devět teček",
+    "emoji": [
+     "9️⃣"
+    ],
+    "subject": "dots:5+4"
+   },
+   {
+    "key": "tecky-10",
+    "alt": "Deset teček",
+    "emoji": [
+     "🔟"
+    ],
+    "subject": "dots:5+5"
+   }
+  ],
+  "compose": "dots"
+ }
+]

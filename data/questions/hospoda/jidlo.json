@@ -497,5 +497,1552 @@
     "difficulty": 3,
     "source": "https://cs.wikipedia.org/wiki/Šafrán",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-031",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Na kolik vinařských oblastí se dělí Česko?",
+    "options": [
+      "Na dvě",
+      "Na tři",
+      "Na čtyři",
+      "Na šest"
+    ],
+    "answer": "Na dvě",
+    "fact": "Jsou to Čechy a Morava. Na Moravě leží asi 96 procent českých vinic.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vinařství_v_Česku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-032",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kříženec kterých dvou odrůd je moravská bílá odrůda Pálava?",
+    "options": [
+      "Ryzlinku a Veltlínu",
+      "Tramínu a Müller Thurgau",
+      "Sauvignonu a Chardonnay",
+      "Muškátu a Ryzlinku"
+    ],
+    "answer": "Tramínu a Müller Thurgau",
+    "fact": "Šlechtit ji začal Josef Veverka v roce 1953. Jméno má podle Pálavy u Mikulova.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Pálava_(odrůda_révy_vinné)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-033",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co jsou utopenci?",
+    "options": [
+      "Knedlíky vařené v páře",
+      "Ryby pečené v jílu",
+      "Špekáčky nakládané v octě s cibulí",
+      "Sýry naložené v oleji"
+    ],
+    "answer": "Špekáčky nakládané v octě s cibulí",
+    "fact": "Nálev se špekáčky a cibulí se nechává v chladu aspoň týden, nejlépe dva.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Utopenec",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-034",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve kterém východočeském městě se proslavil perník?",
+    "options": [
+      "Hradec Králové",
+      "Turnov",
+      "Chrudim",
+      "Pardubice"
+    ],
+    "answer": "Pardubice",
+    "fact": "Nejstarší zmínka o perníku u nás je z roku 1335 z Turnova, kde se prodával o Vánocích.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Perník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-035",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které město je proslulé oplatkovými trubičkami se šlehaným krémem?",
+    "options": [
+      "Hořice",
+      "Kolín",
+      "Litomyšl",
+      "Pelhřimov"
+    ],
+    "answer": "Hořice",
+    "fact": "Tradice sahá do roku 1812. Od roku 2007 mají Hořické trubičky chráněné zeměpisné označení EU.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hořické_trubičky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-036",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Podle pověsti připomínají Štramberské uši uši, které uřezali...",
+    "options": [
+      "Turci vojákům",
+      "Tataři křesťanům",
+      "Švédové měšťanům",
+      "Hunové kupcům"
+    ],
+    "answer": "Tataři křesťanům",
+    "fact": "V roce 2007 se staly první českou potravinou, která získala ochranu EU běžnou cestou.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Štramberské_uši",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-037",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se na Valašsku říká husté polévce z kysaného zelí, brambor, klobásy a smetany?",
+    "options": [
+      "Kulajda",
+      "Zelňačka",
+      "Kyselica",
+      "Cibulačka"
+    ],
+    "answer": "Kyselica",
+    "fact": "Brambory se do ní vaří zvlášť – v kyselém zelí by zůstaly tvrdé.",
+    "difficulty": 2,
+    "source": "https://forbes.cz/snidane-valachu-posilnete-se-tradicni-valasskou-kyselici/",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-038",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co jsou škubánky?",
+    "options": [
+      "Pečené kousky vepřového",
+      "Kynuté buchtičky s krémem",
+      "Vdolky s povidly",
+      "Bramborové těsto s moukou posypané mákem"
+    ],
+    "answer": "Bramborové těsto s moukou posypané mákem",
+    "fact": "Na západě Čech se jim říká kucmoch, na Slovácku šulánky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Škubánky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-039",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co udává stupňovitost piva, třeba dvanáctka?",
+    "options": [
+      "Obsah extraktu v mladině",
+      "Obsah alkoholu",
+      "Teplotu kvašení",
+      "Počet dní zrání"
+    ],
+    "answer": "Obsah extraktu v mladině",
+    "fact": "Dvanáctka měla před kvašením 12 % extraktu. Alkoholu má obvykle kolem 5 %.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Pivo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-040",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se v hospodě říká pivu natočenému téměř celé jako hustá pěna?",
+    "options": [
+      "Hladinka",
+      "Mlíko",
+      "Šnyt",
+      "Čochtan"
+    ],
+    "answer": "Mlíko",
+    "fact": "Hladinka je pivo s krásnou pěnou po rysku, šnyt je pivo s pěnou, ale s místem navrch. Mlíko se pije na ex.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Čepování_piva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-041",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve které obci se vaří pivo Kozel?",
+    "options": [
+      "V Černé Hoře",
+      "V Hostivaři",
+      "Ve Velkých Popovicích",
+      "V Krušovicích"
+    ],
+    "answer": "Ve Velkých Popovicích",
+    "fact": "Pivovar začal vařit v roce 1874. Kozla na etiketu podle pověsti nakreslil potulný francouzský malíř.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Velkopopovický_Kozel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-042",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází sýr feta?",
+    "options": [
+      "Z Turecka",
+      "Z Bulharska",
+      "Z Itálie",
+      "Z Řecka"
+    ],
+    "answer": "Z Řecka",
+    "fact": "Od roku 2002 má feta ochranu EU. Musí být z ovčího mléka, kozího v ní smí být nejvýš 30 %.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Feta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-043",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého mléka se vyrábí sýr Roquefort?",
+    "options": [
+      "Z ovčího",
+      "Z kravského",
+      "Z kozího",
+      "Z buvolího"
+    ],
+    "answer": "Z ovčího",
+    "fact": "Zraje v jeskyních vesnice Roquefort-sur-Soulzon. Modrou plíseň Penicillium roqueforti původně získávali z plesnivého chleba.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Roquefort",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-044",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého španělského kraje pochází paella?",
+    "options": [
+      "Z Andalusie",
+      "Z Valencie",
+      "Z Katalánska",
+      "Z Baskicka"
+    ],
+    "answer": "Z Valencie",
+    "fact": "Jméno má po široké mělké pánvi. Původní valencijská paella obsahuje kuře, králíka a fazole, ne mořské plody.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Paella",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-045",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého ovoce se pálí normandský calvados?",
+    "options": [
+      "Ze švestek",
+      "Z hroznů",
+      "Z jablek",
+      "Z meruněk"
+    ],
+    "answer": "Z jablek",
+    "fact": "Pálí se z jablečného cidru, občas s příměsí hrušek, a v dubových sudech musí zrát nejméně dva roky.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Calvados_(brandy)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-046",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které suroviny se vyrábí japonské saké?",
+    "options": [
+      "Z ječmene",
+      "Ze sóji",
+      "Z prosa",
+      "Z rýže"
+    ],
+    "answer": "Z rýže",
+    "fact": "Saké se vyrábí podobně jako pivo: škrob se nejdřív mění na cukr pomocí plísně kódži a teprve potom kvasí.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Sake",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-047",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření je sušená kůra stromu?",
+    "options": [
+      "Skořice",
+      "Hřebíček",
+      "Muškátový oříšek",
+      "Badyán"
+    ],
+    "answer": "Skořice",
+    "fact": "Svitky se stáčejí samy, když se tenká vnitřní kůra suší.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Cinnamon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-048",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření jsou usušená nerozvitá poupata?",
+    "options": [
+      "Kardamom",
+      "Hřebíček",
+      "Nové koření",
+      "Pepř"
+    ],
+    "answer": "Hřebíček",
+    "fact": "Hřebíček rostl původně jen na indonéských Molukách. Kvůli monopolu na něj tam Nizozemci káceli stromy na ostatních ostrovech.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Clove",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-049",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí tofu?",
+    "options": [
+      "Z cizrny",
+      "Z rýže",
+      "Ze sójových bobů",
+      "Z kokosu"
+    ],
+    "answer": "Ze sójových bobů",
+    "fact": "Vyrábí se podobně jako sýr: sójové mléko se srazí a sraženina se lisuje do bloků.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Tofu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-050",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která bylina je základem janovského pesta?",
+    "options": [
+      "Petržel",
+      "Rukola",
+      "Oregano",
+      "Bazalka"
+    ],
+    "answer": "Bazalka",
+    "fact": "Do pravého pesta alla genovese patří i piniové oříšky, česnek, olivový olej a tvrdé sýry pecorino a parmazán.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Pesto",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-051",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje korejské kvašené zelí s chilli?",
+    "options": [
+      "Kimči",
+      "Miso",
+      "Bibimbap",
+      "Bulgogi"
+    ],
+    "answer": "Kimči",
+    "fact": "Rodinná podzimní příprava kimči zvaná kimjang je od roku 2013 na seznamu UNESCO.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Gimjang",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-052",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který alkohol se ochucuje jalovcem?",
+    "options": [
+      "Rum",
+      "Gin",
+      "Vodka",
+      "Tequila"
+    ],
+    "answer": "Gin",
+    "fact": "Gin pochází z nizozemského jalovcového jeneveru, který se původně prodával jako lék.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Gin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-053",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí marcipán?",
+    "options": [
+      "Z lískových oříšků a medu",
+      "Z kokosu a mléka",
+      "Z mletých mandlí a cukru",
+      "Z kešu a másla"
+    ],
+    "answer": "Z mletých mandlí a cukru",
+    "fact": "Proslulý je marcipán z Lübecku, který má chráněné zeměpisné označení.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Marzipan",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-054",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce přišla na trh Kofola?",
+    "answer": 1960,
+    "unit": "rok",
+    "fact": "Vznikla jako československá odpověď na Coca-Colu a využila přebytečný kofein z pražení kávy. Sirup Kofo obsahuje 14 bylinných a ovocných složek.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kofola",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-055",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce otevřel ve Vodičkově ulici v Praze první McDonald's v Československu?",
+    "answer": 1992,
+    "unit": "rok",
+    "fact": "Otevíral se v pátek 20. března, fronty musela usměrňovat policie a první den prý přišlo 11 tisíc lidí.",
+    "difficulty": 2,
+    "source": "https://english.radio.cz/node/8197624",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-056",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce začal lékárník John Pemberton prodávat Coca-Colu?",
+    "answer": 1886,
+    "unit": "rok",
+    "fact": "Prodával ji jako lék v lékárně v Atlantě. Původně obsahovala extrakt z listů koky.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Coca-Cola",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-057",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik kilogramů váží zralé kolo sýra Parmigiano Reggiano?",
+    "answer": 38,
+    "unit": "kg",
+    "fact": "Na jedno kolo je potřeba asi 550 litrů mléka a sýr zraje nejméně 12 měsíců.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Parmigiano_Reggiano",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-058",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje kvasící hroznový mošt, který se pije na podzim?",
+    "answer": "Burčák",
+    "accept": [
+      "burcak"
+    ],
+    "fact": "Podle zákona se smí prodávat jen od 1. srpna do 30. listopadu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Burčák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-059",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje mladé víno, které se smí otevřít 11. listopadu v 11 hodin 11 minut?",
+    "answer": "Svatomartinské",
+    "accept": [
+      "svatomartinské víno",
+      "svatomartinske"
+    ],
+    "fact": "K němu se tradičně jí svatomartinská husa. Na svatého Martina končil hospodářský rok a čeledín dostával mzdu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Svatomartinské_víno",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-060",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje velký kulatý valašský koláč s jednou náplní, například s hruškami?",
+    "answer": "Frgál",
+    "accept": [
+      "frgal",
+      "valašský frgál"
+    ],
+    "fact": "Má průměr kolem 30 cm a náplně se na něm nikdy nemíchají. Od roku 2013 má chráněné zeměpisné označení EU.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Valašský_frgál",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-061",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje italská káva s mlékem a mléčnou pěnou, pojmenovaná podle mnichů?",
+    "answer": "Cappuccino",
+    "accept": [
+      "kapučíno",
+      "kapucino",
+      "capuccino"
+    ],
+    "fact": "Jméno odkazuje na hnědé kutny kapucínů, jejichž barvu nápoj připomíná.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Cappuccino",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-062",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Do které čeledi rostlin patří vanilka?",
+    "options": [
+      "Pepřovité",
+      "Orchidejovité",
+      "Palmy",
+      "Liliovité"
+    ],
+    "answer": "Orchidejovité",
+    "fact": "Ruční opylování vanilky objevil v roce 1841 dvanáctiletý otrok Edmond Albius na ostrově Réunion.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Vanilla",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-063",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Odkud k nám přišly brambory?",
+    "options": [
+      "Z Asie",
+      "Z Afriky",
+      "Z Jižní Ameriky",
+      "Z Austrálie"
+    ],
+    "answer": "Z Jižní Ameriky",
+    "fact": "V Andách je lidé pěstují už tisíce let. V Čechách se ve velkém rozšířily až v 18. století.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Lilek_brambor",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-064",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází kávovník arabica?",
+    "options": [
+      "Z Brazílie",
+      "Z Kolumbie",
+      "Z Etiopie",
+      "Z Indonésie"
+    ],
+    "answer": "Z Etiopie",
+    "fact": "Podle legendy si kávy všiml pasák Kaldi, když jeho kozy po plodech kávovníku nemohly usnout.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kávovník_arabský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-065",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho je koření zvané muškátový květ?",
+    "options": [
+      "Z obalu muškátového oříšku",
+      "Z květů muškátu",
+      "Z kůry muškátovníku",
+      "Z listů muškátovníku"
+    ],
+    "answer": "Z obalu muškátového oříšku",
+    "fact": "Kvůli muškátovému ostrůvku Run v Indonésii přenechali Nizozemci Angličanům Nový Amsterodam – dnešní Manhattan.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Run_(island)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-066",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření dává kari typickou žlutou barvu?",
+    "options": [
+      "Šafrán",
+      "Kurkuma",
+      "Paprika",
+      "Zázvor"
+    ],
+    "answer": "Kurkuma",
+    "fact": "Kari není jedno koření, ale směs. Hotový kari prášek se rozšířil hlavně díky Britům.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kurkuma",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-067",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Čím se liší bílý pepř od černého?",
+    "options": [
+      "Je z jiné rostliny",
+      "Jsou to oloupaná zrna",
+      "Je bělený chlórem",
+      "Je nezralý"
+    ],
+    "answer": "Jsou to oloupaná zrna",
+    "fact": "Zelený pepř jsou nezralé plody téže rostliny. Růžový pepř je z úplně jiného stromu, z pepřovce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pepřovník_černý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-068",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého obilí jsou kroupy?",
+    "options": [
+      "Z ječmene",
+      "Z pšenice",
+      "Z ovsa",
+      "Z žita"
+    ],
+    "answer": "Z ječmene",
+    "fact": "Kroupy s houbami jsou základem kuby, postního jídla na Štědrý den.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kuba_(jídlo)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-069",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Proč se pivu říká ležák?",
+    "options": [
+      "Leží na dně kvasnice",
+      "Dlouho zraje ve sklepě",
+      "Pije se vleže",
+      "Je těžký"
+    ],
+    "answer": "Dlouho zraje ve sklepě",
+    "fact": "Spodně kvašený ležák dozrává několik týdnů v ležáckém sklepě při teplotě kolem 0 až 2 °C.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ležák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-070",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která surovina dává pivu hořkou chuť?",
+    "options": [
+      "Slad",
+      "Chmel",
+      "Kvasnice",
+      "Ječmen"
+    ],
+    "answer": "Chmel",
+    "fact": "Chmel je příbuzný konopí – obě rostliny patří do čeledi konopovitých.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Chmel_otáčivý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-071",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které tmavé pivo je pojmenované podle londýnských nosičů?",
+    "options": [
+      "Stout",
+      "Porter",
+      "Bock",
+      "Ale"
+    ],
+    "answer": "Porter",
+    "fact": "V 18. století si ho oblíbili nosiči na londýnských trzích a v docích, kterým se anglicky říkalo porters.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Porter_(beer)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-072",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který styl piva je spojený s plavbou z Británie do Indie?",
+    "options": [
+      "Pilsner",
+      "IPA",
+      "Stout",
+      "Weizen"
+    ],
+    "answer": "IPA",
+    "fact": "Zkratka znamená India Pale Ale. Silné chmelení pomáhalo pivu vydržet dlouhou cestu lodí.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/India_pale_ale",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-073",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve kterém městě se koná pivní slavnost Oktoberfest?",
+    "options": [
+      "V Mnichově",
+      "V Kolíně nad Rýnem",
+      "V Berlíně",
+      "Ve Vídni"
+    ],
+    "answer": "V Mnichově",
+    "fact": "Poprvé se slavil v roce 1810 při svatbě korunního prince Ludvíka s princeznou Terezou.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Oktoberfest",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-074",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která modrá odrůda révy nese jméno světce, jehož svátek je 10. srpna?",
+    "options": [
+      "Frankovka",
+      "Zweigeltrebe",
+      "Svatovavřinecké",
+      "Modrý Portugal"
+    ],
+    "answer": "Svatovavřinecké",
+    "fact": "Genetický rozbor ukázal, že patří do rodiny Pinot a je nejspíš potomkem Rulandského modrého.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Svatovavřinecké",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-075",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Čím se ochucuje řecké víno retsina?",
+    "options": [
+      "Medem",
+      "Borovicovou pryskyřicí",
+      "Anýzem",
+      "Mořskou solí"
+    ],
+    "answer": "Borovicovou pryskyřicí",
+    "fact": "Pryskyřicí se ve starověku těsnily amfory s vínem. Nádoby se změnily, ale chuť si Řekové oblíbili.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Retsina",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-076",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází portské víno?",
+    "options": [
+      "Ze Španělska",
+      "Z Itálie",
+      "Z Portugalska",
+      "Z Francie"
+    ],
+    "answer": "Z Portugalska",
+    "fact": "Do vína se během kvašení přidává vinný destilát. Kvašení se zastaví a víno zůstane sladké a silné.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Portské_víno",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-077",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází sýr gouda?",
+    "options": [
+      "Z Belgie",
+      "Z Nizozemska",
+      "Z Dánska",
+      "Ze Švýcarska"
+    ],
+    "answer": "Z Nizozemska",
+    "fact": "Jméno má po městě Gouda, kam sedláci sýr vozili prodat na trh, ne podle místa, kde se vyráběl.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Gouda_cheese",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-078",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se podává španělská polévka gazpacho?",
+    "options": [
+      "Vařící",
+      "Studená",
+      "Zapečená",
+      "Flambovaná"
+    ],
+    "answer": "Studená",
+    "fact": "Bylo to jídlo andaluských rolníků z chleba, oleje, octa a česneku. Rajčata přibyla až po objevení Ameriky.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Gazpacho",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-079",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází polévka pho s rýžovými nudlemi?",
+    "options": [
+      "Z Thajska",
+      "Z Vietnamu",
+      "Z Japonska",
+      "Z Koreje"
+    ],
+    "answer": "Z Vietnamu",
+    "fact": "Hovězí vývar se na ni vaří z kostí mnoho hodin a podává se s čerstvými bylinkami a limetkou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pho",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-080",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jaké maso patří do tradičního irského dušeného Irish stew?",
+    "options": [
+      "Hovězí",
+      "Skopové",
+      "Vepřové",
+      "Kuřecí"
+    ],
+    "answer": "Skopové",
+    "fact": "Bylo to jídlo chudých: starší skopové se dusilo s bramborami a cibulí.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Irish_stew",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-081",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co je skotský haggis?",
+    "options": [
+      "Ovesná kaše s whisky",
+      "Ovčí žaludek plněný vnitřnostmi",
+      "Uzený losos",
+      "Koláč s ledvinkami"
+    ],
+    "answer": "Ovčí žaludek plněný vnitřnostmi",
+    "fact": "Skoti ho jedí na Burnsově večeři 25. ledna a nahlas mu přednášejí báseň Roberta Burnse.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Haggis",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-082",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje indická placka pečená na stěně hliněné pece tandúr?",
+    "options": [
+      "Tortilla",
+      "Naan",
+      "Pita",
+      "Lángoš"
+    ],
+    "answer": "Naan",
+    "fact": "Slovo naan pochází z perštiny a znamená prostě chléb.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Naan",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-083",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází sýrové fondue?",
+    "options": [
+      "Z Francie",
+      "Ze Švýcarska",
+      "Z Nizozemska",
+      "Z Belgie"
+    ],
+    "answer": "Ze Švýcarska",
+    "fact": "Za národní jídlo ho ve 30. letech prosazovala Švýcarská sýrová unie, aby lidé jedli víc sýra.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Fondue",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-084",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak mají být uvařené těstoviny „al dente“?",
+    "options": [
+      "Na skus",
+      "Do měkka",
+      "Zapečené",
+      "Opečené"
+    ],
+    "answer": "Na skus",
+    "fact": "Italské sušené těstoviny se podle zákona smějí vyrábět jen z tvrdé pšenice.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Těstoviny",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-085",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve které zemi vymysleli pizzu Havaj?",
+    "options": [
+      "Na Havaji v USA",
+      "V Kanadě",
+      "V Itálii",
+      "V Austrálii"
+    ],
+    "answer": "V Kanadě",
+    "fact": "V roce 1962 ji v Ontariu vymyslel řecký přistěhovalec Sam Panopoulos. Jméno má podle ananasu v konzervě.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Hawaiian_pizza",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-086",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jaké rostliny se vyrábí tapioka?",
+    "options": [
+      "Z rýže",
+      "Z manioku",
+      "Z kukuřice",
+      "Z batátů"
+    ],
+    "answer": "Z manioku",
+    "fact": "Syrový maniok obsahuje látky, ze kterých se uvolňuje kyanid, a proto se musí pečlivě zpracovat.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tapioka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-087",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jikry které ryby jsou pravý kaviár?",
+    "options": [
+      "Lososa",
+      "Jesetera",
+      "Tresky",
+      "Štiky"
+    ],
+    "answer": "Jesetera",
+    "fact": "Nejdražší je kaviár z vyzy velké, jesetera, který se může dožít víc než sta let.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kaviár",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-088",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí želatina?",
+    "options": [
+      "Z mořských řas",
+      "Z kostí a kůže zvířat",
+      "Z kukuřičného škrobu",
+      "Z mléka"
+    ],
+    "answer": "Z kostí a kůže zvířat",
+    "fact": "Získává se z kolagenu. Proto nejsou gumoví medvídci s želatinou vegetariánští.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Želatina",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-089",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které z tohoto ovoce je z botanického hlediska bobule?",
+    "options": [
+      "Jahoda",
+      "Malina",
+      "Banán",
+      "Třešeň"
+    ],
+    "answer": "Banán",
+    "fact": "Jahoda naopak bobule není – pravé plody jsou drobná zrníčka na jejím povrchu.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bobule",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-090",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Odkud pochází kiwi?",
+    "options": [
+      "Z Nového Zélandu",
+      "Z Číny",
+      "Z Austrálie",
+      "Z Brazílie"
+    ],
+    "answer": "Z Číny",
+    "fact": "Název kiwifruit zavedl v roce 1959 novozélandský vývozce místo jména čínský angrešt.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Kiwifruit",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-091",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které „ořechy“ jsou ve skutečnosti luštěniny?",
+    "options": [
+      "Kešu",
+      "Arašídy",
+      "Mandle",
+      "Pistácie"
+    ],
+    "answer": "Arašídy",
+    "fact": "Dozrávají pod zemí: stonek s odkvetlým květem se zavrtá do půdy a lusk roste tam.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Podzemnice_olejná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-092",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se připravuje jihoamerický nápoj maté?",
+    "options": [
+      "Z kakaových slupek",
+      "Z listů cesmíny",
+      "Z kukuřice",
+      "Z kořene manioku"
+    ],
+    "answer": "Z listů cesmíny",
+    "fact": "Pije se z vydlabané tykve kovovým brčkem se sítkem, kterému se říká bombilla.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Maté",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-093",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která bylina dává absintu typickou hořkou chuť?",
+    "options": [
+      "Máta",
+      "Pelyněk",
+      "Meduňka",
+      "Šalvěj"
+    ],
+    "answer": "Pelyněk",
+    "fact": "V mnoha zemích byl absint začátkem 20. století zakázán, ačkoli se neprokázalo, že škodí víc než jiný alkohol.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Absinthe",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-094",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které části světa pochází nové koření?",
+    "options": [
+      "Z Indie",
+      "Ze Střední Ameriky a Karibiku",
+      "Z Indonésie",
+      "Ze severní Afriky"
+    ],
+    "answer": "Ze Střední Ameriky a Karibiku",
+    "fact": "Angličané mu říkají allspice, protože jim chutná jako skořice, muškát a hřebíček najednou.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Allspice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-095",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého stromu je bobkový list?",
+    "options": [
+      "Z vavřínu",
+      "Z olivovníku",
+      "Z myrty",
+      "Z eukalyptu"
+    ],
+    "answer": "Z vavřínu",
+    "fact": "Ve starověku se z vavřínových větví pletly věnce pro vítěze a básníky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vavřín_vznešený",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-096",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co se podle tradice jí na Zelený čtvrtek?",
+    "options": [
+      "Kapr",
+      "Něco zeleného",
+      "Beránek",
+      "Vejce natvrdo"
+    ],
+    "answer": "Něco zeleného",
+    "fact": "Vařily se zelené polévky a špenát. Ke snídani patřily jidáše z kynutého těsta.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Zelený_čtvrtek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-097",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Čím se liší jelito od jitrnice?",
+    "options": [
+      "Je z hovězího",
+      "Obsahuje krev",
+      "Je uzené",
+      "Je bez krup"
+    ],
+    "answer": "Obsahuje krev",
+    "fact": "Zabijačky se konaly v zimě, protože v mrazu maso déle vydrželo.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jelito",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-098",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého masa je pravý vídeňský řízek?",
+    "options": [
+      "Z vepřového",
+      "Z telecího",
+      "Z kuřecího",
+      "Z krůtího"
+    ],
+    "answer": "Z telecího",
+    "fact": "Vepřový se podle rakouských pravidel musí jmenovat řízek „po vídeňsku“.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Vídeňský_řízek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-099",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Proč má ementál díry?",
+    "options": [
+      "Propichuje se",
+      "Bakterie vytvářejí plyn",
+      "Zůstane v něm vzduch z míchání",
+      "Vysychá"
+    ],
+    "answer": "Bakterie vytvářejí plyn",
+    "fact": "Švýcarští vědci zjistili, že dírky pomáhá založit i jemný senný prach v mléce. S čistým dojením jich ubylo.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Emmental_cheese",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-100",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z mléka kterého zvířete je italský sýr pecorino?",
+    "options": [
+      "Kozího",
+      "Ovčího",
+      "Buvolího",
+      "Kravského"
+    ],
+    "answer": "Ovčího",
+    "fact": "Jméno má podle italského slova pecora, ovce.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Pecorino",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-101",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Olejem z kůry kterého citrusu se aromatizuje čaj Earl Grey?",
+    "options": [
+      "Bergamotu",
+      "Pomeranče",
+      "Limetky",
+      "Grepu"
+    ],
+    "answer": "Bergamotu",
+    "fact": "Bergamotem se dřív vylepšoval levný čaj. V roce 1837 se kvůli tomu v Anglii dokonce soudilo.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Earl_Grey_tea",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-102",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje hustá sladká karamelová pochoutka z mléka, oblíbená v Argentině?",
+    "options": [
+      "Dulce de leche",
+      "Churros",
+      "Flan",
+      "Turrón"
+    ],
+    "answer": "Dulce de leche",
+    "fact": "Doma vznikne i dlouhým vařením neotevřené plechovky slazeného kondenzovaného mléka.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Dulce_de_leche",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-103",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co je španělský ptáček?",
+    "options": [
+      "Hovězí závitek",
+      "Pečený holub",
+      "Smažená sardinka",
+      "Koláč s mandlemi"
+    ],
+    "answer": "Hovězí závitek",
+    "fact": "Plní se okurkou, slaninou, vejcem a párkem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Španělský_ptáček",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-104",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého ovoce se pálí hruškovice Williams?",
+    "options": [
+      "Z jablek",
+      "Z hrušek",
+      "Z kdoulí",
+      "Ze švestek"
+    ],
+    "answer": "Z hrušek",
+    "fact": "Někdy se v láhvi prodává i celá hruška – láhev se navlékne na plodek, když ještě roste na stromě.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Poire_Williams",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-105",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce podle tradice vymyslel Franz Sacher ve Vídni dort Sachr?",
+    "answer": 1832,
+    "unit": "rok",
+    "fact": "Sacherovi bylo tehdy 15 nebo 16 let a byl ve druhém roce učení v kuchyni knížete Metternicha.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Sachertorte",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-106",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik litrů javorové mízy je potřeba zhruba na jeden litr javorového sirupu?",
+    "answer": 40,
+    "unit": "l",
+    "fact": "Míza se stáčí na jaře, kdy se střídají mrazivé noci s teplými dny.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Maple_syrup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-107",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce dostal Jakub Kryštof Rad v Dačicích privilegium na výrobu kostkového cukru?",
+    "answer": 1843,
+    "unit": "rok",
+    "fact": "Podle tradice ho k nápadu přivedla manželka, která se při sekání cukrové homole řízla do prstu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kostkový_cukr",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-108",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce dostal Nicolas Appert od francouzské vlády odměnu za konzervování potravin?",
+    "answer": 1810,
+    "unit": "rok",
+    "fact": "Potraviny uzavíral do skleniček a vařil. Proč to funguje, vysvětlil až o půl století později Pasteur.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Nicolas_Appert",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-109",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce si Louis Pasteur nechal patentovat ohřev vína proti zkáze, základ pasterace?",
+    "answer": 1865,
+    "unit": "rok",
+    "fact": "Postup vymyslel kvůli vínu a pivu. Mléko se tak začalo ošetřovat až později.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-110",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik let trvala prohibice v USA?",
+    "answer": 13,
+    "unit": "let",
+    "fact": "Zrušil ji v roce 1933 jednadvacátý dodatek ústavy – jediný dodatek, který ruší jiný.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-111",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Na kolik podoblastí se dělí vinařská oblast Morava?",
+    "answer": 4,
+    "unit": "podoblasti",
+    "fact": "Jsou to Mikulovská, Slovácká, Znojemská a Velkopavlovická.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vinařská_oblast_Morava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-112",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik kilokalorií má jeden gram tuku?",
+    "answer": 9,
+    "unit": "kcal",
+    "fact": "Gram cukru nebo bílkovin má jen asi 4 kcal, gram alkoholu kolem 7.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Tuky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-113",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce poprvé vyšla Domácí kuchařka Magdaleny Dobromily Rettigové?",
+    "answer": 1826,
+    "unit": "rok",
+    "fact": "Kniha vycházela v nových vydáních více než sto let.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Magdalena_Dobromila_Rettigová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-114",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje víno z hroznů sklizených zmrzlých na keři?",
+    "answer": "Ledové víno",
+    "accept": [
+      "ledové"
+    ],
+    "fact": "U nás se hrozny smějí sbírat až při mrazu nejméně −7 °C, často v noci.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ledové_víno",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-115",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje japonská kvašená sójová pasta, základ stejnojmenné polévky?",
+    "answer": "Miso",
+    "accept": [
+      "misó",
+      "miso pasta"
+    ],
+    "fact": "Kvasí díky plísni kódži, stejné, jaká se používá při výrobě saké a sójové omáčky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Miso",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-116",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje dušená provensálská zelenina z lilku, cukety, paprik a rajčat?",
+    "answer": "Ratatouille",
+    "accept": [
+      "ratatuj",
+      "ratatui"
+    ],
+    "fact": "Pochází z Provence, hlavně z okolí Nice. Známá je i z animovaného filmu o kryse kuchaři.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Ratatouille",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-117",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje italský dezert ze smetany ztužené želatinou?",
+    "answer": "Panna cotta",
+    "accept": [
+      "pannacotta",
+      "pana cotta"
+    ],
+    "fact": "Jméno znamená „vařená smetana“, ale smetana se ve skutečnosti jen zahřeje, aby se v ní rozpustila želatina.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Panna_cotta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-118",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje japonský zelený čaj rozemletý na prášek?",
+    "answer": "Matcha",
+    "accept": [
+      "macha",
+      "matča",
+      "matcha čaj"
+    ],
+    "fact": "Při čajovém obřadu se s horkou vodou šlehá bambusovou metličkou.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Matcha",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-119",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje italský likér z citronových kůr?",
+    "answer": "Limoncello",
+    "accept": [
+      "limonchello"
+    ],
+    "fact": "Typický je pro pobřeží kolem Amalfi a pro ostrov Capri.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Limoncello",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-120",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje mexická placka z kukuřičné mouky?",
+    "answer": "Tortilla",
+    "accept": [
+      "tortila"
+    ],
+    "fact": "Kukuřice se pro ni namáčí ve vápenné vodě. Díky tomu je výživnější a těsto drží pohromadě.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Tortilla",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-121",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje východoevropská polévka z červené řepy?",
+    "answer": "Boršč",
+    "accept": [
+      "borsč",
+      "borščem"
+    ],
+    "fact": "Ukrajinská tradice vaření boršče je od roku 2022 na seznamu ohroženého nehmotného dědictví UNESCO.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Borscht",
+    "status": "verified"
   }
 ]

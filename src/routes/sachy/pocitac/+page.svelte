@@ -8,7 +8,7 @@
   import { createChessGame } from '#lib/games/chess/engine.ts';
 
   const AI_AVATAR: Record<AiLevel, string> = { 1: '🐣', 2: '🐰', 3: '🦊', 4: '🦡', 5: '🐺', 6: '🦉' };
-  const SUGGESTED: Record<string, AiLevel> = { piskoviste: 1, lavice: 2, hospoda: 4 };
+  const SUGGESTED: Record<string, AiLevel> = { kocarek: 1, piskoviste: 1, prvnacek: 1, lavice: 2, hospoda: 4 };
 
   let profiles = $state<Profile[]>([]);
   let player = $state<Picked | null>(null);

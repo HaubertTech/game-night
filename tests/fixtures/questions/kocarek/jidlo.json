@@ -1,0 +1,4 @@
+[
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "kocarek-jidlo-001", "level": "kocarek", "theme": "jidlo", "type": "point", "text": "Ukaž jablíčko.", "options": ["🍎 Jablíčko", "🍌 Banán"], "answer": "🍎 Jablíčko", "image": "🍎", "fact": "Testovací zajímavost K5."},
+  {"difficulty": 1, "source": "obecná znalost", "status": "verified", "id": "kocarek-jidlo-002", "level": "kocarek", "theme": "jidlo", "type": "imitate", "text": "Ukaž, jak papáš polévku.", "answer": "Lžící do pusy", "image": "🥣", "fact": "Testovací zajímavost K6."}
+]

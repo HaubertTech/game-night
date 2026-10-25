@@ -56,6 +56,9 @@ describe('validateAktivityFiles', () => {
       .map((n) => ({ path: n, content: readFileSync(join(dir, n), 'utf8') }));
     const report = validateAktivityFiles(files);
     expect(report.issues.filter((i) => i.severity === 'error')).toEqual([]);
-    expect(report.counts).toEqual({ hospoda: 300, lavice: 200, piskoviste: 100 });
+    // Data agents add kocarek/prvnacek cards over time; the original decks must stay full.
+    expect(report.counts.hospoda).toBeGreaterThanOrEqual(300);
+    expect(report.counts.lavice).toBeGreaterThanOrEqual(200);
+    expect(report.counts.piskoviste).toBeGreaterThanOrEqual(100);
   });
 });

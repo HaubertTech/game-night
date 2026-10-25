@@ -507,5 +507,1540 @@
     "difficulty": 1,
     "source": "https://cs.wikipedia.org/wiki/Jára_Cimrman",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-031",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který film Miloše Formana z roku 1967 se odehrává na plese hasičů?",
+    "options": [
+      "Hoří, má panenko",
+      "Lásky jedné plavovlásky",
+      "Černý Petr",
+      "Konkurs"
+    ],
+    "answer": "Hoří, má panenko",
+    "fact": "Většinu rolí hráli neherci, mezi nimi skuteční hasiči z Vrchlabí, kde se film natáčel. Film byl nominován na Oscara.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hoří,_má_panenko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-032",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo natočil film Marketa Lazarová?",
+    "options": [
+      "Karel Kachyňa",
+      "František Vláčil",
+      "Otakar Vávra",
+      "Juraj Herz"
+    ],
+    "answer": "František Vláčil",
+    "fact": "V anketě filmových kritiků z roku 1998 byla Marketa Lazarová zvolena nejvýznamnějším českým filmem století.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Marketa_Lazarová_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-033",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze sbírky povídek kterého autora vychází film Pelíšky?",
+    "options": [
+      "Bohumila Hrabala",
+      "Michala Viewegha",
+      "Petra Šabacha",
+      "Zdeňka Svěráka"
+    ],
+    "answer": "Petra Šabacha",
+    "fact": "Předlohou byla Šabachova sbírka Hovno hoří z roku 1994. Šabach spolupracoval s Janem Hřebejkem i na filmech Šakalí léta a Pupendo.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pelíšky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-034",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo nakreslil Maxipsa Fíka?",
+    "options": [
+      "Zdeněk Smetana",
+      "Adolf Born",
+      "Radek Pilař",
+      "Jiří Šalamoun"
+    ],
+    "answer": "Jiří Šalamoun",
+    "fact": "Příběhy napsal Rudolf Čechura. Šalamoun nakreslil i ilustrace k prvnímu českému vydání Tolkienova Hobita z roku 1979.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Jiří_Šalamoun",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-035",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil hudbu k pohádce Tři oříšky pro Popelku?",
+    "options": [
+      "Karel Svoboda",
+      "Jaroslav Uhlíř",
+      "Zdeněk Liška",
+      "Petr Hapka"
+    ],
+    "answer": "Karel Svoboda",
+    "fact": "Svoboda napsal i Lady Carneval a znělku seriálu Včelka Mája, díky které byl populární v západním Německu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Karel_Svoboda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-036",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje princezna z říše pohádek, která se v seriálu Václava Vorlíčka zamiluje do obyčejného kluka?",
+    "options": [
+      "Zlatovláska",
+      "Arabela",
+      "Majka",
+      "Jůlie"
+    ],
+    "answer": "Arabela",
+    "fact": "Seriál vznikl v roce 1979. Pokračování Arabela se vrací z roku 1990 už natáčeli s Miroslavou Šafránkovou v hlavní roli.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Arabela",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-037",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo jako první nazpíval píseň Holubí dům?",
+    "options": [
+      "Karel Gott",
+      "Václav Neckář",
+      "Jiří Schelinger",
+      "Waldemar Matuška"
+    ],
+    "answer": "Jiří Schelinger",
+    "fact": "Hudbu složil Jaroslav Uhlíř a text Zdeněk Svěrák, který se podepsal pseudonymem Emil Synek.",
+    "difficulty": 2,
+    "source": "https://www.teraz.sk/magazin/nezabudnutelny-spevak-jiri-scheling/532629-clanok.html",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-038",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje symfonická báseň z cyklu Má vlast, inspirovaná pověstí o dívčí válce?",
+    "options": [
+      "Vyšehrad",
+      "Tábor",
+      "Blaník",
+      "Šárka"
+    ],
+    "answer": "Šárka",
+    "fact": "Šárka se nechá přivázat ke stromu a vyláká k sobě Ctirada. Ve skladbě zazní i lesní roh, kterým pak přivolá ukryté dívky.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Šárka_(symfonická_báseň)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-039",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Která píseň Karla Kryla dala jméno jeho první desce z roku 1969?",
+    "options": [
+      "Bratříčku, zavírej vrátka",
+      "Anděl",
+      "Morituri te salutant",
+      "Veličenstvo kat"
+    ],
+    "answer": "Bratříčku, zavírej vrátka",
+    "fact": "Deska vyšla v březnu 1969. Na podzim téhož roku Kryl emigroval a deska na dvacet let zmizela z obchodů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bratříčku,_zavírej_vrátka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-040",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Která píseň Marty Kubišové se po roce 1968 stala symbolem odporu?",
+    "options": [
+      "Tajemství",
+      "Modlitba pro Martu",
+      "Hej, Jude",
+      "Lampa"
+    ],
+    "answer": "Modlitba pro Martu",
+    "fact": "V listopadu 1989 ji Kubišová po téměř dvaceti letech zákazu zazpívala z balkonu Melantrichu na Václavském náměstí.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Modlitba_pro_Martu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-041",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze které země pochází skupina ABBA?",
+    "options": [
+      "Z Norska",
+      "Z Dánska",
+      "Ze Švédska",
+      "Z Finska"
+    ],
+    "answer": "Ze Švédska",
+    "fact": "Do světa ji vystřelilo vítězství v Eurovizi 1974 s písní Waterloo. Jméno skupiny tvoří první písmena křestních jmen všech čtyř členů.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/ABBA",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-042",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil cyklus houslových koncertů Čtvero ročních období?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Georg Friedrich Händel",
+      "Arcangelo Corelli",
+      "Antonio Vivaldi"
+    ],
+    "answer": "Antonio Vivaldi",
+    "fact": "Vivaldi byl vysvěcený kněz a kvůli barvě vlasů mu v Benátkách říkali „rudovlasý kněz“.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Antonio_Vivaldi",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-043",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze které Beethovenovy symfonie pochází Óda na radost, hymna Evropské unie?",
+    "options": [
+      "Z Deváté",
+      "Z Páté",
+      "Ze Třetí",
+      "Ze Šesté"
+    ],
+    "answer": "Z Deváté",
+    "fact": "Při premiéře v roce 1824 byl Beethoven skoro hluchý. Potlesk uviděl, až když ho zpěvačka otočila čelem k publiku.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-044",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo režíroval filmy Čelisti a E.T. – Mimozemšťan?",
+    "options": [
+      "George Lucas",
+      "Steven Spielberg",
+      "Francis Ford Coppola",
+      "James Cameron"
+    ],
+    "answer": "Steven Spielberg",
+    "fact": "Mechanický žralok se při natáčení Čelistí neustále porouchal, a tak je ve filmu vidět málo. Napětí to paradoxně zvýšilo.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Jaws_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-045",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve kterém městě se odehrává muzikál West Side Story?",
+    "options": [
+      "V Chicagu",
+      "V Los Angeles",
+      "V New Yorku",
+      "V Bostonu"
+    ],
+    "answer": "V New Yorku",
+    "fact": "Je to Romeo a Julie v nových kulisách: místo Monteků a Kapuletů spolu bojují pouliční gangy Jets a Sharks.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/West_Side_Story",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-046",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operu Carmen?",
+    "options": [
+      "Giuseppe Verdi",
+      "Jules Massenet",
+      "Giacomo Puccini",
+      "Georges Bizet"
+    ],
+    "answer": "Georges Bizet",
+    "fact": "Premiéra v roce 1875 se nesetkala s úspěchem. Bizet o tři měsíce později zemřel a slávy své opery se nedočkal.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Carmen",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-047",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo proslavil píseň Non, je ne regrette rien?",
+    "options": [
+      "Édith Piaf",
+      "Juliette Gréco",
+      "Dalida",
+      "Mireille Mathieu"
+    ],
+    "answer": "Édith Piaf",
+    "fact": "Piaf ji nahrála v roce 1960 a věnovala ji francouzské Cizinecké legii.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Non,_je_ne_regrette_rien",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-048",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje první celovečerní film studia Pixar?",
+    "options": [
+      "Hledá se Nemo",
+      "Toy Story",
+      "Auta",
+      "Příšerky s.r.o."
+    ],
+    "answer": "Toy Story",
+    "fact": "Toy Story z roku 1995 byl vůbec první celovečerní film vytvořený celý na počítači.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Toy_Story",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-049",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jakou barvu mají Dorotčiny kouzelné střevíčky ve filmu Čaroděj ze země Oz z roku 1939?",
+    "options": [
+      "Stříbrnou",
+      "Zlatou",
+      "Rubínovou",
+      "Smaragdovou"
+    ],
+    "answer": "Rubínovou",
+    "fact": "V knize L. Franka Bauma jsou střevíčky stříbrné. Filmaři je přebarvili, aby vynikly v barevném Technicoloru.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Ruby_slippers",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-050",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil Bolero, v němž se celou dobu opakuje stejná melodie a jen sílí?",
+    "options": [
+      "Claude Debussy",
+      "Camille Saint-Saëns",
+      "Erik Satie",
+      "Maurice Ravel"
+    ],
+    "answer": "Maurice Ravel",
+    "fact": "Ravel ho sám nazval „orchestrální tkání bez hudby“ a čekal, že ho orchestry odmítnou hrát. Stal se z něj jeho nejslavnější kus.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Boléro",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-051",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Podle čí písně si dali jméno The Rolling Stones?",
+    "options": [
+      "Podle Muddyho Waterse",
+      "Podle Chucka Berryho",
+      "Podle Elvise Presleyho",
+      "Podle Boba Dylana"
+    ],
+    "answer": "Podle Muddyho Waterse",
+    "fact": "Brian Jones prý jméno vymyslel do telefonu, když se ho novinář zeptal na název kapely. Na zemi zrovna ležela deska Muddyho Waterse s písní Rollin' Stone.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-052",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze kterého města pochází tanec tango?",
+    "options": [
+      "Z Madridu",
+      "Z Buenos Aires",
+      "Z Rio de Janeira",
+      "Z Havany"
+    ],
+    "answer": "Z Buenos Aires",
+    "fact": "Tango vzniklo koncem 19. století v přístavních čtvrtích Buenos Aires a Montevidea. Od roku 2009 je na seznamu UNESCO.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Tango",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-053",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce měla v pražském Stavovském divadle premiéru Mozartova opera Don Giovanni?",
+    "answer": 1787,
+    "unit": "rok",
+    "fact": "Mozart ji napsal přímo na objednávku pražské opery, protože Pražané nadšeně přijali jeho Figarovu svatbu.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Don_Giovanni",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-054",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce měl premiéru první film Hvězdné války (Nová naděje)?",
+    "answer": 1977,
+    "unit": "rok",
+    "fact": "Studio filmu moc nevěřilo, a tak si George Lucas místo vyššího honoráře vyjednal práva na pokračování a hračky.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-055",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce přišel do kin první film s Jamesem Bondem, Dr. No?",
+    "answer": 1962,
+    "unit": "rok",
+    "fact": "Bonda hrál Sean Connery. Ikonickou znělku Bondových filmů složil Monty Norman a zazněla už v tomto prvním dílu.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Dr._No_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-056",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce se poprvé konal filmový festival, ze kterého vznikl MFF Karlovy Vary?",
+    "answer": 1946,
+    "unit": "rok",
+    "fact": "První ročník byl nesoutěžní a promítalo se zčásti v Mariánských Lázních. Soutěž přibyla v roce 1948.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Karlovy_Vary_International_Film_Festival",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-057",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje nápoj, který propaguje Limonádový Joe?",
+    "answer": "Kolaloka",
+    "accept": [
+      "kola-loka",
+      "kola loka"
+    ],
+    "fact": "Film Oldřicha Lipského z roku 1964 paroduje americké westerny. Předlohou byla kniha Jiřího Brdečky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Limonádový_Joe_aneb_Koňská_opera",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-058",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jaký kouzelný předmět mají Mach a Šebestová?",
+    "answer": "Sluchátko",
+    "accept": [
+      "telefonní sluchátko",
+      "kouzelné sluchátko"
+    ],
+    "fact": "Sluchátko dostali od starého pána, kterému pomohli hledat ztracené brýle. Postavy vymysleli Miloš Macourek a Adolf Born.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mach_a_Šebestová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-059",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje tichý kouzelník s buřinkou z dětského seriálu, kterého hrál Otto Šimánek?",
+    "answer": "Pan Tau",
+    "accept": [
+      "pan tau",
+      "Tau"
+    ],
+    "fact": "Pan Tau nikdy nepromluví. Seriál vznikl v koprodukci se západoněmeckou televizí WDR.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pan_Tau",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-060",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Kdo složil Českou mši vánoční „Hej, mistře“?",
+    "answer": "Jakub Jan Ryba",
+    "accept": [
+      "Ryba",
+      "J. J. Ryba"
+    ],
+    "fact": "Ryba ji napsal v roce 1796 jako učitel v Rožmitále pod Třemšínem, kde působil až do smrti.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jakub_Jan_Ryba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-061",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo režíroval film Obecná škola z roku 1991?",
+    "options": [
+      "Jiří Menzel",
+      "Jan Svěrák",
+      "Karel Kachyňa",
+      "Věra Chytilová"
+    ],
+    "answer": "Jan Svěrák",
+    "fact": "Film byl nominován na Oscara za nejlepší cizojazyčný film. Scénář napsal režisérův otec Zdeněk Svěrák podle vlastních vzpomínek na dětství.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Obecná_škola_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-062",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo ve filmu Vesničko má středisková hraje závozníka Otíka?",
+    "options": [
+      "Marián Labuda",
+      "Petr Čepek",
+      "János Bán",
+      "Rudolf Hrušínský"
+    ],
+    "answer": "János Bán",
+    "fact": "Maďarský herec János Bán za roli Otíka Rákosníka dostal cenu pro nejlepšího herce na festivalu v Paříži. Film byl v roce 1987 nominován na Oscara.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Vesničko_má_středisková",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-063",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve kterém filmu Jiřího Menzela vyleze Maryška se švagrem Pepinem na komín pivovaru?",
+    "options": [
+      "Postřižiny",
+      "Rozmarné léto",
+      "Slavnosti sněženek",
+      "Vesničko má středisková"
+    ],
+    "answer": "Postřižiny",
+    "fact": "Film podle Bohumila Hrabala se natáčel hlavně v pivovaru v Dalešicích. Hrabal sám jako kluk žil v pivovarech v Polné a v Nymburce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Postřižiny_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-064",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze které země pocházejí kreslení kluci Bolek a Lolek?",
+    "options": [
+      "Z Maďarska",
+      "Z Ruska",
+      "Z Bulharska",
+      "Z Polska"
+    ],
+    "answer": "Z Polska",
+    "fact": "Seriál vznikal od roku 1963 ve studiu kreslených filmů v Bílsku-Bělé. U nás se nejdřív vysílal jako Večerníček.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bolek_a_Lolek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-065",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo natočil loutkový film Staré pověsti české z roku 1953?",
+    "options": [
+      "Karel Zeman",
+      "Jiří Trnka",
+      "Břetislav Pojar",
+      "Hermína Týrlová"
+    ],
+    "answer": "Jiří Trnka",
+    "fact": "Trnka ilustroval přes sto knih a v roce 1968 dostal jako první Čech Cenu Hanse Christiana Andersena za ilustraci.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jiří_Trnka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-066",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který režisér natočil podle Julese Verna film Vynález zkázy?",
+    "options": [
+      "Jiří Trnka",
+      "Oldřich Lipský",
+      "Karel Zeman",
+      "Václav Vorlíček"
+    ],
+    "answer": "Karel Zeman",
+    "fact": "Zeman v něm spojil živé herce s kulisami, které napodobují rytiny z původních vydání Verneových knih.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vynález_zkázy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-067",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo nazpíval píseň Jožin z bažin?",
+    "options": [
+      "Pavel Bobek",
+      "Michal Tučný",
+      "Karel Zich",
+      "Ivan Mládek"
+    ],
+    "answer": "Ivan Mládek",
+    "fact": "Píseň vznikla v roce 1977. Po více než třiceti letech se nečekaně stala hitem v Polsku.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jožin_z_bažin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-068",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo proslavil píseň Slavíci z Madridu?",
+    "options": [
+      "Waldemar Matuška",
+      "Karel Gott",
+      "Václav Neckář",
+      "Pavel Bobek"
+    ],
+    "answer": "Waldemar Matuška",
+    "fact": "Matuška v roce 1986 emigroval do USA a zemřel v roce 2009 na Floridě.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Waldemar_Matuška",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-069",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který smyčcový nástroj je největší a hraje nejhlouběji?",
+    "options": [
+      "Violoncello",
+      "Viola",
+      "Kontrabas",
+      "Viola da gamba"
+    ],
+    "answer": "Kontrabas",
+    "fact": "Kontrabas se na rozdíl od houslí, violy a violoncella ladí po kvartách, ne po kvintách.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kontrabas",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-070",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Do které skupiny nástrojů patří saxofon, přestože je z kovu?",
+    "options": [
+      "Dřevěné dechové",
+      "Žesťové",
+      "Bicí",
+      "Klávesové"
+    ],
+    "answer": "Dřevěné dechové",
+    "fact": "Tón v něm rozechvívá rákosový plátek jako u klarinetu. Nástroj si v roce 1846 patentoval Belgičan Adolphe Sax.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Saxofon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-071",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který lidový nástroj s měchem patří neodmyslitelně k Chodsku?",
+    "options": [
+      "Harmonika",
+      "Cimbál",
+      "Niněra",
+      "Dudy"
+    ],
+    "answer": "Dudy",
+    "fact": "Ve Strakonicích se od roku 1967 koná Mezinárodní dudácký festival.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Dudy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-072",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo kolem roku 1700 ve Florencii sestrojil první klavír?",
+    "options": [
+      "Antonio Stradivari",
+      "Bartolomeo Cristofori",
+      "Johann Sebastian Bach",
+      "Ignaz Pleyel"
+    ],
+    "answer": "Bartolomeo Cristofori",
+    "fact": "Na rozdíl od cembala, kde struny drnká brk, u klavíru do strun tlučou kladívka. Proto na něj jde hrát slabě i silně.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Bartolomeo_Cristofori",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-073",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na který nástroj se hraje bez dotyku, jen pohybem rukou ve vzduchu?",
+    "options": [
+      "Glasharmonika",
+      "Vibrafon",
+      "Theremin",
+      "Celesta"
+    ],
+    "answer": "Theremin",
+    "fact": "Vynalezl ho kolem roku 1920 ruský fyzik Lev Těrmen. Jeho kvílivý zvuk zní v mnoha starých sci-fi filmech.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Theremin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-074",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Odkud pochází malá čtyřstrunná kytara ukulele?",
+    "options": [
+      "Z Mexika",
+      "Z Brazílie",
+      "Z Kuby",
+      "Z Havaje"
+    ],
+    "answer": "Z Havaje",
+    "fact": "Vychází z malého nástroje, který na Havaj přivezli portugalští přistěhovalci z Madeiry v roce 1879.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ukulele",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-075",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik strun má ruská balalajka?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "fact": "Pozná se podle trojúhelníkového těla. Vyrábí se v několika velikostech od malé balalajky prim až po kontrabasovou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Balalajka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-076",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ze které země pochází dechový nástroj didgeridoo?",
+    "options": [
+      "Z Nového Zélandu",
+      "Z Indonésie",
+      "Z Austrálie",
+      "Z Peru"
+    ],
+    "answer": "Z Austrálie",
+    "fact": "Tradičně se vyrábí z větve eukalyptu, kterou zevnitř vyžrali termiti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Didgeridoo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-077",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje slovenský pastýřský nástroj, dlouhý skoro dva metry, který je na seznamu UNESCO?",
+    "options": [
+      "Konkovka",
+      "Fujara",
+      "Gajdy",
+      "Píšťala koncovka"
+    ],
+    "answer": "Fujara",
+    "fact": "Přes svou délku má fujara jen tři dírky. Hrávali na ni pastýři ovcí na Podpoľaní kolem Detvy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Fujara",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-078",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil Malou noční hudbu?",
+    "options": [
+      "Joseph Haydn",
+      "Ludwig van Beethoven",
+      "Franz Schubert",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "answer": "Wolfgang Amadeus Mozart",
+    "fact": "Za Mozartova života nikdy nevyšla. Vydali ji až v roce 1827, víc než třicet let po jeho smrti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Malá_noční_hudba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-079",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil hudbu k baletu Labutí jezero?",
+    "options": [
+      "Petr Iljič Čajkovskij",
+      "Sergej Prokofjev",
+      "Igor Stravinskij",
+      "Modest Musorgskij"
+    ],
+    "answer": "Petr Iljič Čajkovskij",
+    "fact": "Premiéra v Moskvě v roce 1877 propadla. Slávu balet získal až v nové choreografii z roku 1895, kdy už byl Čajkovskij po smrti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Labutí_jezero",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-080",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operu Aida?",
+    "options": [
+      "Giacomo Puccini",
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Vincenzo Bellini"
+    ],
+    "answer": "Giuseppe Verdi",
+    "fact": "Verdi ji napsal na objednávku z Egypta a premiéru měla v roce 1871 v Káhiře.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Aida",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-081",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil Rhapsody in Blue?",
+    "options": [
+      "Leonard Bernstein",
+      "Duke Ellington",
+      "George Gershwin",
+      "Cole Porter"
+    ],
+    "answer": "George Gershwin",
+    "fact": "Slavné úvodní klouzavé glissando klarinetu prý vzniklo na zkoušce, když ho klarinetista Ross Gorman zahrál z legrace.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-082",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který český skladatel prožil dětství ve věži kostela v Poličce?",
+    "options": [
+      "Leoš Janáček",
+      "Josef Suk",
+      "Zdeněk Fibich",
+      "Bohuslav Martinů"
+    ],
+    "answer": "Bohuslav Martinů",
+    "fact": "Jeho otec byl pověžným a měl hlídat, jestli ve městě nehoří. Martinů ve věži bydlel prvních jedenáct let života.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bohuslav_Martinů",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-083",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operu Lazebník sevillský?",
+    "options": [
+      "Gioachino Rossini",
+      "Wolfgang Amadeus Mozart",
+      "Gaetano Donizetti",
+      "Giuseppe Verdi"
+    ],
+    "answer": "Gioachino Rossini",
+    "fact": "Rossini operu napsal za necelé tři týdny. Bylo mu tehdy teprve 23 let.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Lazebník_sevillský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-084",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil varhanní Toccatu a fugu d moll?",
+    "options": [
+      "Georg Friedrich Händel",
+      "Johann Sebastian Bach",
+      "Antonio Vivaldi",
+      "Dietrich Buxtehude"
+    ],
+    "answer": "Johann Sebastian Bach",
+    "fact": "Bach měl ze dvou manželství dvacet dětí, ale dospělosti se dožila jen asi polovina.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Johann_Sebastian_Bach",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-085",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kde je uložené srdce Fryderyka Chopina?",
+    "options": [
+      "V Paříži",
+      "Ve Vídni",
+      "V Krakově",
+      "Ve Varšavě"
+    ],
+    "answer": "Ve Varšavě",
+    "fact": "Chopin je pohřbený na pařížském hřbitově Père-Lachaise. Srdce si přál převézt domů a jeho sestra ho propašovala do Varšavy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Fryderyk_Chopin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-086",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který skladatel napsal pro anglického krále Hudbu k ohňostroji?",
+    "options": [
+      "Henry Purcell",
+      "Joseph Haydn",
+      "Georg Friedrich Händel",
+      "Johann Sebastian Bach"
+    ],
+    "answer": "Georg Friedrich Händel",
+    "fact": "Na veřejnou zkoušku v roce 1749 přišlo tolik lidí, že se na Londýnském mostě udělala tříhodinová zácpa kočárů.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Music_for_the_Royal_Fireworks",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-087",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo natočil film Psycho z roku 1960?",
+    "options": [
+      "Orson Welles",
+      "Alfred Hitchcock",
+      "Billy Wilder",
+      "Stanley Kubrick"
+    ],
+    "answer": "Alfred Hitchcock",
+    "fact": "Hitchcock skoupil co nejvíc výtisků knižní předlohy, aby diváci předem neznali konec.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-088",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo hraje majitele baru Ricka ve filmu Casablanca?",
+    "options": [
+      "Clark Gable",
+      "Cary Grant",
+      "James Stewart",
+      "Humphrey Bogart"
+    ],
+    "answer": "Humphrey Bogart",
+    "fact": "Slavná věta „Zahraj to znovu, Same“ v tomhle znění ve filmu vůbec nezazní.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Casablanca_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-089",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve kterém filmu se Charlie Chaplin zamotá do ozubených kol obrovského stroje?",
+    "options": [
+      "Světla velkoměsta",
+      "Moderní doba",
+      "Diktátor",
+      "Zlaté opojení"
+    ],
+    "answer": "Moderní doba",
+    "fact": "Je to poslední film s Tulákem. Chaplinův hlas v něm zazní poprvé, a to v písničce zpívané nesmyslnou směsí slov.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Modern_Times_(film)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-090",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který film z roku 1927 je považován za první celovečerní zvukový film?",
+    "options": [
+      "Metropolis",
+      "Zpívání v dešti",
+      "Jazzový zpěvák",
+      "Čaroděj ze země Oz"
+    ],
+    "answer": "Jazzový zpěvák",
+    "fact": "Mluvených a zpívaných scén má jen pár minut. Většina filmu je pořád němá s titulky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jazzový_zpěvák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-091",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který film získal stejně jako Ben Hur a Titanic jedenáct Oscarů?",
+    "options": [
+      "Forrest Gump",
+      "Kmotr",
+      "Gladiátor",
+      "Pán prstenů: Návrat krále"
+    ],
+    "answer": "Pán prstenů: Návrat krále",
+    "fact": "Vyhrál ve všech jedenácti kategoriích, ve kterých byl nominován.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pán_prstenů:_Návrat_krále",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-092",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal román Tři mušketýři?",
+    "options": [
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Jules Verne",
+      "Honoré de Balzac"
+    ],
+    "answer": "Alexandre Dumas",
+    "fact": "Dumasův otec byl generál francouzské armády a syn otrokyně z Haiti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Alexandre_Dumas_starší",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-093",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal román Bídníci?",
+    "options": [
+      "Émile Zola",
+      "Gustave Flaubert",
+      "Victor Hugo",
+      "Stendhal"
+    ],
+    "answer": "Victor Hugo",
+    "fact": "Hugo na románu pracoval s přestávkami skoro dvacet let. Dokončil ho v exilu na ostrově Guernsey.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bídníci",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-094",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Odkud pochází hrabě Drákula v románu Brama Stokera?",
+    "options": [
+      "Z Bavorska",
+      "Z Transylvánie",
+      "Z Haliče",
+      "Ze Slezska"
+    ],
+    "answer": "Z Transylvánie",
+    "fact": "Stoker v Transylvánii nikdy nebyl. Kraj popsal podle cestopisů a map z londýnských knihoven.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Dracula",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-095",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal Pinocchiova dobrodružství?",
+    "options": [
+      "Gianni Rodari",
+      "Hans Christian Andersen",
+      "Edmondo De Amicis",
+      "Carlo Collodi"
+    ],
+    "answer": "Carlo Collodi",
+    "fact": "Příběh vycházel na pokračování v dětském časopise a původně skončil Pinocchiovou smrtí. Na přání čtenářů ho Collodi psal dál.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pinocchiova_dobrodružství",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-096",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve které Shakespearově hře zazní „Být, či nebýt“?",
+    "options": [
+      "Macbeth",
+      "Král Lear",
+      "Hamlet",
+      "Othello"
+    ],
+    "answer": "Hamlet",
+    "fact": "Hamlet je nejdelší Shakespearova hra. Uvedená celá by trvala přes čtyři hodiny.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Hamlet",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-097",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Která Pucciniho opera se odehrává v Japonsku?",
+    "options": [
+      "Tosca",
+      "Madama Butterfly",
+      "Turandot",
+      "Bohéma"
+    ],
+    "answer": "Madama Butterfly",
+    "fact": "Premiéra v Miláně v roce 1904 propadla. Puccini operu přepracoval a o tři měsíce později v Brescii slavila úspěch.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Madama_Butterfly",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-098",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operní cyklus Prsten Nibelungův?",
+    "options": [
+      "Richard Strauss",
+      "Carl Maria von Weber",
+      "Gustav Mahler",
+      "Richard Wagner"
+    ],
+    "answer": "Richard Wagner",
+    "fact": "Celý cyklus čtyř oper trvá asi patnáct hodin. Wagner pro něj nechal postavit vlastní divadlo v Bayreuthu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Prsten_Nibelungův",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-099",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil hudbu k písni Kde domov můj?",
+    "options": [
+      "František Škroup",
+      "Bedřich Smetana",
+      "Josef Kajetán Tyl",
+      "Jakub Jan Ryba"
+    ],
+    "answer": "František Škroup",
+    "fact": "Text napsal Josef Kajetán Tyl. Ve hře Fidlovačka píseň zpívá slepý houslista Mareš.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kde_domov_můj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-100",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve kterém filmu Věry Chytilové dovádějí dvě dívky, obě jménem Marie?",
+    "options": [
+      "Hra o jablko",
+      "Panelstory",
+      "Sedmikrásky",
+      "Ovoce stromů rajských jíme"
+    ],
+    "answer": "Sedmikrásky",
+    "fact": "Po premiéře se film dostal až do parlamentu: poslanec Jaroslav Pružinec v interpelaci žádal jeho stažení z kin.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Sedmikrásky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-101",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo režíroval film Na samotě u lesa?",
+    "options": [
+      "Ladislav Smoljak",
+      "Jiří Menzel",
+      "Jan Svěrák",
+      "Oldřich Lipský"
+    ],
+    "answer": "Jiří Menzel",
+    "fact": "Svérázného dědu Komárka, který se z chalupy pořád nechce odstěhovat, hraje Josef Kemr.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Na_samotě_u_lesa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-102",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal scénáře seriálů Nemocnice na kraji města a Žena za pultem?",
+    "options": [
+      "Zdeněk Svěrák",
+      "Miloš Macourek",
+      "Jaroslav Dietl",
+      "Ota Hofman"
+    ],
+    "answer": "Jaroslav Dietl",
+    "fact": "Dietl jako první u nás vytvořil žánr rodinného seriálu. Nemocnice na kraji města se vysílala ve 21 zemích a slavila úspěch hlavně v Německu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jaroslav_Dietl",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-103",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Pro kterého berlínského nakladatele napsal Dvořák Slovanské tance?",
+    "options": [
+      "Breitkopf",
+      "Simrock",
+      "Schott",
+      "Peters"
+    ],
+    "answer": "Simrock",
+    "fact": "Nakladateli Fritzi Simrockovi Dvořáka doporučil Johannes Brahms. Inspirací byly Brahmsovy Uherské tance.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Slovanské_tance",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-104",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve kterém filmu Václava Vorlíčka se pražští vodníci brání vystěhování ze starého domu?",
+    "options": [
+      "Dívka na koštěti",
+      "Pane, vy jste vdova!",
+      "Což takhle dát si špenát",
+      "Jak utopit dr. Mráčka aneb Konec vodníků v Čechách"
+    ],
+    "answer": "Jak utopit dr. Mráčka aneb Konec vodníků v Čechách",
+    "fact": "Scénář napsal Miloš Macourek, se kterým Vorlíček natočil i Arabelu nebo Dívku na koštěti.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jak_utopit_dr._Mráčka_aneb_Konec_vodníků_v_Čechách",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-105",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "Kolik let bylo Mozartovi, když zemřel?",
+    "answer": 35,
+    "unit": "let",
+    "fact": "Rekviem, na kterém pracoval do posledních dní, dokončil jeho žák Franz Xaver Süssmayr.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-106",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "Kolik strun má koncertní harfa?",
+    "answer": 47,
+    "unit": "strun",
+    "fact": "Struny tónu c jsou obarvené červeně a struny tónu f černě nebo modře, aby se v nich harfenista vyznal.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Harfa",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-107",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce uspořádali bratři Lumièrové v Paříži první veřejné placené promítání filmu?",
+    "answer": 1895,
+    "unit": "rok",
+    "fact": "Promítalo se 28. prosince v suterénu pařížské Grand Café. Jeden z deseti krátkých filmů ukazoval dělníky odcházející z jejich továrny.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bratři_Lumièrové",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-108",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce se poprvé předávaly Oscary?",
+    "answer": 1929,
+    "unit": "rok",
+    "fact": "Ceremoniál trval asi patnáct minut a vítězové byli známí už tři měsíce předem.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Oscar",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-109",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce zemřel Antonín Dvořák?",
+    "answer": 1904,
+    "unit": "rok",
+    "fact": "Zemřel 1. května v Praze a je pohřbený na Vyšehradském hřbitově.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Antonín_Dvořák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-110",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "Kolik oper dokončil Bedřich Smetana?",
+    "answer": 8,
+    "unit": "oper",
+    "fact": "Poslední dokončená opera, Čertova stěna, měla premiéru v roce 1882. Rozepsanou Violu už Smetana nedokončil.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bedřich_Smetana",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-111",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce se konal hudební festival Woodstock?",
+    "answer": 1969,
+    "unit": "rok",
+    "fact": "Na farmu u městečka Bethel přišlo kolem 400 tisíc lidí. Ve Woodstocku samotném se festival vůbec nekonal.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Woodstock",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-112",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "estimate",
+    "text": "V jakém roce vyšla píseň Bohemian Rhapsody skupiny Queen?",
+    "answer": 1975,
+    "unit": "rok",
+    "fact": "Rádia ji zpočátku nechtěla hrát kvůli délce. Prosadil ji londýnský DJ Kenny Everett, který ji za dva dny pustil čtrnáctkrát.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Bohemian_Rhapsody",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-113",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje americký detektiv, který ve filmu Adéla ještě nevečeřela pátrá v Praze?",
+    "answer": "Nick Carter",
+    "accept": [
+      "Carter",
+      "Nick Cartr"
+    ],
+    "fact": "Masožravou rostlinu Adélu vymyslel a animoval Jan Švankmajer, který byl tehdy u režimu v nemilosti.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Adéla_ještě_nevečeřela",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-114",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje malá čarodějnice z filmu Dívka na koštěti?",
+    "answer": "Saxana",
+    "accept": [
+      "Saxána"
+    ],
+    "fact": "Hrála ji Petra Černocká. Na film v roce 2011 navázalo pokračování Saxána a Lexikon kouzel.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dívka_na_koštěti",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-115",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje divadlo, které v roce 1959 založili Jiří Suchý a Jiří Šlitr?",
+    "answer": "Semafor",
+    "accept": [
+      "Divadlo Semafor"
+    ],
+    "fact": "Název je zkratka slov SEdm MAlých FORem: divadlo mělo spojovat písničky, poezii, jazz, film a další žánry.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Divadlo_Semafor",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-116",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jak se jmenuje kapitán, který v Melvillově románu pronásleduje bílou velrybu Moby Dicka?",
+    "answer": "Achab",
+    "accept": [
+      "Ahab",
+      "kapitán Achab"
+    ],
+    "fact": "Předlohou velryby byl skutečný bílý vorvaň, kterého velrybáři v 19. století marně lovili u ostrova Mocha u Chile.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bílá_velryba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-117",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Na které londýnské ulici bydlí Sherlock Holmes?",
+    "answer": "Baker Street",
+    "accept": [
+      "Baker Street 221B",
+      "Bakerova ulice"
+    ],
+    "fact": "Číslo 221B v době psaní povídek neexistovalo, tak daleko ulice nesahala. Dnes je na té adrese Holmesovo muzeum.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Baker_Street",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-118",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Ke které všední věci přirovná princezna Maruška ve filmu Byl jednou jeden král… lásku k otci?",
+    "answer": "Sůl",
+    "accept": [
+      "Solí",
+      "Sůl nad zlato"
+    ],
+    "fact": "Krále ve filmu Bořivoje Zemana z roku 1954 hraje Jan Werich. Pohádku zapsala Božena Němcová pod názvem Sůl nad zlato.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Byl_jednou_jeden_král…",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-119",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Jakým italským výrazem se v notách označuje „velmi potichu“?",
+    "answer": "Pianissimo",
+    "accept": [
+      "pp",
+      "pianisimo"
+    ],
+    "fact": "Opakem je fortissimo. Někteří skladatelé, třeba Čajkovskij, psali do not i pět nebo šest písmen p za sebou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dynamika_(hudba)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-pohadky-film-hudba-120",
+    "level": "hospoda",
+    "theme": "pohadky-film-hudba",
+    "type": "open",
+    "text": "Na jaký nástroj hrál Jimi Hendrix?",
+    "answer": "Kytara",
+    "accept": [
+      "Elektrická kytara",
+      "elektrickou kytaru",
+      "kytaru"
+    ],
+    "fact": "Byl levák a často hrál na kytaru pro praváky otočenou vzhůru nohama.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Jimi_Hendrix",
+    "status": "verified"
   }
 ]

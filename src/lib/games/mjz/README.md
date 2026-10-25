@@ -34,8 +34,10 @@ obrazovka, řeší `view.ts`, nápověda pro hodnocení `hints.ts` + `data/mjz/h
 | Úroveň | Výchozí pravidlo |
 |---|---|
 | hospoda (dospělí) | základní čas |
-| lavice (1. stupeň) | +30 s; volitelně méně kategorií (`levelRules.lavice.categoryIds`) |
+| lavice (2.–5. třída) | +30 s; volitelně méně kategorií (`levelRules.lavice.categoryIds`) |
+| prvnacek (1. třída) | +60 s; píše jen dětské kategorie, které zvolená sada obsahuje; hostitel smí psát za něj (`assisted`) |
 | piskoviste (předškoláci) | +60 s; nepíšou sami — list za ně vyplní dospělý (hostitel smí psát za `assisted` hráče) |
+| kocarek (2–3 roky) | nehraje sám (`MJZ_LEVELS`) — sedí u dospělého jako pomocník; server místnost s ním odmítne |
 
 ## Platnost odpovědi
 
@@ -59,7 +61,7 @@ obrazovka, řeší `view.ts`, nápověda pro hodnocení `hints.ts` + `data/mjz/h
 | prázdná nebo neplatná | 0 |
 
 Shoda se porovnává bez diakritiky, velikosti písmen, mezer a pomlček („Ústí nad Labem“ =
-„usti nad labem“). Volitelný **dětský bonus** (`kidsBonus`): hráčům lavice se body za kolo
+„usti nad labem“). Volitelný **dětský bonus** (`kidsBonus`): hráčům úrovně prvnacek a lavice se body za kolo
 násobí 1,5 a zaokrouhlí nahoru.
 
 ## Akce

@@ -2,7 +2,11 @@
   import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import { THEME_ART } from '#lib/ui/art/art.ts';
   import type { PublicQuestion } from '../../live/protocol.ts';
-  import { THEME_LABELS } from '../../types.ts';
+  import { LEVEL_LABELS, LEVEL_READER, THEME_LABELS, isChildLevel } from '../../types.ts';
+  import { IMITATE_DONE, IMITATE_FAILED } from '../../engine/live.ts';
+  import { LEVEL_EMOJI } from '../labels.ts';
+  import Pic from '../art/Pic.svelte';
+  import QuestionImage from '../QuestionImage.svelte';
   import { splitEmoji } from './view-helpers.ts';
 
   let {
@@ -23,7 +27,9 @@
 
   let estimate = $state('');
   let open = $state('');
-  const kids = $derived(question.level === 'piskoviste');
+  const kids = $derived(isChildLevel(question.level));
+  /** Kocarek: a parent (or the host) reads the question and confirms an imitation. */
+  const parentLed = $derived(LEVEL_READER[question.level] === 'parent');
   const options = $derived(question.options ?? []);
   const parsed = $derived(Number(estimate.replace(/\s/g, '').replace(',', '.')));
   const estimateValid = $derived(estimate.trim() !== '' && Number.isFinite(parsed));
@@ -39,20 +45,30 @@
 </script>
 
 <article class="q {size}" class:kids data-testid="live-question" data-type={question.type} data-level={question.level}>
-  {#if question.fallback}<p class="mix">🪣 Mix Pískoviště · <ArtIcon name={THEME_ART[question.theme]} /> {THEME_LABELS[question.theme]}</p>{/if}
-  {#if question.image}<div class="image emoji" aria-hidden="true">{question.image}</div>{/if}
+  {#if question.fallback}<p class="mix">{LEVEL_EMOJI[question.level]} Mix {LEVEL_LABELS[question.level]} · <ArtIcon name={THEME_ART[question.theme]} /> {THEME_LABELS[question.theme]}</p>{/if}
+  {#if question.image}<QuestionImage image={question.image} big={kids} />{/if}
+  {#if parentLed}<p class="read-to" data-testid="read-to">📖 Přečti dítěti:</p>{/if}
   <h2 class="text">{question.text}</h2>
   {#if onSpeak}
     <button class="btn small ghost speak" type="button" onclick={onSpeak}>🔊 Přečíst</button>
   {/if}
 
-  {#if question.type === 'choice'}
+  {#if question.type === 'imitate'}
+    <div class="model card" data-testid="model-answer">
+      <span class="muted">Vzor pro rodiče</span>
+      <strong>{question.model}</strong>
+    </div>
+    <div class="row judge">
+      <button class="btn primary big" data-testid="imitate-yes" {disabled} onclick={() => onAnswer(IMITATE_DONE)}>Zvládl/a ✓</button>
+      <button class="btn big" data-testid="imitate-no" {disabled} onclick={() => onAnswer(IMITATE_FAILED)}>Zkusíme jinou ✗</button>
+    </div>
+  {:else if question.options}
     <div class="options" class:two={options.length === 2}>
       {#each options as option (option)}
         {#if kids}
           {@const [pic, label] = splitEmoji(option)}
           <button class="option tile" data-testid="option" {disabled} onclick={() => onAnswer(option)} aria-label={label}>
-            <span class="emoji pic">{pic}</span>
+            <Pic emoji={pic} size={size === 'tv' ? 176 : 88} decorative class="pic" />
             <span class="label">{label}</span>
           </button>
         {:else}
@@ -103,6 +119,24 @@
     text-align: center;
     width: 100%;
   }
+  .read-to {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--ink-soft);
+  }
+  .model {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: min(100%, 360px);
+  }
+  .model strong {
+    font-size: 2rem;
+  }
+  .judge {
+    justify-content: center;
+  }
   .mix {
     margin: 0;
     padding: 4px 14px;
@@ -110,10 +144,10 @@
     background: var(--sage-light);
     font-weight: 700;
   }
-  .image {
+  .q :global(.image.emoji) {
     font-size: 4rem;
   }
-  .kids .image {
+  .kids :global(.image.emoji) {
     font-size: 5.5rem;
   }
   .text {
@@ -124,7 +158,7 @@
   .tv .text {
     font-size: clamp(2.2rem, 4vw, 3.6rem);
   }
-  .tv .image {
+  .tv :global(.image.emoji) {
     font-size: 8rem;
   }
   .options {
@@ -174,12 +208,6 @@
   }
   .tv .tile {
     min-height: 260px;
-  }
-  .pic {
-    font-size: 4.5rem;
-  }
-  .tv .pic {
-    font-size: 7rem;
   }
   .label {
     font-size: 1.3rem;

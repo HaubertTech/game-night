@@ -2,7 +2,7 @@ import { json, type RequestHandler } from '@sveltejs/kit';
 import { THEMES, type Theme } from '#lib/types.ts';
 import type { Contestant } from '#lib/engine/quiz.ts';
 import { one } from '#lib/server/db.ts';
-import { fail, isLevel, readJson, requireHousehold } from '#lib/server/http.ts';
+import { fail, isLevel, LEVEL_LIST, readJson, requireHousehold } from '#lib/server/http.ts';
 import { playerContestantId, teamContestantId } from '#lib/server/room-store-db.ts';
 import { listPlayers } from '#lib/server/repo/players.ts';
 import { loadSeen } from '#lib/server/repo/seen.ts';
@@ -50,7 +50,7 @@ export const POST: RequestHandler = async (event) => {
   const teamPicks = (rawTeams as unknown[]).map((t) => {
     const o = (t ?? {}) as Record<string, unknown>;
     if (!Number.isInteger(o.id) || (o.id as number) <= 0) fail(400, 'Tým musí mít id.');
-    if (!isLevel(o.level)) fail(400, 'Tým musí mít úroveň hospoda, lavice nebo piskoviste.');
+    if (!isLevel(o.level)) fail(400, `Tým musí mít úroveň: ${LEVEL_LIST}.`);
     return { id: o.id as number, level: o.level };
   });
 

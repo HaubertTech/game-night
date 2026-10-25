@@ -1,95 +1,98 @@
 [
   {
-    "id": "lavice-veda-telo-001",
     "level": "lavice",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Kolik prstů máš na jedné ruce?",
+    "text": "Kolik planet má sluneční soustava?",
     "options": [
-      "6",
-      "4",
-      "5"
+      "9",
+      "7",
+      "8",
+      "10"
     ],
-    "answer": "5",
-    "fact": "Palcem dosáhneš na všechny ostatní prsty, a proto věci pevně uchopíš.",
-    "difficulty": 1,
-    "image": "✋",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "8",
+    "fact": "Pluto bylo dřív devátou planetou, od roku 2006 je trpasličí planeta.",
+    "difficulty": 2,
+    "image": "🪐",
+    "source": "https://cs.wikipedia.org/wiki/Slune%C4%8Dn%C3%AD_soustava",
+    "status": "verified",
+    "id": "lavice-veda-telo-001"
   },
   {
-    "id": "lavice-veda-telo-002",
     "level": "lavice",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Na jakou barvu na semaforu smí chodec přejít?",
+    "text": "Jak se jmenuje přirozená družice Země?",
     "options": [
-      "Zelenou",
-      "Červenou",
-      "Oranžovou"
+      "Slunce",
+      "Mars",
+      "Polárka",
+      "Měsíc"
     ],
-    "answer": "Zelenou",
-    "fact": "I na zelenou se rozhlédni, jestli auta opravdu stojí.",
+    "answer": "Měsíc",
+    "fact": "Měsíc nemá vlastní světlo, svítí odraženým světlem Slunce.",
     "difficulty": 1,
-    "image": "🚦",
-    "source": "zákon č. 361/2000 Sb.",
-    "status": "verified"
+    "image": "🌕",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "lavice-veda-telo-002"
   },
   {
-    "id": "lavice-veda-telo-003",
     "level": "lavice",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Čím slyšíme?",
+    "text": "Jak dlouho trvá Zemi, než oběhne Slunce?",
     "options": [
-      "Ústy",
-      "Očima",
-      "Ušima",
-      "Nosem"
+      "Rok",
+      "Den",
+      "Měsíc",
+      "Týden"
     ],
-    "answer": "Ušima",
-    "fact": "V uchu je nejmenší kost lidského těla, třmínek.",
-    "difficulty": 1,
-    "image": "🎵",
-    "source": "https://cs.wikipedia.org/wiki/T%C5%99m%C3%ADnek",
-    "status": "verified"
+    "answer": "Rok",
+    "fact": "Roční období způsobuje hlavně to, že je zemská osa nakloněná.",
+    "difficulty": 2,
+    "image": "🌍",
+    "source": "https://cs.wikipedia.org/wiki/Zem%C4%9B",
+    "status": "verified",
+    "id": "lavice-veda-telo-003"
   },
   {
-    "id": "lavice-veda-telo-004",
     "level": "lavice",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Co máš mít na hlavě, když jedeš na kole?",
+    "text": "Kterým orgánem dýcháme?",
     "options": [
-      "Kšiltovku",
-      "Sluchátka",
-      "Čepici",
-      "Přilbu"
+      "Játry",
+      "Plícemi",
+      "Žaludkem",
+      "Ledvinami"
     ],
-    "answer": "Přilbu",
-    "fact": "Do 18 let je přilba na kole povinná ze zákona.",
+    "answer": "Plícemi",
+    "fact": "Za den se nadechneme zhruba dvacettisíckrát.",
     "difficulty": 1,
-    "image": "🚲",
-    "source": "zákon č. 361/2000 Sb., § 58",
-    "status": "verified"
+    "image": "🫁",
+    "source": "https://cs.wikipedia.org/wiki/Pl%C3%ADce",
+    "status": "verified",
+    "id": "lavice-veda-telo-004"
   },
   {
-    "id": "lavice-veda-telo-005",
     "level": "lavice",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Jak často si máš čistit zuby?",
+    "text": "Který orgán řídí celé tělo?",
     "options": [
-      "Dvakrát denně",
-      "Jednou za týden",
-      "Jednou za měsíc"
+      "Srdce",
+      "Plíce",
+      "Mozek",
+      "Žaludek"
     ],
-    "answer": "Dvakrát denně",
-    "fact": "Zuby čistíme ráno a večer aspoň dvě minuty.",
+    "answer": "Mozek",
+    "fact": "Mozek pracuje i ve spánku, třeba když se nám něco zdá.",
     "difficulty": 1,
-    "image": "🪥",
-    "source": "obecná znalost",
-    "status": "verified"
+    "image": "🧠",
+    "source": "https://cs.wikipedia.org/wiki/Mozek",
+    "status": "verified",
+    "id": "lavice-veda-telo-005"
   },
   {
     "id": "lavice-veda-telo-006",
@@ -279,5 +282,802 @@
     "image": "🌍",
     "source": "https://cs.wikipedia.org/wiki/Rotace_Zem%C4%9B",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik zubů má dítě v mléčném chrupu?",
+    "options": [
+      "32",
+      "10",
+      "28",
+      "20"
+    ],
+    "answer": "20",
+    "fact": "Mléčné zuby začnou vypadávat kolem šestého roku a nahradí je stálé.",
+    "difficulty": 2,
+    "image": "🦷",
+    "source": "https://cs.wikipedia.org/wiki/Ml%C3%A9%C4%8Dn%C3%BD_chrup",
+    "status": "verified",
+    "id": "lavice-veda-telo-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Které kosti chrání srdce a plíce?",
+    "options": [
+      "Žebra",
+      "Lebka",
+      "Pánev",
+      "Lopatky"
+    ],
+    "answer": "Žebra",
+    "fact": "Člověk má obvykle dvanáct párů žeber.",
+    "difficulty": 2,
+    "image": "🦴",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDebro",
+    "status": "verified",
+    "id": "lavice-veda-telo-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik základních smyslů má člověk?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "5",
+    "fact": "Máme i smysl pro rovnováhu a ten sídlí v uchu.",
+    "difficulty": 1,
+    "image": "👀",
+    "source": "https://cs.wikipedia.org/wiki/Smysl",
+    "status": "verified",
+    "id": "lavice-veda-telo-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Při jaké teplotě se voda vaří?",
+    "options": [
+      "50 °C",
+      "0 °C",
+      "100 °C",
+      "200 °C"
+    ],
+    "answer": "100 °C",
+    "fact": "Na vysokých horách se voda vaří už při nižší teplotě.",
+    "difficulty": 2,
+    "image": "♨️",
+    "source": "https://cs.wikipedia.org/wiki/Var",
+    "status": "verified",
+    "id": "lavice-veda-telo-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím se měří teplota?",
+    "options": [
+      "Pravítkem",
+      "Váhou",
+      "Kompasem",
+      "Teploměrem"
+    ],
+    "answer": "Teploměrem",
+    "fact": "Normální teplota lidského těla je kolem 36 až 37 °C.",
+    "difficulty": 1,
+    "image": "🌡️",
+    "source": "https://cs.wikipedia.org/wiki/T%C4%9Blesn%C3%A1_teplota",
+    "status": "verified",
+    "id": "lavice-veda-telo-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kam ukazuje střelka kompasu?",
+    "options": [
+      "Na sever",
+      "Na jih",
+      "Na východ",
+      "Na západ"
+    ],
+    "answer": "Na sever",
+    "fact": "Střelka kompasu je malý magnet.",
+    "difficulty": 2,
+    "image": "🧭",
+    "source": "https://cs.wikipedia.org/wiki/Kompas",
+    "status": "verified",
+    "id": "lavice-veda-telo-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na které světové straně vychází Slunce?",
+    "options": [
+      "Na západě",
+      "Na východě",
+      "Na severu",
+      "Na jihu"
+    ],
+    "answer": "Na východě",
+    "fact": "Zapadá na západě a v poledne ho u nás vidíme na jihu.",
+    "difficulty": 1,
+    "image": "🌅",
+    "source": "https://cs.wikipedia.org/wiki/Sv%C4%9Btov%C3%A1_strana",
+    "status": "verified",
+    "id": "lavice-veda-telo-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kde je nejbezpečnější přejít silnici?",
+    "options": [
+      "Za zatáčkou",
+      "Mezi zaparkovanými auty",
+      "Na přechodu pro chodce",
+      "Kdekoli"
+    ],
+    "answer": "Na přechodu pro chodce",
+    "fact": "Když přechod není poblíž, přecházíme kolmo přes silnici na přehledném místě.",
+    "difficulty": 1,
+    "image": "🚸",
+    "source": "zákon č. 361/2000 Sb., § 54",
+    "status": "verified",
+    "id": "lavice-veda-telo-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co ti na kole pomůže, aby tě řidiči viděli i za tmy?",
+    "options": [
+      "Zvonek",
+      "Košík",
+      "Stojánek",
+      "Světla a odrazky"
+    ],
+    "answer": "Světla a odrazky",
+    "fact": "Reflexní vesta nebo pásek tě ukáže řidičům na mnohem větší vzdálenost.",
+    "difficulty": 1,
+    "image": "🚲",
+    "source": "zákon č. 361/2000 Sb.",
+    "status": "verified",
+    "id": "lavice-veda-telo-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje galaxie, ve které leží naše Země?",
+    "options": [
+      "Mléčná dráha",
+      "Andromeda",
+      "Velký vůz",
+      "Polárka"
+    ],
+    "answer": "Mléčná dráha",
+    "fact": "Za tmavé noci daleko od města je Mléčná dráha vidět jako světlý pruh přes nebe.",
+    "difficulty": 3,
+    "image": "🌌",
+    "source": "https://cs.wikipedia.org/wiki/Ml%C3%A9%C4%8Dn%C3%A1_dr%C3%A1ha",
+    "status": "verified",
+    "id": "lavice-veda-telo-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "V jakém skupenství je led?",
+    "options": [
+      "V kapalném",
+      "V pevném",
+      "V plynném"
+    ],
+    "answer": "V pevném",
+    "fact": "Pára je voda v plynném skupenství.",
+    "difficulty": 2,
+    "image": "🧊",
+    "source": "https://cs.wikipedia.org/wiki/Skupenstv%C3%AD",
+    "status": "verified",
+    "id": "lavice-veda-telo-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co z toho přitáhne magnet?",
+    "options": [
+      "Dřevěnou kostku",
+      "Železný hřebík",
+      "Plastové víčko",
+      "Papír"
+    ],
+    "answer": "Železný hřebík",
+    "fact": "Hliníkovou plechovku od limonády magnet nepřitáhne.",
+    "difficulty": 1,
+    "image": "🧲",
+    "source": "https://cs.wikipedia.org/wiki/Magnet",
+    "status": "verified",
+    "id": "lavice-veda-telo-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co si v autě vždycky zapneme, než se rozjedeme?",
+    "options": [
+      "Rádio",
+      "Stěrače",
+      "Bezpečnostní pás",
+      "Klimatizaci"
+    ],
+    "answer": "Bezpečnostní pás",
+    "fact": "Menší děti jezdí v dětské autosedačce, dokud nejsou dost velké.",
+    "difficulty": 1,
+    "image": "🚗",
+    "source": "zákon č. 361/2000 Sb., § 6",
+    "status": "verified",
+    "id": "lavice-veda-telo-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Ve kterém orgánu se tráví jídlo?",
+    "options": [
+      "V plicích",
+      "V srdci",
+      "V mozku",
+      "V žaludku"
+    ],
+    "answer": "V žaludku",
+    "fact": "Žaludeční šťáva je tak kyselá, že rozloží i maso.",
+    "difficulty": 1,
+    "image": "🍽️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDaludek",
+    "status": "verified",
+    "id": "lavice-veda-telo-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik hodin by měl školák spát?",
+    "options": [
+      "Asi 10",
+      "Asi 5",
+      "Asi 3",
+      "Asi 15"
+    ],
+    "answer": "Asi 10",
+    "fact": "Ve spánku si mozek ukládá to, co jsme se přes den naučili.",
+    "difficulty": 2,
+    "image": "😴",
+    "source": "https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need",
+    "status": "verified",
+    "id": "lavice-veda-telo-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenují přední zuby, kterými ukousneme kousek jablka?",
+    "options": [
+      "Řezáky",
+      "Stoličky",
+      "Špičáky",
+      "Zuby moudrosti"
+    ],
+    "answer": "Řezáky",
+    "fact": "Vzadu v puse máme stoličky, které jídlo rozmělní.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/%C5%98ez%C3%A1k",
+    "status": "verified",
+    "id": "lavice-veda-telo-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje kost, která chrání mozek?",
+    "options": [
+      "Lebka",
+      "Páteř",
+      "Žebro",
+      "Pánev"
+    ],
+    "answer": "Lebka",
+    "fact": "Miminko má mezi kostmi lebky měkká místa. Říká se jim fontanely a časem srostou.",
+    "difficulty": 1,
+    "image": "🧠",
+    "source": "https://cs.wikipedia.org/wiki/Lebka",
+    "status": "verified",
+    "id": "lavice-veda-telo-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik plic má člověk?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "fact": "Plíce nemají svaly. Nadechovat se nám pomáhá bránice.",
+    "difficulty": 1,
+    "image": "🫁",
+    "source": "https://cs.wikipedia.org/wiki/Pl%C3%ADce",
+    "status": "verified",
+    "id": "lavice-veda-telo-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje těleso z ledu a prachu, kterému u Slunce naroste svítící ohon?",
+    "options": [
+      "Kometa",
+      "Planeta",
+      "Měsíc",
+      "Hvězda"
+    ],
+    "answer": "Kometa",
+    "fact": "Ohon komety míří vždycky směrem od Slunce.",
+    "difficulty": 2,
+    "image": "☄️",
+    "source": "https://cs.wikipedia.org/wiki/Kometa",
+    "status": "verified",
+    "id": "lavice-veda-telo-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje kámen z vesmíru, který dopadne až na Zemi?",
+    "options": [
+      "Meteorit",
+      "Kometa",
+      "Krápník",
+      "Satelit"
+    ],
+    "answer": "Meteorit",
+    "fact": "Kamínek, který ve vzduchu shoří, vidíme jako padající hvězdu.",
+    "difficulty": 2,
+    "image": "🌠",
+    "source": "https://cs.wikipedia.org/wiki/Meteorit",
+    "status": "verified",
+    "id": "lavice-veda-telo-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak dlouho trvá Měsíci, než oběhne Zemi?",
+    "options": [
+      "Asi den",
+      "Asi týden",
+      "Asi měsíc",
+      "Asi rok"
+    ],
+    "answer": "Asi měsíc",
+    "fact": "Slovo měsíc pro část roku vzniklo právě podle Měsíce na obloze.",
+    "difficulty": 2,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "lavice-veda-telo-036"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta je nejdál od Slunce?",
+    "options": [
+      "Mars",
+      "Saturn",
+      "Neptun",
+      "Merkur"
+    ],
+    "answer": "Neptun",
+    "fact": "Neptun oběhne Slunce jednou za 165 let.",
+    "difficulty": 3,
+    "image": "🔭",
+    "source": "https://cs.wikipedia.org/wiki/Neptun_(planeta)",
+    "status": "verified",
+    "id": "lavice-veda-telo-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik měsíců obíhá kolem Marsu?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "12"
+    ],
+    "answer": "2",
+    "fact": "Měsíce Marsu se jmenují Phobos a Deimos. Nejsou kulaté a větší z nich měří jen asi 22 kilometrů.",
+    "difficulty": 3,
+    "image": "🔴",
+    "source": "https://cs.wikipedia.org/wiki/Mars_(planeta)",
+    "status": "verified",
+    "id": "lavice-veda-telo-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje bílá ledová vrstvička na trávě a větvích po mrazivé noci?",
+    "options": [
+      "Jinovatka",
+      "Rosa",
+      "Mlha",
+      "Kroupy"
+    ],
+    "answer": "Jinovatka",
+    "fact": "Jinovatka vzniká, když vodní pára ze vzduchu zmrzne přímo na studených předmětech.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Jinovatka",
+    "status": "verified",
+    "id": "lavice-veda-telo-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenují kapičky vody, které jsou ráno na trávě?",
+    "options": [
+      "Rosa",
+      "Jinovatka",
+      "Kroupy",
+      "Sníh"
+    ],
+    "answer": "Rosa",
+    "fact": "Rosa vzniká, když se vzduch v noci ochladí a pára se srazí do kapiček.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Rosa",
+    "status": "verified",
+    "id": "lavice-veda-telo-041"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje síla, kterou nás Země přitahuje k sobě?",
+    "options": [
+      "Gravitace",
+      "Elektřina",
+      "Magnetismus",
+      "Tření"
+    ],
+    "answer": "Gravitace",
+    "fact": "Isaac Newton o ní podle vlastního vyprávění začal přemýšlet, když viděl padat jablko.",
+    "difficulty": 2,
+    "image": "🍏",
+    "source": "https://cs.wikipedia.org/wiki/Gravitace",
+    "status": "verified",
+    "id": "lavice-veda-telo-042"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak vypadá dopravní značka Hlavní silnice?",
+    "options": [
+      "Žlutý čtverec postavený na roh",
+      "Červený kruh",
+      "Modrý kruh",
+      "Červený trojúhelník"
+    ],
+    "answer": "Žlutý čtverec postavený na roh",
+    "fact": "Kdo jede po hlavní silnici, má na křižovatce přednost.",
+    "difficulty": 3,
+    "image": "🚗",
+    "source": "https://cs.wikipedia.org/wiki/Dopravn%C3%AD_zna%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-veda-telo-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co na střeše ukazuje, odkud fouká vítr?",
+    "options": [
+      "Korouhev",
+      "Komín",
+      "Hromosvod",
+      "Anténa"
+    ],
+    "answer": "Korouhev",
+    "fact": "Na korouhvích bývá často kohout nebo letopočet stavby.",
+    "difficulty": 2,
+    "image": "💨",
+    "source": "https://cs.wikipedia.org/wiki/Korouhev",
+    "status": "verified",
+    "id": "lavice-veda-telo-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím meteorologové měří, kolik napršelo?",
+    "options": [
+      "Teploměrem",
+      "Srážkoměrem",
+      "Kompasem",
+      "Větrníkem"
+    ],
+    "answer": "Srážkoměrem",
+    "fact": "Jeden milimetr srážek znamená jeden litr vody na metr čtvereční.",
+    "difficulty": 3,
+    "image": "🌧️",
+    "source": "https://cs.wikipedia.org/wiki/Sr%C3%A1%C5%BEkom%C4%9Br",
+    "status": "verified",
+    "id": "lavice-veda-telo-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje přístroj, který měří tlak vzduchu?",
+    "options": [
+      "Barometr",
+      "Teploměr",
+      "Vlhkoměr",
+      "Tachometr"
+    ],
+    "answer": "Barometr",
+    "fact": "Když tlak vzduchu klesá, často se blíží déšť.",
+    "difficulty": 3,
+    "image": "🌦️",
+    "source": "https://cs.wikipedia.org/wiki/Barometr",
+    "status": "verified",
+    "id": "lavice-veda-telo-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik barev se obvykle uvádí v duze?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "fact": "Barvy duhy jdou vždycky ve stejném pořadí: nahoře červená, dole fialová.",
+    "difficulty": 1,
+    "image": "🌈",
+    "source": "https://cs.wikipedia.org/wiki/Duha",
+    "status": "verified",
+    "id": "lavice-veda-telo-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenují ledové kuličky, které padají při letní bouřce?",
+    "options": [
+      "Kroupy",
+      "Vločky",
+      "Jinovatka",
+      "Rosa"
+    ],
+    "answer": "Kroupy",
+    "fact": "Kroupy vznikají vysoko v bouřkovém mraku, kde mrzne i v létě.",
+    "difficulty": 1,
+    "image": "🌩️",
+    "source": "https://cs.wikipedia.org/wiki/Kroupy_(meteorologie)",
+    "status": "verified",
+    "id": "lavice-veda-telo-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje silný vír větru ve tvaru trychtýře?",
+    "options": [
+      "Tornádo",
+      "Mlha",
+      "Duha",
+      "Vánek"
+    ],
+    "answer": "Tornádo",
+    "fact": "Nejvíc tornád na světě vzniká v USA.",
+    "difficulty": 1,
+    "image": "🌪️",
+    "source": "https://cs.wikipedia.org/wiki/Torn%C3%A1do",
+    "status": "verified",
+    "id": "lavice-veda-telo-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jaký tvar mají výstražné dopravní značky?",
+    "options": [
+      "Kruh",
+      "Čtverec",
+      "Trojúhelník",
+      "Osmiúhelník"
+    ],
+    "answer": "Trojúhelník",
+    "fact": "Výstražná značka upozorňuje třeba na zvěř, na děti nebo na zatáčku.",
+    "difficulty": 2,
+    "image": "⚠️",
+    "source": "https://cs.wikipedia.org/wiki/Dopravn%C3%AD_zna%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-veda-telo-052"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Od kolika let smí dítě jezdit samo na kole po silnici?",
+    "options": [
+      "Od 6 let",
+      "Od 10 let",
+      "Od 15 let",
+      "Od 18 let"
+    ],
+    "answer": "Od 10 let",
+    "fact": "Mladší děti smějí na kole na silnici jen s dozorem někoho staršího 15 let.",
+    "difficulty": 2,
+    "image": "🚲",
+    "source": "https://besip.gov.cz/",
+    "status": "verified",
+    "id": "lavice-veda-telo-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak vypadá dopravní značka, která něco přikazuje?",
+    "options": [
+      "Modrý kruh",
+      "Červený trojúhelník",
+      "Žlutý čtverec",
+      "Zelený obdélník"
+    ],
+    "answer": "Modrý kruh",
+    "fact": "Příkazová značka určuje třeba směr jízdy nebo stezku pro cyklisty.",
+    "difficulty": 3,
+    "image": "🚸",
+    "source": "https://cs.wikipedia.org/wiki/Dopravn%C3%AD_zna%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-veda-telo-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kam stoupá teplý vzduch?",
+    "options": [
+      "Dolů",
+      "Nahoru",
+      "Do stran",
+      "Nikam"
+    ],
+    "answer": "Nahoru",
+    "fact": "Proto horkovzdušný balon stoupá, když se vzduch v něm ohřeje.",
+    "difficulty": 2,
+    "image": "🎈",
+    "source": "https://cs.wikipedia.org/wiki/Horkovzdu%C5%A1n%C3%BD_balon",
+    "status": "verified",
+    "id": "lavice-veda-telo-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "V jakých jednotkách se měří elektrické napětí?",
+    "options": [
+      "Ve voltech",
+      "V metrech",
+      "V kilogramech",
+      "Ve stupních"
+    ],
+    "answer": "Ve voltech",
+    "fact": "V zásuvce je napětí 230 voltů, v tužkové baterii jen 1,5 voltu.",
+    "difficulty": 3,
+    "image": "🔋",
+    "source": "https://cs.wikipedia.org/wiki/Volt",
+    "status": "verified",
+    "id": "lavice-veda-telo-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje obal ze vzduchu kolem Země?",
+    "options": [
+      "Atmosféra",
+      "Oceán",
+      "Kůra",
+      "Galaxie"
+    ],
+    "answer": "Atmosféra",
+    "fact": "Bez atmosféry by bylo na Zemi ve dne obrovské horko a v noci velký mráz, jako na Měsíci.",
+    "difficulty": 2,
+    "image": "🌍",
+    "source": "https://cs.wikipedia.org/wiki/Atmosf%C3%A9ra_Zem%C4%9B",
+    "status": "verified",
+    "id": "lavice-veda-telo-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje skupina hvězd, která na obloze tvoří obrazec?",
+    "options": [
+      "Souhvězdí",
+      "Galaxie",
+      "Kometa",
+      "Planeta"
+    ],
+    "answer": "Souhvězdí",
+    "fact": "Astronomové uznávají na obloze 88 souhvězdí.",
+    "difficulty": 2,
+    "image": "✨",
+    "source": "https://cs.wikipedia.org/wiki/Souhv%C4%9Bzd%C3%AD",
+    "status": "verified",
+    "id": "lavice-veda-telo-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která z těchto chutí patří mezi základní chutě?",
+    "options": [
+      "Pálivá",
+      "Hořká",
+      "Studená",
+      "Mastná"
+    ],
+    "answer": "Hořká",
+    "fact": "Pálivost není chuť. Je to pocit bolesti, který v puse způsobí látka z chilli.",
+    "difficulty": 3,
+    "image": "👅",
+    "source": "https://cs.wikipedia.org/wiki/Chu%C5%A5",
+    "status": "verified",
+    "id": "lavice-veda-telo-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co spojuje svaly s kostmi?",
+    "options": [
+      "Šlachy",
+      "Nehty",
+      "Žíly",
+      "Vlasy"
+    ],
+    "answer": "Šlachy",
+    "fact": "Svaly umějí jen táhnout, ne tlačit. Proto pracují ve dvojicích, třeba biceps a triceps.",
+    "difficulty": 3,
+    "image": "💪",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0lacha",
+    "status": "verified",
+    "id": "lavice-veda-telo-060"
   }
 ]

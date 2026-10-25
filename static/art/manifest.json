@@ -1030,5 +1030,3893 @@
         "path": "/art/env/lobby-mobil-960.webp"
       }
     ]
+  },
+  "levels.kocarek": {
+    "path": "/art/levels/kocarek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kočárek – úroveň pro nejmenší: kočárek s plyšovým medvídkem",
+    "group": "levels",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/levels/kocarek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/levels/kocarek-256.webp"
+      }
+    ]
+  },
+  "levels.prvnacek": {
+    "path": "/art/levels/prvnacek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Prvňáček – úroveň pro prvňáky: nová aktovka a školní kornout",
+    "group": "levels",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/levels/prvnacek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/levels/prvnacek-256.webp"
+      }
+    ]
+  },
+  "pics.pes": {
+    "path": "/art/pics/pes.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pes",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/pes-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/pes-256.webp"
+      }
+    ]
+  },
+  "pics.stene": {
+    "path": "/art/pics/stene.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Štěně",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/stene-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/stene-256.webp"
+      }
+    ]
+  },
+  "pics.kocka": {
+    "path": "/art/pics/kocka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kočka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kocka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kocka-256.webp"
+      }
+    ]
+  },
+  "pics.kotatko": {
+    "path": "/art/pics/kotatko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Koťátko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kotatko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kotatko-256.webp"
+      }
+    ]
+  },
+  "pics.jablko": {
+    "path": "/art/pics/jablko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jablko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/jablko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/jablko-256.webp"
+      }
+    ]
+  },
+  "pics.hruska": {
+    "path": "/art/pics/hruska.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hruška",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hruska-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hruska-256.webp"
+      }
+    ]
+  },
+  "pics.banan": {
+    "path": "/art/pics/banan.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Banán",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/banan-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/banan-256.webp"
+      }
+    ]
+  },
+  "pics.jahoda": {
+    "path": "/art/pics/jahoda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jahoda",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/jahoda-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/jahoda-256.webp"
+      }
+    ]
+  },
+  "pics.krava": {
+    "path": "/art/pics/krava.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kráva",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/krava-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/krava-256.webp"
+      }
+    ]
+  },
+  "pics.tele": {
+    "path": "/art/pics/tele.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tele",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tele-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tele-256.webp"
+      }
+    ]
+  },
+  "pics.koza": {
+    "path": "/art/pics/koza.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Koza",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/koza-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/koza-256.webp"
+      }
+    ]
+  },
+  "pics.kuzle": {
+    "path": "/art/pics/kuzle.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kůzle",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kuzle-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kuzle-256.webp"
+      }
+    ]
+  },
+  "pics.ovce": {
+    "path": "/art/pics/ovce.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ovce",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ovce-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ovce-256.webp"
+      }
+    ]
+  },
+  "pics.jehne": {
+    "path": "/art/pics/jehne.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jehně",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/jehne-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/jehne-256.webp"
+      }
+    ]
+  },
+  "pics.prase": {
+    "path": "/art/pics/prase.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Prase",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/prase-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/prase-256.webp"
+      }
+    ]
+  },
+  "pics.sele": {
+    "path": "/art/pics/sele.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sele",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sele-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sele-256.webp"
+      }
+    ]
+  },
+  "pics.kun": {
+    "path": "/art/pics/kun.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kůň",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kun-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kun-256.webp"
+      }
+    ]
+  },
+  "pics.hribe": {
+    "path": "/art/pics/hribe.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hříbě",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hribe-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hribe-256.webp"
+      }
+    ]
+  },
+  "pics.slepice": {
+    "path": "/art/pics/slepice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Slepice",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/slepice-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/slepice-256.webp"
+      }
+    ]
+  },
+  "pics.kuratko": {
+    "path": "/art/pics/kuratko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kuřátko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kuratko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kuratko-256.webp"
+      }
+    ]
+  },
+  "pics.kohout": {
+    "path": "/art/pics/kohout.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kohout",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kohout-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kohout-256.webp"
+      }
+    ]
+  },
+  "pics.kachna": {
+    "path": "/art/pics/kachna.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kachna",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kachna-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kachna-256.webp"
+      }
+    ]
+  },
+  "pics.husa": {
+    "path": "/art/pics/husa.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Husa",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/husa-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/husa-256.webp"
+      }
+    ]
+  },
+  "pics.zajic": {
+    "path": "/art/pics/zajic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zajíc",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zajic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zajic-256.webp"
+      }
+    ]
+  },
+  "pics.jezek": {
+    "path": "/art/pics/jezek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ježek",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/jezek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/jezek-256.webp"
+      }
+    ]
+  },
+  "pics.liska": {
+    "path": "/art/pics/liska.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Liška",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/liska-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/liska-256.webp"
+      }
+    ]
+  },
+  "pics.medved": {
+    "path": "/art/pics/medved.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Medvěd",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/medved-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/medved-256.webp"
+      }
+    ]
+  },
+  "pics.jelen": {
+    "path": "/art/pics/jelen.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jelen",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/jelen-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/jelen-256.webp"
+      }
+    ]
+  },
+  "pics.veverka": {
+    "path": "/art/pics/veverka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Veverka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/veverka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/veverka-256.webp"
+      }
+    ]
+  },
+  "pics.sova": {
+    "path": "/art/pics/sova.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sova-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sova-256.webp"
+      }
+    ]
+  },
+  "pics.zaba": {
+    "path": "/art/pics/zaba.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Žába",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zaba-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zaba-256.webp"
+      }
+    ]
+  },
+  "pics.ryba": {
+    "path": "/art/pics/ryba.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ryba",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ryba-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ryba-256.webp"
+      }
+    ]
+  },
+  "pics.motyl": {
+    "path": "/art/pics/motyl.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Motýl",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/motyl-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/motyl-256.webp"
+      }
+    ]
+  },
+  "pics.vcela": {
+    "path": "/art/pics/vcela.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Včela",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vcela-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vcela-256.webp"
+      }
+    ]
+  },
+  "pics.beruska": {
+    "path": "/art/pics/beruska.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Beruška",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/beruska-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/beruska-256.webp"
+      }
+    ]
+  },
+  "pics.snek": {
+    "path": "/art/pics/snek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šnek",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/snek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/snek-256.webp"
+      }
+    ]
+  },
+  "pics.slon": {
+    "path": "/art/pics/slon.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Slon",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/slon-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/slon-256.webp"
+      }
+    ]
+  },
+  "pics.zirafa": {
+    "path": "/art/pics/zirafa.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Žirafa",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zirafa-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zirafa-256.webp"
+      }
+    ]
+  },
+  "pics.lev": {
+    "path": "/art/pics/lev.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lev",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/lev-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/lev-256.webp"
+      }
+    ]
+  },
+  "pics.opice": {
+    "path": "/art/pics/opice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Opice",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/opice-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/opice-256.webp"
+      }
+    ]
+  },
+  "pics.zebra": {
+    "path": "/art/pics/zebra.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zebra",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zebra-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zebra-256.webp"
+      }
+    ]
+  },
+  "pics.tucnak": {
+    "path": "/art/pics/tucnak.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tučňák",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tucnak-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tucnak-256.webp"
+      }
+    ]
+  },
+  "pics.balonek": {
+    "path": "/art/pics/balonek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Balónek",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/balonek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/balonek-256.webp"
+      }
+    ]
+  },
+  "pics.strom": {
+    "path": "/art/pics/strom.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Strom",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/strom-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/strom-256.webp"
+      }
+    ]
+  },
+  "pics.oko": {
+    "path": "/art/pics/oko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Oko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/oko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/oko-256.webp"
+      }
+    ]
+  },
+  "pics.ucho": {
+    "path": "/art/pics/ucho.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ucho",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ucho-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ucho-256.webp"
+      }
+    ]
+  },
+  "pics.nos": {
+    "path": "/art/pics/nos.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Nos",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/nos-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/nos-256.webp"
+      }
+    ]
+  },
+  "pics.pusa": {
+    "path": "/art/pics/pusa.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pusa",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/pusa-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/pusa-256.webp"
+      }
+    ]
+  },
+  "pics.ruka": {
+    "path": "/art/pics/ruka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ruka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ruka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ruka-256.webp"
+      }
+    ]
+  },
+  "pics.noha": {
+    "path": "/art/pics/noha.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Noha",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/noha-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/noha-256.webp"
+      }
+    ]
+  },
+  "pics.zmrzlina": {
+    "path": "/art/pics/zmrzlina.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zmrzlina",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zmrzlina-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zmrzlina-256.webp"
+      }
+    ]
+  },
+  "pics.hrad": {
+    "path": "/art/pics/hrad.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hrad",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hrad-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hrad-256.webp"
+      }
+    ]
+  },
+  "pics.tresne": {
+    "path": "/art/pics/tresne.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Třešně",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tresne-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tresne-256.webp"
+      }
+    ]
+  },
+  "pics.hrozny": {
+    "path": "/art/pics/hrozny.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hrozny",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hrozny-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hrozny-256.webp"
+      }
+    ]
+  },
+  "pics.mrkev": {
+    "path": "/art/pics/mrkev.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mrkev",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mrkev-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mrkev-256.webp"
+      }
+    ]
+  },
+  "pics.rajce": {
+    "path": "/art/pics/rajce.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Rajče",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/rajce-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/rajce-256.webp"
+      }
+    ]
+  },
+  "pics.okurka": {
+    "path": "/art/pics/okurka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Okurka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/okurka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/okurka-256.webp"
+      }
+    ]
+  },
+  "pics.brambora": {
+    "path": "/art/pics/brambora.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Brambora",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/brambora-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/brambora-256.webp"
+      }
+    ]
+  },
+  "pics.chleb": {
+    "path": "/art/pics/chleb.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Chléb",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/chleb-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/chleb-256.webp"
+      }
+    ]
+  },
+  "pics.rohlik": {
+    "path": "/art/pics/rohlik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Rohlík",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/rohlik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/rohlik-256.webp"
+      }
+    ]
+  },
+  "pics.mleko": {
+    "path": "/art/pics/mleko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mléko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mleko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mleko-256.webp"
+      }
+    ]
+  },
+  "pics.syr": {
+    "path": "/art/pics/syr.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sýr",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/syr-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/syr-256.webp"
+      }
+    ]
+  },
+  "pics.vajicko": {
+    "path": "/art/pics/vajicko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Vajíčko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vajicko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vajicko-256.webp"
+      }
+    ]
+  },
+  "pics.buchta": {
+    "path": "/art/pics/buchta.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Buchta",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/buchta-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/buchta-256.webp"
+      }
+    ]
+  },
+  "pics.mic": {
+    "path": "/art/pics/mic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Míč",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mic-256.webp"
+      }
+    ]
+  },
+  "pics.panenka": {
+    "path": "/art/pics/panenka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Panenka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/panenka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/panenka-256.webp"
+      }
+    ]
+  },
+  "pics.kostky": {
+    "path": "/art/pics/kostky.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kostky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kostky-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kostky-256.webp"
+      }
+    ]
+  },
+  "pics.auticko": {
+    "path": "/art/pics/auticko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Autíčko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/auticko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/auticko-256.webp"
+      }
+    ]
+  },
+  "pics.plysak": {
+    "path": "/art/pics/plysak.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Plyšák",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/plysak-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/plysak-256.webp"
+      }
+    ]
+  },
+  "pics.kolo": {
+    "path": "/art/pics/kolo.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kolo",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kolo-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kolo-256.webp"
+      }
+    ]
+  },
+  "pics.kolobezka": {
+    "path": "/art/pics/kolobezka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Koloběžka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kolobezka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kolobezka-256.webp"
+      }
+    ]
+  },
+  "pics.mesic": {
+    "path": "/art/pics/mesic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Měsíc",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mesic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mesic-256.webp"
+      }
+    ]
+  },
+  "pics.auto": {
+    "path": "/art/pics/auto.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Auto",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/auto-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/auto-256.webp"
+      }
+    ]
+  },
+  "pics.autobus": {
+    "path": "/art/pics/autobus.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Autobus",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/autobus-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/autobus-256.webp"
+      }
+    ]
+  },
+  "pics.vlak": {
+    "path": "/art/pics/vlak.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Vlak",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vlak-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vlak-256.webp"
+      }
+    ]
+  },
+  "pics.tramvaj": {
+    "path": "/art/pics/tramvaj.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tramvaj",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tramvaj-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tramvaj-256.webp"
+      }
+    ]
+  },
+  "pics.letadlo": {
+    "path": "/art/pics/letadlo.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Letadlo",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/letadlo-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/letadlo-256.webp"
+      }
+    ]
+  },
+  "pics.lod": {
+    "path": "/art/pics/lod.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Loď",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/lod-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/lod-256.webp"
+      }
+    ]
+  },
+  "pics.traktor": {
+    "path": "/art/pics/traktor.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Traktor",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/traktor-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/traktor-256.webp"
+      }
+    ]
+  },
+  "pics.hasicske-auto": {
+    "path": "/art/pics/hasicske-auto.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hasičské auto",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hasicske-auto-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hasicske-auto-256.webp"
+      }
+    ]
+  },
+  "pics.sanitka": {
+    "path": "/art/pics/sanitka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sanitka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sanitka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sanitka-256.webp"
+      }
+    ]
+  },
+  "pics.policejni-auto": {
+    "path": "/art/pics/policejni-auto.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Policejní auto",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/policejni-auto-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/policejni-auto-256.webp"
+      }
+    ]
+  },
+  "pics.destnik": {
+    "path": "/art/pics/destnik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Deštník",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/destnik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/destnik-256.webp"
+      }
+    ]
+  },
+  "pics.more": {
+    "path": "/art/pics/more.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Moře",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/more-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/more-256.webp"
+      }
+    ]
+  },
+  "pics.hasic": {
+    "path": "/art/pics/hasic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hasič",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hasic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hasic-256.webp"
+      }
+    ]
+  },
+  "pics.lekar": {
+    "path": "/art/pics/lekar.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lékař",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/lekar-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/lekar-256.webp"
+      }
+    ]
+  },
+  "pics.kuchar": {
+    "path": "/art/pics/kuchar.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kuchař",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kuchar-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kuchar-256.webp"
+      }
+    ]
+  },
+  "pics.zednik": {
+    "path": "/art/pics/zednik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zedník",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zednik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zednik-256.webp"
+      }
+    ]
+  },
+  "pics.prodavacka": {
+    "path": "/art/pics/prodavacka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Prodavačka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/prodavacka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/prodavacka-256.webp"
+      }
+    ]
+  },
+  "pics.ucitelka": {
+    "path": "/art/pics/ucitelka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Učitelka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ucitelka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ucitelka-256.webp"
+      }
+    ]
+  },
+  "pics.slunce": {
+    "path": "/art/pics/slunce.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Slunce",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/slunce-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/slunce-256.webp"
+      }
+    ]
+  },
+  "pics.dest": {
+    "path": "/art/pics/dest.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Déšť",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/dest-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/dest-256.webp"
+      }
+    ]
+  },
+  "pics.jaro": {
+    "path": "/art/pics/jaro.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jaro",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/jaro-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/jaro-256.webp"
+      }
+    ]
+  },
+  "pics.leto": {
+    "path": "/art/pics/leto.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Léto",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/leto-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/leto-256.webp"
+      }
+    ]
+  },
+  "pics.podzim": {
+    "path": "/art/pics/podzim.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Podzim",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/podzim-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/podzim-256.webp"
+      }
+    ]
+  },
+  "pics.zima": {
+    "path": "/art/pics/zima.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zima",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zima-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zima-256.webp"
+      }
+    ]
+  },
+  "pics.snih": {
+    "path": "/art/pics/snih.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sníh",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/snih-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/snih-256.webp"
+      }
+    ]
+  },
+  "pics.vitr": {
+    "path": "/art/pics/vitr.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Vítr",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vitr-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vitr-256.webp"
+      }
+    ]
+  },
+  "pics.kruh": {
+    "path": "/art/pics/kruh.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kruh",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kruh-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kruh-256.webp"
+      }
+    ]
+  },
+  "pics.ctverec": {
+    "path": "/art/pics/ctverec.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Čtverec",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ctverec-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ctverec-256.webp"
+      }
+    ]
+  },
+  "pics.trojuhelnik": {
+    "path": "/art/pics/trojuhelnik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Trojúhelník",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/trojuhelnik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/trojuhelnik-256.webp"
+      }
+    ]
+  },
+  "pics.hvezda": {
+    "path": "/art/pics/hvezda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hvězda",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hvezda-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hvezda-256.webp"
+      }
+    ]
+  },
+  "pics.barva-cervena": {
+    "path": "/art/pics/barva-cervena.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Červená kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/barva-cervena-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/barva-cervena-256.webp"
+      }
+    ]
+  },
+  "pics.barva-zluta": {
+    "path": "/art/pics/barva-zluta.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Žlutá kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/barva-zluta-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/barva-zluta-256.webp"
+      }
+    ]
+  },
+  "pics.barva-zelena": {
+    "path": "/art/pics/barva-zelena.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zelená kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/barva-zelena-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/barva-zelena-256.webp"
+      }
+    ]
+  },
+  "pics.barva-modra": {
+    "path": "/art/pics/barva-modra.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Modrá kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/barva-modra-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/barva-modra-256.webp"
+      }
+    ]
+  },
+  "pics.barva-oranzova": {
+    "path": "/art/pics/barva-oranzova.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Oranžová kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/barva-oranzova-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/barva-oranzova-256.webp"
+      }
+    ]
+  },
+  "pics.barva-fialova": {
+    "path": "/art/pics/barva-fialova.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Fialová kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/barva-fialova-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/barva-fialova-256.webp"
+      }
+    ]
+  },
+  "pics.kapka": {
+    "path": "/art/pics/kapka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kapka vody",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kapka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kapka-256.webp"
+      }
+    ]
+  },
+  "pics.smrk": {
+    "path": "/art/pics/smrk.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Smrk",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/smrk-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/smrk-256.webp"
+      }
+    ]
+  },
+  "pics.led": {
+    "path": "/art/pics/led.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Led",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/led-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/led-256.webp"
+      }
+    ]
+  },
+  "pics.ohen": {
+    "path": "/art/pics/ohen.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Oheň",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ohen-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ohen-256.webp"
+      }
+    ]
+  },
+  "pics.klicek": {
+    "path": "/art/pics/klicek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Klíček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/klicek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/klicek-256.webp"
+      }
+    ]
+  },
+  "pics.hora": {
+    "path": "/art/pics/hora.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hora",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hora-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hora-256.webp"
+      }
+    ]
+  },
+  "pics.tulipan": {
+    "path": "/art/pics/tulipan.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tulipán",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tulipan-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tulipan-256.webp"
+      }
+    ]
+  },
+  "pics.kamen": {
+    "path": "/art/pics/kamen.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kámen",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kamen-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kamen-256.webp"
+      }
+    ]
+  },
+  "pics.klasy": {
+    "path": "/art/pics/klasy.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Klasy",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/klasy-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/klasy-256.webp"
+      }
+    ]
+  },
+  "pics.listek": {
+    "path": "/art/pics/listek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lísteček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/listek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/listek-256.webp"
+      }
+    ]
+  },
+  "pics.vetvicka": {
+    "path": "/art/pics/vetvicka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Větvička",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vetvicka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vetvicka-256.webp"
+      }
+    ]
+  },
+  "pics.kastan": {
+    "path": "/art/pics/kastan.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kaštan",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kastan-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kastan-256.webp"
+      }
+    ]
+  },
+  "pics.zemekoule": {
+    "path": "/art/pics/zemekoule.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zeměkoule",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zemekoule-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zemekoule-256.webp"
+      }
+    ]
+  },
+  "pics.snehulak": {
+    "path": "/art/pics/snehulak.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sněhulák",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/snehulak-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/snehulak-256.webp"
+      }
+    ]
+  },
+  "pics.mrak": {
+    "path": "/art/pics/mrak.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mrak",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mrak-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mrak-256.webp"
+      }
+    ]
+  },
+  "pics.pirko": {
+    "path": "/art/pics/pirko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pírko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/pirko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/pirko-256.webp"
+      }
+    ]
+  },
+  "pics.mys": {
+    "path": "/art/pics/mys.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Myš",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mys-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mys-256.webp"
+      }
+    ]
+  },
+  "pics.mravenec": {
+    "path": "/art/pics/mravenec.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mravenec",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mravenec-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mravenec-256.webp"
+      }
+    ]
+  },
+  "pics.zelva": {
+    "path": "/art/pics/zelva.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Želva",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zelva-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zelva-256.webp"
+      }
+    ]
+  },
+  "pics.ptacek": {
+    "path": "/art/pics/ptacek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ptáček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ptacek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ptacek-256.webp"
+      }
+    ]
+  },
+  "pics.had": {
+    "path": "/art/pics/had.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Had",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/had-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/had-256.webp"
+      }
+    ]
+  },
+  "pics.lahvicka": {
+    "path": "/art/pics/lahvicka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lahvička",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/lahvicka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/lahvicka-256.webp"
+      }
+    ]
+  },
+  "pics.kostka-hraci": {
+    "path": "/art/pics/kostka-hraci.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hrací kostka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kostka-hraci-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kostka-hraci-256.webp"
+      }
+    ]
+  },
+  "pics.med": {
+    "path": "/art/pics/med.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Med",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/med-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/med-256.webp"
+      }
+    ]
+  },
+  "pics.dite": {
+    "path": "/art/pics/dite.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dítě",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/dite-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/dite-256.webp"
+      }
+    ]
+  },
+  "pics.holcicka": {
+    "path": "/art/pics/holcicka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Holčička",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/holcicka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/holcicka-256.webp"
+      }
+    ]
+  },
+  "pics.chlapec": {
+    "path": "/art/pics/chlapec.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Chlapec",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/chlapec-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/chlapec-256.webp"
+      }
+    ]
+  },
+  "pics.dedecek": {
+    "path": "/art/pics/dedecek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dědeček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/dedecek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/dedecek-256.webp"
+      }
+    ]
+  },
+  "pics.princezna": {
+    "path": "/art/pics/princezna.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Princezna",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/princezna-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/princezna-256.webp"
+      }
+    ]
+  },
+  "pics.policista": {
+    "path": "/art/pics/policista.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Policista",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/policista-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/policista-256.webp"
+      }
+    ]
+  },
+  "pics.kadernice": {
+    "path": "/art/pics/kadernice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kadeřnice",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kadernice-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kadernice-256.webp"
+      }
+    ]
+  },
+  "pics.kosmonaut": {
+    "path": "/art/pics/kosmonaut.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kosmonaut",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kosmonaut-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kosmonaut-256.webp"
+      }
+    ]
+  },
+  "pics.spi": {
+    "path": "/art/pics/spi.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Spinká",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/spi-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/spi-256.webp"
+      }
+    ]
+  },
+  "pics.bezi": {
+    "path": "/art/pics/bezi.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Běží",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/bezi-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/bezi-256.webp"
+      }
+    ]
+  },
+  "pics.plavec": {
+    "path": "/art/pics/plavec.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Plavec",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/plavec-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/plavec-256.webp"
+      }
+    ]
+  },
+  "pics.stoji": {
+    "path": "/art/pics/stoji.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Stojí",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/stoji-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/stoji-256.webp"
+      }
+    ]
+  },
+  "pics.cyklista": {
+    "path": "/art/pics/cyklista.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Cyklista",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/cyklista-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/cyklista-256.webp"
+      }
+    ]
+  },
+  "pics.sval": {
+    "path": "/art/pics/sval.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Silná ruka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sval-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sval-256.webp"
+      }
+    ]
+  },
+  "pics.vila": {
+    "path": "/art/pics/vila.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Víla",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vila-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vila-256.webp"
+      }
+    ]
+  },
+  "pics.zub": {
+    "path": "/art/pics/zub.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zub",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zub-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zub-256.webp"
+      }
+    ]
+  },
+  "pics.bonbon": {
+    "path": "/art/pics/bonbon.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Bonbon",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/bonbon-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/bonbon-256.webp"
+      }
+    ]
+  },
+  "pics.cokolada": {
+    "path": "/art/pics/cokolada.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Čokoláda",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/cokolada-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/cokolada-256.webp"
+      }
+    ]
+  },
+  "pics.pizza": {
+    "path": "/art/pics/pizza.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pizza",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/pizza-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/pizza-256.webp"
+      }
+    ]
+  },
+  "pics.susenka": {
+    "path": "/art/pics/susenka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sušenka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/susenka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/susenka-256.webp"
+      }
+    ]
+  },
+  "pics.polevka": {
+    "path": "/art/pics/polevka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Polévka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/polevka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/polevka-256.webp"
+      }
+    ]
+  },
+  "pics.hrnek": {
+    "path": "/art/pics/hrnek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hrnek čaje",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hrnek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hrnek-256.webp"
+      }
+    ]
+  },
+  "pics.citron": {
+    "path": "/art/pics/citron.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Citron",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/citron-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/citron-256.webp"
+      }
+    ]
+  },
+  "pics.pomeranc": {
+    "path": "/art/pics/pomeranc.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pomeranč",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/pomeranc-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/pomeranc-256.webp"
+      }
+    ]
+  },
+  "pics.dort": {
+    "path": "/art/pics/dort.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dort",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/dort-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/dort-256.webp"
+      }
+    ]
+  },
+  "pics.panev": {
+    "path": "/art/pics/panev.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Smažené vajíčko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/panev-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/panev-256.webp"
+      }
+    ]
+  },
+  "pics.lzice": {
+    "path": "/art/pics/lzice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lžíce",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/lzice-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/lzice-256.webp"
+      }
+    ]
+  },
+  "pics.talir": {
+    "path": "/art/pics/talir.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Talíř",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/talir-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/talir-256.webp"
+      }
+    ]
+  },
+  "pics.dum": {
+    "path": "/art/pics/dum.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dům",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/dum-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/dum-256.webp"
+      }
+    ]
+  },
+  "pics.skola": {
+    "path": "/art/pics/skola.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Škola",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/skola-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/skola-256.webp"
+      }
+    ]
+  },
+  "pics.kosik": {
+    "path": "/art/pics/kosik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Košík",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kosik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kosik-256.webp"
+      }
+    ]
+  },
+  "pics.kyblik": {
+    "path": "/art/pics/kyblik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kyblík",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kyblik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kyblik-256.webp"
+      }
+    ]
+  },
+  "pics.mydlo": {
+    "path": "/art/pics/mydlo.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mýdlo",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/mydlo-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/mydlo-256.webp"
+      }
+    ]
+  },
+  "pics.zarovka": {
+    "path": "/art/pics/zarovka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Žárovka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/zarovka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/zarovka-256.webp"
+      }
+    ]
+  },
+  "pics.budik": {
+    "path": "/art/pics/budik.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Budík",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/budik-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/budik-256.webp"
+      }
+    ]
+  },
+  "pics.telefon": {
+    "path": "/art/pics/telefon.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Telefon",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/telefon-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/telefon-256.webp"
+      }
+    ]
+  },
+  "pics.rukavice": {
+    "path": "/art/pics/rukavice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Rukavice",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/rukavice-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/rukavice-256.webp"
+      }
+    ]
+  },
+  "pics.ponozky": {
+    "path": "/art/pics/ponozky.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Ponožky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/ponozky-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/ponozky-256.webp"
+      }
+    ]
+  },
+  "pics.sala": {
+    "path": "/art/pics/sala.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šála",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sala-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sala-256.webp"
+      }
+    ]
+  },
+  "pics.boty": {
+    "path": "/art/pics/boty.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Boty",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/boty-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/boty-256.webp"
+      }
+    ]
+  },
+  "pics.holinky": {
+    "path": "/art/pics/holinky.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Holínky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/holinky-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/holinky-256.webp"
+      }
+    ]
+  },
+  "pics.batoh": {
+    "path": "/art/pics/batoh.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Batoh",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/batoh-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/batoh-256.webp"
+      }
+    ]
+  },
+  "pics.tricko": {
+    "path": "/art/pics/tricko.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tričko",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tricko-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tricko-256.webp"
+      }
+    ]
+  },
+  "pics.bunda": {
+    "path": "/art/pics/bunda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Bunda",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/bunda-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/bunda-256.webp"
+      }
+    ]
+  },
+  "pics.noty": {
+    "path": "/art/pics/noty.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Noty",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/noty-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/noty-256.webp"
+      }
+    ]
+  },
+  "pics.buben": {
+    "path": "/art/pics/buben.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Bubínek",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/buben-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/buben-256.webp"
+      }
+    ]
+  },
+  "pics.trumpeta": {
+    "path": "/art/pics/trumpeta.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Trumpeta",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/trumpeta-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/trumpeta-256.webp"
+      }
+    ]
+  },
+  "pics.housle": {
+    "path": "/art/pics/housle.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Housle",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/housle-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/housle-256.webp"
+      }
+    ]
+  },
+  "pics.kytara": {
+    "path": "/art/pics/kytara.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kytara",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kytara-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kytara-256.webp"
+      }
+    ]
+  },
+  "pics.klavir": {
+    "path": "/art/pics/klavir.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Klavír",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/klavir-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/klavir-256.webp"
+      }
+    ]
+  },
+  "pics.televize": {
+    "path": "/art/pics/televize.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Televize",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/televize-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/televize-256.webp"
+      }
+    ]
+  },
+  "pics.koruna": {
+    "path": "/art/pics/koruna.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Koruna",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/koruna-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/koruna-256.webp"
+      }
+    ]
+  },
+  "pics.fotbalovy-mic": {
+    "path": "/art/pics/fotbalovy-mic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Fotbalový míč",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/fotbalovy-mic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/fotbalovy-mic-256.webp"
+      }
+    ]
+  },
+  "pics.basketbalovy-mic": {
+    "path": "/art/pics/basketbalovy-mic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Basketbalový míč",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/basketbalovy-mic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/basketbalovy-mic-256.webp"
+      }
+    ]
+  },
+  "pics.tenis": {
+    "path": "/art/pics/tenis.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tenis",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tenis-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tenis-256.webp"
+      }
+    ]
+  },
+  "pics.hokejka": {
+    "path": "/art/pics/hokejka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hokejka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/hokejka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/hokejka-256.webp"
+      }
+    ]
+  },
+  "pics.branka": {
+    "path": "/art/pics/branka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Branka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/branka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/branka-256.webp"
+      }
+    ]
+  },
+  "pics.brusle": {
+    "path": "/art/pics/brusle.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Brusle",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/brusle-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/brusle-256.webp"
+      }
+    ]
+  },
+  "pics.sane": {
+    "path": "/art/pics/sane.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sáňky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sane-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sane-256.webp"
+      }
+    ]
+  },
+  "pics.pohar": {
+    "path": "/art/pics/pohar.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pohár",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/pohar-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/pohar-256.webp"
+      }
+    ]
+  },
+  "pics.drak": {
+    "path": "/art/pics/drak.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Drak",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/drak-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/drak-256.webp"
+      }
+    ]
+  },
+  "pics.puzzle": {
+    "path": "/art/pics/puzzle.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Puzzle",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/puzzle-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/puzzle-256.webp"
+      }
+    ]
+  },
+  "pics.vanocni-stromek": {
+    "path": "/art/pics/vanocni-stromek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Vánoční stromek",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vanocni-stromek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vanocni-stromek-256.webp"
+      }
+    ]
+  },
+  "pics.paleta": {
+    "path": "/art/pics/paleta.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Malířská paleta",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/paleta-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/paleta-256.webp"
+      }
+    ]
+  },
+  "pics.kladivo": {
+    "path": "/art/pics/kladivo.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Kladivo",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/kladivo-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/kladivo-256.webp"
+      }
+    ]
+  },
+  "pics.cihly": {
+    "path": "/art/pics/cihly.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Cihly",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/cihly-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/cihly-256.webp"
+      }
+    ]
+  },
+  "pics.knihy": {
+    "path": "/art/pics/knihy.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Knížky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/knihy-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/knihy-256.webp"
+      }
+    ]
+  },
+  "pics.lupa": {
+    "path": "/art/pics/lupa.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lupa",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/lupa-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/lupa-256.webp"
+      }
+    ]
+  },
+  "pics.vahy": {
+    "path": "/art/pics/vahy.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Váhy",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/vahy-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/vahy-256.webp"
+      }
+    ]
+  },
+  "pics.sipka-nahoru": {
+    "path": "/art/pics/sipka-nahoru.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šipka nahoru",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sipka-nahoru-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sipka-nahoru-256.webp"
+      }
+    ]
+  },
+  "pics.sipka-dolu": {
+    "path": "/art/pics/sipka-dolu.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šipka dolů",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sipka-dolu-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sipka-dolu-256.webp"
+      }
+    ]
+  },
+  "pics.sipka-vpravo": {
+    "path": "/art/pics/sipka-vpravo.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šipka doprava",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/sipka-vpravo-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/sipka-vpravo-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-1": {
+    "path": "/art/pics/tecky-1.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jedna tečka",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-1-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-1-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-2": {
+    "path": "/art/pics/tecky-2.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dvě tečky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-2-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-2-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-3": {
+    "path": "/art/pics/tecky-3.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Tři tečky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-3-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-3-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-4": {
+    "path": "/art/pics/tecky-4.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Čtyři tečky",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-4-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-4-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-5": {
+    "path": "/art/pics/tecky-5.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pět teček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-5-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-5-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-6": {
+    "path": "/art/pics/tecky-6.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šest teček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-6-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-6-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-7": {
+    "path": "/art/pics/tecky-7.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sedm teček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-7-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-7-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-8": {
+    "path": "/art/pics/tecky-8.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Osm teček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-8-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-8-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-9": {
+    "path": "/art/pics/tecky-9.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Devět teček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-9-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-9-256.webp"
+      }
+    ]
+  },
+  "pics.tecky-10": {
+    "path": "/art/pics/tecky-10.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Deset teček",
+    "group": "pics",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/pics/tecky-10-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/pics/tecky-10-256.webp"
+      }
+    ]
   }
 }

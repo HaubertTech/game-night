@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LEVELS, LEVEL_LABELS, type Level } from '#lib/types.ts';
+  import { LEVELS, LEVEL_AGES, LEVEL_LABELS, type Level } from '#lib/types.ts';
   import { AVATARS, TEAM_AVATARS } from '#lib/ui/labels.ts';
   import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import Art from '#lib/ui/art/Art.svelte';
@@ -185,7 +185,7 @@
           <div class="row" role="group" aria-label="Úroveň">
             {#each LEVELS as level (level)}
               <button type="button" class="chip" aria-pressed={formLevel === level} onclick={() => (formLevel = level)}>
-                <ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]}
+                <ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]} <small class="level-age">{LEVEL_AGES[level]}</small>
               </button>
             {/each}
           </div>
@@ -266,6 +266,11 @@
 </main>
 
 <style>
+  .level-age {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--ink-soft);
+  }
   .privacy {
     margin: 0;
     font-size: 0.95rem;

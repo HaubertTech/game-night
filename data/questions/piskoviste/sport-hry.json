@@ -1,21 +1,21 @@
 [
   {
-    "id": "piskoviste-sport-hry-001",
     "level": "piskoviste",
     "theme": "sport-hry",
     "type": "choice",
-    "text": "Co kopou fotbalisti?",
+    "text": "Kde se jezdí na lyžích?",
     "options": [
-      "🪁 Draka",
-      "🧸 Plyšáka",
-      "⚽ Míč"
+      "🏖️ Na pláži",
+      "🛣️ Na dálnici",
+      "🏔️ Na horách"
     ],
-    "answer": "⚽ Míč",
-    "fact": "Fotbalisti chtějí dát míč do branky.",
+    "answer": "🏔️ Na horách",
+    "fact": "Lyžaře vozí nahoru na kopec vlek nebo lanovka.",
     "difficulty": 1,
-    "image": "🥅",
+    "image": "⛷️",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-sport-hry-001"
   },
   {
     "id": "piskoviste-sport-hry-002",
@@ -212,6 +212,602 @@
     "fact": "Hokejisté mají helmu a chrániče, aby se nezranili.",
     "difficulty": 2,
     "image": "🏒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kde se plave?",
+    "options": [
+      "🏊 V bazénu",
+      "🛝 Na skluzavce",
+      "🌳 Na stromě"
+    ],
+    "answer": "🏊 V bazénu",
+    "fact": "Plavat se učíme nejdřív s kruhem nebo s deskou.",
+    "difficulty": 1,
+    "image": "🩱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co si bere brankář na ruce?",
+    "options": [
+      "🎸 Kytaru",
+      "🧤 Rukavice",
+      "🥄 Lžíci"
+    ],
+    "answer": "🧤 Rukavice",
+    "fact": "Brankářské rukavice mají měkkou dlaň, aby se míč lépe chytal.",
+    "difficulty": 2,
+    "image": "🥅",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který míč přijde v řadě dál?",
+    "options": [
+      "🏀 Basketbalový míč",
+      "🎾 Tenisák",
+      "⚽ Fotbalový míč"
+    ],
+    "answer": "⚽ Fotbalový míč",
+    "fact": "Basketbalový míč je větší a těžší než fotbalový.",
+    "difficulty": 2,
+    "image": "⚽🏀⚽🏀❓",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co nafoukneme na koupání do vody?",
+    "options": [
+      "🛷 Sáňky",
+      "🛟 Kruh",
+      "🪁 Draka"
+    ],
+    "answer": "🛟 Kruh",
+    "fact": "Nafukovací kruh je plný vzduchu, a proto plave.",
+    "difficulty": 2,
+    "image": "🌊",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-017"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo závodí na kole?",
+    "options": [
+      "🏊 Plavec",
+      "⛷️ Lyžař",
+      "🚴 Cyklista"
+    ],
+    "answer": "🚴 Cyklista",
+    "fact": "Nejslavnější závod na kole se jmenuje Tour de France a jezdí se po celé Francii.",
+    "difficulty": 2,
+    "image": "🏁",
+    "source": "https://cs.wikipedia.org/wiki/Tour_de_France",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Čím se hraje stolní tenis?",
+    "options": [
+      "🏓 Pálkou",
+      "🏒 Hokejkou",
+      "🥄 Lžící"
+    ],
+    "answer": "🏓 Pálkou",
+    "fact": "Pingpongový míček je dutý a moc lehký.",
+    "difficulty": 2,
+    "image": "🏆",
+    "source": "https://cs.wikipedia.org/wiki/Stoln%C3%AD_tenis",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo vyhraje závod v běhu?",
+    "options": [
+      "🐢 Kdo běží nejpomaleji",
+      "🥇 Kdo doběhne první",
+      "😴 Kdo usne"
+    ],
+    "answer": "🥇 Kdo doběhne první",
+    "fact": "Nejrychlejší běžci uběhnou sto metrů za necelých deset vteřin.",
+    "difficulty": 2,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/B%C4%9Bh_na_100_metr%C5%AF",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co se dělá na trampolíně?",
+    "options": [
+      "😴 Spí se",
+      "🍽️ Jí se",
+      "🤸 Skáče se"
+    ],
+    "answer": "🤸 Skáče se",
+    "fact": "Na trampolíně skáče vždycky jen jeden, aby se děti nesrazily.",
+    "difficulty": 1,
+    "image": "🎪",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Které zvířátko je figurkou v šachách?",
+    "options": [
+      "🐴 Koník",
+      "🐮 Kravička",
+      "🐷 Prasátko"
+    ],
+    "answer": "🐴 Koník",
+    "fact": "Šachový koník jako jediný umí přeskakovat ostatní figurky.",
+    "difficulty": 3,
+    "image": "♟️",
+    "source": "https://cs.wikipedia.org/wiki/Jezdec_(%C5%A1achy)",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo v cirkuse žongluje s míčky?",
+    "options": [
+      "🦁 Lev",
+      "🤹 Žonglér",
+      "🐘 Slon"
+    ],
+    "answer": "🤹 Žonglér",
+    "fact": "Žonglér nejdřív trénuje se dvěma míčky a pak přidá třetí.",
+    "difficulty": 2,
+    "image": "🎪",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo přijde v řadě dál?",
+    "options": [
+      "🚴 Cyklista",
+      "🏊 Plavec",
+      "🏃 Běžec"
+    ],
+    "answer": "🏃 Běžec",
+    "fact": "V triatlonu se v jednom závodě plave, jezdí na kole i běhá.",
+    "difficulty": 3,
+    "image": "🏃🚴🏃🚴❓",
+    "source": "https://cs.wikipedia.org/wiki/Triatlon",
+    "status": "verified",
+    "id": "piskoviste-sport-hry-024"
+  },
+  {
+    "id": "piskoviste-sport-hry-025",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co si dáme na ruce, když jdeme sáňkovat?",
+    "options": [
+      "🕶️ Brýle",
+      "🧤 Rukavice",
+      "🩳 Kraťasy"
+    ],
+    "answer": "🧤 Rukavice",
+    "fact": "Mokré rukavice je dobré doma usušit.",
+    "difficulty": 1,
+    "image": "🛷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-026",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kterým míčkem se hraje tenis?",
+    "options": [
+      "⚽ Fotbalovým",
+      "🏀 Basketbalovým",
+      "🎾 Malým žlutým",
+      "🏈 Šišatým"
+    ],
+    "answer": "🎾 Malým žlutým",
+    "fact": "Dřív byly tenisové míčky bílé. Žluté jsou proto, že je líp vidět v televizi.",
+    "difficulty": 2,
+    "image": "🏆",
+    "source": "https://en.wikipedia.org/wiki/Tennis_ball",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-027",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co stavíme v zimě ze sněhu?",
+    "options": [
+      "⛄ Sněhuláka",
+      "🏰 Hrad z písku",
+      "🪁 Draka"
+    ],
+    "answer": "⛄ Sněhuláka",
+    "fact": "Ze sněhu se dá postavit i iglú.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-028",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co postavíme z písku na pláži?",
+    "options": [
+      "⛄ Sněhuláka",
+      "🏰 Hrad",
+      "🪁 Draka"
+    ],
+    "answer": "🏰 Hrad",
+    "fact": "Mokrý písek drží pohromadě lépe než suchý.",
+    "difficulty": 1,
+    "image": "🏖️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-029",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik je tu fotbalových míčů?",
+    "options": [
+      "5️⃣ Pět",
+      "2️⃣ Dva",
+      "3️⃣ Tři"
+    ],
+    "answer": "3️⃣ Tři",
+    "fact": "Klasický fotbalový míč je sešitý z černých a bílých dílků.",
+    "difficulty": 2,
+    "image": "⚽⚽⚽🏀🏀",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-030",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik nejvíc puntíků je na hrací kostce?",
+    "options": [
+      "6️⃣ Šest",
+      "5️⃣ Pět",
+      "9️⃣ Devět"
+    ],
+    "answer": "6️⃣ Šest",
+    "fact": "Puntíky na protějších stranách kostky dají dohromady sedm.",
+    "difficulty": 3,
+    "image": "🎲",
+    "source": "https://cs.wikipedia.org/wiki/Hrac%C3%AD_kostka",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-031",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která věc nepatří k plavání?",
+    "options": [
+      "🥽 Brýle",
+      "🛷 Sáňky",
+      "🛟 Kruh"
+    ],
+    "answer": "🛷 Sáňky",
+    "fact": "Kolem bazénu se nesmí běhat, aby nikdo neuklouzl.",
+    "difficulty": 2,
+    "image": "🩱🥽🛟🛷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-032",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co nepatří k zimním hrám?",
+    "options": [
+      "🛷 Sáňky",
+      "⛸️ Brusle",
+      "🩱 Plavky"
+    ],
+    "answer": "🩱 Plavky",
+    "fact": "Na zamrzlý rybník smíme jen s dospělým.",
+    "difficulty": 2,
+    "image": "⛸️🛷⛄🩱",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-033",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co uděláme, když prohrajeme hru?",
+    "options": [
+      "🤝 Podáme si ruku",
+      "😠 Zlobíme se",
+      "🧸 Rozházíme hračky"
+    ],
+    "answer": "🤝 Podáme si ruku",
+    "fact": "Prohrát se může stát každému, i velkým sportovcům.",
+    "difficulty": 1,
+    "image": "🎲",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-034",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo z nich běží nejrychleji?",
+    "options": [
+      "🐢 Želva",
+      "🐎 Kůň",
+      "🐌 Šnek",
+      "🦆 Kachna"
+    ],
+    "answer": "🐎 Kůň",
+    "fact": "Nejrychlejší zvíře na souši je gepard.",
+    "difficulty": 2,
+    "image": "🏁",
+    "source": "https://cs.wikipedia.org/wiki/Gepard_%C5%A1t%C3%ADhl%C3%BD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-035",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co si obuje fotbalista?",
+    "options": [
+      "🩴 Žabky",
+      "👢 Holínky",
+      "👟 Kopačky"
+    ],
+    "answer": "👟 Kopačky",
+    "fact": "Kopačky mají na podrážce kolíky, aby hráč neuklouzl.",
+    "difficulty": 2,
+    "image": "⚽",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-036",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jakou medaili dostane ten, kdo je druhý?",
+    "options": [
+      "🥈 Stříbrnou",
+      "🥇 Zlatou",
+      "🥉 Bronzovou"
+    ],
+    "answer": "🥈 Stříbrnou",
+    "fact": "Při vyhlášení stojí medailisté na stupních vítězů.",
+    "difficulty": 3,
+    "image": "🏅",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-037",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se lyžaři dostanou nahoru na kopec?",
+    "options": [
+      "🚂 Vlakem",
+      "🚡 Lanovkou",
+      "⛵ Lodí"
+    ],
+    "answer": "🚡 Lanovkou",
+    "fact": "Lyžaře táhne nahoru také lyžařský vlek.",
+    "difficulty": 2,
+    "image": "⛷️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-038",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co skládáme z mnoha kousků do obrázku?",
+    "options": [
+      "🎲 Kostku",
+      "🪁 Draka",
+      "🧩 Puzzle"
+    ],
+    "answer": "🧩 Puzzle",
+    "fact": "Největší puzzle mají tisíce dílků.",
+    "difficulty": 1,
+    "image": "🖼️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-039",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co udělá pejsek, když si hrajeme na aport?",
+    "options": [
+      "🎾 Přinese míček",
+      "😴 Usne",
+      "🍽️ Jde jíst"
+    ],
+    "answer": "🎾 Přinese míček",
+    "fact": "Aport znamená, že pejsek přinese hozenou věc.",
+    "difficulty": 2,
+    "image": "🐕",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-040",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Z čeho se dělají koule na koulovanou?",
+    "options": [
+      "🏖️ Z písku",
+      "❄️ Ze sněhu",
+      "🧀 Ze sýra"
+    ],
+    "answer": "❄️ Ze sněhu",
+    "fact": "Nejlépe se koule dělají z mokrého sněhu.",
+    "difficulty": 1,
+    "image": "⛄",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-041",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co děláme při hře na sochy?",
+    "options": [
+      "🏃 Běháme pořád",
+      "🗣️ Křičíme",
+      "🧍 Zůstaneme stát bez hnutí"
+    ],
+    "answer": "🧍 Zůstaneme stát bez hnutí",
+    "fact": "Hýbat se smíme, jen když hraje hudba.",
+    "difficulty": 2,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-042",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik je tu hracích kostek?",
+    "options": [
+      "4️⃣ Čtyři",
+      "3️⃣ Tři",
+      "5️⃣ Pět"
+    ],
+    "answer": "4️⃣ Čtyři",
+    "fact": "Na Člověče, nezlob se stačí jedna kostka.",
+    "difficulty": 2,
+    "image": "🎲🎲🎲🎲",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-043",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co uděláme, když chceme kamarádovu hračku?",
+    "options": [
+      "🏃 Vezmeme ji a utečeme",
+      "🙋 Poprosíme ho",
+      "😭 Brečíme"
+    ],
+    "answer": "🙋 Poprosíme ho",
+    "fact": "Když se střídáme, může si hrát každý.",
+    "difficulty": 1,
+    "image": "🧸",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-044",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se pohybuje klokan?",
+    "options": [
+      "🏊 Plave",
+      "🐌 Leze pomalu",
+      "🤸 Skáče"
+    ],
+    "answer": "🤸 Skáče",
+    "fact": "Klokan nosí mládě v kapse na bříšku.",
+    "difficulty": 2,
+    "image": "🌿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-045",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na čem se plaví, když fouká vítr?",
+    "options": [
+      "⛵ Na plachetnici",
+      "🚂 Na vlaku",
+      "🚗 V autě"
+    ],
+    "answer": "⛵ Na plachetnici",
+    "fact": "Plachta zachytí vítr a ten žene loďku dopředu.",
+    "difficulty": 2,
+    "image": "💨",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-sport-hry-046",
+    "level": "piskoviste",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co uděláme, než začneme sportovat?",
+    "options": [
+      "😴 Vyspíme se",
+      "🤸 Rozcvičíme se",
+      "🍰 Sníme dort"
+    ],
+    "answer": "🤸 Rozcvičíme se",
+    "fact": "Rozcvička zahřeje svaly, aby se nezranily.",
+    "difficulty": 2,
+    "image": "🏃",
     "source": "obecná znalost",
     "status": "verified"
   }

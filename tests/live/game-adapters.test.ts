@@ -1,6 +1,7 @@
 // Game adapters of live rooms: data loading through node:fs and the league input of finished games.
 
 import { describe, expect, it } from 'vitest';
+import { LEVELS } from '../../src/lib/types.ts';
 import { applyAktivity, createAktivity, type AktivityAction, type AktivityCommand, type AktivityState } from '../../src/lib/games/aktivity/engine.ts';
 import { applyMjz, createMjzGame, type MjzAction, type MjzCommand, type MjzState } from '../../src/lib/games/mjz/engine.ts';
 import { aktivityAdapter, aktivityRecordInput, loadAktivityCards } from '../../src/lib/server/games/aktivity.ts';
@@ -36,7 +37,9 @@ describe('aktivity adapter', () => {
   it('loads every word card of data/aktivity', () => {
     const cards = loadAktivityCards();
     expect(cards.length).toBeGreaterThanOrEqual(600);
-    expect(new Set(cards.map((c) => c.level))).toEqual(new Set(['hospoda', 'lavice', 'piskoviste']));
+    const levels = new Set(cards.map((c) => c.level));
+    for (const l of ['hospoda', 'lavice', 'piskoviste'] as const) expect(levels.has(l)).toBe(true);
+    for (const l of levels) expect(LEVELS).toContain(l);
   });
 
   it('times out only a running turn', () => {

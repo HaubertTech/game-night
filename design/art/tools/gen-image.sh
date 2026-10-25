@@ -8,7 +8,12 @@ args=()
 for f in "$@"; do args+=(-i "$(realpath "$f")"); done
 dir="$(realpath -m "$(dirname "$out")")"; name="$(basename "$out")"
 mkdir -p "$dir"
-full="Use the built-in image generation tool (image_gen). Generate exactly ONE image according to the brief below. Attached images (if any) are character model sheets of our own original characters: keep their look identical (species, face, colors, clothing) and the same drawing style. Copy the resulting PNG from where the tool saved it into the current directory as $name (overwrite if it exists). Do nothing else.
+if [ "${REF_KIND:-model}" = "style" ]; then
+  refnote="Attached images (if any) are STYLE REFERENCES from our own illustration set: match their drawing style, ink line, watercolor texture and palette exactly, but do NOT copy their subjects."
+else
+  refnote="Attached images (if any) are character model sheets of our own original characters: keep their look identical (species, face, colors, clothing) and the same drawing style."
+fi
+full="Use the built-in image generation tool (image_gen). Generate exactly ONE image according to the brief below. $refnote Copy the resulting PNG from where the tool saved it into the current directory as $name (overwrite if it exists). Do nothing else.
 
 BRIEF:
 $prompt"

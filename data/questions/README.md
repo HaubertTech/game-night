@@ -3,6 +3,9 @@
 Jeden soubor na úroveň a téma: `data/questions/<level>/<theme>.json`, obsah je pole otázek podle
 typu `Question` v `src/lib/types.ts`. Do hry jdou jen otázky se `status: "verified"`.
 
+> **Pravidla tvorby a ověřování: skill `.claude/skills/otazky/SKILL.md`.** Úrovně a cílové počty:
+> `docs/UROVNE.md`. Tabulka níže je historická (úrovně v1).
+
 ## Úrovně
 
 | Level | Pro koho | Typy | Pravidla textu |

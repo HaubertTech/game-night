@@ -1,0 +1,632 @@
+[
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž oči.",
+    "options": [
+      "👀 Oči",
+      "👂 Ucho",
+      "👃 Nos"
+    ],
+    "answer": "👀 Oči",
+    "fact": "Když mrkáme, oči se nám omývají slzičkami.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-001"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, čím čicháme ke kytičce.",
+    "options": [
+      "🦶 Noha",
+      "👃 Nos",
+      "✋ Ruka"
+    ],
+    "answer": "👃 Nos",
+    "fact": "Nosem poznáme, že se v kuchyni peče bábovka.",
+    "difficulty": 1,
+    "image": "🌷",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-002"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, čím si čistíme zoubky.",
+    "options": [
+      "🍴 Vidlička",
+      "🧽 Houbička",
+      "🪥 Kartáček"
+    ],
+    "answer": "🪥 Kartáček",
+    "fact": "Zoubky si čistíme ráno a večer.",
+    "difficulty": 1,
+    "image": "🦷",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-003"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, co si myjeme mýdlem před jídlem.",
+    "options": [
+      "✋ Ruce",
+      "🎒 Batoh",
+      "👟 Boty"
+    ],
+    "answer": "✋ Ruce",
+    "fact": "Mýdlo smyje z rukou špínu i bacily.",
+    "difficulty": 1,
+    "image": "🧼",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-004"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, čím posloucháme písničky.",
+    "options": [
+      "👄 Pusa",
+      "👂 Ucho",
+      "👀 Oči"
+    ],
+    "answer": "👂 Ucho",
+    "fact": "Moc hlasitá hudba ouška bolí, proto ji ztlumíme.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-005"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, co si obouváme na nožičky.",
+    "options": [
+      "🧢 Čepice",
+      "🧤 Rukavice",
+      "👟 Boty"
+    ],
+    "answer": "👟 Boty",
+    "fact": "Boty chrání nožičky před kamínky a zimou.",
+    "difficulty": 1,
+    "image": "🦶",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-006"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, čím olizujeme zmrzlinu.",
+    "options": [
+      "👅 Jazyk",
+      "👂 Ucho",
+      "🦶 Noha"
+    ],
+    "answer": "👅 Jazyk",
+    "fact": "Jazykem poznáme, jestli je jídlo sladké, nebo slané.",
+    "difficulty": 1,
+    "image": "🍦",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-007"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž pusu.",
+    "options": [
+      "👂 Ucho",
+      "👄 Pusa",
+      "👃 Nos"
+    ],
+    "answer": "👄 Pusa",
+    "fact": "Pusou papáme, mluvíme, zpíváme a dáváme pusinky.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-008"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž ručičku.",
+    "options": [
+      "🦶 Nožička",
+      "👂 Ouško",
+      "✋ Ručička"
+    ],
+    "answer": "✋ Ručička",
+    "fact": "Na každé ručičce máme pět prstíků.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-009"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž nožičku.",
+    "options": [
+      "🦶 Nožička",
+      "👀 Očička",
+      "✋ Ručička"
+    ],
+    "answer": "🦶 Nožička",
+    "fact": "Na každé nožičce máme taky pět prstíků.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-010"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž zoubky.",
+    "options": [
+      "👂 Ouško",
+      "🦷 Zoubky",
+      "👃 Nosík"
+    ],
+    "answer": "🦷 Zoubky",
+    "fact": "Malé děti mají dvacet mléčných zoubků. Později jim vypadnou a vyrostou nové.",
+    "difficulty": 1,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Mléčný_chrup",
+    "status": "verified",
+    "id": "kocarek-veda-telo-011"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, co si dáváme na ručičky, když je zima.",
+    "options": [
+      "👟 Boty",
+      "🧦 Ponožky",
+      "🧤 Rukavice"
+    ],
+    "answer": "🧤 Rukavice",
+    "fact": "Rukavicím s jedním palcem se říká palčáky.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-012"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, co si dáváme na oči, když svítí sluníčko.",
+    "options": [
+      "🕶️ Brýle",
+      "🧦 Ponožky",
+      "🧤 Rukavice"
+    ],
+    "answer": "🕶️ Brýle",
+    "fact": "Sluneční brýle chrání oči před ostrým světlem.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-013"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak kýcháš.",
+    "answer": "Hepčí!",
+    "fact": "Když kýcháme, dáme si před pusu loket nebo kapesník.",
+    "difficulty": 1,
+    "image": "🤧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-014"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak spinkáš.",
+    "answer": "Zavřít očička, chrrr",
+    "fact": "Když spinkáme, tělíčko odpočívá a roste.",
+    "difficulty": 1,
+    "image": "😴",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-015"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak se protahuješ, když se ráno probudíš.",
+    "answer": "Ruce nahoru a protáhnout se",
+    "fact": "Po probuzení se protahují i kočičky a pejsci.",
+    "difficulty": 1,
+    "image": "🙆",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-016"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Pohlaď se po bříšku.",
+    "answer": "Hladit bříško",
+    "fact": "Když máme bříško plné, říkáme, že jsme sytí.",
+    "difficulty": 1,
+    "image": "🍽️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-017"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak se směješ.",
+    "answer": "Cha cha cha",
+    "fact": "Smích je nakažlivý: když se někdo směje, často se smějeme taky.",
+    "difficulty": 1,
+    "image": "😄",
+    "source": "https://cs.wikipedia.org/wiki/Smích",
+    "status": "verified",
+    "id": "kocarek-veda-telo-018"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak si myješ ručičky.",
+    "answer": "Mnout ručičky pod vodou",
+    "fact": "Ručičky si myjeme vždycky po záchodě a před jídlem.",
+    "difficulty": 1,
+    "image": "🧼",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-veda-telo-019"
+  },
+  {
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak zíváš.",
+    "answer": "Velké zívnutí: áááá",
+    "fact": "Zívání je nakažlivé: když někdo zívne, často zívneme taky.",
+    "difficulty": 1,
+    "image": "🥱",
+    "source": "https://cs.wikipedia.org/wiki/Zívání",
+    "status": "verified",
+    "id": "kocarek-veda-telo-020"
+  },
+  {
+    "id": "kocarek-veda-telo-021",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž šálu.",
+    "options": [
+      "🧣 Šála",
+      "🧤 Rukavice",
+      "👟 Boty"
+    ],
+    "answer": "🧣 Šála",
+    "fact": "Šála nám v zimě hřeje krček.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-022",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž ponožky.",
+    "options": [
+      "🧤 Rukavice",
+      "🧦 Ponožky",
+      "🧣 Šála"
+    ],
+    "answer": "🧦 Ponožky",
+    "fact": "Ponožky jsou vždycky dvě, pro každou nožičku jedna.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-023",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž kalhoty.",
+    "options": [
+      "👕 Tričko",
+      "🧦 Ponožky",
+      "👖 Kalhoty"
+    ],
+    "answer": "👖 Kalhoty",
+    "fact": "Kalhoty mají dvě nohavice, pro každou nožičku jednu.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-024",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž tričko.",
+    "options": [
+      "👕 Tričko",
+      "👖 Kalhoty",
+      "🧤 Rukavice"
+    ],
+    "answer": "👕 Tričko",
+    "fact": "Tričko se obléká přes hlavu.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-025",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, kde se koupeme.",
+    "options": [
+      "🛏️ Postýlka",
+      "🛁 Vana",
+      "🚗 Auto"
+    ],
+    "answer": "🛁 Vana",
+    "fact": "Do vany napustíme teplou vodu a můžeme si v ní hrát.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-026",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, kde spinkáme.",
+    "options": [
+      "🛁 Vana",
+      "🪑 Židle",
+      "🛏️ Postýlka"
+    ],
+    "answer": "🛏️ Postýlka",
+    "fact": "Ve spánku rosteme a odpočíváme.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-027",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, čím se myjeme.",
+    "options": [
+      "🧼 Mýdlo",
+      "🍞 Chleba",
+      "⚽ Míč"
+    ],
+    "answer": "🧼 Mýdlo",
+    "fact": "Mýdlo udělá bublinky a smyje špínu.",
+    "difficulty": 1,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-028",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, kde máš nosík.",
+    "answer": "Ukáže na nosík",
+    "fact": "Nosíkem cítíme, jak co voní.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-029",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, kde máš bříško.",
+    "answer": "Ukáže na bříško",
+    "fact": "Do bříška nám putuje všechno, co sníme.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-030",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, kde máš ouška.",
+    "answer": "Ukáže na ouška",
+    "fact": "Oušky slyšíme písničky i ptáčky.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-031",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, kde máš kolínko.",
+    "answer": "Ukáže na kolínko",
+    "fact": "Když si klekneme, opíráme se o kolínka.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-032",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Udělej velký nádech a výdech.",
+    "answer": "Nadechnout a vydechnout",
+    "fact": "Vzduch nám jde do těla nosem i pusou.",
+    "difficulty": 1,
+    "image": "🌬️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-033",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak si čistíš zoubky.",
+    "answer": "Kartáčkovat zoubky",
+    "fact": "Zoubky čistíme dokola, nahoře i dole.",
+    "difficulty": 1,
+    "image": "🪥",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-034",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak si myješ obličej.",
+    "answer": "Mnout tvářičky",
+    "fact": "Studená voda nás ráno pěkně probudí.",
+    "difficulty": 1,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-035",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak se utíráš ručníkem.",
+    "answer": "Utírat se ručičkama",
+    "fact": "Ručník do sebe vsákne vodu, a tak jsme hned suší.",
+    "difficulty": 1,
+    "image": "🛁",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-036",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak foukáš nosík.",
+    "answer": "Fúúú do kapesníku",
+    "fact": "Nosík foukáme pomalu, jednu dírku po druhé.",
+    "difficulty": 1,
+    "image": "🤧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-037",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak dáváš pusinku.",
+    "answer": "Mlask",
+    "fact": "Pusinkou ukazujeme, že někoho máme rádi.",
+    "difficulty": 1,
+    "image": "❤️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-038",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "imitate",
+    "text": "Ukaž, jak si obouváš botičky.",
+    "answer": "Nazout botičky",
+    "fact": "Suchý zip na botách dělá crrr, když ho rozepneme.",
+    "difficulty": 1,
+    "image": "👟",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-039",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž, čím mávneme na pozdrav.",
+    "options": [
+      "🦶 Nožička",
+      "✋ Ručička",
+      "👃 Nosík"
+    ],
+    "answer": "✋ Ručička",
+    "fact": "Mávnutím ruky se lidé zdraví i loučí.",
+    "difficulty": 1,
+    "image": "🧒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-veda-telo-040",
+    "level": "kocarek",
+    "theme": "veda-telo",
+    "type": "point",
+    "text": "Ukaž bundu.",
+    "options": [
+      "🧥 Bunda",
+      "👕 Tričko",
+      "🩳 Kraťasy"
+    ],
+    "answer": "🧥 Bunda",
+    "fact": "Bunda se zapíná na zip nebo na knoflíky.",
+    "difficulty": 1,
+    "image": "🍂",
+    "source": "obecná znalost",
+    "status": "verified"
+  }
+]

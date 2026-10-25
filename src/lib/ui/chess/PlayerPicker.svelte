@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LEVELS, LEVEL_LABELS } from '../../types.ts';
+  import { LEVELS, LEVEL_AGES, LEVEL_LABELS } from '../../types.ts';
   import { LEVEL_ART } from '../art/art.ts';
   import ArtIcon from '../live/ArtIcon.svelte';
   import Avatar from '../art/Avatar.svelte';
@@ -59,9 +59,17 @@
           onclick={() => {
             guest.level = level;
             onchange({ ...guest });
-          }}><ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]}</button
+          }}><ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]} <small class="level-age">{LEVEL_AGES[level]}</small></button
         >
       {/each}
     </div>
   {/if}
 </div>
+
+<style>
+  .level-age {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--ink-soft);
+  }
+</style>

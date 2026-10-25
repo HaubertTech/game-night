@@ -506,5 +506,1510 @@
     "difficulty": 1,
     "source": "https://cs.wikipedia.org/wiki/Šachovnice",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-031",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo rozhodl finále fotbalového ME 1976 dloubnutou penaltou?",
+    "options": [
+      "Antonín Panenka",
+      "Zdeněk Nehoda",
+      "Ivo Viktor",
+      "Marián Masný"
+    ],
+    "answer": "Antonín Panenka",
+    "fact": "Československo v Bělehradě porazilo NSR. Dloubnutému pokutovému kopu se dnes po celém světě říká „panenka“.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Antonín_Panenka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-032",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu vyhrál Martin Doktor v Atlantě 1996 dvě olympijská zlata?",
+    "options": [
+      "Ve vodním slalomu",
+      "V rychlostní kanoistice",
+      "Ve veslování",
+      "V plavání"
+    ],
+    "answer": "V rychlostní kanoistice",
+    "fact": "Vyhrál závody kanoistů na singlkanoi na 500 i 1000 metrů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Martin_Doktor",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-033",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která česká tenistka vyhrála Wimbledon 1998, pět let poté, co po prohraném finále plakala na rameni vévodkyně z Kentu?",
+    "options": [
+      "Helena Suková",
+      "Hana Mandlíková",
+      "Jana Novotná",
+      "Petra Kvitová"
+    ],
+    "answer": "Jana Novotná",
+    "fact": "Finále 1993 prohrála se Steffi Grafovou, přestože ve třetím setu vedla 4:1.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jana_Novotná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-034",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který grandslamový turnaj Ivan Lendl nikdy nevyhrál?",
+    "options": [
+      "Roland Garros",
+      "US Open",
+      "Australian Open",
+      "Wimbledon"
+    ],
+    "answer": "Wimbledon",
+    "fact": "Ve Wimbledonu prohrál dvě finále, v letech 1986 a 1987. Na US Open se dostal do finále osmkrát za sebou.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Ivan_Lendl",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-035",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "U kterého města leží Masarykův okruh, kde se jezdí motocyklová Grand Prix?",
+    "options": [
+      "U Brna",
+      "U Mostu",
+      "U Hořic",
+      "U Ostravy"
+    ],
+    "answer": "U Brna",
+    "fact": "První závod v roce 1930 se jel po běžných silnicích a jedno kolo měřilo přes 29 kilometrů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Masarykův_okruh",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-036",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který český fotbalista získal v roce 2003 Zlatý míč pro nejlepšího hráče Evropy?",
+    "options": [
+      "Petr Čech",
+      "Pavel Nedvěd",
+      "Tomáš Rosický",
+      "Jan Koller"
+    ],
+    "answer": "Pavel Nedvěd",
+    "fact": "Před ním trofej z našich hráčů získal jen Josef Masopust v roce 1962.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pavel_Nedvěd",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-037",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které disciplíně vyhrála Dana Zátopková olympiádu v Helsinkách 1952?",
+    "options": [
+      "V běhu na 800 m",
+      "Ve skoku do výšky",
+      "V hodu oštěpem",
+      "Ve vrhu koulí"
+    ],
+    "answer": "V hodu oštěpem",
+    "fact": "Zlato získala týž den, kdy Emil vyhrál pětku. Narodili se navíc ve stejný den, 19. září 1922.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dana_Zátopková",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-038",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu získala Štěpánka Hilgertová olympijské zlato v letech 1996 a 2000?",
+    "options": [
+      "V rychlostní kanoistice",
+      "Ve veslování",
+      "V jachtingu",
+      "Ve vodním slalomu"
+    ],
+    "answer": "Ve vodním slalomu",
+    "fact": "Obě zlata vyjela na kajaku. Druhé vybojovala v Sydney ve 32 letech, čtyři roky po Atlantě.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Štěpánka_Hilgertová",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-039",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která z těchto barev NEPATŘÍ do mariášových karet?",
+    "options": [
+      "Káry",
+      "Žaludy",
+      "Kule",
+      "Listy"
+    ],
+    "answer": "Káry",
+    "fact": "Spodci a svršci na mariáškách zobrazují postavy ze Schillerova dramatu Vilém Tell, esa zase čtyři roční období.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/William_Tell_cards",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-040",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na kterém pražském stadionu se konaly spartakiády?",
+    "options": [
+      "Na Letné",
+      "Na Velkém strahovském",
+      "V Edenu",
+      "Na Julisce"
+    ],
+    "answer": "Na Velkém strahovském",
+    "fact": "Plocha stadionu má kolem 63 000 m². Dnes na ní trénuje Sparta na sedmi fotbalových hřištích.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Velký_strahovský_stadion",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-041",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která země pořádala a zároveň vyhrála první mistrovství světa ve fotbale v roce 1930?",
+    "options": [
+      "Brazílie",
+      "Argentina",
+      "Uruguay",
+      "Itálie"
+    ],
+    "answer": "Uruguay",
+    "fact": "Z Evropy přijely jen čtyři týmy. Do Montevidea pluly lodí kolem 15 dní.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-042",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů jednoho týmu je na hřišti v klasickém ragby?",
+    "options": [
+      "11",
+      "13",
+      "9",
+      "15"
+    ],
+    "answer": "15",
+    "fact": "Podle legendy ragby vzniklo v roce 1823 ve škole v anglickém Rugby, když žák William Webb Ellis při fotbale vzal míč do rukou.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Rugby_union",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-043",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje trofej pro vítěze hokejové NHL?",
+    "options": [
+      "Stanleyův pohár",
+      "Pohár Gagarina",
+      "Calderův pohár",
+      "Hartova trofej"
+    ],
+    "answer": "Stanleyův pohár",
+    "fact": "Do poháru se vyrývají jména vítězných hráčů a každý z nich s ním smí strávit jeden den.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Stanley_Cup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-044",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik vítězných setů potřebuje muž k výhře zápasu na grandslamu?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "fact": "Nejdelší zápas historie mezi Isnerem a Mahutem ve Wimbledonu 2010 trval 11 hodin a 5 minut a hrál se tři dny.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Isner–Mahut_match_at_the_2010_Wimbledon_Championships",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-045",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se tři rány pod par na jedné jamce říká albatros?",
+    "options": [
+      "V kriketu",
+      "V šipkách",
+      "V golfu",
+      "V kuželkách"
+    ],
+    "answer": "V golfu",
+    "fact": "Albatros je vzácnější než hole-in-one: na jamce s parem 5 to znamená trefit jamku hned druhou ranou.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Albatross_(golf)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-046",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik nejvíc bodů lze v šipkách získat třemi šipkami?",
+    "options": [
+      "150",
+      "160",
+      "170",
+      "180"
+    ],
+    "answer": "180",
+    "fact": "Nejcennější není střed terče za 50 bodů, ale trojitá dvacítka za 60.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Darts",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-047",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který atlet získal čtyři zlaté medaile na olympiádě v Berlíně 1936?",
+    "options": [
+      "Jesse Owens",
+      "Carl Lewis",
+      "Paavo Nurmi",
+      "Jim Thorpe"
+    ],
+    "answer": "Jesse Owens",
+    "fact": "Vyhrál 100 m, 200 m, dálku a štafetu 4 × 100 m a pokazil tím nacistickou propagandu o nadřazenosti árijské rasy.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Jesse_Owens",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-048",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ze kterého sportu pochází výraz hattrick?",
+    "options": [
+      "Z fotbalu",
+      "Z kriketu",
+      "Z hokeje",
+      "Z dostihů"
+    ],
+    "answer": "Z kriketu",
+    "fact": "V roce 1858 vyřadil nadhazovač H. H. Stephenson tři pálkaře třemi míčky po sobě a fanoušci mu ze sbírky koupili klobouk.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Hat-trick",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-049",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ze které země pochází desková hra go?",
+    "options": [
+      "Z Japonska",
+      "Z Koreje",
+      "Z Číny",
+      "Z Indie"
+    ],
+    "answer": "Z Číny",
+    "fact": "Hraje se černými a bílými kameny na mřížce 19 × 19. Program AlphaGo porazil v roce 2016 jednoho z nejlepších hráčů světa Lee Sedola.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Go_(game)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-050",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Odkud pocházel Ernő Rubik, vynálezce slavné kostky?",
+    "options": [
+      "Z Polska",
+      "Z Rakouska",
+      "Z Rumunska",
+      "Z Maďarska"
+    ],
+    "answer": "Z Maďarska",
+    "fact": "Kostku sestrojil v roce 1974. Netušil, že vyrobil hlavolam, dokud ji nezamíchal. Složit ji mu pak trvalo asi měsíc.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-051",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik políček má obvod hracího plánu Monopoly?",
+    "options": [
+      "40",
+      "36",
+      "44",
+      "48"
+    ],
+    "answer": "40",
+    "fact": "Předchůdce Monopoly, The Landlord's Game, vymyslela Elizabeth Magie v roce 1903, aby ukázala, jak pronájem půdy obohacuje majitele.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/The_Landlord%27s_Game",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-052",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik karet má francouzský balíček bez žolíků?",
+    "options": [
+      "32",
+      "52",
+      "48",
+      "54"
+    ],
+    "answer": "52",
+    "fact": "Čtyři barvy – srdce, káry, piky a kříže – se ustálily ve Francii v 15. století.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/French-suited_playing_cards",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-053",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce poprvé vyhrálo Československo mistrovství světa v ledním hokeji?",
+    "answer": 1947,
+    "unit": "rok",
+    "fact": "Turnaj se hrál v Praze na Štvanici. Švédsku jsme podlehli 1:2, ale titul nám zajistilo Rakousko, když Švédy porazilo 2:1.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mistrovství_světa_v_ledním_hokeji_1947",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-054",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce se jel první cyklistický Závod míru?",
+    "answer": 1948,
+    "unit": "rok",
+    "fact": "První ročník se jel ve dvou souběžných verzích: z Prahy do Varšavy a z Varšavy do Prahy. Naposledy se Závod míru jel v roce 2006.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Závod_míru",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-055",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce se jela první Tour de France?",
+    "answer": 1903,
+    "unit": "rok",
+    "fact": "Závod vymyslel časopis L'Auto, aby zvýšil náklad. Žlutý trikot lídra má barvu papíru, na který se tiskl.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Tour_de_France",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-056",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jaké výšce v centimetrech visí obroučka basketbalového koše?",
+    "answer": 305,
+    "unit": "cm",
+    "fact": "Je to přesně 10 stop. Tolik měřil balkon tělocvičny, na který James Naismith v roce 1891 přibil košíky od broskví.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Basketball",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-057",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenoval trenér českých hokejistů, kteří vyhráli olympiádu v Naganu?",
+    "answer": "Ivan Hlinka",
+    "accept": [
+      "Hlinka"
+    ],
+    "fact": "Hlinka byl jako hráč mistrem světa a v roce 1981 odešel jako jeden z prvních Čechoslováků legálně do NHL, do Vancouveru.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ivan_Hlinka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-058",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje tělovýchovná organizace, kterou v roce 1862 založili Miroslav Tyrš a Jindřich Fügner?",
+    "answer": "Sokol",
+    "accept": [
+      "Sokol pražský",
+      "Tělocvičná jednota Sokol"
+    ],
+    "fact": "Fügner byl bohatý obchodník a Sokol financoval. Tyrš vymyslel jeho cvičební soustavu i řadu českých tělocvičných názvů.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sokol",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-059",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje krasobruslařský skok s odrazem vpřed, který má o půl otáčky víc než ostatní?",
+    "answer": "Axel",
+    "accept": [
+      "axel paulsen",
+      "Axl"
+    ],
+    "fact": "Pojmenovaný je po Norovi Axelu Paulsenovi, který ho v roce 1882 předvedl ve Vídni. Skákal ho na rychlobruslích.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Axel_jump",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-060",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje míčová hra na koních, kterou znali už ve starověké Persii?",
+    "answer": "Pólo",
+    "accept": [
+      "polo",
+      "koňské pólo"
+    ],
+    "fact": "Hra se dělí na úseky zvané chukka a po každém z nich hráči obvykle mění koně.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Polo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-061",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém městě se v roce 1984 konaly zimní olympijské hry?",
+    "options": [
+      "V Sarajevu",
+      "V Calgary",
+      "V Lake Placid",
+      "V Innsbrucku"
+    ],
+    "answer": "V Sarajevu",
+    "fact": "Za války v Bosně v 90. letech vedla přes olympijská sportoviště fronta. Betonová bobová dráha na hoře Trebević dodnes chátrá.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zimní_olympijské_hry_1984",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-062",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů jednoho týmu je na hřišti v házené?",
+    "options": [
+      "Šest",
+      "Sedm",
+      "Devět",
+      "Jedenáct"
+    ],
+    "answer": "Sedm",
+    "fact": "Na olympiádě se házená poprvé hrála v Berlíně 1936 – venku na trávě a s jedenácti hráči na každé straně.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Házená",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-063",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik minut čistého času trvá basketbalový zápas podle pravidel FIBA?",
+    "options": [
+      "40",
+      "48",
+      "60",
+      "90"
+    ],
+    "answer": "40",
+    "fact": "V zámořské NBA trvají čtvrtiny 12 minut místo deseti, zápas tam má tedy 48 minut.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Basketbal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-064",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů jednoho týmu je ve vodním pólu současně ve vodě?",
+    "options": [
+      "Pět",
+      "Šest",
+      "Osm",
+      "Sedm"
+    ],
+    "answer": "Sedm",
+    "fact": "Hráči nosí čepice s chrániči uší, brankáři mají čepici červenou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vodní_pólo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-065",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který sport vymyslel v roce 1895 William Morgan jako klidnější obdobu basketbalu?",
+    "options": [
+      "Volejbal",
+      "Squash",
+      "Badminton",
+      "Softbal"
+    ],
+    "answer": "Volejbal",
+    "fact": "Původně se mu říkalo „mintonette“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Volejbal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-066",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik bodů dostane tým v americkém fotbale za touchdown?",
+    "options": [
+      "Tři",
+      "Šest",
+      "Sedm",
+      "Dva"
+    ],
+    "answer": "Šest",
+    "fact": "Po touchdownu může tým kopem přidat jeden bod navíc, nebo se další akcí pokusit o dva.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Americký_fotbal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-067",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se hraje o Davisův pohár?",
+    "options": [
+      "V golfu",
+      "Ve veslování",
+      "V tenise",
+      "V jachtingu"
+    ],
+    "answer": "V tenise",
+    "fact": "Československo ho vyhrálo v roce 1980 s Ivanem Lendlem a Tomášem Šmídem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Davis_Cup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-069",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na kolik vítězných zápasů se hraje finále Stanleyova poháru?",
+    "options": [
+      "Na čtyři",
+      "Na tři",
+      "Na pět",
+      "Na sedm"
+    ],
+    "answer": "Na čtyři",
+    "fact": "Pohár věnoval v roce 1892 kanadský generální guvernér lord Stanley.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Stanley_Cup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-070",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se přezdívá vítězství amerických univerzitních hokejistů nad SSSR na olympiádě 1980?",
+    "options": [
+      "Turnaj století",
+      "Zázrak na ledě",
+      "Zlatý gól",
+      "Ledová bitva"
+    ],
+    "answer": "Zázrak na ledě",
+    "fact": "Nebylo to ještě finále. Zlato si Američané zajistili až o dva dny později výhrou nad Finskem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zázrak_na_ledě",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-071",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kterému hokejistovi se přezdívá The Great One?",
+    "options": [
+      "Mario Lemieux",
+      "Gordie Howe",
+      "Wayne Gretzky",
+      "Bobby Orr"
+    ],
+    "answer": "Wayne Gretzky",
+    "fact": "Jeho číslo 99 vyřadila NHL po konci jeho kariéry u všech týmů – nikdo jiný ho už nosit nesmí.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Wayne_Gretzky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-072",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "V jakém roce získalo Československo stříbro na mistrovství světa ve fotbale v Chile?",
+    "options": [
+      "1934",
+      "1958",
+      "1962",
+      "1976"
+    ],
+    "answer": "1962",
+    "fact": "Ve finále v Santiagu prohráli s Brazílií 1:3.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mistrovství_světa_ve_fotbale_1962",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-073",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik metrů od branky je značka pokutového kopu ve fotbale?",
+    "options": [
+      "9",
+      "11",
+      "16",
+      "20"
+    ],
+    "answer": "11",
+    "fact": "Odtud „jedenáctka“. Pokutový kop zavedli v roce 1891 na návrh irského brankáře Williama McCruma.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pokutový_kop",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-074",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje nejstarší fotbalová soutěž na světě, hraná od roku 1871?",
+    "options": [
+      "Premier League",
+      "FA Cup",
+      "Copa América",
+      "Liga mistrů"
+    ],
+    "answer": "FA Cup",
+    "fact": "Prvním vítězem se v roce 1872 stal londýnský klub Wanderers.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/FA_Cup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-075",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik bodů dostane fotbalový tým v lize za výhru?",
+    "options": [
+      "Jeden",
+      "Dva",
+      "Tři",
+      "Čtyři"
+    ],
+    "answer": "Tři",
+    "fact": "Dřív se za výhru dávaly dva body. Tři zavedla anglická liga v roce 1981 a po mistrovství světa 1994 se rozšířily všude.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Three_points_for_a_win",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-076",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kde se zapaluje olympijský oheň?",
+    "options": [
+      "V Athénách",
+      "Ve Spartě",
+      "V Delfách",
+      "V Olympii"
+    ],
+    "answer": "V Olympii",
+    "fact": "Oheň se zapaluje od slunečních paprsků pomocí dutého zrcadla, pak ho štafeta nese až do pořadatelského města.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Olympijský_oheň",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-077",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo stál u zrodu novodobých olympijských her?",
+    "options": [
+      "Pierre de Coubertin",
+      "Avery Brundage",
+      "Juan Antonio Samaranch",
+      "Jules Rimet"
+    ],
+    "answer": "Pierre de Coubertin",
+    "fact": "Sám získal olympijské zlato: v roce 1912 v umělecké soutěži za báseň Óda na sport, poslanou pod pseudonymem.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pierre_de_Coubertin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-078",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který Čech patřil v roce 1894 k zakladatelům Mezinárodního olympijského výboru?",
+    "options": [
+      "Miroslav Tyrš",
+      "Jiří Guth-Jarkovský",
+      "Josef Rössler-Ořovský",
+      "Jindřich Fügner"
+    ],
+    "answer": "Jiří Guth-Jarkovský",
+    "fact": "Napsal i slavnou příručku slušného chování Společenský katechismus.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Jiří_Stanislav_Guth-Jarkovský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-079",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik olympijských zlatých medailí získal oštěpař Jan Železný?",
+    "options": [
+      "Jednu",
+      "Dvě",
+      "Tři",
+      "Čtyři"
+    ],
+    "answer": "Tři",
+    "fact": "Ke třem zlatým z Barcelony, Atlanty a Sydney přidal ještě stříbro ze Soulu 1988.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jan_Železný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-080",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu získal Lukáš Krpálek dvě olympijská zlata?",
+    "options": [
+      "V zápase",
+      "V boxu",
+      "Ve vzpírání",
+      "V judu"
+    ],
+    "answer": "V judu",
+    "fact": "V Riu 2016 vyhrál kategorii do 100 kg, v Tokiu pak těžkou váhu nad 100 kg.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Lukáš_Krpálek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-081",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu vyhrála Kateřina Emmons olympijské zlato v Pekingu 2008?",
+    "options": [
+      "Ve sportovní střelbě",
+      "V lukostřelbě",
+      "Ve vodním slalomu",
+      "V moderním pětiboji"
+    ],
+    "answer": "Ve sportovní střelbě",
+    "fact": "Zvítězila ve střelbě ze vzduchové pušky na 10 metrů a porazila i domácí favoritku Tu Li.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Kateřina_Emmons",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-082",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Do kolika bodů se hraje rozhodující pátý set ve volejbale?",
+    "options": [
+      "Do 11",
+      "Do 15",
+      "Do 21",
+      "Do 25"
+    ],
+    "answer": "Do 15",
+    "fact": "Ostatní sety se hrají do 25 bodů a vždy je potřeba vyhrát aspoň o dva body.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Volejbal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-083",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Do kolika bodů se hraje set ve stolním tenise?",
+    "options": [
+      "Do 21",
+      "Do 15",
+      "Do 11",
+      "Do 25"
+    ],
+    "answer": "Do 11",
+    "fact": "Do roku 2001 se hrálo do 21 bodů. Kratší sety měly hru zrychlit a zatraktivnit pro televizi.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Stolní_tenis",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-084",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se v tenise říká podání, na které soupeř ani nedosáhne raketou?",
+    "options": [
+      "Let",
+      "Brejk",
+      "Lob",
+      "Eso"
+    ],
+    "answer": "Eso",
+    "fact": "„Let“ je naopak podání, které škrtne o síť a dopadne správně – pak se opakuje.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Tenis",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-085",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který grandslamový turnaj se hraje na antuce?",
+    "options": [
+      "Roland Garros",
+      "Wimbledon",
+      "US Open",
+      "Australian Open"
+    ],
+    "answer": "Roland Garros",
+    "fact": "Turnaj nese jméno francouzského letce, který v roce 1913 jako první přeletěl Středozemní moře.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/French_Open",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-086",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se v šachu říká situaci, kdy hráč nemůže táhnout, ale jeho král není v šachu?",
+    "options": [
+      "Mat",
+      "Pat",
+      "Gambit",
+      "Remíza opakováním"
+    ],
+    "answer": "Pat",
+    "fact": "Pat znamená remízu, takže se jím může zachránit i hráč, kterému zbyl jen král proti přesile.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Stalemate",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-087",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která šachová figura se celou partii pohybuje jen po polích jedné barvy?",
+    "options": [
+      "Věž",
+      "Dáma",
+      "Střelec",
+      "Jezdec"
+    ],
+    "answer": "Střelec",
+    "fact": "Každý hráč má proto jednoho „bělopolného“ a jednoho „černopolného“ střelce.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Střelec_(šachy)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-088",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje šachové pravidlo, kdy pěšec sebere soupeřova pěšce, který ho právě přeskočil o dvě pole?",
+    "options": [
+      "Proměna",
+      "Rošáda",
+      "Gambit",
+      "Braní mimochodem"
+    ],
+    "answer": "Braní mimochodem",
+    "fact": "Pravidlo vzniklo v pozdním středověku, když pěšci získali právo táhnout z výchozího pole rovnou o dvě pole.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Braní_mimochodem",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-089",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenoval počítač, který v roce 1997 porazil mistra světa v šachu Garriho Kasparova?",
+    "options": [
+      "Deep Blue",
+      "Watson",
+      "Stockfish",
+      "AlphaZero"
+    ],
+    "answer": "Deep Blue",
+    "fact": "Byl to superpočítač firmy IBM. Rok předtím s ním Kasparov ještě vyhrál.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Deep_Blue",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-090",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Který rodák z Prahy se v roce 1886 stal prvním oficiálním mistrem světa v šachu?",
+    "options": [
+      "Emanuel Lasker",
+      "Wilhelm Steinitz",
+      "Paul Morphy",
+      "José Raúl Capablanca"
+    ],
+    "answer": "Wilhelm Steinitz",
+    "fact": "Narodil se v pražském židovském ghettu. Později žil ve Vídni, Londýně a nakonec v New Yorku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Wilhelm_Steinitz",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-091",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se v mariáši jmenuje hra, ve které se hráč zaváže, že neudělá ani jeden štych?",
+    "options": [
+      "Durch",
+      "Sedma",
+      "Betl",
+      "Kilo"
+    ],
+    "answer": "Betl",
+    "fact": "Opakem je durch – hráč slíbí, že uhraje všech deset štychů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mariáš",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-092",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje karetní hra, ve které se hráč snaží dostat co nejblíž k 21 bodům?",
+    "options": [
+      "Prší",
+      "Kanasta",
+      "Žolíky",
+      "Oko bere"
+    ],
+    "answer": "Oko bere",
+    "fact": "V kasinech se podobná hra jmenuje blackjack a pravidla se v detailech liší.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Oko_bere",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-093",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Co v karetní hře prší znamená, když někdo vynese sedmičku?",
+    "options": [
+      "Další hráč bere dvě karty",
+      "Mění se barva",
+      "Další hráč stojí",
+      "Hráč hraje znovu"
+    ],
+    "answer": "Další hráč bere dvě karty",
+    "fact": "Svrškem se mění barva a eso zastaví dalšího hráče.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Prší",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-094",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "S kolika kameny začíná každý hráč klasickou dámu na šachovnici 8 × 8?",
+    "options": [
+      "S osmi",
+      "S dvanácti",
+      "Se šestnácti",
+      "S dvaceti"
+    ],
+    "answer": "S dvanácti",
+    "fact": "Kámen, který dojde na poslední řadu, se promění v dámu a smí táhnout i dozadu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dáma_(hra)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-095",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ze které země pochází čaturanga, předchůdce šachu?",
+    "options": [
+      "Z Persie",
+      "Z Číny",
+      "Z Indie",
+      "Z Egypta"
+    ],
+    "answer": "Z Indie",
+    "fact": "Figury představovaly čtyři složky indického vojska: pěchotu, jízdu, slony a vozy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Čaturanga",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-096",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kdo vymyslel v roce 1984 počítačovou hru Tetris?",
+    "options": [
+      "Ernő Rubik",
+      "Šigeru Mijamoto",
+      "Nolan Bushnell",
+      "Alexej Pažitnov"
+    ],
+    "answer": "Alexej Pažitnov",
+    "fact": "Napsal ji v Moskvě na sovětském počítači Elektronika 60, který neuměl grafiku – kostky se skládaly ze znaků.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Tetris",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-097",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje česká stavebnice z kovových dílků a šroubků?",
+    "options": [
+      "Merkur",
+      "Seva",
+      "Cheva",
+      "Lego"
+    ],
+    "answer": "Merkur",
+    "fact": "Vyrábět ji začal v roce 1920 Jaroslav Vancl v Polici nad Metují. Díly se zprvu spojovaly háčky, šroubky přišly později.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Merkur_(stavebnice)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-098",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik překážek překonají běžci na 110 metrů překážek?",
+    "options": [
+      "Osm",
+      "Deset",
+      "Dvanáct",
+      "Patnáct"
+    ],
+    "answer": "Deset",
+    "fact": "Na 3 000 metrů překážek musejí běžci navíc v každém kole přeskočit vodní příkop.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Běh_na_110_metrů_překážek",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-099",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která disciplína uzavírá desetiboj?",
+    "options": [
+      "Běh na 400 metrů",
+      "Skok o tyči",
+      "Běh na 1 500 metrů",
+      "Hod oštěpem"
+    ],
+    "answer": "Běh na 1 500 metrů",
+    "fact": "Desetiboj trvá dva dny. První den jsou na řadě stovka, dálka, koule, výška a 400 metrů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Desetiboj",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-100",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém městě je biatlonový areál, který hostil mistrovství světa v letech 2013 a 2024?",
+    "options": [
+      "V Harrachově",
+      "V Liberci",
+      "V Jablonci nad Nisou",
+      "V Novém Městě na Moravě"
+    ],
+    "answer": "V Novém Městě na Moravě",
+    "fact": "Areál Vysočina Arena hostí i Světový pohár v běhu na lyžích a závody horských kol.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vysočina_Arena",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-101",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém městě se jezdí Zlatá přilba, slavný závod na ploché dráze?",
+    "options": [
+      "V Pardubicích",
+      "V Praze",
+      "V Mariánských Lázních",
+      "V Plzni"
+    ],
+    "answer": "V Pardubicích",
+    "fact": "Jezdí se od roku 1929. Do roku 1964 se závodilo na travnaté dráze, pak na stadionu ve Svítkově.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Zlatá_přilba",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-102",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se v golfu říká zahrání jamky na jednu ránu pod par?",
+    "options": [
+      "Eagle",
+      "Birdie",
+      "Albatros",
+      "Bogey"
+    ],
+    "answer": "Birdie",
+    "fact": "O dvě rány pod par je eagle, o jednu ránu nad par bogey.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Golf",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-104",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik sekund má tým v basketbalu na zakončení útoku?",
+    "options": [
+      "24",
+      "30",
+      "35",
+      "45"
+    ],
+    "answer": "24",
+    "fact": "Časový limit zavedla NBA v roce 1954, aby týmy při vedení nezdržovaly hru donekonečna.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Shot_clock",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-105",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik centimetrů je vysoká volejbalová síť pro muže?",
+    "answer": 243,
+    "unit": "cm",
+    "fact": "Ženy hrají se sítí vysokou 224 cm.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Volejbal",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-106",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce se konaly první zimní olympijské hry v Chamonix?",
+    "answer": 1924,
+    "unit": "rok",
+    "fact": "Tehdy se jim říkalo Týden zimních sportů. Za první zimní olympiádu je MOV prohlásil až dodatečně.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zimní_olympijské_hry_1924",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-107",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik metrů měří jedno kolo atletického oválu po vnitřní dráze?",
+    "answer": 400,
+    "unit": "m",
+    "fact": "Vnější dráhy jsou delší, proto běžci na 400 metrů startují posunutě.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Running_track",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-108",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik centimetrů měří v průměru hokejový puk?",
+    "answer": 7.62,
+    "unit": "cm",
+    "fact": "Je to přesně 3 palce. Puk je z tvrdé gumy, silný 2,54 cm, a váží kolem 160 gramů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Puk",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-109",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce vznikl klub AC Sparta Praha?",
+    "answer": 1893,
+    "unit": "rok",
+    "fact": "Založili ho jako Athletic Club Královské Vinohrady. Vinohrady byly tehdy samostatné město za hranicemi Prahy.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/AC_Sparta_Praha",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-110",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik kilogramů váží koule pro vrh koulí mužů?",
+    "answer": 7.26,
+    "unit": "kg",
+    "fact": "Odpovídá to přesně 16 anglickým librám. Ženy vrhají koulí o hmotnosti 4 kg.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Vrh_koulí",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-111",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "V jakém roce se hrál první tenisový turnaj ve Wimbledonu?",
+    "answer": 1877,
+    "unit": "rok",
+    "fact": "Hrála se jen dvouhra mužů, přihlásilo se do ní 22 hráčů a vyhrál Spencer Gore.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Wimbledon_(tenis)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-112",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "estimate",
+    "text": "Kolik minut hracího času trvá zápas v ragby?",
+    "answer": 80,
+    "unit": "minut",
+    "fact": "Po vypršení času se hraje dál, dokud míč neopustí hru – zápas tedy nikdy nekončí uprostřed akce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ragby",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-113",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje lyžařský sport, který spojuje skok na lyžích a běh na lyžích?",
+    "answer": "Severská kombinace",
+    "accept": [
+      "sdruzeni",
+      "lyzarske sdruzeni",
+      "klasicke lyzarske sdruzeni",
+      "severska kombinace"
+    ],
+    "fact": "U nás se mu dlouho říkalo klasické lyžařské sdružení.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Severská_kombinace",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-114",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje sport, ve kterém se cvičí s obručí, míčem, švihadlem a stuhou?",
+    "answer": "Moderní gymnastika",
+    "accept": [
+      "moderni gymnastika",
+      "rytmicka gymnastika"
+    ],
+    "fact": "Na olympiádě v ní soutěží jen ženy, a to jednotlivkyně i družstva.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Moderní_gymnastika",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-115",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje tah, kdy pěšec dojde na poslední řadu šachovnice a změní se v jinou figuru?",
+    "answer": "Proměna",
+    "accept": [
+      "promena pesce",
+      "promena"
+    ],
+    "fact": "Nejčastěji se mění v dámu, takže hráč může mít na šachovnici i dvě dámy najednou.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Proměna_pěšce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-116",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje francouzská hra, ve které se házejí kovové koule co nejblíž k malé dřevěné kuličce?",
+    "answer": "Pétanque",
+    "accept": [
+      "petanque",
+      "petank",
+      "petang"
+    ],
+    "fact": "První pravidla vyšla v roce 1907 v provensálském městě La Ciotat. Název znamená v provensálštině „nohy u sebe“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pétanque",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-117",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Ve kterém městě se konaly letní olympijské hry 1980, které bojkotovaly USA?",
+    "answer": "Moskva",
+    "accept": [
+      "v moskve",
+      "moskve"
+    ],
+    "fact": "O čtyři roky později v Los Angeles naopak chyběly země východního bloku včetně Československa.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Letní_olympijské_hry_1980",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-118",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Kterou zbraní se šermuje kromě fleretu a kordu?",
+    "answer": "Šavle",
+    "accept": [
+      "savle",
+      "savli",
+      "šavlí"
+    ],
+    "fact": "U šavle se počítají i seky ostřím, u fleretu a kordu jen bodnutí hrotem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Šerm",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-119",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje desková hra, ve které hráči skládají slova z kamenů s písmeny?",
+    "answer": "Scrabble",
+    "accept": [
+      "scrabble",
+      "skrabl",
+      "scrable"
+    ],
+    "fact": "Vymyslel ji ve 30. letech nezaměstnaný americký architekt Alfred Butts. Hodnoty písmen odvodil z jejich četnosti v novinách.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Scrabble",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-sport-hry-120",
+    "level": "hospoda",
+    "theme": "sport-hry",
+    "type": "open",
+    "text": "Jak se jmenuje stadion fotbalového klubu Bohemians v pražských Vršovicích?",
+    "answer": "Ďolíček",
+    "accept": [
+      "dolicek",
+      "dolíček",
+      "v dolicku"
+    ],
+    "fact": "Klokana mají ve znaku od zájezdu do Austrálie v roce 1927. Hráči odtamtud přivezli i dva živé klokany.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bohemians_Praha_1905",
+    "status": "verified"
   }
 ]

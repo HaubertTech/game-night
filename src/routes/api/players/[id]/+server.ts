@@ -1,5 +1,5 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
-import { cleanAvatar, cleanBirthYear, cleanName, fail, isLevel, parseId, readJson, requireHousehold } from '#lib/server/http.ts';
+import { cleanAvatar, cleanBirthYear, cleanName, fail, isLevel, LEVEL_LIST, parseId, readJson, requireHousehold } from '#lib/server/http.ts';
 import { archivePlayer, updatePlayer, type PlayerPatch } from '#lib/server/repo/players.ts';
 
 export const PATCH: RequestHandler = async (event) => {
@@ -10,7 +10,7 @@ export const PATCH: RequestHandler = async (event) => {
   if (body.name !== undefined) patch.name = cleanName(body.name);
   if (body.avatar !== undefined) patch.avatar = cleanAvatar(body.avatar) ?? '🙂';
   if (body.level !== undefined) {
-    if (!isLevel(body.level)) fail(400, 'Úroveň musí být hospoda, lavice nebo piskoviste.');
+    if (!isLevel(body.level)) fail(400, `Úroveň musí být jedna z: ${LEVEL_LIST}.`);
     patch.level = body.level;
   }
   if (body.birth_year !== undefined) patch.birth_year = cleanBirthYear(body.birth_year) ?? null;
