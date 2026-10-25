@@ -2,6 +2,7 @@
   import { LEVEL_READER, hasOptions, isChildLevel, type Question } from '../types.ts';
   import type { Turn } from '../engine/select.ts';
   import { isSpeechSupported } from '../tts.ts';
+  import Pic from './art/Pic.svelte';
   import QuestionImage from './QuestionImage.svelte';
 
   let {
@@ -72,7 +73,7 @@
         {#if kids}
           {@const [pic, label] = splitEmoji(option)}
           <button class="option tile" data-testid="option" onclick={() => onAnswer(option)}>
-            <span class="emoji pic">{pic}</span>
+            <Pic emoji={pic} size={112} decorative class="pic" />
             <span class="label">{label}</span>
           </button>
         {:else}
@@ -177,8 +178,9 @@
     min-height: 240px;
     background: var(--paper);
   }
-  .pic {
-    font-size: 6rem;
+  .tile :global(.pic) {
+    width: 112px;
+    height: 112px;
   }
   .label {
     font-size: 1.5rem;

@@ -5,6 +5,7 @@
   import { LEVEL_LABELS, LEVEL_READER, THEME_LABELS, isChildLevel } from '../../types.ts';
   import { IMITATE_DONE, IMITATE_FAILED } from '../../engine/live.ts';
   import { LEVEL_EMOJI } from '../labels.ts';
+  import Pic from '../art/Pic.svelte';
   import QuestionImage from '../QuestionImage.svelte';
   import { splitEmoji } from './view-helpers.ts';
 
@@ -67,7 +68,7 @@
         {#if kids}
           {@const [pic, label] = splitEmoji(option)}
           <button class="option tile" data-testid="option" {disabled} onclick={() => onAnswer(option)} aria-label={label}>
-            <span class="emoji pic">{pic}</span>
+            <Pic emoji={pic} size={size === 'tv' ? 176 : 88} decorative class="pic" />
             <span class="label">{label}</span>
           </button>
         {:else}
@@ -207,12 +208,6 @@
   }
   .tv .tile {
     min-height: 260px;
-  }
-  .pic {
-    font-size: 4.5rem;
-  }
-  .tv .pic {
-    font-size: 7rem;
   }
   .label {
     font-size: 1.3rem;

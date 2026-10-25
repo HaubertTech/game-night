@@ -288,7 +288,7 @@
     </div>
 
     <h3>Avatary a odměny</h3>
-    <div class="row">
+    <div class="row avatars">
       {#each ART_AVATARS.slice(0, 8) as a (a)}
         <Avatar value={a} px={64} label />
       {/each}
@@ -296,7 +296,7 @@
     </div>
     <div class="row">
       {#each ['rewards.misto-1', 'rewards.misto-2', 'rewards.misto-3', 'rewards.vitez-vecera', 'rewards.serie'] as r (r)}
-        <Art name={r} size={72} />
+        <Art name={r} size={72} style="width:72px;height:72px" />
       {/each}
     </div>
 
@@ -583,6 +583,9 @@
   .answer.wrong {
     border-color: var(--color-error);
     background: var(--color-error-bg);
+  }
+  .avatars {
+    font-size: 52px;
   }
   .owls {
     display: grid;
