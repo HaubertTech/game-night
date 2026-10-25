@@ -12,6 +12,10 @@ import {
   LEVEL_ART,
   MANIFEST,
   pathFor,
+  picArt,
+  picKeyFor,
+  PICS_EMOJI,
+  splitEmoji,
   srcsetOf,
   THEME_ART,
 } from '../src/lib/ui/art/art.ts';
@@ -66,5 +70,25 @@ describe('avatars', () => {
   it('suggests an animal nobody uses yet', () => {
     expect(freeArtAvatar([])).toBe(ART_AVATARS[0]);
     expect(freeArtAvatar([ART_AVATARS[0], '🦊'])).toBe(ART_AVATARS[1]);
+  });
+});
+
+describe('picture dictionary', () => {
+  it('maps every emoji to a picture that is in the manifest', () => {
+    for (const key of Object.values(PICS_EMOJI)) expect(picArt(key)).toBeDefined();
+  });
+
+  it('finds pictures with and without the variation selector', () => {
+    expect(picKeyFor('🏔️')).toBe('hora');
+    expect(picKeyFor('🏔')).toBe('hora');
+    expect(picKeyFor('3️⃣')).toBe('tecky-3');
+    expect(picKeyFor('🔟')).toBe('tecky-10');
+    expect(picKeyFor('🔤')).toBeUndefined();
+  });
+
+  it('splits a keycap digit off an option label', () => {
+    expect(splitEmoji('3️⃣ Tři')).toEqual({ emoji: '3️⃣', label: 'Tři' });
+    expect(splitEmoji('🐶 Pejsek')).toEqual({ emoji: '🐶', label: 'Pejsek' });
+    expect(splitEmoji('Bez obrázku')).toEqual({ emoji: '', label: 'Bez obrázku' });
   });
 });

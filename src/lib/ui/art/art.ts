@@ -122,7 +122,7 @@ export function picKeyFor(emoji: string | null | undefined): string | undefined 
   return PICS_EMOJI[e] ?? PICS_EMOJI[e.replace(VARIATION_SELECTOR, '')] ?? PICS_EMOJI[e + '\uFE0F'];
 }
 
-const LEADING_EMOJI = /^\s*((?:\p{Extended_Pictographic}|\p{Regional_Indicator})(?:\uFE0F|\u200D(?:\p{Extended_Pictographic})\uFE0F?|\p{Emoji_Modifier})*)\s*/u;
+const LEADING_EMOJI = /^\s*((?:\p{Extended_Pictographic}|\p{Regional_Indicator}|[0-9#*]\uFE0F?\u20E3)(?:\uFE0F|\u200D(?:\p{Extended_Pictographic})\uFE0F?|\p{Emoji_Modifier})*)\s*/u;
 
 /** Splits an option like „🐶 Pejsek“ into its leading emoji and the label („Pejsek“). */
 export function splitEmoji(text: string): { emoji: string; label: string } {

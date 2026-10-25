@@ -10,3 +10,4 @@ playwright-report/
 # Generated originals (~60 MB) stay local; web versions live in static/art
 design/art/originals/
 data/outbox/
+design/art/contact-sheet-part.png

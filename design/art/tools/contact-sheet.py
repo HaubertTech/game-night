@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """Kontaktní arch všech obrázků ze static/art/manifest.json → design/art/contact-sheet.png.
-Průhledné obrázky leží na šachovnici (tady je to záměr: ukazuje alfu) a pod nimi je náhled 64 px."""
+Průhledné obrázky leží na šachovnici (tady je to záměr: ukazuje alfu) a pod nimi je náhled 64 px.
+
+  python3 design/art/tools/contact-sheet.py                     # všechno → contact-sheet.png
+  python3 design/art/tools/contact-sheet.py pics.tecky pics.dum  # jen klíče s těmito prefixy
+                                                                  # → contact-sheet-part.png
+"""
+import sys
 import json
 from pathlib import Path
 from PIL import Image, ImageDraw
@@ -16,9 +22,9 @@ def checker(size, s=16):
             if (x // s + y // s) % 2: d.rectangle([x, y, x + s - 1, y + s - 1], fill=(200, 200, 200, 255))
     return im
 
-def main():
+def main(prefixes=()):
     man = json.loads((STATIC / "manifest.json").read_text(encoding="utf-8"))
-    keys = list(man)
+    keys = [k for k in man if not prefixes or k.startswith(tuple(prefixes))]
     cols = 8; rows = (len(keys) + cols - 1) // cols
     sheet = Image.new("RGB", (cols * CELL, rows * (CELL + 40)), (244, 238, 226))
     d = ImageDraw.Draw(sheet)
@@ -33,8 +39,9 @@ def main():
             pb = Image.new("RGBA", (64, 64), (251, 248, 241, 255)); pb.alpha_composite(small)
             sheet.paste(pb.convert("RGB"), (x, y + CELL - 85))
         d.text((x, y + CELL - 15), k, fill=(59, 51, 43))
-    sheet.save(ART / "contact-sheet.png")
-    print("contact-sheet.png", len(keys))
+    name = "contact-sheet-part.png" if prefixes else "contact-sheet.png"
+    sheet.save(ART / name)
+    print(name, len(keys))
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

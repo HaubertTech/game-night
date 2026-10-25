@@ -517,6 +517,281 @@
         "originals/grids/levels.png"
       ],
       "prompt": "Four small vignette icons for difficulty levels of a family quiz, each a self-contained little object scene without background, matching the attached level icons (pub table, school desk, sandbox, family table) in scale, perspective and detail: 1) top-left: TODDLERS — an old-fashioned sage green baby pram with big spoked wheels, a small plush teddy bear peeking out of it; 2) top-right: FIRST-GRADERS — a brand new leather school satchel backpack in brick red with buckles, a paper school cone (Czech first day of school cone) full of sweets leaning against it, and a pencil case; 3) bottom-left: TODDLERS alternative — a toddler's wooden pull-along toy duck on a string next to a small plush teddy bear sitting on a knitted blanket; 4) bottom-right: FIRST-GRADERS alternative — a school satchel backpack in slate blue with reflective round clasps standing on a small wooden school chair, an apple on top."
+    },
+    {
+      "id": "pics-nature-1",
+      "out": "originals/pics/nature-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: one big single blue water drop, teardrop shape; 2) top-right: a single dark green spruce tree, tall triangular shape, short brown trunk; 3) bottom-left: two pale blue translucent ice cubes; 4) bottom-right: a small campfire: orange and red flames over three crossed wooden logs."
+    },
+    {
+      "id": "pics-nature-2",
+      "out": "originals/pics/nature-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a tiny green seedling with two round leaves growing out of a small mound of brown soil; 2) top-right: one big mountain with a white snowy peak; 3) bottom-left: a single red tulip flower with a green stem and two leaves; 4) bottom-right: one big grey rounded stone."
+    },
+    {
+      "id": "pics-nature-3",
+      "out": "originals/pics/nature-3.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a small bundle of three golden wheat ears with long stalks; 2) top-right: one single fresh green leaf with veins; 3) bottom-left: a small green twig with several pairs of leaves; 4) bottom-right: one shiny brown horse chestnut lying in half of its open spiky green shell."
+    },
+    {
+      "id": "pics-nature-4",
+      "out": "originals/pics/nature-4.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: the planet Earth seen from space: a round ball with blue seas and green-and-ochre continents, no stand; 2) top-right: a snowman made of three snowballs with a carrot nose, coal eyes, a small pot as a hat and twig arms; 3) bottom-left: one single fluffy white cloud; 4) bottom-right: one single soft light brown bird feather."
+    },
+    {
+      "id": "pics-animals-10",
+      "out": "originals/pics/animals-10.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a small grey mouse, side view, round ears, long thin tail; 2) top-right: one ant, side view, dark brown, six legs, two antennae, drawn big; 3) bottom-left: a tortoise walking, side view, olive green shell with a pattern; 4) bottom-right: a small songbird (a blue tit) standing, side view, blue cap and yellow belly, no branch."
+    },
+    {
+      "id": "pics-animals-11",
+      "out": "originals/pics/animals-11.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a friendly green snake coiled in a loose S shape, head raised; 2) top-right: a baby feeding bottle with white milk and a rubber teat; 3) bottom-left: one white game die (dice), three-quarter view, black dots on its faces; 4) bottom-right: a round clay honey pot full of golden honey with a wooden honey dipper."
+    },
+    {
+      "id": "pics-people-1",
+      "out": "originals/pics/people-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a small child about four years old standing, front view, t-shirt and trousers, full body; 2) top-right: a little girl with two pigtails in a dress, standing, front view, full body; 3) bottom-left: a little boy in a t-shirt and shorts, standing, front view, full body; 4) bottom-right: a grandfather with white hair, a white moustache and glasses, holding a walking stick, full body."
+    },
+    {
+      "id": "pics-people-2",
+      "out": "originals/pics/people-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a princess in a long dusty pink dress with a small golden crown, full body; 2) top-right: a policeman in a dark blue uniform and a cap, full body, no badge lettering; 3) bottom-left: a hairdresser woman holding scissors in one hand and a comb in the other, full body; 4) bottom-right: an astronaut in a white spacesuit with a round helmet, full body, no flags or patches."
+    },
+    {
+      "id": "pics-people-3",
+      "out": "originals/pics/people-3.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a small child sleeping peacefully on a pillow under a blanket, eyes closed; 2) top-right: a child running fast, side view, mid-stride; 3) bottom-left: a child swimming in a small oval patch of blue water, head and one arm above the water; 4) bottom-right: a child standing perfectly still like a statue, arms straight down by the sides, front view."
+    },
+    {
+      "id": "pics-people-4",
+      "out": "originals/pics/people-4.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a child riding a bicycle wearing a helmet, side view; 2) top-right: one flexed strong arm showing a big bicep; 3) bottom-left: a small fairy girl with transparent dragonfly wings holding a magic wand with a star on its tip; 4) bottom-right: one single white tooth with two roots, simple and clean."
+    },
+    {
+      "id": "pics-food-5",
+      "out": "originals/pics/food-5.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: one wrapped sweet with twisted wrapper ends; 2) top-right: a bar of brown chocolate in squares, partly unwrapped from its paper, no lettering; 3) bottom-left: one triangular slice of pizza with tomato, cheese and salami; 4) bottom-right: one round cookie with chocolate chips."
+    },
+    {
+      "id": "pics-food-6",
+      "out": "originals/pics/food-6.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a bowl of hot soup with a spoon in it and a little steam; 2) top-right: a cup of hot tea on a saucer with a little steam; 3) bottom-left: one yellow lemon with a leaf; 4) bottom-right: one round orange fruit with a small leaf."
+    },
+    {
+      "id": "pics-food-7",
+      "out": "originals/pics/food-7.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a round birthday cake with pink icing and three lit candles; 2) top-right: a black frying pan with one fried egg in it, seen from above at an angle; 3) bottom-left: one silver spoon; 4) bottom-right: one empty round white plate, seen from slightly above."
+    },
+    {
+      "id": "pics-home-1",
+      "out": "originals/pics/home-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a small house with a red tiled roof, a chimney, a door and two windows, front view; 2) top-right: a small school building with a little bell tower on the roof, many windows and a door, no clock face and no lettering; 3) bottom-left: an empty wicker basket with a handle; 4) bottom-right: a child's sand bucket with a handle."
+    },
+    {
+      "id": "pics-home-2",
+      "out": "originals/pics/home-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a bar of soap with a few soap bubbles; 2) top-right: one glowing light bulb; 3) bottom-left: an old alarm clock with two bells on top, the dial has only two hands and short tick marks, no numbers; 4) bottom-right: an old-fashioned rotary telephone with its handset."
+    },
+    {
+      "id": "pics-clothes-1",
+      "out": "originals/pics/clothes-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a pair of knitted winter mittens; 2) top-right: a pair of striped socks; 3) bottom-left: one long knitted winter scarf with fringes; 4) bottom-right: a pair of children's sneakers, side view."
+    },
+    {
+      "id": "pics-clothes-2",
+      "out": "originals/pics/clothes-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a pair of rubber boots; 2) top-right: a children's school backpack with two straps; 3) bottom-left: one t-shirt, front view, plain without print; 4) bottom-right: one warm winter jacket with a hood and a zip, front view."
+    },
+    {
+      "id": "pics-music-1",
+      "out": "originals/pics/music-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: two joined musical eighth notes, drawn big; 2) top-right: a toy drum with two drumsticks; 3) bottom-left: a brass trumpet, side view; 4) bottom-right: a violin with its bow."
+    },
+    {
+      "id": "pics-music-2",
+      "out": "originals/pics/music-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: an acoustic guitar; 2) top-right: a small upright piano, front view, black and white keys; 3) bottom-left: an old television set with an antenna and a blank grey screen; 4) bottom-right: a golden king's crown."
+    },
+    {
+      "id": "pics-sport-1",
+      "out": "originals/pics/sport-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a black-and-white football (soccer ball); 2) top-right: an orange basketball with black lines; 3) bottom-left: a tennis racket with a yellow tennis ball next to it; 4) bottom-right: an ice hockey stick with a black puck."
+    },
+    {
+      "id": "pics-sport-2",
+      "out": "originals/pics/sport-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a football goal with a white net, front view; 2) top-right: one ice skate boot with a blade, side view; 3) bottom-left: a wooden sled, side view; 4) bottom-right: a golden trophy cup with two handles."
+    },
+    {
+      "id": "pics-toys-3",
+      "out": "originals/pics/toys-3.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a diamond-shaped flying kite with a long tail of little bows; 2) top-right: one single jigsaw puzzle piece; 3) bottom-left: a small Christmas tree with red baubles and a star on top; 4) bottom-right: a wooden painter's palette with blobs of paint and a brush."
+    },
+    {
+      "id": "pics-things-1",
+      "out": "originals/pics/things-1.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: a hammer with a wooden handle; 2) top-right: a small stack of red bricks; 3) bottom-left: a stack of three closed books with plain covers, no lettering; 4) bottom-right: a magnifying glass with a wooden handle."
+    },
+    {
+      "id": "pics-things-2",
+      "out": "originals/pics/things-2.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: an old balance scale with two pans hanging level; 2) top-right: one thick brick red arrow pointing straight UP; 3) bottom-left: one thick brick red arrow pointing straight DOWN; 4) bottom-right: one thick brick red arrow pointing straight to the RIGHT."
+    },
+    {
+      "id": "pics-dots-base",
+      "out": "originals/pics/dots-base.png",
+      "kind": "grid",
+      "pics": true,
+      "ref_kind": "style",
+      "refs": [
+        "originals/grids/themes-2.png"
+      ],
+      "prompt": "Four subjects: 1) top-left: one blank face of a wooden toy die: a flat square cream tile with softly rounded corners, front view, completely empty; 2) top-right: one single round dark brown painted dot, like a pip on a die, drawn big; 3) bottom-left: one single round dark brown painted dot, like a pip on a die, drawn big, slightly different hand-painted edge; 4) bottom-right: one single round dark brown painted dot, like a pip on a die, drawn big, slightly irregular."
     }
   ],
   "pics": "Picture-dictionary icons for a quiz for children aged three to six who cannot read yet. Each subject is ONE single, iconic, instantly recognizable thing shown whole, in its most typical view, with a big simple silhouette and a bold clear ink outline, drawn a little simpler and chunkier than usual, so that it reads at a glance even at a tiny thumbnail size. No background, no scenery, no ground, no extra props, no other objects, no frames. Animals look friendly and natural (not dressed), young animals are visibly babies: smaller, rounder, bigger heads and eyes. All four subjects share the same scale of detail and the same style. Wide subjects (animals in side view, vehicles) are drawn smaller, about 55 percent of the cell width, so that the WHOLE subject including head, snout, trunk, horns and tail stays well inside its own quarter with a clear magenta margin; nothing may touch or cross the vertical or horizontal middle line of the image."

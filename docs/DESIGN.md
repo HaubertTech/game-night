@@ -116,7 +116,7 @@ jednodušší než pozadí. Přesné znění je `style` v `design/art/prompts.js
 | `themes`, `ui` | průhledný čtverec 512 | témata kvízu, drobnosti rozhraní |
 | `avatars` | průhledný čtverec 512 | 16 zvířátek-hráčů |
 | `rewards`, `empty` | průhledný čtverec 512 | medaile, poháry, prázdné stavy |
-| `pics` | průhledný čtverec 512 | **obrázkový slovník** pro dětské otázky (108 položek) |
+| `pics` | průhledný čtverec 512 | **obrázkový slovník** pro dětské otázky (210 položek) |
 
 Průhledné obrázky mají varianty 128 a 256 px (`-128.webp`, `-256.webp`), scény 600/960 px.
 Komponenty si samy vyberou nejmenší ostrou (`pathFor`, `srcset`).
@@ -161,8 +161,15 @@ python3 design/art/tools/contact-sheet.py                   # kontaktní arch �
 
 - Zdroj: `design/art/tools/pics-src.py` (klíč, alt, emoji, anglický popis), výstup
   `static/art/pics/<klíč>.webp` + mapa **`static/art/pics-emoji.json`** (`"🐐": "koza"`).
-- V mapě jsou jen **jednoznačná** emoji. ⚽/🏀 (různé míče), ⚪/⚫ (barvy, ne tvary), 🍂 (list, ne
-  podzim) záměrně chybí — u nich zůstane emoji, nebo data uvedou klíč obrázku přímo.
+- V mapě jsou jen **jednoznačná** emoji. ⚪/⚫ (barvy, ne tvary), 🍂 (list, ne podzim) a abstraktní
+  symboly (🔤 🔢 ➕ 🟰 ✨ 🎉 🗣) záměrně chybí — u nich zůstane emoji, nebo data uvedou klíč obrázku
+  přímo. ⚽ a 🏀 mají vlastní obrázek konkrétního míče, obecný `mic` zůstává bez emoji.
+- **Číslice 1️⃣–🔟 jsou tečky na hrací kostce** (`tecky-1` … `tecky-10`; 7–10 dvě kostky vedle sebe:
+  5+2, 4+4, 5+4, 5+5). Počet teček model neudrží, proto nakreslí jen předlohu `pics-dots-base`
+  (prázdná stěna kostky + puntíky) a mřížky `dots-*` složí `tools/dots.py`; pak běží `process.py`.
+- Nové mřížky: přidej je do `pics-src.py`, ten zapíše `pics.json` a doplní chybějící úlohy `pics-*`
+  do `prompts.json`. Kontaktní arch jen vybraných klíčů: `contact-sheet.py pics.dum pics.tecky`
+  (→ `design/art/contact-sheet-part.png`, necommituje se).
 - Komponenta `src/lib/ui/art/Pic.svelte`:
 
   ```svelte
