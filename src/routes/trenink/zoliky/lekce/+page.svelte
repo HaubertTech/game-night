@@ -5,7 +5,7 @@
   const audience = loadSetup('zoliky').audience;
 </script>
 
-<svelte:head><title>Žolíky — lekce</title></svelte:head>
+<svelte:head><title>Lekce žolíků · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <a class="btn small ghost back" href="/trenink/zoliky">← Žolíky</a>

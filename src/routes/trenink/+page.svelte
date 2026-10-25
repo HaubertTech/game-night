@@ -3,7 +3,7 @@
   import Card from '#lib/ui/karty-hra/Card.svelte';
 </script>
 
-<svelte:head><title>Trénink karet — Domácí liga</title></svelte:head>
+<svelte:head><title>Trénink karet · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <h1>Trénink</h1>

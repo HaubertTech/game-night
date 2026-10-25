@@ -6,6 +6,7 @@
   import Board from './Board.svelte';
   import MoveList from './MoveList.svelte';
   import Owl from '#lib/ui/art/Owl.svelte';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { aiAnalyze, aiMove } from './ai-client.ts';
   import { rememberFinished, saveGame, type SavedMode } from './storage.ts';
   import type { ChessRoomCommand } from '../../live/table-games.ts';
@@ -283,6 +284,9 @@
     return check ? `Šach! Na tahu: ${who}` : `Na tahu: ${who}`;
   });
 
+  // After a loss to the computer the owl encourages instead of celebrating.
+  const lostToComputer = $derived(!!game.result && !!aiColor && game.result.winner === aiColor);
+
   function playerLine(color: ChessColor) {
     const p = game.players[color];
     const diff = color === 'w' ? balance : -balance;
@@ -295,7 +299,7 @@
     {#each [top] as color (color)}
       {@const l = playerLine(color)}
       <div class="player" class:active={turn === color && !game.result}>
-        <span class="avatar" aria-hidden="true">{l.p.avatar ?? (color === 'w' ? '⚪' : '⚫')}</span>
+        <span class="avatar"><Avatar value={l.p.avatar} fallback={color === 'w' ? '⚪' : '⚫'} /></span>
         <span class="name">{l.p.name}{#if l.p.aiLevel} · {AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name}{/if}</span>
         {#if l.diff}<span class="diff">{l.diff}</span>{/if}
         {#if l.clock}<span class="clock" class:low={(remainingMs(game, color, now) ?? 1e9) < 20_000} data-testid={`clock-${color}`}>{l.clock}</span>{/if}
@@ -319,7 +323,7 @@
     {#each [orientation] as color (color)}
       {@const l = playerLine(color)}
       <div class="player" class:active={turn === color && !game.result}>
-        <span class="avatar" aria-hidden="true">{l.p.avatar ?? (color === 'w' ? '⚪' : '⚫')}</span>
+        <span class="avatar"><Avatar value={l.p.avatar} fallback={color === 'w' ? '⚪' : '⚫'} /></span>
         <span class="name">{l.p.name}{#if l.p.aiLevel} · {AI_LEVEL_LABELS[l.p.aiLevel as AiLevel].name}{/if}</span>
         {#if l.diff}<span class="diff">{l.diff}</span>{/if}
         {#if l.clock}<span class="clock" class:low={(remainingMs(game, color, now) ?? 1e9) < 20_000} data-testid={`clock-${color}`}>{l.clock}</span>{/if}
@@ -332,7 +336,7 @@
 
     {#if game.result}
       <div class="card stack end" data-testid="chess-result">
-        <Owl mood="slavi" text={game.result.text} />
+        <Owl mood={lostToComputer ? 'mava' : 'slavi'} text={game.result.text} />
         {#if !inRoom}
           <div class="row">
             <button type="button" class="btn primary" onclick={rematch}>{mode === 'local' ? 'Odveta (barvy se prohodí)' : 'Hrát znovu'}</button>
@@ -357,6 +361,8 @@
       </Owl>
     {:else if note}
       <Owl mood={note.mood} text={note.text} compact />
+    {:else if thinking}
+      <Owl mood="premysli" text="Počítač přemýšlí nad tahem…" compact />
     {/if}
 
     {#if !game.result}
@@ -369,7 +375,7 @@
         {#if game.allowUndo}
           <button type="button" class="btn" disabled={!game.moves.length || thinking || checking} onclick={undo}>↶ Vrátit tah</button>
         {/if}
-        <button type="button" class="btn" onclick={() => (flipped = !flipped)} aria-label="Otočit šachovnici">⟳ Otočit</button>
+        <button type="button" class="btn" onclick={() => (flipped = !flipped)}><span aria-hidden="true">⟳</span> Otočit desku</button>
       </div>
       <div class="row tools">
         <button type="button" class="btn small" disabled={thinking || (inRoom && (!room?.color || game.drawOffer === room.color))} onclick={offerDraw}>½ Nabídnout remízu</button>

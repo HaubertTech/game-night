@@ -66,10 +66,10 @@
   }
 </script>
 
-<svelte:head><title>{lesson?.title ?? 'Lekce'} · Učení šachů</title></svelte:head>
+<svelte:head><title>{lesson?.title ?? 'Lekce'} – učení šachů · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <a href="/sachy/uceni" class="btn small back">← Mapa lekcí</a>
+  <a href="/sachy/uceni" class="btn small ghost back">← Mapa lekcí</a>
   {#if !lesson}
     <p>Tahle lekce neexistuje.</p>
   {:else}

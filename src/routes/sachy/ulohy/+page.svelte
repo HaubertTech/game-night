@@ -60,10 +60,10 @@
   }
 </script>
 
-<svelte:head><title>Šachové úlohy · Domácí liga</title></svelte:head>
+<svelte:head><title>Šachové úlohy · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <a href={current ? '/sachy/ulohy' : '/sachy'} class="btn small back" onclick={(e) => { if (current) { e.preventDefault(); current = null; } }}>← {current ? 'Úlohy' : 'Šachy'}</a>
+  <a href={current ? '/sachy/ulohy' : '/sachy'} class="btn small ghost back" onclick={(e) => { if (current) { e.preventDefault(); current = null; } }}>← {current ? 'Úlohy' : 'Šachy'}</a>
   <h1>🧩 Úlohy</h1>
   <LearnerBar bind:learner />
 

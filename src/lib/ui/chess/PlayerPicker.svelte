@@ -1,6 +1,7 @@
 <script lang="ts">
   import { LEVELS, LEVEL_LABELS } from '../../types.ts';
   import { LEVEL_EMOJI } from '../labels.ts';
+  import Avatar from '../art/Avatar.svelte';
   import type { Profile } from '../../storage.ts';
   import type { Learner as Picked } from './storage.ts';
 
@@ -33,7 +34,7 @@
   <div class="row">
     {#each profiles as p (p.id)}
       <button type="button" class="chip" aria-pressed={value?.id === p.id} onclick={() => onchange({ id: p.id, name: p.name, avatar: p.avatar, level: p.level })}>
-        <span aria-hidden="true">{p.avatar}</span>{p.name}
+        <Avatar value={p.avatar} />{p.name}
       </button>
     {/each}
     {#if allowGuest}

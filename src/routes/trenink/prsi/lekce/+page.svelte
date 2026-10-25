@@ -5,7 +5,7 @@
   const audience = loadSetup('prsi').audience;
 </script>
 
-<svelte:head><title>Prší — lekce</title></svelte:head>
+<svelte:head><title>Lekce prší · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <a class="btn small ghost back" href="/trenink/prsi">← Prší</a>

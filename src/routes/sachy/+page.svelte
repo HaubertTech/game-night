@@ -19,13 +19,14 @@
     { href: '/sachy/dva', emoji: '👫', title: 'Dva hráči u tabletu', text: 'Partie u jednoho stolu, s hodinami i bez.' },
     { href: '/sachy/uceni', emoji: '🎓', title: 'Učení', text: 'Figurky, šach, mat a rošáda krok za krokem.' },
     { href: '/sachy/ulohy', emoji: '🧩', title: 'Úlohy', text: 'Mat jedním tahem, vidličky a výhra figury.' },
+    { href: '/tv?hra=chess', emoji: '📺', title: 'Na televizi a mobilech', text: 'Deska na televizi, každý hráč táhne ze svého mobilu. Potřebuje přihlášení.' },
   ];
 </script>
 
-<svelte:head><title>Šachy · Domácí liga</title></svelte:head>
+<svelte:head><title>Šachy · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <h1>♞ Šachy</h1>
+  <h1>Šachy</h1>
   <Owl mood="mava" text="Ahoj! Zahraj si s počítačem, s někým z rodiny, nebo se se mnou nauč, jak figurky chodí." />
 
   {#if aiGame || localGame}
@@ -51,7 +52,6 @@
       </a>
     {/each}
   </div>
-  <p class="muted">Každý na svém mobilu (živá místnost) připravujeme.</p>
 </main>
 
 <style>

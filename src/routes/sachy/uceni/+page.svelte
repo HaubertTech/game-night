@@ -12,10 +12,10 @@
   const finishedCount = $derived(LESSONS.filter((l, i) => done[i] === l.steps.length).length);
 </script>
 
-<svelte:head><title>Učení šachů · Domácí liga</title></svelte:head>
+<svelte:head><title>Učení šachů · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <a href="/sachy" class="btn small back">← Šachy</a>
+  <a href="/sachy" class="btn small ghost back">← Šachy</a>
   <h1>🎓 Učíme se šachy</h1>
   <LearnerBar bind:learner />
   <Owl

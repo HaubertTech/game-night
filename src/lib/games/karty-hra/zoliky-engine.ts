@@ -590,6 +590,15 @@ export interface ZolikyView {
 }
 
 /** What one screen may see: own hand only, the others as card counts; combinations are public. */
+/** Something was laid down, laid off or swapped since the turn's snapshot: „Vrátit tah“ has work to do. */
+function changedThisTurn(state: ZolikyGameState, playerId: string): boolean {
+  const snap = state.snapshot;
+  if (!snap) return false;
+  const hand = state.hands[playerId] ?? [];
+  if (state.melds !== snap.melds || state.meldSeq !== snap.meldSeq || hand.length !== snap.hand.length) return true;
+  return hand.some((c, i) => c !== snap.hand[i]);
+}
+
 export function viewFor(state: ZolikyGameState, viewer: ZolikyViewer): ZolikyView {
   const me = viewer.role === 'contestant' ? viewer.contestantId : null;
   const sheet = zolikySheet(state.sheet);
@@ -615,7 +624,7 @@ export function viewFor(state: ZolikyGameState, viewer: ZolikyViewer): ZolikyVie
     turn: state.turn,
     step: state.step,
     tookDiscard: me === state.turn ? state.tookDiscard : null,
-    canReset: me === state.turn && state.step === 'play' && !!state.snapshot,
+    canReset: me === state.turn && state.step === 'play' && changedThisTurn(state, me),
     log: state.log,
     rows: sheet.rows,
     lastRound: state.lastRound ? { winnerId: state.lastRound.winnerId, fromHand: state.lastRound.fromHand, points: state.lastRound.points } : null,

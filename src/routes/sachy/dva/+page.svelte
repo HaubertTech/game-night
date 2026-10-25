@@ -68,7 +68,7 @@
 <svelte:head><title>Šachy ve dvou · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <a href="/sachy" class="btn small back">← Šachy</a>
+  <a href="/sachy" class="btn small ghost back">← Šachy</a>
   <h1>👫 Dva hráči u tabletu</h1>
 
   <section class="card stack">

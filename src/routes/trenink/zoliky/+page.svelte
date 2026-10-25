@@ -3,7 +3,7 @@
   import Owl from '#lib/ui/art/Owl.svelte';
 </script>
 
-<svelte:head><title>Žolíky — trénink</title></svelte:head>
+<svelte:head><title>Trénink žolíků · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <a class="btn small ghost back" href="/trenink">← Trénink</a>

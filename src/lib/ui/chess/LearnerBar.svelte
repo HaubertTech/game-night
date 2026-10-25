@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import PlayerPicker from './PlayerPicker.svelte';
+  import Avatar from '../art/Avatar.svelte';
   import { loadLearner, saveLearner, type Learner } from './storage.ts';
   import { loadProfiles, type Profile } from '../../storage.ts';
 
@@ -21,7 +22,7 @@
 
 {#if learner}
   <div class="learner row">
-    <span>Učí se: <strong>{learner.avatar} {learner.name}</strong></span>
+    <span>Učí se: <strong><Avatar value={learner.avatar} /> {learner.name}</strong></span>
     <button type="button" class="btn small" onclick={() => (open = !open)}>{open ? 'Hotovo' : 'Změnit hráče'}</button>
   </div>
   {#if open}

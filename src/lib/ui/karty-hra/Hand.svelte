@@ -2,6 +2,7 @@
   // The player's hand as a fan at the bottom of the table. A card is played by a tap or by
   // dragging it up towards the table.
   import Card from './Card.svelte';
+  import { fanLayout } from './fan-layout.ts';
 
   interface Props {
     cards: string[];
@@ -18,9 +19,8 @@
   let { cards, selected = [], playable = null, advised = [], disabled = false, onTap, label = 'Moje karty' }: Props = $props();
 
   let fanWidth = $state(800);
-  const cardWidth = $derived(Math.max(64, Math.min(96, fanWidth / 6.5)));
-  const step = $derived(cards.length <= 1 ? 0 : Math.min(cardWidth * 0.92, (fanWidth - cardWidth - 40) / (cards.length - 1)));
-  const total = $derived(cardWidth + step * Math.max(0, cards.length - 1));
+  const layout = $derived(fanLayout(cards.length, fanWidth));
+  const cardWidth = $derived(layout.cardWidth);
 
   let drag: { id: string; y: number; dy: number } | null = $state(null);
 
@@ -47,10 +47,10 @@
 </script>
 
 <div class="hand" bind:clientWidth={fanWidth} role="group" aria-label={label} data-testid="hand">
-  <div class="fan" style="width:{total}px;height:{cardWidth * 1.5 + 26}px">
+  <div class="fan" class:two-rows={layout.rows === 2} style="width:{layout.width}px;height:{layout.height}px">
     {#each cards as id, i (id)}
-      {@const mid = (cards.length - 1) / 2}
-      {@const rot = cards.length > 1 ? ((i - mid) / Math.max(mid, 1)) * Math.min(8, cards.length) : 0}
+      {@const slot = layout.slots[i] ?? { x: 0, y: 0, rot: 0 }}
+      {@const rot = slot.rot}
       {@const lift = selected.includes(id) ? 22 : drag?.id === id ? -drag.dy : 0}
       <button
         type="button"
@@ -59,7 +59,7 @@
         class:dim={playable !== null && !playable.includes(id)}
         class:advised={advised.includes(id)}
         class:selected={selected.includes(id)}
-        style="left:{i * step}px;transform:translateY({-lift + Math.abs(rot) * 0.6}px) rotate({rot}deg)"
+        style="left:{slot.x}px;top:{slot.y}px;transform:translateY({-lift + Math.abs(rot) * 0.6}px) rotate({rot}deg)"
         aria-pressed={selected.includes(id)}
         data-testid="hand-card"
         data-card={id}
@@ -82,7 +82,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 26px;
+    padding-top: 12px;
     overflow: visible;
   }
   .fan {
@@ -90,7 +90,6 @@
   }
   .slot {
     position: absolute;
-    bottom: 0;
     padding: 0;
     border: 0;
     background: none;

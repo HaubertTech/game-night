@@ -280,6 +280,18 @@ describe('žolíky — zavření a body (domácí pravidla)', () => {
     expect(back.hands.a).toEqual(s.hands.a);
     expect(back.melds).toEqual(s.melds);
   });
+
+  it('offers „Vrátit tah“ only when the turn changed something', () => {
+    const s = table(
+      { a: ['srdce-6-1', 'piky-5-0', 'piky-9-0'], b: ['krize-2-0'], c: ['krize-3-0'] },
+      { melds: [{ ...run(), id: 'm1', owner: 'b' }], opened: { a: true, b: true, c: false }, openedBefore: true },
+    );
+    const me = { role: 'contestant', contestantId: 'a' } as const;
+    expect(viewFor(s, me).canReset).toBe(false);
+    const t = ok(act(s, 'a', { type: 'swapJoker', meldId: 'm1', cardIds: ['srdce-6-1'] }));
+    expect(viewFor(t, me).canReset).toBe(true);
+    expect(viewFor(ok(act(t, 'a', { type: 'resetTurn' })), me).canReset).toBe(false);
+  });
 });
 
 function run() {

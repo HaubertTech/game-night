@@ -37,7 +37,7 @@
   });
 </script>
 
-<svelte:head><title>Partie · Šachy</title></svelte:head>
+<svelte:head><title>Šachová partie · Herní večer</title></svelte:head>
 
 <main class="page">
   {#if game}

@@ -44,10 +44,10 @@
   }
 </script>
 
-<svelte:head><title>Šachy s počítačem · Domácí liga</title></svelte:head>
+<svelte:head><title>Šachy s počítačem · Herní večer</title></svelte:head>
 
 <main class="page stack">
-  <a href="/sachy" class="btn small back">← Šachy</a>
+  <a href="/sachy" class="btn small ghost back">← Šachy</a>
   <h1>🤖 Hrát s počítačem</h1>
 
   <section class="card stack">
