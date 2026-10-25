@@ -18,22 +18,22 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-cesko-svet-002",
     "level": "piskoviste",
     "theme": "cesko-svet",
     "type": "choice",
-    "text": "Co jezdí po kolejích?",
+    "text": "Co potřebuje kadeřnice?",
     "options": [
-      "🚂 Vlak",
-      "⛵ Loďka",
-      "🚗 Auto"
+      "✂️ Nůžky",
+      "🔨 Kladivo",
+      "🧯 Hasicí přístroj"
     ],
-    "answer": "🚂 Vlak",
-    "fact": "Vlak má vepředu lokomotivu, která táhne vagony.",
-    "difficulty": 1,
-    "image": "🛤️",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "✂️ Nůžky",
+    "fact": "Stříhání vlasů nebolí, protože ve vlasech nemáme žádné nervy.",
+    "difficulty": 2,
+    "image": "💇",
+    "source": "https://cs.wikipedia.org/wiki/Vlas",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-002"
   },
   {
     "id": "piskoviste-cesko-svet-003",
@@ -72,40 +72,40 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-cesko-svet-005",
     "level": "piskoviste",
     "theme": "cesko-svet",
     "type": "choice",
-    "text": "Co létá po nebi?",
+    "text": "Co potřebuje malíř k malování?",
     "options": [
-      "✈️ Letadlo",
-      "🚌 Autobus",
-      "🚲 Kolo"
+      "🥄 Lžíci",
+      "🖌️ Štětec",
+      "🪛 Šroubovák"
     ],
-    "answer": "✈️ Letadlo",
-    "fact": "Letadla startují a přistávají na letišti.",
-    "difficulty": 1,
-    "image": "🌤️",
+    "answer": "🖌️ Štětec",
+    "fact": "Když smícháme žlutou a modrou barvu, vznikne zelená.",
+    "difficulty": 2,
+    "image": "🧑‍🎨",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-005"
   },
   {
-    "id": "piskoviste-cesko-svet-006",
     "level": "piskoviste",
     "theme": "cesko-svet",
     "type": "choice",
-    "text": "Co jede s houkačkou k nemocným?",
+    "text": "Kdo peče chleba a rohlíky?",
     "options": [
-      "🚜 Traktor",
-      "🚕 Taxík",
-      "🚑 Sanitka"
+      "👮 Policista",
+      "👩‍🚒 Hasička",
+      "👨‍🍳 Pekař"
     ],
-    "answer": "🚑 Sanitka",
-    "fact": "Záchranku zavoláme na čísle 155.",
-    "difficulty": 1,
-    "image": "🏥",
+    "answer": "👨‍🍳 Pekař",
+    "fact": "Pekaři vstávají v noci, aby bylo ráno pečivo čerstvé.",
+    "difficulty": 2,
+    "image": "🥖",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-006"
   },
   {
     "id": "piskoviste-cesko-svet-007",
@@ -150,8 +150,9 @@
     "type": "choice",
     "text": "Na jakou barvu přecházíme silnici?",
     "options": [
+      "🟢 Na zelenou",
       "🔴 Na červenou",
-      "🟢 Na zelenou"
+      "🟠 Na oranžovou"
     ],
     "answer": "🟢 Na zelenou",
     "fact": "I na zelenou se nejdřív rozhlédneme.",
@@ -213,5 +214,221 @@
     "image": "🚓",
     "source": "obecná znalost",
     "status": "verified"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo nám nosí dopisy a balíky?",
+    "options": [
+      "👨‍🍳 Kuchař",
+      "📬 Pošťák",
+      "👩‍⚕️ Doktorka"
+    ],
+    "answer": "📬 Pošťák",
+    "fact": "Na dopis se lepí známka, aby mohl cestovat poštou.",
+    "difficulty": 2,
+    "image": "✉️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo jezdí s traktorem na pole?",
+    "options": [
+      "🧑‍🚀 Kosmonaut",
+      "💇 Kadeřník",
+      "👩‍🌾 Zemědělkyně"
+    ],
+    "answer": "👩‍🌾 Zemědělkyně",
+    "fact": "Z obilí z pole se mele mouka na chleba.",
+    "difficulty": 2,
+    "image": "🚜",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo létá do vesmíru?",
+    "options": [
+      "🧑‍🚀 Kosmonaut",
+      "👨‍🍳 Kuchař",
+      "🧑‍🌾 Zemědělec"
+    ],
+    "answer": "🧑‍🚀 Kosmonaut",
+    "fact": "První Čech ve vesmíru byl Vladimír Remek.",
+    "difficulty": 2,
+    "image": "🚀",
+    "source": "https://cs.wikipedia.org/wiki/Vladim%C3%ADr_Remek",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "S čím jezdí hasiči k ohni?",
+    "options": [
+      "🚜 S traktorem",
+      "🚒 S hasičským autem",
+      "🚲 Na kole"
+    ],
+    "answer": "🚒 S hasičským autem",
+    "fact": "Hasičské auto veze vodu, hadice i dlouhý žebřík.",
+    "difficulty": 1,
+    "image": "🔥",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-016"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde bydlí v pohádkách král?",
+    "options": [
+      "⛺ Ve stanu",
+      "🛖 V chaloupce",
+      "🏰 Na hradě"
+    ],
+    "answer": "🏰 Na hradě",
+    "fact": "U nás stojí spousta hradů a zámků, třeba Karlštejn.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Karl%C5%A1tejn",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-017"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde nakupujeme jídlo?",
+    "options": [
+      "🏪 V obchodě",
+      "🏥 V nemocnici",
+      "🏫 Ve škole"
+    ],
+    "answer": "🏪 V obchodě",
+    "fact": "V obchodě platíme penězi nebo kartou.",
+    "difficulty": 1,
+    "image": "🛒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kam chodí děti, když jim je šest let?",
+    "options": [
+      "🏭 Do továrny",
+      "🏫 Do školy",
+      "🏥 Do nemocnice"
+    ],
+    "answer": "🏫 Do školy",
+    "fact": "Školní rok začíná v září.",
+    "difficulty": 2,
+    "image": "🎒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co dělá chodec, když svítí červená?",
+    "options": [
+      "🏃 Běží přes silnici",
+      "💃 Tancuje na silnici",
+      "✋ Stojí a čeká"
+    ],
+    "answer": "✋ Stojí a čeká",
+    "fact": "Některé semafory pípají. Podle zvuku poznají, kdy jít, i lidé, kteří nevidí.",
+    "difficulty": 1,
+    "image": "🚦",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde žijí klokani?",
+    "options": [
+      "🇦🇺 V Austrálii",
+      "🇨🇿 V Česku",
+      "🧊 Na ledu"
+    ],
+    "answer": "🇦🇺 V Austrálii",
+    "fact": "Klokaní mládě vyrůstá u maminky ve vaku na bříšku.",
+    "difficulty": 3,
+    "image": "🦘",
+    "source": "https://cs.wikipedia.org/wiki/Klokan",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo řídí letadlo?",
+    "options": [
+      "👨‍🍳 Kuchař",
+      "🧑‍✈️ Pilot",
+      "👩‍🌾 Zemědělkyně"
+    ],
+    "answer": "🧑‍✈️ Pilot",
+    "fact": "Ve velkém dopravním letadle sedí v kabině obvykle dva piloti.",
+    "difficulty": 2,
+    "image": "✈️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde žijí lvi?",
+    "options": [
+      "🧊 Na severním pólu",
+      "🌲 V našem lese",
+      "🌍 V Africe"
+    ],
+    "answer": "🌍 V Africe",
+    "fact": "Lev má kolem hlavy velkou hřívu.",
+    "difficulty": 2,
+    "image": "🦁",
+    "source": "https://cs.wikipedia.org/wiki/Lev",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo nás učí ve škole?",
+    "options": [
+      "🧑‍🏫 Učitel",
+      "🧑‍✈️ Pilot",
+      "🧑‍🍳 Kuchař"
+    ],
+    "answer": "🧑‍🏫 Učitel",
+    "fact": "Den učitelů slavíme 28. března.",
+    "difficulty": 1,
+    "image": "🏫",
+    "source": "https://cs.wikipedia.org/wiki/Den_u%C4%8Ditel%C5%AF",
+    "status": "verified",
+    "id": "piskoviste-cesko-svet-024"
   }
 ]

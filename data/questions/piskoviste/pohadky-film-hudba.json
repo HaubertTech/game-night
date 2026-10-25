@@ -72,40 +72,40 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-pohadky-film-hudba-005",
     "level": "piskoviste",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Na co se bubnuje?",
+    "text": "Kdo pomohl vytáhnout velikou řepu jako poslední?",
     "options": [
-      "🎺 Na trumpetu",
-      "🥁 Na buben",
-      "🎻 Na housle"
+      "🐭 Myška",
+      "🐶 Pejsek",
+      "🐱 Kočička"
     ],
-    "answer": "🥁 Na buben",
-    "fact": "Na buben bubnujeme rukama nebo paličkami.",
-    "difficulty": 1,
-    "image": "🎵",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🐭 Myška",
+    "fact": "Za dědečka se postupně chytli babička, vnučka, pejsek, kočička a nakonec myška.",
+    "difficulty": 2,
+    "image": "👴",
+    "source": "https://en.wikipedia.org/wiki/The_Gigantic_Turnip",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-005"
   },
   {
-    "id": "piskoviste-pohadky-film-hudba-006",
     "level": "piskoviste",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Jakou barvu má Krtek?",
+    "text": "Pro co běžela slepička ke studánce?",
     "options": [
-      "🔴 Červenou",
-      "🟡 Žlutou",
-      "⚫ Černou"
+      "🍎 Pro jablko",
+      "💧 Pro vodu",
+      "🌸 Pro kytičku"
     ],
-    "answer": "⚫ Černou",
-    "fact": "Krtek má velké oči a rád se směje.",
-    "difficulty": 1,
-    "image": "🎬",
+    "answer": "💧 Pro vodu",
+    "fact": "Kohoutek se nechtěl rozdělit o zrníčko a zakuckal se.",
+    "difficulty": 2,
+    "image": "🐓",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-006"
   },
   {
     "id": "piskoviste-pohadky-film-hudba-007",
@@ -214,5 +214,221 @@
     "image": "🐷",
     "source": "obecná znalost",
     "status": "verified"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kde rád ležel líný Honza?",
+    "options": [
+      "🌳 Na stromě",
+      "🛁 Ve vaně",
+      "🔥 Na peci"
+    ],
+    "answer": "🔥 Na peci",
+    "fact": "Pec byla velká kamna, na kterých se dřív i spalo.",
+    "difficulty": 2,
+    "image": "😴",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenovali sourozenci z Perníkové chaloupky?",
+    "options": [
+      "👧 Jeníček a Mařenka",
+      "🐰 Bob a Bobek",
+      "🔨 Pat a Mat"
+    ],
+    "answer": "👧 Jeníček a Mařenka",
+    "fact": "Jeníček si cestu z lesa značil drobečky chleba, ale snědli je ptáčci.",
+    "difficulty": 2,
+    "image": "🍪",
+    "source": "https://cs.wikipedia.org/wiki/Pern%C3%ADkov%C3%A1_chaloupka",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co si Krtek nechal ušít?",
+    "options": [
+      "🎩 Klobouk",
+      "👖 Kalhotky",
+      "🧣 Šálu"
+    ],
+    "answer": "👖 Kalhotky",
+    "fact": "Film o tom, jak Krtek ke kalhotkám přišel, vznikl už v roce 1957.",
+    "difficulty": 2,
+    "image": "🎬",
+    "source": "https://cs.wikipedia.org/wiki/Krtek",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na co se hraje smyčcem?",
+    "options": [
+      "🥁 Na buben",
+      "🎺 Na trumpetu",
+      "🎻 Na housle"
+    ],
+    "answer": "🎻 Na housle",
+    "fact": "Na smyčci jsou natažené žíně z koňského ocasu.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "https://cs.wikipedia.org/wiki/Smy%C4%8Dec",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-016"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na co se hraje černými a bílými klávesami?",
+    "options": [
+      "🎹 Na klavír",
+      "🎸 Na kytaru",
+      "🥁 Na buben"
+    ],
+    "answer": "🎹 Na klavír",
+    "fact": "Klavír má 88 kláves.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "https://cs.wikipedia.org/wiki/Klav%C3%ADr",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-017"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na co se brnká prsty?",
+    "options": [
+      "🥁 Na buben",
+      "🎸 Na kytaru",
+      "🎺 Na trumpetu"
+    ],
+    "answer": "🎸 Na kytaru",
+    "fact": "Kytara mívá šest strun.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "https://cs.wikipedia.org/wiki/Kytara",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Koho potkala Karkulka v lese?",
+    "options": [
+      "🐘 Slona",
+      "🦁 Lva",
+      "🐺 Vlka"
+    ],
+    "answer": "🐺 Vlka",
+    "fact": "Maminka Karkulce radila, ať se v lese nikde nezastavuje.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cerven%C3%A1_Karkulka",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo pomohl Popelce přebrat hrách a čočku?",
+    "options": [
+      "🕊️ Holoubci",
+      "🐶 Pejsci",
+      "🐟 Rybky"
+    ],
+    "answer": "🕊️ Holoubci",
+    "fact": "Popelka ztratila na plese střevíček.",
+    "difficulty": 2,
+    "image": "👸",
+    "source": "https://cs.wikipedia.org/wiki/Popelka",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co upekli pejsek a kočička?",
+    "options": [
+      "🍕 Pizzu",
+      "🎂 Dort",
+      "🥨 Preclík"
+    ],
+    "answer": "🎂 Dort",
+    "fact": "Do dortu dali kdeco, a tak je pak bolelo bříško. Příběh napsal Josef Čapek.",
+    "difficulty": 2,
+    "image": "👩‍🍳",
+    "source": "https://cs.wikipedia.org/wiki/Pov%C3%ADd%C3%A1n%C3%AD_o_pejskovi_a_ko%C4%8Di%C4%8Dce",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo je Hurvínek?",
+    "options": [
+      "🐶 Pejsek",
+      "🤖 Robot",
+      "🎭 Loutka"
+    ],
+    "answer": "🎭 Loutka",
+    "fact": "Hurvínek se vodí na nitích a jeho tatínek se jmenuje Spejbl.",
+    "difficulty": 2,
+    "image": "👦",
+    "source": "https://cs.wikipedia.org/wiki/Spejbl_a_Hurv%C3%ADnek",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak dlouho spala Šípková Růženka?",
+    "options": [
+      "💯 Sto let",
+      "📅 Jeden den",
+      "🌙 Jednu noc"
+    ],
+    "answer": "💯 Sto let",
+    "fact": "S Růženkou usnul celý zámek, i kuchař a koníci ve stáji.",
+    "difficulty": 3,
+    "image": "🌹",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0%C3%ADpkov%C3%A1_R%C5%AF%C5%BEenka",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo se staral o Smolíčka?",
+    "options": [
+      "🐻 Medvěd",
+      "🦌 Jelínek",
+      "🐺 Vlk"
+    ],
+    "answer": "🦌 Jelínek",
+    "fact": "Jelínek měl zlaté parůžky.",
+    "difficulty": 2,
+    "image": "🏠",
+    "source": "https://cs.wikipedia.org/wiki/O_Smolíčkovi",
+    "status": "verified",
+    "id": "piskoviste-pohadky-film-hudba-024"
   }
 ]

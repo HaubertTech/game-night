@@ -1,0 +1,347 @@
+[
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž žlutý banán.",
+    "options": [
+      "🍌 Banán",
+      "🍎 Jablko",
+      "🍇 Hrozny"
+    ],
+    "answer": "🍌 Banán",
+    "fact": "Banány rostou v teplých krajích ve velkých trsech.",
+    "difficulty": 1,
+    "image": "🐒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-001"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, co nám dává kravička.",
+    "options": [
+      "🍯 Med",
+      "🥛 Mléko",
+      "🥚 Vajíčko"
+    ],
+    "answer": "🥛 Mléko",
+    "fact": "Z mléka se dělá i sýr a máslo.",
+    "difficulty": 1,
+    "image": "🐄",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-002"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, čím jíme polévku.",
+    "options": [
+      "🍴 Vidlička",
+      "🔪 Nůž",
+      "🥄 Lžíce"
+    ],
+    "answer": "🥄 Lžíce",
+    "fact": "Před jídlem si popřejeme dobrou chuť.",
+    "difficulty": 1,
+    "image": "🍲",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-003"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, co je studené.",
+    "options": [
+      "🍦 Zmrzlina",
+      "🍲 Polévka",
+      "☕ Horký čaj"
+    ],
+    "answer": "🍦 Zmrzlina",
+    "fact": "Zmrzlina se v teple rychle rozpustí.",
+    "difficulty": 1,
+    "image": "🧊",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-004"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, co pijeme, když máme žízeň.",
+    "options": [
+      "🧂 Sůl",
+      "💧 Voda",
+      "🍞 Chleba"
+    ],
+    "answer": "💧 Voda",
+    "fact": "Na žízeň je nejlepší obyčejná voda.",
+    "difficulty": 1,
+    "image": "🥵",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-005"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž jablíčko.",
+    "options": [
+      "🍌 Banán",
+      "🥕 Mrkev",
+      "🍎 Jablíčko"
+    ],
+    "answer": "🍎 Jablíčko",
+    "fact": "Jablíčka rostou na stromě, kterému se říká jabloň.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-006"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž mrkvičku.",
+    "options": [
+      "🥕 Mrkvička",
+      "🍎 Jablíčko",
+      "🍇 Hrozny"
+    ],
+    "answer": "🥕 Mrkvička",
+    "fact": "Mrkvička roste schovaná v zemi, ven kouká jen zelená nať.",
+    "difficulty": 1,
+    "image": "🐰",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-007"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž chleba.",
+    "options": [
+      "🧀 Sýr",
+      "🍞 Chleba",
+      "🥚 Vajíčko"
+    ],
+    "answer": "🍞 Chleba",
+    "fact": "Chleba peče pan pekař z mouky, vody a kvásku.",
+    "difficulty": 1,
+    "image": "🧈",
+    "source": "https://cs.wikipedia.org/wiki/Chléb",
+    "status": "verified",
+    "id": "kocarek-jidlo-008"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž vajíčko.",
+    "options": [
+      "🍞 Chleba",
+      "🍓 Jahoda",
+      "🥚 Vajíčko"
+    ],
+    "answer": "🥚 Vajíčko",
+    "fact": "Vajíčko má uprostřed žlutý žloutek.",
+    "difficulty": 1,
+    "image": "🐔",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-009"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž jahodu.",
+    "options": [
+      "🍓 Jahoda",
+      "🍌 Banán",
+      "🍐 Hruška"
+    ],
+    "answer": "🍓 Jahoda",
+    "fact": "Jahoda má semínka navrchu, ne uvnitř.",
+    "difficulty": 1,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/Jahodník",
+    "status": "verified",
+    "id": "kocarek-jidlo-010"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž sýr.",
+    "options": [
+      "🍎 Jablíčko",
+      "🧀 Sýr",
+      "🥕 Mrkev"
+    ],
+    "answer": "🧀 Sýr",
+    "fact": "Sýr se vyrábí z mléka.",
+    "difficulty": 1,
+    "image": "🐭",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-011"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, co je sladké.",
+    "options": [
+      "🍋 Citron",
+      "🧂 Sůl",
+      "🍯 Med"
+    ],
+    "answer": "🍯 Med",
+    "fact": "Med dělají včelky ze sladké šťávy z kytiček.",
+    "difficulty": 1,
+    "image": "😋",
+    "source": "https://cs.wikipedia.org/wiki/Med",
+    "status": "verified",
+    "id": "kocarek-jidlo-012"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, čím napichujeme jídlo.",
+    "options": [
+      "🍴 Vidlička",
+      "🥄 Lžíce",
+      "☕ Hrnek"
+    ],
+    "answer": "🍴 Vidlička",
+    "fact": "Vidlička má několik hrotů, na které se jídlo dobře napíchne.",
+    "difficulty": 1,
+    "image": "🍝",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-013"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, z čeho pijeme čaj.",
+    "options": [
+      "🍽️ Talíř",
+      "☕ Hrnek",
+      "🥄 Lžíce"
+    ],
+    "answer": "☕ Hrnek",
+    "fact": "Z hrnečku pijeme čaj i kakao.",
+    "difficulty": 1,
+    "image": "🫖",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-014"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž hrozny.",
+    "options": [
+      "🍒 Třešně",
+      "🍓 Jahoda",
+      "🍇 Hrozny"
+    ],
+    "answer": "🍇 Hrozny",
+    "fact": "Hrozny rostou na keři, kterému se říká vinná réva.",
+    "difficulty": 1,
+    "image": "🍃",
+    "source": "https://cs.wikipedia.org/wiki/Réva_vinná",
+    "status": "verified",
+    "id": "kocarek-jidlo-015"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž, co je horké.",
+    "options": [
+      "☕ Horký čaj",
+      "🍦 Zmrzlina",
+      "🧊 Led"
+    ],
+    "answer": "☕ Horký čaj",
+    "fact": "Na horký čaj nejdřív foukáme, aby nás nespálil.",
+    "difficulty": 1,
+    "image": "🔥",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-016"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "point",
+    "text": "Ukaž hrušku.",
+    "options": [
+      "🍎 Jablíčko",
+      "🍐 Hruška",
+      "🍋 Citron"
+    ],
+    "answer": "🍐 Hruška",
+    "fact": "Hrušky dozrávají na konci léta a na podzim.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-017"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "imitate",
+    "text": "Ukaž, jak papáš.",
+    "answer": "Ham ham",
+    "fact": "Jídlo pořádně rozkoušeme, aby se v bříšku dobře trávilo.",
+    "difficulty": 1,
+    "image": "🍽️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-018"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "imitate",
+    "text": "Ukaž, jak foukáš na horkou polévku.",
+    "answer": "Fúúú",
+    "fact": "Foukáním polévku zchladíme, aby nepálila.",
+    "difficulty": 1,
+    "image": "🍲",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-019"
+  },
+  {
+    "level": "kocarek",
+    "theme": "jidlo",
+    "type": "imitate",
+    "text": "Ukaž, jak se tváříš, když ochutnáš citron.",
+    "answer": "Kyselý obličej",
+    "fact": "Citron je tak kyselý, že se u něj každý zašklebí.",
+    "difficulty": 1,
+    "image": "🍋",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-jidlo-020"
+  }
+]

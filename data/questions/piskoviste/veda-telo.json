@@ -1,39 +1,39 @@
 [
   {
-    "id": "piskoviste-veda-telo-001",
     "level": "piskoviste",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Čím se díváme?",
+    "text": "Čím poznáme, že je kamínek hladký?",
     "options": [
-      "👂 Ušima",
-      "👃 Nosem",
-      "👀 Očima"
+      "✋ Rukou",
+      "👂 Uchem",
+      "👃 Nosem"
     ],
-    "answer": "👀 Očima",
-    "fact": "Když mrkáme, oči se nám umyjí slzičkami.",
-    "difficulty": 1,
-    "image": "🧒",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "✋ Rukou",
+    "fact": "Konečky prstů jsou moc citlivé, proto jimi tak dobře hmatáme.",
+    "difficulty": 2,
+    "image": "🪨",
+    "source": "https://cs.wikipedia.org/wiki/Hmat",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-001"
   },
   {
-    "id": "piskoviste-veda-telo-002",
     "level": "piskoviste",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Čím čicháme ke kytičce?",
+    "text": "Na co nesmíme sahat?",
     "options": [
-      "🦶 Nohou",
-      "👃 Nosem",
-      "✋ Rukou"
+      "🧸 Na plyšáka",
+      "🔥 Na horká kamna",
+      "📕 Na knížku"
     ],
-    "answer": "👃 Nosem",
-    "fact": "Nosem poznáme, že se peče bábovka.",
+    "answer": "🔥 Na horká kamna",
+    "fact": "Kamna i žehlička můžou pálit, i když už nesvítí.",
     "difficulty": 1,
-    "image": "🌷",
+    "image": "⚠️",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-veda-telo-002"
   },
   {
     "id": "piskoviste-veda-telo-003",
@@ -54,76 +54,58 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-veda-telo-004",
     "level": "piskoviste",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Čím si čistíme zuby?",
+    "text": "Kdo nám ošetří zoubky?",
     "options": [
-      "🍴 Vidličkou",
-      "🪥 Kartáčkem",
-      "🧽 Houbou"
+      "🧑‍⚕️ Zubař",
+      "👨‍🍳 Kuchař",
+      "👨‍🌾 Zemědělec"
     ],
-    "answer": "🪥 Kartáčkem",
-    "fact": "Zuby si čistíme ráno a večer.",
-    "difficulty": 1,
+    "answer": "🧑‍⚕️ Zubař",
+    "fact": "Mléčné zoubky nám začnou vypadávat zhruba v šesti letech.",
+    "difficulty": 2,
     "image": "🦷",
-    "source": "obecná znalost",
-    "status": "verified"
+    "source": "https://cs.wikipedia.org/wiki/Ml%C3%A9%C4%8Dn%C3%BD_chrup",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-005"
   },
   {
-    "id": "piskoviste-veda-telo-005",
     "level": "piskoviste",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Co si umyjeme mýdlem před jídlem?",
+    "text": "Kde máme koleno?",
     "options": [
-      "🎒 Batoh",
-      "👟 Boty",
-      "✋ Ruce"
+      "💪 Na ruce",
+      "🦵 Na noze",
+      "🗣️ Na hlavě"
     ],
-    "answer": "✋ Ruce",
-    "fact": "Mýdlo smyje z rukou špínu i bacily.",
-    "difficulty": 1,
-    "image": "🧼",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "🦵 Na noze",
+    "fact": "Koleno chrání malá kostička, které se říká čéška.",
+    "difficulty": 2,
+    "image": "🧍",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8C%C3%A9%C5%A1ka",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-006"
   },
   {
-    "id": "piskoviste-veda-telo-006",
     "level": "piskoviste",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Čím posloucháme písničky?",
+    "text": "Čím dýcháme, když máme zavřenou pusu?",
     "options": [
-      "👄 Pusou",
       "👂 Ušima",
-      "👀 Očima"
+      "👀 Očima",
+      "👃 Nosem"
     ],
-    "answer": "👂 Ušima",
-    "fact": "Moc hlasitá hudba ouška bolí, proto ji ztlumíme.",
-    "difficulty": 1,
-    "image": "🎵",
-    "source": "obecná znalost",
-    "status": "verified"
-  },
-  {
-    "id": "piskoviste-veda-telo-007",
-    "level": "piskoviste",
-    "theme": "veda-telo",
-    "type": "choice",
-    "text": "Co nosíme na nohou?",
-    "options": [
-      "👟 Boty",
-      "🧢 Čepici",
-      "🧤 Rukavice"
-    ],
-    "answer": "👟 Boty",
-    "fact": "Boty nás chrání před kamínky a zimou.",
-    "difficulty": 1,
-    "image": "🦶",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "👃 Nosem",
+    "fact": "Chloupky v nose zachytí prach, aby se nedostal dovnitř.",
+    "difficulty": 2,
+    "image": "🌬️",
+    "source": "https://cs.wikipedia.org/wiki/Nos",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-007"
   },
   {
     "id": "piskoviste-veda-telo-008",
@@ -162,22 +144,22 @@
     "status": "verified"
   },
   {
-    "id": "piskoviste-veda-telo-010",
     "level": "piskoviste",
     "theme": "veda-telo",
     "type": "choice",
-    "text": "Čím ochutnáme zmrzlinu?",
+    "text": "Co si dáme na hlavu proti sluníčku?",
     "options": [
-      "👂 Uchem",
-      "👅 Jazykem",
-      "🦶 Nohou"
+      "🧢 Kšiltovku",
+      "🧤 Rukavice",
+      "🧣 Šálu"
     ],
-    "answer": "👅 Jazykem",
-    "fact": "Jazykem poznáme, jestli je jídlo sladké nebo slané.",
-    "difficulty": 2,
-    "image": "🍦",
+    "answer": "🧢 Kšiltovku",
+    "fact": "Na sluníčku se mažeme i krémem, aby nás nespálilo.",
+    "difficulty": 1,
+    "image": "☀️",
     "source": "obecná znalost",
-    "status": "verified"
+    "status": "verified",
+    "id": "piskoviste-veda-telo-010"
   },
   {
     "id": "piskoviste-veda-telo-011",
@@ -186,8 +168,9 @@
     "type": "choice",
     "text": "Co nás ve dne hřeje a svítí?",
     "options": [
+      "🌙 Měsíc",
       "☀️ Slunce",
-      "🌙 Měsíc"
+      "⭐ Hvězdička"
     ],
     "answer": "☀️ Slunce",
     "fact": "Slunce je obrovská hvězda, která je moc daleko.",
@@ -213,5 +196,221 @@
     "image": "⌛",
     "source": "obecná znalost",
     "status": "verified"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co si obujeme, když jsou venku louže?",
+    "options": [
+      "🩴 Žabky",
+      "🧦 Jen ponožky",
+      "👢 Holínky"
+    ],
+    "answer": "👢 Holínky",
+    "fact": "Holínky jsou z gumy, a tak jimi voda neproteče.",
+    "difficulty": 1,
+    "image": "🌧️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-013"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím zjistíme, že máme horečku?",
+    "options": [
+      "🌡️ Teploměrem",
+      "📏 Pravítkem",
+      "⏰ Budíkem"
+    ],
+    "answer": "🌡️ Teploměrem",
+    "fact": "Zdravý člověk má teplotu kolem 36 a půl stupně.",
+    "difficulty": 2,
+    "image": "🤒",
+    "source": "https://cs.wikipedia.org/wiki/T%C4%9Blesn%C3%A1_teplota",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-014"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kam kýchneme, aby se bacily nešířily?",
+    "options": [
+      "🖐️ Do dlaně",
+      "💪 Do lokte",
+      "🙂 Jen tak do vzduchu"
+    ],
+    "answer": "💪 Do lokte",
+    "fact": "Když kýchneme do lokte, bacily nezůstanou na rukou a hračkách.",
+    "difficulty": 2,
+    "image": "🤧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-015"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co se stane s vodou v mrazáku?",
+    "options": [
+      "🔥 Začne vařit",
+      "🌈 Změní se v duhu",
+      "🧊 Změní se v led"
+    ],
+    "answer": "🧊 Změní se v led",
+    "fact": "Led je zmrzlá voda. Když se ohřeje, zase roztaje.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-016"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co se stane se sněhulákem, když hřeje slunce?",
+    "options": [
+      "💧 Roztaje",
+      "📈 Vyroste",
+      "😴 Usne"
+    ],
+    "answer": "💧 Roztaje",
+    "fact": "Ve stínu vydrží sněhulák mnohem déle než na sluníčku.",
+    "difficulty": 2,
+    "image": "☃️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-017"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím si Měsíc přiblížíme, abychom ho lépe viděli?",
+    "options": [
+      "🥄 Lžičkou",
+      "🔭 Dalekohledem",
+      "🧦 Ponožkou"
+    ],
+    "answer": "🔭 Dalekohledem",
+    "fact": "Dalekohledem uvidíme na Měsíci hory a krátery.",
+    "difficulty": 2,
+    "image": "🌕",
+    "source": "https://cs.wikipedia.org/wiki/M%C4%9Bs%C3%ADc",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-018"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co přitáhne magnet?",
+    "options": [
+      "🧸 Plyšáka",
+      "🍎 Jablko",
+      "📎 Kovovou sponku"
+    ],
+    "answer": "📎 Kovovou sponku",
+    "fact": "Magnet přitahuje věci ze železa.",
+    "difficulty": 3,
+    "image": "🧲",
+    "source": "https://cs.wikipedia.org/wiki/Magnet",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-019"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co plave na vodě?",
+    "options": [
+      "🦆 Gumová kachnička",
+      "🪨 Kámen",
+      "🔑 Klíč"
+    ],
+    "answer": "🦆 Gumová kachnička",
+    "fact": "Kachnička je lehká a má v sobě vzduch, proto se nepotopí.",
+    "difficulty": 2,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-020"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co potřebují kytičky, aby rostly?",
+    "options": [
+      "🍫 Čokoládu",
+      "💧 Vodu a slunce",
+      "🧸 Hračky"
+    ],
+    "answer": "💧 Vodu a slunce",
+    "fact": "Rostliny si ze světla, vody a vzduchu samy vyrábějí potravu.",
+    "difficulty": 2,
+    "image": "🌻",
+    "source": "https://cs.wikipedia.org/wiki/Fotosynt%C3%A9za",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-021"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nám roste na koncích prstů?",
+    "options": [
+      "🌿 Tráva",
+      "🪶 Peří",
+      "💅 Nehty"
+    ],
+    "answer": "💅 Nehty",
+    "fact": "Nehty rostou pořád, proto je musíme stříhat.",
+    "difficulty": 2,
+    "image": "✋",
+    "source": "https://cs.wikipedia.org/wiki/Neht",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-022"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím si prohlédneme malinkatého broučka?",
+    "options": [
+      "🔍 Lupou",
+      "🥄 Lžičkou",
+      "🧤 Rukavicí"
+    ],
+    "answer": "🔍 Lupou",
+    "fact": "Lupa zvětší malého mravence tak, že mu uvidíme i nožičky.",
+    "difficulty": 2,
+    "image": "🐜",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-023"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co dělá srdíčko v našem těle?",
+    "options": [
+      "🎤 Zpívá",
+      "💓 Tluče",
+      "😴 Spí"
+    ],
+    "answer": "💓 Tluče",
+    "fact": "Když běháme, srdíčko tluče rychleji.",
+    "difficulty": 2,
+    "image": "❤️",
+    "source": "https://cs.wikipedia.org/wiki/Srdce",
+    "status": "verified",
+    "id": "piskoviste-veda-telo-024"
   }
 ]

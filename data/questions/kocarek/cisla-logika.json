@@ -1,0 +1,356 @@
+[
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Kolik je tu jablíček? Ukaž.",
+    "options": [
+      "3️⃣ Tři",
+      "1️⃣ Jedno",
+      "2️⃣ Dvě"
+    ],
+    "answer": "3️⃣ Tři",
+    "fact": "Tři jablíčka spočítáme na třech prstech.",
+    "difficulty": 1,
+    "image": "🍎🍎🍎",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-001"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž kolečko.",
+    "options": [
+      "🔺 Trojúhelník",
+      "⚪ Kolečko",
+      "🟥 Čtverec"
+    ],
+    "answer": "⚪ Kolečko",
+    "fact": "Kulaté je i sluníčko, talíř nebo míč.",
+    "difficulty": 1,
+    "image": "🧩",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-002"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž, kdo je velký.",
+    "options": [
+      "🐘 Slon",
+      "🐭 Myška"
+    ],
+    "answer": "🐘 Slon",
+    "fact": "Slon je největší zvíře, které chodí po souši.",
+    "difficulty": 1,
+    "image": "⚖️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-003"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Kolik je tu hvězdiček? Ukaž.",
+    "options": [
+      "1️⃣ Jedna",
+      "3️⃣ Tři",
+      "2️⃣ Dvě"
+    ],
+    "answer": "2️⃣ Dvě",
+    "fact": "Hvězdičky na nebi uvidíme hlavně v noci.",
+    "difficulty": 1,
+    "image": "⭐⭐",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-004"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž červenou barvu, jako má rajče.",
+    "options": [
+      "🔴 Červená",
+      "🔵 Modrá",
+      "🟡 Žlutá"
+    ],
+    "answer": "🔴 Červená",
+    "fact": "Rajčata jsou nejdřív zelená a zčervenají, až dozrají.",
+    "difficulty": 1,
+    "image": "🍅",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-005"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž zelenou barvu, jako má tráva.",
+    "options": [
+      "🟣 Fialová",
+      "🟢 Zelená",
+      "🔵 Modrá"
+    ],
+    "answer": "🟢 Zelená",
+    "fact": "Zelené jsou i listy na stromech a žabka.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-006"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž žlutou barvu, jako má sluníčko.",
+    "options": [
+      "🟢 Zelená",
+      "🔵 Modrá",
+      "🟡 Žlutá"
+    ],
+    "answer": "🟡 Žlutá",
+    "fact": "Žluté je i kuřátko, banán a citron.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-007"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž modrou barvu, jako má nebe.",
+    "options": [
+      "🔵 Modrá",
+      "🔴 Červená",
+      "🟤 Hnědá"
+    ],
+    "answer": "🔵 Modrá",
+    "fact": "Modré je i moře a zralé švestky.",
+    "difficulty": 1,
+    "image": "🌤️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-008"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž oranžovou barvu, jako má mrkev.",
+    "options": [
+      "🟣 Fialová",
+      "🟠 Oranžová",
+      "⚫ Černá"
+    ],
+    "answer": "🟠 Oranžová",
+    "fact": "Mrkvičku rádi chroupou i zajíčci.",
+    "difficulty": 1,
+    "image": "🥕",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-009"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž bílou barvu, jako má sníh.",
+    "options": [
+      "🔴 Červená",
+      "🟢 Zelená",
+      "⬜ Bílá"
+    ],
+    "answer": "⬜ Bílá",
+    "fact": "Bílé je i mléko a vlna ovečky.",
+    "difficulty": 1,
+    "image": "⛄",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-010"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž čtvereček.",
+    "options": [
+      "🟥 Čtvereček",
+      "⚪ Kolečko",
+      "🔺 Trojúhelník"
+    ],
+    "answer": "🟥 Čtvereček",
+    "fact": "Čtvereček má čtyři stejně dlouhé strany.",
+    "difficulty": 1,
+    "image": "🧱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-011"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž trojúhelník.",
+    "options": [
+      "🟦 Čtvereček",
+      "🔺 Trojúhelník",
+      "⚪ Kolečko"
+    ],
+    "answer": "🔺 Trojúhelník",
+    "fact": "Tvar trojúhelníku má i kousek pizzy.",
+    "difficulty": 1,
+    "image": "🍕",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-012"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž hvězdičku.",
+    "options": [
+      "❤️ Srdíčko",
+      "⚪ Kolečko",
+      "⭐ Hvězdička"
+    ],
+    "answer": "⭐ Hvězdička",
+    "fact": "Hvězdy na nebi jsou obrovská sluníčka, jen jsou hodně daleko.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Hvězda",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-013"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž srdíčko.",
+    "options": [
+      "❤️ Srdíčko",
+      "⭐ Hvězdička",
+      "🔺 Trojúhelník"
+    ],
+    "answer": "❤️ Srdíčko",
+    "fact": "Srdíčko kreslíme tomu, koho máme rádi.",
+    "difficulty": 1,
+    "image": "💌",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-014"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž, kdo je malý.",
+    "options": [
+      "🐘 Slon",
+      "🐜 Mravenec",
+      "🦒 Žirafa"
+    ],
+    "answer": "🐜 Mravenec",
+    "fact": "Mravenec unese mnohem víc, než sám váží.",
+    "difficulty": 1,
+    "image": "🔍",
+    "source": "https://cs.wikipedia.org/wiki/Mravencovití",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-015"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Ukaž, co je malé.",
+    "options": [
+      "🚌 Autobus",
+      "🏠 Dům",
+      "🐞 Beruška"
+    ],
+    "answer": "🐞 Beruška",
+    "fact": "Beruška má na červených krovkách černé tečky.",
+    "difficulty": 1,
+    "image": "🔍",
+    "source": "https://cs.wikipedia.org/wiki/Slunéčko_sedmitečné",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-016"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Kolik je tu kačenek? Ukaž.",
+    "options": [
+      "1️⃣ Jedna",
+      "2️⃣ Dvě",
+      "3️⃣ Tři"
+    ],
+    "answer": "1️⃣ Jedna",
+    "fact": "Kačence nepromokne peří, protože si ho maže olejem ze žlázy.",
+    "difficulty": 1,
+    "image": "🦆",
+    "source": "https://cs.wikipedia.org/wiki/Kachna_divoká",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-017"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Kolik je tu míčů? Ukaž.",
+    "options": [
+      "1️⃣ Jeden",
+      "2️⃣ Dva",
+      "3️⃣ Tři"
+    ],
+    "answer": "2️⃣ Dva",
+    "fact": "Po dvou máme ručičky, nožičky, očička i ouška.",
+    "difficulty": 1,
+    "image": "⚽⚽",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-018"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "point",
+    "text": "Kolik je tu rybiček? Ukaž.",
+    "options": [
+      "1️⃣ Jedna",
+      "2️⃣ Dvě",
+      "3️⃣ Tři"
+    ],
+    "answer": "3️⃣ Tři",
+    "fact": "Rybičky nemají víčka, a tak spí s otevřenýma očima.",
+    "difficulty": 1,
+    "image": "🐟🐟🐟",
+    "source": "https://cs.wikipedia.org/wiki/Ryby",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-019"
+  },
+  {
+    "level": "kocarek",
+    "theme": "cisla-logika",
+    "type": "imitate",
+    "text": "Ukaž na prstech, kolik ti je let.",
+    "answer": "Dva nebo tři prstíky",
+    "fact": "Každý rok přibude na narozeninovém dortu jedna svíčka.",
+    "difficulty": 1,
+    "image": "🎂",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-cisla-logika-020"
+  }
+]

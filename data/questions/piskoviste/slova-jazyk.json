@@ -1,0 +1,218 @@
+[
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku M?",
+    "options": [
+      "🐶 Pes",
+      "🐱 Kočka",
+      "🐭 Myš"
+    ],
+    "answer": "🐭 Myš",
+    "fact": "Na M začínají i slova máma a med.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-001"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku S?",
+    "options": [
+      "☀️ Slunce",
+      "🌙 Měsíc",
+      "⭐ Hvězda"
+    ],
+    "answer": "☀️ Slunce",
+    "fact": "Slunce je taky hvězda, jen je k nám moc blízko.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/Slunce",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-002"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku K?",
+    "options": [
+      "🐷 Prase",
+      "🐄 Kráva",
+      "🐑 Ovce"
+    ],
+    "answer": "🐄 Kráva",
+    "fact": "Kráva jídlo nejdřív spolkne a potom ho v klidu přežvykuje.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/P%C5%99e%C5%BEv%C3%BDkavci",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-003"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku L?",
+    "options": [
+      "🐯 Tygr",
+      "🐻 Medvěd",
+      "🦁 Lev"
+    ],
+    "answer": "🦁 Lev",
+    "fact": "Lvi prospí většinu dne a lovit chodí hlavně za tmy.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/Lev",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-004"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku B?",
+    "options": [
+      "🍌 Banán",
+      "🍎 Jablko",
+      "🍐 Hruška"
+    ],
+    "answer": "🍌 Banán",
+    "fact": "Banány se trhají ještě zelené a žloutnou až cestou k nám.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-005"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku A?",
+    "options": [
+      "🚲 Kolo",
+      "🚗 Auto",
+      "🚂 Vlak"
+    ],
+    "answer": "🚗 Auto",
+    "fact": "V autě jezdíme vždycky připoutaní v autosedačce.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-006"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem kos?",
+    "options": [
+      "👂 Ucho",
+      "✋ Ruka",
+      "👃 Nos"
+    ],
+    "answer": "👃 Nos",
+    "fact": "Pan kos má černé peří a žlutý zobák.",
+    "difficulty": 3,
+    "image": "🐦",
+    "source": "https://cs.wikipedia.org/wiki/Kos_%C4%8Dern%C3%BD",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-007"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem had?",
+    "options": [
+      "🏰 Hrad",
+      "🌳 Strom",
+      "🚗 Auto"
+    ],
+    "answer": "🏰 Hrad",
+    "fact": "Had nemá ouška jako my, ale pozná, když se země chvěje.",
+    "difficulty": 3,
+    "image": "🐍",
+    "source": "https://cs.wikipedia.org/wiki/Hadi",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-008"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem míč?",
+    "options": [
+      "🥄 Lžíce",
+      "🔑 Klíč",
+      "🧦 Ponožka"
+    ],
+    "answer": "🔑 Klíč",
+    "fact": "Míč je kulatý, a proto se tak dobře kutálí.",
+    "difficulty": 3,
+    "image": "⚽",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-009"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná stejně jako slovo táta?",
+    "options": [
+      "🐶 Pes",
+      "🐟 Ryba",
+      "🐯 Tygr"
+    ],
+    "answer": "🐯 Tygr",
+    "fact": "Tygr je největší kočkovitá šelma na světě.",
+    "difficulty": 3,
+    "image": "👨",
+    "source": "https://cs.wikipedia.org/wiki/Tygr",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-010"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná stejně jako slovo voda?",
+    "options": [
+      "🚂 Vlak",
+      "🐟 Ryba",
+      "🐻 Medvěd"
+    ],
+    "answer": "🚂 Vlak",
+    "fact": "Nákladní vlaky mívají i desítky vagonů.",
+    "difficulty": 3,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-011"
+  },
+  {
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku P?",
+    "options": [
+      "🐮 Kravička",
+      "🐷 Prasátko",
+      "🐑 Ovečka"
+    ],
+    "answer": "🐷 Prasátko",
+    "fact": "Prasátka se válí v blátě, aby se v horku ochladila.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/Prase_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "piskoviste-slova-jazyk-012"
+  }
+]

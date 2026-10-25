@@ -1,0 +1,322 @@
+[
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž bubínek.",
+    "options": [
+      "🎺 Trumpeta",
+      "🎻 Housle",
+      "🥁 Bubínek"
+    ],
+    "answer": "🥁 Bubínek",
+    "fact": "Na bubínek bubnujeme rukama nebo paličkami.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-001"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž, jakou barvu má Krteček.",
+    "options": [
+      "⚫ Černá",
+      "🔴 Červená",
+      "🟡 Žlutá"
+    ],
+    "answer": "⚫ Černá",
+    "fact": "Krteček má velké oči a rád se směje.",
+    "difficulty": 1,
+    "image": "🎬",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-002"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zatleskej na Paci, paci, pacičky.",
+    "answer": "Tleskat ručičkama",
+    "fact": "Paci, paci, pacičky je stará lidová říkanka, u které tleskali už naši prarodiče.",
+    "difficulty": 1,
+    "image": "👏",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-003"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zazpívej kousek písničky Skákal pes.",
+    "answer": "Zazpívá kousek písničky",
+    "fact": "Skákal pes je lidová písnička, kterou zpívají děti po celém Česku.",
+    "difficulty": 1,
+    "image": "🐶",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-004"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zazpívej kousek písničky Pec nám spadla.",
+    "answer": "Zazpívá kousek písničky",
+    "fact": "Pec nám spadla je lidová písnička, kterou zpívaly už naše babičky.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-005"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zazpívej kousek písničky Ovčáci, čtveráci.",
+    "answer": "Zazpívá kousek písničky",
+    "fact": "Ovčáci jsou pastýři, kteří hlídají ovečky na pastvě.",
+    "difficulty": 1,
+    "image": "🐑",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-006"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zahraj na bubínek.",
+    "answer": "Bum bum bum",
+    "fact": "Bubínek má napnutou blánu, a když do ní ťukneme, zabouchá.",
+    "difficulty": 1,
+    "image": "🥁",
+    "source": "https://cs.wikipedia.org/wiki/Buben",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-007"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zahraj na trumpetu.",
+    "answer": "Tú tú tú",
+    "fact": "Do trumpety se fouká a hraje moc hlasitě.",
+    "difficulty": 1,
+    "image": "🎺",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-008"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zahraj na kytaru.",
+    "answer": "Brnkat prstíky",
+    "fact": "Kytara má šest strun.",
+    "difficulty": 1,
+    "image": "🎸",
+    "source": "https://cs.wikipedia.org/wiki/Kytara",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-009"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "imitate",
+    "text": "Zahraj na klavír.",
+    "answer": "Ťukat prstíky do kláves",
+    "fact": "Klavír má bílé a černé klávesy.",
+    "difficulty": 1,
+    "image": "🎹",
+    "source": "https://cs.wikipedia.org/wiki/Klavír",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-010"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž housle.",
+    "options": [
+      "🥁 Bubínek",
+      "🎻 Housle",
+      "🎺 Trumpeta"
+    ],
+    "answer": "🎻 Housle",
+    "fact": "Na housle se hraje smyčcem.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "https://cs.wikipedia.org/wiki/Housle",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-011"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvoneček.",
+    "options": [
+      "🎸 Kytara",
+      "🎺 Trumpeta",
+      "🔔 Zvoneček"
+    ],
+    "answer": "🔔 Zvoneček",
+    "fact": "Zvoneček zazvoní na Vánoce, když přijde Ježíšek.",
+    "difficulty": 1,
+    "image": "🎄",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-012"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvířátko z písničky Skákal pes.",
+    "options": [
+      "🐶 Pejsek",
+      "🐱 Kočička",
+      "🐷 Prasátko"
+    ],
+    "answer": "🐶 Pejsek",
+    "fact": "Pejsek v té písničce skáče přes oves, což je obilí na poli.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-013"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvířátko, které má rádo med jako Medvídek Pú.",
+    "options": [
+      "🐘 Slon",
+      "🐻 Medvídek",
+      "🐟 Rybička"
+    ],
+    "answer": "🐻 Medvídek",
+    "fact": "Medvídek Pú bydlí v lese se svými kamarády, prasátkem a oslíkem.",
+    "difficulty": 1,
+    "image": "🍯",
+    "source": "https://cs.wikipedia.org/wiki/Medvídek_Pú",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-014"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž, jaké zvířátko je Ferda.",
+    "options": [
+      "🐶 Pejsek",
+      "🐟 Rybička",
+      "🐜 Mravenec"
+    ],
+    "answer": "🐜 Mravenec",
+    "fact": "Ferda Mravenec nosí kolem krku červený puntíkovaný šátek.",
+    "difficulty": 1,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-015"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž, jaké zvířátko je kocour Mikeš.",
+    "options": [
+      "🐱 Kocourek",
+      "🐶 Pejsek",
+      "🐰 Zajíček"
+    ],
+    "answer": "🐱 Kocourek",
+    "fact": "Kocour Mikeš uměl mluvit. Vymyslel a nakreslil ho Josef Lada.",
+    "difficulty": 1,
+    "image": "📚",
+    "source": "https://cs.wikipedia.org/wiki/Josef_Lada",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-016"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvířátko z písničky Kočka leze dírou.",
+    "options": [
+      "🐮 Kravička",
+      "🐱 Kočička",
+      "🐟 Rybička"
+    ],
+    "answer": "🐱 Kočička",
+    "fact": "Kočka leze dírou je stará lidová písnička.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-017"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvířátko z říkanky Vařila myšička kašičku.",
+    "options": [
+      "🐘 Slon",
+      "🐸 Žabka",
+      "🐭 Myška"
+    ],
+    "answer": "🐭 Myška",
+    "fact": "U téhle říkanky kroužíme prstem po dlani a nakonec dítě polechtáme.",
+    "difficulty": 1,
+    "image": "🥣",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-018"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvířátko z písničky Prší, prší.",
+    "options": [
+      "🐴 Koník",
+      "🐷 Prasátko",
+      "🐟 Rybička"
+    ],
+    "answer": "🐴 Koník",
+    "fact": "V písničce Prší, prší se ptáme, kam koníčky pojedeme.",
+    "difficulty": 1,
+    "image": "🌧️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-019"
+  },
+  {
+    "level": "kocarek",
+    "theme": "pohadky-film-hudba",
+    "type": "point",
+    "text": "Ukaž zvířátko z písničky Když jsem já sloužil.",
+    "options": [
+      "🦁 Lev",
+      "🐥 Kuřátko",
+      "🐘 Slon"
+    ],
+    "answer": "🐥 Kuřátko",
+    "fact": "V té písničce dostane za každé léto služby jiné zvířátko. Jako první kuřátko.",
+    "difficulty": 1,
+    "image": "🎵",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-pohadky-film-hudba-020"
+  }
+]

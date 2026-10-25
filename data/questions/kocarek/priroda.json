@@ -1,0 +1,312 @@
+[
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá haf haf.",
+    "options": [
+      "🐱 Kočička",
+      "🐮 Kravička",
+      "🐶 Pejsek"
+    ],
+    "answer": "🐶 Pejsek",
+    "fact": "Pejsek štěká, když nás chce na něco upozornit.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-001"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá bú.",
+    "options": [
+      "🐮 Kravička",
+      "🐔 Slepička",
+      "🐷 Prasátko"
+    ],
+    "answer": "🐮 Kravička",
+    "fact": "Kravička se pase na louce a dává nám mléko.",
+    "difficulty": 1,
+    "image": "🌾",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-002"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž koťátko.",
+    "options": [
+      "🐶 Štěňátko",
+      "🐱 Koťátko",
+      "🐥 Kuřátko"
+    ],
+    "answer": "🐱 Koťátko",
+    "fact": "Koťátka se rodí se zavřenýma očima a otevřou je asi po týdnu.",
+    "difficulty": 1,
+    "image": "🧶",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-003"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž ježka.",
+    "options": [
+      "🐿️ Veverka",
+      "🐰 Zajíček",
+      "🦔 Ježek"
+    ],
+    "answer": "🦔 Ježek",
+    "fact": "Když se ježek bojí, stočí se do bodlinatého klubíčka.",
+    "difficulty": 1,
+    "image": "🍂",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-004"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo plave ve vodě.",
+    "options": [
+      "🐟 Rybička",
+      "🐄 Kravička",
+      "🐑 Ovečka"
+    ],
+    "answer": "🐟 Rybička",
+    "fact": "Rybička dýchá pod vodou žábrami.",
+    "difficulty": 1,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-005"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá kokodák.",
+    "options": [
+      "🦆 Kachna",
+      "🐔 Slepička",
+      "🐸 Žabka"
+    ],
+    "answer": "🐔 Slepička",
+    "fact": "Slepička snáší vajíčka, která jíme ke snídani.",
+    "difficulty": 1,
+    "image": "🥚",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-006"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo umí létat.",
+    "options": [
+      "🐢 Želva",
+      "🐌 Šnek",
+      "🐦 Ptáček"
+    ],
+    "answer": "🐦 Ptáček",
+    "fact": "Ptáček má křídla z peříček.",
+    "difficulty": 1,
+    "image": "☁️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-007"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá koza?",
+    "answer": "Mééé",
+    "fact": "Kozím mláďatům se říká kůzlátka.",
+    "difficulty": 1,
+    "image": "🐐",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-008"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá kočička?",
+    "answer": "Mňau",
+    "fact": "Když je kočička spokojená, tiše přede.",
+    "difficulty": 1,
+    "image": "🐱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-009"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá ovečka?",
+    "answer": "Bééé",
+    "fact": "Z ovčí vlny se pletou teplé svetry a čepice.",
+    "difficulty": 1,
+    "image": "🐑",
+    "source": "https://cs.wikipedia.org/wiki/Ovce_domácí",
+    "status": "verified",
+    "id": "kocarek-priroda-010"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá kohoutek?",
+    "answer": "Kykyryký",
+    "fact": "Kohoutek kokrhá hlavně brzy ráno a budí celý dvůr.",
+    "difficulty": 1,
+    "image": "🐓",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-011"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá prasátko?",
+    "answer": "Chro chro",
+    "fact": "Prasátka se ráda válí v blátě, protože je v horku chladí.",
+    "difficulty": 1,
+    "image": "🐷",
+    "source": "https://cs.wikipedia.org/wiki/Prase_domácí",
+    "status": "verified",
+    "id": "kocarek-priroda-012"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá kachnička?",
+    "answer": "Kvák kvák",
+    "fact": "Kachnička má mezi prsty blány, a proto tak dobře plave.",
+    "difficulty": 1,
+    "image": "🦆",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "kocarek-priroda-013"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá žabka?",
+    "answer": "Kvá kvá",
+    "fact": "Ze žabích vajíček se líhnou pulci a z nich vyrostou žabky.",
+    "difficulty": 1,
+    "image": "🐸",
+    "source": "https://cs.wikipedia.org/wiki/Žáby",
+    "status": "verified",
+    "id": "kocarek-priroda-014"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá koník?",
+    "answer": "Íhahá",
+    "fact": "Koník umí podřimovat i vestoje.",
+    "difficulty": 1,
+    "image": "🐴",
+    "source": "https://cs.wikipedia.org/wiki/Kůň_domácí",
+    "status": "verified",
+    "id": "kocarek-priroda-015"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá včelička?",
+    "answer": "Bzzz",
+    "fact": "Včelky sbírají z kytiček sladkou šťávu a dělají z ní med.",
+    "difficulty": 1,
+    "image": "🐝",
+    "source": "https://cs.wikipedia.org/wiki/Med",
+    "status": "verified",
+    "id": "kocarek-priroda-016"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá sova?",
+    "answer": "Hú hú",
+    "fact": "Sova ve dne spí a v noci, když je tma, dobře vidí.",
+    "difficulty": 1,
+    "image": "🦉",
+    "source": "https://cs.wikipedia.org/wiki/Sovy",
+    "status": "verified",
+    "id": "kocarek-priroda-017"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo má dlouhý krk.",
+    "options": [
+      "🦒 Žirafa",
+      "🐷 Prasátko",
+      "🐢 Želva"
+    ],
+    "answer": "🦒 Žirafa",
+    "fact": "Žirafa je nejvyšší zvíře na světě a okusuje listy z vysokých stromů.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/Žirafa",
+    "status": "verified",
+    "id": "kocarek-priroda-018"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo má chobot.",
+    "options": [
+      "🦁 Lev",
+      "🐘 Slon",
+      "🐵 Opička"
+    ],
+    "answer": "🐘 Slon",
+    "fact": "Chobotem slon pije, troubí, a dokonce se jím i sprchuje.",
+    "difficulty": 1,
+    "image": "🌴",
+    "source": "https://cs.wikipedia.org/wiki/Slon",
+    "status": "verified",
+    "id": "kocarek-priroda-019"
+  },
+  {
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž kuřátko.",
+    "options": [
+      "🐶 Štěňátko",
+      "🐰 Zajíček",
+      "🐥 Kuřátko"
+    ],
+    "answer": "🐥 Kuřátko",
+    "fact": "Kuřátko se z vajíčka vyklube asi za tři týdny.",
+    "difficulty": 1,
+    "image": "🥚",
+    "source": "https://cs.wikipedia.org/wiki/Kur_domácí",
+    "status": "verified",
+    "id": "kocarek-priroda-020"
+  }
+]
