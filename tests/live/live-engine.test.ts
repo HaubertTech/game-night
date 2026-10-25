@@ -240,7 +240,7 @@ describe('live engine: open questions and estimates', () => {
     const s = revealed();
     expect(s.phase).toBe('reveal');
     expect(s.unjudged).toEqual(['tata']);
-    expect(s.scores.anicka).toBe(2);
+    expect(s.scores.anicka).toBe(1);
     expect(s.answers.find((a) => a.contestantId === 'tata')?.given).toBe('Praha');
     expect(applyLive(s, { type: 'next', by: HOST, now: 1 })).toMatchObject({ ok: false, error: 'unjudged' });
   });

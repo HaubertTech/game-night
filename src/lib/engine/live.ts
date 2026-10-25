@@ -11,6 +11,7 @@ import type { Level, Question, Theme } from '../types.ts';
 import {
   createGame,
   scoreEstimate,
+  estimateTolerance,
   standings,
   summarize,
   STATE_VERSION,
@@ -318,8 +319,8 @@ function record(state: LiveState, c: LiveContestant): AnswerRecord {
     return { ...base, given: p.given, correct, basePoints, points: basePoints * multiplier };
   }
   if (q.type === 'estimate') {
-    const { points, error } = scoreEstimate(p.given as number, q.answer);
-    return { ...base, given: p.given, correct: points > 0, basePoints: points, points: points * multiplier, error };
+    const { points, error, diff, closeness, precise } = scoreEstimate(p.given as number, q.answer, estimateTolerance(q));
+    return { ...base, given: p.given, correct: points > 0, basePoints: points, points: points * multiplier, error, diff, closeness, precise };
   }
   // Open question: 0 until the host judges it.
   return { ...base, given: p.given, correct: false, basePoints: 0, points: 0 };
