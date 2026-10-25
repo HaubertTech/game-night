@@ -2,6 +2,7 @@
   import { goto } from '$app/navigation';
   import { api, ApiError, formatDate } from '#lib/ui/app/api.ts';
   import Guard from '#lib/ui/app/Guard.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
   interface Night {
@@ -60,8 +61,10 @@
   }
 </script>
 
+<svelte:head><title>Večery · Herní večer</title></svelte:head>
+
 <main class="page stack">
-  <h1 class="section-title">🌙 Večery</h1>
+  <h1 class="section-title">Večery</h1>
   <Guard>
     <form class="card stack" onsubmit={create} data-testid="new-night">
       <h2 class="section-title">Nový večer</h2>
@@ -84,7 +87,10 @@
     <section class="card stack">
       <h2 class="section-title">Odehrané večery</h2>
       {#if nights.length === 0}
-        <p class="empty">Zatím žádný večer.</p>
+        <div class="empty-state">
+          <Art name="empty.zadne-vecery" size={120} />
+          <p class="empty">Zatím žádný večer. Založ první nahoře — partie se pak sčítají do tabulky večera i ligy.</p>
+        </div>
       {:else}
         <ul class="nights">
           {#each nights as n (n.id)}
@@ -111,7 +117,8 @@
     padding: 8px 12px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
+    color: var(--ink);
   }
   .nights {
     list-style: none;
@@ -126,7 +133,7 @@
     padding: 8px 12px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
     color: inherit;
     text-decoration: none;
   }

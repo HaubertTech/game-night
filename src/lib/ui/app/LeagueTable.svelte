@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { placeMedal } from './api.ts';
+  import Medal from './Medal.svelte';
 
   interface Row {
     playerId: string;
@@ -28,7 +28,7 @@
     <tbody>
       {#each rows as r (r.playerId)}
         <tr class:first={r.place === 1 && r.matches > 0}>
-          <td>{placeMedal(r.place)}</td>
+          <td><Medal place={r.place} /></td>
           <td><a href={`/hrac/${r.playerId}`}>{names[r.playerId] ?? '?'}</a></td>
           <td class="num" data-testid="points">{r.points}</td>
           <td class="num">{r.matches}</td>

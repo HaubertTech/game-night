@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { DEFAULT_ZOLIKY_SETTINGS } from '#lib/cards/zoliky.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { api, ApiError, GAME_EMOJI, GAME_LABELS } from './api.ts';
 
   interface Player {
@@ -51,17 +52,17 @@
 </script>
 
 <section class="card stack" data-testid={`new-${gameType}`}>
-  <h2 class="section-title">{GAME_EMOJI[gameType]} Nová partie: {GAME_LABELS[gameType]}</h2>
+  <h2 class="section-title">{GAME_EMOJI[gameType]} Zápis partie: {GAME_LABELS[gameType]}</h2>
   <div class="field">
     <span>Kdo hraje</span>
     <div class="row" role="group" aria-label="Kdo hraje">
       {#each players as p (p.id)}
         <button type="button" class="chip" aria-pressed={selected.includes(p.id)} onclick={() => toggle(p.id)}>
-          <span class="emoji">{p.avatar}</span>{p.name}
+          <Avatar value={p.avatar} />{p.name}
         </button>
       {/each}
     </div>
-    {#if players.length === 0}<span class="muted">Nejdřív přidej hráče na stránce <a href="/hraci">Hráči</a>.</span>{/if}
+    {#if players.length === 0}<span class="muted">Zatím tu nikdo není. Přidej hráče na stránce <a href="/hraci">Hráči</a>.</span>{/if}
   </div>
   {#if gameType === 'zoliky'}
     <div class="field">

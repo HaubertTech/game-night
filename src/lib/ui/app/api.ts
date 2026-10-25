@@ -36,7 +36,7 @@ export async function api<T = unknown>(path: string, init: { method?: string; bo
 }
 
 export const GAME_LABELS = {
-  quiz: 'Kvíz',
+  quiz: 'Kvízovna',
   aktivity: 'Řekni-ukaž-nakresli',
   mjz: 'Město-jméno-zvíře',
   prsi: 'Prší',

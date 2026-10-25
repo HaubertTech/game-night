@@ -71,7 +71,7 @@ input[type='number'] {
   padding: 8px 14px;
   border: 2px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
 }
 
@@ -84,7 +84,7 @@ input[type='password'].text-password {
   padding: 8px 14px;
   border: 2px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   width: 100%;
 }

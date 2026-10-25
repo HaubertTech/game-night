@@ -1,7 +1,8 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { activePlayers, isFinished, zolikyRanking, zolikySheet, type ZolikyAction, type ZolikyState } from '#lib/cards/zoliky.ts';
-  import { api, ApiError, placeMedal } from '#lib/ui/app/api.ts';
+  import { api, ApiError } from '#lib/ui/app/api.ts';
+  import Medal from '#lib/ui/app/Medal.svelte';
   import Guard from '#lib/ui/app/Guard.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
@@ -102,6 +103,8 @@
   }
 </script>
 
+<svelte:head><title>Zápis: Žolíky · Herní večer</title></svelte:head>
+
 <main class="page stack sheet" data-testid="zoliky-sheet">
   <Guard>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
@@ -189,11 +192,11 @@
       {/if}
 
       <section class="card stack">
-        <h2 class="section-title">{recorded ? '🏆 Konečné pořadí' : 'Průběžné pořadí'}</h2>
+        <h2 class="section-title">{recorded ? 'Konečné pořadí' : 'Průběžné pořadí'}</h2>
         <ol class="ranking" data-testid="zoliky-ranking">
           {#each ranking as r (r.playerId)}
             <li class:out={r.eliminated}>
-              <span class="medal">{sheetState.rounds.length ? placeMedal(r.place) : '–'}</span>
+              <span class="medal"><Medal place={sheetState.rounds.length ? r.place : null} /></span>
               <span class="grow">{names.get(r.playerId)}</span>
               <span class="muted">{r.wins}× zavřel</span>
               <strong>{r.total}</strong>
@@ -261,7 +264,7 @@
     padding: 8px 18px;
     border: 3px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
     font-size: 1.3rem;
     font-weight: 750;
   }

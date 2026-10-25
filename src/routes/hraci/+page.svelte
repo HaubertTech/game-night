@@ -1,6 +1,9 @@
 <script lang="ts">
   import { LEVELS, LEVEL_LABELS, type Level } from '#lib/types.ts';
   import { AVATARS, LEVEL_EMOJI, TEAM_AVATARS } from '#lib/ui/labels.ts';
+  import Art from '#lib/ui/art/Art.svelte';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
+  import { ART_AVATARS, avatarName, freeArtAvatar } from '#lib/ui/art/art.ts';
   import { api, ApiError } from '#lib/ui/app/api.ts';
   import Guard from '#lib/ui/app/Guard.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
@@ -28,7 +31,7 @@
 
   let editingId = $state<number | null>(null);
   let formName = $state('');
-  let formAvatar = $state(AVATARS[0]);
+  let formAvatar = $state(ART_AVATARS[0]);
   let formLevel = $state<Level>('hospoda');
   let formYear = $state('');
 
@@ -48,6 +51,7 @@
       const [p, t] = await Promise.all([api<{ players: Player[] }>('/api/players?archived=1'), api<{ teams: Team[] }>('/api/teams')]);
       players = p.players;
       teams = t.teams;
+      if (!editingId && !formName) formAvatar = freeArtAvatar(players.filter((p) => !p.archived_at).map((p) => p.avatar));
     } catch (err) {
       message = err instanceof ApiError ? err.message : 'Nepodařilo se načíst hráče.';
     }
@@ -71,7 +75,7 @@
     formName = '';
     formYear = '';
     formLevel = 'hospoda';
-    formAvatar = AVATARS.find((a) => !players.some((p) => p.avatar === a)) ?? AVATARS[0];
+    formAvatar = freeArtAvatar(players.filter((p) => !p.archived_at).map((p) => p.avatar));
   }
 
   function edit(p: Player) {
@@ -129,20 +133,25 @@
   }
 </script>
 
+<svelte:head><title>Hráči · Herní večer</title></svelte:head>
+
 <main class="page stack">
-  <h1>👪 Hráči</h1>
+  <h1>Hráči</h1>
   <Guard>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
 
     <section class="card stack">
       {#if active.length === 0}
-        <p class="muted">Zatím tu nikdo není. Přidej prvního hráče nebo naimportuj profily z tabletu na úvodní stránce.</p>
+        <div class="empty-state">
+          <Art name="empty.zadni-hraci" size={140} />
+          <p class="muted">Zatím tu nikdo není. Přidej prvního hráče, nebo na úvodní stránce přenes profily z tabletu.</p>
+        </div>
       {:else}
         <ul class="players" data-testid="players">
           {#each active as p (p.id)}
             <li class="player">
               <a class="player-main" href={`/hrac/${p.id}`}>
-                <span class="emoji avatar">{p.avatar}</span>
+                <span class="avatar"><Avatar value={p.avatar} px={56} /></span>
                 <span class="grow">
                   <span class="name">{p.name}</span>
                   <span class="meta">
@@ -183,22 +192,32 @@
         <div class="field">
           <span>Obrázek</span>
           <div class="avatars" role="group" aria-label="Obrázek">
-            {#each AVATARS as a (a)}
-              <button type="button" class="avatar-pick emoji" aria-pressed={formAvatar === a} aria-label={a} onclick={() => (formAvatar = a)}>{a}</button>
+            {#each ART_AVATARS as a (a)}
+              <button type="button" class="avatar-pick art" aria-pressed={formAvatar === a} aria-label={avatarName(a)} onclick={() => (formAvatar = a)}>
+                <Avatar value={a} px={56} />
+              </button>
             {/each}
           </div>
+          <details class="emoji-pick" open={!formAvatar.startsWith('art:')}>
+            <summary>Nebo emoji</summary>
+            <div class="avatars" role="group" aria-label="Emoji">
+              {#each AVATARS as a (a)}
+                <button type="button" class="avatar-pick emoji" aria-pressed={formAvatar === a} aria-label={a} onclick={() => (formAvatar = a)}>{a}</button>
+              {/each}
+            </div>
+          </details>
         </div>
         <div class="row">
-          <button class="btn primary" type="submit" disabled={busy || !formName.trim()}>{editingId ? '💾 Uložit' : '➕ Přidat hráče'}</button>
+          <button class="btn primary" type="submit" disabled={busy || !formName.trim()}>{editingId ? 'Uložit' : '➕ Přidat hráče'}</button>
           {#if editingId}<button class="btn ghost" type="button" onclick={resetForm}>Zrušit</button>{/if}
         </div>
       </form>
     </section>
 
     <section class="card stack">
-      <h2>🤝 Týmy</h2>
+      <h2>Týmy</h2>
       {#if teams.length === 0}
-        <p class="muted">Žádný tým. Tým hraje kvíz společně; ligové body dostane každý člen.</p>
+        <p class="muted">Zatím žádný tým. Tým hraje kvíz společně a ligové body dostane každý člen.</p>
       {:else}
         <ul class="teams">
           {#each teams as t (t.id)}
@@ -215,7 +234,7 @@
         <div class="row" role="group" aria-label="Členové týmu">
           {#each active as p (p.id)}
             <button type="button" class="chip" aria-pressed={teamMembers.includes(p.id)} onclick={() => toggleMember(p.id)}>
-              <span class="emoji">{p.avatar}</span>{p.name}
+              <Avatar value={p.avatar} />{p.name}
             </button>
           {/each}
         </div>
@@ -232,7 +251,7 @@
           <ul class="teams">
             {#each archived as p (p.id)}
               <li class="row">
-                <span class="emoji">{p.avatar}</span><a class="grow" href={`/hrac/${p.id}`}>{p.name}</a>
+                <Avatar value={p.avatar} /><a class="grow" href={`/hrac/${p.id}`}>{p.name}</a>
                 {#if session.role === 'manager' && p.name !== 'Smazaný hráč'}
                   <button class="btn small ghost" aria-label={`Smazat ${p.name}`} onclick={() => erase(p)}>🗑️</button>
                 {/if}
@@ -265,7 +284,7 @@
     display: flex;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
   }
   .player-main {
     flex: 1;
@@ -299,10 +318,19 @@
     padding: 4px;
   }
   .tools .btn {
-    min-height: 36px;
+    min-height: 44px;
+    min-width: 44px;
   }
   .avatar {
     font-size: 2.4rem;
+  }
+  .emoji-pick summary {
+    cursor: pointer;
+    font-weight: 650;
+    color: var(--ink-soft);
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
   .form {
     border-top: 2px dashed var(--line);
@@ -333,7 +361,13 @@
     font-size: 1.9rem;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
+  }
+  .avatar-pick.art {
+    width: 72px;
+    height: 72px;
+    padding: 4px;
+    font-size: 2.6rem;
   }
   .avatar-pick[aria-pressed='true'] {
     border-color: var(--sage-dark);

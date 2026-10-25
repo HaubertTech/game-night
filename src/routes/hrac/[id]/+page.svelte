@@ -2,8 +2,12 @@
   import { page } from '$app/state';
   import { LEVEL_LABELS, LEVELS, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
   import { LEVEL_EMOJI, THEME_EMOJI } from '#lib/ui/labels.ts';
-  import { api, ApiError, formatDateTime, GAME_EMOJI, GAME_LABELS, percent, placeMedal } from '#lib/ui/app/api.ts';
+  import { api, ApiError, formatDateTime, GAME_EMOJI, GAME_LABELS, percent } from '#lib/ui/app/api.ts';
   import Guard from '#lib/ui/app/Guard.svelte';
+  import Medal from '#lib/ui/app/Medal.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
+  import { LEVEL_ART, THEME_ART } from '#lib/ui/art/art.ts';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
   import type { GameType } from '#lib/league/types.ts';
@@ -47,6 +51,8 @@
     }
   }
 
+  const firstNight = $derived(profile ? profile.history.some((h) => h.night_id !== null) : false);
+
   const themes = $derived(
     profile
       ? (Object.entries(profile.answers.byTheme) as [Theme, Rate][]).sort((a, b) => b[1].rate - a[1].rate || b[1].total - a[1].total)
@@ -54,13 +60,15 @@
   );
 </script>
 
+<svelte:head><title>{profile ? profile.player.name : 'Hráč'} · Herní večer</title></svelte:head>
+
 <main class="page stack">
   <Guard>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
     {#if profile}
       {@const p = profile.player}
       <header class="row head">
-        <span class="emoji avatar">{p.avatar}</span>
+        <span class="avatar"><Avatar value={p.avatar} px={128} /></span>
         <div class="grow">
           <h1>{p.name}</h1>
           <div class="row meta">
@@ -82,6 +90,20 @@
         {/each}
       </section>
 
+      {#if firstNight || profile.winStreak.longest >= 3 || profile.answers.longestStreak >= 5}
+        <section class="card row badges" data-testid="rewards">
+          {#if firstNight}
+            <span class="reward"><Art name="rewards.prvni-vecer" size={56} decorative /><span><strong>První večer</strong><br /><span class="muted">má za sebou</span></span></span>
+          {/if}
+          {#if profile.winStreak.longest >= 3}
+            <span class="reward"><Art name="rewards.serie" size={56} decorative /><span><strong>Série {profile.winStreak.longest} výher</strong><br /><span class="muted">za sebou</span></span></span>
+          {/if}
+          {#if profile.answers.longestStreak >= 5}
+            <span class="reward"><Art name="rewards.serie" size={56} decorative /><span><strong>{profile.answers.longestStreak} správně v řadě</strong><br /><span class="muted">v kvízu</span></span></span>
+          {/if}
+        </section>
+      {/if}
+
       <section class="cards3">
         <div class="card stat">
           <span class="label">Ligové body celkem</span>
@@ -101,19 +123,22 @@
       </section>
 
       <section class="card stack">
-        <h2 class="section-title">🦉 Kvíz po tématech</h2>
+        <h2 class="section-title">Kvízovna po tématech</h2>
         {#if profile.answers.total === 0}
           <p class="empty">Zatím žádná odpověď v kvízu.</p>
         {:else}
           <p>
             Celkem {profile.answers.correct} z {profile.answers.total} správně ({percent(profile.answers.rate)}).
-            {#if profile.answers.bestTheme}Nejlepší téma: <strong>{THEME_EMOJI[profile.answers.bestTheme]} {THEME_LABELS[profile.answers.bestTheme]}</strong>.{/if}
-            {#if profile.answers.worstTheme}Nejslabší: <strong>{THEME_EMOJI[profile.answers.worstTheme]} {THEME_LABELS[profile.answers.worstTheme]}</strong>.{/if}
+            {#if profile.answers.bestTheme}Nejlepší téma: <strong>{THEME_LABELS[profile.answers.bestTheme]}</strong>.{/if}
+            {#if profile.answers.worstTheme}Nejslabší: <strong>{THEME_LABELS[profile.answers.worstTheme]}</strong>.{/if}
           </p>
           <ul class="bars">
             {#each themes as [theme, s] (theme)}
               <li>
-                <span class="bar-label">{THEME_EMOJI[theme] ?? '❓'} {THEME_LABELS[theme] ?? theme}</span>
+                <span class="bar-label">
+                  {#if THEME_ART[theme]}<Art name={THEME_ART[theme]} size={36} decorative class="theme-icon" />{:else}<span class="emoji">{THEME_EMOJI[theme] ?? '❓'}</span>{/if}
+                  {THEME_LABELS[theme] ?? theme}
+                </span>
                 <span class="bar"><span style:width={`${Math.round(s.rate * 100)}%`}></span></span>
                 <span class="bar-value">{percent(s.rate)} <span class="muted">({s.correct}/{s.total})</span></span>
               </li>
@@ -122,16 +147,16 @@
           <div class="row">
             {#each LEVELS as level (level)}
               {@const s = profile.answers.byLevel[level]}
-              {#if s}<span class="badge {level}">{LEVEL_EMOJI[level]} {LEVEL_LABELS[level]}: {percent(s.rate)} ({s.correct}/{s.total})</span>{/if}
+              {#if s}<span class="badge level {level}"><Art name={LEVEL_ART[level]} size={24} decorative class="level-icon" /> {LEVEL_LABELS[level]}: {percent(s.rate)} ({s.correct}/{s.total})</span>{/if}
             {/each}
           </div>
         {/if}
       </section>
 
       <section class="card stack">
-        <h2 class="section-title">⚔️ Vzájemné souboje</h2>
+        <h2 class="section-title">Vzájemné souboje</h2>
         {#if profile.headToHead.length === 0}
-          <p class="empty">Zatím s nikým nehrál(a).</p>
+          <p class="empty">Zatím žádná společná partie.</p>
         {:else}
           <table class="table">
             <thead><tr><th>Soupeř</th><th class="num">Partie</th><th class="num">Výhry</th><th class="num">Prohry</th><th class="num">Remízy</th></tr></thead>
@@ -145,7 +170,7 @@
       </section>
 
       <section class="card stack">
-        <h2 class="section-title">📜 Historie partií</h2>
+        <h2 class="section-title">Historie partií</h2>
         {#if profile.history.length === 0}
           <p class="empty">Zatím žádná dohraná partie.</p>
         {:else}
@@ -156,7 +181,7 @@
                 <tr>
                   <td>{#if h.night_id}<a href={`/vecery/${h.night_id}`}>{formatDateTime(h.finished_at)}</a>{:else}{formatDateTime(h.finished_at)}{/if}</td>
                   <td>{GAME_EMOJI[h.game_type]} {GAME_LABELS[h.game_type]}{#if h.team_name} <span class="muted">({h.team_name})</span>{/if}</td>
-                  <td>{placeMedal(h.place)} <span class="muted">z {h.seats}</span></td>
+                  <td><Medal place={h.place} size={24} /> <span class="muted">z {h.seats}</span></td>
                   <td class="num">{h.score}</td>
                   <td class="num">{h.league_points}</td>
                 </tr>
@@ -178,10 +203,44 @@
     font-size: 2.2rem;
   }
   .avatar {
-    font-size: 3.6rem;
+    font-size: 5rem;
+    line-height: 1;
     background: var(--sage-light);
     border-radius: var(--radius);
-    padding: 10px;
+    padding: 8px;
+  }
+  .badges {
+    gap: 18px;
+  }
+  .reward {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .reward :global(img) {
+    width: 56px;
+    height: 56px;
+  }
+  .bar-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .bar-label :global(.theme-icon) {
+    width: 36px;
+    height: 36px;
+    flex: none;
+  }
+  .level :global(.level-icon) {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+  @media (max-width: 600px) {
+    .avatar {
+      font-size: 3.6rem;
+    }
   }
   .meta {
     gap: 10px;

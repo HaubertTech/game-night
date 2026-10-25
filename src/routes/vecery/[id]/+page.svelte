@@ -1,6 +1,11 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import { api, ApiError, formatDate, formatDateTime, GAME_EMOJI, GAME_LABELS, placeMedal } from '#lib/ui/app/api.ts';
+  import { api, ApiError, formatDate, formatDateTime, GAME_EMOJI, GAME_LABELS } from '#lib/ui/app/api.ts';
+  import Medal from '#lib/ui/app/Medal.svelte';
+  import Art from '#lib/ui/art/Art.svelte';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
+  import GameCard from '#lib/ui/art/GameCard.svelte';
+  import { GAME_ART, GAME_NAMES } from '#lib/ui/art/art.ts';
   import Guard from '#lib/ui/app/Guard.svelte';
   import LeagueTable from '#lib/ui/app/LeagueTable.svelte';
   import NewCardMatch from '#lib/ui/app/NewCardMatch.svelte';
@@ -68,6 +73,8 @@
   }
 </script>
 
+<svelte:head><title>{detail?.night.title ?? 'Večer'} · Herní večer</title></svelte:head>
+
 <main class="page stack">
   <Guard>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
@@ -76,7 +83,7 @@
       {@const open = n.status === 'open'}
       <header class="row between">
         <div>
-          <h1 class="section-title">🌙 {n.title ?? `Večer ${formatDate(n.played_on)}`}</h1>
+          <h1 class="section-title">{n.title ?? `Večer ${formatDate(n.played_on)}`}</h1>
           <p class="muted sub">{formatDate(n.played_on)} · {n.season_name ? `sezóna ${n.season_name}` : 'bez sezóny'}{open ? '' : ' · uzavřený'}</p>
         </div>
         {#if open}
@@ -88,9 +95,9 @@
 
       {#if detail.best.length && detail.matches.some((m) => m.status === 'finished')}
         <section class="card best row" data-testid="best-player">
-          <span class="emoji crown">👑</span>
+          <Art name="rewards.vitez-vecera" size={72} decorative class="crown" />
           <span class="grow">
-            <span class="muted">Hráč večera</span><br />
+            <span class="muted">{open ? 'Zatím vede' : 'Vítěz večera'}</span><br />
             <strong>{detail.best.map((b) => detail!.names[b.playerId]).join(', ')}</strong>
             <span class="muted"> · {detail.best[0].points} bodů</span>
           </span>
@@ -99,14 +106,21 @@
 
       {#if open}
         <section class="card stack">
-          <h2 class="section-title">➕ Další partie</h2>
+          <h2 class="section-title">Další partie</h2>
+          <p class="muted hint">Na televizi a telefonech:</p>
           <div class="adds">
-            <a class="tile" href={`/tv?night=${n.id}`}><span class="emoji">📺</span>Kvíz na TV</a>
-            <a class="tile" href={`/tablet?night=${n.id}`}><span class="emoji">🦉</span>Kvíz na tabletu</a>
-            <a class="tile" href={`/tv?night=${n.id}&hra=aktivity`}><span class="emoji">🎭</span>Řekni, ukaž, nakresli</a>
-            <a class="tile" href={`/tv?night=${n.id}&hra=mjz`}><span class="emoji">✍️</span>Město, jméno, zvíře</a>
-            <button class="tile" aria-pressed={adding === 'prsi'} onclick={() => (adding = adding === 'prsi' ? null : 'prsi')}><span class="emoji">🃏</span>Prší</button>
-            <button class="tile" aria-pressed={adding === 'zoliky'} onclick={() => (adding = adding === 'zoliky' ? null : 'zoliky')}><span class="emoji">🂡</span>Žolíky</button>
+            <GameCard small art={GAME_ART.kvizovna} title={GAME_NAMES.kvizovna} href={`/tv?night=${n.id}&hra=quiz`} testid="add-quiz-tv" />
+            <GameCard small art={GAME_ART.aktivity} title={GAME_NAMES.aktivity} href={`/tv?night=${n.id}&hra=aktivity`} />
+            <GameCard small art={GAME_ART.mjz} title={GAME_NAMES.mjz} href={`/tv?night=${n.id}&hra=mjz`} />
+            <GameCard small art={GAME_ART.sachy} title={GAME_NAMES.sachy} href={`/tv?night=${n.id}&hra=chess`} />
+            <GameCard small art={GAME_ART.prsi} title={GAME_NAMES.prsi} href={`/tv?night=${n.id}&hra=prsi-hra`} />
+            <GameCard small art={GAME_ART.zoliky} title={GAME_NAMES.zoliky} href={`/tv?night=${n.id}&hra=zoliky-hra`} />
+          </div>
+          <p class="muted hint">Bez televize:</p>
+          <div class="row">
+            <a class="btn" href={`/tablet?night=${n.id}`}>🦉 Kvízovna na tabletu</a>
+            <button class="btn" aria-pressed={adding === 'prsi'} onclick={() => (adding = adding === 'prsi' ? null : 'prsi')}>🃏 Zápis karet: Prší</button>
+            <button class="btn" aria-pressed={adding === 'zoliky'} onclick={() => (adding = adding === 'zoliky' ? null : 'zoliky')}>🂡 Zápis karet: Žolíky</button>
           </div>
         </section>
         {#if adding}
@@ -117,12 +131,12 @@
       {/if}
 
       <section class="card stack">
-        <h2 class="section-title">🏆 Tabulka večera</h2>
+        <h2 class="section-title">Tabulka večera</h2>
         <LeagueTable rows={detail.standings} names={detail.names} testid="night-table" empty="Zatím žádná dohraná partie." />
       </section>
 
       <section class="card stack">
-        <h2 class="section-title">🎲 Partie</h2>
+        <h2 class="section-title">Partie</h2>
         {#if detail.matches.length === 0}
           <p class="empty">Zatím žádná partie.</p>
         {:else}
@@ -144,7 +158,7 @@
                 {#if m.status === 'finished'}
                   <ul class="parts">
                     {#each m.participants as p, j (j)}
-                      <li>{placeMedal(p.place)} <span class="emoji">{p.avatar}</span> {p.name} <span class="muted">· {p.league_points} b.</span></li>
+                      <li><Medal place={p.place} size={26} /> <Avatar value={p.avatar} /> {p.name} <span class="muted">· {p.league_points} b.</span></li>
                     {/each}
                   </ul>
                 {:else}
@@ -167,36 +181,27 @@
     background: var(--clay-light);
     border-color: var(--clay);
   }
-  .crown {
-    font-size: 2.6rem;
+  .best :global(.crown) {
+    width: 72px;
+    height: 72px;
+  }
+  .hint {
+    margin: 0;
+    font-weight: 650;
   }
   .adds {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     gap: 12px;
   }
-  .tile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-    min-height: 96px;
-    padding: 14px 18px;
-    border: 2px solid var(--line);
-    border-radius: var(--radius);
-    background: #fff;
-    color: var(--ink);
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1.15rem;
-    text-align: left;
-  }
-  .tile[aria-pressed='true'] {
+  .btn[aria-pressed='true'] {
     border-color: var(--sage-dark);
     background: var(--sage-light);
   }
-  .tile .emoji {
-    font-size: 2rem;
+  @media (max-width: 420px) {
+    .adds {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .matches {
     list-style: none;
@@ -210,7 +215,7 @@
     padding: 12px 14px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--surface);
   }
   .match p {
     margin: 6px 0 0;

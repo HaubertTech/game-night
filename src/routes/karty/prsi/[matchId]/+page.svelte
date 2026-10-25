@@ -1,7 +1,8 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { prsiSummary, type PrsiAction, type PrsiState } from '#lib/cards/prsi.ts';
-  import { api, ApiError, placeMedal } from '#lib/ui/app/api.ts';
+  import { api, ApiError } from '#lib/ui/app/api.ts';
+  import Medal from '#lib/ui/app/Medal.svelte';
   import Guard from '#lib/ui/app/Guard.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
 
@@ -88,6 +89,8 @@
   }
 </script>
 
+<svelte:head><title>Zápis: Prší · Herní večer</title></svelte:head>
+
 <main class="page stack sheet" data-testid="prsi-sheet">
   <Guard>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
@@ -121,13 +124,13 @@
       {/if}
 
       <section class="card stack">
-        <h2 class="section-title">{done ? '🏆 Konečné pořadí' : 'Průběžné pořadí'}</h2>
+        <h2 class="section-title">{done ? 'Konečné pořadí' : 'Průběžné pořadí'}</h2>
         <table class="table" data-testid="prsi-summary">
           <thead><tr><th>#</th><th>Hráč</th><th class="num">Součet pořadí</th><th class="num">Výhry</th><th class="num">Poslední</th></tr></thead>
           <tbody>
             {#each summary as r (r.playerId)}
               <tr class:first={r.place === 1 && sheetState.deals.length > 0}>
-                <td>{sheetState.deals.length ? placeMedal(r.place) : '–'}</td>
+                <td><Medal place={sheetState.deals.length ? r.place : null} /></td>
                 <td>{names.get(r.playerId)}</td>
                 <td class="num">{r.placeSum}</td>
                 <td class="num">{r.wins}</td>
@@ -179,7 +182,7 @@
     padding: 12px 18px;
     border: 3px solid var(--line);
     border-radius: var(--radius);
-    background: #fff;
+    background: var(--surface);
     font-size: 1.4rem;
     font-weight: 800;
     text-align: left;
