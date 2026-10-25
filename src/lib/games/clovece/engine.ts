@@ -298,7 +298,9 @@ export function createCloveceGame(input: CreateCloveceInput): CloveceState {
 
 // ---------- reducer ----------
 
-function push(state: CloveceState, event: Omit<CloveceEvent, 'seq'>): void {
+type EventInput = CloveceEvent extends infer E ? (E extends CloveceEvent ? Omit<E, 'seq'> : never) : never;
+
+function push(state: CloveceState, event: EventInput): void {
   state.seq += 1;
   state.log = [...state.log, { ...event, seq: state.seq } as CloveceEvent].slice(-LOG_KEEP);
 }
