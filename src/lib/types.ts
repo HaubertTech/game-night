@@ -73,7 +73,12 @@ export interface EstimateQuestion extends QuestionBase {
   type: 'estimate';
   answer: number;
   unit: string;
+  /** Absolute tolerance (2 points within `full`, 1 point within `partial`). Without it, years use
+   * YEAR_TOLERANCE and everything else a relative tolerance (10 % / 25 %). */
+  tolerance?: { full: number; partial: number };
 }
+
+export const YEAR_TOLERANCE = { full: 3, partial: 10 } as const;
 
 export interface OpenQuestion extends QuestionBase {
   type: 'open';

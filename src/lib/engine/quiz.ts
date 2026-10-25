@@ -2,7 +2,7 @@
 // The state is plain JSON (no Map/Set/Date), so it can be stored in localStorage today
 // and live on a server for the phone-controller mode later.
 
-import type { Level, Question, Theme } from '../types.ts';
+import { YEAR_TOLERANCE, type EstimateQuestion, type Level, type Question, type Theme } from '../types.ts';
 import { mulberry32 } from './rng.ts';
 import { drawGame, type Contestant, type Turn } from './select.ts';
 
@@ -41,6 +41,10 @@ export interface AnswerRecord {
   points: number;
   /** Relative error of an estimate (0.05 = 5 %). */
   error?: number;
+  /** Absolute difference of an estimate (|given − answer|). */
+  diff?: number;
+  /** Error measured against the partial tolerance (0 = exact, 1 = edge of 1 point); used to pick the best estimate. */
+  closeness?: number;
   timedOut?: boolean;
 }
 
@@ -128,10 +132,26 @@ export function createGame(
 
 // ---------- scoring ----------
 
-export function scoreEstimate(given: number, answer: number): { points: number; error: number } {
-  const error = answer === 0 ? (given === 0 ? 0 : Infinity) : Math.abs(given - answer) / Math.abs(answer);
-  const points = error <= ESTIMATE_FULL + 1e-9 ? 2 : error <= ESTIMATE_PARTIAL + 1e-9 ? 1 : 0;
-  return { points, error };
+export type EstimateTolerance = { kind: 'absolute'; full: number; partial: number } | { kind: 'relative'; full: number; partial: number };
+
+/** Years get an absolute tolerance — 10 % of 1900 would be ±190 years. */
+export function estimateTolerance(q: Pick<EstimateQuestion, 'unit' | 'tolerance'>): EstimateTolerance {
+  if (q.tolerance) return { kind: 'absolute', ...q.tolerance };
+  if (q.unit.trim().toLowerCase() === 'rok') return { kind: 'absolute', ...YEAR_TOLERANCE };
+  return { kind: 'relative', full: ESTIMATE_FULL, partial: ESTIMATE_PARTIAL };
+}
+
+export function scoreEstimate(
+  given: number,
+  answer: number,
+  tolerance: EstimateTolerance = { kind: 'relative', full: ESTIMATE_FULL, partial: ESTIMATE_PARTIAL },
+): { points: number; error: number; diff: number; closeness: number } {
+  const diff = Math.abs(given - answer);
+  const error = answer === 0 ? (given === 0 ? 0 : Infinity) : diff / Math.abs(answer);
+  const measured = tolerance.kind === 'absolute' ? diff : error;
+  const points = measured <= tolerance.full + 1e-9 ? 2 : measured <= tolerance.partial + 1e-9 ? 1 : 0;
+  const closeness = tolerance.partial > 0 ? measured / tolerance.partial : measured === 0 ? 0 : Infinity;
+  return { points, error, diff, closeness };
 }
 
 // ---------- selectors ----------
@@ -252,8 +272,8 @@ export function reduce(state: GameState, action: Action): GameState {
       if (q.type === 'estimate') {
         const value = typeof action.value === 'number' ? action.value : Number.NaN;
         if (!Number.isFinite(value)) return state;
-        const { points, error } = scoreEstimate(value, q.answer);
-        return finishTurn(state, { given: value, correct: points > 0, basePoints: points, error });
+        const { points, error, diff, closeness } = scoreEstimate(value, q.answer, estimateTolerance(q));
+        return finishTurn(state, { given: value, correct: points > 0, basePoints: points, error, diff, closeness });
       }
       return state; // open questions go through reveal → judge
     }
@@ -299,6 +319,7 @@ export interface BestAnswer {
   questionId: string;
   given: string | number | null;
   error?: number;
+  diff?: number;
 }
 
 export interface GameSummary {
@@ -314,10 +335,11 @@ export function bestAnswer(state: GameState): BestAnswer | null {
   let best: AnswerRecord | null = null;
   for (const a of state.answers) {
     if (a.error === undefined || a.basePoints === 0) continue;
-    if (!best || a.error < best.error!) best = a;
+    const score = a.closeness ?? a.error;
+    if (!best || score < (best.closeness ?? best.error!)) best = a;
   }
   if (best) {
-    return { kind: 'estimate', contestantId: best.contestantId, questionId: best.questionId, given: best.given, error: best.error };
+    return { kind: 'estimate', contestantId: best.contestantId, questionId: best.questionId, given: best.given, error: best.error, diff: best.diff };
   }
   let hardest: AnswerRecord | null = null;
   for (const a of state.answers) {

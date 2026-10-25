@@ -8,6 +8,7 @@ import {
   mulberry32,
   reduce,
   scoreEstimate,
+  estimateTolerance,
   standings,
   summarize,
   type Action,
@@ -220,6 +221,20 @@ describe('estimate scoring', () => {
     expect(scoreEstimate(74, 100).points).toBe(0);
     expect(scoreEstimate(300, 100).points).toBe(0);
     expect(scoreEstimate(105, 100).error).toBeCloseTo(0.05);
+  });
+
+  it('scores years with an absolute tolerance instead of percent', () => {
+    const years = estimateTolerance({ unit: 'rok' });
+    expect(years).toEqual({ kind: 'absolute', full: 3, partial: 10 });
+    expect(scoreEstimate(1918, 1918, years).points).toBe(2);
+    expect(scoreEstimate(1921, 1918, years).points).toBe(2);
+    expect(scoreEstimate(1922, 1918, years).points).toBe(1);
+    expect(scoreEstimate(1908, 1918, years).points).toBe(1);
+    expect(scoreEstimate(1907, 1918, years).points).toBe(0);
+    // 10 % of 1918 would have accepted ±190 years
+    expect(scoreEstimate(1800, 1918, years).points).toBe(0);
+    expect(estimateTolerance({ unit: 'km', tolerance: { full: 5, partial: 20 } })).toEqual({ kind: 'absolute', full: 5, partial: 20 });
+    expect(estimateTolerance({ unit: 'km' }).kind).toBe('relative');
   });
 
   it('applies estimate points inside the reducer', () => {

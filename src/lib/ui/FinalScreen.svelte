@@ -1,7 +1,7 @@
 <script lang="ts">
   import { THEME_LABELS, type Theme } from '../types.ts';
   import type { GameState, GameSummary } from '../engine/quiz.ts';
-  import { formatNumber, THEME_EMOJI } from './labels.ts';
+  import { deviationLabel, formatEstimate, THEME_EMOJI } from './labels.ts';
   import Standings from './Standings.svelte';
 
   let { game, summary, onNewGame, onExport }: { game: GameState; summary: GameSummary; onNewGame: () => void; onExport: () => void } =
@@ -35,9 +35,9 @@
       <h2>⭐ Nej odpověď</h2>
       {#if best.kind === 'estimate' && bestQuestion.type === 'estimate'}
         <p>
-          <strong>{bestContestant.avatar} {bestContestant.name}</strong> odhadl(a) {formatNumber(Number(best.given))}
-          {bestQuestion.unit} — správně je {formatNumber(bestQuestion.answer)} {bestQuestion.unit}
-          {best.error === 0 ? '(přesně!)' : `(odchylka ${formatNumber(Math.round((best.error ?? 0) * 1000) / 10)} %)`}.
+          <strong>{bestContestant.avatar} {bestContestant.name}</strong> odhadl(a) {formatEstimate(Number(best.given), bestQuestion.unit)}
+          {bestQuestion.unit === 'rok' ? '' : bestQuestion.unit} — správně je {formatEstimate(bestQuestion.answer, bestQuestion.unit)}
+          {bestQuestion.unit === 'rok' ? '' : bestQuestion.unit} ({deviationLabel(bestQuestion, Number(best.given), bestQuestion.answer)}).
         </p>
       {:else}
         <p><strong>{bestContestant.avatar} {bestContestant.name}</strong> zvládl(a) nejtěžší otázku:</p>

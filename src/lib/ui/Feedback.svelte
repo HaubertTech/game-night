@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Question } from '../types.ts';
   import type { AnswerRecord } from '../engine/quiz.ts';
-  import { formatNumber, pointsLabel } from './labels.ts';
+  import { deviationLabel, formatEstimate, pointsLabel } from './labels.ts';
 
   let { question, answer, nextLabel, onNext }: { question: Question; answer: AnswerRecord; nextLabel: string; onNext: () => void } =
     $props();
@@ -18,10 +18,10 @@
   <div class="card answer">
     <span class="muted">Správná odpověď</span>
     {#if question.type === 'estimate'}
-      <strong>{formatNumber(question.answer)} {question.unit}</strong>
+      <strong>{formatEstimate(question.answer, question.unit)} {question.unit === 'rok' ? '' : question.unit}</strong>
       {#if typeof answer.given === 'number'}
-        <span>Tvůj odhad: {formatNumber(answer.given)} {question.unit}
-          {#if answer.error !== undefined}(odchylka {formatNumber(Math.round(answer.error * 1000) / 10)} %){/if}</span>
+        <span>Tvůj odhad: {formatEstimate(answer.given, question.unit)} {question.unit === 'rok' ? '' : question.unit}
+          ({deviationLabel(question, answer.given, question.answer)})</span>
       {/if}
     {:else}
       <strong>{question.answer}</strong>
