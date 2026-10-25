@@ -1,0 +1,212 @@
+{
+ "key": "reky",
+ "label": "Řeky",
+ "source": "Řeky ČR a známé evropské a světové řeky",
+ "byLetter": {
+  "A": [
+   "Amazonka",
+   "Amur"
+  ],
+  "B": [
+   "Balinka",
+   "Berounka",
+   "Bečva",
+   "Blanice",
+   "Blšanka",
+   "Bobrůvka",
+   "Botič",
+   "Branná",
+   "Brtnice",
+   "Bystřice",
+   "Bílina",
+   "Bílá Desná",
+   "Bělá"
+  ],
+  "C": [
+   "Cidlina"
+  ],
+  "D": [
+   "Dalejský potok",
+   "Desná",
+   "Divoká Orlice",
+   "Dněpr",
+   "Don",
+   "Doubravka",
+   "Dráva",
+   "Dunaj",
+   "Dyje",
+   "Dřevnice"
+  ],
+  "E": [
+   "Ems",
+   "Eufrat"
+  ],
+  "F": [
+   "Fryšávka"
+  ],
+  "G": [
+   "Ganga"
+  ],
+  "H": [
+   "Haná",
+   "Hejlovka",
+   "Hron",
+   "Hvozdnice"
+  ],
+  "Ch": [
+   "Chrudimka"
+  ],
+  "I": [
+   "Indus",
+   "Inn",
+   "Ipeľ"
+  ],
+  "J": [
+   "Jang-c'-ťiang",
+   "Jenisej",
+   "Jevišovka",
+   "Jihlava",
+   "Jihlávka",
+   "Jizera",
+   "Jordán"
+  ],
+  "K": [
+   "Kamenice",
+   "Klabava",
+   "Kocába",
+   "Kolorado",
+   "Kongo",
+   "Krupá",
+   "Kyjovka",
+   "Křemelná",
+   "Křinice"
+  ],
+  "L": [
+   "Labe",
+   "Lena",
+   "Liboc",
+   "Litava",
+   "Litavka",
+   "Loira",
+   "Lomnice",
+   "Loučka",
+   "Loučná",
+   "Lubina",
+   "Lučina",
+   "Lužická Nisa",
+   "Lužnice"
+  ],
+  "M": [
+   "Malše",
+   "Mandava",
+   "Mekong",
+   "Metuje",
+   "Mississippi",
+   "Missouri",
+   "Mohan",
+   "Morava",
+   "Moravice",
+   "Moravská Sázava",
+   "Mrlina",
+   "Mur",
+   "Mže"
+  ],
+  "N": [
+   "Nežárka",
+   "Niger",
+   "Nil"
+  ],
+  "O": [
+   "Ob",
+   "Odra",
+   "Ohře",
+   "Olšava",
+   "Olše",
+   "Ondřejnice",
+   "Opava",
+   "Orinoko",
+   "Orlice",
+   "Oskava",
+   "Oslava",
+   "Ostravice",
+   "Otava"
+  ],
+  "P": [
+   "Paraná",
+   "Ploučnice",
+   "Ponávka",
+   "Pád"
+  ],
+  "R": [
+   "Radbuza",
+   "Rakovnický potok",
+   "Rhôna",
+   "Rokytka",
+   "Rokytná",
+   "Rolava",
+   "Romže",
+   "Rýn"
+  ],
+  "S": [
+   "Seina",
+   "Skalice",
+   "Smědá",
+   "Stonávka",
+   "Studená Vltava",
+   "Stěnava",
+   "Střela",
+   "Svatava",
+   "Svitava",
+   "Svitávka",
+   "Svratka",
+   "Sáva",
+   "Sázava"
+  ],
+  "Š": [
+   "Šatava",
+   "Šárecký potok"
+  ],
+  "T": [
+   "Temže",
+   "Teplá",
+   "Teplá Vltava",
+   "Tibera",
+   "Tichá Orlice",
+   "Tigris",
+   "Tisa",
+   "Trkmanka",
+   "Trnava",
+   "Třebůvka"
+  ],
+  "Ú": [
+   "Úhlava",
+   "Úpa",
+   "Úslava"
+  ],
+  "V": [
+   "Valová",
+   "Velička",
+   "Vezera",
+   "Visla",
+   "Vlašimská Blanice",
+   "Vltava",
+   "Vláří",
+   "Volha",
+   "Volyňka",
+   "Vydra",
+   "Váh",
+   "Výmola",
+   "Výrovka"
+  ],
+  "Y": [
+   "Yukon"
+  ],
+  "Z": [
+   "Zambezi"
+  ],
+  "Ž": [
+   "Želetavka",
+   "Želivka"
+  ]
+ }
+}
