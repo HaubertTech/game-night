@@ -260,7 +260,7 @@
     padding: 12px 18px;
     border: 2px solid var(--ink);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--paper);
     box-shadow: 0 3px 0 var(--ink);
     text-align: left;
   }
@@ -285,7 +285,7 @@
   .joker[aria-pressed='true'] {
     background: var(--clay);
     border-color: var(--clay-dark);
-    color: #fffaf3;
+    color: var(--paper);
   }
   .others ul {
     padding-left: 1.2em;

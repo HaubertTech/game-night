@@ -317,7 +317,7 @@
   }
   .meld {
     padding: 4px 6px;
-    background: #fff;
+    background: var(--paper);
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
   }

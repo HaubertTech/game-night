@@ -138,6 +138,8 @@
   );
 </script>
 
+<svelte:head><title>Kvízovna · Herní večer</title></svelte:head>
+
 {#if game}
   <main class="page game" data-testid="game" data-phase={game.phase}>
     <nav class="topbar">

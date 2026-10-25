@@ -243,7 +243,7 @@
   .overlay {
     position: fixed;
     inset: 0;
-    background: rgba(59, 51, 43, 0.35);
+    background: color-mix(in srgb, var(--ink) 35%, transparent);
     display: flex;
     align-items: center;
     justify-content: center;

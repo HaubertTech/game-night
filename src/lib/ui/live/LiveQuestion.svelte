@@ -147,7 +147,7 @@
     padding: 14px 18px;
     border: 2px solid var(--ink);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--paper);
     box-shadow: 0 3px 0 var(--ink);
     font-size: 1.35rem;
     font-weight: 700;

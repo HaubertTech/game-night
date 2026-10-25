@@ -16,7 +16,7 @@
     height: 40px;
     border: 2px solid var(--line);
     border-radius: 999px;
-    background: #fff;
+    background: var(--paper);
     overflow: hidden;
     display: grid;
     place-items: center;

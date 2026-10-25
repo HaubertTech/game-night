@@ -96,7 +96,7 @@
     padding: 10px 14px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
-    background: #fff;
+    background: var(--paper);
     text-align: left;
   }
   .joker[aria-pressed='true'] {

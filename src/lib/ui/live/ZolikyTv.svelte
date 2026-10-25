@@ -120,7 +120,7 @@
 
 <style>
   .zoliky-tv {
-    background: radial-gradient(ellipse at 50% 45%, #e3e9ef 0%, #d3dce5 60%, #c5d0db 100%);
+    background: radial-gradient(ellipse at 50% 45%, var(--slate-light) 0%, color-mix(in srgb, var(--slate-light) 75%, var(--slate)) 100%);
   }
   .seats {
     display: flex;
@@ -133,7 +133,7 @@
     align-items: center;
     gap: 12px;
     padding: 10px 16px;
-    background: rgba(251, 248, 241, 0.85);
+    background: color-mix(in srgb, var(--paper) 85%, transparent);
     border: 3px solid var(--line);
     border-radius: var(--radius-sm);
     font-size: 1.25rem;
@@ -182,7 +182,7 @@
     flex-direction: column;
     gap: 4px;
     padding: 8px 10px;
-    background: rgba(251, 248, 241, 0.8);
+    background: color-mix(in srgb, var(--paper) 80%, transparent);
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
   }

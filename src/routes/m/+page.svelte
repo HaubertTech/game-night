@@ -1,5 +1,6 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
+  import Owl from '#lib/ui/art/Owl.svelte';
 
   let code = $state('');
   const clean = $derived(code.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8));
@@ -13,8 +14,8 @@
 <svelte:head><title>Připojit telefon · Herní večer</title></svelte:head>
 
 <main class="phone stack">
-  <h1>📱 Připojit se ke hře</h1>
-  <p class="muted">Kód místnosti je velkým písmem na televizi.</p>
+  <h1>Připojit se ke hře</h1>
+  <Owl pose="mava" text="Kód místnosti je velkým písmem na televizi." />
   <form class="stack" onsubmit={submit}>
     <label class="visually-hidden" for="room-code">Kód místnosti</label>
     <input id="room-code" type="text" bind:value={code} autocomplete="off" autocapitalize="characters" placeholder="např. KX7P" maxlength="8" />

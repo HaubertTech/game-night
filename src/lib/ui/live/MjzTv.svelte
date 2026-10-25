@@ -236,7 +236,7 @@
     align-items: center;
     gap: 4px;
     padding: 14px;
-    background: #fff;
+    background: var(--paper);
     border: 3px solid var(--line);
     border-radius: var(--radius);
     font-size: 1.2rem;
@@ -265,7 +265,7 @@
     align-items: center;
     gap: 2px 14px;
     padding: 10px 16px;
-    background: #fff;
+    background: var(--paper);
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
   }

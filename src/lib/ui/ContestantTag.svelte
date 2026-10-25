@@ -41,6 +41,6 @@
   }
   .joker {
     background: var(--clay);
-    color: #fffaf3;
+    color: var(--paper);
   }
 </style>

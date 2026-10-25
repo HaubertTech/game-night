@@ -120,7 +120,7 @@
 
 <style>
   .prsi-tv {
-    background: radial-gradient(ellipse at 50% 55%, #e6ecdc 0%, #d5dfc9 60%, #c9d5bb 100%);
+    background: radial-gradient(ellipse at 50% 55%, var(--sage-light) 0%, color-mix(in srgb, var(--sage-light) 75%, var(--sage)) 100%);
   }
   .seats {
     display: flex;
@@ -133,7 +133,7 @@
     align-items: center;
     gap: 12px;
     padding: 10px 16px;
-    background: rgba(251, 248, 241, 0.85);
+    background: color-mix(in srgb, var(--paper) 85%, transparent);
     border: 3px solid var(--line);
     border-radius: var(--radius-sm);
     font-size: 1.3rem;
@@ -193,7 +193,7 @@
     flex-direction: column;
     gap: 6px;
     font-size: 1.2rem;
-    color: var(--ink-soft, #5b5146);
+    color: var(--ink-soft);
   }
   .log .fresh {
     font-weight: 800;
