@@ -17,7 +17,8 @@
     "check:questions": "node --disable-warning=ExperimentalWarning scripts/check-questions.ts",
     "db:up": "docker compose up -d db",
     "db:migrate": "node --disable-warning=ExperimentalWarning scripts/migrate.ts",
-    "db:migrate:test": "node --disable-warning=ExperimentalWarning scripts/migrate.ts --test"
+    "db:migrate:test": "node --disable-warning=ExperimentalWarning scripts/migrate.ts --test",
+    "start": "node --disable-warning=ExperimentalWarning server.ts"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0",
