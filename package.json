@@ -18,7 +18,9 @@
     "db:up": "docker compose up -d db",
     "db:migrate": "node --disable-warning=ExperimentalWarning scripts/migrate.ts",
     "db:migrate:test": "node --disable-warning=ExperimentalWarning scripts/migrate.ts --test",
-    "start": "node --disable-warning=ExperimentalWarning server.ts"
+    "start": "node --disable-warning=ExperimentalWarning server.ts",
+    "purge:unverified": "node --disable-warning=ExperimentalWarning scripts/purge-unverified.ts",
+    "backup:db": "./scripts/backup-db.sh"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0",
@@ -36,6 +38,7 @@
     "vitest": "5.0.3"
   },
   "dependencies": {
+    "chess.js": "1.4.0",
     "openskill": "5.0.1",
     "pg": "8.23.1",
     "qrcode": "1.5.4",
