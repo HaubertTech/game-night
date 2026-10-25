@@ -42,7 +42,7 @@ export const OPTION_COUNTS: Record<Level, [number, number]> = {
 };
 export const ALLOWED_TYPES: Record<Level, readonly string[]> = LEVEL_TYPES;
 /** Target counts of verified questions per level (reported, never an error). */
-export const TARGETS: Record<Level, number> = { kocarek: 120, piskoviste: 180, prvnacek: 200, lavice: 270, hospoda: 540 };
+export const TARGETS: Record<Level, number> = { kocarek: 240, piskoviste: 360, prvnacek: 400, lavice: 540, hospoda: 1080 };
 /** Levels whose questions need a picture and emoji-led options (children who do not read yet). */
 export const PICTURE_LEVELS: readonly Level[] = CHILD_LEVELS;
 /** A fact longer than this is hard to read out after the answer. */

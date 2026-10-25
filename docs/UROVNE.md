@@ -45,6 +45,9 @@ Chybí-li úrovni téma kola, engine vezme otázku jiného tématu téže úrovn
 
 ## Cílové počty (ověřené otázky)
 
+**v2.1 (25. 10. 2026): zdvojnásobení** — kocarek 240, piskoviste 360, prvnacek 400, lavice 540 (9 × 60),
+hospoda 1080 (9 × 120). Tabulka níže je první krok (v2).
+
 | Úroveň | Cíl | Poznámka |
 |---|---|---|
 | `kocarek` | 120 | nové |
