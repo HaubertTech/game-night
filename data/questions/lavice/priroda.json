@@ -1,97 +1,98 @@
 [
   {
-    "id": "lavice-priroda-001",
     "level": "lavice",
     "theme": "priroda",
     "type": "choice",
-    "text": "Které zvíře prospí celou zimu?",
+    "text": "Kolik nohou má hmyz?",
     "options": [
-      "Liška",
-      "Zajíc",
-      "Srna",
-      "Ježek"
-    ],
-    "answer": "Ježek",
-    "fact": "Ježek si na zimu staví hnízdo z listí a spí až do jara.",
-    "difficulty": 1,
-    "image": "❄️",
-    "source": "https://cs.wikipedia.org/wiki/Je%C5%BEek_z%C3%A1padn%C3%AD",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-priroda-002",
-    "level": "lavice",
-    "theme": "priroda",
-    "type": "choice",
-    "text": "Jak se jmenuje mládě koně?",
-    "options": [
-      "Hříbě",
-      "Kůzle",
-      "Tele",
-      "Jehně"
-    ],
-    "answer": "Hříbě",
-    "fact": "Hříbě se postaví na nohy obvykle do hodiny po narození.",
-    "difficulty": 1,
-    "image": "🐴",
-    "source": "https://horses.extension.org/care-of-the-newborn-foal/",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-priroda-003",
-    "level": "lavice",
-    "theme": "priroda",
-    "type": "choice",
-    "text": "Kolik nohou má pavouk?",
-    "options": [
-      "10",
-      "4",
+      "6",
       "8",
-      "6"
+      "4",
+      "10"
     ],
-    "answer": "8",
-    "fact": "Hmyz má šest nohou, proto pavouk mezi hmyz nepatří.",
+    "answer": "6",
+    "fact": "Hmyz je nejpočetnější skupina živočichů na Zemi.",
     "difficulty": 1,
-    "image": "🕷️",
-    "source": "https://cs.wikipedia.org/wiki/Pavoukovci",
-    "status": "verified"
+    "image": "🐞",
+    "source": "https://cs.wikipedia.org/wiki/Hmyz",
+    "status": "verified",
+    "id": "lavice-priroda-001"
   },
   {
-    "id": "lavice-priroda-004",
     "level": "lavice",
     "theme": "priroda",
     "type": "choice",
-    "text": "Které roční období přichází po zimě?",
+    "text": "Jak se jmenuje strom, pod kterým na podzim sbíráme kaštany na hraní?",
     "options": [
-      "Léto",
-      "Jaro",
-      "Podzim"
-    ],
-    "answer": "Jaro",
-    "fact": "Jaro začíná kolem 20. března, kdy je den skoro stejně dlouhý jako noc.",
-    "difficulty": 1,
-    "image": "🌷",
-    "source": "https://cs.wikipedia.org/wiki/Rovnodennost",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-priroda-005",
-    "level": "lavice",
-    "theme": "priroda",
-    "type": "choice",
-    "text": "Který strom má jehličí?",
-    "options": [
+      "Dub",
+      "Jírovec",
       "Buk",
-      "Lípa",
-      "Smrk",
-      "Dub"
+      "Lípa"
     ],
-    "answer": "Smrk",
-    "fact": "Smrk je nejčastější strom v českých lesích.",
+    "answer": "Jírovec",
+    "fact": "Jedlé kaštany ze stánků rostou na jiném stromě, na kaštanovníku.",
+    "difficulty": 3,
+    "image": "🌰",
+    "source": "https://cs.wikipedia.org/wiki/J%C3%ADrovec_ma%C4%8Fal",
+    "status": "verified",
+    "id": "lavice-priroda-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který strom je národním stromem Česka?",
+    "options": [
+      "Dub",
+      "Smrk",
+      "Lípa",
+      "Bříza"
+    ],
+    "answer": "Lípa",
+    "fact": "Z lipových květů se vaří čaj, který pomáhá při nachlazení.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/L%C3%ADpa",
+    "status": "verified",
+    "id": "lavice-priroda-003"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která část rostliny saje vodu ze země?",
+    "options": [
+      "Květ",
+      "List",
+      "Plod",
+      "Kořen"
+    ],
+    "answer": "Kořen",
+    "fact": "Kořeny taky drží rostlinu v zemi, aby ji nevyvrátil vítr.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "https://cs.wikipedia.org/wiki/Ko%C5%99en",
+    "status": "verified",
+    "id": "lavice-priroda-004"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták tesá zobákem do kmenů stromů dutiny?",
+    "options": [
+      "Datel",
+      "Vrabec",
+      "Kos",
+      "Čáp"
+    ],
+    "answer": "Datel",
+    "fact": "Datel má tak dlouhý jazyk, že mu v hlavě obtáčí lebku.",
     "difficulty": 1,
     "image": "🌲",
-    "source": "https://cs.wikipedia.org/wiki/Smrk_ztepil%C3%BD",
-    "status": "verified"
+    "source": "https://cs.wikipedia.org/wiki/Datel_%C4%8Dern%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-005"
   },
   {
     "id": "lavice-priroda-006",
@@ -281,5 +282,290 @@
     "image": "🪨",
     "source": "https://cs.wikipedia.org/wiki/Plazi",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře se živí hlavně listy eukalyptu?",
+    "options": [
+      "Klokan",
+      "Koala",
+      "Panda",
+      "Lenochod"
+    ],
+    "answer": "Koala",
+    "fact": "Koala prospí až 20 hodin denně.",
+    "difficulty": 2,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/Koala_medv%C3%ADdkovit%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Na kterém světadílu žijí ve volné přírodě klokani?",
+    "options": [
+      "V Africe",
+      "V Asii",
+      "V Austrálii",
+      "V Jižní Americe"
+    ],
+    "answer": "V Austrálii",
+    "fact": "Malé mládě klokana po narození vleze do maminčiny kapsy a roste tam.",
+    "difficulty": 1,
+    "image": "🦘",
+    "source": "https://cs.wikipedia.org/wiki/Klokan",
+    "status": "verified",
+    "id": "lavice-priroda-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Čím dýchají ryby?",
+    "options": [
+      "Plícemi",
+      "Nosem",
+      "Ploutvemi",
+      "Žábrami"
+    ],
+    "answer": "Žábrami",
+    "fact": "Žábry berou kyslík, který je rozpuštěný ve vodě.",
+    "difficulty": 1,
+    "image": "🐟",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BD%C3%A1bry",
+    "status": "verified",
+    "id": "lavice-priroda-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje samec slepice?",
+    "options": [
+      "Kohout",
+      "Krocan",
+      "Kačer",
+      "Houser"
+    ],
+    "answer": "Kohout",
+    "fact": "Kohout kokrhá hlavně brzy ráno, ale ozvat se umí kdykoli během dne.",
+    "difficulty": 1,
+    "image": "🐓",
+    "source": "https://cs.wikipedia.org/wiki/Kur_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře umí měnit barvu kůže?",
+    "options": [
+      "Krokodýl",
+      "Chameleon",
+      "Želva",
+      "Žirafa"
+    ],
+    "answer": "Chameleon",
+    "fact": "Chameleon umí každým okem koukat jinam.",
+    "difficulty": 2,
+    "image": "🦎",
+    "source": "https://cs.wikipedia.org/wiki/Chameleonovit%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik chapadel má chobotnice?",
+    "options": [
+      "6",
+      "10",
+      "8",
+      "4"
+    ],
+    "answer": "8",
+    "fact": "Chobotnice má tři srdce a modrou krev.",
+    "difficulty": 2,
+    "image": "🐙",
+    "source": "https://cs.wikipedia.org/wiki/Chobotnice",
+    "status": "verified",
+    "id": "lavice-priroda-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kam odlétají vlaštovky na zimu?",
+    "options": [
+      "Do Ameriky",
+      "Na sever",
+      "Nikam, zůstávají u nás",
+      "Do Afriky"
+    ],
+    "answer": "Do Afriky",
+    "fact": "Vlaštovka uletí cestou do Afriky tisíce kilometrů.",
+    "difficulty": 2,
+    "image": "🐦",
+    "source": "https://cs.wikipedia.org/wiki/Vla%C5%A1tovka_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře si na zimu schovává zásoby oříšků?",
+    "options": [
+      "Veverka",
+      "Ježek",
+      "Netopýr",
+      "Žába"
+    ],
+    "answer": "Veverka",
+    "fact": "Některé schované oříšky veverka nenajde a vyrostou z nich nové stromy.",
+    "difficulty": 1,
+    "image": "🐿️",
+    "source": "https://cs.wikipedia.org/wiki/Veverka_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která květina má na stonku ostny, kterým se často říká trny?",
+    "options": [
+      "Tulipán",
+      "Růže",
+      "Sedmikráska",
+      "Pampeliška"
+    ],
+    "answer": "Růže",
+    "fact": "Botanici říkají, že růže má ostny, ne trny. Plodům divoké růže říkáme šípky a vaří se z nich čaj.",
+    "difficulty": 1,
+    "image": "🌹",
+    "source": "https://cs.wikipedia.org/wiki/R%C5%AF%C5%BEe",
+    "status": "verified",
+    "id": "lavice-priroda-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik oddílů má žaludek krávy?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "fact": "Kráva potravu přežvykuje: spolkne ji, vrátí do pusy a rozžvýká znovu.",
+    "difficulty": 3,
+    "image": "🐄",
+    "source": "https://cs.wikipedia.org/wiki/P%C5%99e%C5%BEv%C3%BDkavci",
+    "status": "verified",
+    "id": "lavice-priroda-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který z těchto ptáků je dravec?",
+    "options": [
+      "Vrabec",
+      "Kos",
+      "Holub",
+      "Káně"
+    ],
+    "answer": "Káně",
+    "fact": "Káně často sedí na sloupech u silnic a vyhlíží myši.",
+    "difficulty": 2,
+    "image": "🦅",
+    "source": "https://cs.wikipedia.org/wiki/K%C3%A1n%C4%9B_lesn%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která ryba plave proti proudu zpátky do řeky, kde se narodila?",
+    "options": [
+      "Losos",
+      "Kapr",
+      "Štika",
+      "Sumec"
+    ],
+    "answer": "Losos",
+    "fact": "Lososi cestou dokážou vyskočit i přes vodopády.",
+    "difficulty": 2,
+    "image": "🐟",
+    "source": "https://cs.wikipedia.org/wiki/Losos_obecn%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které z těchto zvířat se může dožít víc než 100 let?",
+    "options": [
+      "Pes",
+      "Želva obrovská",
+      "Kočka",
+      "Králík"
+    ],
+    "answer": "Želva obrovská",
+    "fact": "Obrovské želvy žijí na ostrovech Galapágy a Seychely.",
+    "difficulty": 2,
+    "image": "🐢",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDelva_obrovsk%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kde žije lední medvěd?",
+    "options": [
+      "V Antarktidě",
+      "V Africe",
+      "V Arktidě",
+      "V Austrálii"
+    ],
+    "answer": "V Arktidě",
+    "fact": "Tučňáci žijí na jižní polokouli, takže se s ledními medvědy v přírodě nepotkají.",
+    "difficulty": 2,
+    "image": "🐻‍❄️",
+    "source": "https://cs.wikipedia.org/wiki/Medv%C4%9Bd_ledn%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje zelené barvivo v listech rostlin?",
+    "options": [
+      "Kofein",
+      "Karamel",
+      "Inkoust",
+      "Chlorofyl"
+    ],
+    "answer": "Chlorofyl",
+    "fact": "Na podzim chlorofyl v listech mizí, a proto se objeví žlutá a oranžová barva.",
+    "difficulty": 3,
+    "image": "🍃",
+    "source": "https://cs.wikipedia.org/wiki/Chlorofyl",
+    "status": "verified",
+    "id": "lavice-priroda-030"
   }
 ]

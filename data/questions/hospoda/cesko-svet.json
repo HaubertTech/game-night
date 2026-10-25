@@ -507,5 +507,496 @@
     "difficulty": 3,
     "source": "https://cs.wikipedia.org/wiki/Boží_Dar",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-031",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší vodopád v Česku?",
+    "options": [
+      "Pančavský vodopád",
+      "Mumlavský vodopád",
+      "Rešovské vodopády",
+      "Vodopády Bílé Opavy"
+    ],
+    "answer": "Pančavský vodopád",
+    "fact": "Padá z Labské louky v Krkonoších do Labského dolu kaskádami vysokými celkem 148 metrů.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pančavský_vodopád",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-032",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které je největší přírodní jezero v Česku?",
+    "options": [
+      "Máchovo jezero",
+      "Černé jezero",
+      "Plešné jezero",
+      "Čertovo jezero"
+    ],
+    "answer": "Černé jezero",
+    "fact": "Vzniklo po ledovci a je hluboké asi 40 metrů. Máchovo jezero je ve skutečnosti rybník.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Černé_jezero",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-034",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která z těchto památek NENÍ na seznamu UNESCO?",
+    "options": [
+      "Vila Tugendhat",
+      "Lednicko-valtický areál",
+      "Zahrady a zámek v Kroměříži",
+      "Hrad Karlštejn"
+    ],
+    "answer": "Hrad Karlštejn",
+    "fact": "Brněnskou vilu Tugendhat navrhl Ludwig Mies van der Rohe. Její onyxová stěna při zapadajícím slunci místy prosvítá a žilky v kameni žhnou do ruda.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Světové_dědictví_(Česko)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-035",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě je židovská čtvrť a bazilika sv. Prokopa, zapsané do UNESCO?",
+    "options": [
+      "Třebíč",
+      "Telč",
+      "Jihlava",
+      "Mikulov"
+    ],
+    "answer": "Třebíč",
+    "fact": "Při zápisu v roce 2003 to byla jediná židovská památka na seznamu UNESCO mimo Izrael. Dochovalo se v ní 123 domů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Židovská_čtvrť_v_Třebíči",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-036",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě na Vysočině je památkou UNESCO náměstí lemované domy s podloubím?",
+    "options": [
+      "Pelhřimov",
+      "Telč",
+      "Slavonice",
+      "Polná"
+    ],
+    "answer": "Telč",
+    "fact": "Hlavní náměstí nese jméno Zachariáše z Hradce, renesančního pána, za kterého Telč v 16. století zažila rozkvět.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Telč",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-037",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "U kterého města stojí Santiniho poutní kostel sv. Jana Nepomuckého na Zelené hoře?",
+    "options": [
+      "Nové Město na Moravě",
+      "Havlíčkův Brod",
+      "Žďár nad Sázavou",
+      "Polička"
+    ],
+    "answer": "Žďár nad Sázavou",
+    "fact": "Má půdorys pěticípé hvězdy podle legendy o pěti hvězdách, které se zjevily nad utonulým Nepomukem. Pětka se opakuje v celé stavbě.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Pilgrimage_Church_of_Saint_John_of_Nepomuk",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-038",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který česko-německý region zapsalo UNESCO v roce 2019 díky staleté těžbě rud?",
+    "options": [
+      "Krkonoše",
+      "Jeseníky",
+      "Šumava",
+      "Krušnohoří"
+    ],
+    "answer": "Krušnohoří",
+    "fact": "Zápis tvoří 22 lokalit, pět z nich je u nás. Patří k nim Jáchymov, Krupka i Rudá věž smrti u Vykmanova, kde vězni za komunismu zpracovávali uranovou rudu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hornický_region_Erzgebirge/Krušnohoří",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-039",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí Sloup Nejsvětější Trojice, zapsaný do UNESCO?",
+    "options": [
+      "Olomouc",
+      "Brno",
+      "Kutná Hora",
+      "Opava"
+    ],
+    "answer": "Olomouc",
+    "fact": "Je vysoký 35 metrů a stavěl se skoro 40 let, od roku 1716 do 1754.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sloup_Nejsvětější_Trojice_(Olomouc)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-040",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří Labe od pramene v Krkonoších po ústí do Severního moře?",
+    "answer": 1094,
+    "unit": "km",
+    "fact": "Na území Česka teče jen asi třetinu své délky, zhruba 370 km. Zbytek urazí Německem přes Drážďany a Hamburk.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Labe",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-041",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "V jakém roce se historické centrum Prahy dostalo na seznam UNESCO?",
+    "answer": 1992,
+    "unit": "rok",
+    "fact": "Chráněná památková rezervace má 866 hektarů a zahrnuje Hradčany, Malou Stranu, Staré a Nové Město i Vyšehrad.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Historic_Centre_of_Prague",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-042",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje největší pískovcová skalní brána v Evropě, symbol Českého Švýcarska?",
+    "answer": "Pravčická brána",
+    "accept": [
+      "Pravčická",
+      "pravcicka brana"
+    ],
+    "fact": "Oblouk je dlouhý 26,5 metru a vysoký 16 metrů. Chodit po něm se nesmí od roku 1982, kdy se v jeho spodní části objevily praskliny.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pravčická_brána",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-043",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Jak se jmenuje hlavní město Turecka?",
+    "answer": "Ankara",
+    "fact": "Istanbul je mnohem větší, ale Atatürk roku 1923 zvolil za metropoli Ankaru v srdci Anatolie, daleko od moře i od starých elit.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Ankara",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-044",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Paříží?",
+    "options": [
+      "Loira",
+      "Seina",
+      "Rhôna",
+      "Garonna"
+    ],
+    "answer": "Seina",
+    "fact": "Jen v Paříži přes ni vede 37 mostů a lávek.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/List_of_bridges_in_Paris",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-045",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi stojí chrámový komplex Angkor Vat?",
+    "options": [
+      "Thajsko",
+      "Vietnam",
+      "Kambodža",
+      "Laos"
+    ],
+    "answer": "Kambodža",
+    "fact": "Je to největší náboženská stavba na světě a Kambodža ji má i na státní vlajce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Angkor_Vat",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-046",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který průliv odděluje Evropu od Afriky?",
+    "options": [
+      "Bospor",
+      "Dardanely",
+      "Messinský",
+      "Gibraltarský"
+    ],
+    "answer": "Gibraltarský",
+    "fact": "V nejužším místě je široký jen asi 14 kilometrů, za jasného dne je ze Španělska vidět Maroko.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Gibraltarský_průliv",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-047",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka je nejdelší v Evropě?",
+    "options": [
+      "Volha",
+      "Dunaj",
+      "Dněpr",
+      "Rýn"
+    ],
+    "answer": "Volha",
+    "fact": "Ústí do Kaspického moře, které je ve skutečnosti největším jezerem světa – nemá spojení s oceánem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Volha",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-048",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi leží zhruba šest z deseti jezer na světě?",
+    "options": [
+      "Rusko",
+      "Kanada",
+      "Finsko",
+      "USA"
+    ],
+    "answer": "Kanada",
+    "fact": "Podle studie McGillovy univerzity má Kanada asi 62 % všech jezer větších než 10 hektarů – víc než 800 tisíc.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Lakes_of_Canada",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-049",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která z těchto jihoamerických zemí nemá moře?",
+    "options": [
+      "Chile",
+      "Peru",
+      "Bolívie",
+      "Ekvádor"
+    ],
+    "answer": "Bolívie",
+    "fact": "O pobřeží přišla ve válce s Chile koncem 19. století. Námořnictvo má dodnes – hlídkuje na jezeře Titicaca a na řekách.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Bolivian_Navy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-050",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který stát je druhý nejmenší na světě?",
+    "options": [
+      "San Marino",
+      "Lichtenštejnsko",
+      "Malta",
+      "Monako"
+    ],
+    "answer": "Monako",
+    "fact": "Měří jen asi 2 km² a je zároveň nejhustěji zalidněným státem světa. Menší je jen Vatikán.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Monako",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-051",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí Gaudího chrám Sagrada Família?",
+    "options": [
+      "Barcelona",
+      "Madrid",
+      "Valencie",
+      "Sevilla"
+    ],
+    "answer": "Barcelona",
+    "fact": "Stavět se začal roku 1882 a Gaudí, který na něm pracoval přes 40 let, je pohřbený v jeho kryptě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Sagrada_Família",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-052",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Které pohoří v Rusku tvoří tradiční hranici mezi Evropou a Asií?",
+    "answer": "Ural",
+    "accept": [
+      "Uralské hory",
+      "Uralské pohoří"
+    ],
+    "fact": "Táhne se přes 2 000 km od Severního ledového oceánu na jih. Na hranici světadílů u Jekatěrinburgu stojí obelisk.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ural",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-053",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "open",
+    "text": "Ve kterém městě sedí na kameni v přístavu socha Malé mořské víly?",
+    "answer": "Kodaň",
+    "accept": [
+      "Kodani",
+      "København",
+      "Kobenhavn"
+    ],
+    "fact": "Je vysoká jen 1,25 metru a turisté bývají překvapení, jak je malá. Nechal ji vytvořit sládek Carl Jacobsen z pivovaru Carlsberg.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-054",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které město je sídlem Kraje Vysočina?",
+    "options": [
+      "Havlíčkův Brod",
+      "Jihlava",
+      "Třebíč",
+      "Žďár nad Sázavou"
+    ],
+    "answer": "Jihlava",
+    "fact": "Pod historickým centrem Jihlavy se táhne asi 25 km chodeb na několika patrech – druhé největší podzemí v Česku po Znojmu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jihlavské_podzemí",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-055",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém výběžku leží nejsevernější bod Česka?",
+    "options": [
+      "Frýdlantský",
+      "Broumovský",
+      "Šluknovský",
+      "Ašský"
+    ],
+    "answer": "Šluknovský",
+    "fact": "Leží u osady Severní, která patří k obci Lobendava na Děčínsku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Krajní_body_Česka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-056",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na kterém vrcholu stojí vysílač s hotelem, symbol Liberce?",
+    "options": [
+      "Klínovec",
+      "Kleť",
+      "Lysá hora",
+      "Ještěd"
+    ],
+    "answer": "Ještěd",
+    "fact": "Architekt Karel Hubáček za něj roku 1969 dostal Perretovu cenu Mezinárodní unie architektů, nejvýznamnější ocenění, jaké kdy český architekt získal.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ještěd_(vysílač)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-057",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém lázeňském městě hraje u kolonády Zpívající fontána?",
+    "options": [
+      "Mariánské Lázně",
+      "Karlovy Vary",
+      "Luhačovice",
+      "Teplice"
+    ],
+    "answer": "Mariánské Lázně",
+    "fact": "V lázeňské sezóně hraje každou lichou hodinu, od Beethovena po Vangelise. Večerní představení doprovází barevné osvětlení.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zpívající_fontána_(Mariánské_Lázně)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-058",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "Kolik metrů nad mořem měří Lysá hora, nejvyšší vrchol Moravskoslezských Beskyd?",
+    "answer": 1324,
+    "unit": "metrů",
+    "fact": "Patří k nejzasněženějším místům Česka. V březnu 1911 tu naměřili 491 cm sněhu, nejvíc v historii měření u nás.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Lysá_hora",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-059",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která hora je nejvyšší v Alpách?",
+    "options": [
+      "Matterhorn",
+      "Mont Blanc",
+      "Monte Rosa",
+      "Grossglockner"
+    ],
+    "answer": "Mont Blanc",
+    "fact": "Její výška se mění o několik metrů podle toho, kolik sněhu a ledu na vrcholu zrovna leží.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Mont_Blanc",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cesko-svet-060",
+    "level": "hospoda",
+    "theme": "cesko-svet",
+    "type": "estimate",
+    "text": "V jakém roce otevřeli v Paříži Eiffelovu věž?",
+    "answer": 1889,
+    "unit": "rok",
+    "fact": "Postavili ji na světovou výstavu a měla stát jen 20 let. Před zbouráním ji zachránily antény pro radiotelegraf.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Eiffelova_věž",
+    "status": "verified"
   }
 ]

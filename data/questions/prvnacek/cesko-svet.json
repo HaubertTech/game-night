@@ -1,0 +1,398 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město České republiky?",
+    "options": [
+      "🏰 Praha",
+      "🏙️ Brno",
+      "🏭 Ostrava"
+    ],
+    "answer": "🏰 Praha",
+    "fact": "Na Pražském hradě sídlí prezident republiky.",
+    "difficulty": 1,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Praha",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jaké barvy má česká vlajka?",
+    "options": [
+      "🔵 Modrá a žlutá",
+      "⚪ Bílá, červená a modrá",
+      "🟢 Zelená, bílá a červená"
+    ],
+    "answer": "⚪ Bílá, červená a modrá",
+    "fact": "Modrý klín na vlajce míří od žerdi doprostřed.",
+    "difficulty": 1,
+    "image": "🚩",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_vlajka",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Prahou?",
+    "options": [
+      "🌊 Labe",
+      "💧 Odra",
+      "🌉 Vltava"
+    ],
+    "answer": "🌉 Vltava",
+    "fact": "Vltava je nejdelší řeka, která teče jen po českém území.",
+    "difficulty": 1,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Vltava",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Česka?",
+    "options": [
+      "⛰️ Sněžka",
+      "🗻 Říp",
+      "🏔️ Praděd"
+    ],
+    "answer": "⛰️ Sněžka",
+    "fact": "Sněžka měří 1 603 metrů a leží v Krkonoších.",
+    "difficulty": 1,
+    "image": "🧗",
+    "source": "https://cs.wikipedia.org/wiki/Sn%C4%9B%C5%BEka",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které zvíře je na českém státním znaku?",
+    "options": [
+      "🐻 Medvěd",
+      "🦁 Lev",
+      "🦅 Orel"
+    ],
+    "answer": "🦁 Lev",
+    "fact": "Český lev má dva ocasy.",
+    "difficulty": 1,
+    "image": "🛡️",
+    "source": "https://cs.wikipedia.org/wiki/St%C3%A1tn%C3%AD_znak_%C4%8Cesk%C3%A9_republiky",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém pohoří leží Sněžka?",
+    "options": [
+      "🌲 Šumava",
+      "⛰️ Beskydy",
+      "🏔️ Krkonoše"
+    ],
+    "answer": "🏔️ Krkonoše",
+    "fact": "Krkonošský národní park je nejstarší národní park v Česku. Podle pověsti tam vládne Krakonoš.",
+    "difficulty": 2,
+    "image": "🗻",
+    "source": "https://cs.wikipedia.org/wiki/Krkono%C5%A1sk%C3%BD_n%C3%A1rodn%C3%AD_park",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hrad, kde pracuje prezident?",
+    "options": [
+      "🏰 Pražský hrad",
+      "🏯 Karlštejn",
+      "🏰 Bouzov"
+    ],
+    "answer": "🏰 Pražský hrad",
+    "fact": "Pražský hrad je jeden z největších hradů na světě.",
+    "difficulty": 1,
+    "image": "🇨🇿",
+    "source": "https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%BD_hrad",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo podle pověsti vládne v Krkonoších?",
+    "options": [
+      "🌲 Rumcajs",
+      "🧔 Krakonoš",
+      "🐜 Ferda"
+    ],
+    "answer": "🧔 Krakonoš",
+    "fact": "Když se Krakonoš zlobí, prý přivolá bouřku nebo mlhu.",
+    "difficulty": 1,
+    "image": "🏔️",
+    "source": "https://cs.wikipedia.org/wiki/Krakono%C5%A1",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na kterou horu podle pověsti vystoupil Praotec Čech?",
+    "options": [
+      "🏔️ Sněžka",
+      "🗻 Praděd",
+      "⛰️ Říp"
+    ],
+    "answer": "⛰️ Říp",
+    "fact": "Na vrcholu Řípu stojí malý kulatý kostelík, rotunda svatého Jiří.",
+    "difficulty": 2,
+    "image": "👴",
+    "source": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADp",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou barvu má lev na českém znaku?",
+    "options": [
+      "⚪ Bílou",
+      "🟡 Žlutou",
+      "⚫ Černou"
+    ],
+    "answer": "⚪ Bílou",
+    "fact": "Lev má na hlavě zlatou korunu.",
+    "difficulty": 2,
+    "image": "🛡️",
+    "source": "https://cs.wikipedia.org/wiki/St%C3%A1tn%C3%AD_znak_%C4%8Cesk%C3%A9_republiky",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi žijeme?",
+    "options": [
+      "🇸🇰 Na Slovensku",
+      "🇨🇿 V Česku",
+      "🇵🇱 V Polsku"
+    ],
+    "answer": "🇨🇿 V Česku",
+    "fact": "Česko leží uprostřed Evropy a sousedí se čtyřmi státy.",
+    "difficulty": 1,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesko",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou řečí se mluví v Česku?",
+    "options": [
+      "🇬🇧 Anglicky",
+      "🇩🇪 Německy",
+      "🇨🇿 Česky"
+    ],
+    "answer": "🇨🇿 Česky",
+    "fact": "Česky mluví asi deset milionů lidí.",
+    "difficulty": 1,
+    "image": "🗣️",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Ce%C5%A1tina",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které moře má Česko?",
+    "options": [
+      "🚫 Žádné",
+      "🌊 Severní moře",
+      "🏖️ Jaderské moře"
+    ],
+    "answer": "🚫 Žádné",
+    "fact": "K moři jezdíme na dovolenou třeba do Chorvatska nebo Itálie.",
+    "difficulty": 2,
+    "image": "🧭",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesko",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Se kterou zemí jsme kdysi tvořili jeden stát?",
+    "options": [
+      "🇫🇷 S Francií",
+      "🇸🇰 Se Slovenskem",
+      "🇯🇵 S Japonskem"
+    ],
+    "answer": "🇸🇰 Se Slovenskem",
+    "fact": "Společnému státu se říkalo Československo.",
+    "difficulty": 2,
+    "image": "🤝",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Ceskoslovensko",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenují velké lesy a hory na jihu Čech?",
+    "options": [
+      "🏔️ Krkonoše",
+      "⛰️ Jeseníky",
+      "🌲 Šumava"
+    ],
+    "answer": "🌲 Šumava",
+    "fact": "Na Šumavě pramení řeka Vltava.",
+    "difficulty": 2,
+    "image": "🧭",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0umava",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo je hlavou našeho státu?",
+    "options": [
+      "🎩 Prezident",
+      "👑 Král",
+      "🧙 Kouzelník"
+    ],
+    "answer": "🎩 Prezident",
+    "fact": "Prezidenta si volíme každých pět let.",
+    "difficulty": 1,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/Prezident_%C4%8Cesk%C3%A9_republiky",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Čím se platí v Česku?",
+    "options": [
+      "💶 Eury",
+      "🪙 Korunami",
+      "💵 Dolary"
+    ],
+    "answer": "🪙 Korunami",
+    "fact": "Na dvacetikoruně je svatý Václav na koni.",
+    "difficulty": 1,
+    "image": "🛒",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_koruna",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo u nás nosí dárky na Vánoce?",
+    "options": [
+      "🐰 Zajíček",
+      "🧚 Víla",
+      "👶 Ježíšek"
+    ],
+    "answer": "👶 Ježíšek",
+    "fact": "Dárky se u nás rozbalují na Štědrý večer pod stromečkem.",
+    "difficulty": 1,
+    "image": "🎄",
+    "source": "https://cs.wikipedia.org/wiki/Ježíšek",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co se maluje na Velikonoce?",
+    "options": [
+      "🥚 Vajíčka",
+      "🍎 Jablka",
+      "🥔 Brambory"
+    ],
+    "answer": "🥚 Vajíčka",
+    "fact": "Malovanému vajíčku se říká kraslice.",
+    "difficulty": 1,
+    "image": "🐣",
+    "source": "https://cs.wikipedia.org/wiki/Kraslice",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jaký strom zdobíme na Vánoce?",
+    "options": [
+      "🌴 Palmu",
+      "🌲 Smrček nebo jedličku",
+      "🌳 Dub"
+    ],
+    "answer": "🌲 Smrček nebo jedličku",
+    "fact": "Na špičku stromečku se dává hvězda nebo špice.",
+    "difficulty": 1,
+    "image": "🎁",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Čím je známé Třeboňsko na jihu Čech?",
+    "options": [
+      "🏔️ Vysokými horami",
+      "🏖️ Mořem",
+      "🐟 Rybníky"
+    ],
+    "answer": "🐟 Rybníky",
+    "fact": "Největší český rybník je Rožmberk u Třeboně.",
+    "difficulty": 2,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Rybník_Rožmberk",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na kterém pražském kopci stojí rozhledna jako malá Eiffelovka?",
+    "options": [
+      "🗼 Na Petříně",
+      "⛰️ Na Sněžce",
+      "🗻 Na Řípu"
+    ],
+    "answer": "🗼 Na Petříně",
+    "fact": "Petřínská rozhledna je asi pětkrát nižší než Eiffelova věž v Paříži.",
+    "difficulty": 2,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna",
+    "status": "verified",
+    "id": "prvnacek-cesko-svet-022"
+  }
+]

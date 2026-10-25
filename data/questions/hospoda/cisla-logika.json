@@ -507,5 +507,516 @@
     "difficulty": 2,
     "source": "https://cs.wikipedia.org/wiki/Hektar",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-031",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolika různými způsoby lze seřadit čtyři různé knihy vedle sebe na polici?",
+    "options": [
+      "6",
+      "12",
+      "16",
+      "24"
+    ],
+    "answer": "24",
+    "fact": "Balíček 52 karet lze zamíchat tolika způsoby (číslo s 68 číslicemi), že pořádně zamíchaný balíček je skoro jistě v pořadí, jaké ještě nikdo neviděl.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Permutace",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-032",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Soutěž se třemi dveřmi: za jedněmi je auto. Vyberete, moderátor otevře jiné prázdné. Jakou šanci na auto máte, když volbu změníte?",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "answer": "2/3",
+    "fact": "Když to v roce 1990 v časopise vysvětlila Marilyn vos Savantová, dostala tisíce dopisů, že se mýlí – psali jí i matematici.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Monty_Hallův_problém",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-033",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik lidí musí být v místnosti, aby šance, že dva z nich mají narozeniny ve stejný den, přesáhla 50 %?",
+    "options": [
+      "23",
+      "57",
+      "183",
+      "366"
+    ],
+    "answer": "23",
+    "fact": "Při 70 lidech už je to přes 99,9 %. Počet dvojic totiž roste mnohem rychleji než počet lidí.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Narozeninový_paradox",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-034",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jakou přibližnou hodnotu má zlatý řez?",
+    "options": [
+      "1,414",
+      "1,618",
+      "2,718",
+      "3,142"
+    ],
+    "answer": "1,618",
+    "fact": "Když vydělíte dvě sousední Fibonacciho čísla, třeba 89 : 55, dostanete hodnotu stále bližší zlatému řezu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Zlatý_řez",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-035",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký letopočet zapisují římské číslice MDCCCLXVIII?",
+    "options": [
+      "1668",
+      "1768",
+      "1868",
+      "1888"
+    ],
+    "answer": "1868",
+    "fact": "V roce 1868 položili v Praze základní kámen Národního divadla.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Římské_číslice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-036",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Pálka a míček stojí dohromady 110 Kč. Pálka je o 100 Kč dražší než míček. Kolik stojí míček?",
+    "options": [
+      "5 Kč",
+      "10 Kč",
+      "15 Kč",
+      "50 Kč"
+    ],
+    "answer": "5 Kč",
+    "fact": "Úlohu proslavil test Shanea Fredericka z roku 2005. Podle Daniela Kahnemana na ni víc než polovina studentů Harvardu, MIT a Princetonu odpověděla špatně: 10 Kč.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Cognitive_reflection_test",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-037",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Lekníny na rybníku se každý den zdvojnásobí a za 48 dní pokryjí celou hladinu. Za kolik dní pokryjí polovinu?",
+    "options": [
+      "24",
+      "36",
+      "46",
+      "47"
+    ],
+    "answer": "47",
+    "fact": "Tak vypadá exponenciální růst: dlouho skoro nic není vidět a pak se všechno zaplní během posledních pár dní.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Exponenciální_růst",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-038",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Na první pole šachovnice dáte zrnko rýže a na každé další dvakrát víc. Kolik zrnek bude na posledním, 64. poli?",
+    "options": [
+      "Asi 9 milionů",
+      "Asi 9 miliard",
+      "Asi 9 bilionů",
+      "Asi 9 trilionů"
+    ],
+    "answer": "Asi 9 trilionů",
+    "fact": "Podle legendy si to přál vynálezce šachu jako odměnu. Na celé šachovnici by ležely stovky miliard tun rýže.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Problém_pšeničných_zrn_a_šachovnice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-039",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak se zapíše číslo 10 ve dvojkové soustavě?",
+    "options": [
+      "0110",
+      "1001",
+      "1010",
+      "1100"
+    ],
+    "answer": "1010",
+    "fact": "Odtud známý vtip: „Na světě je 10 druhů lidí – ti, kdo rozumějí dvojkové soustavě, a ti, kdo ne.“",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Dvojková_soustava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-040",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Na kolik tahů nejvýš lze složit Rubikovu kostku z jakékoli zamíchané pozice?",
+    "options": [
+      "20",
+      "26",
+      "42",
+      "54"
+    ],
+    "answer": "20",
+    "fact": "Dokázali to v roce 2010 na počítačích Googlu; výpočet by na jednom procesoru trval asi 35 let.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-041",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "V magickém čtverci 3 × 3 jsou čísla 1 až 9. Jaký je součet každého řádku, sloupce i úhlopříčky?",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "45"
+    ],
+    "answer": "15",
+    "fact": "Podle čínské legendy se tento čtverec, zvaný Lo Šu, objevil na krunýři želvy, která vylezla z řeky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Magický_čtverec",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-042",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik existuje pravidelných mnohostěnů, takzvaných platónských těles?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "fact": "Johannes Kepler se je pokoušel vložit mezi dráhy tehdy známých planet a věřil, že tím odhalil stavbu vesmíru.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Platónské_těleso",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-043",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které z těchto čísel je dokonalé, tedy rovná se součtu svých dělitelů menších než ono samo?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "28"
+    ],
+    "answer": "28",
+    "fact": "Další dokonalá čísla jsou 496 a 8 128. Všechna známá jsou sudá; liché dokonalé číslo zatím nikdo nenašel.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Dokonalé_číslo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-044",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "1. února nepřestupného roku je pondělí. Jaký den bude 1. března?",
+    "options": [
+      "Pondělí",
+      "Úterý",
+      "Středa",
+      "Neděle"
+    ],
+    "answer": "Pondělí",
+    "fact": "Únor má v nepřestupném roce přesně čtyři týdny, takže březen a dokonce i listopad mají stejný kalendář jako únor.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Únor",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-045",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolikrát nejvýš může v jednom roce připadnout pátek na třináctého?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "fact": "Každý rok má aspoň jeden pátek 13. Rok 2026 jich má tři: v únoru, březnu a listopadu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pátek_třináctého",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-046",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký úhel svírají hodinová a minutová ručička ve 3:15?",
+    "options": [
+      "0°",
+      "7,5°",
+      "15°",
+      "30°"
+    ],
+    "answer": "7,5°",
+    "fact": "Minutová ručička míří přesně na trojku, ale hodinová za čtvrthodinu popojede o čtvrtinu dílku – urazí půl stupně za minutu.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Hodiny",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-047",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik krejcarů měl rakouský zlatý po měnové reformě roku 1857?",
+    "options": [
+      "20",
+      "60",
+      "100",
+      "120"
+    ],
+    "answer": "100",
+    "fact": "Dřív se počítalo 60 krejcarů na zlatý. Jméno krejcar pochází z německého Kreuzer – mince s křížem.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Krejcar",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-048",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik korun dostal člověk za jeden zlatý, když Rakousko-Uhersko roku 1892 zavedlo korunovou měnu?",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "answer": "2",
+    "fact": "Haléř se jmenuje po švábském městě Hall, kde se drobné stříbrné mince razily už ve 13. století.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rakousko-uherská_koruna",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-049",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dní má únor v přestupném roce?",
+    "options": [
+      "28",
+      "29",
+      "30",
+      "31"
+    ],
+    "answer": "29",
+    "fact": "Přestupný den se přidává už od dob juliánského kalendáře, který zavedl Julius Caesar.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Přestupný_rok",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-050",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký tvar mají buňky včelí plástve?",
+    "options": [
+      "Čtverec",
+      "Šestiúhelník",
+      "Trojúhelník",
+      "Kruh"
+    ],
+    "answer": "Šestiúhelník",
+    "fact": "Šestiúhelníky pokryjí plochu bez mezer s nejmenší spotřebou vosku. Matematicky to dokázal Thomas Hales až v roce 1999.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Plástev",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-051",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolikáté výročí svatby se slaví jako zlatá svatba?",
+    "options": [
+      "25.",
+      "40.",
+      "50.",
+      "60."
+    ],
+    "answer": "50.",
+    "fact": "Stříbrná svatba je po 25 letech, diamantová po šedesáti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Výročí_svatby",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-052",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik celých týdnů má jeden rok?",
+    "options": [
+      "48",
+      "50",
+      "51",
+      "52"
+    ],
+    "answer": "52",
+    "fact": "Rok má 52 týdnů a jeden den navíc, přestupný dva. Proto se vaše narozeniny každý rok posunou v týdnu o den dál, po přestupném únoru o dva.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Týden",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-053",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik let zhruba odpovídá jedné miliardě sekund?",
+    "answer": 32,
+    "unit": "let",
+    "fact": "Milion sekund je necelých 12 dní, miliarda sekund skoro 32 let.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sekunda",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-054",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik stupňů Fahrenheita odpovídá 100 °C, tedy bodu varu vody?",
+    "answer": 212,
+    "unit": "°F",
+    "fact": "Fahrenheit dal nulu na teplotu mrazivé směsi ledu, vody a salmiaku a 96 stupňů na teplotu lidského těla.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Stupeň_Fahrenheita",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-055",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik metrů měří jedna námořní míle?",
+    "answer": 1852,
+    "unit": "m",
+    "fact": "Odpovídá jedné úhlové minutě zeměpisné šířky. Uzel je rychlost jedné námořní míle za hodinu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Námořní_míle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-056",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "estimate",
+    "text": "Kolik centimetrů měřil pražský loket, stará česká míra délky?",
+    "answer": 59,
+    "unit": "cm",
+    "fact": "Pražský loket měřil 59,3 cm. Jeho železný vzor je dodnes zasazený ve zdi věže Novoměstské radnice, aby si kupci mohli přeměřit látku.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Pražský_loket",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-057",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Kolik kusů je jedna kopa?",
+    "answer": "60",
+    "accept": [
+      "šedesát"
+    ],
+    "fact": "Menší jednotkou byl mandel, tedy 15 kusů; kopa se rovnala čtyřem mandelům.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kopa_(jednotka)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-058",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Pod jakým jménem se u nás také zná číslo pí, podle matematika z nizozemského Leidenu?",
+    "answer": "Ludolfovo číslo",
+    "accept": [
+      "Ludolfovo",
+      "Ludolfovo čislo"
+    ],
+    "fact": "Ludolph van Ceulen spočítal 35 desetinných míst pí a nechal si je vytesat na náhrobek v Leidenu. Kámen se ztratil, v roce 2000 ho obnovili.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Ludolph_van_Ceulen",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-059",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Jaká číslice v čísle pí následuje hned po 3,14?",
+    "answer": "1",
+    "accept": [
+      "jedna",
+      "jednička"
+    ],
+    "fact": "Den pí se slaví 14. března, v americkém zápisu 3/14. Ve stejný den se narodil Albert Einstein.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pí_(číslo)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-cisla-logika-060",
+    "level": "hospoda",
+    "theme": "cisla-logika",
+    "type": "open",
+    "text": "Kolik políček má klasické sudoku?",
+    "answer": "81",
+    "accept": [
+      "osmdesát jedna",
+      "osmdesát jeden"
+    ],
+    "fact": "Název je japonský, ale hru vymyslel Američan Howard Garns; poprvé vyšla v roce 1979 pod názvem Number Place.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Sudoku",
+    "status": "verified"
   }
 ]

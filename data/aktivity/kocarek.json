@@ -1,0 +1,482 @@
+[
+  {
+    "id": "kocarek-001",
+    "level": "kocarek",
+    "word": "pejsek",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐶"
+  },
+  {
+    "id": "kocarek-002",
+    "level": "kocarek",
+    "word": "kočička",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐱"
+  },
+  {
+    "id": "kocarek-003",
+    "level": "kocarek",
+    "word": "kravička",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐮"
+  },
+  {
+    "id": "kocarek-004",
+    "level": "kocarek",
+    "word": "prasátko",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐷"
+  },
+  {
+    "id": "kocarek-005",
+    "level": "kocarek",
+    "word": "ovečka",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐑"
+  },
+  {
+    "id": "kocarek-006",
+    "level": "kocarek",
+    "word": "koza",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐐"
+  },
+  {
+    "id": "kocarek-007",
+    "level": "kocarek",
+    "word": "koník",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐴"
+  },
+  {
+    "id": "kocarek-008",
+    "level": "kocarek",
+    "word": "slepička",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐔"
+  },
+  {
+    "id": "kocarek-009",
+    "level": "kocarek",
+    "word": "kohoutek",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐓"
+  },
+  {
+    "id": "kocarek-010",
+    "level": "kocarek",
+    "word": "kachnička",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🦆"
+  },
+  {
+    "id": "kocarek-011",
+    "level": "kocarek",
+    "word": "žabka",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐸"
+  },
+  {
+    "id": "kocarek-012",
+    "level": "kocarek",
+    "word": "rybička",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐟"
+  },
+  {
+    "id": "kocarek-013",
+    "level": "kocarek",
+    "word": "ptáček",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐦"
+  },
+  {
+    "id": "kocarek-014",
+    "level": "kocarek",
+    "word": "zajíček",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐰"
+  },
+  {
+    "id": "kocarek-015",
+    "level": "kocarek",
+    "word": "slon",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐘"
+  },
+  {
+    "id": "kocarek-016",
+    "level": "kocarek",
+    "word": "opička",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐵"
+  },
+  {
+    "id": "kocarek-017",
+    "level": "kocarek",
+    "word": "lev",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🦁"
+  },
+  {
+    "id": "kocarek-018",
+    "level": "kocarek",
+    "word": "medvídek",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐻"
+  },
+  {
+    "id": "kocarek-019",
+    "level": "kocarek",
+    "word": "had",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐍"
+  },
+  {
+    "id": "kocarek-020",
+    "level": "kocarek",
+    "word": "sova",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🦉"
+  },
+  {
+    "id": "kocarek-021",
+    "level": "kocarek",
+    "word": "včelička",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐝"
+  },
+  {
+    "id": "kocarek-022",
+    "level": "kocarek",
+    "word": "motýlek",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🦋"
+  },
+  {
+    "id": "kocarek-023",
+    "level": "kocarek",
+    "word": "šnek",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐌"
+  },
+  {
+    "id": "kocarek-024",
+    "level": "kocarek",
+    "word": "myška",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐭"
+  },
+  {
+    "id": "kocarek-025",
+    "level": "kocarek",
+    "word": "tučňák",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🐧"
+  },
+  {
+    "id": "kocarek-026",
+    "level": "kocarek",
+    "word": "krokodýl",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🐊"
+  },
+  {
+    "id": "kocarek-027",
+    "level": "kocarek",
+    "word": "žirafa",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🦒"
+  },
+  {
+    "id": "kocarek-028",
+    "level": "kocarek",
+    "word": "veverka",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🐿️"
+  },
+  {
+    "id": "kocarek-029",
+    "level": "kocarek",
+    "word": "ježek",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🦔"
+  },
+  {
+    "id": "kocarek-030",
+    "level": "kocarek",
+    "word": "beruška",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🐞"
+  },
+  {
+    "id": "kocarek-031",
+    "level": "kocarek",
+    "word": "autíčko",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🚗"
+  },
+  {
+    "id": "kocarek-032",
+    "level": "kocarek",
+    "word": "vláček",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🚂"
+  },
+  {
+    "id": "kocarek-033",
+    "level": "kocarek",
+    "word": "letadlo",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "✈️"
+  },
+  {
+    "id": "kocarek-034",
+    "level": "kocarek",
+    "word": "sanitka",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🚑"
+  },
+  {
+    "id": "kocarek-035",
+    "level": "kocarek",
+    "word": "motorka",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🏍️"
+  },
+  {
+    "id": "kocarek-036",
+    "level": "kocarek",
+    "word": "kolo",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🚲"
+  },
+  {
+    "id": "kocarek-037",
+    "level": "kocarek",
+    "word": "loďka",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "⛵"
+  },
+  {
+    "id": "kocarek-038",
+    "level": "kocarek",
+    "word": "traktor",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🚜"
+  },
+  {
+    "id": "kocarek-039",
+    "level": "kocarek",
+    "word": "spinkat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😴"
+  },
+  {
+    "id": "kocarek-040",
+    "level": "kocarek",
+    "word": "papat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🍽️"
+  },
+  {
+    "id": "kocarek-041",
+    "level": "kocarek",
+    "word": "pít z hrnečku",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "☕"
+  },
+  {
+    "id": "kocarek-042",
+    "level": "kocarek",
+    "word": "tleskat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "👏"
+  },
+  {
+    "id": "kocarek-043",
+    "level": "kocarek",
+    "word": "mávat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "👋"
+  },
+  {
+    "id": "kocarek-044",
+    "level": "kocarek",
+    "word": "skákat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🦘"
+  },
+  {
+    "id": "kocarek-045",
+    "level": "kocarek",
+    "word": "dupat",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🦶"
+  },
+  {
+    "id": "kocarek-046",
+    "level": "kocarek",
+    "word": "tancovat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "💃"
+  },
+  {
+    "id": "kocarek-047",
+    "level": "kocarek",
+    "word": "zpívat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🎤"
+  },
+  {
+    "id": "kocarek-048",
+    "level": "kocarek",
+    "word": "smát se",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😄"
+  },
+  {
+    "id": "kocarek-049",
+    "level": "kocarek",
+    "word": "plakat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😢"
+  },
+  {
+    "id": "kocarek-050",
+    "level": "kocarek",
+    "word": "kýchat",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🤧"
+  },
+  {
+    "id": "kocarek-051",
+    "level": "kocarek",
+    "word": "zívat",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🥱"
+  },
+  {
+    "id": "kocarek-052",
+    "level": "kocarek",
+    "word": "čistit si zoubky",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🪥"
+  },
+  {
+    "id": "kocarek-053",
+    "level": "kocarek",
+    "word": "mýt si ručičky",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🧼"
+  },
+  {
+    "id": "kocarek-054",
+    "level": "kocarek",
+    "word": "česat se",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "💇"
+  },
+  {
+    "id": "kocarek-055",
+    "level": "kocarek",
+    "word": "bubnovat",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🥁"
+  },
+  {
+    "id": "kocarek-056",
+    "level": "kocarek",
+    "word": "foukat na polévku",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🍲"
+  },
+  {
+    "id": "kocarek-057",
+    "level": "kocarek",
+    "word": "houpat miminko",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "👶"
+  },
+  {
+    "id": "kocarek-058",
+    "level": "kocarek",
+    "word": "telefonovat",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "📞"
+  },
+  {
+    "id": "kocarek-059",
+    "level": "kocarek",
+    "word": "hrát na kytaru",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🎸"
+  },
+  {
+    "id": "kocarek-060",
+    "level": "kocarek",
+    "word": "chytat míč",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "⚽"
+  }
+]

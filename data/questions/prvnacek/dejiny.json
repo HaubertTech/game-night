@@ -1,0 +1,380 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo podle pověsti přivedl Čechy do naší země?",
+    "options": [
+      "👴 Praotec Čech",
+      "👑 Karel IV.",
+      "⚔️ Bruncvík"
+    ],
+    "answer": "👴 Praotec Čech",
+    "fact": "Podle pověsti se rozhlédl po zemi z hory Říp.",
+    "difficulty": 1,
+    "image": "📜",
+    "source": "https://cs.wikipedia.org/wiki/Praotec_%C4%8Cech",
+    "status": "verified",
+    "id": "prvnacek-dejiny-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Čím si lidé svítili, než přišla elektřina?",
+    "options": [
+      "🔦 Baterkami",
+      "🕯️ Svíčkami",
+      "💡 Žárovkami"
+    ],
+    "answer": "🕯️ Svíčkami",
+    "fact": "Dřív se svítilo i loučemi nebo petrolejkami.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-dejiny-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo dřív bydlel na hradech?",
+    "options": [
+      "✈️ Piloti",
+      "🧑‍🚀 Kosmonauti",
+      "👑 Králové a šlechta"
+    ],
+    "answer": "👑 Králové a šlechta",
+    "fact": "Hrady měly silné zdi, aby se ubránily nepřátelům.",
+    "difficulty": 1,
+    "image": "🏰",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-dejiny-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Čím se psalo dávno, kdy ještě nebyly propisky?",
+    "options": [
+      "🪶 Husím brkem",
+      "📱 Tabletem",
+      "🖍️ Fixou"
+    ],
+    "answer": "🪶 Husím brkem",
+    "fact": "Brk se namáčel do kalamáře s inkoustem.",
+    "difficulty": 1,
+    "image": "✍️",
+    "source": "https://cs.wikipedia.org/wiki/Pero",
+    "status": "verified",
+    "id": "prvnacek-dejiny-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na čem lidé jezdili, než vznikla auta?",
+    "options": [
+      "✈️ V letadlech",
+      "🐎 Na koních",
+      "🛴 Na koloběžkách"
+    ],
+    "answer": "🐎 Na koních",
+    "fact": "Koně táhli i kočáry a dostavníky.",
+    "difficulty": 1,
+    "image": "🛣️",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-dejiny-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na čem se pralo prádlo, než byly pračky?",
+    "options": [
+      "🔌 Na sušičce",
+      "🧹 Na koštěti",
+      "🪵 Na valše"
+    ],
+    "answer": "🪵 Na valše",
+    "fact": "Valcha je prkno s vlnkami. Prádlo se o ni drhlo rukama.",
+    "difficulty": 2,
+    "image": "👚",
+    "source": "https://cs.wikipedia.org/wiki/Valcha",
+    "status": "verified",
+    "id": "prvnacek-dejiny-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Čím se topilo v chalupě, než bylo ústřední topení?",
+    "options": [
+      "🔥 V kamnech a peci",
+      "❄️ V lednici",
+      "💡 V lampě"
+    ],
+    "answer": "🔥 V kamnech a peci",
+    "fact": "Na velké peci se dalo i spát, protože hřála.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-dejiny-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Čím se chránil rytíř v boji?",
+    "options": [
+      "🧥 Pláštěnkou",
+      "🛡️ Brněním a štítem",
+      "⛑️ Helmou na kolo"
+    ],
+    "answer": "🛡️ Brněním a štítem",
+    "fact": "Brnění bylo tak těžké, že se do něj rytíř oblékal s pomocníkem.",
+    "difficulty": 1,
+    "image": "⚔️",
+    "source": "https://cs.wikipedia.org/wiki/Brn%C4%9Bn%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-dejiny-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl Karel IV.?",
+    "options": [
+      "🧑‍🍳 Kuchař",
+      "🧑‍🚀 Kosmonaut",
+      "👑 Král a císař"
+    ],
+    "answer": "👑 Král a císař",
+    "fact": "Karel IV. se narodil v Praze a mluvil pěti jazyky.",
+    "difficulty": 1,
+    "image": "🏰",
+    "source": "https://cs.wikipedia.org/wiki/Karel_IV.",
+    "status": "verified",
+    "id": "prvnacek-dejiny-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co bylo kolem hradu, aby se nepřítel nedostal dovnitř?",
+    "options": [
+      "🌊 Příkop",
+      "🏊 Bazén",
+      "🎠 Kolotoč"
+    ],
+    "answer": "🌊 Příkop",
+    "fact": "Přes příkop se chodilo po padacím mostě.",
+    "difficulty": 2,
+    "image": "🏰",
+    "source": "https://cs.wikipedia.org/wiki/Hrad",
+    "status": "verified",
+    "id": "prvnacek-dejiny-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo večer rozsvěcoval plynové lampy na ulicích?",
+    "options": [
+      "👮 Policista",
+      "🧑‍🔧 Lampář",
+      "🧑‍🍳 Pekař"
+    ],
+    "answer": "🧑‍🔧 Lampář",
+    "fact": "V Praze o adventu chodí lampář v historické uniformě a lampy na Karlově mostě rozsvěcuje ručně.",
+    "difficulty": 2,
+    "image": "🏮",
+    "source": "https://www.praha1.cz/mistr-lampar-na-karlove-moste/",
+    "status": "verified",
+    "id": "prvnacek-dejiny-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na co psaly děti ve škole dřív?",
+    "options": [
+      "💻 Na počítač",
+      "📱 Na mobil",
+      "🪨 Na břidlicovou tabulku"
+    ],
+    "answer": "🪨 Na břidlicovou tabulku",
+    "fact": "Na tabulku se psalo křídou a smazalo se to houbičkou.",
+    "difficulty": 2,
+    "image": "🏫",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-dejiny-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kde bydleli lidé v pravěku?",
+    "options": [
+      "🪨 V jeskyních",
+      "🏢 V panelácích",
+      "🏰 Na zámcích"
+    ],
+    "answer": "🪨 V jeskyních",
+    "fact": "Na stěny jeskyní kreslili zvířata, třeba koně a mamuty.",
+    "difficulty": 1,
+    "image": "🔥",
+    "source": "https://cs.wikipedia.org/wiki/Jeskynn%C3%AD_malby",
+    "status": "verified",
+    "id": "prvnacek-dejiny-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jaké velké chlupaté zvíře žilo v pravěku?",
+    "options": [
+      "🦒 Žirafa",
+      "🦣 Mamut",
+      "🐼 Panda"
+    ],
+    "answer": "🦣 Mamut",
+    "fact": "Mamut byl příbuzný slona a měl dlouhou hustou srst.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Mamut_srstnat%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-dejiny-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo žil na Zemi dávno před lidmi?",
+    "options": [
+      "🐄 Krávy",
+      "🐕 Psi",
+      "🦖 Dinosauři"
+    ],
+    "answer": "🦖 Dinosauři",
+    "fact": "Někteří dinosauři byli malí jen jako slepice.",
+    "difficulty": 1,
+    "image": "🦴",
+    "source": "https://cs.wikipedia.org/wiki/Dinosau%C5%99i",
+    "status": "verified",
+    "id": "prvnacek-dejiny-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kde se dřív mlelo obilí na mouku?",
+    "options": [
+      "🏚️ Ve mlýně",
+      "🔌 V mixéru",
+      "🧺 V pračce"
+    ],
+    "answer": "🏚️ Ve mlýně",
+    "fact": "Mlýnské kolo roztáčela voda z potoka nebo vítr.",
+    "difficulty": 1,
+    "image": "🌾",
+    "source": "https://cs.wikipedia.org/wiki/Ml%C3%BDn",
+    "status": "verified",
+    "id": "prvnacek-dejiny-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co nosili králové na hlavě?",
+    "options": [
+      "🧢 Kšiltovku",
+      "👑 Korunu",
+      "🎧 Sluchátka"
+    ],
+    "answer": "👑 Korunu",
+    "fact": "Česká královská koruna se jmenuje Svatováclavská.",
+    "difficulty": 1,
+    "image": "🤴",
+    "source": "https://cs.wikipedia.org/wiki/Svatov%C3%A1clavsk%C3%A1_koruna",
+    "status": "verified",
+    "id": "prvnacek-dejiny-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kam si lidé dřív dávali jídlo, aby se nezkazilo?",
+    "options": [
+      "🕳️ Do chladného sklepa",
+      "🔥 K peci",
+      "☀️ Na slunce"
+    ],
+    "answer": "🕳️ Do chladného sklepa",
+    "fact": "V zimě se z rybníků řezal led a schovával se na léto.",
+    "difficulty": 2,
+    "image": "🧊",
+    "source": "https://cs.wikipedia.org/wiki/Led%C3%A1rna",
+    "status": "verified",
+    "id": "prvnacek-dejiny-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Co postavili staří Egypťané?",
+    "options": [
+      "🗼 Eiffelovu věž",
+      "🔺 Pyramidy",
+      "🏟️ Stadion"
+    ],
+    "answer": "🔺 Pyramidy",
+    "fact": "Velké pyramidy v Egyptě jsou staré přes 4 000 let.",
+    "difficulty": 2,
+    "image": "🐪",
+    "source": "https://cs.wikipedia.org/wiki/Pyramidy_v_G%C3%ADze",
+    "status": "verified",
+    "id": "prvnacek-dejiny-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na čem se dřív počítalo ve škole?",
+    "options": [
+      "💻 Na počítači",
+      "📱 Na mobilu",
+      "🧮 Na počítadle"
+    ],
+    "answer": "🧮 Na počítadle",
+    "fact": "Počítadlo s korálky pomáhá v první třídě dodnes.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "https://cs.wikipedia.org/wiki/Abakus",
+    "status": "verified",
+    "id": "prvnacek-dejiny-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Koho si podle pověsti vybrala kněžna Libuše za muže?",
+    "options": [
+      "🐂 Oráče Přemysla",
+      "🤴 Prince z ciziny",
+      "⚔️ Rytíře Bruncvíka"
+    ],
+    "answer": "🐂 Oráče Přemysla",
+    "fact": "Poslové ho našli, jak orá pole se dvěma voly.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Přemysl_Oráč",
+    "status": "verified",
+    "id": "prvnacek-dejiny-022"
+  }
+]

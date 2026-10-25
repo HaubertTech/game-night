@@ -1,93 +1,98 @@
 [
   {
-    "id": "lavice-dejiny-001",
     "level": "lavice",
     "theme": "dejiny",
     "type": "choice",
-    "text": "Kdo podle pověsti přivedl Čechy do naší země?",
+    "text": "Který rod vládl v Čechách jako první?",
     "options": [
-      "Praotec Čech",
-      "Karel IV.",
+      "Lucemburkové",
+      "Habsburkové",
+      "Přemyslovci",
+      "Jagellonci"
+    ],
+    "answer": "Přemyslovci",
+    "fact": "Přemyslovci vládli v Čechách přes 400 let.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/P%C5%99emyslovci",
+    "status": "verified",
+    "id": "lavice-dejiny-001"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenoval kůň, který podle pověsti skočil s Horymírem z Vyšehradu?",
+    "options": [
+      "Jurášek",
+      "Bucefal",
+      "Ferda",
+      "Šemík"
+    ],
+    "answer": "Šemík",
+    "fact": "Podle pověsti pak Šemík doběhl až domů do Neumětel.",
+    "difficulty": 2,
+    "image": "🐴",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0em%C3%ADk",
+    "status": "verified",
+    "id": "lavice-dejiny-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Který silák z pověsti přinesl na ramenou divokého kance?",
+    "options": [
+      "Bivoj",
+      "Horymír",
+      "Krok",
       "Bruncvík"
     ],
-    "answer": "Praotec Čech",
-    "fact": "Podle pověsti se rozhlédl po zemi z hory Říp.",
-    "difficulty": 1,
-    "image": "👴",
-    "source": "https://cs.wikipedia.org/wiki/Praotec_%C4%8Cech",
-    "status": "verified"
+    "answer": "Bivoj",
+    "fact": "Bivoj si pak vzal za ženu Kazi, jednu z Krokových dcer.",
+    "difficulty": 3,
+    "image": "🐗",
+    "source": "https://cs.wikipedia.org/wiki/Bivoj",
+    "status": "verified",
+    "id": "lavice-dejiny-003"
   },
   {
-    "id": "lavice-dejiny-002",
     "level": "lavice",
     "theme": "dejiny",
     "type": "choice",
-    "text": "Čím si lidé svítili, než přišla elektřina?",
+    "text": "Kdo byl podle pověsti otcem kněžny Libuše?",
     "options": [
-      "Baterkami",
-      "Žárovkami",
-      "Svíčkami"
+      "Praotec Čech",
+      "Krok",
+      "Přemysl",
+      "Bivoj"
     ],
-    "answer": "Svíčkami",
-    "fact": "Dřív se svítilo i loučemi nebo petrolejkami.",
-    "difficulty": 1,
-    "image": "🌙",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "Krok",
+    "fact": "Krok měl tři dcery: Kazi, Tetu a Libuši.",
+    "difficulty": 3,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Krok",
+    "status": "verified",
+    "id": "lavice-dejiny-004"
   },
   {
-    "id": "lavice-dejiny-003",
     "level": "lavice",
     "theme": "dejiny",
     "type": "choice",
-    "text": "Kdo dřív bydlel na hradech?",
+    "text": "Jak se jmenuje pověst o dívkách, které bojovaly s muži?",
     "options": [
-      "Králové a šlechta",
-      "Piloti",
-      "Kosmonauti"
+      "O Bivojovi",
+      "O Šemíkovi",
+      "Dívčí válka",
+      "O Blaníku"
     ],
-    "answer": "Králové a šlechta",
-    "fact": "Hrady měly silné zdi, aby se ubránily nepřátelům.",
-    "difficulty": 1,
-    "image": "🏰",
-    "source": "obecná znalost",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-dejiny-004",
-    "level": "lavice",
-    "theme": "dejiny",
-    "type": "choice",
-    "text": "Čím se psalo, než se vymyslela propiska?",
-    "options": [
-      "Tabletem",
-      "Fixou",
-      "Husím brkem"
-    ],
-    "answer": "Husím brkem",
-    "fact": "Brk se namáčel do kalamáře s inkoustem.",
-    "difficulty": 1,
-    "image": "✍️",
-    "source": "https://cs.wikipedia.org/wiki/Pero",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-dejiny-005",
-    "level": "lavice",
-    "theme": "dejiny",
-    "type": "choice",
-    "text": "Na čem lidé jezdili, než vznikla auta?",
-    "options": [
-      "V letadlech",
-      "Na koních",
-      "Na elektrokolech"
-    ],
-    "answer": "Na koních",
-    "fact": "Koně táhli i kočáry a dostavníky.",
-    "difficulty": 1,
-    "image": "🛣️",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "Dívčí válka",
+    "fact": "Vůdkyní dívek byla podle pověsti Vlasta.",
+    "difficulty": 3,
+    "image": "🛡️",
+    "source": "https://cs.wikipedia.org/wiki/D%C3%ADv%C4%8D%C3%AD_v%C3%A1lka",
+    "status": "verified",
+    "id": "lavice-dejiny-005"
   },
   {
     "id": "lavice-dejiny-006",
@@ -278,5 +283,309 @@
     "image": "🤖",
     "source": "https://cs.wikipedia.org/wiki/Robot",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenuje koruna českých králů?",
+    "options": [
+      "Karlova",
+      "Rudolfova",
+      "Přemyslova",
+      "Svatováclavská"
+    ],
+    "answer": "Svatováclavská",
+    "fact": "Korunu dal zhotovit Karel IV. a uložená je v katedrále svatého Víta.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Svatov%C3%A1clavsk%C3%A1_koruna",
+    "status": "verified",
+    "id": "lavice-dejiny-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo byl Jan Hus?",
+    "options": [
+      "Kněz a kazatel",
+      "Král",
+      "Malíř",
+      "Stavitel hradů"
+    ],
+    "answer": "Kněz a kazatel",
+    "fact": "Hus kázal česky v Betlémské kapli v Praze.",
+    "difficulty": 2,
+    "image": "⛪",
+    "source": "https://cs.wikipedia.org/wiki/Jan_Hus",
+    "status": "verified",
+    "id": "lavice-dejiny-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se jmenoval slavný husitský vojevůdce?",
+    "options": [
+      "Karel IV.",
+      "Jan Žižka",
+      "Jiří z Poděbrad",
+      "Přemysl Otakar II."
+    ],
+    "answer": "Jan Žižka",
+    "fact": "Žižka viděl jen na jedno oko, později oslepl úplně, a přesto vedl vojsko.",
+    "difficulty": 2,
+    "image": "⚔️",
+    "source": "https://cs.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka",
+    "status": "verified",
+    "id": "lavice-dejiny-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kde v Praze stojí katedrála svatého Víta?",
+    "options": [
+      "Na Vyšehradě",
+      "Na Petříně",
+      "Na Pražském hradě",
+      "Na Václavském náměstí"
+    ],
+    "answer": "Na Pražském hradě",
+    "fact": "Katedrála se stavěla skoro 600 let, dokončili ji až v roce 1929.",
+    "difficulty": 1,
+    "image": "⛪",
+    "source": "https://cs.wikipedia.org/wiki/Katedr%C3%A1la_svat%C3%A9ho_V%C3%ADta,_V%C3%A1clava_a_Vojt%C4%9Bcha",
+    "status": "verified",
+    "id": "lavice-dejiny-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se říká událostem z listopadu 1989, kdy u nás skončila vláda jedné strany?",
+    "options": [
+      "Pražské jaro",
+      "Dívčí válka",
+      "Bitva na Bílé hoře",
+      "Sametová revoluce"
+    ],
+    "answer": "Sametová revoluce",
+    "fact": "Sametová se jí říká, protože proběhla pokojně.",
+    "difficulty": 3,
+    "image": "🕯️",
+    "source": "https://cs.wikipedia.org/wiki/Sametov%C3%A1_revoluce",
+    "status": "verified",
+    "id": "lavice-dejiny-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve kterém století žil Karel IV.?",
+    "options": [
+      "Ve 14. století",
+      "V 10. století",
+      "V 18. století",
+      "Ve 20. století"
+    ],
+    "answer": "Ve 14. století",
+    "fact": "Karel IV. se narodil roku 1316 a pokřtili ho jménem Václav.",
+    "difficulty": 3,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/Karel_IV.",
+    "status": "verified",
+    "id": "lavice-dejiny-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo založil v Praze Nové Město?",
+    "options": [
+      "Marie Terezie",
+      "Karel IV.",
+      "Jan Hus",
+      "Rudolf II."
+    ],
+    "answer": "Karel IV.",
+    "fact": "Na Novém Městě je i Karlovo náměstí, jedno z největších náměstí v Evropě.",
+    "difficulty": 3,
+    "image": "🏘️",
+    "source": "https://cs.wikipedia.org/wiki/Nov%C3%A9_M%C4%9Bsto_(Praha)",
+    "status": "verified",
+    "id": "lavice-dejiny-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo k nám v 9. století přinesl slovanské písmo?",
+    "options": [
+      "Jan Hus a Jan Žižka",
+      "Přemysl a Libuše",
+      "Cyril a Metoděj",
+      "Bivoj a Kazi"
+    ],
+    "answer": "Cyril a Metoděj",
+    "fact": "Pro slovanský jazyk vymysleli písmo hlaholici.",
+    "difficulty": 2,
+    "image": "📜",
+    "source": "https://cs.wikipedia.org/wiki/Cyril_a_Metod%C4%9Bj",
+    "status": "verified",
+    "id": "lavice-dejiny-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kam přišli v roce 863 Cyril a Metoděj?",
+    "options": [
+      "Do Římské říše",
+      "Do Rakouska",
+      "Do Polska",
+      "Na Velkou Moravu"
+    ],
+    "answer": "Na Velkou Moravu",
+    "fact": "Přišli na pozvání knížete Rostislava a kázali ve slovanském jazyce.",
+    "difficulty": 3,
+    "image": "🏰",
+    "source": "https://cs.wikipedia.org/wiki/Velk%C3%A1_Morava",
+    "status": "verified",
+    "id": "lavice-dejiny-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Na co psali staří Egypťané?",
+    "options": [
+      "Na papyrus",
+      "Na papír",
+      "Na tablet",
+      "Na sklo"
+    ],
+    "answer": "Na papyrus",
+    "fact": "Papyrus je rostlina z břehů Nilu, ze které se dělal materiál na psaní.",
+    "difficulty": 2,
+    "image": "📜",
+    "source": "https://cs.wikipedia.org/wiki/Papyrus",
+    "status": "verified",
+    "id": "lavice-dejiny-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Ve které zemi stojí pyramidy v Gíze?",
+    "options": [
+      "V Mexiku",
+      "V Egyptě",
+      "V Řecku",
+      "V Itálii"
+    ],
+    "answer": "V Egyptě",
+    "fact": "Velká pyramida byla přes 3 800 let nejvyšší stavbou na světě.",
+    "difficulty": 1,
+    "image": "🔺",
+    "source": "https://cs.wikipedia.org/wiki/Velk%C3%A1_pyramida",
+    "status": "verified",
+    "id": "lavice-dejiny-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo jako první člověk vystoupil na Měsíc?",
+    "options": [
+      "Jurij Gagarin",
+      "Vladimír Remek",
+      "Neil Armstrong",
+      "Kryštof Kolumbus"
+    ],
+    "answer": "Neil Armstrong",
+    "fact": "Stopy astronautů zůstanou na Měsíci dlouho, protože tam nefouká vítr.",
+    "difficulty": 2,
+    "image": "🌕",
+    "source": "https://cs.wikipedia.org/wiki/Neil_Armstrong",
+    "status": "verified",
+    "id": "lavice-dejiny-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kdo v roce 1492 doplul z Evropy do Ameriky?",
+    "options": [
+      "Neil Armstrong",
+      "Marco Polo",
+      "Jurij Gagarin",
+      "Kryštof Kolumbus"
+    ],
+    "answer": "Kryštof Kolumbus",
+    "fact": "Kolumbus si myslel, že doplul do Indie, proto se původním Američanům říkalo indiáni.",
+    "difficulty": 2,
+    "image": "⛵",
+    "source": "https://cs.wikipedia.org/wiki/Kry%C5%A1tof_Kolumbus",
+    "status": "verified",
+    "id": "lavice-dejiny-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Jak se říká době, kdy lidé dělali nástroje hlavně z kamene?",
+    "options": [
+      "Doba kamenná",
+      "Doba železná",
+      "Doba ledová",
+      "Doba zlatá"
+    ],
+    "answer": "Doba kamenná",
+    "fact": "Pravěcí lidé malovali na stěny jeskyní zvířata, třeba koně a bizony.",
+    "difficulty": 2,
+    "image": "🪨",
+    "source": "https://cs.wikipedia.org/wiki/Doba_kamenn%C3%A1",
+    "status": "verified",
+    "id": "lavice-dejiny-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Které zvíře s dlouhou srstí a velkými kly žilo v době ledové?",
+    "options": [
+      "Žirafa",
+      "Mamut",
+      "Velbloud",
+      "Hroch"
+    ],
+    "answer": "Mamut",
+    "fact": "U Dolních Věstonic na jižní Moravě se našlo hodně mamutích kostí.",
+    "difficulty": 1,
+    "image": "🦣",
+    "source": "https://cs.wikipedia.org/wiki/Mamut_srstnat%C3%BD",
+    "status": "verified",
+    "id": "lavice-dejiny-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "dejiny",
+    "type": "choice",
+    "text": "Kolik zámků zamyká komnatu s českými korunovačními klenoty?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "12"
+    ],
+    "answer": "7",
+    "fact": "Každý ze sedmi klíčů má jiný člověk, třeba prezident, předseda vlády nebo pražský arcibiskup.",
+    "difficulty": 3,
+    "image": "🔑",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A9_korunova%C4%8Dn%C3%AD_klenoty",
+    "status": "verified",
+    "id": "lavice-dejiny-031"
   }
 ]

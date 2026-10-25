@@ -1,0 +1,416 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 3 + 4?",
+    "options": [
+      "6️⃣ 6",
+      "7️⃣ 7",
+      "8️⃣ 8"
+    ],
+    "answer": "7️⃣ 7",
+    "fact": "Při sčítání na pořadí nezáleží: 4 + 3 je taky 7.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik rohů má trojúhelník?",
+    "options": [
+      "4️⃣ 4",
+      "5️⃣ 5",
+      "3️⃣ 3"
+    ],
+    "answer": "3️⃣ 3",
+    "fact": "Trojúhelník má nejméně rohů ze všech tvarů s rovnými stranami.",
+    "difficulty": 1,
+    "image": "🔺",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 10 − 6?",
+    "options": [
+      "4️⃣ 4",
+      "3️⃣ 3",
+      "5️⃣ 5"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Odčítání si ověříš sčítáním: 4 + 6 = 10.",
+    "difficulty": 1,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo následuje po 19?",
+    "options": [
+      "🔢 18",
+      "🔢 20",
+      "🔢 21"
+    ],
+    "answer": "🔢 20",
+    "fact": "Číslo 20 tvoří dvě desítky.",
+    "difficulty": 1,
+    "image": "➡️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dní má týden?",
+    "options": [
+      "5️⃣ 5",
+      "🔟 10",
+      "7️⃣ 7"
+    ],
+    "answer": "7️⃣ 7",
+    "fact": "Víkend tvoří sobota a neděle.",
+    "difficulty": 1,
+    "image": "📅",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který tvar má čtyři stejně dlouhé strany?",
+    "options": [
+      "🟥 Čtverec",
+      "🔺 Trojúhelník",
+      "⚪ Kruh"
+    ],
+    "answer": "🟥 Čtverec",
+    "fact": "Čtverec je zvláštní druh obdélníku.",
+    "difficulty": 2,
+    "image": "📏",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 5 + 5?",
+    "options": [
+      "9️⃣ 9",
+      "🔟 10",
+      "8️⃣ 8"
+    ],
+    "answer": "🔟 10",
+    "fact": "Pět a pět prstů máme na obou rukou.",
+    "difficulty": 1,
+    "image": "✋",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 2 + 6?",
+    "options": [
+      "7️⃣ 7",
+      "9️⃣ 9",
+      "8️⃣ 8"
+    ],
+    "answer": "8️⃣ 8",
+    "fact": "Osm nohou má pavouk.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 9 − 3?",
+    "options": [
+      "6️⃣ 6",
+      "5️⃣ 5",
+      "7️⃣ 7"
+    ],
+    "answer": "6️⃣ 6",
+    "fact": "Šest stěn má hrací kostka.",
+    "difficulty": 1,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 7 − 7?",
+    "options": [
+      "1️⃣ 1",
+      "0️⃣ 0",
+      "7️⃣ 7"
+    ],
+    "answer": "0️⃣ 0",
+    "fact": "Když všechno sníme, nezbude nic. To je nula.",
+    "difficulty": 1,
+    "image": "🍪",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo je větší: 12, nebo 21?",
+    "options": [
+      "🔢 12",
+      "🟰 Jsou stejná",
+      "🔢 21"
+    ],
+    "answer": "🔢 21",
+    "fact": "Číslo 21 má dvě desítky, číslo 12 jen jednu.",
+    "difficulty": 2,
+    "image": "⚖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo je mezi 14 a 16?",
+    "options": [
+      "🔢 15",
+      "🔢 13",
+      "🔢 17"
+    ],
+    "answer": "🔢 15",
+    "fact": "Patnáct je deset a pět.",
+    "difficulty": 1,
+    "image": "🧮",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik koleček mají dohromady dvě jízdní kola?",
+    "options": [
+      "2️⃣ 2",
+      "4️⃣ 4",
+      "3️⃣ 3"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Tříkolka má tři kolečka, aby se malé děti nepřevrátily.",
+    "difficulty": 1,
+    "image": "🚲",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Malá ručička je na 7, velká na 12. Kolik je hodin?",
+    "options": [
+      "⏰ 12 hodin",
+      "⏰ 3 hodiny",
+      "⏰ 7 hodin"
+    ],
+    "answer": "⏰ 7 hodin",
+    "fact": "Za jeden den oběhne malá ručička ciferník dvakrát.",
+    "difficulty": 2,
+    "image": "🕰️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který den je po pondělí?",
+    "options": [
+      "📅 Úterý",
+      "📅 Středa",
+      "📅 Neděle"
+    ],
+    "answer": "📅 Úterý",
+    "fact": "Úterý se jmenuje podle starého slova „vtorý“, které znamenalo druhý.",
+    "difficulty": 1,
+    "image": "🗓️",
+    "source": "https://cs.wikipedia.org/wiki/%C3%9Ater%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Který den je před nedělí?",
+    "options": [
+      "📅 Pátek",
+      "📅 Sobota",
+      "📅 Pondělí"
+    ],
+    "answer": "📅 Sobota",
+    "fact": "Jméno sobota pochází z hebrejského slova šabat.",
+    "difficulty": 1,
+    "image": "🛌",
+    "source": "https://cs.wikipedia.org/wiki/Sobota",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik měsíců má rok?",
+    "options": [
+      "🔟 10",
+      "7️⃣ 7",
+      "🔢 12"
+    ],
+    "answer": "🔢 12",
+    "fact": "Nejkratší měsíc je únor.",
+    "difficulty": 2,
+    "image": "📆",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co bude dál: 2, 4, 6, …?",
+    "options": [
+      "8️⃣ 8",
+      "7️⃣ 7",
+      "🔟 10"
+    ],
+    "answer": "8️⃣ 8",
+    "fact": "Čísla 2, 4, 6 a 8 jsou sudá. Dají se rozdělit napůl.",
+    "difficulty": 2,
+    "image": "🧩",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Co bude dál: 🔴 🔵 🔴 🔵 …?",
+    "options": [
+      "🔵 Modrá",
+      "🔴 Červená",
+      "🟢 Zelená"
+    ],
+    "answer": "🔴 Červená",
+    "fact": "Opakující se řady barev najdeš na svetrech i na dlaždicích.",
+    "difficulty": 1,
+    "image": "🧩",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik rohů má čtverec?",
+    "options": [
+      "3️⃣ 3",
+      "5️⃣ 5",
+      "4️⃣ 4"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "Obdélník má taky čtyři rohy, ale dvě strany delší.",
+    "difficulty": 1,
+    "image": "🟥",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký tvar má míč?",
+    "options": [
+      "⚪ Koule",
+      "🧊 Krychle",
+      "🔺 Jehlan"
+    ],
+    "answer": "⚪ Koule",
+    "fact": "Koule se kutálí na všechny strany, krychle ne.",
+    "difficulty": 2,
+    "image": "⚽",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký tvar má hrací kostka?",
+    "options": [
+      "⚪ Koule",
+      "🧊 Krychle",
+      "🔺 Jehlan"
+    ],
+    "answer": "🧊 Krychle",
+    "fact": "Krychle má šest stejných čtvercových stěn.",
+    "difficulty": 2,
+    "image": "🎲",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Máš 3 bonbony a dostaneš další 4. Kolik jich máš?",
+    "options": [
+      "6️⃣ 6",
+      "8️⃣ 8",
+      "7️⃣ 7"
+    ],
+    "answer": "7️⃣ 7",
+    "fact": "Když věci přidáváme, sčítáme.",
+    "difficulty": 1,
+    "image": "🍬",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-cisla-logika-023"
+  }
+]

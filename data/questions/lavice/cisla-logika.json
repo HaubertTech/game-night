@@ -1,95 +1,98 @@
 [
   {
-    "id": "lavice-cisla-logika-001",
     "level": "lavice",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Kolik je 3 + 4?",
+    "text": "Kolik je 8 × 9?",
     "options": [
-      "6",
+      "64",
+      "72",
+      "81",
+      "63"
+    ],
+    "answer": "72",
+    "fact": "U násobků devíti dají číslice výsledku dohromady 9: 7 + 2 = 9.",
+    "difficulty": 2,
+    "image": "✖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-001"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 7 × 8?",
+    "options": [
+      "54",
+      "48",
+      "56",
+      "64"
+    ],
+    "answer": "56",
+    "fact": "Pomůcka: čísla 5, 6, 7, 8 jdou po sobě a 56 = 7 × 8.",
+    "difficulty": 2,
+    "image": "✖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 45 : 5?",
+    "options": [
+      "8",
       "7",
-      "8"
+      "6",
+      "9"
     ],
-    "answer": "7",
-    "fact": "Při sčítání na pořadí nezáleží: 4 + 3 je taky 7.",
+    "answer": "9",
+    "fact": "Kdo umí násobilku pěti, umí i dělit pěti: 9 × 5 = 45.",
     "difficulty": 1,
-    "image": "➕",
+    "image": "➗",
     "source": "RVP ZV",
-    "status": "verified"
+    "status": "verified",
+    "id": "lavice-cisla-logika-003"
   },
   {
-    "id": "lavice-cisla-logika-002",
     "level": "lavice",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Kolik rohů má trojúhelník?",
+    "text": "Kolik je polovina z 18?",
     "options": [
-      "3",
-      "5",
-      "4"
+      "9",
+      "8",
+      "6",
+      "12"
     ],
-    "answer": "3",
-    "fact": "Méně než tři rohy nemá žádný tvar s rovnými stranami.",
+    "answer": "9",
+    "fact": "Polovinu zapíšeme zlomkem 1/2.",
     "difficulty": 1,
-    "image": "🔺",
+    "image": "🍕",
     "source": "RVP ZV",
-    "status": "verified"
+    "status": "verified",
+    "id": "lavice-cisla-logika-004"
   },
   {
-    "id": "lavice-cisla-logika-003",
     "level": "lavice",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Kolik je 10 − 6?",
+    "text": "Kolik je čtvrtina z 20?",
     "options": [
-      "3",
-      "5",
       "4",
-      "6"
-    ],
-    "answer": "4",
-    "fact": "Odčítání si ověříš sčítáním: 4 + 6 = 10.",
-    "difficulty": 1,
-    "image": "➖",
-    "source": "RVP ZV",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-cisla-logika-004",
-    "level": "lavice",
-    "theme": "cisla-logika",
-    "type": "choice",
-    "text": "Které číslo následuje po 19?",
-    "options": [
-      "21",
-      "20",
-      "29",
-      "18"
-    ],
-    "answer": "20",
-    "fact": "Číslo 20 tvoří dvě desítky.",
-    "difficulty": 1,
-    "image": "🔢",
-    "source": "RVP ZV",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-cisla-logika-005",
-    "level": "lavice",
-    "theme": "cisla-logika",
-    "type": "choice",
-    "text": "Kolik dní má týden?",
-    "options": [
       "5",
       "10",
-      "7"
+      "8"
     ],
-    "answer": "7",
-    "fact": "Víkend tvoří sobota a neděle.",
-    "difficulty": 1,
-    "image": "📅",
-    "source": "obecná znalost",
-    "status": "verified"
+    "answer": "5",
+    "fact": "Čtvrt hodiny má 15 minut, protože 60 minut rozdělíme na čtyři díly.",
+    "difficulty": 2,
+    "image": "🍰",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-005"
   },
   {
     "id": "lavice-cisla-logika-006",
@@ -149,23 +152,23 @@
     "status": "verified"
   },
   {
-    "id": "lavice-cisla-logika-009",
     "level": "lavice",
     "theme": "cisla-logika",
     "type": "choice",
-    "text": "Který tvar má čtyři stejně dlouhé strany a pravé úhly?",
+    "text": "Pizzu nakrájíš na 8 dílů a 3 sníš. Jaká část zbude?",
     "options": [
-      "Šestiúhelník",
-      "Trojúhelník",
-      "Kruh",
-      "Čtverec"
+      "3/8",
+      "3/5",
+      "5/8",
+      "1/2"
     ],
-    "answer": "Čtverec",
-    "fact": "Čtverec je zvláštní druh obdélníku.",
-    "difficulty": 2,
-    "image": "📏",
+    "answer": "5/8",
+    "fact": "Spodní číslo zlomku říká, na kolik dílů jsme celek rozdělili.",
+    "difficulty": 3,
+    "image": "🍕",
     "source": "RVP ZV",
-    "status": "verified"
+    "status": "verified",
+    "id": "lavice-cisla-logika-009"
   },
   {
     "id": "lavice-cisla-logika-010",
@@ -280,5 +283,290 @@
     "image": "📐",
     "source": "RVP ZV",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik stran má šestiúhelník?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "6"
+    ],
+    "answer": "6",
+    "fact": "Včely staví plástve z buněk ve tvaru šestiúhelníku.",
+    "difficulty": 1,
+    "image": "🐝",
+    "source": "https://cs.wikipedia.org/wiki/Plástev",
+    "status": "verified",
+    "id": "lavice-cisla-logika-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik vrcholů má krychle?",
+    "options": [
+      "8",
+      "6",
+      "12",
+      "4"
+    ],
+    "answer": "8",
+    "fact": "Krychle má šest stěn, stejně jako hrací kostka.",
+    "difficulty": 2,
+    "image": "🧊",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik gramů má jeden kilogram?",
+    "options": [
+      "100",
+      "1 000",
+      "10",
+      "500"
+    ],
+    "answer": "1 000",
+    "fact": "Kilo znamená tisíc, stejně jako v kilometru.",
+    "difficulty": 2,
+    "image": "⚖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik metrů má jeden kilometr?",
+    "options": [
+      "100",
+      "10 000",
+      "1 000",
+      "10"
+    ],
+    "answer": "1 000",
+    "fact": "Kilometr dospělý člověk ujde zhruba za čtvrt hodiny.",
+    "difficulty": 2,
+    "image": "📏",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik minut má půl hodiny?",
+    "options": [
+      "50",
+      "15",
+      "20",
+      "30"
+    ],
+    "answer": "30",
+    "fact": "Fotbalový poločas trvá 45 minut, tedy déle než půl hodiny.",
+    "difficulty": 1,
+    "image": "⏱️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které z těchto čísel je sudé?",
+    "options": [
+      "14",
+      "15",
+      "17",
+      "21"
+    ],
+    "answer": "14",
+    "fact": "Sudá čísla končí na 0, 2, 4, 6 nebo 8.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak pokračuje řada 5, 10, 15, 20, …?",
+    "options": [
+      "30",
+      "25",
+      "21",
+      "22"
+    ],
+    "answer": "25",
+    "fact": "Po pěti počítáme i na hodinách: každé číslo na ciferníku znamená 5 minut.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo je největší?",
+    "options": [
+      "1 010",
+      "1 001",
+      "1 100",
+      "999"
+    ],
+    "answer": "1 100",
+    "fact": "Čísla porovnáváme zleva: nejdřív tisíce, potom stovky.",
+    "difficulty": 2,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 12 + 19?",
+    "options": [
+      "29",
+      "32",
+      "41",
+      "31"
+    ],
+    "answer": "31",
+    "fact": "Pomůže zaokrouhlit: 12 + 20 = 32 a pak jedničku odečíst.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Obdélník má strany 6 cm a 4 cm. Jaký má obvod?",
+    "options": [
+      "20 cm",
+      "24 cm",
+      "10 cm",
+      "16 cm"
+    ],
+    "answer": "20 cm",
+    "fact": "Obsah stejného obdélníku je 6 × 4 = 24 čtverečních centimetrů.",
+    "difficulty": 3,
+    "image": "📐",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dní má únor v přestupném roce?",
+    "options": [
+      "28",
+      "29",
+      "30",
+      "31"
+    ],
+    "answer": "29",
+    "fact": "Přestupný rok je většinou každý čtvrtý, třeba 2024 nebo 2028.",
+    "difficulty": 2,
+    "image": "📅",
+    "source": "https://cs.wikipedia.org/wiki/P%C5%99estupn%C3%BD_rok",
+    "status": "verified",
+    "id": "lavice-cisla-logika-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik korun je pět dvacetikorun?",
+    "options": [
+      "25",
+      "50",
+      "100",
+      "120"
+    ],
+    "answer": "100",
+    "fact": "Na dvacetikorunové minci je svatý Václav na koni.",
+    "difficulty": 2,
+    "image": "🪙",
+    "source": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/CNB-vydava-dalsi-verzi-mince-20-Kc",
+    "status": "verified",
+    "id": "lavice-cisla-logika-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Petr má 35 Kč a koupí si zmrzlinu za 18 Kč. Kolik mu zbude?",
+    "options": [
+      "23 Kč",
+      "13 Kč",
+      "27 Kč",
+      "17 Kč"
+    ],
+    "answer": "17 Kč",
+    "fact": "Výsledek si ověříš sčítáním: 17 + 18 = 35.",
+    "difficulty": 2,
+    "image": "🍦",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 3 × 3 × 3?",
+    "options": [
+      "27",
+      "9",
+      "18",
+      "33"
+    ],
+    "answer": "27",
+    "fact": "Rubikova kostka se skládá z dílků uspořádaných 3 × 3 × 3.",
+    "difficulty": 3,
+    "image": "🧩",
+    "source": "https://cs.wikipedia.org/wiki/Rubikova_kostka",
+    "status": "verified",
+    "id": "lavice-cisla-logika-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 1/4 + 1/4?",
+    "options": [
+      "2/8",
+      "1/2",
+      "1/8",
+      "2"
+    ],
+    "answer": "1/2",
+    "fact": "Dvě čtvrtiny jsou polovina a čtyři čtvrtiny jsou celek.",
+    "difficulty": 3,
+    "image": "🍰",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-030"
   }
 ]

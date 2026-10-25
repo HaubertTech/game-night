@@ -1,95 +1,98 @@
 [
   {
-    "id": "lavice-jidlo-001",
     "level": "lavice",
     "theme": "jidlo",
     "type": "choice",
-    "text": "Od kterého zvířete pijeme mléko nejčastěji?",
-    "options": [
-      "Od slepice",
-      "Od prasete",
-      "Od krávy"
-    ],
-    "answer": "Od krávy",
-    "fact": "Z mléka se vyrábí sýr, máslo i jogurt.",
-    "difficulty": 1,
-    "image": "🥛",
-    "source": "obecná znalost",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-jidlo-002",
-    "level": "lavice",
-    "theme": "jidlo",
-    "type": "choice",
-    "text": "Co snáší slepice?",
-    "options": [
-      "Vejce",
-      "Mléko",
-      "Med"
-    ],
-    "answer": "Vejce",
-    "fact": "Kuře se z vejce vylíhne asi za tři týdny.",
-    "difficulty": 1,
-    "image": "🐔",
-    "source": "https://cs.wikipedia.org/wiki/Kur_dom%C3%A1c%C3%AD",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-jidlo-003",
-    "level": "lavice",
-    "theme": "jidlo",
-    "type": "choice",
-    "text": "Kdo nám dává med?",
-    "options": [
-      "Mravenci",
-      "Včely",
-      "Motýli",
-      "Mouchy"
-    ],
-    "answer": "Včely",
-    "fact": "Včely dělají med ze sladké šťávy z květů.",
-    "difficulty": 1,
-    "image": "🍯",
-    "source": "https://cs.wikipedia.org/wiki/Med",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-jidlo-004",
-    "level": "lavice",
-    "theme": "jidlo",
-    "type": "choice",
-    "text": "Které z toho je ovoce?",
-    "options": [
-      "Brambora",
-      "Mrkev",
-      "Jablko",
-      "Cibule"
-    ],
-    "answer": "Jablko",
-    "fact": "Většina jablek u nás dozrává na konci léta a na podzim.",
-    "difficulty": 1,
-    "image": "🧺",
-    "source": "https://cs.wikipedia.org/wiki/Jablo%C5%88_dom%C3%A1c%C3%AD",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-jidlo-005",
-    "level": "lavice",
-    "theme": "jidlo",
-    "type": "choice",
-    "text": "Z čeho se peče chleba?",
+    "text": "Z čeho se dělá máslo?",
     "options": [
       "Z mouky",
-      "Z mléka",
-      "Z cukru"
+      "Z vajec",
+      "Ze smetany",
+      "Z oleje"
     ],
-    "answer": "Z mouky",
-    "fact": "Mouka se mele z obilí, třeba z pšenice nebo žita.",
+    "answer": "Ze smetany",
+    "fact": "Když se smetana dlouho tluče, oddělí se máslo a podmáslí.",
+    "difficulty": 2,
+    "image": "🧈",
+    "source": "https://cs.wikipedia.org/wiki/M%C3%A1slo",
+    "status": "verified",
+    "id": "lavice-jidlo-001"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje kulaté pečivo s tvarohem, povidly nebo mákem?",
+    "options": [
+      "Rohlík",
+      "Chleba",
+      "Houska",
+      "Koláč"
+    ],
+    "answer": "Koláč",
+    "fact": "Koláče se tradičně pečou na posvícení a na svatby.",
     "difficulty": 1,
-    "image": "🍞",
-    "source": "https://cs.wikipedia.org/wiki/Chl%C3%A9b",
-    "status": "verified"
+    "image": "🥧",
+    "source": "https://cs.wikipedia.org/wiki/Kol%C3%A1%C4%8D",
+    "status": "verified",
+    "id": "lavice-jidlo-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které zeleniny nám při krájení slzí oči?",
+    "options": [
+      "Z cibule",
+      "Z mrkve",
+      "Z okurky",
+      "Z papriky"
+    ],
+    "answer": "Z cibule",
+    "fact": "Krájená cibule uvolní látku, která dráždí oči.",
+    "difficulty": 1,
+    "image": "🧅",
+    "source": "https://cs.wikipedia.org/wiki/Cibule_kuchyňská",
+    "status": "verified",
+    "id": "lavice-jidlo-003"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého obilí jsou ovesné vločky?",
+    "options": [
+      "Z kukuřice",
+      "Z ovsa",
+      "Z rýže",
+      "Z žita"
+    ],
+    "answer": "Z ovsa",
+    "fact": "Oves se dřív pěstoval hlavně jako krmení pro koně.",
+    "difficulty": 1,
+    "image": "🥣",
+    "source": "https://cs.wikipedia.org/wiki/Oves_set%C3%BD",
+    "status": "verified",
+    "id": "lavice-jidlo-004"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterou část mrkve jíme?",
+    "options": [
+      "List",
+      "Květ",
+      "Kořen",
+      "Stonek"
+    ],
+    "answer": "Kořen",
+    "fact": "Planá mrkev má bílý kořen. Oranžovou mrkev vyšlechtili až lidé.",
+    "difficulty": 2,
+    "image": "🥕",
+    "source": "https://cs.wikipedia.org/wiki/Mrkev_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-jidlo-005"
   },
   {
     "id": "lavice-jidlo-006",
@@ -130,23 +133,23 @@
     "status": "verified"
   },
   {
-    "id": "lavice-jidlo-008",
     "level": "lavice",
     "theme": "jidlo",
     "type": "choice",
-    "text": "Která ryba se u nás tradičně jí na Vánoce?",
+    "text": "Které ovoce roste na palmách?",
     "options": [
-      "Kapr",
-      "Losos",
-      "Tuňák",
-      "Žralok"
+      "Hruška",
+      "Švestka",
+      "Třešeň",
+      "Kokos"
     ],
-    "answer": "Kapr",
-    "fact": "Kapři se chovají v rybnících, hodně jich je na Třeboňsku.",
-    "difficulty": 2,
-    "image": "🐟",
-    "source": "https://cs.wikipedia.org/wiki/Kapr_obecn%C3%BD",
-    "status": "verified"
+    "answer": "Kokos",
+    "fact": "Kokosový ořech umí plout po moři a na jiném ostrově z něj vyroste nová palma.",
+    "difficulty": 1,
+    "image": "🌴",
+    "source": "https://cs.wikipedia.org/wiki/Kokosovník_ořechoplodý",
+    "status": "verified",
+    "id": "lavice-jidlo-008"
   },
   {
     "id": "lavice-jidlo-009",
@@ -279,5 +282,290 @@
     "image": "🥣",
     "source": "https://cs.wikipedia.org/wiki/Lu%C5%A1t%C4%9Bniny",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého ovoce jsou rozinky?",
+    "options": [
+      "Z hroznů",
+      "Ze švestek",
+      "Z třešní",
+      "Z meruněk"
+    ],
+    "answer": "Z hroznů",
+    "fact": "Hrozny se na rozinky suší na slunci nebo v sušárnách.",
+    "difficulty": 1,
+    "image": "🍇",
+    "source": "https://cs.wikipedia.org/wiki/Rozinky",
+    "status": "verified",
+    "id": "lavice-jidlo-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které z tohoto ovoce u nás dozrává v roce nejdřív?",
+    "options": [
+      "Švestky",
+      "Jahody",
+      "Jablka",
+      "Hrušky"
+    ],
+    "answer": "Jahody",
+    "fact": "Drobná zrníčka na povrchu jahody jsou ve skutečnosti její plody, nažky.",
+    "difficulty": 2,
+    "image": "🍓",
+    "source": "https://cs.wikipedia.org/wiki/Jahodn%C3%ADk",
+    "status": "verified",
+    "id": "lavice-jidlo-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí kečup?",
+    "options": [
+      "Z paprik",
+      "Z jahod",
+      "Z rajčat",
+      "Z mrkve"
+    ],
+    "answer": "Z rajčat",
+    "fact": "Rajčata k nám přišla z Ameriky, stejně jako brambory.",
+    "difficulty": 1,
+    "image": "🍅",
+    "source": "https://cs.wikipedia.org/wiki/Ke%C4%8Dup",
+    "status": "verified",
+    "id": "lavice-jidlo-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co se u nás tradičně jí s kaprem na Štědrý večer?",
+    "options": [
+      "Svíčková",
+      "Guláš",
+      "Rýžový nákyp",
+      "Bramborový salát"
+    ],
+    "answer": "Bramborový salát",
+    "fact": "Do bramborového salátu se často dává mrkev, celer, okurky a vejce.",
+    "difficulty": 1,
+    "image": "🎄",
+    "source": "https://cs.wikipedia.org/wiki/Bramborov%C3%BD_sal%C3%A1t",
+    "status": "verified",
+    "id": "lavice-jidlo-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která látka v mléce je důležitá pro zdravé kosti a zuby?",
+    "options": [
+      "Vápník",
+      "Železo",
+      "Cukr",
+      "Sůl"
+    ],
+    "answer": "Vápník",
+    "fact": "Hodně vápníku obsahuje i sýr nebo mák.",
+    "difficulty": 2,
+    "image": "🦴",
+    "source": "https://cs.wikipedia.org/wiki/V%C3%A1pn%C3%ADk",
+    "status": "verified",
+    "id": "lavice-jidlo-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které rostliny se lisuje olej a v květnu barví pole dožluta?",
+    "options": [
+      "Z kukuřice",
+      "Z řepky",
+      "Z pšenice",
+      "Z brambor"
+    ],
+    "answer": "Z řepky",
+    "fact": "Kvetoucí řepková pole jsou vidět do dálky jako žluté koberce.",
+    "difficulty": 2,
+    "image": "🌼",
+    "source": "https://cs.wikipedia.org/wiki/Brukev_%C5%99epka",
+    "status": "verified",
+    "id": "lavice-jidlo-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které obilí se pěstuje na zatopených polích?",
+    "options": [
+      "Pšenice",
+      "Oves",
+      "Rýže",
+      "Žito"
+    ],
+    "answer": "Rýže",
+    "fact": "Rýže je hlavní potravinou pro víc než polovinu lidí na světě.",
+    "difficulty": 2,
+    "image": "🍚",
+    "source": "https://cs.wikipedia.org/wiki/R%C3%BD%C5%BEe_set%C3%A1",
+    "status": "verified",
+    "id": "lavice-jidlo-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jaké smažené sladké pečivo patří k masopustu?",
+    "options": [
+      "Rohlíky",
+      "Bábovky",
+      "Vánočky",
+      "Koblihy"
+    ],
+    "answer": "Koblihy",
+    "fact": "Masopust končí před Popeleční středou, po které začíná půst před Velikonocemi.",
+    "difficulty": 2,
+    "image": "🍩",
+    "source": "https://cs.wikipedia.org/wiki/Masopust",
+    "status": "verified",
+    "id": "lavice-jidlo-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje sladké pečivo spletené z pramenů těsta, které se peče na Vánoce?",
+    "options": [
+      "Vánočka",
+      "Mazanec",
+      "Bábovka",
+      "Štrúdl"
+    ],
+    "answer": "Vánočka",
+    "fact": "Vánočka se tradičně plete z devíti pramenů těsta ve třech patrech.",
+    "difficulty": 1,
+    "image": "🎄",
+    "source": "https://cs.wikipedia.org/wiki/V%C3%A1no%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-jidlo-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterého vitaminu si tělo vyrobí hodně z mrkve?",
+    "options": [
+      "Vitaminu C",
+      "Vitaminu A",
+      "Vitaminu D",
+      "Vitaminu K"
+    ],
+    "answer": "Vitaminu A",
+    "fact": "Mrkev obsahuje oranžový karoten a z něj si tělo vitamin A vyrobí.",
+    "difficulty": 3,
+    "image": "🥕",
+    "source": "https://cs.wikipedia.org/wiki/Vitamin_A",
+    "status": "verified",
+    "id": "lavice-jidlo-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje houba s červeným kloboukem a bílými tečkami?",
+    "options": [
+      "Hřib smrkový",
+      "Bedla",
+      "Muchomůrka červená",
+      "Liška"
+    ],
+    "answer": "Muchomůrka červená",
+    "fact": "Muchomůrka je jedovatá, proto houby sbíráme jen s dospělým, který je zná.",
+    "difficulty": 1,
+    "image": "🍄",
+    "source": "https://cs.wikipedia.org/wiki/Muchom%C5%AFrka_%C4%8Derven%C3%A1",
+    "status": "verified",
+    "id": "lavice-jidlo-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého ovoce se u nás nejčastěji lisuje mošt?",
+    "options": [
+      "Z banánů",
+      "Z citronů",
+      "Z kiwi",
+      "Z jablek"
+    ],
+    "answer": "Z jablek",
+    "fact": "Mošt je čerstvá šťáva vylisovaná z ovoce bez přidaného cukru.",
+    "difficulty": 1,
+    "image": "🧃",
+    "source": "https://cs.wikipedia.org/wiki/Mo%C5%A1t",
+    "status": "verified",
+    "id": "lavice-jidlo-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který nápoj obsahuje kofein a dětem se nedoporučuje?",
+    "options": [
+      "Káva",
+      "Voda",
+      "Mléko",
+      "Heřmánkový čaj"
+    ],
+    "answer": "Káva",
+    "fact": "Kofein je i v kole a v energetických nápojích.",
+    "difficulty": 1,
+    "image": "☕",
+    "source": "https://cs.wikipedia.org/wiki/Kofein",
+    "status": "verified",
+    "id": "lavice-jidlo-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterou zemi proslavily špagety a pizza?",
+    "options": [
+      "Francii",
+      "Itálii",
+      "Polsko",
+      "Švédsko"
+    ],
+    "answer": "Itálii",
+    "fact": "Těstoviny se v Itálii dělají v desítkách tvarů, třeba jako mašličky nebo mušličky.",
+    "difficulty": 1,
+    "image": "🍝",
+    "source": "https://cs.wikipedia.org/wiki/Italsk%C3%A1_kuchyn%C4%9B",
+    "status": "verified",
+    "id": "lavice-jidlo-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí tofu?",
+    "options": [
+      "Z rýže",
+      "Z mléka",
+      "Ze sóji",
+      "Z brambor"
+    ],
+    "answer": "Ze sóji",
+    "fact": "Sója je luštěnina, příbuzná fazolí a hrachu.",
+    "difficulty": 3,
+    "image": "🫘",
+    "source": "https://cs.wikipedia.org/wiki/Tofu",
+    "status": "verified",
+    "id": "lavice-jidlo-030"
   }
 ]

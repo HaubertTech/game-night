@@ -1,0 +1,962 @@
+[
+  {
+    "id": "prvnacek-001",
+    "level": "prvnacek",
+    "word": "slunce",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🌞"
+  },
+  {
+    "id": "prvnacek-002",
+    "level": "prvnacek",
+    "word": "měsíc",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🌙"
+  },
+  {
+    "id": "prvnacek-003",
+    "level": "prvnacek",
+    "word": "duha",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🌈"
+  },
+  {
+    "id": "prvnacek-004",
+    "level": "prvnacek",
+    "word": "mrak",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "☁️"
+  },
+  {
+    "id": "prvnacek-005",
+    "level": "prvnacek",
+    "word": "déšť",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🌧️"
+  },
+  {
+    "id": "prvnacek-006",
+    "level": "prvnacek",
+    "word": "sníh",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "❄️"
+  },
+  {
+    "id": "prvnacek-007",
+    "level": "prvnacek",
+    "word": "sněhulák",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "⛄"
+  },
+  {
+    "id": "prvnacek-008",
+    "level": "prvnacek",
+    "word": "strom",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🌳"
+  },
+  {
+    "id": "prvnacek-009",
+    "level": "prvnacek",
+    "word": "květina",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🌷"
+  },
+  {
+    "id": "prvnacek-010",
+    "level": "prvnacek",
+    "word": "houba",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🍄"
+  },
+  {
+    "id": "prvnacek-011",
+    "level": "prvnacek",
+    "word": "jablko",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🍎"
+  },
+  {
+    "id": "prvnacek-012",
+    "level": "prvnacek",
+    "word": "hruška",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🍐"
+  },
+  {
+    "id": "prvnacek-013",
+    "level": "prvnacek",
+    "word": "banán",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🍌"
+  },
+  {
+    "id": "prvnacek-014",
+    "level": "prvnacek",
+    "word": "mrkev",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🥕"
+  },
+  {
+    "id": "prvnacek-015",
+    "level": "prvnacek",
+    "word": "dýně",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🎃"
+  },
+  {
+    "id": "prvnacek-016",
+    "level": "prvnacek",
+    "word": "dort",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🎂"
+  },
+  {
+    "id": "prvnacek-017",
+    "level": "prvnacek",
+    "word": "zmrzlina",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🍦"
+  },
+  {
+    "id": "prvnacek-018",
+    "level": "prvnacek",
+    "word": "polévka",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🍲"
+  },
+  {
+    "id": "prvnacek-019",
+    "level": "prvnacek",
+    "word": "chleba",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🍞"
+  },
+  {
+    "id": "prvnacek-020",
+    "level": "prvnacek",
+    "word": "rohlík",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🥐"
+  },
+  {
+    "id": "prvnacek-021",
+    "level": "prvnacek",
+    "word": "vajíčko",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🥚"
+  },
+  {
+    "id": "prvnacek-022",
+    "level": "prvnacek",
+    "word": "sýr",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🧀"
+  },
+  {
+    "id": "prvnacek-023",
+    "level": "prvnacek",
+    "word": "pizza",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🍕"
+  },
+  {
+    "id": "prvnacek-024",
+    "level": "prvnacek",
+    "word": "palačinka",
+    "mode": "rekni",
+    "difficulty": 5,
+    "image": "🥞"
+  },
+  {
+    "id": "prvnacek-025",
+    "level": "prvnacek",
+    "word": "pes",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐶"
+  },
+  {
+    "id": "prvnacek-026",
+    "level": "prvnacek",
+    "word": "kočka",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐱"
+  },
+  {
+    "id": "prvnacek-027",
+    "level": "prvnacek",
+    "word": "kráva",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐮"
+  },
+  {
+    "id": "prvnacek-028",
+    "level": "prvnacek",
+    "word": "prase",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐷"
+  },
+  {
+    "id": "prvnacek-029",
+    "level": "prvnacek",
+    "word": "ovce",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🐑"
+  },
+  {
+    "id": "prvnacek-030",
+    "level": "prvnacek",
+    "word": "koza",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🐐"
+  },
+  {
+    "id": "prvnacek-031",
+    "level": "prvnacek",
+    "word": "kůň",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐴"
+  },
+  {
+    "id": "prvnacek-032",
+    "level": "prvnacek",
+    "word": "slepice",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐔"
+  },
+  {
+    "id": "prvnacek-033",
+    "level": "prvnacek",
+    "word": "kohout",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🐓"
+  },
+  {
+    "id": "prvnacek-034",
+    "level": "prvnacek",
+    "word": "kachna",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🦆"
+  },
+  {
+    "id": "prvnacek-035",
+    "level": "prvnacek",
+    "word": "žába",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐸"
+  },
+  {
+    "id": "prvnacek-036",
+    "level": "prvnacek",
+    "word": "ryba",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐟"
+  },
+  {
+    "id": "prvnacek-037",
+    "level": "prvnacek",
+    "word": "had",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐍"
+  },
+  {
+    "id": "prvnacek-038",
+    "level": "prvnacek",
+    "word": "šnek",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🐌"
+  },
+  {
+    "id": "prvnacek-039",
+    "level": "prvnacek",
+    "word": "ježek",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🦔"
+  },
+  {
+    "id": "prvnacek-040",
+    "level": "prvnacek",
+    "word": "veverka",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🐿️"
+  },
+  {
+    "id": "prvnacek-041",
+    "level": "prvnacek",
+    "word": "zajíc",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐰"
+  },
+  {
+    "id": "prvnacek-042",
+    "level": "prvnacek",
+    "word": "liška",
+    "mode": "rekni",
+    "difficulty": 5,
+    "image": "🦊"
+  },
+  {
+    "id": "prvnacek-043",
+    "level": "prvnacek",
+    "word": "medvěd",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐻"
+  },
+  {
+    "id": "prvnacek-044",
+    "level": "prvnacek",
+    "word": "sova",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🦉"
+  },
+  {
+    "id": "prvnacek-045",
+    "level": "prvnacek",
+    "word": "slon",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐘"
+  },
+  {
+    "id": "prvnacek-046",
+    "level": "prvnacek",
+    "word": "žirafa",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🦒"
+  },
+  {
+    "id": "prvnacek-047",
+    "level": "prvnacek",
+    "word": "opice",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐵"
+  },
+  {
+    "id": "prvnacek-048",
+    "level": "prvnacek",
+    "word": "lev",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🦁"
+  },
+  {
+    "id": "prvnacek-049",
+    "level": "prvnacek",
+    "word": "tučňák",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🐧"
+  },
+  {
+    "id": "prvnacek-050",
+    "level": "prvnacek",
+    "word": "klokan",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🦘"
+  },
+  {
+    "id": "prvnacek-051",
+    "level": "prvnacek",
+    "word": "krokodýl",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "🐊"
+  },
+  {
+    "id": "prvnacek-052",
+    "level": "prvnacek",
+    "word": "motýl",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🦋"
+  },
+  {
+    "id": "prvnacek-053",
+    "level": "prvnacek",
+    "word": "včela",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🐝"
+  },
+  {
+    "id": "prvnacek-054",
+    "level": "prvnacek",
+    "word": "beruška",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🐞"
+  },
+  {
+    "id": "prvnacek-055",
+    "level": "prvnacek",
+    "word": "auto",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🚗"
+  },
+  {
+    "id": "prvnacek-056",
+    "level": "prvnacek",
+    "word": "autobus",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🚌"
+  },
+  {
+    "id": "prvnacek-057",
+    "level": "prvnacek",
+    "word": "vlak",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🚂"
+  },
+  {
+    "id": "prvnacek-058",
+    "level": "prvnacek",
+    "word": "letadlo",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "✈️"
+  },
+  {
+    "id": "prvnacek-059",
+    "level": "prvnacek",
+    "word": "loď",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🚢"
+  },
+  {
+    "id": "prvnacek-060",
+    "level": "prvnacek",
+    "word": "kolo",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🚲"
+  },
+  {
+    "id": "prvnacek-061",
+    "level": "prvnacek",
+    "word": "traktor",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🚜"
+  },
+  {
+    "id": "prvnacek-062",
+    "level": "prvnacek",
+    "word": "raketa",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🚀"
+  },
+  {
+    "id": "prvnacek-063",
+    "level": "prvnacek",
+    "word": "semafor",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🚦"
+  },
+  {
+    "id": "prvnacek-064",
+    "level": "prvnacek",
+    "word": "sanitka",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🚑"
+  },
+  {
+    "id": "prvnacek-065",
+    "level": "prvnacek",
+    "word": "hasič",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🧑‍🚒"
+  },
+  {
+    "id": "prvnacek-066",
+    "level": "prvnacek",
+    "word": "policista",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "👮"
+  },
+  {
+    "id": "prvnacek-067",
+    "level": "prvnacek",
+    "word": "doktor",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🧑‍⚕️"
+  },
+  {
+    "id": "prvnacek-068",
+    "level": "prvnacek",
+    "word": "kuchař",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🧑‍🍳"
+  },
+  {
+    "id": "prvnacek-069",
+    "level": "prvnacek",
+    "word": "zahradník",
+    "mode": "rekni",
+    "difficulty": 5,
+    "image": "🧑‍🌾"
+  },
+  {
+    "id": "prvnacek-070",
+    "level": "prvnacek",
+    "word": "malíř",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🎨"
+  },
+  {
+    "id": "prvnacek-071",
+    "level": "prvnacek",
+    "word": "učitelka",
+    "mode": "rekni",
+    "difficulty": 5,
+    "image": "🧑‍🏫"
+  },
+  {
+    "id": "prvnacek-072",
+    "level": "prvnacek",
+    "word": "škola",
+    "mode": "rekni",
+    "difficulty": 5,
+    "image": "🏫"
+  },
+  {
+    "id": "prvnacek-073",
+    "level": "prvnacek",
+    "word": "aktovka",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🎒"
+  },
+  {
+    "id": "prvnacek-074",
+    "level": "prvnacek",
+    "word": "tužka",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "✏️"
+  },
+  {
+    "id": "prvnacek-075",
+    "level": "prvnacek",
+    "word": "kniha",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "📖"
+  },
+  {
+    "id": "prvnacek-076",
+    "level": "prvnacek",
+    "word": "nůžky",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "✂️"
+  },
+  {
+    "id": "prvnacek-077",
+    "level": "prvnacek",
+    "word": "hodiny",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "🕰️"
+  },
+  {
+    "id": "prvnacek-078",
+    "level": "prvnacek",
+    "word": "klíč",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🔑"
+  },
+  {
+    "id": "prvnacek-079",
+    "level": "prvnacek",
+    "word": "deštník",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "☂️"
+  },
+  {
+    "id": "prvnacek-080",
+    "level": "prvnacek",
+    "word": "brýle",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "👓"
+  },
+  {
+    "id": "prvnacek-081",
+    "level": "prvnacek",
+    "word": "čepice",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🧢"
+  },
+  {
+    "id": "prvnacek-082",
+    "level": "prvnacek",
+    "word": "ponožka",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🧦"
+  },
+  {
+    "id": "prvnacek-083",
+    "level": "prvnacek",
+    "word": "boty",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "👟"
+  },
+  {
+    "id": "prvnacek-084",
+    "level": "prvnacek",
+    "word": "dům",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🏠"
+  },
+  {
+    "id": "prvnacek-085",
+    "level": "prvnacek",
+    "word": "hrad",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🏰"
+  },
+  {
+    "id": "prvnacek-086",
+    "level": "prvnacek",
+    "word": "koruna",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "👑"
+  },
+  {
+    "id": "prvnacek-087",
+    "level": "prvnacek",
+    "word": "míč",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "⚽"
+  },
+  {
+    "id": "prvnacek-088",
+    "level": "prvnacek",
+    "word": "balonek",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🎈"
+  },
+  {
+    "id": "prvnacek-089",
+    "level": "prvnacek",
+    "word": "drak",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🪁"
+  },
+  {
+    "id": "prvnacek-090",
+    "level": "prvnacek",
+    "word": "medvídek",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🧸"
+  },
+  {
+    "id": "prvnacek-091",
+    "level": "prvnacek",
+    "word": "kostka",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "🎲"
+  },
+  {
+    "id": "prvnacek-092",
+    "level": "prvnacek",
+    "word": "kytara",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🎸"
+  },
+  {
+    "id": "prvnacek-093",
+    "level": "prvnacek",
+    "word": "buben",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🥁"
+  },
+  {
+    "id": "prvnacek-094",
+    "level": "prvnacek",
+    "word": "trumpeta",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🎺"
+  },
+  {
+    "id": "prvnacek-095",
+    "level": "prvnacek",
+    "word": "dárek",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🎁"
+  },
+  {
+    "id": "prvnacek-096",
+    "level": "prvnacek",
+    "word": "vánoční stromeček",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🎄"
+  },
+  {
+    "id": "prvnacek-097",
+    "level": "prvnacek",
+    "word": "srdce",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "❤️"
+  },
+  {
+    "id": "prvnacek-098",
+    "level": "prvnacek",
+    "word": "hvězda",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "⭐"
+  },
+  {
+    "id": "prvnacek-099",
+    "level": "prvnacek",
+    "word": "spát",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😴"
+  },
+  {
+    "id": "prvnacek-100",
+    "level": "prvnacek",
+    "word": "smát se",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😄"
+  },
+  {
+    "id": "prvnacek-101",
+    "level": "prvnacek",
+    "word": "plakat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😢"
+  },
+  {
+    "id": "prvnacek-102",
+    "level": "prvnacek",
+    "word": "zívat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🥱"
+  },
+  {
+    "id": "prvnacek-103",
+    "level": "prvnacek",
+    "word": "kýchat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🤧"
+  },
+  {
+    "id": "prvnacek-104",
+    "level": "prvnacek",
+    "word": "tleskat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "👏"
+  },
+  {
+    "id": "prvnacek-105",
+    "level": "prvnacek",
+    "word": "plavat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🏊"
+  },
+  {
+    "id": "prvnacek-106",
+    "level": "prvnacek",
+    "word": "běhat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🏃"
+  },
+  {
+    "id": "prvnacek-107",
+    "level": "prvnacek",
+    "word": "skákat panáka",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🦘"
+  },
+  {
+    "id": "prvnacek-108",
+    "level": "prvnacek",
+    "word": "tancovat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "💃"
+  },
+  {
+    "id": "prvnacek-109",
+    "level": "prvnacek",
+    "word": "zpívat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🎤"
+  },
+  {
+    "id": "prvnacek-110",
+    "level": "prvnacek",
+    "word": "čistit zuby",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🪥"
+  },
+  {
+    "id": "prvnacek-111",
+    "level": "prvnacek",
+    "word": "mýt si ruce",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🧼"
+  },
+  {
+    "id": "prvnacek-112",
+    "level": "prvnacek",
+    "word": "jezdit na kole",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🚴"
+  },
+  {
+    "id": "prvnacek-113",
+    "level": "prvnacek",
+    "word": "lyžovat",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "⛷️"
+  },
+  {
+    "id": "prvnacek-114",
+    "level": "prvnacek",
+    "word": "bruslit",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "⛸️"
+  },
+  {
+    "id": "prvnacek-115",
+    "level": "prvnacek",
+    "word": "kopat do míče",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "⚽"
+  },
+  {
+    "id": "prvnacek-116",
+    "level": "prvnacek",
+    "word": "chytat ryby",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🎣"
+  },
+  {
+    "id": "prvnacek-117",
+    "level": "prvnacek",
+    "word": "telefonovat",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "📞"
+  },
+  {
+    "id": "prvnacek-118",
+    "level": "prvnacek",
+    "word": "vařit",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🍳"
+  },
+  {
+    "id": "prvnacek-119",
+    "level": "prvnacek",
+    "word": "zametat",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🧹"
+  },
+  {
+    "id": "prvnacek-120",
+    "level": "prvnacek",
+    "word": "princezna",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "👸"
+  }
+]

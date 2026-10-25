@@ -497,5 +497,535 @@
     "difficulty": 3,
     "source": "https://cs.wikipedia.org/wiki/Šafrán",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-031",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Na kolik vinařských oblastí se dělí Česko?",
+    "options": [
+      "Na dvě",
+      "Na tři",
+      "Na čtyři",
+      "Na šest"
+    ],
+    "answer": "Na dvě",
+    "fact": "Jsou to Čechy a Morava. Na Moravě leží asi 96 procent českých vinic.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Vinařství_v_Česku",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-032",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kříženec kterých dvou odrůd je moravská bílá odrůda Pálava?",
+    "options": [
+      "Ryzlinku a Veltlínu",
+      "Tramínu a Müller Thurgau",
+      "Sauvignonu a Chardonnay",
+      "Muškátu a Ryzlinku"
+    ],
+    "answer": "Tramínu a Müller Thurgau",
+    "fact": "Šlechtit ji začal Josef Veverka v roce 1953. Jméno má podle Pálavy u Mikulova.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Pálava_(odrůda_révy_vinné)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-033",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co jsou utopenci?",
+    "options": [
+      "Knedlíky vařené v páře",
+      "Ryby pečené v jílu",
+      "Špekáčky nakládané v octě s cibulí",
+      "Sýry naložené v oleji"
+    ],
+    "answer": "Špekáčky nakládané v octě s cibulí",
+    "fact": "Nálev se špekáčky a cibulí se nechává v chladu aspoň týden, nejlépe dva.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Utopenec",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-034",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve kterém východočeském městě se proslavil perník?",
+    "options": [
+      "Hradec Králové",
+      "Turnov",
+      "Chrudim",
+      "Pardubice"
+    ],
+    "answer": "Pardubice",
+    "fact": "Nejstarší zmínka o perníku u nás je z roku 1335 z Turnova, kde se prodával o Vánocích.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Perník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-035",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které město je proslulé oplatkovými trubičkami se šlehaným krémem?",
+    "options": [
+      "Hořice",
+      "Kolín",
+      "Litomyšl",
+      "Pelhřimov"
+    ],
+    "answer": "Hořice",
+    "fact": "Tradice sahá do roku 1812. Od roku 2007 mají Hořické trubičky chráněné zeměpisné označení EU.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Hořické_trubičky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-036",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Podle pověsti připomínají Štramberské uši uši, které uřezali...",
+    "options": [
+      "Turci vojákům",
+      "Tataři křesťanům",
+      "Švédové měšťanům",
+      "Hunové kupcům"
+    ],
+    "answer": "Tataři křesťanům",
+    "fact": "V roce 2007 se staly první českou potravinou, která získala ochranu EU běžnou cestou.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Štramberské_uši",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-037",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se na Valašsku říká husté polévce z kysaného zelí, brambor, klobásy a smetany?",
+    "options": [
+      "Kulajda",
+      "Zelňačka",
+      "Kyselica",
+      "Cibulačka"
+    ],
+    "answer": "Kyselica",
+    "fact": "Brambory se do ní vaří zvlášť – v kyselém zelí by zůstaly tvrdé.",
+    "difficulty": 2,
+    "source": "https://forbes.cz/snidane-valachu-posilnete-se-tradicni-valasskou-kyselici/",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-038",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co jsou škubánky?",
+    "options": [
+      "Pečené kousky vepřového",
+      "Kynuté buchtičky s krémem",
+      "Vdolky s povidly",
+      "Bramborové těsto s moukou posypané mákem"
+    ],
+    "answer": "Bramborové těsto s moukou posypané mákem",
+    "fact": "Na západě Čech se jim říká kucmoch, na Slovácku šulánky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Škubánky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-039",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co udává stupňovitost piva, třeba dvanáctka?",
+    "options": [
+      "Obsah extraktu v mladině",
+      "Obsah alkoholu",
+      "Teplotu kvašení",
+      "Počet dní zrání"
+    ],
+    "answer": "Obsah extraktu v mladině",
+    "fact": "Dvanáctka měla před kvašením 12 % extraktu. Alkoholu má obvykle kolem 5 %.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Pivo",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-040",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se v hospodě říká pivu natočenému téměř celé jako hustá pěna?",
+    "options": [
+      "Hladinka",
+      "Mlíko",
+      "Šnyt",
+      "Čochtan"
+    ],
+    "answer": "Mlíko",
+    "fact": "Hladinka je pivo s krásnou pěnou po rysku, šnyt je pivo s pěnou, ale s místem navrch. Mlíko se pije na ex.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Čepování_piva",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-041",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve které obci se vaří pivo Kozel?",
+    "options": [
+      "V Černé Hoře",
+      "V Hostivaři",
+      "Ve Velkých Popovicích",
+      "V Krušovicích"
+    ],
+    "answer": "Ve Velkých Popovicích",
+    "fact": "Pivovar začal vařit v roce 1874. Kozla na etiketu podle pověsti nakreslil potulný francouzský malíř.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Velkopopovický_Kozel",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-042",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které země pochází sýr feta?",
+    "options": [
+      "Z Turecka",
+      "Z Bulharska",
+      "Z Itálie",
+      "Z Řecka"
+    ],
+    "answer": "Z Řecka",
+    "fact": "Od roku 2002 má feta ochranu EU. Musí být z ovčího mléka, kozího v ní smí být nejvýš 30 %.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Feta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-043",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého mléka se vyrábí sýr Roquefort?",
+    "options": [
+      "Z ovčího",
+      "Z kravského",
+      "Z kozího",
+      "Z buvolího"
+    ],
+    "answer": "Z ovčího",
+    "fact": "Zraje v jeskyních vesnice Roquefort-sur-Soulzon. Modrou plíseň Penicillium roqueforti původně získávali z plesnivého chleba.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Roquefort",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-044",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého španělského kraje pochází paella?",
+    "options": [
+      "Z Andalusie",
+      "Z Valencie",
+      "Z Katalánska",
+      "Z Baskicka"
+    ],
+    "answer": "Z Valencie",
+    "fact": "Jméno má po široké mělké pánvi. Původní valencijská paella obsahuje kuře, králíka a fazole, ne mořské plody.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Paella",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-045",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého ovoce se pálí normandský calvados?",
+    "options": [
+      "Ze švestek",
+      "Z hroznů",
+      "Z jablek",
+      "Z meruněk"
+    ],
+    "answer": "Z jablek",
+    "fact": "Pálí se z jablečného cidru, občas s příměsí hrušek, a v dubových sudech musí zrát nejméně dva roky.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Calvados_(brandy)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-046",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které suroviny se vyrábí japonské saké?",
+    "options": [
+      "Z ječmene",
+      "Ze sóji",
+      "Z prosa",
+      "Z rýže"
+    ],
+    "answer": "Z rýže",
+    "fact": "Saké se vyrábí podobně jako pivo: škrob se nejdřív mění na cukr pomocí plísně kódži a teprve potom kvasí.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Sake",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-047",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření je sušená kůra stromu?",
+    "options": [
+      "Skořice",
+      "Hřebíček",
+      "Muškátový oříšek",
+      "Badyán"
+    ],
+    "answer": "Skořice",
+    "fact": "Svitky se stáčejí samy, když se tenká vnitřní kůra suší.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Cinnamon",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-048",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření jsou usušená nerozvitá poupata?",
+    "options": [
+      "Kardamom",
+      "Hřebíček",
+      "Nové koření",
+      "Pepř"
+    ],
+    "answer": "Hřebíček",
+    "fact": "Hřebíček rostl původně jen na indonéských Molukách. Kvůli monopolu na něj tam Nizozemci káceli stromy na ostatních ostrovech.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Clove",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-049",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí tofu?",
+    "options": [
+      "Z cizrny",
+      "Z rýže",
+      "Ze sójových bobů",
+      "Z kokosu"
+    ],
+    "answer": "Ze sójových bobů",
+    "fact": "Vyrábí se podobně jako sýr: sójové mléko se srazí a sraženina se lisuje do bloků.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Tofu",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-050",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která bylina je základem janovského pesta?",
+    "options": [
+      "Petržel",
+      "Rukola",
+      "Oregano",
+      "Bazalka"
+    ],
+    "answer": "Bazalka",
+    "fact": "Do pravého pesta alla genovese patří i piniové oříšky, česnek, olivový olej a tvrdé sýry pecorino a parmazán.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Pesto",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-051",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje korejské kvašené zelí s chilli?",
+    "options": [
+      "Kimči",
+      "Miso",
+      "Bibimbap",
+      "Bulgogi"
+    ],
+    "answer": "Kimči",
+    "fact": "Rodinná podzimní příprava kimči zvaná kimjang je od roku 2013 na seznamu UNESCO.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Gimjang",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-052",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který alkohol se ochucuje jalovcem?",
+    "options": [
+      "Rum",
+      "Gin",
+      "Vodka",
+      "Tequila"
+    ],
+    "answer": "Gin",
+    "fact": "Gin pochází z nizozemského jalovcového jeneveru, který se původně prodával jako lék.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Gin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-053",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se vyrábí marcipán?",
+    "options": [
+      "Z lískových oříšků a medu",
+      "Z kokosu a mléka",
+      "Z mletých mandlí a cukru",
+      "Z kešu a másla"
+    ],
+    "answer": "Z mletých mandlí a cukru",
+    "fact": "Proslulý je marcipán z Lübecku, který má chráněné zeměpisné označení.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Marzipan",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-054",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce přišla na trh Kofola?",
+    "answer": 1960,
+    "unit": "rok",
+    "fact": "Vznikla jako československá odpověď na Coca-Colu a využila přebytečný kofein z pražení kávy. Sirup Kofo obsahuje 14 bylinných a ovocných složek.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Kofola",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-055",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce otevřel ve Vodičkově ulici v Praze první McDonald's v Československu?",
+    "answer": 1992,
+    "unit": "rok",
+    "fact": "Otevíral se v pátek 20. března, fronty musela usměrňovat policie a první den prý přišlo 11 tisíc lidí.",
+    "difficulty": 2,
+    "source": "https://english.radio.cz/node/8197624",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-056",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "V jakém roce začal lékárník John Pemberton prodávat Coca-Colu?",
+    "answer": 1886,
+    "unit": "rok",
+    "fact": "Prodával ji jako lék v lékárně v Atlantě. Původně obsahovala extrakt z listů koky.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Coca-Cola",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-057",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "estimate",
+    "text": "Kolik kilogramů váží zralé kolo sýra Parmigiano Reggiano?",
+    "answer": 38,
+    "unit": "kg",
+    "fact": "Na jedno kolo je potřeba asi 550 litrů mléka a sýr zraje nejméně 12 měsíců.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Parmigiano_Reggiano",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-058",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje kvasící hroznový mošt, který se pije na podzim?",
+    "answer": "Burčák",
+    "accept": [
+      "burcak"
+    ],
+    "fact": "Podle zákona se smí prodávat jen od 1. srpna do 30. listopadu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Burčák",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-059",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje mladé víno, které se smí otevřít 11. listopadu v 11 hodin 11 minut?",
+    "answer": "Svatomartinské",
+    "accept": [
+      "svatomartinské víno",
+      "svatomartinske"
+    ],
+    "fact": "K němu se tradičně jí svatomartinská husa. Na svatého Martina končil hospodářský rok a čeledín dostával mzdu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Svatomartinské_víno",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-060",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje velký kulatý valašský koláč s jednou náplní, například s hruškami?",
+    "answer": "Frgál",
+    "accept": [
+      "frgal",
+      "valašský frgál"
+    ],
+    "fact": "Má průměr kolem 30 cm a náplně se na něm nikdy nemíchají. Od roku 2013 má chráněné zeměpisné označení EU.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Valašský_frgál",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-jidlo-061",
+    "level": "hospoda",
+    "theme": "jidlo",
+    "type": "open",
+    "text": "Jak se jmenuje italská káva s mlékem a mléčnou pěnou, pojmenovaná podle mnichů?",
+    "answer": "Cappuccino",
+    "accept": [
+      "kapučíno",
+      "kapucino",
+      "capuccino"
+    ],
+    "fact": "Jméno odkazuje na hnědé kutny kapucínů, jejichž barvu nápoj připomíná.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Cappuccino",
+    "status": "verified"
   }
 ]

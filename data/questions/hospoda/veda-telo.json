@@ -506,5 +506,520 @@
     "difficulty": 2,
     "source": "https://cs.wikipedia.org/wiki/Atmosféra_Země",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-031",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Z kolika dutin se skládá lidské srdce?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "fact": "Dvě síně a dvě komory. Srdce za den udeří asi stotisíckrát a přečerpá přes 7 000 litrů krve.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Srdce",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-032",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který prvek objevili manželé Curieovi spolu s poloniem ve zbytcích jáchymovského smolince?",
+    "options": [
+      "Radium",
+      "Uran",
+      "Thorium",
+      "Radon"
+    ],
+    "answer": "Radium",
+    "fact": "Na desetinu gramu chloridu radia museli roky zpracovávat tuny jáchymovského odpadu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Radium",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-033",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Na které planetě zuří Velká rudá skvrna, bouře větší než celá Země?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Neptun"
+    ],
+    "answer": "Jupiter",
+    "fact": "Astronomové ji pozorují nejméně od 19. století, ale v posledních desetiletích se zmenšuje.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-034",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Které krvinky roznášejí po těle kyslík?",
+    "options": [
+      "Bílé krvinky",
+      "Krevní destičky",
+      "Červené krvinky",
+      "Lymfocyty"
+    ],
+    "answer": "Červené krvinky",
+    "fact": "Vydrží v oběhu asi 120 dní. Nemají jádro, takže se do nich vejde víc hemoglobinu.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Červená_krvinka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-035",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Při kolika stupních Celsia vře voda na vrcholu Mount Everestu?",
+    "answer": 70,
+    "unit": "°C",
+    "fact": "Kvůli nízkému tlaku vzduchu se tam vajíčko natvrdo pořádně neuvaří, i když voda bublá.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Boiling_point",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-036",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Ve kterém městě rozhodla v roce 2006 Mezinárodní astronomická unie, že Pluto už není planeta?",
+    "options": [
+      "V Paříži",
+      "Ve Vídni",
+      "V Ženevě",
+      "V Praze"
+    ],
+    "answer": "V Praze",
+    "fact": "Pluto se od té doby řadí mezi trpasličí planety. Je menší než náš Měsíc.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Pluto_(trpasličí_planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-037",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kde stojí největší dalekohled v Česku, s dvoumetrovým zrcadlem?",
+    "options": [
+      "V Ondřejově",
+      "Na Kleti",
+      "Na Petříně",
+      "V Ždánicích"
+    ],
+    "answer": "V Ondřejově",
+    "fact": "Dalekohled od firmy Carl Zeiss Jena uvedli do provozu v roce 1967, během valného shromáždění Mezinárodní astronomické unie v Praze. Jeho pohyblivé části váží 83 tun.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Astronomický_ústav_AV_ČR",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-038",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje největší tepna v lidském těle?",
+    "answer": "Aorta",
+    "accept": [
+      "srdečnice"
+    ],
+    "fact": "Česky se jí říká srdečnice. Vychází z levé komory srdce a u srdce měří v průměru kolem 2,5 cm.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Aorta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-039",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který kov je za pokojové teploty kapalný?",
+    "options": [
+      "Olovo",
+      "Rtuť",
+      "Cín",
+      "Sodík"
+    ],
+    "answer": "Rtuť",
+    "fact": "Kapalný může být i kov gallium – taje už při 30 °C, takže se rozteče v dlani.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Rtuť",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-040",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která část oka určuje, jakou barvu očí máme?",
+    "options": [
+      "Rohovka",
+      "Sítnice",
+      "Duhovka",
+      "Čočka"
+    ],
+    "answer": "Duhovka",
+    "fact": "Kresba duhovky je jedinečná jako otisk prstu. I jednovaječná dvojčata ji mají každé jinou.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Duhovka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-041",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik kilometrů měří obvod Země na rovníku?",
+    "answer": 40075,
+    "unit": "km",
+    "fact": "Že je to skoro přesně 40 000 km, není náhoda: metr byl v roce 1791 definován jako desetimiliontina vzdálenosti od pólu k rovníku.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Země",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-042",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který prvek je ve vesmíru nejhojnější?",
+    "options": [
+      "Helium",
+      "Kyslík",
+      "Uhlík",
+      "Vodík"
+    ],
+    "answer": "Vodík",
+    "fact": "Tvoří asi tři čtvrtiny běžné hmoty vesmíru, skoro celý zbytek připadá na helium.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Vodík",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-043",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Který sval odděluje hrudník od břicha a stará se o dýchání?",
+    "options": [
+      "Bránice",
+      "Pilovitý sval",
+      "Přímý sval břišní",
+      "Mezižeberní sval"
+    ],
+    "answer": "Bránice",
+    "fact": "Škytavka je náhlé stažení bránice, po kterém se prudce zavřou hlasivky – odtud to „hik“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bránice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-044",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje velká spirální galaxie, kterou za tmavé noci uvidíme i pouhým okem?",
+    "answer": "Galaxie v Andromedě",
+    "accept": [
+      "Andromeda",
+      "M31",
+      "Mlhovina v Andromedě"
+    ],
+    "fact": "Je od nás asi 2,5 milionu světelných let, takže ji vidíme takovou, jaká byla v době, kdy se v Africe objevovali první lidé rodu Homo.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Galaxie_v_Andromedě",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-045",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik zubů mají děti v mléčném chrupu?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "28"
+    ],
+    "answer": "20",
+    "fact": "Mléčné zuby se zakládají už před narozením, v době, kdy je dítě ještě v děloze.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Mléčný_chrup",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-046",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která planeta je nejteplejší ve sluneční soustavě?",
+    "options": [
+      "Merkur",
+      "Venuše",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Venuše",
+    "fact": "Hustá atmosféra z oxidu uhličitého ji zahřívá na více než 460 °C – víc, než má Merkur, který je ke Slunci blíž.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Venuše_(planeta)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-047",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jakou chemickou značku má sodík?",
+    "options": [
+      "S",
+      "So",
+      "Na",
+      "Sd"
+    ],
+    "answer": "Na",
+    "fact": "Na je zkratka latinského natrium. Podobně má draslík značku K podle slova kalium.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sodík",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-048",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jak se jmenuje hvězda, která je nám nejbližší hned po Slunci?",
+    "options": [
+      "Sirius",
+      "Polárka",
+      "Betelgeuze",
+      "Proxima Centauri"
+    ],
+    "answer": "Proxima Centauri",
+    "fact": "Je tak slabá, že ji pouhým okem nevidíme, přestože je nejbližší. Její světlo k nám letí přes čtyři roky.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Proxima_Centauri",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-049",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Ve kterém orgánu se hromadí žluč, než pomůže strávit tučné jídlo?",
+    "options": [
+      "Ve žlučníku",
+      "V játrech",
+      "Ve slinivce",
+      "Ve slezině"
+    ],
+    "answer": "Ve žlučníku",
+    "fact": "Žluč vyrábějí játra, žlučník ji jen zahušťuje a při jídle vypouští do dvanáctníku.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Žlučník",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-050",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik kilometrů za sekundu urazí Země na své dráze kolem Slunce?",
+    "answer": 30,
+    "unit": "km/s",
+    "fact": "To je přes 100 000 km za hodinu, a přesto pohyb vůbec necítíme, protože je plynulý.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Earth%27s_orbit",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-051",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co hlavně způsobuje příliv a odliv?",
+    "options": [
+      "Vítr nad oceánem",
+      "Přitažlivost Měsíce",
+      "Oběh Země kolem Slunce",
+      "Zemětřesení na dně"
+    ],
+    "answer": "Přitažlivost Měsíce",
+    "fact": "Největší rozdíl hladin, přes 16 metrů, mívá záliv Fundy v Kanadě.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Slapové_jevy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-052",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Jaký typ horniny je žula?",
+    "options": [
+      "Usazená",
+      "Přeměněná",
+      "Vyvřelá",
+      "Organogenní"
+    ],
+    "answer": "Vyvřelá",
+    "fact": "Vzniká pomalým tuhnutím magmatu hluboko pod povrchem – proto má velká, okem viditelná zrna křemene, živce a slídy.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Žula",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-053",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Nedostatek kterého vitaminu způsobuje kurděje?",
+    "options": [
+      "Vitaminu A",
+      "Vitaminu B12",
+      "Vitaminu K",
+      "Vitaminu C"
+    ],
+    "answer": "Vitaminu C",
+    "fact": "Britští námořníci proto dostávali citrusovou šťávu, odtud jejich anglická přezdívka „limeys“.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kurděje",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-054",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jakou stupnicí od 0 do 14 se měří, jak je roztok kyselý?",
+    "answer": "pH",
+    "accept": [
+      "ph",
+      "pH stupnice",
+      "stupnice pH"
+    ],
+    "fact": "Čistá voda má pH 7, žaludeční šťáva kolem 2 a bělidla přes 12.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/PH",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-055",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která část mozku řídí rovnováhu a souhru pohybů?",
+    "options": [
+      "Mozeček",
+      "Mozkový kmen",
+      "Hypotalamus",
+      "Hipokampus"
+    ],
+    "answer": "Mozeček",
+    "fact": "Zabírá jen asi desetinu objemu mozku, ale obsahuje víc než polovinu všech jeho neuronů.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Mozeček",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-056",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "estimate",
+    "text": "Kolik minut letí světlo ze Slunce na Zemi?",
+    "answer": 8,
+    "unit": "minut",
+    "fact": "Z Měsíce k nám světlo doletí za něco přes vteřinu, z Neptunu za více než čtyři hodiny.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Rychlost_světla",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-057",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "U kterého města dopadl roku 1959 první meteorit na světě, jehož dráhu vypočítali z fotografií?",
+    "options": [
+      "Benešov",
+      "Příbram",
+      "Kladno",
+      "Tábor"
+    ],
+    "answer": "Příbram",
+    "fact": "Ohnivou kouli zachytily kamery v Ondřejově a v Prčici. Podle výpočtu pak v předpovězené oblasti našli čtyři úlomky.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Příbram_(meteorit)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-058",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kolik párů žeber má člověk?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "24"
+    ],
+    "answer": "12",
+    "fact": "Spodní dva páry nejsou připojené k hrudní kosti, říká se jim volná žebra.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Žebro",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-059",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Která krevní skupina je v Česku nejčastější?",
+    "options": [
+      "0",
+      "B",
+      "A",
+      "AB"
+    ],
+    "answer": "A",
+    "fact": "Má ji kolem 42 % lidí, skupinu 0 asi 32 %. Nejvzácnější je u nás skupina AB, jen kolem 8 %.",
+    "difficulty": 3,
+    "source": "https://www.transfuznispolecnost.cz/media/brozura_pro_darce.pdf",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-veda-telo-060",
+    "level": "hospoda",
+    "theme": "veda-telo",
+    "type": "open",
+    "text": "Jak se jmenuje vrstva atmosféry, která nás chrání před ultrafialovým zářením?",
+    "answer": "Ozonová vrstva",
+    "accept": [
+      "ozonosféra",
+      "ozon",
+      "ozónová vrstva",
+      "ozonová"
+    ],
+    "fact": "Kdyby se všechen ozon stlačil na tlak u země, vytvořil by vrstvu silnou jen asi 3 milimetry.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ozonová_vrstva",
+    "status": "verified"
   }
 ]

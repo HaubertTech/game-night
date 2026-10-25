@@ -1,0 +1,416 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaké zvíře je Ferda?",
+    "options": [
+      "🐝 Včela",
+      "🪲 Brouk",
+      "🐜 Mravenec"
+    ],
+    "answer": "🐜 Mravenec",
+    "fact": "Ferdu Mravence vymyslel malíř a spisovatel Ondřej Sekora.",
+    "difficulty": 1,
+    "image": "📚",
+    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenují dva kutilové, kterým se všechno pokazí?",
+    "options": [
+      "🔨 Pat a Mat",
+      "🍄 Křemílek a Vochomůrka",
+      "🐰 Bob a Bobek"
+    ],
+    "answer": "🔨 Pat a Mat",
+    "fact": "Pat a Mat vždycky řeknou „A je to!“, i když to dopadne všelijak.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "https://cs.wikipedia.org/wiki/Pat_a_Mat",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jaká zvířátka jsou Bob a Bobek?",
+    "options": [
+      "🐿️ Veverky",
+      "🐰 Králíci",
+      "🦔 Ježci"
+    ],
+    "answer": "🐰 Králíci",
+    "fact": "Bob a Bobek vyskakují z kouzelníkova klobouku.",
+    "difficulty": 1,
+    "image": "🎩",
+    "source": "https://cs.wikipedia.org/wiki/Bob_a_Bobek_%E2%80%93_kr%C3%A1l%C3%ADci_z_klobouku",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje loupežník z lesa Řáholce?",
+    "options": [
+      "🐜 Ferda",
+      "🎭 Hurvínek",
+      "🌲 Rumcajs"
+    ],
+    "answer": "🌲 Rumcajs",
+    "fact": "Rumcajs byl dřív ševcem v Jičíně.",
+    "difficulty": 1,
+    "image": "🏹",
+    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Které zvíře s dlouhýma ušima kamarádí s Krtkem?",
+    "options": [
+      "🐰 Zajíc",
+      "🐯 Tygr",
+      "🐘 Slon"
+    ],
+    "answer": "🐰 Zajíc",
+    "fact": "Krtek a jeho kamarádi skoro nemluví, a přesto jim všichni rozumí.",
+    "difficulty": 1,
+    "image": "📺",
+    "source": "https://cs.wikipedia.org/wiki/Krtek",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kteří dva skřítci bydlí v pařezové chaloupce?",
+    "options": [
+      "🔨 Pat a Mat",
+      "🍄 Křemílek a Vochomůrka",
+      "🎭 Spejbl a Hurvínek"
+    ],
+    "answer": "🍄 Křemílek a Vochomůrka",
+    "fact": "Jejich příběhy napsal Václav Čtvrtek.",
+    "difficulty": 2,
+    "image": "🪵",
+    "source": "https://cs.wikipedia.org/wiki/Poh%C3%A1dky_z_mechu_a_kaprad%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik trpaslíků bydlelo se Sněhurkou?",
+    "options": [
+      "3️⃣ 3",
+      "🔟 10",
+      "7️⃣ 7"
+    ],
+    "answer": "7️⃣ 7",
+    "fact": "Trpaslíci chodili pracovat do hor a hledali tam drahé kameny.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "https://cs.wikipedia.org/wiki/Sn%C4%9Bhurka",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co ztratila Popelka na plese?",
+    "options": [
+      "👠 Střevíček",
+      "🧤 Rukavičku",
+      "👑 Korunku"
+    ],
+    "answer": "👠 Střevíček",
+    "fact": "Princ pak hledal dívku, které bude střevíček sedět.",
+    "difficulty": 1,
+    "image": "👸",
+    "source": "https://cs.wikipedia.org/wiki/Popelka",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Čím si Mach a Šebestová plní přání?",
+    "options": [
+      "🪄 Kouzelnou hůlkou",
+      "📞 Kouzelným sluchátkem",
+      "💍 Prstýnkem"
+    ],
+    "answer": "📞 Kouzelným sluchátkem",
+    "fact": "Příběhy Macha a Šebestové napsal Miloš Macourek.",
+    "difficulty": 2,
+    "image": "📺",
+    "source": "https://cs.wikipedia.org/wiki/Mach_a_%C5%A0ebestov%C3%A1",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jakou barvu má Karkulčin čepeček?",
+    "options": [
+      "🔵 Modrou",
+      "🟢 Zelenou",
+      "🔴 Červenou"
+    ],
+    "answer": "🔴 Červenou",
+    "fact": "Pohádku o Červené Karkulce znají děti po celém světě.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cerven%C3%A1_Karkulka",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo nakonec snědl Koblížka?",
+    "options": [
+      "🦊 Liška",
+      "🐻 Medvěd",
+      "🐰 Zajíc"
+    ],
+    "answer": "🦊 Liška",
+    "fact": "Koblížek utekl dědečkovi i babičce a cestou potkal zajíce, vlka a medvěda.",
+    "difficulty": 2,
+    "image": "🍩",
+    "source": "https://en.wikipedia.org/wiki/Kolobok",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik prasátek si v pohádce stavělo domečky?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "5️⃣ 5"
+    ],
+    "answer": "3️⃣ 3",
+    "fact": "Prasátka si postavila domečky ze slámy, z klacíků a z cihel.",
+    "difficulty": 1,
+    "image": "🐷",
+    "source": "https://en.wikipedia.org/wiki/The_Three_Little_Pigs",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo v pohádce O veliké řepě pomáhal tahat jako poslední?",
+    "options": [
+      "🐘 Slon",
+      "🐴 Kůň",
+      "🐭 Myška"
+    ],
+    "answer": "🐭 Myška",
+    "fact": "Řepu tahali dědek, babka, vnučka, pejsek, kočička a nakonec myška.",
+    "difficulty": 2,
+    "image": "🌱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik měsíčků sedělo u ohně v pohádce O dvanácti měsíčkách?",
+    "options": [
+      "🔢 12",
+      "7️⃣ 7",
+      "3️⃣ 3"
+    ],
+    "answer": "🔢 12",
+    "fact": "Každý měsíček vládne jednomu měsíci v roce.",
+    "difficulty": 1,
+    "image": "🔥",
+    "source": "https://cs.wikipedia.org/wiki/O_dvan%C3%A1cti_m%C4%9Bs%C3%AD%C4%8Dk%C3%A1ch",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje princezna se zlatými vlasy?",
+    "options": [
+      "👸 Popelka",
+      "👸 Zlatovláska",
+      "👸 Sněhurka"
+    ],
+    "answer": "👸 Zlatovláska",
+    "fact": "Jiříkovi v pohádce pomohla zvířátka, kterým předtím pomohl on.",
+    "difficulty": 1,
+    "image": "✨",
+    "source": "https://cs.wikipedia.org/wiki/Zlatovl%C3%A1ska",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Z čeho si Krtek nechal udělat kalhotky?",
+    "options": [
+      "🍃 Z listí",
+      "🧶 Z vlny",
+      "🌱 Ze lnu"
+    ],
+    "answer": "🌱 Ze lnu",
+    "fact": "Krtek si len sám zasadil a nakonec měl kalhotky s velkými kapsami.",
+    "difficulty": 2,
+    "image": "👖",
+    "source": "https://cs.wikipedia.org/wiki/Krtek",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Hurvínkova kamarádka?",
+    "options": [
+      "👧 Mánička",
+      "👧 Manka",
+      "👧 Maruška"
+    ],
+    "answer": "👧 Mánička",
+    "fact": "Hurvínek má taky psa, jmenuje se Žeryk.",
+    "difficulty": 2,
+    "image": "🎭",
+    "source": "https://cs.wikipedia.org/wiki/Spejbl_a_Hurv%C3%ADnek",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co pekli pejsek a kočička?",
+    "options": [
+      "🍕 Pizzu",
+      "🎂 Dort",
+      "🥨 Preclík"
+    ],
+    "answer": "🎂 Dort",
+    "fact": "Do dortu dali všechno, co měli rádi. Nakonec ho snědl zlý pes a bolelo ho z toho bříško.",
+    "difficulty": 1,
+    "image": "🐶",
+    "source": "https://cs.wikipedia.org/wiki/Pov%C3%ADd%C3%A1n%C3%AD_o_pejskovi_a_ko%C4%8Di%C4%8Dce",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik strun má obyčejná kytara?",
+    "options": [
+      "3️⃣ 3",
+      "🔟 10",
+      "6️⃣ 6"
+    ],
+    "answer": "6️⃣ 6",
+    "fact": "Na kytaru se hraje prsty nebo trsátkem.",
+    "difficulty": 2,
+    "image": "🎸",
+    "source": "https://cs.wikipedia.org/wiki/Kytara",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který nástroj má bílé a černé klávesy?",
+    "options": [
+      "🎹 Klavír",
+      "🎸 Kytara",
+      "🥁 Buben"
+    ],
+    "answer": "🎹 Klavír",
+    "fact": "Klavír má 88 kláves.",
+    "difficulty": 1,
+    "image": "🎶",
+    "source": "https://cs.wikipedia.org/wiki/Klav%C3%ADr",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na který nástroj se hraje smyčcem?",
+    "options": [
+      "🎺 Trumpeta",
+      "🎻 Housle",
+      "🪘 Bubínek"
+    ],
+    "answer": "🎻 Housle",
+    "fact": "Smyčec má žíně z koňského ocasu.",
+    "difficulty": 2,
+    "image": "🎼",
+    "source": "https://cs.wikipedia.org/wiki/Smy%C4%8Dec",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo zdraví děti na začátku Večerníčku?",
+    "options": [
+      "🐻 Medvídek",
+      "👸 Princezna",
+      "👦 Kluk s papírovou čepicí"
+    ],
+    "answer": "👦 Kluk s papírovou čepicí",
+    "fact": "Večerníček se v televizi vysílá už od roku 1965.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Ve%C4%8Dern%C3%AD%C4%8Dek",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-022"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kde nejraději ležel Hloupý Honza?",
+    "options": [
+      "🔥 Na peci",
+      "🌳 Na stromě",
+      "🛶 Na lodi"
+    ],
+    "answer": "🔥 Na peci",
+    "fact": "Na peci bývalo v chalupě nejtepleji.",
+    "difficulty": 1,
+    "image": "😴",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-pohadky-film-hudba-023"
+  }
+]

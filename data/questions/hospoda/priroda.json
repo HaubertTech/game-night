@@ -509,5 +509,485 @@
     "difficulty": 2,
     "source": "https://en.wikipedia.org/wiki/Giraffe",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-031",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který náš pták klade vejce do cizích hnízd a o mláďata se nestará?",
+    "options": [
+      "Kukačka obecná",
+      "Strakapoud velký",
+      "Sojka obecná",
+      "Drozd zpěvný"
+    ],
+    "answer": "Kukačka obecná",
+    "fact": "Čerstvě vylíhnuté mládě kukačky vystrčí z hnízda vejce i mláďata hostitelů, aby dostávalo všechnu potravu samo.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kukačka_obecná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-032",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která houba způsobuje u nás většinu smrtelných otrav?",
+    "options": [
+      "Muchomůrka červená",
+      "Muchomůrka zelená",
+      "Hřib satan",
+      "Čirůvka zemní"
+    ],
+    "answer": "Muchomůrka zelená",
+    "fact": "Zrádné je, že první příznaky přijdou až po 6–24 hodinách, kdy jed už ničí játra. Podle přeživších navíc chutná dobře.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Muchomůrka_zelená",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-033",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který jediný jedovatý had žije volně v Česku?",
+    "options": [
+      "Užovka obojková",
+      "Užovka stromová",
+      "Zmije obecná",
+      "Slepýš křehký"
+    ],
+    "answer": "Zmije obecná",
+    "fact": "Slepýš sice vypadá jako had, ale je to beznohá ještěrka – na rozdíl od hadů umí mrkat a odhodit ocas.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Zmije_obecná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-034",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který národní park je v Česku rozlohou největší?",
+    "options": [
+      "Krkonoše",
+      "České Švýcarsko",
+      "Podyjí",
+      "Šumava"
+    ],
+    "answer": "Šumava",
+    "fact": "Nejmenší je Podyjí u Znojma, které na druhém břehu Dyje navazuje na rakouský národní park Thayatal.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Národní_park_Šumava",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-035",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který národní park vznikl v Česku jako zatím poslední, od 1. ledna 2022?",
+    "options": [
+      "Křivoklátsko",
+      "Jeseníky",
+      "Brdy",
+      "Beskydy"
+    ],
+    "answer": "Křivoklátsko",
+    "fact": "Chrání listnaté lesy a skalnaté stráně podél Berounky, kde kdysi lovili čeští panovníci.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Národní_park_Křivoklátsko",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-036",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Která rostlina pálí na dotek a z jejích vláken se dřív tkalo plátno?",
+    "answer": "Kopřiva",
+    "accept": [
+      "kopřiva dvoudomá",
+      "kopriva"
+    ],
+    "fact": "Pálí ji žahavé chlupy: jejich křehká špička se při doteku ulomí a vstříkne do kůže histamin a další dráždivé látky.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kopřiva_dvoudomá",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-037",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták umí jako jediný létat i pozpátku?",
+    "options": [
+      "Rorýs obecný",
+      "Kolibřík",
+      "Ledňáček říční",
+      "Vlaštovka obecná"
+    ],
+    "answer": "Kolibřík",
+    "fact": "Křídly mává tak rychle, desítkykrát za vteřinu, že vydávají bzučivý zvuk – odtud anglické jméno hummingbird.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Hummingbird",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-038",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik metrů měří sekvoj Hyperion v Kalifornii, nejvyšší známý strom světa?",
+    "answer": 116,
+    "unit": "metrů",
+    "fact": "Objevili ho až v roce 2006. Okolí stromu je od roku 2022 uzavřené a za vstup hrozí pokuta až 5 000 dolarů, nebo dokonce vězení.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Hyperion_(tree)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-039",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který velký dravec se k nám vrátil a hnízdí hlavně u rybníků na Třeboňsku a na jižní Moravě?",
+    "options": [
+      "Orel skalní",
+      "Luňák hnědý",
+      "Orel mořský",
+      "Káně lesní"
+    ],
+    "answer": "Orel mořský",
+    "fact": "V 80. letech u nás hnízdilo jen osm až deset párů, dnes jich je přes sto. Je to náš největší dravec, rozpětí křídel má až dva a půl metru.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Orel_mořský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-040",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje samec ovce?",
+    "options": [
+      "Kozel",
+      "Býk",
+      "Kanec",
+      "Beran"
+    ],
+    "answer": "Beran",
+    "fact": "Vykastrovanému beranovi se říká skopec – odtud skopové maso.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ovce_domácí",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-041",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Dospělci kterého hmyzu žijí často jen jeden den a vůbec nežerou?",
+    "options": [
+      "Jepice",
+      "Chrostíci",
+      "Vážky",
+      "Komáři"
+    ],
+    "answer": "Jepice",
+    "fact": "Dospělá jepice nemá funkční ústní ústrojí, jen se spáří a naklade vajíčka. Její larva přitom žije ve vodě i přes rok.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Jepice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-042",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Který strom vyhlásil roku 1848 Všeslovanský sjezd v Praze za národní strom Slovanů?",
+    "answer": "Lípa",
+    "accept": [
+      "lípa srdčitá",
+      "lipa",
+      "lípa malolistá"
+    ],
+    "fact": "Lípa měla být protiváhou dubu, symbolu německých národních snah. Proto se dodnes sází „lípy svobody“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Lípa_srdčitá",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-043",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který brouk je největší v Česku i v celé Evropě?",
+    "options": [
+      "Tesařík obrovský",
+      "Roháč obecný",
+      "Chroust obecný",
+      "Nosorožík kapucínek"
+    ],
+    "answer": "Roháč obecný",
+    "fact": "Mohutná „kusadla“ samců slouží k zápasům o samice. Larva se vyvíjí v tlejícím dubovém dřevě čtyři až šest let.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Roháč_obecný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-044",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který živočich je člověku nejbližším příbuzným?",
+    "options": [
+      "Gorila",
+      "Orangutan",
+      "Šimpanz",
+      "Gibon"
+    ],
+    "answer": "Šimpanz",
+    "fact": "Se šimpanzem a bonobem sdílíme zhruba 98–99 % DNA. Naše vývojové linie se rozešly před šesti až sedmi miliony let.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Chimpanzee",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-047",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje nejmenší pták Česka, který váží jen kolem pěti gramů?",
+    "options": [
+      "Králíček obecný",
+      "Střízlík obecný",
+      "Sýkora modřinka",
+      "Pěnkava obecná"
+    ],
+    "answer": "Králíček obecný",
+    "fact": "Přesto u nás vydrží i mrazivou zimu – na noc se králíčci tisknou k sobě, aby neprochladli.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Králíček_obecný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-048",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se nazývá samec včely medonosné?",
+    "answer": "Trubec",
+    "accept": [
+      "trubci"
+    ],
+    "fact": "Trubci nemají žihadlo a nesbírají med. Když na podzim nejsou potřeba, dělnice je z úlu vyženou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Včela_medonosná",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-049",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která ryba je největší v českých vodách?",
+    "options": [
+      "Štika obecná",
+      "Sumec velký",
+      "Kapr obecný",
+      "Candát obecný"
+    ],
+    "answer": "Sumec velký",
+    "fact": "Sumec může měřit přes dva metry a kromě ryb uloví i žábu, vodního ptáka nebo potkana.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Sumec_velký",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-050",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která dřevina převažuje v českých lesích?",
+    "options": [
+      "Buk lesní",
+      "Borovice lesní",
+      "Smrk ztepilý",
+      "Dub letní"
+    ],
+    "answer": "Smrk ztepilý",
+    "fact": "Přirozeně by rostl hlavně na horách. Do nížin ho lesníci sázeli kvůli rychle rostoucímu dřevu – a tam ho teď v suchu hubí kůrovec.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Smrk_ztepilý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-051",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Až kolik hodin denně prospí koala?",
+    "answer": 20,
+    "unit": "hodin",
+    "fact": "Eukalyptové listy mají málo živin a obsahují jedovaté látky. Koala spánkem šetří energii, kterou potřebuje na jejich trávení.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Koala",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-052",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře dokáže otočit hlavu až o 270 stupňů?",
+    "options": [
+      "Žirafa",
+      "Chameleon",
+      "Plameňák",
+      "Sova"
+    ],
+    "answer": "Sova",
+    "fact": "Oči má v lebce pevně usazené a nemůže jimi hýbat, proto musí otáčet celou hlavou.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Owl",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-053",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Z čeho má žralok kostru?",
+    "options": [
+      "Z chrupavky",
+      "Z kostí",
+      "Z rohoviny",
+      "Z vápenaté schránky"
+    ],
+    "answer": "Z chrupavky",
+    "fact": "Chrupavka je lehčí než kost. Žralok totiž nemá plynový měchýř, a kdyby přestal plavat, klesal by ke dnu.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Žraloci",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-054",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje největší žijící ještěr světa?",
+    "options": [
+      "Leguán zelený",
+      "Varan komodský",
+      "Gekon obrovský",
+      "Chameleon obrovský"
+    ],
+    "answer": "Varan komodský",
+    "fact": "Ve slinách má jed, který brání srážení krve kořisti. Samice se umějí rozmnožit i bez samce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Varan_komodský",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-055",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "open",
+    "text": "Jak se jmenuje arktická velryba, které se kvůli dlouhému klu přezdívá jednorožec moří?",
+    "answer": "Narval",
+    "accept": [
+      "narval jednorohý"
+    ],
+    "fact": "Kel je ve skutečnosti přerostlý zub, protkaný miliony nervových zakončení. Ve středověku se prodával jako roh jednorožce.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Narval_jednorohý",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-056",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který modrooranžový pták loví ryby střemhlavým skokem do vody?",
+    "options": [
+      "Konipas horský",
+      "Skorec vodní",
+      "Ledňáček říční",
+      "Rybák obecný"
+    ],
+    "answer": "Ledňáček říční",
+    "fact": "Hnízdí v noře, kterou si sám vyhrabe do strmého hlinitého břehu – bývá dlouhá až metr.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ledňáček_říční",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-057",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik očí má pavouk křižák obecný?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "8",
+    "fact": "I s osmi očima vidí špatně. Kořist pozná hlavně podle toho, jak se chvěje síť.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Křižák_obecný",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-058",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "estimate",
+    "text": "Kolik metrů měří rozpětí křídel albatrosa stěhovavého?",
+    "answer": 3.1,
+    "unit": "metrů",
+    "fact": "Má největší rozpětí křídel ze všech žijících ptáků. Hodiny umí plachtit nad oceánem, aniž by křídly mávl.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Wandering_albatross",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-059",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak dlouho trvá březost králíka?",
+    "options": [
+      "Asi týden",
+      "Asi tři měsíce",
+      "Asi půl roku",
+      "Asi měsíc"
+    ],
+    "answer": "Asi měsíc",
+    "fact": "Samice může znovu zabřeznout hned po porodu, proto se králíci množí tak rychle.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Rabbit",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-priroda-060",
+    "level": "hospoda",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který hlodavec je největší na světě?",
+    "options": [
+      "Kapybara",
+      "Bobr kanadský",
+      "Dikobraz",
+      "Nutrie"
+    ],
+    "answer": "Kapybara",
+    "fact": "Žije v Jižní Americe u vody. Oči, uši i nozdry má vysoko na hlavě, takže může ležet skoro celá ponořená.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Kapybara",
+    "status": "verified"
   }
 ]

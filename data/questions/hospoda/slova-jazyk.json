@@ -505,5 +505,496 @@
     "difficulty": 2,
     "source": "https://cs.wikipedia.org/wiki/Antonymum",
     "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-031",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kterou hlásku se české děti obvykle naučí vyslovovat jako jednu z posledních?",
+    "options": [
+      "Ř",
+      "Š",
+      "L",
+      "K"
+    ],
+    "answer": "Ř",
+    "fact": "Mezi jazyky světa je ř velká vzácnost, a tak s ním cizinci zápasí stejně jako české děti.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ř",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-032",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak končí přísloví „Kdo jinému jámu kopá, …“?",
+    "options": [
+      "…sám ji zasype",
+      "…sám do ní padá",
+      "…ten se nadře",
+      "…ten ji najde"
+    ],
+    "answer": "…sám do ní padá",
+    "fact": "Přísloví je starší než čeština: stojí už v biblické Knize přísloví (26,27).",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Seznam_českých_přísloví",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-033",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplňte přísloví: „Lepší vrabec v hrsti než…“",
+    "options": [
+      "…kos na stromě",
+      "…čáp na komíně",
+      "…holub na střeše",
+      "…orel v oblacích"
+    ],
+    "answer": "…holub na střeše",
+    "fact": "Angličané počítají jinak: pták v ruce má podle nich cenu dvou v křoví.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/A_bird_in_the_hand_is_worth_two_in_the_bush",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-034",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená rčení „nosit dříví do lesa“?",
+    "options": [
+      "Pracovat zbytečně v noci",
+      "Zbytečně se dřít pro jiné",
+      "Krást dříví z lesa",
+      "Dávat něco tam, kde je toho dost"
+    ],
+    "answer": "Dávat něco tam, kde je toho dost",
+    "fact": "Angličané nosí uhlí do Newcastlu a staří Řekové nosili sovy do Athén.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Coals_to_Newcastle",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-035",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená, když někdo přijde „s křížkem po funuse“?",
+    "options": [
+      "Přijde pozdě",
+      "Přijde s omluvou",
+      "Přijde nezván",
+      "Přijde s dárkem"
+    ],
+    "answer": "Přijde pozdě",
+    "fact": "Funus je hovorově pohřeb; slovo pochází z latinského funus, které znamená totéž.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Pohřeb",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-036",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které skutečné městečko dalo jméno rčení, kterým někoho posíláme pryč?",
+    "options": [
+      "Kocourkov",
+      "Prčice",
+      "Horní Dolní",
+      "Lhota"
+    ],
+    "answer": "Prčice",
+    "fact": "Od roku 1966 se sem každé jaro chodí pochod Praha–Prčice; poprvé ho šlo 469 lidí.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Prague%E2%80%93Pr%C4%8Dice_March",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-037",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená „hodit flintu do žita“?",
+    "options": [
+      "Začít lovit",
+      "Prozradit tajemství",
+      "Vzdát se",
+      "Zaplatit dluh"
+    ],
+    "answer": "Vzdát se",
+    "fact": "Flinta je stará puška. Kdo ji odhodí do obilí, vzdal boj.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Flinta",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-039",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Název které světové měny pochází od stříbrných mincí ražených v Jáchymově?",
+    "options": [
+      "Dolar",
+      "Euro",
+      "Libra",
+      "Rubl"
+    ],
+    "answer": "Dolar",
+    "fact": "Jáchymovské tolary se začaly razit v roce 1519. Podle nich se pak jmenovaly další mince a měny, až po americký dolar.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Tolar",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-040",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal humoristický román Saturnin?",
+    "options": [
+      "Karel Poláček",
+      "Zdeněk Jirotka",
+      "Jaroslav Žák",
+      "Eduard Bass"
+    ],
+    "answer": "Zdeněk Jirotka",
+    "fact": "Jirotka ho napsal za protektorátu, roku 1942. Saturnin je sluha, který svému pánovi z nudného života udělá dobrodružství.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Saturnin",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-041",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Ve kterém díle Karla Čapka ovládnou svět inteligentní mloci?",
+    "options": [
+      "Krakatit",
+      "Bílá nemoc",
+      "Válka s mloky",
+      "Továrna na absolutno"
+    ],
+    "answer": "Válka s mloky",
+    "fact": "Čapek byl na Nobelovu cenu za literaturu navrhován opakovaně, ale nikdy ji nedostal.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Válka_s_mloky",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-042",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal novelu Spalovač mrtvol?",
+    "options": [
+      "Bohumil Hrabal",
+      "Arnošt Lustig",
+      "Josef Škvorecký",
+      "Ladislav Fuks"
+    ],
+    "answer": "Ladislav Fuks",
+    "fact": "Hlavní hrdina, pan Kopfrkingl, pracuje v krematoriu. Herzův film z roku 1968 s Rudolfem Hrušínským patří ke klasice.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Spalovač_mrtvol",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-043",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Který český spisovatel napsal Nesnesitelnou lehkost bytí?",
+    "options": [
+      "Milan Kundera",
+      "Josef Škvorecký",
+      "Ivan Klíma",
+      "Václav Havel"
+    ],
+    "answer": "Milan Kundera",
+    "fact": "Česky kniha vyšla nejdřív v exilovém nakladatelství v Torontu; doma až v roce 2006.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Nesnesitelná_lehkost_bytí",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-044",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal Bylo nás pět?",
+    "options": [
+      "Eduard Bass",
+      "Karel Poláček",
+      "Jan Drda",
+      "Vladislav Vančura"
+    ],
+    "answer": "Karel Poláček",
+    "fact": "Poláček ji napsal v roce 1943, krátce před deportací do Terezína. Vyšla až po jeho smrti, v roce 1946.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Bylo_nás_pět",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-045",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal Romea a Julii?",
+    "options": [
+      "Charles Dickens",
+      "Molière",
+      "William Shakespeare",
+      "Dante Alighieri"
+    ],
+    "answer": "William Shakespeare",
+    "fact": "Juliin balkon, který ve Veroně fotí davy turistů, k domu přistavěli až ve 20. století.",
+    "difficulty": 1,
+    "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-046",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "V jakém jazyce psal pražský rodák Franz Kafka?",
+    "options": [
+      "V češtině",
+      "V jidiš",
+      "V angličtině",
+      "V němčině"
+    ],
+    "answer": "V němčině",
+    "fact": "Kafka si přál, aby jeho přítel Max Brod rukopisy spálil. Brod ho neposlechl a vydal je.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Franz_Kafka",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-047",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kterým jazykem mluví nejvíc lidí na světě jako mateřským?",
+    "options": [
+      "Čínštinou",
+      "Angličtinou",
+      "Španělštinou",
+      "Hindštinou"
+    ],
+    "answer": "Čínštinou",
+    "fact": "Když se počítají i ti, kdo se jazyk naučili, vede angličtina.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Seznam_jazyků_podle_počtu_mluvčích",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-048",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo vytvořil umělý jazyk esperanto?",
+    "options": [
+      "Johann Schleyer",
+      "Ludwik Zamenhof",
+      "J. R. R. Tolkien",
+      "Jan Amos Komenský"
+    ],
+    "answer": "Ludwik Zamenhof",
+    "fact": "Učebnici vydal roku 1887 pod jménem Doktoro Esperanto, tedy „doktor, který doufá“.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Esperanto",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-049",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se správně napíše: „Vezmi si deštník …“?",
+    "options": [
+      "sebou",
+      "ssebou",
+      "s sebou",
+      "se sebou"
+    ],
+    "answer": "s sebou",
+    "fact": "Samotné „sebou“ patří ke slovesům pohybu těla, třeba trhnout sebou nebo mrsknout sebou.",
+    "difficulty": 2,
+    "source": "https://prirucka.ujc.cas.cz/?id=785",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-050",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal novelu Krysař?",
+    "options": [
+      "Jiří Wolker",
+      "Karel Toman",
+      "Fráňa Šrámek",
+      "Viktor Dyk"
+    ],
+    "answer": "Viktor Dyk",
+    "fact": "Dyk zemřel roku 1931 při koupání v moři u chorvatského ostrova Lopud.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Krysař_(Dyk)",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-051",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal Povídky malostranské?",
+    "options": [
+      "Jan Neruda",
+      "Alois Jirásek",
+      "Jakub Arbes",
+      "Svatopluk Čech"
+    ],
+    "answer": "Jan Neruda",
+    "fact": "Chilský básník Pablo Neruda si podle něj nejspíš vybral pseudonym. Některé zdroje ale uvádějí houslistku Wilmu Nerudovou.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Povídky_malostranské",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-052",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kdo napsal Robinsona Crusoe?",
+    "options": [
+      "Jonathan Swift",
+      "Daniel Defoe",
+      "Robert L. Stevenson",
+      "Jules Verne"
+    ],
+    "answer": "Daniel Defoe",
+    "fact": "Inspirací byl skotský námořník Alexander Selkirk, který přežil přes čtyři roky sám na pustém ostrově.",
+    "difficulty": 2,
+    "source": "https://cs.wikipedia.org/wiki/Robinson_Crusoe",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-053",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "V jakém roce vyšel první díl Harryho Pottera?",
+    "answer": 1997,
+    "unit": "rok",
+    "fact": "Nakladatelství Bloomsbury ho vydalo, až když úvodní kapitoly přečetla osmiletá dcera šéfa nakladatelství a chtěla vědět, co bude dál.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-054",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "V jakém roce vyšel první díl Bible kralické?",
+    "answer": 1579,
+    "unit": "rok",
+    "fact": "Byl to první český překlad bible z původních jazyků. Jeho čeština sloužila obrozencům jako vzor spisovného jazyka.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Bible_kralická",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-055",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "V jakém roce vyšel první díl Cervantesova Dona Quijota?",
+    "answer": 1605,
+    "unit": "rok",
+    "fact": "23. duben, den spojovaný s úmrtím Cervantese i Shakespeara roku 1616, se dnes slaví jako Světový den knihy.",
+    "difficulty": 3,
+    "source": "https://en.wikipedia.org/wiki/Don_Quixote",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-056",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "estimate",
+    "text": "V jakém roce poprvé vyšel Malý princ?",
+    "answer": 1943,
+    "unit": "rok",
+    "fact": "Vyšel nejdřív v New Yorku, anglicky i francouzsky. Ve Francii až v roce 1946, kdy už byl autor po smrti.",
+    "difficulty": 2,
+    "source": "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-057",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Jak se jmenuje znaménko nad písmenem ů?",
+    "answer": "Kroužek",
+    "accept": [
+      "krouzek"
+    ],
+    "fact": "Ů vzniklo z dlouhého ó přes dvojhlásku uo – z „kóň“ bylo „kuoň“ a pak „kůň“. Kroužek je pozůstatek písmene o.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Ů",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-058",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Jak se jmenuje písmo starých Egypťanů složené z obrázkových znaků?",
+    "answer": "Hieroglyfy",
+    "accept": [
+      "hieroglyfické písmo",
+      "hieroglify"
+    ],
+    "fact": "Rozluštil je Jean-François Champollion v roce 1822 díky Rosettské desce, na níž je stejný text i řecky.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Egyptské_hieroglyfy",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-059",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Jak se jmenuje nejstarší slovanské písmo, které pro misii na Velkou Moravu vytvořil Konstantin?",
+    "answer": "Hlaholice",
+    "accept": [
+      "hlaholské písmo"
+    ],
+    "fact": "Jeho písmena vycházejí částečně z řecké minuskule; v Chorvatsku se hlaholicí psalo místy až do 19. století.",
+    "difficulty": 3,
+    "source": "https://cs.wikipedia.org/wiki/Hlaholice",
+    "status": "verified"
+  },
+  {
+    "id": "hospoda-slova-jazyk-060",
+    "level": "hospoda",
+    "theme": "slova-jazyk",
+    "type": "open",
+    "text": "Jaký je 1. pád množného čísla slova člověk?",
+    "answer": "Lidé",
+    "accept": [
+      "lidi"
+    ],
+    "fact": "Tvary z úplně jiného kořene mají i další slova: být – jsem, dobrý – lepší.",
+    "difficulty": 1,
+    "source": "https://cs.wikipedia.org/wiki/Supletivismus",
+    "status": "verified"
   }
 ]

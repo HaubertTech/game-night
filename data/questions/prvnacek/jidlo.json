@@ -1,0 +1,398 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Od kterého zvířete pijeme mléko nejčastěji?",
+    "options": [
+      "🐔 Od slepice",
+      "🐄 Od krávy",
+      "🐷 Od prasete"
+    ],
+    "answer": "🐄 Od krávy",
+    "fact": "Z mléka se vyrábí sýr, máslo i jogurt.",
+    "difficulty": 1,
+    "image": "🥛",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-jidlo-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co snáší slepice?",
+    "options": [
+      "🥛 Mléko",
+      "🍯 Med",
+      "🥚 Vejce"
+    ],
+    "answer": "🥚 Vejce",
+    "fact": "Kuře se z vejce vylíhne asi za tři týdny.",
+    "difficulty": 1,
+    "image": "🐔",
+    "source": "https://cs.wikipedia.org/wiki/Kur_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-jidlo-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kdo nám dává med?",
+    "options": [
+      "🐝 Včely",
+      "🐜 Mravenci",
+      "🦋 Motýli"
+    ],
+    "answer": "🐝 Včely",
+    "fact": "Včely dělají med ze sladké šťávy z květů.",
+    "difficulty": 1,
+    "image": "🍯",
+    "source": "https://cs.wikipedia.org/wiki/Med",
+    "status": "verified",
+    "id": "prvnacek-jidlo-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které z toho je ovoce?",
+    "options": [
+      "🥔 Brambora",
+      "🍎 Jablko",
+      "🥕 Mrkev"
+    ],
+    "answer": "🍎 Jablko",
+    "fact": "Většina jablek u nás dozrává na konci léta a na podzim.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "https://cs.wikipedia.org/wiki/Jablo%C5%88_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-jidlo-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se peče chleba?",
+    "options": [
+      "🥛 Z mléka",
+      "🍬 Z cukru",
+      "🌾 Z mouky"
+    ],
+    "answer": "🌾 Z mouky",
+    "fact": "Mouka se mele z obilí, třeba z pšenice nebo žita.",
+    "difficulty": 1,
+    "image": "🍞",
+    "source": "https://cs.wikipedia.org/wiki/Chl%C3%A9b",
+    "status": "verified",
+    "id": "prvnacek-jidlo-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která ryba se u nás tradičně jí na Vánoce?",
+    "options": [
+      "🐟 Kapr",
+      "🍣 Losos",
+      "🦈 Žralok"
+    ],
+    "answer": "🐟 Kapr",
+    "fact": "Kapři se chovají v rybnících, hodně jich je na Třeboňsku.",
+    "difficulty": 2,
+    "image": "🎄",
+    "source": "https://cs.wikipedia.org/wiki/Kapr_obecn%C3%BD",
+    "status": "verified",
+    "id": "prvnacek-jidlo-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z čeho se dělá máslo?",
+    "options": [
+      "🌾 Z mouky",
+      "🥛 Ze smetany",
+      "🍎 Z jablek"
+    ],
+    "answer": "🥛 Ze smetany",
+    "fact": "Máslo vznikne, když se smetana dlouho tluče. Dřív se to dělalo v máselnici.",
+    "difficulty": 2,
+    "image": "🧈",
+    "source": "https://cs.wikipedia.org/wiki/M%C3%A1slo",
+    "status": "verified",
+    "id": "prvnacek-jidlo-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze které zeleniny nám slzí oči, když ji krájíme?",
+    "options": [
+      "🥒 Z okurky",
+      "🥬 Ze salátu",
+      "🧅 Z cibule"
+    ],
+    "answer": "🧅 Z cibule",
+    "fact": "Cibule při krájení pouští do vzduchu látku, která štípe v očích.",
+    "difficulty": 1,
+    "image": "😢",
+    "source": "https://cs.wikipedia.org/wiki/Cibule_kuchy%C5%88sk%C3%A1",
+    "status": "verified",
+    "id": "prvnacek-jidlo-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce má zrníčka na povrchu?",
+    "options": [
+      "🍓 Jahoda",
+      "🍌 Banán",
+      "🍊 Pomeranč"
+    ],
+    "answer": "🍓 Jahoda",
+    "fact": "Jahoda má zrníčka venku, a ne uvnitř jako jiné ovoce.",
+    "difficulty": 1,
+    "image": "🔍",
+    "source": "https://cs.wikipedia.org/wiki/Jahodn%C3%ADk",
+    "status": "verified",
+    "id": "prvnacek-jidlo-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce roste v hroznech?",
+    "options": [
+      "🍒 Třešně",
+      "🍇 Víno",
+      "🍑 Broskve"
+    ],
+    "answer": "🍇 Víno",
+    "fact": "Rozinky jsou usušené hrozny vína.",
+    "difficulty": 1,
+    "image": "🍃",
+    "source": "https://cs.wikipedia.org/wiki/Rozinky",
+    "status": "verified",
+    "id": "prvnacek-jidlo-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterou zeleninu rád chroupe zajíček?",
+    "options": [
+      "🌶️ Papriku",
+      "🧄 Česnek",
+      "🥕 Mrkev"
+    ],
+    "answer": "🥕 Mrkev",
+    "fact": "Zajíci a králíci nejvíc potřebují seno a trávu. Mrkev je pro ně pamlsek.",
+    "difficulty": 1,
+    "image": "🐰",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-jidlo-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Čím krájíme chleba?",
+    "options": [
+      "🔪 Nožem",
+      "🥄 Lžící",
+      "🥢 Hůlkami"
+    ],
+    "answer": "🔪 Nožem",
+    "fact": "Hůlkami se jí třeba v Číně a v Japonsku.",
+    "difficulty": 1,
+    "image": "🍞",
+    "source": "https://cs.wikipedia.org/wiki/J%C3%ADdeln%C3%AD_h%C5%AFlky",
+    "status": "verified",
+    "id": "prvnacek-jidlo-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které jídlo je sladké?",
+    "options": [
+      "🥒 Okurka",
+      "🍫 Čokoláda",
+      "🧀 Sýr"
+    ],
+    "answer": "🍫 Čokoláda",
+    "fact": "Čokoláda se dělá z kakaových bobů. Rostou v teplých krajích.",
+    "difficulty": 1,
+    "image": "👅",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cokol%C3%A1da",
+    "status": "verified",
+    "id": "prvnacek-jidlo-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce se loupe a dělí na dílky?",
+    "options": [
+      "🍎 Jablko",
+      "🍐 Hruška",
+      "🍊 Pomeranč"
+    ],
+    "answer": "🍊 Pomeranč",
+    "fact": "Pomeranče rostou na stromech v teplých krajích, třeba ve Španělsku.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "https://cs.wikipedia.org/wiki/Pomeran%C4%8Dovn%C3%ADk",
+    "status": "verified",
+    "id": "prvnacek-jidlo-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje první jídlo dne?",
+    "options": [
+      "🌅 Snídaně",
+      "🍽️ Oběd",
+      "🌙 Večeře"
+    ],
+    "answer": "🌅 Snídaně",
+    "fact": "Po dlouhé noci dodá snídaně tělu sílu do školy.",
+    "difficulty": 1,
+    "image": "🥣",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-jidlo-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co si nosíme do školy na přestávku?",
+    "options": [
+      "🍲 Polévku",
+      "🥪 Svačinu",
+      "🎂 Dort"
+    ],
+    "answer": "🥪 Svačinu",
+    "fact": "Ke svačině se hodí kousek ovoce nebo zeleniny.",
+    "difficulty": 1,
+    "image": "🎒",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-jidlo-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Od kterého zvířete je šunka?",
+    "options": [
+      "🐔 Od slepice",
+      "🐟 Od ryby",
+      "🐷 Od prasete"
+    ],
+    "answer": "🐷 Od prasete",
+    "fact": "Prasata se válí v bahně, aby se v horku ochladila.",
+    "difficulty": 1,
+    "image": "🥪",
+    "source": "https://cs.wikipedia.org/wiki/Prase_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "prvnacek-jidlo-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co z toho je pečivo?",
+    "options": [
+      "🥐 Rohlík",
+      "🥕 Mrkev",
+      "🧀 Sýr"
+    ],
+    "answer": "🥐 Rohlík",
+    "fact": "Pečivo se peče z mouky, vody a kvasnic.",
+    "difficulty": 1,
+    "image": "🧺",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-jidlo-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které modré ovoce roste v lese na keříčcích?",
+    "options": [
+      "🍌 Banány",
+      "🫐 Borůvky",
+      "🍍 Ananas"
+    ],
+    "answer": "🫐 Borůvky",
+    "fact": "Po borůvkách máme modrý jazyk i prsty.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Brusnice_bor%C5%AFvka",
+    "status": "verified",
+    "id": "prvnacek-jidlo-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jakou barvu má vodní meloun uvnitř?",
+    "options": [
+      "🔵 Modrou",
+      "🟤 Hnědou",
+      "🔴 Červenou"
+    ],
+    "answer": "🔴 Červenou",
+    "fact": "Meloun je skoro celý z vody, proto v létě tak osvěží.",
+    "difficulty": 1,
+    "image": "🔪",
+    "source": "https://cs.wikipedia.org/wiki/Lubenice_obecná",
+    "status": "verified",
+    "id": "prvnacek-jidlo-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Co se peče z mouky, vajec a mléka a maže marmeládou?",
+    "options": [
+      "🥞 Palačinky",
+      "🍕 Pizza",
+      "🍟 Hranolky"
+    ],
+    "answer": "🥞 Palačinky",
+    "fact": "Palačinky se pečou na pánvi a dají se srolovat.",
+    "difficulty": 1,
+    "image": "🍳",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-jidlo-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které jídlo se dělá z mléka?",
+    "options": [
+      "🍞 Chléb",
+      "🧀 Sýr",
+      "🍎 Jablko"
+    ],
+    "answer": "🧀 Sýr",
+    "fact": "Některé sýry mají díry. Vzniknou z bublinek plynu, když sýr zraje.",
+    "difficulty": 1,
+    "image": "🐄",
+    "source": "https://cs.wikipedia.org/wiki/Ementál",
+    "status": "verified",
+    "id": "prvnacek-jidlo-022"
+  }
+]

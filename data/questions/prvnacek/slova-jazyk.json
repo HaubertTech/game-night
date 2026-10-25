@@ -1,0 +1,398 @@
+[
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které písmeno je v abecedě první?",
+    "options": [
+      "🔤 Z",
+      "🔤 B",
+      "🔤 A"
+    ],
+    "answer": "🔤 A",
+    "fact": "Česká abeceda má i písmena s háčkem, třeba Č nebo Ř.",
+    "difficulty": 1,
+    "image": "📚",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_abeceda",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-001"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „velký“?",
+    "options": [
+      "🐭 Malý",
+      "💪 Silný",
+      "🦒 Vysoký"
+    ],
+    "answer": "🐭 Malý",
+    "fact": "Slovům s opačným významem říkáme protiklady.",
+    "difficulty": 1,
+    "image": "🐘",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-002"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „pes“?",
+    "options": [
+      "🐱 Kočka",
+      "🌲 Les",
+      "🏠 Dům"
+    ],
+    "answer": "🌲 Les",
+    "fact": "Rýmy najdeš v říkankách a básničkách.",
+    "difficulty": 1,
+    "image": "🐶",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-003"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik písmen má slovo „máma“?",
+    "options": [
+      "3️⃣ 3",
+      "5️⃣ 5",
+      "4️⃣ 4"
+    ],
+    "answer": "4️⃣ 4",
+    "fact": "V mnoha jazycích zní slovo pro mámu podobně, třeba mama nebo mamá.",
+    "difficulty": 1,
+    "image": "👩",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-004"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „den“?",
+    "options": [
+      "🌙 Noc",
+      "🌅 Ráno",
+      "📅 Týden"
+    ],
+    "answer": "🌙 Noc",
+    "fact": "V zimě je noc delší než den.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-005"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „rychlý“?",
+    "options": [
+      "👴 Starý",
+      "🐢 Pomalý",
+      "💪 Silný"
+    ],
+    "answer": "🐢 Pomalý",
+    "fact": "Pomalá zvířata jsou třeba hlemýžď nebo želva.",
+    "difficulty": 2,
+    "image": "🐇",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-006"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Na jakou hlásku začíná slovo „auto“?",
+    "options": [
+      "🔤 O",
+      "🔤 E",
+      "🔤 A"
+    ],
+    "answer": "🔤 A",
+    "fact": "Slovo auto je zkratka slova automobil.",
+    "difficulty": 1,
+    "image": "🚗",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-007"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Na jakou hlásku začíná slovo „mýdlo“?",
+    "options": [
+      "🔤 M",
+      "🔤 D",
+      "🔤 L"
+    ],
+    "answer": "🔤 M",
+    "fact": "Mýdlo je příbuzné se slovem mýt, a proto se píše s ypsilonem.",
+    "difficulty": 1,
+    "image": "🧼",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-008"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Na jakou hlásku končí slovo „dům“?",
+    "options": [
+      "🔤 D",
+      "🔤 M",
+      "🔤 Ů"
+    ],
+    "answer": "🔤 M",
+    "fact": "Ů s kroužkem se nikdy nepíše na začátku slova.",
+    "difficulty": 2,
+    "image": "🏠",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-009"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik slabik má slovo „máma“?",
+    "options": [
+      "1️⃣ 1",
+      "3️⃣ 3",
+      "2️⃣ 2"
+    ],
+    "answer": "2️⃣ 2",
+    "fact": "Slabiky si můžeme vytleskat: má-ma.",
+    "difficulty": 1,
+    "image": "👏",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-010"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik slabik má slovo „pes“?",
+    "options": [
+      "1️⃣ 1",
+      "2️⃣ 2",
+      "3️⃣ 3"
+    ],
+    "answer": "1️⃣ 1",
+    "fact": "Jednu slabiku mají i slova les, dům nebo míč.",
+    "difficulty": 1,
+    "image": "🐶",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-011"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik slabik má slovo „kočička“?",
+    "options": [
+      "2️⃣ 2",
+      "3️⃣ 3",
+      "4️⃣ 4"
+    ],
+    "answer": "3️⃣ 3",
+    "fact": "Vytleskáme si to: ko-či-čka.",
+    "difficulty": 2,
+    "image": "🐱",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-012"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „hrad“?",
+    "options": [
+      "🏯 Zámek",
+      "🐸 Žába",
+      "🐍 Had"
+    ],
+    "answer": "🐍 Had",
+    "fact": "Hrad a had se liší jen jedním písmenem.",
+    "difficulty": 1,
+    "image": "🏰",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-013"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „myška“?",
+    "options": [
+      "🌰 Šiška",
+      "🧀 Sýr",
+      "🐱 Kočka"
+    ],
+    "answer": "🌰 Šiška",
+    "fact": "Veverky ze šišek loupou semínka.",
+    "difficulty": 1,
+    "image": "🐭",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-014"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „horký“?",
+    "options": [
+      "🔥 Teplý",
+      "🧊 Studený",
+      "🌞 Slunný"
+    ],
+    "answer": "🧊 Studený",
+    "fact": "Horký čaj necháme chvíli vychladnout, abychom se nespálili.",
+    "difficulty": 1,
+    "image": "☕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-015"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „smutný“?",
+    "options": [
+      "😢 Uplakaný",
+      "😴 Ospalý",
+      "😊 Veselý"
+    ],
+    "answer": "😊 Veselý",
+    "fact": "Divadelní masky ukazují smích i pláč.",
+    "difficulty": 1,
+    "image": "🎭",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-016"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které písmeno je v české abecedě poslední?",
+    "options": [
+      "🔤 Ž",
+      "🔤 Z",
+      "🔤 Y"
+    ],
+    "answer": "🔤 Ž",
+    "fact": "Ž má nad sebou háček, stejně jako Č, Ř nebo Š.",
+    "difficulty": 2,
+    "image": "🔚",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_abeceda",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-017"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo začíná na písmeno S?",
+    "options": [
+      "🌙 Měsíc",
+      "☀️ Slunce",
+      "⭐ Hvězda"
+    ],
+    "answer": "☀️ Slunce",
+    "fact": "Slunce je taky hvězda, jen je nám nejblíž.",
+    "difficulty": 1,
+    "image": "🔤",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-018"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo začíná stejnou hláskou jako „koza“?",
+    "options": [
+      "🐶 Pes",
+      "🐭 Myš",
+      "🐱 Kočka"
+    ],
+    "answer": "🐱 Kočka",
+    "fact": "Kozím mláďatům se říká kůzlátka.",
+    "difficulty": 1,
+    "image": "🐐",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-019"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak říkáme maminčině mamince?",
+    "options": [
+      "👵 Babička",
+      "👩 Teta",
+      "👧 Sestřenice"
+    ],
+    "answer": "👵 Babička",
+    "fact": "Babičce a dědečkovi říkáme prarodiče.",
+    "difficulty": 1,
+    "image": "👩",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-020"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak říkáme bratrovi a sestře dohromady?",
+    "options": [
+      "👪 Rodiče",
+      "👫 Sourozenci",
+      "👴 Prarodiče"
+    ],
+    "answer": "👫 Sourozenci",
+    "fact": "Dvojčata jsou sourozenci, kteří se narodili spolu, jeden hned po druhém.",
+    "difficulty": 2,
+    "image": "👧",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-021"
+  },
+  {
+    "level": "prvnacek",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo znamená malý dům?",
+    "options": [
+      "🏰 Hrad",
+      "🏢 Panelák",
+      "🏡 Domeček"
+    ],
+    "answer": "🏡 Domeček",
+    "fact": "Slovům jako domeček nebo pejsek říkáme zdrobněliny.",
+    "difficulty": 1,
+    "image": "🔍",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "prvnacek-slova-jazyk-022"
+  }
+]

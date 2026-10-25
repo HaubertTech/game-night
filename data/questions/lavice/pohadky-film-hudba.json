@@ -1,97 +1,98 @@
 [
   {
-    "id": "lavice-pohadky-film-hudba-001",
     "level": "lavice",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Jaké zvíře je Ferda?",
+    "text": "Jak se jmenuje vládce hor z pohádek o Krkonoších?",
     "options": [
-      "Mravenec",
-      "Včela",
-      "Moucha",
-      "Brouk"
-    ],
-    "answer": "Mravenec",
-    "fact": "Ferdu Mravence vymyslel malíř a spisovatel Ondřej Sekora.",
-    "difficulty": 1,
-    "image": "📚",
-    "source": "https://cs.wikipedia.org/wiki/Ferda_Mravenec",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-pohadky-film-hudba-002",
-    "level": "lavice",
-    "theme": "pohadky-film-hudba",
-    "type": "choice",
-    "text": "Jak se jmenují dva kutilové, kterým se všechno pokazí?",
-    "options": [
-      "Křemílek a Vochomůrka",
-      "Pat a Mat",
-      "Bob a Bobek",
-      "Spejbl a Hurvínek"
-    ],
-    "answer": "Pat a Mat",
-    "fact": "Pat a Mat vždycky řeknou „A je to!“, i když to dopadne všelijak.",
-    "difficulty": 1,
-    "image": "🔨",
-    "source": "https://cs.wikipedia.org/wiki/Pat_a_Mat",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-pohadky-film-hudba-003",
-    "level": "lavice",
-    "theme": "pohadky-film-hudba",
-    "type": "choice",
-    "text": "Jaká zvířátka jsou Bob a Bobek?",
-    "options": [
-      "Veverky",
-      "Ježci",
-      "Králíci",
-      "Myšky"
-    ],
-    "answer": "Králíci",
-    "fact": "Bob a Bobek vyskakují z kouzelníkova klobouku.",
-    "difficulty": 1,
-    "image": "🎩",
-    "source": "https://cs.wikipedia.org/wiki/Bob_a_Bobek_%E2%80%93_kr%C3%A1l%C3%ADci_z_klobouku",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-pohadky-film-hudba-004",
-    "level": "lavice",
-    "theme": "pohadky-film-hudba",
-    "type": "choice",
-    "text": "Jak se jmenuje loupežník z lesa Řáholce?",
-    "options": [
-      "Ferda",
       "Rumcajs",
       "Hurvínek",
+      "Kašpárek",
       "Krakonoš"
     ],
-    "answer": "Rumcajs",
-    "fact": "Rumcajs byl dřív ševcem v Jičíně.",
+    "answer": "Krakonoš",
+    "fact": "Krakonoš podle pověstí trestá zlé lidi a pomáhá dobrým.",
     "difficulty": 1,
-    "image": "🌲",
-    "source": "https://cs.wikipedia.org/wiki/Rumcajs",
-    "status": "verified"
+    "image": "🏔️",
+    "source": "https://cs.wikipedia.org/wiki/Krakono%C5%A1",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-001"
   },
   {
-    "id": "lavice-pohadky-film-hudba-005",
     "level": "lavice",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Které zvíře s dlouhýma ušima kamarádí s Krtkem?",
+    "text": "Jak se jmenuje obrovský pes, kamarád holčičky Ájy?",
     "options": [
-      "Zajíc",
-      "Tygr",
-      "Slon"
+      "Maxipes Fík",
+      "Žeryk",
+      "Punťa",
+      "Ferda"
     ],
-    "answer": "Zajíc",
-    "fact": "Krtek a jeho kamarádi skoro nemluví, a přesto jim všichni rozumí.",
-    "difficulty": 1,
-    "image": "📺",
-    "source": "https://cs.wikipedia.org/wiki/Krtek",
-    "status": "verified"
+    "answer": "Maxipes Fík",
+    "fact": "Fíka vymyslel spisovatel Rudolf Čechura a nakreslil Jiří Šalamoun.",
+    "difficulty": 2,
+    "image": "🐕",
+    "source": "https://cs.wikipedia.org/wiki/Maxipes_F%C3%ADk",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Malý princ?",
+    "options": [
+      "Hans Christian Andersen",
+      "Antoine de Saint-Exupéry",
+      "Bratři Grimmové",
+      "Josef Lada"
+    ],
+    "answer": "Antoine de Saint-Exupéry",
+    "fact": "Autor byl pilot a obrázky do knížky nakreslil sám.",
+    "difficulty": 3,
+    "image": "🌹",
+    "source": "https://cs.wikipedia.org/wiki/Mal%C3%BD_princ",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-003"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal pohádku O malé mořské víle?",
+    "options": [
+      "Bratři Grimmové",
+      "Božena Němcová",
+      "Hans Christian Andersen",
+      "Karel Jaromír Erben"
+    ],
+    "answer": "Hans Christian Andersen",
+    "fact": "V dánské Kodani sedí u moře bronzová socha Malé mořské víly.",
+    "difficulty": 2,
+    "image": "🧜",
+    "source": "https://cs.wikipedia.org/wiki/Mal%C3%A1_mo%C5%99sk%C3%A1_v%C3%ADla",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-004"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo sebral a zapsal pohádku o Sněhurce a sedmi trpaslících?",
+    "options": [
+      "Hans Christian Andersen",
+      "Josef Lada",
+      "Jan Werich",
+      "Bratři Grimmové"
+    ],
+    "answer": "Bratři Grimmové",
+    "fact": "Bratři Grimmové byli Němci a zapisovali pohádky, které si lidé vyprávěli.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Brat%C5%99i_Grimmov%C3%A9",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-005"
   },
   {
     "id": "lavice-pohadky-film-hudba-006",
@@ -113,23 +114,23 @@
     "status": "verified"
   },
   {
-    "id": "lavice-pohadky-film-hudba-007",
     "level": "lavice",
     "theme": "pohadky-film-hudba",
     "type": "choice",
-    "text": "Kteří dva skřítci bydlí v pařezové chaloupce?",
+    "text": "Kdo napsal pohádkovou knížku Fimfárum?",
     "options": [
-      "Křemílek a Vochomůrka",
-      "Pat a Mat",
-      "Spejbl a Hurvínek",
-      "Bob a Bobek"
+      "Jan Werich",
+      "Karel Čapek",
+      "Josef Lada",
+      "Ondřej Sekora"
     ],
-    "answer": "Křemílek a Vochomůrka",
-    "fact": "Jejich příběhy napsal Václav Čtvrtek.",
+    "answer": "Jan Werich",
+    "fact": "Jan Werich byl i slavný herec, hrál třeba v Císařově pekaři.",
     "difficulty": 2,
-    "image": "🍄",
-    "source": "https://cs.wikipedia.org/wiki/Poh%C3%A1dky_z_mechu_a_kaprad%C3%AD",
-    "status": "verified"
+    "image": "📖",
+    "source": "https://cs.wikipedia.org/wiki/Fimf%C3%A1rum",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-007"
   },
   {
     "id": "lavice-pohadky-film-hudba-008",
@@ -282,5 +283,290 @@
     "image": "👩",
     "source": "https://cs.wikipedia.org/wiki/Rumcajs",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Dášeňka čili Život štěněte?",
+    "options": [
+      "Josef Lada",
+      "Karel Čapek",
+      "Jan Werich",
+      "Ondřej Sekora"
+    ],
+    "answer": "Karel Čapek",
+    "fact": "Dášeňka byla skutečná fenka foxteriéra, kterou Karel Čapek sám fotografoval.",
+    "difficulty": 2,
+    "image": "🐶",
+    "source": "https://cs.wikipedia.org/wiki/D%C3%A1%C5%A1e%C5%88ka_%C4%8Dili_%C5%BEivot_%C5%A1t%C4%9Bn%C4%9Bte",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo vymyslel příběhy o loupežníku Rumcajsovi?",
+    "options": [
+      "Josef Lada",
+      "Ondřej Sekora",
+      "Václav Čtvrtek",
+      "Zdeněk Miler"
+    ],
+    "answer": "Václav Čtvrtek",
+    "fact": "Čtvrtek vymyslel i Křemílka a Vochomůrku nebo vílu Amálku.",
+    "difficulty": 2,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/V%C3%A1clav_%C4%8Ctvrtek",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na který nástroj se hraje smyčcem?",
+    "options": [
+      "Na trubku",
+      "Na klavír",
+      "Na buben",
+      "Na housle"
+    ],
+    "answer": "Na housle",
+    "fact": "Smyčec se vyrábí z koňských žíní.",
+    "difficulty": 1,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/Smy%C4%8Dec",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik strun mají housle?",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "12"
+    ],
+    "answer": "4",
+    "fact": "Kytara jich má obvykle šest.",
+    "difficulty": 2,
+    "image": "🎻",
+    "source": "https://cs.wikipedia.org/wiki/Housle",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kolik kláves má klasický klavír?",
+    "options": [
+      "52",
+      "88",
+      "100",
+      "64"
+    ],
+    "answer": "88",
+    "fact": "Bílých kláves je 52 a černých 36.",
+    "difficulty": 3,
+    "image": "🎹",
+    "source": "https://cs.wikipedia.org/wiki/Klav%C3%ADr",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo složil operu Rusalka?",
+    "options": [
+      "Bedřich Smetana",
+      "Leoš Janáček",
+      "Antonín Dvořák",
+      "Bohuslav Martinů"
+    ],
+    "answer": "Antonín Dvořák",
+    "fact": "Nejslavnější písní z Rusalky je árie Měsíčku na nebi hlubokém.",
+    "difficulty": 3,
+    "image": "🌙",
+    "source": "https://cs.wikipedia.org/wiki/Rusalka_(Dvo%C5%99%C3%A1k)",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížku Broučci?",
+    "options": [
+      "Karel Jaromír Erben",
+      "Josef Lada",
+      "Václav Čtvrtek",
+      "Jan Karafiát"
+    ],
+    "answer": "Jan Karafiát",
+    "fact": "Broučci jsou světlušky, které v noci svítí.",
+    "difficulty": 3,
+    "image": "🪲",
+    "source": "https://cs.wikipedia.org/wiki/Brou%C4%8Dci",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Hurvínkova kamarádka?",
+    "options": [
+      "Mánička",
+      "Manka",
+      "Maruška",
+      "Amálka"
+    ],
+    "answer": "Mánička",
+    "fact": "Hurvínek má taky psa, který se jmenuje Žeryk.",
+    "difficulty": 2,
+    "image": "🎭",
+    "source": "https://cs.wikipedia.org/wiki/M%C3%A1ni%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje Popelčin kůň ve filmu Tři oříšky pro Popelku?",
+    "options": [
+      "Šemík",
+      "Jurášek",
+      "Bělouš",
+      "Ferda"
+    ],
+    "answer": "Jurášek",
+    "fact": "Film Tři oříšky pro Popelku vznikl v roce 1973 a Popelku v něm hrála Libuše Šafránková.",
+    "difficulty": 3,
+    "image": "🐴",
+    "source": "https://www.novinky.cz/clanek/vanoce-tri-orisky-pro-popelku-k-vanocum-neodmyslitelne-patri-209689",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Ve které vesnici žil kocour Mikeš?",
+    "options": [
+      "V Kocourkově",
+      "V Lhotě",
+      "V Hrusicích",
+      "V Kozlově"
+    ],
+    "answer": "V Hrusicích",
+    "fact": "V Hrusicích se narodil i Mikešův autor Josef Lada a je tam jeho památník.",
+    "difficulty": 3,
+    "image": "🐈",
+    "source": "https://cs.wikipedia.org/wiki/Hrusice",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Za kým skočila Alenka do nory v říši divů?",
+    "options": [
+      "Za černou kočkou",
+      "Za myškou",
+      "Za pejskem",
+      "Za bílým králíkem"
+    ],
+    "answer": "Za bílým králíkem",
+    "fact": "Knížku napsal anglický matematik Lewis Carroll.",
+    "difficulty": 2,
+    "image": "🐇",
+    "source": "https://cs.wikipedia.org/wiki/Alenka_v_%C5%99%C3%AD%C5%A1i_div%C5%AF",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo napsal knížky o Pipi Dlouhé punčoše?",
+    "options": [
+      "Astrid Lindgrenová",
+      "Hans Christian Andersen",
+      "Bratři Grimmové",
+      "Lewis Carroll"
+    ],
+    "answer": "Astrid Lindgrenová",
+    "fact": "Astrid Lindgrenová byla Švédka a napsala i Děti z Bullerbynu.",
+    "difficulty": 3,
+    "image": "👧",
+    "source": "https://cs.wikipedia.org/wiki/Astrid_Lindgrenov%C3%A1",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje česká hymna?",
+    "options": [
+      "Ach synku, synku",
+      "Kde domov můj",
+      "Prší, prší",
+      "Skákal pes"
+    ],
+    "answer": "Kde domov můj",
+    "fact": "Hymna pochází z divadelní hry Fidlovačka z roku 1834.",
+    "difficulty": 2,
+    "image": "🇨🇿",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_hymna",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Jak se jmenuje prasátko, kamarád kocoura Mikeše?",
+    "options": [
+      "Čuník",
+      "Bobeš",
+      "Pašík",
+      "Ferda"
+    ],
+    "answer": "Pašík",
+    "fact": "Mikešovým kamarádem je i kozel Bobeš.",
+    "difficulty": 3,
+    "image": "🐷",
+    "source": "https://cs.wikipedia.org/wiki/Josef_Lada",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který nástroj s píšťalami a klávesami najdeš v kostele?",
+    "options": [
+      "Harfa",
+      "Housle",
+      "Kytara",
+      "Varhany"
+    ],
+    "answer": "Varhany",
+    "fact": "Velké varhany mají i tisíce píšťal.",
+    "difficulty": 2,
+    "image": "⛪",
+    "source": "https://cs.wikipedia.org/wiki/Varhany",
+    "status": "verified",
+    "id": "lavice-pohadky-film-hudba-030"
   }
 ]

@@ -1,75 +1,79 @@
 [
   {
-    "id": "lavice-sport-hry-001",
     "level": "lavice",
     "theme": "sport-hry",
     "type": "choice",
-    "text": "Čím se hraje tenis?",
+    "text": "Kolik hráčů jednoho týmu je v ledním hokeji na ledě?",
     "options": [
-      "Raketou",
-      "Hokejkou",
-      "Holí"
-    ],
-    "answer": "Raketou",
-    "fact": "Tenisové míčky jsou žluté hlavně proto, aby byly dobře vidět v televizi.",
-    "difficulty": 1,
-    "image": "🎾",
-    "source": "https://www.hellomagazine.com/travel/2017071140538/wimbledon-tennis-balls-yellow/",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-sport-hry-002",
-    "level": "lavice",
-    "theme": "sport-hry",
-    "type": "choice",
-    "text": "Kam se snaží fotbalista dostat míč?",
-    "options": [
-      "Do koše",
-      "Do branky",
-      "Přes síť"
-    ],
-    "answer": "Do branky",
-    "fact": "Fotbalová branka je široká přes sedm metrů.",
-    "difficulty": 1,
-    "image": "⚽",
-    "source": "https://cs.wikipedia.org/wiki/Fotbal",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-sport-hry-003",
-    "level": "lavice",
-    "theme": "sport-hry",
-    "type": "choice",
-    "text": "Čím se hraje lední hokej?",
-    "options": [
-      "Kuličkou",
-      "Míčkem",
-      "Pukem"
-    ],
-    "answer": "Pukem",
-    "fact": "Puk je z tvrdé gumy a před zápasem se chladí, aby lépe klouzal.",
-    "difficulty": 1,
-    "image": "⛸️",
-    "source": "https://cs.wikipedia.org/wiki/Puk",
-    "status": "verified"
-  },
-  {
-    "id": "lavice-sport-hry-004",
-    "level": "lavice",
-    "theme": "sport-hry",
-    "type": "choice",
-    "text": "Kolik stěn má hrací kostka?",
-    "options": [
-      "8",
+      "5",
+      "11",
       "6",
       "4"
     ],
     "answer": "6",
-    "fact": "Protější stěny kostky dají dohromady vždycky sedm.",
+    "fact": "Na ledě je pět hráčů v poli a brankář.",
+    "difficulty": 2,
+    "image": "🏒",
+    "source": "https://cs.wikipedia.org/wiki/Ledn%C3%AD_hokej",
+    "status": "verified",
+    "id": "lavice-sport-hry-001"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které disciplíně skáčou atleti přes laťku s dlouhou tyčí?",
+    "options": [
+      "Ve skoku dalekém",
+      "V trojskoku",
+      "Ve vrhu koulí",
+      "Ve skoku o tyči"
+    ],
+    "answer": "Ve skoku o tyči",
+    "fact": "Tyče jsou ze skelných nebo uhlíkových vláken a hodně se ohýbají.",
+    "difficulty": 2,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/Skok_o_ty%C4%8Di",
+    "status": "verified",
+    "id": "lavice-sport-hry-002"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se odpaluje míček pálkou a běhá se po metách?",
+    "options": [
+      "Baseball",
+      "Golf",
+      "Tenis",
+      "Hokej"
+    ],
+    "answer": "Baseball",
+    "fact": "Baseball je velmi oblíbený v USA a v Japonsku.",
+    "difficulty": 2,
+    "image": "⚾",
+    "source": "https://cs.wikipedia.org/wiki/Baseball",
+    "status": "verified",
+    "id": "lavice-sport-hry-003"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jakou medaili dostane sportovec za třetí místo?",
+    "options": [
+      "Stříbrnou",
+      "Bronzovou",
+      "Zlatou",
+      "Železnou"
+    ],
+    "answer": "Bronzovou",
+    "fact": "Olympijské zlaté medaile jsou ve skutečnosti hlavně ze stříbra a jen pozlacené.",
     "difficulty": 1,
-    "image": "🎲",
-    "source": "https://cs.wikipedia.org/wiki/Hrac%C3%AD_kostka",
-    "status": "verified"
+    "image": "🥉",
+    "source": "https://cs.wikipedia.org/wiki/Olympijsk%C3%A1_medaile",
+    "status": "verified",
+    "id": "lavice-sport-hry-004"
   },
   {
     "id": "lavice-sport-hry-005",
@@ -110,23 +114,23 @@
     "status": "verified"
   },
   {
-    "id": "lavice-sport-hry-007",
     "level": "lavice",
     "theme": "sport-hry",
     "type": "choice",
-    "text": "Ve kterém sportu se hází míč do koše?",
+    "text": "Jak se jmenuje sport, ve kterém se běží na lyžích a střílí na terče?",
     "options": [
-      "Házená",
-      "Basketbal",
-      "Volejbal",
-      "Florbal"
+      "Slalom",
+      "Skoky na lyžích",
+      "Biatlon",
+      "Krasobruslení"
     ],
-    "answer": "Basketbal",
-    "fact": "Koš visí ve výšce přes tři metry.",
+    "answer": "Biatlon",
+    "fact": "Biatlonisté střílejí vleže i vstoje na terče vzdálené 50 metrů.",
     "difficulty": 2,
-    "image": "🏀",
-    "source": "https://cs.wikipedia.org/wiki/Basketbal",
-    "status": "verified"
+    "image": "🎯",
+    "source": "https://cs.wikipedia.org/wiki/Biatlon",
+    "status": "verified",
+    "id": "lavice-sport-hry-007"
   },
   {
     "id": "lavice-sport-hry-008",
@@ -278,5 +282,290 @@
     "image": "🏃",
     "source": "https://en.wikipedia.org/wiki/Marathon",
     "status": "verified"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik hráčů jednoho týmu je v basketbalu na hřišti?",
+    "options": [
+      "6",
+      "7",
+      "11",
+      "5"
+    ],
+    "answer": "5",
+    "fact": "Basketbal vymyslel učitel James Naismith a první koše byly košíky na broskve.",
+    "difficulty": 2,
+    "image": "🏀",
+    "source": "https://cs.wikipedia.org/wiki/Basketbal",
+    "status": "verified",
+    "id": "lavice-sport-hry-016"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se hraje hokejkou s lehkým míčkem s dírkami?",
+    "options": [
+      "Florbal",
+      "Lední hokej",
+      "Golf",
+      "Kriket"
+    ],
+    "answer": "Florbal",
+    "fact": "Florbal vznikl ve Švédsku.",
+    "difficulty": 2,
+    "image": "🏑",
+    "source": "https://cs.wikipedia.org/wiki/Florbal",
+    "status": "verified",
+    "id": "lavice-sport-hry-017"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik figurek má každý hráč ve hře Člověče, nezlob se?",
+    "options": [
+      "6",
+      "4",
+      "2",
+      "8"
+    ],
+    "answer": "4",
+    "fact": "Hra vychází ze staré indické hry pačísí.",
+    "difficulty": 1,
+    "image": "🎲",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Clov%C4%9B%C4%8De,_nezlob_se!",
+    "status": "verified",
+    "id": "lavice-sport-hry-018"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Která šachová figurka táhne do tvaru písmene L?",
+    "options": [
+      "Střelec",
+      "Věž",
+      "Jezdec",
+      "Pěšec"
+    ],
+    "answer": "Jezdec",
+    "fact": "Jezdec jako jediná figurka umí přeskakovat ostatní.",
+    "difficulty": 2,
+    "image": "♞",
+    "source": "https://cs.wikipedia.org/wiki/Jezdec_(%C5%A1achy)",
+    "status": "verified",
+    "id": "lavice-sport-hry-019"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které hře hledáš dvojice stejných obrázků?",
+    "options": [
+      "V šachách",
+      "V dámě",
+      "V Člověče, nezlob se",
+      "V pexesu"
+    ],
+    "answer": "V pexesu",
+    "fact": "Název pexeso vznikl z věty „pekelně se soustřeď“.",
+    "difficulty": 1,
+    "image": "🃏",
+    "source": "https://cs.wikipedia.org/wiki/Pexeso",
+    "status": "verified",
+    "id": "lavice-sport-hry-020"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se jezdí na prkně po mořských vlnách?",
+    "options": [
+      "V surfování",
+      "Ve skateboardingu",
+      "Ve snowboardingu",
+      "V kanoistice"
+    ],
+    "answer": "V surfování",
+    "fact": "Surfování pochází z Havajských ostrovů.",
+    "difficulty": 1,
+    "image": "🏄",
+    "source": "https://cs.wikipedia.org/wiki/Surfing",
+    "status": "verified",
+    "id": "lavice-sport-hry-021"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kterým stylem plavou plavci nejrychleji?",
+    "options": [
+      "Znakem",
+      "Kraulem",
+      "Motýlkem",
+      "Stylem prsa"
+    ],
+    "answer": "Kraulem",
+    "fact": "Když si plavec smí styl vybrat, plave skoro vždycky kraul.",
+    "difficulty": 3,
+    "image": "🏊",
+    "source": "https://cs.wikipedia.org/wiki/Kraul",
+    "status": "verified",
+    "id": "lavice-sport-hry-022"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu proslul Emil Zátopek?",
+    "options": [
+      "V hokeji",
+      "V tenise",
+      "V běhu",
+      "Ve skocích na lyžích"
+    ],
+    "answer": "V běhu",
+    "fact": "Na olympiádě v Helsinkách vyhrál i maraton, který běžel poprvé v životě.",
+    "difficulty": 2,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/Emil_Z%C3%A1topek",
+    "status": "verified",
+    "id": "lavice-sport-hry-023"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu získala olympijské medaile Martina Sáblíková?",
+    "options": [
+      "V lyžování",
+      "V biatlonu",
+      "V krasobruslení",
+      "V rychlobruslení"
+    ],
+    "answer": "V rychlobruslení",
+    "fact": "Rychlobruslaři závodí na oválu dlouhém 400 metrů.",
+    "difficulty": 2,
+    "image": "⛸️",
+    "source": "https://cs.wikipedia.org/wiki/Martina_S%C3%A1bl%C3%ADkov%C3%A1",
+    "status": "verified",
+    "id": "lavice-sport-hry-024"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se hraje se šišatým míčem?",
+    "options": [
+      "V ragby",
+      "Ve fotbale",
+      "Ve volejbale",
+      "V házené"
+    ],
+    "answer": "V ragby",
+    "fact": "Ragby je pojmenované po anglické škole Rugby, kde podle pověsti vzniklo.",
+    "difficulty": 2,
+    "image": "🏉",
+    "source": "https://cs.wikipedia.org/wiki/Ragby",
+    "status": "verified",
+    "id": "lavice-sport-hry-025"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik minut trvá jedna třetina hokejového zápasu?",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "45"
+    ],
+    "answer": "20",
+    "fact": "Hraje se čistý čas, takže při každém přerušení se hodiny zastaví.",
+    "difficulty": 2,
+    "image": "⏱️",
+    "source": "https://cs.wikipedia.org/wiki/Ledn%C3%AD_hokej",
+    "status": "verified",
+    "id": "lavice-sport-hry-026"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik minut trvá fotbalový zápas bez nastavení?",
+    "options": [
+      "60",
+      "45",
+      "90",
+      "120"
+    ],
+    "answer": "90",
+    "fact": "Hrají se dva poločasy po 45 minutách a rozhodčí může na konci přidat čas.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "https://cs.wikipedia.org/wiki/Fotbal",
+    "status": "verified",
+    "id": "lavice-sport-hry-027"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kterou šachovou figurku musíš za každou cenu ochránit?",
+    "options": [
+      "Dámu",
+      "Věž",
+      "Pěšce",
+      "Krále"
+    ],
+    "answer": "Krále",
+    "fact": "Když král nemůže uniknout ze šachu, je šach mat a partie končí.",
+    "difficulty": 1,
+    "image": "♚",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0achy",
+    "status": "verified",
+    "id": "lavice-sport-hry-028"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na jakém povrchu se hraje tenisový turnaj ve Wimbledonu?",
+    "options": [
+      "Na trávě",
+      "Na antuce",
+      "Na betonu",
+      "Na písku"
+    ],
+    "answer": "Na trávě",
+    "fact": "Hráči ve Wimbledonu musejí nosit oblečení skoro celé bílé.",
+    "difficulty": 3,
+    "image": "🎾",
+    "source": "https://cs.wikipedia.org/wiki/Wimbledon_(tenis)",
+    "status": "verified",
+    "id": "lavice-sport-hry-029"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje sport, kde lyžaři skáčou z velkého můstku?",
+    "options": [
+      "Slalom",
+      "Skoky na lyžích",
+      "Běh na lyžích",
+      "Biatlon"
+    ],
+    "answer": "Skoky na lyžích",
+    "fact": "Na největších můstcích doletí skokani přes 200 metrů.",
+    "difficulty": 1,
+    "image": "🎿",
+    "source": "https://cs.wikipedia.org/wiki/Skoky_na_ly%C5%BE%C3%ADch",
+    "status": "verified",
+    "id": "lavice-sport-hry-030"
   }
 ]
