@@ -1,0 +1,180 @@
+// Reactive live room for Svelte 5 pages: the latest view, presence, connection status,
+// last error and a countdown corrected for the difference between phone and server clocks.
+// Quiz rooms fill `view`; the other games fill their own field (`aktivity`, `mjz`, `chess`, `prsi`,
+// `zoliky`) from protocol v2 gameState messages.
+
+import type { LiveCommand } from '../engine/live.ts';
+import type { AktivityCommand } from '../games/aktivity/engine.ts';
+import type { MjzCommand } from '../games/mjz/engine.ts';
+import type { MjzView } from '../games/mjz/view.ts';
+import type { RoomGame } from '../live/games.ts';
+import type { AktivityRoomView, ClientRole, ErrorCode, LiveView, Presence, ServerMessage } from '../live/protocol.ts';
+import type {
+  ChessRoomCommand,
+  ChessRoomView,
+  PrsiRoomCommand,
+  PrsiRoomView,
+  ZolikyRoomCommand,
+  ZolikyRoomView,
+} from '../live/table-games.ts';
+import type { Question } from '../types.ts';
+import { LiveConnection, type ConnectionStatus } from './connection.ts';
+import { secondsLeft, wsUrl } from './clock.ts';
+import { tokenStore } from './tokens.ts';
+
+export interface RoomError {
+  code: ErrorCode;
+  message: string;
+  at: number;
+}
+
+export class LiveRoom {
+  view = $state.raw<LiveView | null>(null);
+  /** Game of the room (from welcome / first state). */
+  game = $state<RoomGame | null>(null);
+  aktivity = $state.raw<AktivityRoomView | null>(null);
+  mjz = $state.raw<MjzView | null>(null);
+  chess = $state.raw<ChessRoomView | null>(null);
+  prsi = $state.raw<PrsiRoomView | null>(null);
+  zoliky = $state.raw<ZolikyRoomView | null>(null);
+  presence = $state.raw<Record<string, Presence>>({});
+  status = $state<ConnectionStatus>('connecting');
+  error = $state.raw<RoomError | null>(null);
+  /** Contestant this phone plays for (from welcome/state). */
+  me = $state<string | null>(null);
+  /** Questions seen in reveals, for the final screen (the server sends no questions after that). */
+  questions = $state.raw<Record<string, Question>>({});
+  private now = $state(Date.now());
+  private offset = 0;
+  private conn: LiveConnection;
+  private ticker: ReturnType<typeof setInterval> | null = null;
+  private cleanup: (() => void)[] = [];
+
+  readonly remaining = $derived(
+    secondsLeft(this.view?.deadline ?? this.aktivity?.deadline ?? this.mjz?.deadline ?? this.prsi?.deadline ?? this.zoliky?.deadline ?? null, this.now, this.offset),
+  );
+
+  /** Current time on the server clock (reactive, ticks 4× a second). */
+  serverNow(): number {
+    return this.now + this.offset;
+  }
+
+  /** Seconds left until a server-clock deadline (reactive, skew-corrected). */
+  secondsUntil(deadline: number | null): number | null {
+    return secondsLeft(deadline, this.now, this.offset);
+  }
+
+  constructor(
+    readonly code: string,
+    readonly role: ClientRole,
+  ) {
+    this.conn = new LiveConnection({
+      url: wsUrl(location),
+      code,
+      role,
+      tokens: tokenStore(role, code),
+      onMessage: (m) => this.onMessage(m),
+      onStatus: (status, error) => {
+        this.status = status;
+        if (error) this.error = { ...error, at: Date.now() };
+      },
+    });
+  }
+
+  connect(): void {
+    this.conn.start();
+    this.ticker = setInterval(() => (this.now = Date.now()), 250);
+    const wake = () => {
+      if (document.visibilityState === 'visible') this.conn.reconnectNow();
+    };
+    const online = () => this.conn.reconnectNow();
+    document.addEventListener('visibilitychange', wake);
+    window.addEventListener('online', online);
+    window.addEventListener('pageshow', online);
+    this.cleanup.push(
+      () => document.removeEventListener('visibilitychange', wake),
+      () => window.removeEventListener('online', online),
+      () => window.removeEventListener('pageshow', online),
+    );
+  }
+
+  destroy(): void {
+    this.conn.stop();
+    if (this.ticker) clearInterval(this.ticker);
+    for (const fn of this.cleanup.splice(0)) fn();
+  }
+
+  act(action: LiveCommand): boolean {
+    return this.send({ type: 'action', action });
+  }
+
+  actAktivity(action: AktivityCommand): boolean {
+    return this.send({ type: 'action', game: 'aktivity', action });
+  }
+
+  actMjz(action: MjzCommand): boolean {
+    return this.send({ type: 'action', game: 'mjz', action });
+  }
+
+  actChess(action: ChessRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'chess', action });
+  }
+
+  actPrsi(action: PrsiRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'prsi-hra', action });
+  }
+
+  actZoliky(action: ZolikyRoomCommand): boolean {
+    return this.send({ type: 'action', game: 'zoliky-hra', action });
+  }
+
+  join(contestantId: string): boolean {
+    return this.send({ type: 'join', contestantId });
+  }
+
+  leave(): boolean {
+    return this.send({ type: 'leave' });
+  }
+
+  clearError(): void {
+    this.error = null;
+  }
+
+  private send(message: Parameters<LiveConnection['send']>[0]): boolean {
+    const ok = this.conn.send(message);
+    if (!ok) this.error = { code: 'serverError', message: 'Nejsi připojený, zkouším to znovu…', at: Date.now() };
+    return ok;
+  }
+
+  private onMessage(m: ServerMessage): void {
+    if (m.type === 'welcome') {
+      this.me = m.contestantId;
+      this.game = m.game ?? 'quiz';
+      this.error = null;
+    } else if (m.type === 'gameState') {
+      this.offset = m.now - Date.now();
+      this.game = m.game;
+      this.presence = m.presence;
+      if (m.game === 'aktivity') this.aktivity = m.view;
+      else if (m.game === 'mjz') this.mjz = m.view;
+      else if (m.game === 'chess') this.chess = m.view;
+      else if (m.game === 'prsi-hra') this.prsi = m.view;
+      else this.zoliky = m.view;
+      if (m.view.viewer !== 'host') this.me = m.view.me;
+    } else if (m.type === 'state') {
+      this.game = 'quiz';
+      if (typeof m.now === 'number') this.offset = m.now - Date.now();
+      this.view = m.view;
+      this.presence = m.presence;
+      if (m.view.viewer !== 'host') this.me = m.view.me;
+      if (m.view.reveal?.length) {
+        const add: Record<string, Question> = {};
+        for (const r of m.view.reveal) if (!this.questions[r.question.id]) add[r.question.id] = r.question;
+        if (Object.keys(add).length) this.questions = { ...this.questions, ...add };
+      }
+    } else if (m.type === 'error') {
+      this.error = { code: m.code, message: m.message, at: Date.now() };
+      if (m.code === 'kicked') this.me = null;
+    }
+  }
+}

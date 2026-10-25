@@ -1,0 +1,115 @@
+{
+ "key": "barvy",
+ "label": "Barvy",
+ "source": "Názvy barev (dětská sada)",
+ "byLetter": {
+  "A": [
+   "akvamarínová",
+   "antracitová",
+   "azurová"
+  ],
+  "B": [
+   "blankytná",
+   "bordó",
+   "broskvová",
+   "béžová",
+   "bílá"
+  ],
+  "C": [
+   "cihlová",
+   "citronová"
+  ],
+  "Č": [
+   "černá",
+   "červená",
+   "čokoládová"
+  ],
+  "F": [
+   "fialová"
+  ],
+  "G": [
+   "grafitová"
+  ],
+  "H": [
+   "hnědá",
+   "hořčicová"
+  ],
+  "I": [
+   "indigová"
+  ],
+  "J": [
+   "jahodová"
+  ],
+  "K": [
+   "karmínová",
+   "kaštanová",
+   "khaki",
+   "krémová"
+  ],
+  "L": [
+   "levandulová",
+   "lila",
+   "limetková",
+   "lososová"
+  ],
+  "M": [
+   "magenta",
+   "malinová",
+   "mandlová",
+   "modrá",
+   "mátová",
+   "měděná"
+  ],
+  "N": [
+   "nachová",
+   "nebeská"
+  ],
+  "O": [
+   "okrová",
+   "olivová",
+   "oranžová"
+  ],
+  "P": [
+   "perlová",
+   "pistáciová",
+   "purpurová",
+   "písková"
+  ],
+  "R": [
+   "rezavá",
+   "rubínová",
+   "rumělková",
+   "růžová"
+  ],
+  "S": [
+   "slámová",
+   "smaragdová",
+   "stříbrná"
+  ],
+  "Š": [
+   "šarlatová",
+   "šedá",
+   "šeříková"
+  ],
+  "T": [
+   "tmavomodrá",
+   "tmavě zelená",
+   "tyrkysová"
+  ],
+  "U": [
+   "uhlová"
+  ],
+  "V": [
+   "višňová",
+   "vínová"
+  ],
+  "Z": [
+   "zelenomodrá",
+   "zelená",
+   "zlatá"
+  ],
+  "Ž": [
+   "žlutá"
+  ]
+ }
+}

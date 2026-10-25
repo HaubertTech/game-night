@@ -1,7 +1,10 @@
 <script lang="ts">
+  import Art from '#lib/ui/art/Art.svelte';
+  import { THEME_ART } from '#lib/ui/art/art.ts';
+  import Avatar from '#lib/ui/art/Avatar.svelte';
   import { THEME_LABELS, type Theme } from '../types.ts';
   import type { GameState, GameSummary } from '../engine/quiz.ts';
-  import { deviationLabel, formatEstimate, THEME_EMOJI } from './labels.ts';
+  import { deviationLabel, formatEstimate } from './labels.ts';
   import Standings from './Standings.svelte';
 
   let { game, summary, onNewGame, onExport }: { game: GameState; summary: GameSummary; onNewGame: () => void; onExport: () => void } =
@@ -21,10 +24,13 @@
 
 <article class="final stack" data-testid="final">
   <header class="center">
-    <div class="emoji trophy" aria-hidden="true">🏆</div>
+    <div class="trophies">
+      <Art name="mascot.sova-slavi" alt="Sova slaví" size={120} class="trophy" eager />
+      <Art name="rewards.vitez-vecera" alt="Pohár pro vítěze" size={120} class="trophy" eager />
+    </div>
     <h1>Konečné pořadí</h1>
     <p class="muted">
-      Vítězí {winners.map((w) => `${w.contestant.avatar} ${w.contestant.name}`).join(' a ')}!
+      Vítězí {#each winners as w, i (w.contestant.id)}{i > 0 ? ' a ' : ''}<Avatar value={w.contestant.avatar} /> {w.contestant.name}{/each}!
     </p>
   </header>
 
@@ -35,12 +41,12 @@
       <h2>⭐ Nej odpověď</h2>
       {#if best.kind === 'estimate' && bestQuestion.type === 'estimate'}
         <p>
-          <strong>{bestContestant.avatar} {bestContestant.name}</strong> odhadl(a) {formatEstimate(Number(best.given), bestQuestion.unit)}
+          <strong><Avatar value={bestContestant.avatar} /> {bestContestant.name}</strong> odhadl(a) {formatEstimate(Number(best.given), bestQuestion.unit)}
           {bestQuestion.unit === 'rok' ? '' : bestQuestion.unit} — správně je {formatEstimate(bestQuestion.answer, bestQuestion.unit)}
           {bestQuestion.unit === 'rok' ? '' : bestQuestion.unit} ({deviationLabel(bestQuestion, Number(best.given), bestQuestion.answer)}).
         </p>
       {:else}
-        <p><strong>{bestContestant.avatar} {bestContestant.name}</strong> zvládl(a) nejtěžší otázku:</p>
+        <p><strong><Avatar value={bestContestant.avatar} /> {bestContestant.name}</strong> zvládl(a) nejtěžší otázku:</p>
       {/if}
       <p class="muted">„{bestQuestion.text}“</p>
     </section>
@@ -54,13 +60,13 @@
           <thead>
             <tr>
               <th></th>
-              {#each themesPlayed as t (t)}<th title={THEME_LABELS[t]}><span class="emoji">{THEME_EMOJI[t]}</span><span class="th-label">{THEME_LABELS[t]}</span></th>{/each}
+              {#each themesPlayed as t (t)}<th title={THEME_LABELS[t]}><Art name={THEME_ART[t]} decorative size={40} class="th-icon" /><span class="th-label">{THEME_LABELS[t]}</span></th>{/each}
             </tr>
           </thead>
           <tbody>
             {#each game.config.contestants as c (c.id)}
               <tr>
-                <th scope="row"><span class="emoji">{c.avatar}</span> {c.name}</th>
+                <th scope="row"><span class="emoji"><Avatar value={c.avatar} /></span> {c.name}</th>
                 {#each themesPlayed as t (t)}
                   {@const s = summary.themeStats[c.id]?.[t]}
                   <td>{s ? `${s.correct}/${s.total}` : '–'}</td>
@@ -80,11 +86,23 @@
 </article>
 
 <style>
+  thead :global(.th-icon) {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 2px;
+  }
   .center {
     text-align: center;
   }
-  .trophy {
-    font-size: 5rem;
+  .trophies {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .trophies :global(.trophy) {
+    width: 120px;
+    height: 120px;
   }
   h1 {
     font-size: 2.6rem;

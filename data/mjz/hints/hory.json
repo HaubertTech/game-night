@@ -1,0 +1,190 @@
+{
+ "key": "hory",
+ "label": "Hory a pohoří",
+ "source": "Vrcholy a pohoří ČR, několik známých světových",
+ "byLetter": {
+  "A": [
+   "Aconcagua",
+   "Alpy",
+   "Andy",
+   "Apeniny"
+  ],
+  "B": [
+   "Beskydy",
+   "Bezděz",
+   "Blanský les",
+   "Blaník",
+   "Blatenský vrch",
+   "Boubín",
+   "Bouřňák",
+   "Bořeň",
+   "Brdy",
+   "Broumovská vrchovina",
+   "Buchlov",
+   "Bílé Karpaty"
+  ],
+  "Č": [
+   "Čerchov",
+   "Červená hora",
+   "České středohoří",
+   "Český les"
+  ],
+  "D": [
+   "Denali",
+   "Devět skal",
+   "Doupovské hory",
+   "Drahanská vrchovina",
+   "Dyleň",
+   "Děvín",
+   "Děčínský Sněžník"
+  ],
+  "E": [
+   "Elbrus",
+   "Etna",
+   "Everest"
+  ],
+  "F": [
+   "Fudži"
+  ],
+  "G": [
+   "Gerlachovský štít"
+  ],
+  "H": [
+   "Himálaj",
+   "Hostýn",
+   "Hostýnské vrchy",
+   "Hrubý Jeseník"
+  ],
+  "Ch": [
+   "Chřiby"
+  ],
+  "J": [
+   "Javorníky",
+   "Javorový vrch",
+   "Javořice",
+   "Jedlová",
+   "Jeseníky",
+   "Ještěd",
+   "Ještědský hřbet",
+   "Jizerské hory"
+  ],
+  "K": [
+   "K2",
+   "Karpaty",
+   "Kavkaz",
+   "Kelčský Javorník",
+   "Keprník",
+   "Kilimandžáro",
+   "Kleť",
+   "Klínovec",
+   "Kněhyně",
+   "Komáří vížka",
+   "Kotel",
+   "Kozákov",
+   "Kozákovský hřbet",
+   "Kozí hřbet",
+   "Kriváň",
+   "Krkonoše",
+   "Krušné hory",
+   "Králický Sněžník",
+   "Křemešník",
+   "Křivoklátsko"
+  ],
+  "L": [
+   "Lomnický štít",
+   "Loučná",
+   "Lovoš",
+   "Luzný",
+   "Luční hora",
+   "Lužické hory",
+   "Lysá hora"
+  ],
+  "M": [
+   "Malý Blaník",
+   "Matterhorn",
+   "Melechov",
+   "Meluzína",
+   "Milešovka",
+   "Mont Blanc",
+   "Moravskoslezské Beskydy"
+  ],
+  "N": [
+   "Novohradské hory",
+   "Nízký Jeseník"
+  ],
+  "O": [
+   "Oblík",
+   "Oderské vrchy",
+   "Olymp",
+   "Ondřejník",
+   "Orlické hory",
+   "Ostrý"
+  ],
+  "P": [
+   "Plechý",
+   "Plešivec",
+   "Plešný",
+   "Poledník",
+   "Praděd",
+   "Pyreneje",
+   "Pálava"
+  ],
+  "R": [
+   "Radhošť",
+   "Ralsko",
+   "Rychlebské hory"
+  ],
+  "Ř": [
+   "Říp"
+  ],
+  "S": [
+   "Slavkovský les",
+   "Smrk",
+   "Sněžka",
+   "Studniční hora",
+   "Suchý vrch"
+  ],
+  "Š": [
+   "Šerák",
+   "Špičák",
+   "Šumava"
+  ],
+  "T": [
+   "Tatry",
+   "Tlustec",
+   "Tok",
+   "Travný",
+   "Triglav",
+   "Trosky",
+   "Třemšín",
+   "Třístoličník"
+  ],
+  "U": [
+   "Ural"
+  ],
+  "V": [
+   "Vartovna",
+   "Velká Deštná",
+   "Velká Javořina",
+   "Velký Blaník",
+   "Velký Javor",
+   "Velký Javorník",
+   "Velký Kosíř",
+   "Velký Lopeník",
+   "Vesuv",
+   "Vladař",
+   "Vsetínské vrchy",
+   "Vysoká hole",
+   "Vysoké kolo"
+  ],
+  "Z": [
+   "Zelená hora",
+   "Zlaté návrší"
+  ],
+  "Ž": [
+   "Žalý",
+   "Žákova hora",
+   "Žďárské vrchy"
+  ]
+ }
+}

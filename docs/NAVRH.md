@@ -1,4 +1,4 @@
-# Domácí liga — návrh (v1, 25. 10. 2026)
+# Herní večer (dříve Domácí liga) — návrh (v1, 25. 10. 2026)
 
 Webová aplikace na domácí herní večery. Hrají se různé hry, výsledky se sčítají do ligy
 a dlouhodobého žebříčku. První hra je hospodský kvíz.

@@ -1,0 +1,215 @@
+{
+  "style": "Hand-drawn Czech storybook illustration, like a classic Czech children's book illustrator working in ink and watercolor. A lively, irregular dark brown ink outline of varying thickness, slightly wobbly, drawn by hand around every shape including small details. Flat, slightly textured watercolor washes inside the outlines that spill a little over the line in places and stop short of it in others. Muted natural palette: sage green, olive, earthy clay brown, slate blue-grey, warm cream paper, dusty pastel pink and ochre; small rare accents of brick red and mustard yellow. Minimal shading: only a slightly darker wash and a few hatching strokes or squiggles instead of texture. No gradients, no glow, no bloom, no glossy highlights, no 3D render look, not vector flat design, no saturated candy colors. Characters are drawn simpler than the backgrounds.",
+  "notext": "No text, letters, digits, numbers, signs, labels, captions, watermarks or logos anywhere in the image.",
+  "magenta": "Background: one flat solid color, exactly pure magenta #FF00FF, covering the whole canvas edge to edge; no gradient, no texture, no floor, no cast shadow on the ground, no frame, no checkerboard pattern. Do not use magenta or bright pink anywhere inside the drawings.",
+  "grid": "Square image divided into an invisible 2x2 grid of four equal cells (no lines drawn between them). Each cell holds exactly one subject, centered, filling about 70 percent of its cell, with clear magenta space around it so the four subjects never touch each other or the cell edges.",
+  "jobs": [
+    {
+      "id": "mascot-sheet",
+      "out": "originals/mascot/mascot-sheet.png",
+      "kind": "sheet",
+      "prompt": "Character model sheet, wide landscape format (about 16:9), plain warm cream paper background, no scenery. Three original characters of a family quiz show, each shown in three poses side by side (front view standing, three-quarter view gesturing, back or side view), clearly separated into three rows. Row 1, the main character: MADAM OWL, a plump tawny owl with soft brown and cream feathers, round amber eyes with small round wire glasses, wearing a hand-knitted sage green vest with a simple cream zigzag pattern and a small brick-red bow at the neck; she holds a few blank question cards; warm, a bit theatrical, friendly. Row 2: the scorekeeper, a cheerful long dachshund dog, reddish-brown, wearing a mustard yellow knitted scarf, holding a pencil and a blank notepad. Row 3: a small round house sparrow messenger, grey-brown, with a tiny slate blue knitted cap, carrying a small blank envelope. Keep anatomy simple and readable, big expressive eyes."
+    },
+    {
+      "id": "mascot-poses",
+      "out": "originals/mascot/mascot-poses.png",
+      "kind": "grid",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "The SAME owl character MADAM OWL from the attached model sheet (tawny owl, round wire glasses, sage green knitted vest with cream zigzag, brick-red bow), full body, four poses: 1) top-left: waving hello with one wing, smiling; 2) top-right: holding up a blank question card, eyebrows raised, asking; 3) bottom-left: cheering with both wings up, tiny confetti of blank paper squares around; 4) bottom-right: thinking, wing tip at the beak, looking up."
+    },
+    {
+      "id": "hero",
+      "out": "originals/hero/hero.png",
+      "kind": "scene",
+      "aspect": "16:9",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Wide landscape illustration, 16:9. A cozy evening in an ordinary Czech family living room-kitchen, seen as a diorama from a gently elevated three-quarter view. A wooden table with a checked tablecloth under a warm hanging lamp. Around it a family playing games: mother and father (adults in their thirties, sweater and flannel shirt), a schoolboy of about nine with a pencil writing on a sheet of paper, and a preschool girl of about five standing on her chair holding up a playing card triumphantly. On the table: scattered playing cards, sheets of paper, pencils, a teapot and mugs of tea, a jug of homemade raspberry lemonade, a bowl of crisps and a small plate of buchty buns. In the background: a tiled stove or radiator, a window with a dark blue evening sky and a panel block with a few lit windows, a kitchen cupboard, a houseplant, a cat sleeping on a chair. The owl MADAM OWL from the attached model sheet sits on top of the cupboard like a quiz host, holding a blank card; the dachshund from the sheet lies under the table. Humor in details. Composition: keep the upper-left third calm and fairly empty (wall and soft lamp light) as space for a title; the family and table on the right and center."
+    },
+    {
+      "id": "card-kvizovna",
+      "out": "originals/cards/kvizovna.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A Czech village pub quiz night: the owl MADAM OWL from the attached model sheet stands behind the pub counter like a quiz host holding up a blank question card. In front of her, two small tables of players (a family, a pair of grandparents, a young couple) bent over answer sheets with pencils, one raising a hand eagerly. Pub details: wooden panelling, a beer tap, a ceramic stove, antlers on the wall, a coat rack with hats, pints of beer and a lemonade. Diorama view slightly from above."
+    },
+    {
+      "id": "card-activity",
+      "out": "originals/cards/rekni-ukaz-nakresli.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. A charades and drawing game in a Czech living room: a father mimes something wildly with arms spread like an airplane, a girl draws on a big sheet of paper pinned to a flipchart easel (the drawing is a simple doodle of a house and a cow, no letters), the rest of the family on a sofa guessing and laughing, grandma pointing. An hourglass on the coffee table. Sofa with a crocheted blanket, rubber plant, bookshelf, carpet with a pattern."
+    },
+    {
+      "id": "card-mjz",
+      "out": "originals/cards/mesto-jmeno-zvire.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. The classic word game played with pencil and paper: a family around a kitchen table, each person hunched over a sheet of paper ruled into columns, writing fast (the sheets show only scribbles and lines, no readable letters). Floating softly above the table as little dream doodles: a small town with a church tower, a fox, a river with a bridge, a plant, a girl's face — the things they are thinking of. A boy chews his pencil thinking hard; a wall clock without numbers. Diorama view from slightly above."
+    },
+    {
+      "id": "card-prsi",
+      "out": "originals/cards/prsi.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. A game of the Czech card game Prší on a garden table under a pergola on a rainy summer afternoon: grandpa, a girl and a boy play with traditional German-suited playing cards (hearts, leaves, acorns, bells — card faces shown simply, no numbers or letters). Light rain falls outside the pergola onto a vegetable garden, a watering can and rubber boots by the table, a snail on the table leg, steam rising from a mug. The girl slams a card down with a grin."
+    },
+    {
+      "id": "card-zoliky",
+      "out": "originals/cards/zoliky.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. Adults playing rummy with French playing cards at a cottage table in the evening: melds of cards laid out in neat rows on the table (card faces simple, suits only as small shapes, no numbers or letters), a jester joker card held up proudly by an aunt, an uncle with a fan of cards in hand frowning, an oil lamp, a bowl of nuts, a dog sleeping by the wood stove, wooden chalet walls with a cuckoo clock without numbers."
+    },
+    {
+      "id": "card-liga",
+      "out": "originals/cards/liga.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. The family game league: a cork pinboard on a kitchen wall full of pinned blank paper sheets, photos of game evenings (simple sketched figures), a hand-drawn chart with little bars and stars, a small homemade trophy cup made of a tin can wrapped in foil, and a calendar page with crossed squares (no numbers). The dachshund scorekeeper from the attached model sheet stands on a stool pinning a new sheet, the sparrow brings an envelope. Below on the kitchen counter: a basket of medals made of cardboard and ribbons."
+    },
+    {
+      "id": "levels-grid",
+      "out": "originals/grids/levels.png",
+      "kind": "grid",
+      "prompt": "Four small vignette icons, each a self-contained little object scene without background: 1) top-left: PUB for adults — a wooden pub table corner with a pint of beer with foam, a beer mat and a pencil on a blank answer sheet; 2) top-right: SCHOOL DESK for schoolchildren — an old wooden school desk with an open blank exercise book, a pencil case, a ruler and an apple; 3) bottom-left: SANDBOX for preschoolers — a small wooden sandbox with sand, a bucket, a spade and a sand cake mold with a sand cake; 4) bottom-right: a small round wooden table with three different chairs (a big one, a middle one, a tiny one) around it."
+    },
+    {
+      "id": "themes-grid-1",
+      "out": "originals/grids/themes-1.png",
+      "kind": "grid",
+      "prompt": "Four quiz-category icons, each a single clear object composition without background: 1) top-left: NATURE AND ANIMALS — a hedgehog under a big oak leaf with an acorn and a mushroom; 2) top-right: CZECHIA AND THE WORLD — a small globe on a wooden stand with a tiny castle on a hill beside it; 3) bottom-left: PEOPLE, BODY AND SCIENCE — a magnifying glass over a heart shape next to a glass flask with green liquid; 4) bottom-right: FAIRY TALES, FILM AND MUSIC — a crown, an old film camera and a few musical notes floating."
+    },
+    {
+      "id": "themes-grid-2",
+      "out": "originals/grids/themes-2.png",
+      "kind": "grid",
+      "prompt": "Four quiz-category icons, each a single clear object composition without background: 1) top-left: SPORT AND GAMES — a worn leather football, a wooden die showing dots and a hockey stick; 2) top-right: FOOD AND DRINK — a plate with three sliced Czech bread dumplings (smooth pale round slices with small air holes) in brown gravy, a fork, and a ceramic mug of tea beside it; 3) bottom-left: NUMBERS AND LOGIC — a sturdy old wooden abacus with a solid wooden back board behind the rods and colored beads, and a simple wooden puzzle cube; 4) bottom-right: WORDS AND LANGUAGE — an open book with only wavy lines instead of text, a fountain pen and a speech bubble that is empty."
+    },
+    {
+      "id": "themes-grid-3",
+      "out": "originals/grids/themes-3.png",
+      "kind": "grid",
+      "prompt": "Four icons, each a single clear object composition without background: 1) top-left: HISTORY AND INVENTIONS — a knight's helmet next to a glowing old light bulb and a cog wheel; 2) top-right: a stack of blank question cards tied with a string and a pencil; 3) bottom-left: an old wooden hourglass with sand running; 4) bottom-right: a small brass hand bell like at a pub quiz."
+    },
+    {
+      "id": "avatars-1",
+      "out": "originals/grids/avatars-1.png",
+      "kind": "grid",
+      "prompt": "Four player avatar portraits in one consistent set: head and shoulders bust of an anthropomorphic animal, facing the viewer, friendly, each wearing one small garment: 1) top-left: a red fox with a mustard knitted scarf; 2) top-right: a hedgehog with a slate blue beret; 3) bottom-left: a brown bear with a checked flannel shirt collar; 4) bottom-right: a grey hare with long ears and a sage green neckerchief. All four drawn at the same scale and the same bust framing."
+    },
+    {
+      "id": "avatars-2",
+      "out": "originals/grids/avatars-2.png",
+      "kind": "grid",
+      "prompt": "Four player avatar portraits in one consistent set: head and shoulders bust of an anthropomorphic animal, facing the viewer, friendly, each wearing one small garment: 1) top-left: a tabby tomcat with a brick-red bow tie; 2) top-right: a white goat with small horns and a cowbell on a strap; 3) bottom-left: a little grey mouse with big round ears and a tiny ochre knitted cap; 4) bottom-right: a green frog with a dotted cream neckerchief. All four drawn at the same scale and the same bust framing."
+    },
+    {
+      "id": "avatars-3",
+      "out": "originals/grids/avatars-3.png",
+      "kind": "grid",
+      "prompt": "Four player avatar portraits in one consistent set: head and shoulders bust of an anthropomorphic animal, facing the viewer, friendly, each wearing one small garment: 1) top-left: a red squirrel with a bushy tail curling behind and a sage vest collar; 2) top-right: a badger with black and white striped face and a slate blue sweater collar; 3) bottom-left: a blackbird with an orange beak and a tiny cream scarf; 4) bottom-right: a carp fish with golden scales, a round mouth and a small fisherman's hat. All four drawn at the same scale and the same bust framing."
+    },
+    {
+      "id": "avatars-4",
+      "out": "originals/grids/avatars-4.png",
+      "kind": "grid",
+      "prompt": "Four player avatar portraits in one consistent set: head and shoulders bust of an anthropomorphic animal, facing the viewer, friendly, each wearing one small garment: 1) top-left: a black and white cow with a straw in mouth and a flower behind the ear; 2) top-right: a white stork with a long red beak and a mustard flat cap; 3) bottom-left: a brown otter with whiskers and a striped sailor collar; 4) bottom-right: a fluffy sheep with curly cream wool and a brick-red knitted scarf. All four drawn at the same scale and the same bust framing."
+    },
+    {
+      "id": "rewards-1",
+      "out": "originals/grids/rewards-1.png",
+      "kind": "grid",
+      "prompt": "Four award badges in one consistent set, hand-drawn, each a single object without background: 1) top-left: WINNER OF THE EVENING — a small homemade trophy cup with two handles, a laurel twig and a little crescent moon with stars above it; 2) top-right: SEASON CHAMPION — a bigger ornate trophy cup on a wooden base with a leafy wreath around it; 3) bottom-left: GOLD medal — a round golden medal on a red and white ribbon, with a simple star embossed; 4) bottom-right: SILVER medal — the same medal design but silver grey, on a slate blue ribbon. No numbers on the medals."
+    },
+    {
+      "id": "rewards-2",
+      "out": "originals/grids/rewards-2.png",
+      "kind": "grid",
+      "prompt": "Four hand-drawn icons in one consistent set, each a single object without background: 1) top-left: BRONZE medal — round bronze-brown medal with a simple star embossed, on a sage green ribbon (same design as a gold medal), no numbers; 2) top-right: STREAK OF CORRECT ANSWERS — a row of three small flames of a candle on a little rising zigzag of check marks, warm ochre and brick colors; 3) bottom-left: NO GAME EVENINGS YET — an empty wooden table with one chair, a closed deck of cards and an unlit candle, a sleepy cat curled on the chair; 4) bottom-right: NO PLAYERS YET — a row of three empty chairs with a coat hanger and an empty peg, a single small dog peeking from behind one chair."
+    },
+    {
+      "id": "lobby-tv",
+      "out": "originals/env/lobby-tv.png",
+      "kind": "scene",
+      "aspect": "16:9",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Wide landscape background illustration, 16:9, for a TV waiting screen. Calm and soft, low detail contrast. A quiet Czech living room wall at evening: on the right half, a sideboard with a lamp, a houseplant, a framed simple landscape picture, and the owl MADAM OWL from the attached model sheet sitting on the sideboard waving hello, the sparrow perched beside her. The left 45 percent of the image is a plain, very calm warm cream wall with only subtle watercolor texture and nothing else — reserved for a QR code and text overlay. Gentle, not busy."
+    },
+    {
+      "id": "lobby-mobile",
+      "out": "originals/env/lobby-mobile.png",
+      "kind": "scene",
+      "aspect": "9:16",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Tall portrait background illustration, 9:16, for a phone waiting screen. Calm and soft. The bottom third: a cozy windowsill with a potted geranium, a mug of tea and the dachshund from the attached model sheet asleep curled on a cushion, the sparrow sitting on the mug handle. Above it, the upper two thirds are a calm evening sky seen through the window, dusty slate blue fading wash with a few soft stars and a distant row of village rooftops low down — keep the upper and middle area plain and calm for text and buttons overlaid."
+    },
+    {
+      "id": "rewards-3",
+      "out": "originals/grids/rewards-3.png",
+      "kind": "grid",
+      "refs": [
+        "originals/grids/rewards-1.png"
+      ],
+      "prompt": "Four award badges that must match the attached award set exactly in drawing style, line and medal design: 1) top-left: BRONZE medal — exactly the same medal design as the gold and silver medals in the attached image (round medal, embossed star, small laurel twigs engraved around it) but in warm bronze-brown, on a sage green ribbon folded the same way; no numbers; 2) top-right: STREAK OF CORRECT ANSWERS — three small golden stars rising like a staircase from left to right, each slightly bigger, with a short swoosh trail behind them; 3) bottom-left: FIRST GAME EVENING — a fresh deck of playing cards tied with a red ribbon bow, a small sprig of laurel tucked in; 4) bottom-right: BEST DRAWER — a pencil and a piece of chalk crossed, wrapped in a small laurel wreath."
+    },
+    {
+      "id": "card-sachy",
+      "out": "originals/cards/sachy.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A game of chess in an ordinary Czech living room in the evening: a grandfather in a knitted cardigan and his grandson of about nine sit at a small wooden table facing each other over a chessboard with simple wooden chess pieces. The boy reaches out to move a knight, biting his lip in concentration; grandpa strokes his moustache with a sly smile, a few captured pieces lined up beside the board. The owl MADAM OWL from the attached model sheet perches on the back of an armchair behind them, watching the board with one wing raised to her beak. Details: a standard lamp with a fringed shade, a bookshelf, a rubber plant, a crocheted doily, a cup of tea and a plate of biscuits, a cat watching from the windowsill. Diorama view slightly from above."
+    },
+    {
+      "id": "card-trenink",
+      "out": "originals/cards/trenink.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. Card lessons at a kitchen table: the owl MADAM OWL from the attached model sheet stands on the table like a patient teacher, holding up one playing card with her wing and pointing to it. A girl of about seven sits opposite her, holding a small fan of cards and looking at it carefully with her tongue out in concentration. On the table: a few cards laid out face up in a neat row (card faces simple, suits only as small shapes — hearts, leaves, acorns, bells — no numbers or letters), a mug of cocoa, a little stack of cards. Background: a kitchen dresser with plates, a window with flowerpots, the dachshund from the sheet peeking from under the table. Warm afternoon light. Diorama view slightly from above."
+    },
+    {
+      "id": "card-vecery",
+      "out": "originals/cards/vecery.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. A quiet kitchen table late in the evening after a family game night, nobody at the table any more: a closed deck of cards and a tidy stack of cards, a few sheets of paper with scribbled scores (only lines and squiggles, no readable letters or digits), pencils, empty mugs, a plate with the last buchty bun crumbs. In the middle an open notebook-diary with a ribbon bookmark and a small paper wall calendar leaning against the teapot with a few days crossed out (no numbers). A lamp still glowing warmly, through the window a dark blue night sky with a moon and the outline of village rooftops, a cat asleep on a chair. Calm, cozy, a little nostalgic. Diorama view slightly from above."
+    },
+    {
+      "id": "card-hraci",
+      "out": "originals/cards/hraci.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/grids/avatars-1.png",
+        "originals/grids/avatars-2.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A cork pinboard hanging on a cozy kitchen wall, full of pinned square portrait cards of the animal players from the attached sheets: a fox, a hedgehog, a bear, a hare, a cat, a goat, a mouse, a frog — each portrait in the same look as on the sheets, pinned with colourful pushpins, some slightly askew. Between them hand-drawn little stars, a paper rosette and short ribbons connecting some portraits into two teams (no text). Below the board a kitchen counter with a jar of pencils and a potted herb. Warm, cheerful. Straight-on view."
+    },
+    {
+      "id": "card-nastaveni",
+      "out": "originals/cards/nastaveni.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. A calm hallway corner of a Czech family home: a small wooden shelf by the front door with a little key rack holding a bunch of house keys on a ring with a wooden fob, a small notepad with a pencil, an old brass doorbell button, a pot with a fern. Below: a bench with a folded checked blanket, slippers and rubber boots neatly side by side, a coat hook with a scarf and a cap. A small toolbox with a screwdriver on the floor. Soft daylight from a little window. Tidy, orderly, calm, homely. Straight-on view."
+    }
+  ]
+}

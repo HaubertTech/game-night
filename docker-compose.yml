@@ -1,0 +1,42 @@
+# Local Postgres for Herní večer. Credentials come from .env (see .env.example).
+name: domaci-liga
+
+services:
+  db:
+    image: postgres:16-alpine
+    # The host has no free address pool for a new compose network; the default bridge is enough.
+    network_mode: bridge
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: domaci_liga
+      POSTGRES_USER: ${POSTGRES_USER:-domaci_liga}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports:
+      - '127.0.0.1:5437:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U $${POSTGRES_USER} -d domaci_liga']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # Production app: `docker compose --profile prod up -d --build app` (plain `up -d db` ignores it).
+  # Host networking because the host cannot allocate a new compose network; the app reaches the
+  # published db port on 127.0.0.1:5437 (DATABASE_URL from .env works unchanged) and listens on
+  # the host at PORT. Set HOST=127.0.0.1 in .env behind a reverse proxy.
+  app:
+    profiles: [prod]
+    build: .
+    network_mode: host
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env
+    volumes:
+      - app-outbox:/app/data/outbox
+
+volumes:
+  db-data:
+  app-outbox:

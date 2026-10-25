@@ -1,0 +1,161 @@
+{
+ "key": "jidlo",
+ "label": "Jídlo",
+ "source": "Běžná jídla a potraviny (dětská sada)",
+ "byLetter": {
+  "A": [
+   "ananas",
+   "avokádo"
+  ],
+  "B": [
+   "bageta",
+   "banán",
+   "borůvky",
+   "brambory",
+   "bramborák",
+   "buchta",
+   "burger",
+   "bábovka"
+  ],
+  "C": [
+   "cibule",
+   "citron",
+   "cukroví"
+  ],
+  "Č": [
+   "čaj",
+   "čokoláda",
+   "čočka"
+  ],
+  "D": [
+   "datle",
+   "dort",
+   "džem"
+  ],
+  "F": [
+   "fazole",
+   "frgál"
+  ],
+  "G": [
+   "granko",
+   "guláš"
+  ],
+  "H": [
+   "hamburger",
+   "houska",
+   "hranolky",
+   "hruška",
+   "hrášek"
+  ],
+  "Ch": [
+   "chleba",
+   "chlebíček",
+   "chléb"
+  ],
+  "J": [
+   "jablko",
+   "jahody",
+   "jitrnice",
+   "jogurt"
+  ],
+  "K": [
+   "kakao",
+   "kapr",
+   "kaše",
+   "kefír",
+   "kiwi",
+   "klobása",
+   "knedlík",
+   "knedlíky",
+   "kobliha",
+   "koláč",
+   "kompot",
+   "krupice",
+   "kukuřice",
+   "kuře",
+   "kynuté knedlíky"
+  ],
+  "L": [
+   "lečo",
+   "losos",
+   "lívance"
+  ],
+  "M": [
+   "makaróny",
+   "maso",
+   "med",
+   "meloun",
+   "mléko",
+   "mrkev",
+   "máslo",
+   "müsli"
+  ],
+  "N": [
+   "nanuk",
+   "nudle"
+  ],
+  "O": [
+   "okurka",
+   "omáčka",
+   "oplatka",
+   "ovesná kaše"
+  ],
+  "P": [
+   "palačinka",
+   "paprika",
+   "perník",
+   "pizza",
+   "polévka",
+   "pomeranč",
+   "párek"
+  ],
+  "R": [
+   "rajče",
+   "rohlík",
+   "rybíz",
+   "rýže"
+  ],
+  "Ř": [
+   "ředkvička",
+   "řízek"
+  ],
+  "S": [
+   "salát",
+   "smažák",
+   "sušenka",
+   "svíčková",
+   "sýr"
+  ],
+  "Š": [
+   "škvarky",
+   "špagety",
+   "šunka",
+   "švestky"
+  ],
+  "T": [
+   "topinka",
+   "trdelník",
+   "tvaroh",
+   "těstoviny",
+   "třešně"
+  ],
+  "U": [
+   "uzenina"
+  ],
+  "V": [
+   "vafle",
+   "vajíčko",
+   "višně",
+   "vánočka"
+  ],
+  "Z": [
+   "zelí",
+   "zmrzlina"
+  ],
+  "Ž": [
+   "žampiony",
+   "žemle",
+   "žloutek"
+  ]
+ }
+}

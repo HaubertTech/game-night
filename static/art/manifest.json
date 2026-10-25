@@ -1,0 +1,1034 @@
+{
+  "mascot.sova-mava": {
+    "path": "/art/mascot/sova-mava.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka v pletené vestě mává na pozdrav",
+    "group": "mascot",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/mascot/sova-mava-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/mascot/sova-mava-256.webp"
+      }
+    ]
+  },
+  "mascot.sova-otazka": {
+    "path": "/art/mascot/sova-otazka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka drží kartičku s otázkou",
+    "group": "mascot",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/mascot/sova-otazka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/mascot/sova-otazka-256.webp"
+      }
+    ]
+  },
+  "mascot.sova-slavi": {
+    "path": "/art/mascot/sova-slavi.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka radostně slaví",
+    "group": "mascot",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/mascot/sova-slavi-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/mascot/sova-slavi-256.webp"
+      }
+    ]
+  },
+  "mascot.sova-premysli": {
+    "path": "/art/mascot/sova-premysli.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sova Moderátorka přemýšlí",
+    "group": "mascot",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/mascot/sova-premysli-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/mascot/sova-premysli-256.webp"
+      }
+    ]
+  },
+  "hero.uvod": {
+    "path": "/art/hero/uvod.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Rodina večer u stolu hraje karty a kvíz, na kredenci sedí sova",
+    "group": "hero",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 960,
+        "path": "/art/hero/uvod-960.webp"
+      }
+    ]
+  },
+  "cards.kvizovna": {
+    "path": "/art/cards/kvizovna.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Hospodský kvíz: sova za výčepem čte otázku, týmy píšou odpovědi",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/kvizovna-600.webp"
+      }
+    ]
+  },
+  "cards.rekni-ukaz-nakresli": {
+    "path": "/art/cards/rekni-ukaz-nakresli.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Rodina v obýváku předvádí, kreslí a hádá",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/rekni-ukaz-nakresli-600.webp"
+      }
+    ]
+  },
+  "cards.mesto-jmeno-zvire": {
+    "path": "/art/cards/mesto-jmeno-zvire.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Rodina u stolu píše Město, jméno, zvíře",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/mesto-jmeno-zvire-600.webp"
+      }
+    ]
+  },
+  "cards.prsi": {
+    "path": "/art/cards/prsi.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Děda s dětmi hraje Prší pod pergolou, venku prší",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/prsi-600.webp"
+      }
+    ]
+  },
+  "cards.zoliky": {
+    "path": "/art/cards/zoliky.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Dospělí na chatě hrají žolíky, teta drží žolíka",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/zoliky-600.webp"
+      }
+    ]
+  },
+  "cards.liga": {
+    "path": "/art/cards/liga.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Nástěnka rodinné ligy s výsledky, jezevčík připíná nový list",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/liga-600.webp"
+      }
+    ]
+  },
+  "cards.sachy": {
+    "path": "/art/cards/sachy.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Děda s vnukem hrají šachy v obýváku, sova přihlíží",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/sachy-600.webp"
+      }
+    ]
+  },
+  "cards.trenink": {
+    "path": "/art/cards/trenink.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Sova učí holčičku karty u kuchyňského stolu",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/trenink-600.webp"
+      }
+    ]
+  },
+  "cards.vecery": {
+    "path": "/art/cards/vecery.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Večerní stůl po hře: zápisník, kalendář a karty",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/vecery-600.webp"
+      }
+    ]
+  },
+  "cards.hraci": {
+    "path": "/art/cards/hraci.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Nástěnka s portréty zvířátek-hráčů",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/hraci-600.webp"
+      }
+    ]
+  },
+  "cards.nastaveni": {
+    "path": "/art/cards/nastaveni.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Domácí kout u dveří s klíči a bločkem",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/nastaveni-600.webp"
+      }
+    ]
+  },
+  "levels.hospoda": {
+    "path": "/art/levels/hospoda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Hospoda – úroveň pro dospělé: pivo a odpovědní lístek",
+    "group": "levels",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/levels/hospoda-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/levels/hospoda-256.webp"
+      }
+    ]
+  },
+  "levels.lavice": {
+    "path": "/art/levels/lavice.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lavice – úroveň pro školáky: školní lavice se sešitem",
+    "group": "levels",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/levels/lavice-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/levels/lavice-256.webp"
+      }
+    ]
+  },
+  "levels.piskoviste": {
+    "path": "/art/levels/piskoviste.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pískoviště – úroveň pro předškoláky: kyblík a bábovička",
+    "group": "levels",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/levels/piskoviste-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/levels/piskoviste-256.webp"
+      }
+    ]
+  },
+  "levels.vsichni": {
+    "path": "/art/levels/vsichni.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Stůl se židlemi pro velké i malé – hraje celá rodina",
+    "group": "levels",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/levels/vsichni-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/levels/vsichni-256.webp"
+      }
+    ]
+  },
+  "themes.priroda-zvirata": {
+    "path": "/art/themes/priroda-zvirata.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Příroda a zvířata: ježek pod dubovým listem",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/priroda-zvirata-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/priroda-zvirata-256.webp"
+      }
+    ]
+  },
+  "themes.cesko-svet": {
+    "path": "/art/themes/cesko-svet.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Česko a svět: glóbus a hrad na kopci",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/cesko-svet-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/cesko-svet-256.webp"
+      }
+    ]
+  },
+  "themes.lide-telo-veda": {
+    "path": "/art/themes/lide-telo-veda.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Lidé, tělo a věda: lupa nad srdcem a baňka",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/lide-telo-veda-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/lide-telo-veda-256.webp"
+      }
+    ]
+  },
+  "themes.pohadky-film-hudba": {
+    "path": "/art/themes/pohadky-film-hudba.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Pohádky, film a hudba: koruna, kamera a noty",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/pohadky-film-hudba-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/pohadky-film-hudba-256.webp"
+      }
+    ]
+  },
+  "themes.sport-hry": {
+    "path": "/art/themes/sport-hry.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Sport a hry: míč, kostka a hokejka",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/sport-hry-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/sport-hry-256.webp"
+      }
+    ]
+  },
+  "themes.jidlo-piti": {
+    "path": "/art/themes/jidlo-piti.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Jídlo a pití: chleba, hrnek a knedlík",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/jidlo-piti-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/jidlo-piti-256.webp"
+      }
+    ]
+  },
+  "themes.cisla-logika": {
+    "path": "/art/themes/cisla-logika.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Čísla a logika: počítadlo a hlavolam",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/cisla-logika-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/cisla-logika-256.webp"
+      }
+    ]
+  },
+  "themes.slova-jazyk": {
+    "path": "/art/themes/slova-jazyk.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Slova a jazyk: kniha, pero a bublina",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/slova-jazyk-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/slova-jazyk-256.webp"
+      }
+    ]
+  },
+  "themes.dejiny-vynalezy": {
+    "path": "/art/themes/dejiny-vynalezy.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Dějiny a vynálezy: rytířská helma, žárovka a ozubené kolo",
+    "group": "themes",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/themes/dejiny-vynalezy-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/themes/dejiny-vynalezy-256.webp"
+      }
+    ]
+  },
+  "ui.karticky-otazek": {
+    "path": "/art/ui/karticky-otazek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Svazek kartiček s otázkami",
+    "group": "ui",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/ui/karticky-otazek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/ui/karticky-otazek-256.webp"
+      }
+    ]
+  },
+  "ui.presypaci-hodiny": {
+    "path": "/art/ui/presypaci-hodiny.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Přesýpací hodiny",
+    "group": "ui",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/ui/presypaci-hodiny-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/ui/presypaci-hodiny-256.webp"
+      }
+    ]
+  },
+  "ui.zvonek": {
+    "path": "/art/ui/zvonek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Mosazný zvonek",
+    "group": "ui",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/ui/zvonek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/ui/zvonek-256.webp"
+      }
+    ]
+  },
+  "avatars.liska": {
+    "path": "/art/avatars/liska.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Liška",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/liska-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/liska-256.webp"
+      }
+    ]
+  },
+  "avatars.jezek": {
+    "path": "/art/avatars/jezek.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Ježek",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/jezek-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/jezek-256.webp"
+      }
+    ]
+  },
+  "avatars.medved": {
+    "path": "/art/avatars/medved.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Medvěd",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/medved-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/medved-256.webp"
+      }
+    ]
+  },
+  "avatars.zajic": {
+    "path": "/art/avatars/zajic.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Zajíc",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/zajic-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/zajic-256.webp"
+      }
+    ]
+  },
+  "avatars.kocour": {
+    "path": "/art/avatars/kocour.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kocour",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/kocour-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/kocour-256.webp"
+      }
+    ]
+  },
+  "avatars.koza": {
+    "path": "/art/avatars/koza.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Koza",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/koza-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/koza-256.webp"
+      }
+    ]
+  },
+  "avatars.mys": {
+    "path": "/art/avatars/mys.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Myš",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/mys-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/mys-256.webp"
+      }
+    ]
+  },
+  "avatars.zaba": {
+    "path": "/art/avatars/zaba.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Žába",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/zaba-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/zaba-256.webp"
+      }
+    ]
+  },
+  "avatars.veverka": {
+    "path": "/art/avatars/veverka.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Veverka",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/veverka-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/veverka-256.webp"
+      }
+    ]
+  },
+  "avatars.jezevec": {
+    "path": "/art/avatars/jezevec.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Jezevec",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/jezevec-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/jezevec-256.webp"
+      }
+    ]
+  },
+  "avatars.kos": {
+    "path": "/art/avatars/kos.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kos",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/kos-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/kos-256.webp"
+      }
+    ]
+  },
+  "avatars.kapr": {
+    "path": "/art/avatars/kapr.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kapr",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/kapr-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/kapr-256.webp"
+      }
+    ]
+  },
+  "avatars.krava": {
+    "path": "/art/avatars/krava.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Kráva",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/krava-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/krava-256.webp"
+      }
+    ]
+  },
+  "avatars.cap": {
+    "path": "/art/avatars/cap.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Čáp",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/cap-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/cap-256.webp"
+      }
+    ]
+  },
+  "avatars.vydra": {
+    "path": "/art/avatars/vydra.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Vydra",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/vydra-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/vydra-256.webp"
+      }
+    ]
+  },
+  "avatars.ovce": {
+    "path": "/art/avatars/ovce.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Avatar hráče: Ovce",
+    "group": "avatars",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/avatars/ovce-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/avatars/ovce-256.webp"
+      }
+    ]
+  },
+  "rewards.vitez-vecera": {
+    "path": "/art/rewards/vitez-vecera.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Vítěz večera: pohár s vavřínem a měsícem",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/vitez-vecera-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/vitez-vecera-256.webp"
+      }
+    ]
+  },
+  "rewards.sampion-sezony": {
+    "path": "/art/rewards/sampion-sezony.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Šampion sezóny: velký pohár s věncem",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/sampion-sezony-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/sampion-sezony-256.webp"
+      }
+    ]
+  },
+  "rewards.misto-1": {
+    "path": "/art/rewards/misto-1.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "1. místo: zlatá medaile",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/misto-1-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/misto-1-256.webp"
+      }
+    ]
+  },
+  "rewards.misto-2": {
+    "path": "/art/rewards/misto-2.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "2. místo: stříbrná medaile",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/misto-2-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/misto-2-256.webp"
+      }
+    ]
+  },
+  "rewards.misto-3": {
+    "path": "/art/rewards/misto-3.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "3. místo: bronzová medaile",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/misto-3-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/misto-3-256.webp"
+      }
+    ]
+  },
+  "rewards.serie": {
+    "path": "/art/rewards/serie.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Série správných odpovědí: tři stoupající hvězdy",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/serie-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/serie-256.webp"
+      }
+    ]
+  },
+  "rewards.prvni-vecer": {
+    "path": "/art/rewards/prvni-vecer.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "První odehraný večer: nový balíček karet s mašlí",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/prvni-vecer-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/prvni-vecer-256.webp"
+      }
+    ]
+  },
+  "rewards.nejlepsi-kreslir": {
+    "path": "/art/rewards/nejlepsi-kreslir.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Nejlepší kreslíř: tužka a křída ve vavřínu",
+    "group": "rewards",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/rewards/nejlepsi-kreslir-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/rewards/nejlepsi-kreslir-256.webp"
+      }
+    ]
+  },
+  "empty.zadne-vecery": {
+    "path": "/art/empty/zadne-vecery.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zatím žádné večery: prázdný stůl a spící kočka",
+    "group": "empty",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/empty/zadne-vecery-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/empty/zadne-vecery-256.webp"
+      }
+    ]
+  },
+  "empty.zadni-hraci": {
+    "path": "/art/empty/zadni-hraci.webp",
+    "width": 512,
+    "height": 512,
+    "alt": "Zatím žádní hráči: prázdné židle",
+    "group": "empty",
+    "transparent": true,
+    "variants": [
+      {
+        "width": 128,
+        "path": "/art/empty/zadni-hraci-128.webp"
+      },
+      {
+        "width": 256,
+        "path": "/art/empty/zadni-hraci-256.webp"
+      }
+    ]
+  },
+  "env.lobby-tv": {
+    "path": "/art/env/lobby-tv.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Klidné pozadí čekárny na televizi se sovou na kredenci",
+    "group": "env",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 540,
+        "path": "/art/env/lobby-tv-540.webp"
+      },
+      {
+        "width": 960,
+        "path": "/art/env/lobby-tv-960.webp"
+      }
+    ]
+  },
+  "env.lobby-mobil": {
+    "path": "/art/env/lobby-mobil.webp",
+    "width": 1080,
+    "height": 1920,
+    "alt": "Pozadí čekárny na mobilu: okno s večerní oblohou a spícím jezevčíkem",
+    "group": "env",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 540,
+        "path": "/art/env/lobby-mobil-540.webp"
+      },
+      {
+        "width": 960,
+        "path": "/art/env/lobby-mobil-960.webp"
+      }
+    ]
+  }
+}

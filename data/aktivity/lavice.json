@@ -1,0 +1,1516 @@
+[
+  {
+    "id": "lavice-001",
+    "level": "lavice",
+    "word": "pes",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐶"
+  },
+  {
+    "id": "lavice-002",
+    "level": "lavice",
+    "word": "kočka",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐱"
+  },
+  {
+    "id": "lavice-003",
+    "level": "lavice",
+    "word": "kráva",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🐄"
+  },
+  {
+    "id": "lavice-004",
+    "level": "lavice",
+    "word": "slon",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🐘"
+  },
+  {
+    "id": "lavice-005",
+    "level": "lavice",
+    "word": "sluníčko",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "☀️"
+  },
+  {
+    "id": "lavice-006",
+    "level": "lavice",
+    "word": "strom",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🌳"
+  },
+  {
+    "id": "lavice-007",
+    "level": "lavice",
+    "word": "dům",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🏠"
+  },
+  {
+    "id": "lavice-008",
+    "level": "lavice",
+    "word": "auto",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🚗"
+  },
+  {
+    "id": "lavice-009",
+    "level": "lavice",
+    "word": "míč",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-010",
+    "level": "lavice",
+    "word": "hokej",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🏒"
+  },
+  {
+    "id": "lavice-011",
+    "level": "lavice",
+    "word": "fotbal",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "⚽"
+  },
+  {
+    "id": "lavice-012",
+    "level": "lavice",
+    "word": "bruslení",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "⛸️"
+  },
+  {
+    "id": "lavice-013",
+    "level": "lavice",
+    "word": "plavání",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🏊"
+  },
+  {
+    "id": "lavice-014",
+    "level": "lavice",
+    "word": "běhání",
+    "mode": "ukaz",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-015",
+    "level": "lavice",
+    "word": "skákání",
+    "mode": "ukaz",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-016",
+    "level": "lavice",
+    "word": "spaní",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😴"
+  },
+  {
+    "id": "lavice-017",
+    "level": "lavice",
+    "word": "smích",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "😂"
+  },
+  {
+    "id": "lavice-018",
+    "level": "lavice",
+    "word": "pláč",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "😢"
+  },
+  {
+    "id": "lavice-019",
+    "level": "lavice",
+    "word": "jablko",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🍎"
+  },
+  {
+    "id": "lavice-020",
+    "level": "lavice",
+    "word": "banán",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🍌"
+  },
+  {
+    "id": "lavice-021",
+    "level": "lavice",
+    "word": "chleba",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🍞"
+  },
+  {
+    "id": "lavice-022",
+    "level": "lavice",
+    "word": "sýr",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🧀"
+  },
+  {
+    "id": "lavice-023",
+    "level": "lavice",
+    "word": "palačinky",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🥞"
+  },
+  {
+    "id": "lavice-024",
+    "level": "lavice",
+    "word": "buchty",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-025",
+    "level": "lavice",
+    "word": "knedlíky",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-026",
+    "level": "lavice",
+    "word": "řízek",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-027",
+    "level": "lavice",
+    "word": "polévka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🍲"
+  },
+  {
+    "id": "lavice-028",
+    "level": "lavice",
+    "word": "zmrzlina",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🍦"
+  },
+  {
+    "id": "lavice-029",
+    "level": "lavice",
+    "word": "dort",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🎂"
+  },
+  {
+    "id": "lavice-030",
+    "level": "lavice",
+    "word": "Mikuláš",
+    "mode": "ukaz",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-031",
+    "level": "lavice",
+    "word": "Ježíšek",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-032",
+    "level": "lavice",
+    "word": "sněhulák",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "⛄"
+  },
+  {
+    "id": "lavice-033",
+    "level": "lavice",
+    "word": "sáňkování",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🛷"
+  },
+  {
+    "id": "lavice-034",
+    "level": "lavice",
+    "word": "kolo",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🚲"
+  },
+  {
+    "id": "lavice-035",
+    "level": "lavice",
+    "word": "autobus",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🚌"
+  },
+  {
+    "id": "lavice-036",
+    "level": "lavice",
+    "word": "vlak",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🚂"
+  },
+  {
+    "id": "lavice-037",
+    "level": "lavice",
+    "word": "letadlo",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "✈️"
+  },
+  {
+    "id": "lavice-038",
+    "level": "lavice",
+    "word": "loď",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🚢"
+  },
+  {
+    "id": "lavice-039",
+    "level": "lavice",
+    "word": "ryba",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🐟"
+  },
+  {
+    "id": "lavice-040",
+    "level": "lavice",
+    "word": "pták",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐦"
+  },
+  {
+    "id": "lavice-041",
+    "level": "lavice",
+    "word": "žába",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐸"
+  },
+  {
+    "id": "lavice-042",
+    "level": "lavice",
+    "word": "had",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐍"
+  },
+  {
+    "id": "lavice-043",
+    "level": "lavice",
+    "word": "medvěd",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🐻"
+  },
+  {
+    "id": "lavice-044",
+    "level": "lavice",
+    "word": "zajíc",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐰"
+  },
+  {
+    "id": "lavice-045",
+    "level": "lavice",
+    "word": "liška",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🦊"
+  },
+  {
+    "id": "lavice-046",
+    "level": "lavice",
+    "word": "vlk",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐺"
+  },
+  {
+    "id": "lavice-047",
+    "level": "lavice",
+    "word": "lev",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🦁"
+  },
+  {
+    "id": "lavice-048",
+    "level": "lavice",
+    "word": "opice",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐵"
+  },
+  {
+    "id": "lavice-049",
+    "level": "lavice",
+    "word": "kůň",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐴"
+  },
+  {
+    "id": "lavice-050",
+    "level": "lavice",
+    "word": "prase",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐷"
+  },
+  {
+    "id": "lavice-051",
+    "level": "lavice",
+    "word": "ovce",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "image": "🐑"
+  },
+  {
+    "id": "lavice-052",
+    "level": "lavice",
+    "word": "kuře",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🐥"
+  },
+  {
+    "id": "lavice-053",
+    "level": "lavice",
+    "word": "škola",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-054",
+    "level": "lavice",
+    "word": "penál",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-055",
+    "level": "lavice",
+    "word": "aktovka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "🎒"
+  },
+  {
+    "id": "lavice-056",
+    "level": "lavice",
+    "word": "tužka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "✏️"
+  },
+  {
+    "id": "lavice-057",
+    "level": "lavice",
+    "word": "kniha",
+    "mode": "rekni",
+    "difficulty": 3,
+    "image": "📖"
+  },
+  {
+    "id": "lavice-058",
+    "level": "lavice",
+    "word": "učitelka",
+    "mode": "ukaz",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-059",
+    "level": "lavice",
+    "word": "tabule",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-060",
+    "level": "lavice",
+    "word": "přestávka",
+    "mode": "rekni",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-061",
+    "level": "lavice",
+    "word": "déšť",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🌧️"
+  },
+  {
+    "id": "lavice-062",
+    "level": "lavice",
+    "word": "sníh",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "❄️"
+  },
+  {
+    "id": "lavice-063",
+    "level": "lavice",
+    "word": "vítr",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "💨"
+  },
+  {
+    "id": "lavice-064",
+    "level": "lavice",
+    "word": "duha",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "image": "🌈"
+  },
+  {
+    "id": "lavice-065",
+    "level": "lavice",
+    "word": "měsíc",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "🌙"
+  },
+  {
+    "id": "lavice-066",
+    "level": "lavice",
+    "word": "hvězda",
+    "mode": "any",
+    "difficulty": 3,
+    "image": "⭐"
+  },
+  {
+    "id": "lavice-067",
+    "level": "lavice",
+    "word": "Krteček",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-068",
+    "level": "lavice",
+    "word": "Rumcajs",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-069",
+    "level": "lavice",
+    "word": "Krakonoš",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-070",
+    "level": "lavice",
+    "word": "vodník",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-071",
+    "level": "lavice",
+    "word": "pohádka",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-072",
+    "level": "lavice",
+    "word": "princezna",
+    "mode": "rekni",
+    "difficulty": 4,
+    "image": "👸"
+  },
+  {
+    "id": "lavice-073",
+    "level": "lavice",
+    "word": "drak",
+    "mode": "rekni",
+    "difficulty": 4,
+    "image": "🐉"
+  },
+  {
+    "id": "lavice-074",
+    "level": "lavice",
+    "word": "čaroděj",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🧙"
+  },
+  {
+    "id": "lavice-075",
+    "level": "lavice",
+    "word": "hrad",
+    "mode": "rekni",
+    "difficulty": 4,
+    "image": "🏰"
+  },
+  {
+    "id": "lavice-076",
+    "level": "lavice",
+    "word": "zámek",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-077",
+    "level": "lavice",
+    "word": "král",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🤴"
+  },
+  {
+    "id": "lavice-078",
+    "level": "lavice",
+    "word": "kominík",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-079",
+    "level": "lavice",
+    "word": "hasič",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-080",
+    "level": "lavice",
+    "word": "policista",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-081",
+    "level": "lavice",
+    "word": "lékař",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-082",
+    "level": "lavice",
+    "word": "kuchař",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-083",
+    "level": "lavice",
+    "word": "pekař",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-084",
+    "level": "lavice",
+    "word": "řidič",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-085",
+    "level": "lavice",
+    "word": "zahradník",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-086",
+    "level": "lavice",
+    "word": "pošťák",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-087",
+    "level": "lavice",
+    "word": "malíř",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-088",
+    "level": "lavice",
+    "word": "zpěvák",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-089",
+    "level": "lavice",
+    "word": "tanečnice",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "💃"
+  },
+  {
+    "id": "lavice-090",
+    "level": "lavice",
+    "word": "houbař",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-091",
+    "level": "lavice",
+    "word": "rybář",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🎣"
+  },
+  {
+    "id": "lavice-092",
+    "level": "lavice",
+    "word": "kytara",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🎸"
+  },
+  {
+    "id": "lavice-093",
+    "level": "lavice",
+    "word": "housle",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🎻"
+  },
+  {
+    "id": "lavice-094",
+    "level": "lavice",
+    "word": "klavír",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🎹"
+  },
+  {
+    "id": "lavice-095",
+    "level": "lavice",
+    "word": "trumpeta",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🎺"
+  },
+  {
+    "id": "lavice-096",
+    "level": "lavice",
+    "word": "buben",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🥁"
+  },
+  {
+    "id": "lavice-097",
+    "level": "lavice",
+    "word": "pomlázka",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-098",
+    "level": "lavice",
+    "word": "kraslice",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-099",
+    "level": "lavice",
+    "word": "Vánoce",
+    "mode": "rekni",
+    "difficulty": 4,
+    "image": "🎄"
+  },
+  {
+    "id": "lavice-100",
+    "level": "lavice",
+    "word": "narozeniny",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-101",
+    "level": "lavice",
+    "word": "dárek",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🎁"
+  },
+  {
+    "id": "lavice-102",
+    "level": "lavice",
+    "word": "balón",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🎈"
+  },
+  {
+    "id": "lavice-103",
+    "level": "lavice",
+    "word": "houba",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🍄"
+  },
+  {
+    "id": "lavice-104",
+    "level": "lavice",
+    "word": "les",
+    "mode": "rekni",
+    "difficulty": 4,
+    "image": "🌲"
+  },
+  {
+    "id": "lavice-105",
+    "level": "lavice",
+    "word": "chalupa",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-106",
+    "level": "lavice",
+    "word": "stan",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "⛺"
+  },
+  {
+    "id": "lavice-107",
+    "level": "lavice",
+    "word": "rybník",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-108",
+    "level": "lavice",
+    "word": "hora",
+    "mode": "rekni",
+    "difficulty": 4,
+    "image": "⛰️"
+  },
+  {
+    "id": "lavice-109",
+    "level": "lavice",
+    "word": "Praha",
+    "mode": "rekni",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-110",
+    "level": "lavice",
+    "word": "schovávaná",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-111",
+    "level": "lavice",
+    "word": "honička",
+    "mode": "ukaz",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-112",
+    "level": "lavice",
+    "word": "švihadlo",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-113",
+    "level": "lavice",
+    "word": "houpačka",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-114",
+    "level": "lavice",
+    "word": "skluzavka",
+    "mode": "nakresli",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-115",
+    "level": "lavice",
+    "word": "koloběžka",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🛴"
+  },
+  {
+    "id": "lavice-116",
+    "level": "lavice",
+    "word": "lyžování",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "⛷️"
+  },
+  {
+    "id": "lavice-117",
+    "level": "lavice",
+    "word": "tenis",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🎾"
+  },
+  {
+    "id": "lavice-118",
+    "level": "lavice",
+    "word": "basketbal",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🏀"
+  },
+  {
+    "id": "lavice-119",
+    "level": "lavice",
+    "word": "gymnastika",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🤸"
+  },
+  {
+    "id": "lavice-120",
+    "level": "lavice",
+    "word": "judo",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "image": "🥋"
+  },
+  {
+    "id": "lavice-121",
+    "level": "lavice",
+    "word": "ucho",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "👂"
+  },
+  {
+    "id": "lavice-122",
+    "level": "lavice",
+    "word": "oko",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "👁️"
+  },
+  {
+    "id": "lavice-123",
+    "level": "lavice",
+    "word": "zub",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🦷"
+  },
+  {
+    "id": "lavice-124",
+    "level": "lavice",
+    "word": "babička",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "👵"
+  },
+  {
+    "id": "lavice-125",
+    "level": "lavice",
+    "word": "dědeček",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "👴"
+  },
+  {
+    "id": "lavice-126",
+    "level": "lavice",
+    "word": "miminko",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "👶"
+  },
+  {
+    "id": "lavice-127",
+    "level": "lavice",
+    "word": "postel",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🛏️"
+  },
+  {
+    "id": "lavice-128",
+    "level": "lavice",
+    "word": "klíč",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🔑"
+  },
+  {
+    "id": "lavice-129",
+    "level": "lavice",
+    "word": "hodiny",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "⏰"
+  },
+  {
+    "id": "lavice-130",
+    "level": "lavice",
+    "word": "okno",
+    "mode": "any",
+    "difficulty": 4
+  },
+  {
+    "id": "lavice-131",
+    "level": "lavice",
+    "word": "dveře",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🚪"
+  },
+  {
+    "id": "lavice-132",
+    "level": "lavice",
+    "word": "Bob a Bobek",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-133",
+    "level": "lavice",
+    "word": "Křemílek a Vochomůrka",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-134",
+    "level": "lavice",
+    "word": "Pat a Mat",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-135",
+    "level": "lavice",
+    "word": "Mach a Šebestová",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-136",
+    "level": "lavice",
+    "word": "Maxipes Fík",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-137",
+    "level": "lavice",
+    "word": "Rákosníček",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-138",
+    "level": "lavice",
+    "word": "Hurvínek",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-139",
+    "level": "lavice",
+    "word": "Popelka",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-140",
+    "level": "lavice",
+    "word": "Červená Karkulka",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-141",
+    "level": "lavice",
+    "word": "Hloupý Honza",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-142",
+    "level": "lavice",
+    "word": "pálení čarodějnic",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-143",
+    "level": "lavice",
+    "word": "Silvestr",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-144",
+    "level": "lavice",
+    "word": "třídnice",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-145",
+    "level": "lavice",
+    "word": "vysvědčení",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-146",
+    "level": "lavice",
+    "word": "domácí úkol",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-147",
+    "level": "lavice",
+    "word": "tělocvična",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-148",
+    "level": "lavice",
+    "word": "pravítko",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "📏"
+  },
+  {
+    "id": "lavice-149",
+    "level": "lavice",
+    "word": "kružítko",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-150",
+    "level": "lavice",
+    "word": "nůžky",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "✂️"
+  },
+  {
+    "id": "lavice-151",
+    "level": "lavice",
+    "word": "pastelky",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🖍️"
+  },
+  {
+    "id": "lavice-152",
+    "level": "lavice",
+    "word": "štětec",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🖌️"
+  },
+  {
+    "id": "lavice-153",
+    "level": "lavice",
+    "word": "násobilka",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-154",
+    "level": "lavice",
+    "word": "abeceda",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-155",
+    "level": "lavice",
+    "word": "vysavač",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-156",
+    "level": "lavice",
+    "word": "vařečka",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-157",
+    "level": "lavice",
+    "word": "hřib",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-158",
+    "level": "lavice",
+    "word": "muchomůrka",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-159",
+    "level": "lavice",
+    "word": "lanovka",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-160",
+    "level": "lavice",
+    "word": "rozhledna",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-161",
+    "level": "lavice",
+    "word": "hokejka",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-162",
+    "level": "lavice",
+    "word": "brankář",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-163",
+    "level": "lavice",
+    "word": "rozhodčí",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-164",
+    "level": "lavice",
+    "word": "medaile",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "🏅"
+  },
+  {
+    "id": "lavice-165",
+    "level": "lavice",
+    "word": "olympiáda",
+    "mode": "rekni",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-166",
+    "level": "lavice",
+    "word": "trampolína",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-167",
+    "level": "lavice",
+    "word": "ježek",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🦔"
+  },
+  {
+    "id": "lavice-168",
+    "level": "lavice",
+    "word": "veverka",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🐿️"
+  },
+  {
+    "id": "lavice-169",
+    "level": "lavice",
+    "word": "netopýr",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🦇"
+  },
+  {
+    "id": "lavice-170",
+    "level": "lavice",
+    "word": "delfín",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🐬"
+  },
+  {
+    "id": "lavice-171",
+    "level": "lavice",
+    "word": "tučňák",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🐧"
+  },
+  {
+    "id": "lavice-172",
+    "level": "lavice",
+    "word": "chameleon",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🦎"
+  },
+  {
+    "id": "lavice-173",
+    "level": "lavice",
+    "word": "chobotnice",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🐙"
+  },
+  {
+    "id": "lavice-174",
+    "level": "lavice",
+    "word": "motýl",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🦋"
+  },
+  {
+    "id": "lavice-175",
+    "level": "lavice",
+    "word": "včela",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🐝"
+  },
+  {
+    "id": "lavice-176",
+    "level": "lavice",
+    "word": "pavouk",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🕷️"
+  },
+  {
+    "id": "lavice-177",
+    "level": "lavice",
+    "word": "šnek",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "image": "🐌"
+  },
+  {
+    "id": "lavice-178",
+    "level": "lavice",
+    "word": "želva",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🐢"
+  },
+  {
+    "id": "lavice-179",
+    "level": "lavice",
+    "word": "žirafa",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🦒"
+  },
+  {
+    "id": "lavice-180",
+    "level": "lavice",
+    "word": "klokan",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🦘"
+  },
+  {
+    "id": "lavice-181",
+    "level": "lavice",
+    "word": "Karlův most",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-182",
+    "level": "lavice",
+    "word": "Pražský hrad",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-183",
+    "level": "lavice",
+    "word": "Petřín",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-184",
+    "level": "lavice",
+    "word": "čertovská škola",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-185",
+    "level": "lavice",
+    "word": "vánoční stromek",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🎄"
+  },
+  {
+    "id": "lavice-186",
+    "level": "lavice",
+    "word": "velikonoční vajíčko",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🥚"
+  },
+  {
+    "id": "lavice-187",
+    "level": "lavice",
+    "word": "zubní kartáček",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "🪥"
+  },
+  {
+    "id": "lavice-188",
+    "level": "lavice",
+    "word": "dopravní značka",
+    "mode": "nakresli",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-189",
+    "level": "lavice",
+    "word": "semafor",
+    "mode": "any",
+    "difficulty": 5,
+    "image": "🚦"
+  },
+  {
+    "id": "lavice-190",
+    "level": "lavice",
+    "word": "popelářské auto",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-191",
+    "level": "lavice",
+    "word": "jízda na kole",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-192",
+    "level": "lavice",
+    "word": "skok do dálky",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-193",
+    "level": "lavice",
+    "word": "přetahování lanem",
+    "mode": "ukaz",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-194",
+    "level": "lavice",
+    "word": "kolotoč",
+    "mode": "any",
+    "difficulty": 4,
+    "image": "🎠"
+  },
+  {
+    "id": "lavice-195",
+    "level": "lavice",
+    "word": "ruské kolo",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "image": "🎡"
+  },
+  {
+    "id": "lavice-196",
+    "level": "lavice",
+    "word": "vodní pistole",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-197",
+    "level": "lavice",
+    "word": "bublifuk",
+    "mode": "any",
+    "difficulty": 3
+  },
+  {
+    "id": "lavice-198",
+    "level": "lavice",
+    "word": "stavebnice",
+    "mode": "any",
+    "difficulty": 5
+  },
+  {
+    "id": "lavice-199",
+    "level": "lavice",
+    "word": "plyšový medvídek",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "image": "🧸"
+  },
+  {
+    "id": "lavice-200",
+    "level": "lavice",
+    "word": "chytit ryby",
+    "mode": "ukaz",
+    "difficulty": 5
+  }
+]

@@ -17,6 +17,11 @@
   --good-bg: #e1e7d8;
   --bad: #9a5a45;
   --bad-bg: #f2ddd3;
+  /* Inputs, list rows and table cards on paper. */
+  --surface: #fff;
+  /* Edge of the primary (sage) button and text on dark fills. */
+  --sage-edge: #3f4b37;
+  --on-dark: #fbf8f1;
   --radius: 22px 18px 24px 20px / 20px 24px 18px 22px;
   --radius-sm: 14px 12px 15px 13px / 13px 15px 12px 14px;
   --shadow: 0 3px 0 rgba(59, 51, 43, 0.14);
@@ -125,16 +130,22 @@ button,
 
 .btn.primary {
   background: var(--sage-dark);
-  border-color: #3f4b37;
-  box-shadow: 0 3px 0 #3f4b37;
-  color: #fbf8f1;
+  border-color: var(--sage-edge);
+  box-shadow: 0 3px 0 var(--sage-edge);
+  color: var(--on-dark);
 }
 
 .btn.clay {
   background: var(--clay);
   border-color: var(--clay-dark);
   box-shadow: 0 3px 0 var(--clay-dark);
-  color: #fffaf3;
+  color: var(--on-dark);
+}
+
+.btn.danger {
+  border-color: var(--bad);
+  box-shadow: 0 3px 0 var(--bad);
+  color: var(--bad);
 }
 
 .btn.big {
@@ -181,13 +192,17 @@ input:not([type]) {
   padding: 10px 16px;
   border: 2px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   width: 100%;
 }
 
 input:focus-visible,
-button:focus-visible {
+button:focus-visible,
+a:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
   outline: 3px solid var(--slate);
   outline-offset: 2px;
 }
@@ -229,4 +244,31 @@ button:focus-visible {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
+}
+
+/* Empty state: illustration next to a short sentence (no players, no evenings…). */
+.empty-state {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.empty-state > img {
+  width: 120px;
+  height: auto;
+  flex: none;
+}
+.empty-state > p,
+.empty-state > div {
+  flex: 1 1 220px;
+  margin: 0;
+}
+
+/* Medal and reward icons inline with text (standings, league, evening results). */
+.medal-icon {
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  vertical-align: middle;
+  object-fit: contain;
 }

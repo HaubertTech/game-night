@@ -1,0 +1,171 @@
+{
+  "id": "prsi",
+  "title": "Naučím se prší",
+  "rules": [
+    "Každý dostane 4 karty, jedna karta se otočí nahoru.",
+    "Na kartu nahoře dáš kartu stejné barvy, nebo stejné hodnoty.",
+    "Když nemáš co dát, lízneš si jednu kartu a hraje další.",
+    "Sedma: další hráč si bere 2 karty. Může ji přebít svou sedmou, pak další bere 4, 6, 8…",
+    "Eso: další hráč stojí. Může ho přebít svým esem, pak stojí ten další.",
+    "Svršek jde na cokoli (kromě sedmy nebo esa, které platí) a vybereš si s ním barvu.",
+    "Vyhrává, kdo se první zbaví všech karet. Ostatní hrají dál o další místa."
+  ],
+  "steps": [
+    {
+      "id": "ahoj",
+      "title": "Ahoj, jsem Sova!",
+      "pose": "mava",
+      "text": "Naučím tě prší. Je to hra, kde chceš co nejdřív vyhodit všechny karty z ruky. Kdo je první bez karet, vyhrál!",
+      "textAdult": "Prší: cílem je zbavit se všech karet jako první."
+    },
+    {
+      "id": "barvy",
+      "title": "Čtyři barvy",
+      "pose": "otazka",
+      "text": "Karty mají čtyři barvy: srdce, listy (říká se jim i zelené), žaludy a kule. Podívej se, jak vypadají.",
+      "textAdult": "Barvy mariášových karet: srdce, listy (zelené), žaludy, kule.",
+      "show": ["srdce-eso", "listy-eso", "zaludy-eso", "kule-eso"]
+    },
+    {
+      "id": "hodnoty",
+      "title": "Osm hodnot",
+      "pose": "otazka",
+      "text": "V každé barvě je osm karet: sedma, osma, devítka, desítka, spodek, svršek, král a eso. Spodek má znak barvy dole, svršek nahoře.",
+      "textAdult": "Hodnoty: 7, 8, 9, 10, spodek, svršek, král, eso.",
+      "show": ["srdce-7", "srdce-8", "srdce-9", "srdce-10", "srdce-spodek", "srdce-svrsek", "srdce-kral", "srdce-eso"]
+    },
+    {
+      "id": "barva",
+      "title": "Stejná barva",
+      "pose": "premysli",
+      "text": "Nahoře leží srdcová devítka. Můžeš na ni dát kartu stejné barvy — srdce. Klepni na kartu, kterou můžeš dát.",
+      "textAdult": "Přiznej barvu: klepni na kartu, kterou lze zahrát.",
+      "task": { "type": "pickPrsi", "top": "srdce-9", "hand": ["listy-8", "srdce-kral", "kule-10", "zaludy-spodek"] },
+      "success": "Ano! Srdce na srdce."
+    },
+    {
+      "id": "hodnota",
+      "title": "Stejná hodnota",
+      "pose": "premysli",
+      "text": "Kartu můžeš dát i tehdy, když má stejnou hodnotu — třeba desítku na desítku, i když je jiné barvy. Klepni na kartu, která jde.",
+      "textAdult": "Nebo přiznej hodnotu: klepni na kartu, kterou lze zahrát.",
+      "task": { "type": "pickPrsi", "top": "listy-10", "hand": ["srdce-7", "kule-8", "srdce-10", "zaludy-kral"] },
+      "success": "Přesně tak! Desítka na desítku."
+    },
+    {
+      "id": "liznout",
+      "title": "Když nemáš co dát",
+      "pose": "otazka",
+      "text": "Nemáš kartu stejné barvy ani hodnoty? Nevadí. Lízneš si jednu kartu z balíčku a hraje další hráč.",
+      "task": {
+        "type": "choice",
+        "question": "Nahoře je kulová osma. V ruce máš zelenou desítku a srdcového krále. Co uděláš?",
+        "options": [
+          { "text": "Lízneš si kartu", "correct": true, "why": "Správně. Žádná tvoje karta nesedí, tak si lízneš." },
+          { "text": "Dáš zelenou desítku", "why": "Desítka není ani kule, ani osma — nejde to." },
+          { "text": "Dáš srdcového krále", "why": "Král není ani kule, ani osma — nejde to." }
+        ]
+      }
+    },
+    {
+      "id": "sedma",
+      "title": "Sedma — ber dvě!",
+      "pose": "otazka",
+      "text": "Sedma je zvláštní karta. Kdo na ni přijde, musí si vzít dvě karty. Ale může se bránit: dá svou sedmu a pak bere ten další — a hned čtyři! Na stole leží sedma. Ubraň se!",
+      "textAdult": "Sedma: další bere 2. Přebít jde jen sedmou (pak 4, 6, 8). Přebij sedmu.",
+      "task": { "type": "pickPrsi", "top": "kule-7", "pendingSevens": 1, "hand": ["kule-9", "srdce-7", "listy-kral"] },
+      "success": "Výborně! Teď si bude brát Sova, a to rovnou čtyři karty."
+    },
+    {
+      "id": "sedmy-pocet",
+      "title": "Kolik karet?",
+      "pose": "premysli",
+      "text": "Sedmy se sčítají. Za každou sedmu jsou dvě karty.",
+      "task": {
+        "type": "choice",
+        "question": "Na stole leží dvě sedmy a ty žádnou nemáš. Kolik karet si vezmeš?",
+        "options": [
+          { "text": "2", "why": "To by platilo pro jednu sedmu. Jsou dvě — 2 a 2." },
+          { "text": "4", "correct": true, "why": "Správně, dvě sedmy jsou čtyři karty." },
+          { "text": "6", "why": "To by byly tři sedmy." }
+        ]
+      }
+    },
+    {
+      "id": "eso",
+      "title": "Eso — stojíš!",
+      "pose": "otazka",
+      "text": "Kdo přijde na eso, jedno kolo stojí a nehraje. Ubránit se dá jen esem — pak stojí ten další. Na stole je eso. Ubraň se!",
+      "textAdult": "Eso: další stojí. Přebít jde jen esem.",
+      "task": { "type": "pickPrsi", "top": "srdce-eso", "pendingAce": true, "hand": ["srdce-8", "zaludy-eso", "kule-9"] },
+      "success": "Správně! Teď bude stát Sova."
+    },
+    {
+      "id": "eso-stat",
+      "title": "Bez esa",
+      "pose": "premysli",
+      "text": "A co když eso nemáš?",
+      "task": {
+        "type": "choice",
+        "question": "Na stole je eso, které platí, a ty eso nemáš. Co uděláš?",
+        "options": [
+          { "text": "Stojím a hraje další", "correct": true, "why": "Ano. Na eso se nebere, jen se jedno kolo stojí." },
+          { "text": "Lízneš si kartu", "why": "Na eso se karty neberou — jen se stojí." },
+          { "text": "Dám srdcovou osmu", "why": "Na eso, které platí, jde jen eso." }
+        ]
+      }
+    },
+    {
+      "id": "svrsek",
+      "title": "Svršek mění barvu",
+      "pose": "otazka",
+      "text": "Svršek je kouzelná karta. Dáš ho skoro na cokoli a řekneš, jaká barva se má hrát dál. Nahoře je žaludová osma a ty nemáš žaludy ani osmu. Ale máš svrška!",
+      "textAdult": "Svršek jde na cokoli a hráč zvolí barvu.",
+      "task": { "type": "pickPrsi", "top": "zaludy-8", "hand": ["kule-svrsek", "srdce-kral", "srdce-9"] },
+      "success": "Ano, svršek jde vždycky."
+    },
+    {
+      "id": "svrsek-barva",
+      "title": "Jakou barvu?",
+      "pose": "premysli",
+      "text": "Se svrškem si přeješ barvu. Vybírej chytře!",
+      "task": {
+        "type": "choice",
+        "question": "Po svršku ti zbyl srdcový král a srdcová devítka. Jakou barvu si přeješ?",
+        "options": [
+          { "text": "Srdce", "correct": true, "why": "Chytré! Srdce máš, tak je příště můžeš dát." },
+          { "text": "Kule", "why": "Kule nemáš — příště bys nemohl nic dát." },
+          { "text": "Žaludy", "why": "Žaludy nemáš — příště bys nemohl nic dát." }
+        ]
+      }
+    },
+    {
+      "id": "svrsek-sedma",
+      "title": "Kdy svršek nejde",
+      "pose": "premysli",
+      "text": "Svršek nejde na sedmu nebo eso, které právě platí. Tam pomůže jen sedma nebo eso.",
+      "task": {
+        "type": "choice",
+        "question": "Kamarád ti dal sedmu. Můžeš na ni dát svrška?",
+        "options": [
+          { "text": "Ne, musím dát sedmu, nebo brát", "correct": true, "why": "Správně. Na sedmu, která platí, jde jen sedma." },
+          { "text": "Ano, svršek jde vždycky", "why": "Skoro vždycky — ale na sedmu ani eso, které platí, ne." }
+        ]
+      }
+    },
+    {
+      "id": "vitez",
+      "title": "Kdo vyhrál?",
+      "pose": "slavi",
+      "text": "Kdo se první zbaví všech karet, vyhrál! Ostatní hrají dál, kdo bude druhý, třetí… Kdo zůstane s kartami poslední, prohrál.",
+      "textAdult": "První bez karet vyhrává, ostatní dohrají o pořadí."
+    },
+    {
+      "id": "konec",
+      "title": "Umíš to!",
+      "pose": "slavi",
+      "text": "Hurá, prší umíš! Teď si zahraj se mnou. Když nebudeš vědět, klepni na „Poraď“ a já ti pomůžu.",
+      "textAdult": "Hotovo. Zkus partii s počítačem — tlačítko „Poraď“ ukáže nejlepší tah."
+    }
+  ]
+}

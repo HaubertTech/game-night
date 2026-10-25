@@ -1,0 +1,144 @@
+{
+  "id": "zoliky",
+  "title": "Naučím se žolíky",
+  "rules": [
+    "Hraje se se dvěma balíčky a čtyřmi žolíky. Kdo začíná, má o kartu víc a začne odhozením.",
+    "V tahu si vezmeš kartu z balíčku nebo z odhozených, pak vykládáš a nakonec jednu kartu odhodíš.",
+    "Postupka: aspoň tři karty po sobě v jedné barvě (eso může být pod dvojkou i nad králem).",
+    "Trojice nebo čtveřice: stejná hodnota v různých barvách.",
+    "Žolík zastoupí jakoukoli kartu. Ve skupině musí být aspoň dvě pravé karty.",
+    "Poprvé musíš vyložit aspoň 42 bodů a mezi tím čistou postupku bez žolíka.",
+    "Kartu z odhozených si smíš vzít, jen když ji hned vyložíš (nebo už máš vyloženo).",
+    "Po prvním vyložení můžeš přikládat k jakékoli skupině na stole a vyměnit žolíka za kartu, kterou zastupuje.",
+    "Kdo vyloží všechno a odhodí poslední kartu, zavřel. Má 0 bodů, ostatní si počítají karty v ruce.",
+    "Body v ruce: 2–10 podle čísla, kluk, dáma, král a eso po 10, žolík 50.",
+    "Zavření z ruky (všechno najednou, bez dřívějšího vyložení): ostatní mají body dvakrát.",
+    "Hraje se 10 kol, vyhrává nejmenší součet bodů."
+  ],
+  "steps": [
+    {
+      "id": "ahoj",
+      "title": "Ahoj, jsem Sova!",
+      "pose": "mava",
+      "text": "Naučím tě žolíky. Skládáš karty do skupinek a vykládáš je na stůl. Kdo se první zbaví všech karet, zavřel kolo. Na konci chceš mít v ruce co nejmíň bodů.",
+      "textAdult": "Žolíky: skládej postupky a trojice, zavři kolo, drž málo bodů v ruce."
+    },
+    {
+      "id": "karty",
+      "title": "Karty",
+      "pose": "otazka",
+      "text": "Hrajeme s francouzskými kartami: dva balíčky a k tomu čtyři žolíci. Kluk (J), dáma (Q), král (K) a eso (A) jsou obrázky. Žolík je kamarád, který zastoupí jakoukoli kartu.",
+      "show": ["srdce-1-0", "srdce-13-0", "srdce-12-0", "srdce-11-0", "srdce-10-0", "zolik-0"]
+    },
+    {
+      "id": "postupka",
+      "title": "Postupka",
+      "pose": "premysli",
+      "text": "Postupka jsou aspoň tři karty po sobě ve stejné barvě, třeba 4, 5, 6 srdcí. Vyber karty, ze kterých složíš postupku, a klepni na „Hotovo“.",
+      "textAdult": "Postupka: 3+ karty po sobě v jedné barvě. Slož ji.",
+      "task": { "type": "buildMeld", "kind": "run", "hand": ["srdce-4-0", "kary-5-0", "srdce-5-0", "piky-9-0", "srdce-6-0", "srdce-9-1"] },
+      "success": "Výborně, to je postupka!"
+    },
+    {
+      "id": "trojice",
+      "title": "Trojice",
+      "pose": "premysli",
+      "text": "Trojice jsou tři karty se stejným číslem, každá v jiné barvě. Čtyři takové jsou čtveřice. Slož trojici!",
+      "textAdult": "Trojice/čtveřice: stejná hodnota, různé barvy. Slož ji.",
+      "task": { "type": "buildMeld", "kind": "group", "hand": ["kary-8-0", "srdce-2-0", "piky-8-0", "kary-9-0", "krize-8-0"] },
+      "success": "Paráda, trojice osmiček!"
+    },
+    {
+      "id": "zolik",
+      "title": "Žolík pomáhá",
+      "pose": "otazka",
+      "text": "Chybí ti karta? Žolík ji zastoupí. Máš sedmičku a devítku křížů — žolík bude osmička. Ve skupině ale musí být aspoň dvě pravé karty. Slož skupinu se žolíkem.",
+      "textAdult": "Žolík zastoupí chybějící kartu (min. dvě pravé karty ve skupině).",
+      "task": { "type": "buildMeld", "kind": "any", "requireJoker": true, "hand": ["krize-7-0", "srdce-3-0", "zolik-0", "piky-12-0", "krize-9-0"] },
+      "success": "Ano! Žolík tu hraje osmičku."
+    },
+    {
+      "id": "body",
+      "title": "Kolik to je bodů?",
+      "pose": "premysli",
+      "text": "Karty mají body: čísla kolik ukazují, kluk, dáma a král po 10. Spočítej, kolik je postupka kluk, dáma, král.",
+      "task": { "type": "count", "cards": ["srdce-11-0", "srdce-12-0", "srdce-13-0"], "options": [3, 30, 36] }
+    },
+    {
+      "id": "prvni",
+      "title": "První vyložení: 42 bodů",
+      "pose": "otazka",
+      "text": "Poprvé můžeš vyložit, až když máš dohromady aspoň 42 bodů a mezi tím čistou postupku — bez žolíka. Slož skupiny a vylož aspoň 42!",
+      "textAdult": "První vyložení: min. 42 bodů a čistá postupka. Slož ho.",
+      "task": { "type": "opening", "min": 42, "hand": ["srdce-11-0", "kary-2-0", "srdce-12-0", "kary-4-0", "piky-4-0", "srdce-13-0", "krize-4-0", "piky-13-0"] },
+      "success": "Hurá, vyložil jsi poprvé!"
+    },
+    {
+      "id": "prikladani",
+      "title": "Přikládání",
+      "pose": "premysli",
+      "text": "Když už máš vyloženo, můžeš přikládat karty ke skupinám na stole — i ke skupinám ostatních. Na stole je postupka 5, 6, 7 piků. Kterou kartu přiložíš?",
+      "textAdult": "Po prvním vyložení lze přikládat k libovolné skupině na stole.",
+      "task": { "type": "layOff", "meld": ["piky-5-0", "piky-6-0", "piky-7-0"], "hand": ["kary-8-0", "piky-8-0", "srdce-2-0"] },
+      "success": "Přesně! Osmička piků navazuje."
+    },
+    {
+      "id": "vymena",
+      "title": "Výměna žolíka",
+      "pose": "otazka",
+      "text": "Na stole leží 5, žolík, 7 srdcí. Žolík tam hraje šestku. Když máš srdcovou šestku, můžeš ji dát místo žolíka a žolíka si vzít!",
+      "task": {
+        "type": "choice",
+        "question": "Kterou kartou vyměníš žolíka v postupce 5 ♥, žolík, 7 ♥?",
+        "options": [
+          { "text": "6 ♥", "correct": true, "why": "Správně, žolík zastupoval srdcovou šestku." },
+          { "text": "6 ♠", "why": "Šestka je správná, ale barva ne — postupka je srdcová." },
+          { "text": "8 ♥", "why": "Osmičku můžeš přiložit na konec, ale žolík hraje šestku." }
+        ]
+      }
+    },
+    {
+      "id": "odhazovani",
+      "title": "Co odhodit?",
+      "pose": "premysli",
+      "text": "Na konci tahu odhodíš jednu kartu. Odhoď tu, která se ti nehodí do žádné skupiny — nejlépe s hodně body, ať ti v ruce nestraší.",
+      "task": { "type": "pickCard", "hand": ["srdce-5-0", "srdce-6-0", "piky-13-0", "kary-9-0", "kary-10-0"], "correct": ["piky-13-0"], "why": "Ano! Král piků se k ničemu nehodí a v ruce by měl 10 bodů.", "wrong": "Tahle karta se ti ještě může hodit — má sousedy. Hledej kartu, která je sama." },
+      "success": "Dobrá volba!"
+    },
+    {
+      "id": "odhozene",
+      "title": "Braní z odhozených",
+      "pose": "otazka",
+      "text": "Místo balíčku si můžeš vzít horní kartu z odhozených. Ale pozor: dokud nemáš vyloženo, smíš si ji vzít, jen když ji hned použiješ k prvnímu vyložení.",
+      "task": {
+        "type": "choice",
+        "question": "Ještě nemáš vyloženo. Smíš si vzít kartu z odhozených jen tak do ruky?",
+        "options": [
+          { "text": "Ne, jen když s ní hned poprvé vyložím", "correct": true, "why": "Správně." },
+          { "text": "Ano, kdykoli", "why": "Kdykoli až potom, co máš vyloženo. Předtím jen když ji hned vyložíš." }
+        ]
+      }
+    },
+    {
+      "id": "zavreni",
+      "title": "Zavření",
+      "pose": "slavi",
+      "text": "Kdo vyloží všechny karty a odhodí tu poslední, zavřel kolo a má 0 bodů. Když vyložíš úplně všechno najednou a hned zavřeš, je to zavření z ruky — ostatní pak mají body dvakrát!",
+      "textAdult": "Zavření = 0 bodů. Zavření z ruky: ostatním ×2."
+    },
+    {
+      "id": "pocitani",
+      "title": "Počítání bodů",
+      "pose": "premysli",
+      "text": "Ostatním zůstaly karty v ruce a počítají si body: čísla podle sebe, obrázky a eso po 10 a žolík celých 50! Kolik bodů je v téhle ruce?",
+      "task": { "type": "count", "cards": ["zolik-1", "srdce-1-0", "kary-13-0", "piky-5-0"], "options": [25, 65, 75] }
+    },
+    {
+      "id": "konec",
+      "title": "Umíš to!",
+      "pose": "slavi",
+      "text": "Hrajeme deset kol a body se sčítají. Vyhrává ten, kdo má na konci nejmíň. Teď si zahraj se mnou — tlačítko „Najdi kombinace“ ti ukáže, co můžeš vyložit.",
+      "textAdult": "10 kol, vyhrává nejmenší součet. Zkus partii s počítačem."
+    }
+  ]
+}

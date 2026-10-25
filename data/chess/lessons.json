@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "pesec",
+      "title": "Pěšec",
+      "icon": "♟",
+      "intro": "Pěšec je malý, ale statečný. Chodí jen dopředu a když dojde až na konec, promění se v jinou figurku!",
+      "steps": [
+        {
+          "id": "na-konec",
+          "text": "Pěšec chodí dopředu o jedno políčko. Z úplného začátku smí skočit i o dvě. Dojdi pěšcem až na konec ke hvězdičce!",
+          "fen": "8/8/8/8/8/8/4P3/8 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["e8"] },
+          "hint": "Klepni na pěšce a pak na zvýrazněné políčko před ním.",
+          "praise": "Hurá, pěšec došel na konec! Tam se promění — třeba v dámu.",
+          "solution": ["e2e4", "e4e5", "e5e6", "e6e7", "e7e8q"]
+        },
+        {
+          "id": "bere-sikmo",
+          "text": "Pěšec chodí rovně, ale bere šikmo dopředu. Rovně před ním stojí černý pěšec — tam nemůže. Seber toho šikmo!",
+          "fen": "8/8/8/3pp3/3P4/8/8/8 w - - 0 1",
+          "goal": { "type": "capture", "target": "e5" },
+          "hint": "Bílý pěšec na d4 sebere šikmo vpravo nahoru.",
+          "praise": "Přesně! Pěšec bere šikmo.",
+          "solution": ["d4e5"]
+        }
+      ]
+    },
+    {
+      "id": "vez",
+      "title": "Věž",
+      "icon": "♜",
+      "intro": "Věž jezdí rovně — nahoru, dolů, doleva i doprava. Kolik políček chce, dokud jí nic nestojí v cestě.",
+      "steps": [
+        {
+          "id": "hvezdicky",
+          "text": "Posbírej věží všechny hvězdičky!",
+          "fen": "8/8/8/8/8/8/8/R7 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["a6", "f6", "f2"] },
+          "hint": "Věž jede rovně. Nejdřív nahoru na a6.",
+          "praise": "Výborně! Věž jezdí rovně jako po kolejích.",
+          "solution": ["a1a6", "a6f6", "f6f2"]
+        },
+        {
+          "id": "ctyri-rohy",
+          "text": "Teď je hvězdiček víc. Najdi nejkratší cestu!",
+          "fen": "8/8/8/8/3R4/8/8/8 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["d8", "h8", "h1", "a1"] },
+          "hint": "Jeď nahoru na d8 a pak kolem dokola po okrajích.",
+          "praise": "Skvělé, celá šachovnice objetá!",
+          "solution": ["d4d8", "d8h8", "h8h1", "h1a1"]
+        },
+        {
+          "id": "seber-pesce",
+          "text": "Věž bere stejně, jak jezdí. Seber všechny černé pěšce!",
+          "fen": "8/8/8/p3p3/8/8/4p3/R7 w - - 0 1",
+          "goal": { "type": "captureAll" },
+          "hint": "Nejdřív nahoru na a5, pak doprava.",
+          "praise": "Všichni sebraní! Věž je silná figurka.",
+          "solution": ["a1a5", "a5e5", "e5e2"]
+        }
+      ]
+    },
+    {
+      "id": "strelec",
+      "title": "Střelec",
+      "icon": "♝",
+      "intro": "Střelec jezdí šikmo. Celý život zůstane na políčkách jedné barvy.",
+      "steps": [
+        {
+          "id": "hvezdicky",
+          "text": "Posbírej střelcem hvězdičky. Jezdi jen šikmo!",
+          "fen": "8/8/8/8/8/8/8/2B5 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["e3", "g5", "d8"] },
+          "hint": "Z c1 šikmo nahoru doprava na e3.",
+          "praise": "Paráda! Všimni si, že stojí pořád na tmavých políčkách.",
+          "solution": ["c1e3", "e3g5", "g5d8"]
+        },
+        {
+          "id": "seber-pesce",
+          "text": "Seber střelcem všechny černé pěšce.",
+          "fen": "8/3p4/8/1p6/6p1/8/8/5B2 w - - 0 1",
+          "goal": { "type": "captureAll" },
+          "hint": "Začni pěšcem na b5.",
+          "praise": "Výborně, střelec je hotový ostrostřelec!",
+          "solution": ["f1b5", "b5d7", "d7g4"]
+        }
+      ]
+    },
+    {
+      "id": "dama",
+      "title": "Dáma",
+      "icon": "♛",
+      "intro": "Dáma je nejsilnější figurka. Umí jezdit rovně jako věž i šikmo jako střelec.",
+      "steps": [
+        {
+          "id": "hvezdicky",
+          "text": "Posbírej dámou hvězdičky — rovně i šikmo.",
+          "fen": "8/8/8/8/8/8/8/3Q4 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["d5", "h1", "a8"] },
+          "hint": "Nejdřív rovně nahoru na d5, potom šikmo.",
+          "praise": "Skvělé! Dáma umí obojí.",
+          "solution": ["d1d5", "d5h1", "h1a8"]
+        },
+        {
+          "id": "seber-vse",
+          "text": "Seber dámou všechny černé figurky.",
+          "fen": "3n4/8/8/8/p6p/8/8/3Q4 w - - 0 1",
+          "goal": { "type": "captureAll" },
+          "hint": "Pěšec na a4 je šikmo od dámy.",
+          "praise": "Dáma vyčistila celou šachovnici!",
+          "solution": ["d1a4", "a4h4", "h4d8"]
+        }
+      ]
+    },
+    {
+      "id": "kral",
+      "title": "Král",
+      "icon": "♚",
+      "intro": "Král je nejdůležitější. Chodí jen o jedno políčko, zato kterýmkoli směrem.",
+      "steps": [
+        {
+          "id": "hvezdicky",
+          "text": "Dojdi králem ke všem hvězdičkám. Vždycky jen o jeden krok.",
+          "fen": "8/8/8/8/8/8/8/4K3 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["d2", "d3", "e4"] },
+          "hint": "Krok šikmo doleva nahoru na d2.",
+          "praise": "Král došel! Pomalu, ale jistě.",
+          "solution": ["e1d2", "d2d3", "d3e4"]
+        },
+        {
+          "id": "bezpecny-krok",
+          "text": "Černá věž hlídá celou druhou řadu. Král nesmí na políčko, kam útočí soupeř. Udělej bezpečný krok.",
+          "fen": "8/8/8/8/8/8/r7/4K3 w - - 0 1",
+          "goal": { "type": "move", "accept": ["e1d1", "e1f1"] },
+          "hint": "Nahoru to nejde — tam hlídá věž. Zkus vedle.",
+          "praise": "Správně! Král se nikdy nestaví tam, kde by ho mohli sebrat.",
+          "solution": ["e1f1"]
+        }
+      ]
+    },
+    {
+      "id": "jezdec",
+      "title": "Jezdec",
+      "icon": "♞",
+      "intro": "Jezdec skáče do tvaru písmene L: dvě políčka rovně a jedno vedle. A umí přeskakovat ostatní figurky!",
+      "steps": [
+        {
+          "id": "hvezdicky",
+          "text": "Skákej jezdcem po hvězdičkách.",
+          "fen": "8/8/8/8/8/8/8/1N6 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["c3", "d5", "f6"] },
+          "hint": "Dvě nahoru a jedna doprava — to je c3.",
+          "praise": "Hop, hop, hop! Jezdec skáče jako koník.",
+          "solution": ["b1c3", "c3d5", "d5f6"]
+        },
+        {
+          "id": "preskok",
+          "text": "Jezdce nic nezastaví — přeskočí i vlastní pěšce. Dojdi ke hvězdičkám.",
+          "fen": "8/8/8/8/8/8/4PPPP/6N1 w - - 0 1",
+          "goal": { "type": "stars", "stars": ["f3", "e5"] },
+          "hint": "Přeskoč pěšce na f3.",
+          "praise": "Přesně, jezdec přeskakuje!",
+          "solution": ["g1f3", "f3e5"]
+        },
+        {
+          "id": "seber-pesce",
+          "text": "Seber jezdcem všechny černé pěšce.",
+          "fen": "8/8/8/5p2/3p4/1p6/8/N7 w - - 0 1",
+          "goal": { "type": "captureAll" },
+          "hint": "První pěšec stojí na b3.",
+          "praise": "Výborně, jezdec je hotový akrobat!",
+          "solution": ["a1b3", "b3d4", "d4f5"]
+        }
+      ]
+    },
+    {
+      "id": "brani",
+      "title": "Braní",
+      "icon": "🍽",
+      "intro": "Když figurka skončí na políčku soupeřovy figurky, sebere ji. Sebraná figurka odchází ze hry.",
+      "steps": [
+        {
+          "id": "strelec-bere",
+          "text": "Seber černou věž střelcem.",
+          "fen": "8/8/7r/8/8/8/8/2B5 w - - 0 1",
+          "goal": { "type": "capture", "target": "h6" },
+          "hint": "Střelec jede šikmo až na h6.",
+          "praise": "Mňam! Věž je tvoje.",
+          "solution": ["c1h6"]
+        },
+        {
+          "id": "jezdec-bere",
+          "text": "Seber pěšce jezdcem.",
+          "fen": "8/8/5p2/8/4N3/8/8/8 w - - 0 1",
+          "goal": { "type": "capture", "target": "f6" },
+          "hint": "Dvě nahoru a jedna doprava.",
+          "praise": "Skvělý skok!",
+          "solution": ["e4f6"]
+        }
+      ]
+    },
+    {
+      "id": "hodnota",
+      "title": "Hodnota figur",
+      "icon": "⚖",
+      "intro": "Figurky mají různou cenu: pěšec 1, jezdec 3, střelec 3, věž 5 a dáma 9. Král je k nezaplacení!",
+      "steps": [
+        {
+          "id": "co-je-drazsi",
+          "text": "Můžeš sebrat jezdce, nebo dámu. Která figurka má větší cenu?",
+          "fen": "8/8/8/3n4/8/8/8/3R3q w - - 0 1",
+          "goal": { "type": "move", "accept": ["d1h1"] },
+          "hint": "Dáma má cenu 9, jezdec jen 3.",
+          "praise": "Správně! Dáma je mnohem cennější.",
+          "solution": ["d1h1"]
+        },
+        {
+          "id": "hlidany-pesec",
+          "text": "Pěšce na d5 hlídá jiný pěšec. Kdyby ho sebrala tvoje dáma, přijdeš o ni. Najdi lepší úlovek!",
+          "fen": "8/8/4p3/3p4/r7/8/8/3Q4 w - - 0 1",
+          "goal": { "type": "move", "accept": ["d1a4"] },
+          "hint": "Věž na a4 nikdo nehlídá.",
+          "praise": "Výborně! Brát se vyplatí to, co nikdo nehlídá.",
+          "solution": ["d1a4"]
+        }
+      ]
+    },
+    {
+      "id": "sach",
+      "title": "Šach",
+      "icon": "⚡",
+      "intro": "Když figurka útočí na krále, říká se tomu šach. Král v šachu musí hned utéct.",
+      "steps": [
+        {
+          "id": "vez-dava-sach",
+          "text": "Dej černému králi šach věží.",
+          "fen": "4k3/8/8/8/8/8/8/R3K3 w - - 0 1",
+          "goal": { "type": "check" },
+          "hint": "Věž může zaútočit po osmé řadě.",
+          "praise": "Šach! Černý král musí utíkat.",
+          "solution": ["a1a8"]
+        },
+        {
+          "id": "jezdec-dava-sach",
+          "text": "Dej šach jezdcem.",
+          "fen": "4k3/8/8/8/4N3/8/8/4K3 w - - 0 1",
+          "goal": { "type": "check" },
+          "hint": "Jezdec skočí na d6 nebo f6.",
+          "praise": "Skvělé, jezdcův šach se nedá zakrýt!",
+          "solution": ["e4f6"]
+        }
+      ]
+    },
+    {
+      "id": "utek",
+      "title": "Jak utéct šachu",
+      "icon": "🏃",
+      "intro": "Ze šachu jsou tři cesty: uhnout králem, zakrýt ho jinou figurkou, nebo útočníka sebrat.",
+      "steps": [
+        {
+          "id": "uhni",
+          "text": "Tvůj král je v šachu od věže. Uhni s ním!",
+          "fen": "4r2k/8/8/8/8/8/8/4K3 w - - 0 1",
+          "goal": { "type": "escape" },
+          "hint": "Krok stranou, pryč ze sloupce e.",
+          "praise": "Uf, král je v bezpečí!",
+          "solution": ["e1d1"]
+        },
+        {
+          "id": "zakryj",
+          "text": "Teď krále zakryj — postav mezi něj a věž svého střelce.",
+          "fen": "4r2k/8/8/8/8/8/8/4KB2 w - - 0 1",
+          "goal": { "type": "escape", "accept": ["f1e2"] },
+          "hint": "Střelec skočí šikmo na e2.",
+          "praise": "Střelec krále ochránil!",
+          "solution": ["f1e2"]
+        },
+        {
+          "id": "seber",
+          "text": "Dáma dává šach a král nemá kam utéct. Seber útočníka!",
+          "fen": "7k/8/8/7b/8/8/R3q3/4K3 w - - 0 1",
+          "goal": { "type": "escape", "accept": ["a2e2"] },
+          "hint": "Věž na a2 dojede po řadě až k dámě.",
+          "praise": "Dáma sebraná a král je v bezpečí. Výborně!",
+          "solution": ["a2e2"]
+        }
+      ]
+    },
+    {
+      "id": "mat-dama",
+      "title": "Mat dámou",
+      "icon": "👑",
+      "intro": "Mat je šach, ze kterého se nedá utéct. Kdo dá mat, vyhrál! Dáma s pomocí krále to umí nejlíp.",
+      "steps": [
+        {
+          "id": "mat-v-rohu",
+          "text": "Černý král je v rohu. Dej mat jedním tahem dámou! Pozor, aby měl kam utéct — pak by to byl jen šach.",
+          "fen": "k7/8/1K6/8/8/8/8/2Q5 w - - 0 1",
+          "goal": { "type": "mate", "moves": 1 },
+          "hint": "Dáma zaútočí po osmé řadě. Tvůj král hlídá políčka a7 a b7.",
+          "praise": "Mat! Vyhráváš.",
+          "solution": ["c1c8"]
+        },
+        {
+          "id": "mat-na-kraji",
+          "text": "Král stojí na kraji a tvůj král ho hlídá zepředu. Dej mat!",
+          "fen": "4k3/8/4K3/8/8/8/8/Q7 w - - 0 1",
+          "goal": { "type": "mate", "moves": 1 },
+          "hint": "Dáma dojede na osmou řadu.",
+          "praise": "Mat! Takhle se dává mat dámou a králem.",
+          "solution": ["a1a8"]
+        }
+      ]
+    },
+    {
+      "id": "mat-veze",
+      "title": "Mat dvěma věžemi",
+      "icon": "🪜",
+      "intro": "Dvě věže dávají mat jako po schodech: jedna zavře řadu, druhá dá šach o řadu dál.",
+      "steps": [
+        {
+          "id": "posledni-schod",
+          "text": "Věž na a7 zavírá sedmou řadu. Dej mat druhou věží!",
+          "fen": "4k3/R7/8/8/8/8/8/1R2K3 w - - 0 1",
+          "goal": { "type": "mate", "moves": 1 },
+          "hint": "Druhá věž dojede na osmou řadu.",
+          "praise": "Mat! Schody jsou hotové.",
+          "solution": ["b1b8"]
+        },
+        {
+          "id": "schody",
+          "text": "Teď dva schody: nejdřív dej šach na sedmé řadě, pak mat na osmé.",
+          "fen": "8/3k4/R7/7R/8/8/8/4K3 w - - 0 1",
+          "goal": { "type": "mate", "moves": 2 },
+          "hint": "Věž z h5 dá šach na h7. Věž na a6 hlídá šestou řadu.",
+          "praise": "Mat po schodech! To je mistrovské.",
+          "solution": ["h5h7", "a6a8"]
+        }
+      ]
+    },
+    {
+      "id": "rosada",
+      "title": "Rošáda",
+      "icon": "🏰",
+      "intro": "Rošáda je jediný tah dvěma figurkami najednou: král skočí o dvě políčka k věži a věž ho přeskočí. Král se tak schová.",
+      "steps": [
+        {
+          "id": "kratka",
+          "text": "Udělej krátkou rošádu: klepni na krále a pak o dvě políčka doprava.",
+          "fen": "r3k2r/pppppppp/8/8/8/8/PPPPPPPP/R3K2R w KQkq - 0 1",
+          "goal": { "type": "castle", "side": "k" },
+          "hint": "Král z e1 na g1, věž přeskočí sama.",
+          "praise": "Rošáda! Král je schovaný za pěšci.",
+          "solution": ["e1g1"]
+        },
+        {
+          "id": "dlouha",
+          "text": "A teď dlouhou rošádu na druhou stranu. Pamatuj: rošovat nejde, když je král v šachu nebo by šel přes napadené políčko.",
+          "fen": "r3k2r/pppppppp/8/8/8/8/PPPPPPPP/R3K2R w KQkq - 0 1",
+          "goal": { "type": "castle", "side": "q" },
+          "hint": "Král z e1 na c1.",
+          "praise": "Dlouhá rošáda zvládnutá!",
+          "solution": ["e1c1"]
+        }
+      ]
+    },
+    {
+      "id": "promena",
+      "title": "Proměna pěšce",
+      "icon": "✨",
+      "intro": "Když pěšec dojde na poslední řadu, promění se v dámu, věž, střelce nebo jezdce. Skoro vždycky v dámu!",
+      "steps": [
+        {
+          "id": "v-damu",
+          "text": "Dojdi pěšcem na konec a vyber si dámu.",
+          "fen": "7k/P7/8/8/8/8/8/4K3 w - - 0 1",
+          "goal": { "type": "promote", "piece": "q" },
+          "hint": "Pěšec na a7 je jen krok od konce.",
+          "praise": "Nová dáma! Teď máš velkou výhodu.",
+          "solution": ["a7a8q"]
+        },
+        {
+          "id": "v-jezdce",
+          "text": "Někdy je lepší jezdec! Proměň pěšce tak, aby napadl krále i dámu najednou.",
+          "fen": "8/4P1k1/3q4/8/8/8/8/K7 w - - 0 1",
+          "goal": { "type": "promote", "piece": "n" },
+          "hint": "Jezdec na e8 skočí na g7 i na d6.",
+          "praise": "Šach a útok na dámu! Chytrý tah.",
+          "solution": ["e7e8n"]
+        }
+      ]
+    },
+    {
+      "id": "en-passant",
+      "title": "Braní mimochodem",
+      "icon": "👣",
+      "intro": "Zvláštní pravidlo: když soupeřův pěšec skočí o dvě políčka a postaví se vedle tvého pěšce, smíš ho hned sebrat, jako by šel jen o jedno.",
+      "steps": [
+        {
+          "id": "en-passant",
+          "text": "Černý pěšec právě skočil z d7 na d5, vedle tvého pěšce. Seber ho mimochodem!",
+          "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+          "goal": { "type": "enpassant" },
+          "hint": "Tvůj pěšec jde šikmo na d6 — za černého pěšce.",
+          "praise": "Mimochodem sebráno! Tohle pravidlo zná málokdo.",
+          "solution": ["e5d6"]
+        }
+      ]
+    },
+    {
+      "id": "zahajeni",
+      "title": "Jak začít partii",
+      "icon": "🌅",
+      "intro": "Na začátku hry: obsaď střed pěšcem, vyveď jezdce a střelce a schovej krále rošádou.",
+      "steps": [
+        {
+          "id": "stred",
+          "text": "Zaber střed! Posuň pěšce o dvě políčka do středu šachovnice.",
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "goal": { "type": "move", "accept": ["e2e4", "d2d4"] },
+          "hint": "Pěšec před králem nebo před dámou skočí o dvě.",
+          "praise": "Dobrý začátek — střed je tvůj!",
+          "solution": ["e2e4"]
+        },
+        {
+          "id": "jezdec",
+          "text": "Teď vyveď jezdce směrem do středu.",
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+          "goal": { "type": "move", "accept": ["g1f3", "b1c3"] },
+          "hint": "Jezdec z g1 skočí na f3.",
+          "praise": "Jezdec je ve hře a útočí na střed.",
+          "solution": ["g1f3"]
+        },
+        {
+          "id": "strelec",
+          "text": "Vyveď střelce, ať se může zapojit.",
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "goal": { "type": "move", "accept": ["f1c4", "f1b5"] },
+          "hint": "Střelec z f1 jede šikmo na c4.",
+          "praise": "Výborně, figurky jsou venku!",
+          "solution": ["f1c4"]
+        },
+        {
+          "id": "rosada",
+          "text": "Mezi králem a věží je volno. Schovej krále rošádou!",
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "goal": { "type": "castle", "side": "k" },
+          "hint": "Král z e1 na g1.",
+          "praise": "Král je v bezpečí. Takhle začínají mistři!",
+          "solution": ["e1g1"]
+        }
+      ]
+    }
+  ]
+}

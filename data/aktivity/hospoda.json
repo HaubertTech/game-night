@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "hospoda-001",
+    "level": "hospoda",
+    "word": "házení podkov",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "hospoda",
+      "kůl",
+      "hra",
+      "železo"
+    ]
+  },
+  {
+    "id": "hospoda-002",
+    "level": "hospoda",
+    "word": "konev",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "zalévat",
+      "zahrada",
+      "voda",
+      "květiny"
+    ]
+  },
+  {
+    "id": "hospoda-003",
+    "level": "hospoda",
+    "word": "Pelíšky",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "film",
+      "rodina",
+      "sousedé",
+      "osmašedesátý"
+    ]
+  },
+  {
+    "id": "hospoda-004",
+    "level": "hospoda",
+    "word": "ponožky",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "nohy",
+      "boty",
+      "pár",
+      "díra"
+    ]
+  },
+  {
+    "id": "hospoda-005",
+    "level": "hospoda",
+    "word": "vyrábění vánočních ozdob",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "stromeček",
+      "lepidlo",
+      "ozdoby",
+      "nůžky"
+    ]
+  },
+  {
+    "id": "hospoda-006",
+    "level": "hospoda",
+    "word": "švec",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "boty",
+      "kopyto",
+      "podrážka",
+      "oprava"
+    ]
+  },
+  {
+    "id": "hospoda-007",
+    "level": "hospoda",
+    "word": "harmonika",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "měch",
+      "tahací",
+      "knoflíky",
+      "hudba"
+    ]
+  },
+  {
+    "id": "hospoda-008",
+    "level": "hospoda",
+    "word": "lopata",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "kopat",
+      "písek",
+      "zahrada",
+      "rýč"
+    ]
+  },
+  {
+    "id": "hospoda-009",
+    "level": "hospoda",
+    "word": "jízda na traktoru",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "pole",
+      "farmář",
+      "kola",
+      "motor"
+    ]
+  },
+  {
+    "id": "hospoda-010",
+    "level": "hospoda",
+    "word": "Krakonoš",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "krkonoše",
+      "hora",
+      "pán",
+      "duch"
+    ]
+  },
+  {
+    "id": "hospoda-011",
+    "level": "hospoda",
+    "word": "lokomotiva",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "vlak",
+      "pára",
+      "koleje",
+      "komín"
+    ]
+  },
+  {
+    "id": "hospoda-012",
+    "level": "hospoda",
+    "word": "narozeniny",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "dort",
+      "svíčky",
+      "dárek",
+      "oslava"
+    ]
+  },
+  {
+    "id": "hospoda-013",
+    "level": "hospoda",
+    "word": "stěhování",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "krabice",
+      "byt",
+      "nábytek",
+      "dodávka"
+    ]
+  },
+  {
+    "id": "hospoda-014",
+    "level": "hospoda",
+    "word": "vidle",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "seno",
+      "stodola",
+      "hnůj",
+      "farmář"
+    ]
+  },
+  {
+    "id": "hospoda-015",
+    "level": "hospoda",
+    "word": "tancování",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "hudba",
+      "parket",
+      "taneční",
+      "pár"
+    ]
+  },
+  {
+    "id": "hospoda-016",
+    "level": "hospoda",
+    "word": "razítko",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "úřad",
+      "inkoust",
+      "potvrzení",
+      "podpis"
+    ]
+  },
+  {
+    "id": "hospoda-017",
+    "level": "hospoda",
+    "word": "zavařenina",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "jahody",
+      "kompot",
+      "spíž",
+      "víčko"
+    ]
+  },
+  {
+    "id": "hospoda-018",
+    "level": "hospoda",
+    "word": "pomlázka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "vrba",
+      "velikonoce",
+      "koleda",
+      "pondělí"
+    ]
+  },
+  {
+    "id": "hospoda-019",
+    "level": "hospoda",
+    "word": "zpívání",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "hlas",
+      "píseň",
+      "karaoke",
+      "mikrofon"
+    ]
+  },
+  {
+    "id": "hospoda-020",
+    "level": "hospoda",
+    "word": "tlačení auta",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "startér",
+      "porucha",
+      "zima",
+      "motor"
+    ]
+  },
+  {
+    "id": "hospoda-021",
+    "level": "hospoda",
+    "word": "rozdělávání ohně",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "zápalky",
+      "třísky",
+      "dříví",
+      "táborák"
+    ]
+  },
+  {
+    "id": "hospoda-022",
+    "level": "hospoda",
+    "word": "hra na harmoniku",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "měch",
+      "tahací",
+      "tóny",
+      "knoflíky"
+    ]
+  },
+  {
+    "id": "hospoda-023",
+    "level": "hospoda",
+    "word": "auto",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "kola",
+      "volant",
+      "motor",
+      "řidič"
+    ]
+  },
+  {
+    "id": "hospoda-024",
+    "level": "hospoda",
+    "word": "mlha",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "vidět",
+      "ráno",
+      "šeď",
+      "pára"
+    ]
+  },
+  {
+    "id": "hospoda-025",
+    "level": "hospoda",
+    "word": "sklář",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "sklo",
+      "pec",
+      "foukat",
+      "sklárna"
+    ]
+  },
+  {
+    "id": "hospoda-026",
+    "level": "hospoda",
+    "word": "Sněžka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "krkonoše",
+      "hora",
+      "nejvyšší",
+      "lanovka"
+    ]
+  },
+  {
+    "id": "hospoda-027",
+    "level": "hospoda",
+    "word": "slunečnice",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "žlutá",
+      "pole",
+      "semínka",
+      "květina"
+    ]
+  },
+  {
+    "id": "hospoda-028",
+    "level": "hospoda",
+    "word": "turistická značka",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "červená",
+      "cesta",
+      "les",
+      "pruh"
+    ]
+  },
+  {
+    "id": "hospoda-029",
+    "level": "hospoda",
+    "word": "kýchání",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "rýma",
+      "nos",
+      "kapesník",
+      "alergie"
+    ]
+  },
+  {
+    "id": "hospoda-030",
+    "level": "hospoda",
+    "word": "vrátný",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "brána",
+      "závod",
+      "klíče",
+      "budka"
+    ]
+  },
+  {
+    "id": "hospoda-031",
+    "level": "hospoda",
+    "word": "pletení svetru",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "jehlice",
+      "vlna",
+      "babička",
+      "příze"
+    ]
+  },
+  {
+    "id": "hospoda-032",
+    "level": "hospoda",
+    "word": "zívání",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "spánek",
+      "únava",
+      "ústa",
+      "nuda"
+    ]
+  },
+  {
+    "id": "hospoda-033",
+    "level": "hospoda",
+    "word": "krmelec",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "zvěř",
+      "les",
+      "seno",
+      "myslivec"
+    ]
+  },
+  {
+    "id": "hospoda-034",
+    "level": "hospoda",
+    "word": "praní",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "prádlo",
+      "pračka",
+      "špína",
+      "prášek"
+    ]
+  },
+  {
+    "id": "hospoda-035",
+    "level": "hospoda",
+    "word": "cep",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "mlátit",
+      "obilí",
+      "stodola",
+      "žně"
+    ]
+  },
+  {
+    "id": "hospoda-036",
+    "level": "hospoda",
+    "word": "Arabela",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "princezna",
+      "rumburak",
+      "seriál",
+      "pohádka"
+    ]
+  },
+  {
+    "id": "hospoda-037",
+    "level": "hospoda",
+    "word": "houbaření",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "houba",
+      "les",
+      "hřib",
+      "košík"
+    ]
+  },
+  {
+    "id": "hospoda-038",
+    "level": "hospoda",
+    "word": "nasazování sněhových řetězů",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "sníh",
+      "auto",
+      "zima",
+      "kola"
+    ]
+  },
+  {
+    "id": "hospoda-039",
+    "level": "hospoda",
+    "word": "popelář",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "odpad",
+      "popelnice",
+      "auto",
+      "smetí"
+    ]
+  },
+  {
+    "id": "hospoda-040",
+    "level": "hospoda",
+    "word": "pohoda",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "klid",
+      "spokojenost",
+      "relax",
+      "ticho"
+    ]
+  },
+  {
+    "id": "hospoda-041",
+    "level": "hospoda",
+    "word": "muchomůrka",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "hřib",
+      "les",
+      "klobouk",
+      "červená"
+    ]
+  },
+  {
+    "id": "hospoda-042",
+    "level": "hospoda",
+    "word": "šplhání na strom",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "větev",
+      "kmen",
+      "lézt",
+      "hnízdo"
+    ]
+  },
+  {
+    "id": "hospoda-043",
+    "level": "hospoda",
+    "word": "chata",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "víkend",
+      "les",
+      "chalupa",
+      "kamna"
+    ]
+  },
+  {
+    "id": "hospoda-044",
+    "level": "hospoda",
+    "word": "Orloj",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "praha",
+      "hodiny",
+      "apoštolové",
+      "staroměstské"
+    ]
+  },
+  {
+    "id": "hospoda-045",
+    "level": "hospoda",
+    "word": "polévka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "lžíce",
+      "talíř",
+      "vývar",
+      "hrnec"
+    ]
+  },
+  {
+    "id": "hospoda-046",
+    "level": "hospoda",
+    "word": "výměna kola",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "zvedák",
+      "guma",
+      "auto",
+      "šrouby"
+    ]
+  },
+  {
+    "id": "hospoda-047",
+    "level": "hospoda",
+    "word": "pohostinnost",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "host",
+      "návštěva",
+      "pohoštění",
+      "dveře"
+    ]
+  },
+  {
+    "id": "hospoda-048",
+    "level": "hospoda",
+    "word": "bramboráky",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "brambory",
+      "majoránka",
+      "smažit",
+      "česnek"
+    ]
+  },
+  {
+    "id": "hospoda-049",
+    "level": "hospoda",
+    "word": "smažený sýr",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "eidam",
+      "strouhanka",
+      "tatarka",
+      "hranolky"
+    ]
+  },
+  {
+    "id": "hospoda-050",
+    "level": "hospoda",
+    "word": "stodola",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "seno",
+      "vrata",
+      "statek",
+      "střecha"
+    ]
+  },
+  {
+    "id": "hospoda-051",
+    "level": "hospoda",
+    "word": "věšení prádla",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "šňůra",
+      "kolíčky",
+      "zahrada",
+      "mokré"
+    ]
+  },
+  {
+    "id": "hospoda-052",
+    "level": "hospoda",
+    "word": "tesař",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "trám",
+      "dřevo",
+      "střecha",
+      "sekera"
+    ]
+  },
+  {
+    "id": "hospoda-053",
+    "level": "hospoda",
+    "word": "řezník",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "maso",
+      "nůž",
+      "jatka",
+      "klobása"
+    ]
+  },
+  {
+    "id": "hospoda-054",
+    "level": "hospoda",
+    "word": "mlýnek na maso",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "maso",
+      "klika",
+      "kuchyně",
+      "zabijačka"
+    ]
+  },
+  {
+    "id": "hospoda-055",
+    "level": "hospoda",
+    "word": "sběratel",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "sbírka",
+      "známky",
+      "vzácné",
+      "hromadit"
+    ]
+  },
+  {
+    "id": "hospoda-056",
+    "level": "hospoda",
+    "word": "Dostat se do křížku",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "spor",
+      "rčení",
+      "střet",
+      "hádka"
+    ]
+  },
+  {
+    "id": "hospoda-057",
+    "level": "hospoda",
+    "word": "Padla kosa na kámen",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "spor",
+      "rčení",
+      "tvrdohlavost",
+      "boj"
+    ]
+  },
+  {
+    "id": "hospoda-058",
+    "level": "hospoda",
+    "word": "studna",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "voda",
+      "vědro",
+      "hluboká",
+      "kliky"
+    ]
+  },
+  {
+    "id": "hospoda-059",
+    "level": "hospoda",
+    "word": "dovolená",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "moře",
+      "kufr",
+      "léto",
+      "plavky"
+    ]
+  },
+  {
+    "id": "hospoda-060",
+    "level": "hospoda",
+    "word": "opékání buřtů",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "oheň",
+      "špekáček",
+      "táborák",
+      "klacek"
+    ]
+  },
+  {
+    "id": "hospoda-061",
+    "level": "hospoda",
+    "word": "kameník",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "kámen",
+      "dláto",
+      "pomník",
+      "lom"
+    ]
+  },
+  {
+    "id": "hospoda-062",
+    "level": "hospoda",
+    "word": "chůze po ledu",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "bruslit",
+      "kluzký",
+      "led",
+      "zima"
+    ]
+  },
+  {
+    "id": "hospoda-063",
+    "level": "hospoda",
+    "word": "výpravčí",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "nádraží",
+      "vlak",
+      "čepice",
+      "odjezd"
+    ]
+  },
+  {
+    "id": "hospoda-064",
+    "level": "hospoda",
+    "word": "trpělivost",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "čekání",
+      "klid",
+      "vydržet",
+      "čekat"
+    ]
+  },
+  {
+    "id": "hospoda-065",
+    "level": "hospoda",
+    "word": "kosení kosou",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "tráva",
+      "louka",
+      "ostří",
+      "žně"
+    ]
+  },
+  {
+    "id": "hospoda-066",
+    "level": "hospoda",
+    "word": "košíkář",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "proutí",
+      "pletení",
+      "koš",
+      "vrba"
+    ]
+  },
+  {
+    "id": "hospoda-067",
+    "level": "hospoda",
+    "word": "Spejbl",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "hurvínek",
+      "loutka",
+      "divadlo",
+      "syn"
+    ]
+  },
+  {
+    "id": "hospoda-068",
+    "level": "hospoda",
+    "word": "mlynář",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "mouka",
+      "mlýn",
+      "obilí",
+      "pytel"
+    ]
+  },
+  {
+    "id": "hospoda-069",
+    "level": "hospoda",
+    "word": "přetahování lanem",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "tým",
+      "síla",
+      "tahat",
+      "provaz"
+    ]
+  },
+  {
+    "id": "hospoda-070",
+    "level": "hospoda",
+    "word": "míchání omáčky",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "vařečka",
+      "hrnec",
+      "sporák",
+      "kuchyně"
+    ]
+  },
+  {
+    "id": "hospoda-071",
+    "level": "hospoda",
+    "word": "skákání přes oheň",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "čarodějnice",
+      "táborák",
+      "plameny",
+      "noc"
+    ]
+  },
+  {
+    "id": "hospoda-072",
+    "level": "hospoda",
+    "word": "tlačenka",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "zabijačka",
+      "ocet",
+      "cibule",
+      "jitrnice"
+    ]
+  },
+  {
+    "id": "hospoda-073",
+    "level": "hospoda",
+    "word": "vázání kravaty",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "krk",
+      "košile",
+      "uzel",
+      "oblek"
+    ]
+  },
+  {
+    "id": "hospoda-074",
+    "level": "hospoda",
+    "word": "strom",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "list",
+      "kořen",
+      "kmen",
+      "větev"
+    ]
+  },
+  {
+    "id": "hospoda-075",
+    "level": "hospoda",
+    "word": "myslivec",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "puška",
+      "les",
+      "zvěř",
+      "srnec"
+    ]
+  },
+  {
+    "id": "hospoda-076",
+    "level": "hospoda",
+    "word": "vlk",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "vyje",
+      "smečka",
+      "les",
+      "karkulka"
+    ]
+  },
+  {
+    "id": "hospoda-077",
+    "level": "hospoda",
+    "word": "Spartakiáda",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "cvičení",
+      "strahov",
+      "stadion",
+      "sestava"
+    ]
+  },
+  {
+    "id": "hospoda-078",
+    "level": "hospoda",
+    "word": "ředitel",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "šéf",
+      "firma",
+      "kancelář",
+      "podřízení"
+    ]
+  },
+  {
+    "id": "hospoda-079",
+    "level": "hospoda",
+    "word": "bábovka",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "forma",
+      "koláč",
+      "pečení",
+      "mouka"
+    ]
+  },
+  {
+    "id": "hospoda-080",
+    "level": "hospoda",
+    "word": "Jablko nepadá daleko od stromu",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "rodiče",
+      "dítě",
+      "přísloví",
+      "podobné"
+    ]
+  },
+  {
+    "id": "hospoda-081",
+    "level": "hospoda",
+    "word": "stůl",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "židle",
+      "noha",
+      "deska",
+      "jídelní"
+    ]
+  },
+  {
+    "id": "hospoda-082",
+    "level": "hospoda",
+    "word": "kuchař",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "vařit",
+      "kuchyně",
+      "jídlo",
+      "čepice"
+    ]
+  },
+  {
+    "id": "hospoda-083",
+    "level": "hospoda",
+    "word": "trafika",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "noviny",
+      "časopisy",
+      "stánek",
+      "lístky"
+    ]
+  },
+  {
+    "id": "hospoda-084",
+    "level": "hospoda",
+    "word": "včelař",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "úl",
+      "med",
+      "včely",
+      "roj"
+    ]
+  },
+  {
+    "id": "hospoda-085",
+    "level": "hospoda",
+    "word": "zatloukání hřebíku",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "kladivo",
+      "hřebík",
+      "dřevo",
+      "prsty"
+    ]
+  },
+  {
+    "id": "hospoda-086",
+    "level": "hospoda",
+    "word": "šití",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "jehla",
+      "nit",
+      "látka",
+      "stroj"
+    ]
+  },
+  {
+    "id": "hospoda-087",
+    "level": "hospoda",
+    "word": "sbírání hub",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "les",
+      "hřib",
+      "košík",
+      "nůž"
+    ]
+  },
+  {
+    "id": "hospoda-088",
+    "level": "hospoda",
+    "word": "tchyně",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "zeť",
+      "svatba",
+      "máma",
+      "rodina"
+    ]
+  },
+  {
+    "id": "hospoda-089",
+    "level": "hospoda",
+    "word": "sněhulák",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "sníh",
+      "mrkev",
+      "koule",
+      "zima"
+    ]
+  },
+  {
+    "id": "hospoda-090",
+    "level": "hospoda",
+    "word": "trdelník",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "praha",
+      "turisté",
+      "cukr",
+      "válec"
+    ]
+  },
+  {
+    "id": "hospoda-091",
+    "level": "hospoda",
+    "word": "hruška",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "ovoce",
+      "strom",
+      "žlutá",
+      "kompot"
+    ]
+  },
+  {
+    "id": "hospoda-092",
+    "level": "hospoda",
+    "word": "kolovrat",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "příst",
+      "vlna",
+      "babička",
+      "kolo"
+    ]
+  },
+  {
+    "id": "hospoda-093",
+    "level": "hospoda",
+    "word": "hraní šachů",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "figurky",
+      "král",
+      "dáma",
+      "pole"
+    ]
+  },
+  {
+    "id": "hospoda-094",
+    "level": "hospoda",
+    "word": "zahradník",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "zahrada",
+      "květiny",
+      "záhon",
+      "kopat"
+    ]
+  },
+  {
+    "id": "hospoda-095",
+    "level": "hospoda",
+    "word": "sametová revoluce",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "listopad",
+      "národní třída",
+      "klíče",
+      "občanské fórum"
+    ]
+  },
+  {
+    "id": "hospoda-096",
+    "level": "hospoda",
+    "word": "lyžování",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "sníh",
+      "hůlky",
+      "svah",
+      "sjezd"
+    ]
+  },
+  {
+    "id": "hospoda-097",
+    "level": "hospoda",
+    "word": "pumpa na vodu",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "studna",
+      "vodu",
+      "páka",
+      "dvůr"
+    ]
+  },
+  {
+    "id": "hospoda-098",
+    "level": "hospoda",
+    "word": "Nagano",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "hokej",
+      "olympiáda",
+      "zlato",
+      "japonsko"
+    ]
+  },
+  {
+    "id": "hospoda-099",
+    "level": "hospoda",
+    "word": "pohlednice",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "pošta",
+      "známka",
+      "dovolená",
+      "pozdrav"
+    ]
+  },
+  {
+    "id": "hospoda-100",
+    "level": "hospoda",
+    "word": "kronikář",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "kniha",
+      "obec",
+      "zápisy",
+      "historie"
+    ]
+  },
+  {
+    "id": "hospoda-101",
+    "level": "hospoda",
+    "word": "trampování",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "kytara",
+      "osada",
+      "ohýnek",
+      "batoh"
+    ]
+  },
+  {
+    "id": "hospoda-102",
+    "level": "hospoda",
+    "word": "utopenec",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "nakládaný",
+      "cibule",
+      "ocet",
+      "hospoda"
+    ]
+  },
+  {
+    "id": "hospoda-103",
+    "level": "hospoda",
+    "word": "vázání bot",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "tkaničky",
+      "mašle",
+      "uzel",
+      "obuv"
+    ]
+  },
+  {
+    "id": "hospoda-104",
+    "level": "hospoda",
+    "word": "loupání brambor",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "nůž",
+      "slupka",
+      "oloupat",
+      "kuchyně"
+    ]
+  },
+  {
+    "id": "hospoda-105",
+    "level": "hospoda",
+    "word": "poštovní schránka",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "dopis",
+      "pošta",
+      "dveře",
+      "žlutá"
+    ]
+  },
+  {
+    "id": "hospoda-106",
+    "level": "hospoda",
+    "word": "obvazování ruky",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "obvaz",
+      "zranění",
+      "lékárnička",
+      "bolest"
+    ]
+  },
+  {
+    "id": "hospoda-107",
+    "level": "hospoda",
+    "word": "Silvestr",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "půlnoc",
+      "ohňostroj",
+      "šampaňské",
+      "poslední"
+    ]
+  },
+  {
+    "id": "hospoda-108",
+    "level": "hospoda",
+    "word": "mytí nádobí",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "dřez",
+      "houbička",
+      "talíř",
+      "jar"
+    ]
+  },
+  {
+    "id": "hospoda-109",
+    "level": "hospoda",
+    "word": "Mít máslo na hlavě",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "vina",
+      "rčení",
+      "svědomí",
+      "provinění"
+    ]
+  },
+  {
+    "id": "hospoda-110",
+    "level": "hospoda",
+    "word": "sousedé",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "plot",
+      "vedle",
+      "dům",
+      "hádka"
+    ]
+  },
+  {
+    "id": "hospoda-111",
+    "level": "hospoda",
+    "word": "Jan Hus",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "upálení",
+      "kostnice",
+      "reformátor",
+      "kněz"
+    ]
+  },
+  {
+    "id": "hospoda-112",
+    "level": "hospoda",
+    "word": "holení",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "břitva",
+      "vousy",
+      "pěna",
+      "žiletka"
+    ]
+  },
+  {
+    "id": "hospoda-113",
+    "level": "hospoda",
+    "word": "zahrádka",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "záhon",
+      "zelenina",
+      "plot",
+      "kopat"
+    ]
+  },
+  {
+    "id": "hospoda-114",
+    "level": "hospoda",
+    "word": "mytí oken",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "hadr",
+      "sklo",
+      "okenice",
+      "žebřík"
+    ]
+  },
+  {
+    "id": "hospoda-115",
+    "level": "hospoda",
+    "word": "buchta",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "koláč",
+      "pečení",
+      "povidla",
+      "bábovka"
+    ]
+  },
+  {
+    "id": "hospoda-116",
+    "level": "hospoda",
+    "word": "podkova",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "kůň",
+      "štěstí",
+      "kovář",
+      "železo"
+    ]
+  },
+  {
+    "id": "hospoda-117",
+    "level": "hospoda",
+    "word": "soudce",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "soud",
+      "talár",
+      "paragraf",
+      "rozsudek"
+    ]
+  },
+  {
+    "id": "hospoda-118",
+    "level": "hospoda",
+    "word": "hnětení těsta",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "mouka",
+      "chleba",
+      "válet",
+      "kynout"
+    ]
+  },
+  {
+    "id": "hospoda-119",
+    "level": "hospoda",
+    "word": "kominík",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "komín",
+      "saze",
+      "štěstí",
+      "knoflík"
+    ]
+  },
+  {
+    "id": "hospoda-120",
+    "level": "hospoda",
+    "word": "řidič",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "auto",
+      "volant",
+      "jezdit",
+      "řízení"
+    ]
+  },
+  {
+    "id": "hospoda-121",
+    "level": "hospoda",
+    "word": "vysávání",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "vysavač",
+      "prach",
+      "koberec",
+      "hadice"
+    ]
+  },
+  {
+    "id": "hospoda-122",
+    "level": "hospoda",
+    "word": "hrnec",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "vařit",
+      "kuchyně",
+      "poklice",
+      "sporák"
+    ]
+  },
+  {
+    "id": "hospoda-123",
+    "level": "hospoda",
+    "word": "kalendář",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "datum",
+      "měsíc",
+      "rok",
+      "zeď"
+    ]
+  },
+  {
+    "id": "hospoda-124",
+    "level": "hospoda",
+    "word": "radnice",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "náměstí",
+      "starosta",
+      "věž",
+      "hodiny"
+    ]
+  },
+  {
+    "id": "hospoda-125",
+    "level": "hospoda",
+    "word": "tradice",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "zvyk",
+      "dědictví",
+      "staré",
+      "svátek"
+    ]
+  },
+  {
+    "id": "hospoda-126",
+    "level": "hospoda",
+    "word": "listonoš",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "dopis",
+      "pošta",
+      "balík",
+      "schránka"
+    ]
+  },
+  {
+    "id": "hospoda-127",
+    "level": "hospoda",
+    "word": "tramvaj",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "koleje",
+      "praha",
+      "zastávka",
+      "hromadná"
+    ]
+  },
+  {
+    "id": "hospoda-128",
+    "level": "hospoda",
+    "word": "Bílá hora",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "bitva",
+      "1620",
+      "praha",
+      "stavovské"
+    ]
+  },
+  {
+    "id": "hospoda-129",
+    "level": "hospoda",
+    "word": "Vzít nohy na ramena",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "utéct",
+      "rčení",
+      "běžet",
+      "rychle"
+    ]
+  },
+  {
+    "id": "hospoda-130",
+    "level": "hospoda",
+    "word": "deštník",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "déšť",
+      "mokro",
+      "rukojeť",
+      "pláštěnka"
+    ]
+  },
+  {
+    "id": "hospoda-131",
+    "level": "hospoda",
+    "word": "pečení",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "trouba",
+      "těsto",
+      "koláč",
+      "mouka"
+    ]
+  },
+  {
+    "id": "hospoda-132",
+    "level": "hospoda",
+    "word": "pivo",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "hospoda",
+      "chmel",
+      "pěna",
+      "půllitr"
+    ]
+  },
+  {
+    "id": "hospoda-133",
+    "level": "hospoda",
+    "word": "diplomacie",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "vyjednávat",
+      "velvyslanec",
+      "jednání",
+      "stát"
+    ]
+  },
+  {
+    "id": "hospoda-134",
+    "level": "hospoda",
+    "word": "rozbalování dárků",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "vánoce",
+      "papír",
+      "stromeček",
+      "překvapení"
+    ]
+  },
+  {
+    "id": "hospoda-135",
+    "level": "hospoda",
+    "word": "houpačka",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "dítě",
+      "hřiště",
+      "houpat",
+      "lano"
+    ]
+  },
+  {
+    "id": "hospoda-136",
+    "level": "hospoda",
+    "word": "knedlík",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "houskový",
+      "omáčka",
+      "kynutý",
+      "vepřo"
+    ]
+  },
+  {
+    "id": "hospoda-137",
+    "level": "hospoda",
+    "word": "ohřívání rukou nad ohněm",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "zima",
+      "táborák",
+      "dlaně",
+      "plameny"
+    ]
+  },
+  {
+    "id": "hospoda-138",
+    "level": "hospoda",
+    "word": "kraslice",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "vajíčka",
+      "velikonoce",
+      "malovat",
+      "barvy"
+    ]
+  },
+  {
+    "id": "hospoda-139",
+    "level": "hospoda",
+    "word": "svatba",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "nevěsta",
+      "ženich",
+      "prsten",
+      "oddavky"
+    ]
+  },
+  {
+    "id": "hospoda-140",
+    "level": "hospoda",
+    "word": "čištění zubů",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "kartáček",
+      "pasta",
+      "ústa",
+      "ráno"
+    ]
+  },
+  {
+    "id": "hospoda-141",
+    "level": "hospoda",
+    "word": "zubař",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "zuby",
+      "vrtačka",
+      "bolest",
+      "ordinace"
+    ]
+  },
+  {
+    "id": "hospoda-142",
+    "level": "hospoda",
+    "word": "vánoční stromeček",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "vánoce",
+      "ozdoby",
+      "jehličí",
+      "hvězda"
+    ]
+  },
+  {
+    "id": "hospoda-143",
+    "level": "hospoda",
+    "word": "hrabání listí",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "hrábě",
+      "podzim",
+      "zahrada",
+      "hromada"
+    ]
+  },
+  {
+    "id": "hospoda-144",
+    "level": "hospoda",
+    "word": "Dělat z komára velblouda",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "přehánět",
+      "rčení",
+      "hmyz",
+      "zvíře"
+    ]
+  },
+  {
+    "id": "hospoda-145",
+    "level": "hospoda",
+    "word": "kočka",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "mňoukat",
+      "myš",
+      "tlapa",
+      "mourek"
+    ]
+  },
+  {
+    "id": "hospoda-146",
+    "level": "hospoda",
+    "word": "pes",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "štěkat",
+      "kost",
+      "psí",
+      "vodítko"
+    ]
+  },
+  {
+    "id": "hospoda-147",
+    "level": "hospoda",
+    "word": "hraní mariáše",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "karty",
+      "králové",
+      "spodek",
+      "hospoda"
+    ]
+  },
+  {
+    "id": "hospoda-148",
+    "level": "hospoda",
+    "word": "hasič",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "oheň",
+      "hadice",
+      "požár",
+      "helma"
+    ]
+  },
+  {
+    "id": "hospoda-149",
+    "level": "hospoda",
+    "word": "zedník",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "cihla",
+      "malta",
+      "stavba",
+      "zeď"
+    ]
+  },
+  {
+    "id": "hospoda-150",
+    "level": "hospoda",
+    "word": "jelen",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "paroží",
+      "les",
+      "zvěř",
+      "lovec"
+    ]
+  },
+  {
+    "id": "hospoda-151",
+    "level": "hospoda",
+    "word": "pastýř",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "ovce",
+      "stádo",
+      "hůl",
+      "pastvina"
+    ]
+  },
+  {
+    "id": "hospoda-152",
+    "level": "hospoda",
+    "word": "Hlad je nejlepší kuchař",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "jídlo",
+      "přísloví",
+      "hladový",
+      "chutná"
+    ]
+  },
+  {
+    "id": "hospoda-153",
+    "level": "hospoda",
+    "word": "vlak",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "koleje",
+      "nádraží",
+      "lokomotiva",
+      "vagon"
+    ]
+  },
+  {
+    "id": "hospoda-154",
+    "level": "hospoda",
+    "word": "guláš",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "maso",
+      "paprika",
+      "cibule",
+      "hovězí"
+    ]
+  },
+  {
+    "id": "hospoda-155",
+    "level": "hospoda",
+    "word": "kovář",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "kladivo",
+      "podkova",
+      "kovadlina",
+      "železo"
+    ]
+  },
+  {
+    "id": "hospoda-156",
+    "level": "hospoda",
+    "word": "Tři oříšky pro Popelku",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "popelka",
+      "zima",
+      "oříšky",
+      "princ"
+    ]
+  },
+  {
+    "id": "hospoda-157",
+    "level": "hospoda",
+    "word": "dům",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "střecha",
+      "okno",
+      "dveře",
+      "komín"
+    ]
+  },
+  {
+    "id": "hospoda-158",
+    "level": "hospoda",
+    "word": "přípitek",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "sklenice",
+      "na zdraví",
+      "cinkat",
+      "oslava"
+    ]
+  },
+  {
+    "id": "hospoda-159",
+    "level": "hospoda",
+    "word": "taxikář",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "taxi",
+      "auto",
+      "zákazník",
+      "cesta"
+    ]
+  },
+  {
+    "id": "hospoda-160",
+    "level": "hospoda",
+    "word": "liška",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "ocas",
+      "kuře",
+      "rezavá",
+      "les"
+    ]
+  },
+  {
+    "id": "hospoda-161",
+    "level": "hospoda",
+    "word": "žebřík",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "schody",
+      "příčky",
+      "lézt",
+      "stěna"
+    ]
+  },
+  {
+    "id": "hospoda-162",
+    "level": "hospoda",
+    "word": "instalatér",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "trubky",
+      "kohoutek",
+      "voda",
+      "kapat"
+    ]
+  },
+  {
+    "id": "hospoda-163",
+    "level": "hospoda",
+    "word": "sekyra",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "dřevo",
+      "štípat",
+      "sekat",
+      "polena"
+    ]
+  },
+  {
+    "id": "hospoda-164",
+    "level": "hospoda",
+    "word": "Švejk",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "voják",
+      "hašek",
+      "lada",
+      "budějovice"
+    ]
+  },
+  {
+    "id": "hospoda-165",
+    "level": "hospoda",
+    "word": "Dvakrát měř, jednou řež",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "měřit",
+      "přísloví",
+      "řezat",
+      "opatrnost"
+    ]
+  },
+  {
+    "id": "hospoda-166",
+    "level": "hospoda",
+    "word": "rozhledna",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "výhled",
+      "věž",
+      "schody",
+      "kopec"
+    ]
+  },
+  {
+    "id": "hospoda-167",
+    "level": "hospoda",
+    "word": "kamna",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "dřevo",
+      "oheň",
+      "komín",
+      "teplo"
+    ]
+  },
+  {
+    "id": "hospoda-168",
+    "level": "hospoda",
+    "word": "klobouk",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "hlava",
+      "čepice",
+      "pokrývka",
+      "krempa"
+    ]
+  },
+  {
+    "id": "hospoda-169",
+    "level": "hospoda",
+    "word": "vepřo knedlo zelo",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "vepřové",
+      "knedlík",
+      "zelí",
+      "hospoda"
+    ]
+  },
+  {
+    "id": "hospoda-170",
+    "level": "hospoda",
+    "word": "domovník",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "dům",
+      "klíče",
+      "schodiště",
+      "nájemníci"
+    ]
+  },
+  {
+    "id": "hospoda-171",
+    "level": "hospoda",
+    "word": "vaření",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "kuchyně",
+      "hrnec",
+      "sporák",
+      "recept"
+    ]
+  },
+  {
+    "id": "hospoda-172",
+    "level": "hospoda",
+    "word": "trakař",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "kolečko",
+      "zahrada",
+      "stavba",
+      "písek"
+    ]
+  },
+  {
+    "id": "hospoda-173",
+    "level": "hospoda",
+    "word": "sedlák",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "pole",
+      "statek",
+      "dobytek",
+      "hospodář"
+    ]
+  },
+  {
+    "id": "hospoda-174",
+    "level": "hospoda",
+    "word": "židle",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "stůl",
+      "sedět",
+      "noha",
+      "opěradlo"
+    ]
+  },
+  {
+    "id": "hospoda-175",
+    "level": "hospoda",
+    "word": "jízda na saních",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "sníh",
+      "kopec",
+      "zima",
+      "provaz"
+    ]
+  },
+  {
+    "id": "hospoda-176",
+    "level": "hospoda",
+    "word": "šnek",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "ulita",
+      "pomalý",
+      "zahrada",
+      "slimák"
+    ]
+  },
+  {
+    "id": "hospoda-177",
+    "level": "hospoda",
+    "word": "pokladna",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "zaplatit",
+      "obchod",
+      "účtenka",
+      "peníze"
+    ]
+  },
+  {
+    "id": "hospoda-178",
+    "level": "hospoda",
+    "word": "truhlář",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "dřevo",
+      "nábytek",
+      "hoblík",
+      "pila"
+    ]
+  },
+  {
+    "id": "hospoda-179",
+    "level": "hospoda",
+    "word": "Večerníček",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "pohádka",
+      "děti",
+      "televize",
+      "dobrou noc"
+    ]
+  },
+  {
+    "id": "hospoda-180",
+    "level": "hospoda",
+    "word": "jablko",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "ovoce",
+      "eva",
+      "červené",
+      "strom"
+    ]
+  },
+  {
+    "id": "hospoda-181",
+    "level": "hospoda",
+    "word": "Vánoce",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "stromeček",
+      "dárky",
+      "kapr",
+      "ježíšek"
+    ]
+  },
+  {
+    "id": "hospoda-182",
+    "level": "hospoda",
+    "word": "Ranní ptáče dál doskáče",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "ráno",
+      "vstávat",
+      "přísloví",
+      "pták"
+    ]
+  },
+  {
+    "id": "hospoda-183",
+    "level": "hospoda",
+    "word": "svíčková",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "omáčka",
+      "knedlík",
+      "maso",
+      "smetana"
+    ]
+  },
+  {
+    "id": "hospoda-184",
+    "level": "hospoda",
+    "word": "bramborový salát",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "majonéza",
+      "vánoce",
+      "kapr",
+      "vařit"
+    ]
+  },
+  {
+    "id": "hospoda-185",
+    "level": "hospoda",
+    "word": "švadlena",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "šití",
+      "jehla",
+      "látka",
+      "krejčí"
+    ]
+  },
+  {
+    "id": "hospoda-186",
+    "level": "hospoda",
+    "word": "vytahování zátky z vína",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "vývrtka",
+      "láhev",
+      "sklenice",
+      "víno"
+    ]
+  },
+  {
+    "id": "hospoda-187",
+    "level": "hospoda",
+    "word": "plavání",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "voda",
+      "bazén",
+      "plavky",
+      "kraul"
+    ]
+  },
+  {
+    "id": "hospoda-188",
+    "level": "hospoda",
+    "word": "sládek",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "pivo",
+      "pivovar",
+      "chmel",
+      "slad"
+    ]
+  },
+  {
+    "id": "hospoda-189",
+    "level": "hospoda",
+    "word": "koště",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "zametat",
+      "čarodějnice",
+      "smeták",
+      "uklízet"
+    ]
+  },
+  {
+    "id": "hospoda-190",
+    "level": "hospoda",
+    "word": "stání ve frontě",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "řada",
+      "čekat",
+      "obchod",
+      "lidé"
+    ]
+  },
+  {
+    "id": "hospoda-191",
+    "level": "hospoda",
+    "word": "zabijačka",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "prase",
+      "jitrnice",
+      "tlačenka",
+      "ovar"
+    ]
+  },
+  {
+    "id": "hospoda-192",
+    "level": "hospoda",
+    "word": "chytání mouchy",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "bzučet",
+      "plácačka",
+      "okno",
+      "hmyz"
+    ]
+  },
+  {
+    "id": "hospoda-193",
+    "level": "hospoda",
+    "word": "sjezd na bobech",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "sníh",
+      "svah",
+      "sáně",
+      "zima"
+    ]
+  },
+  {
+    "id": "hospoda-194",
+    "level": "hospoda",
+    "word": "Rumcajs",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "loupežník",
+      "cipísek",
+      "řáholec",
+      "manka"
+    ]
+  },
+  {
+    "id": "hospoda-195",
+    "level": "hospoda",
+    "word": "dojení krávy",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "mléko",
+      "vemeno",
+      "stáj",
+      "kýbl"
+    ]
+  },
+  {
+    "id": "hospoda-196",
+    "level": "hospoda",
+    "word": "Jít s kůží na trh",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "riziko",
+      "rčení",
+      "obchod",
+      "odvaha"
+    ]
+  },
+  {
+    "id": "hospoda-197",
+    "level": "hospoda",
+    "word": "vodní mlýn",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "kolo",
+      "voda",
+      "mouka",
+      "potok"
+    ]
+  },
+  {
+    "id": "hospoda-198",
+    "level": "hospoda",
+    "word": "Neházej flintu do žita",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "vzdát se",
+      "žito",
+      "puška",
+      "rčení"
+    ]
+  },
+  {
+    "id": "hospoda-199",
+    "level": "hospoda",
+    "word": "Marečku, podejte mi pero",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "pero",
+      "mareček",
+      "učitelka",
+      "hláška"
+    ]
+  },
+  {
+    "id": "hospoda-200",
+    "level": "hospoda",
+    "word": "sekání trávy",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "sekačka",
+      "zahrada",
+      "zelená",
+      "trávník"
+    ]
+  },
+  {
+    "id": "hospoda-201",
+    "level": "hospoda",
+    "word": "kolotoč",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "pouť",
+      "točit",
+      "děti",
+      "koník"
+    ]
+  },
+  {
+    "id": "hospoda-202",
+    "level": "hospoda",
+    "word": "koledování",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "velikonoce",
+      "vajíčka",
+      "pomlázka",
+      "písnička"
+    ]
+  },
+  {
+    "id": "hospoda-203",
+    "level": "hospoda",
+    "word": "strašák",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "pole",
+      "vrána",
+      "hadry",
+      "plašit"
+    ]
+  },
+  {
+    "id": "hospoda-204",
+    "level": "hospoda",
+    "word": "kolo",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "pedály",
+      "řetěz",
+      "řídítka",
+      "cyklista"
+    ]
+  },
+  {
+    "id": "hospoda-205",
+    "level": "hospoda",
+    "word": "vodník",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "rybník",
+      "hrnečky",
+      "žabák",
+      "zelený"
+    ]
+  },
+  {
+    "id": "hospoda-206",
+    "level": "hospoda",
+    "word": "Nosit dříví do lesa",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "zbytečné",
+      "rčení",
+      "strom",
+      "marné"
+    ]
+  },
+  {
+    "id": "hospoda-207",
+    "level": "hospoda",
+    "word": "Petřín",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "rozhledna",
+      "praha",
+      "lanovka",
+      "eiffelovka"
+    ]
+  },
+  {
+    "id": "hospoda-208",
+    "level": "hospoda",
+    "word": "Karlův most",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "praha",
+      "vltava",
+      "sochy",
+      "karel"
+    ]
+  },
+  {
+    "id": "hospoda-209",
+    "level": "hospoda",
+    "word": "Hurvínek",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "spejbl",
+      "loutka",
+      "divadlo",
+      "táta"
+    ]
+  },
+  {
+    "id": "hospoda-210",
+    "level": "hospoda",
+    "word": "důchod",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "penze",
+      "stáří",
+      "odchod",
+      "práce"
+    ]
+  },
+  {
+    "id": "hospoda-211",
+    "level": "hospoda",
+    "word": "Krteček",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "krtek",
+      "miler",
+      "kalhotky",
+      "pohádka"
+    ]
+  },
+  {
+    "id": "hospoda-212",
+    "level": "hospoda",
+    "word": "kolář",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "dřevo",
+      "vůz",
+      "loukoť",
+      "dílna"
+    ]
+  },
+  {
+    "id": "hospoda-213",
+    "level": "hospoda",
+    "word": "sud",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "pivo",
+      "víno",
+      "dřevo",
+      "hospoda"
+    ]
+  },
+  {
+    "id": "hospoda-214",
+    "level": "hospoda",
+    "word": "byrokracie",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "úřad",
+      "formulář",
+      "razítko",
+      "fronta"
+    ]
+  },
+  {
+    "id": "hospoda-215",
+    "level": "hospoda",
+    "word": "elektrikář",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "dráty",
+      "proud",
+      "zásuvka",
+      "pojistky"
+    ]
+  },
+  {
+    "id": "hospoda-216",
+    "level": "hospoda",
+    "word": "vyklepávání koberce",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "prach",
+      "dvůr",
+      "klepačka",
+      "tyč"
+    ]
+  },
+  {
+    "id": "hospoda-217",
+    "level": "hospoda",
+    "word": "nostalgie",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "vzpomínky",
+      "minulost",
+      "stesk",
+      "dřív"
+    ]
+  },
+  {
+    "id": "hospoda-218",
+    "level": "hospoda",
+    "word": "podpis smlouvy",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "pero",
+      "papír",
+      "dokument",
+      "firma"
+    ]
+  },
+  {
+    "id": "hospoda-219",
+    "level": "hospoda",
+    "word": "řízení v zácpě",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "kolona",
+      "dálnice",
+      "troubit",
+      "stát"
+    ]
+  },
+  {
+    "id": "hospoda-220",
+    "level": "hospoda",
+    "word": "batoh",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "záda",
+      "turista",
+      "výlet",
+      "zip"
+    ]
+  },
+  {
+    "id": "hospoda-221",
+    "level": "hospoda",
+    "word": "hledání ztraceného klíče",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "dveře",
+      "kapsy",
+      "zámek",
+      "prohledávat"
+    ]
+  },
+  {
+    "id": "hospoda-222",
+    "level": "hospoda",
+    "word": "papuče",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "nohy",
+      "doma",
+      "bačkory",
+      "pantofle"
+    ]
+  },
+  {
+    "id": "hospoda-223",
+    "level": "hospoda",
+    "word": "krmení slepic",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "zrní",
+      "dvůr",
+      "kvokat",
+      "vejce"
+    ]
+  },
+  {
+    "id": "hospoda-224",
+    "level": "hospoda",
+    "word": "cukrář",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "dort",
+      "zákusek",
+      "cukr",
+      "cukrárna"
+    ]
+  },
+  {
+    "id": "hospoda-225",
+    "level": "hospoda",
+    "word": "kachna",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "rybník",
+      "peří",
+      "kvákat",
+      "pečená"
+    ]
+  },
+  {
+    "id": "hospoda-226",
+    "level": "hospoda",
+    "word": "Pan Tau",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "klobouk",
+      "kufřík",
+      "seriál",
+      "kouzlo"
+    ]
+  },
+  {
+    "id": "hospoda-227",
+    "level": "hospoda",
+    "word": "větrný mlýn",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "vítr",
+      "lopatky",
+      "mouka",
+      "don quijote"
+    ]
+  },
+  {
+    "id": "hospoda-228",
+    "level": "hospoda",
+    "word": "údržbář",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "oprava",
+      "nářadí",
+      "závod",
+      "klíč"
+    ]
+  },
+  {
+    "id": "hospoda-229",
+    "level": "hospoda",
+    "word": "kadeřnice",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "vlasy",
+      "nůžky",
+      "střih",
+      "fén"
+    ]
+  },
+  {
+    "id": "hospoda-230",
+    "level": "hospoda",
+    "word": "zima",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "sníh",
+      "mráz",
+      "led",
+      "studená"
+    ]
+  },
+  {
+    "id": "hospoda-231",
+    "level": "hospoda",
+    "word": "bruslení",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "led",
+      "brusle",
+      "kluziště",
+      "zima"
+    ]
+  },
+  {
+    "id": "hospoda-232",
+    "level": "hospoda",
+    "word": "chytání ryb holýma rukama",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "rybník",
+      "potok",
+      "voda",
+      "ryba"
+    ]
+  },
+  {
+    "id": "hospoda-233",
+    "level": "hospoda",
+    "word": "spacák",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "spát",
+      "stan",
+      "tábor",
+      "zip"
+    ]
+  },
+  {
+    "id": "hospoda-234",
+    "level": "hospoda",
+    "word": "betlém",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "ježíšek",
+      "jesle",
+      "vánoce",
+      "figurky"
+    ]
+  },
+  {
+    "id": "hospoda-235",
+    "level": "hospoda",
+    "word": "zkoušení u tabule",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "škola",
+      "učitel",
+      "odpovídat",
+      "maturita"
+    ]
+  },
+  {
+    "id": "hospoda-236",
+    "level": "hospoda",
+    "word": "průvodčí",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "vlak",
+      "jízdenka",
+      "kontrola",
+      "píšťalka"
+    ]
+  },
+  {
+    "id": "hospoda-237",
+    "level": "hospoda",
+    "word": "hrnčíř",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "hlína",
+      "kruh",
+      "hrnek",
+      "keramika"
+    ]
+  },
+  {
+    "id": "hospoda-238",
+    "level": "hospoda",
+    "word": "zajíc",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "uši",
+      "mrkev",
+      "velikonoce",
+      "ocas"
+    ]
+  },
+  {
+    "id": "hospoda-239",
+    "level": "hospoda",
+    "word": "inflace",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "ceny",
+      "peníze",
+      "drahota",
+      "koruna"
+    ]
+  },
+  {
+    "id": "hospoda-240",
+    "level": "hospoda",
+    "word": "číšník",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "restaurace",
+      "tác",
+      "hosté",
+      "obsluha"
+    ]
+  },
+  {
+    "id": "hospoda-241",
+    "level": "hospoda",
+    "word": "Kdo si počká, ten se dočká",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "trpělivost",
+      "přísloví",
+      "čekat",
+      "dočkat"
+    ]
+  },
+  {
+    "id": "hospoda-242",
+    "level": "hospoda",
+    "word": "koprovka",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "kopr",
+      "omáčka",
+      "vejce",
+      "brambory"
+    ]
+  },
+  {
+    "id": "hospoda-243",
+    "level": "hospoda",
+    "word": "hrad",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "král",
+      "věž",
+      "zřícenina",
+      "rytíř"
+    ]
+  },
+  {
+    "id": "hospoda-244",
+    "level": "hospoda",
+    "word": "chalupaření",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "chalupa",
+      "víkend",
+      "venkov",
+      "zahrada"
+    ]
+  },
+  {
+    "id": "hospoda-245",
+    "level": "hospoda",
+    "word": "řezání dřeva",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "pila",
+      "polena",
+      "kamna",
+      "sekera"
+    ]
+  },
+  {
+    "id": "hospoda-246",
+    "level": "hospoda",
+    "word": "Jára Cimrman",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "divadlo",
+      "smoljak",
+      "svěrák",
+      "génius"
+    ]
+  },
+  {
+    "id": "hospoda-247",
+    "level": "hospoda",
+    "word": "cestář",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "silnice",
+      "zimní",
+      "posyp",
+      "údržba"
+    ]
+  },
+  {
+    "id": "hospoda-248",
+    "level": "hospoda",
+    "word": "malování zdi",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "válec",
+      "barva",
+      "štětec",
+      "pokoj"
+    ]
+  },
+  {
+    "id": "hospoda-249",
+    "level": "hospoda",
+    "word": "srnec",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "les",
+      "zvěř",
+      "myslivec",
+      "bambi"
+    ]
+  },
+  {
+    "id": "hospoda-250",
+    "level": "hospoda",
+    "word": "lékař",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "doktor",
+      "nemocnice",
+      "pacient",
+      "ordinace"
+    ]
+  },
+  {
+    "id": "hospoda-251",
+    "level": "hospoda",
+    "word": "termoska",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "čaj",
+      "horké",
+      "láhev",
+      "výlet"
+    ]
+  },
+  {
+    "id": "hospoda-252",
+    "level": "hospoda",
+    "word": "pouť",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "kolotoč",
+      "stánky",
+      "srdce",
+      "střelnice"
+    ]
+  },
+  {
+    "id": "hospoda-253",
+    "level": "hospoda",
+    "word": "fotbalista",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "míč",
+      "branka",
+      "dres",
+      "hřiště"
+    ]
+  },
+  {
+    "id": "hospoda-254",
+    "level": "hospoda",
+    "word": "balení kufru",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "dovolená",
+      "oblečení",
+      "zip",
+      "cesta"
+    ]
+  },
+  {
+    "id": "hospoda-255",
+    "level": "hospoda",
+    "word": "rybaření",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "rybník",
+      "prut",
+      "udice",
+      "rybář"
+    ]
+  },
+  {
+    "id": "hospoda-256",
+    "level": "hospoda",
+    "word": "úl",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "včely",
+      "med",
+      "včelař",
+      "plástev"
+    ]
+  },
+  {
+    "id": "hospoda-257",
+    "level": "hospoda",
+    "word": "housle",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "smyčec",
+      "struny",
+      "hudba",
+      "orchestr"
+    ]
+  },
+  {
+    "id": "hospoda-258",
+    "level": "hospoda",
+    "word": "kočár",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "kůň",
+      "miminko",
+      "kola",
+      "povoz"
+    ]
+  },
+  {
+    "id": "hospoda-259",
+    "level": "hospoda",
+    "word": "kopání brambor",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "motyka",
+      "pole",
+      "podzim",
+      "hlíza"
+    ]
+  },
+  {
+    "id": "hospoda-260",
+    "level": "hospoda",
+    "word": "nošení vody ze studny",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "vědro",
+      "ruce",
+      "vesnice",
+      "kolo"
+    ]
+  },
+  {
+    "id": "hospoda-261",
+    "level": "hospoda",
+    "word": "policista",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "policie",
+      "uniforma",
+      "zákon",
+      "hlídka"
+    ]
+  },
+  {
+    "id": "hospoda-262",
+    "level": "hospoda",
+    "word": "pochodeň",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "oheň",
+      "světlo",
+      "hořet",
+      "olympiáda"
+    ]
+  },
+  {
+    "id": "hospoda-263",
+    "level": "hospoda",
+    "word": "Bez práce nejsou koláče",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "pracovat",
+      "odměna",
+      "přísloví",
+      "dřít"
+    ]
+  },
+  {
+    "id": "hospoda-264",
+    "level": "hospoda",
+    "word": "krejčí",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "šít",
+      "oblek",
+      "metr",
+      "látka"
+    ]
+  },
+  {
+    "id": "hospoda-265",
+    "level": "hospoda",
+    "word": "pivní tácek",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "pivo",
+      "hospoda",
+      "kulatý",
+      "sklenice"
+    ]
+  },
+  {
+    "id": "hospoda-266",
+    "level": "hospoda",
+    "word": "trhání třešní",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "sad",
+      "žebřík",
+      "strom",
+      "košík"
+    ]
+  },
+  {
+    "id": "hospoda-267",
+    "level": "hospoda",
+    "word": "kostel",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "věž",
+      "zvon",
+      "mše",
+      "farář"
+    ]
+  },
+  {
+    "id": "hospoda-268",
+    "level": "hospoda",
+    "word": "Slunce, seno, jahody",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "film",
+      "komedie",
+      "vesnice",
+      "venkov"
+    ]
+  },
+  {
+    "id": "hospoda-269",
+    "level": "hospoda",
+    "word": "hospoda",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "pivo",
+      "výčep",
+      "hostinec",
+      "štamgast"
+    ]
+  },
+  {
+    "id": "hospoda-270",
+    "level": "hospoda",
+    "word": "učitel",
+    "mode": "any",
+    "difficulty": 3,
+    "forbidden": [
+      "škola",
+      "třída",
+      "žák",
+      "tabule"
+    ]
+  },
+  {
+    "id": "hospoda-271",
+    "level": "hospoda",
+    "word": "vyplňování formuláře",
+    "mode": "ukaz",
+    "difficulty": 5,
+    "forbidden": [
+      "úřad",
+      "razítko",
+      "pero",
+      "papír"
+    ]
+  },
+  {
+    "id": "hospoda-272",
+    "level": "hospoda",
+    "word": "škola",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "učitel",
+      "třída",
+      "žák",
+      "tabule"
+    ]
+  },
+  {
+    "id": "hospoda-273",
+    "level": "hospoda",
+    "word": "hraní na kytaru",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "struny",
+      "tábor",
+      "zpěv",
+      "akord"
+    ]
+  },
+  {
+    "id": "hospoda-274",
+    "level": "hospoda",
+    "word": "pytel brambor",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "brambory",
+      "juta",
+      "mouka",
+      "zrno"
+    ]
+  },
+  {
+    "id": "hospoda-275",
+    "level": "hospoda",
+    "word": "Říp",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "hora",
+      "čech",
+      "praotec",
+      "rovina"
+    ]
+  },
+  {
+    "id": "hospoda-276",
+    "level": "hospoda",
+    "word": "plot",
+    "mode": "nakresli",
+    "difficulty": 3,
+    "forbidden": [
+      "zahrada",
+      "dřevo",
+      "sousedé",
+      "branka"
+    ]
+  },
+  {
+    "id": "hospoda-277",
+    "level": "hospoda",
+    "word": "stavění stanu",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "kolíky",
+      "les",
+      "spacák",
+      "tábor"
+    ]
+  },
+  {
+    "id": "hospoda-278",
+    "level": "hospoda",
+    "word": "Macocha",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "propast",
+      "moravský kras",
+      "jeskyně",
+      "hluboká"
+    ]
+  },
+  {
+    "id": "hospoda-279",
+    "level": "hospoda",
+    "word": "hořčice",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "párek",
+      "žlutá",
+      "křen",
+      "sklenice"
+    ]
+  },
+  {
+    "id": "hospoda-280",
+    "level": "hospoda",
+    "word": "celník",
+    "mode": "any",
+    "difficulty": 5,
+    "forbidden": [
+      "hranice",
+      "pas",
+      "kontrola",
+      "uniforma"
+    ]
+  },
+  {
+    "id": "hospoda-281",
+    "level": "hospoda",
+    "word": "pomník",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "socha",
+      "náměstí",
+      "památník",
+      "kámen"
+    ]
+  },
+  {
+    "id": "hospoda-282",
+    "level": "hospoda",
+    "word": "pálení čarodějnic",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "oheň",
+      "koště",
+      "duben",
+      "hranice"
+    ]
+  },
+  {
+    "id": "hospoda-283",
+    "level": "hospoda",
+    "word": "pec na chleba",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "chléb",
+      "cihla",
+      "pekař",
+      "oheň"
+    ]
+  },
+  {
+    "id": "hospoda-284",
+    "level": "hospoda",
+    "word": "Mikuláš",
+    "mode": "rekni",
+    "difficulty": 4,
+    "forbidden": [
+      "čert",
+      "anděl",
+      "pytel",
+      "prosinec"
+    ]
+  },
+  {
+    "id": "hospoda-285",
+    "level": "hospoda",
+    "word": "štípání dřeva",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "sekera",
+      "polena",
+      "klada",
+      "kamna"
+    ]
+  },
+  {
+    "id": "hospoda-286",
+    "level": "hospoda",
+    "word": "Přemysl Oráč",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "pole",
+      "libuše",
+      "stadice",
+      "pluh"
+    ]
+  },
+  {
+    "id": "hospoda-287",
+    "level": "hospoda",
+    "word": "hokej",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "puk",
+      "led",
+      "brusle",
+      "brankář"
+    ]
+  },
+  {
+    "id": "hospoda-288",
+    "level": "hospoda",
+    "word": "dudy",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "hudba",
+      "vak",
+      "chodsko",
+      "píšťala"
+    ]
+  },
+  {
+    "id": "hospoda-289",
+    "level": "hospoda",
+    "word": "Koupit zajíce v pytli",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "nákup",
+      "rčení",
+      "pytel",
+      "riziko"
+    ]
+  },
+  {
+    "id": "hospoda-290",
+    "level": "hospoda",
+    "word": "výplata",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "peníze",
+      "práce",
+      "účet",
+      "měsíc"
+    ]
+  },
+  {
+    "id": "hospoda-291",
+    "level": "hospoda",
+    "word": "plískanice",
+    "mode": "rekni",
+    "difficulty": 5,
+    "forbidden": [
+      "počasí",
+      "sníh",
+      "déšť",
+      "zima"
+    ]
+  },
+  {
+    "id": "hospoda-292",
+    "level": "hospoda",
+    "word": "ježek",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "bodliny",
+      "jablka",
+      "zima",
+      "ostny"
+    ]
+  },
+  {
+    "id": "hospoda-293",
+    "level": "hospoda",
+    "word": "štika",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "ryba",
+      "rybník",
+      "zuby",
+      "dravec"
+    ]
+  },
+  {
+    "id": "hospoda-294",
+    "level": "hospoda",
+    "word": "ukrajování chleba",
+    "mode": "ukaz",
+    "difficulty": 4,
+    "forbidden": [
+      "nůž",
+      "krajíc",
+      "pecen",
+      "kuchyně"
+    ]
+  },
+  {
+    "id": "hospoda-295",
+    "level": "hospoda",
+    "word": "žehlení",
+    "mode": "ukaz",
+    "difficulty": 3,
+    "forbidden": [
+      "žehlička",
+      "prádlo",
+      "košile",
+      "prkno"
+    ]
+  },
+  {
+    "id": "hospoda-296",
+    "level": "hospoda",
+    "word": "morový sloup",
+    "mode": "nakresli",
+    "difficulty": 5,
+    "forbidden": [
+      "náměstí",
+      "socha",
+      "epidemie",
+      "barokní"
+    ]
+  },
+  {
+    "id": "hospoda-297",
+    "level": "hospoda",
+    "word": "budík",
+    "mode": "any",
+    "difficulty": 4,
+    "forbidden": [
+      "ráno",
+      "zvonit",
+      "spánek",
+      "čas"
+    ]
+  },
+  {
+    "id": "hospoda-298",
+    "level": "hospoda",
+    "word": "lanovka",
+    "mode": "nakresli",
+    "difficulty": 4,
+    "forbidden": [
+      "hora",
+      "kabina",
+      "lano",
+      "vlek"
+    ]
+  },
+  {
+    "id": "hospoda-299",
+    "level": "hospoda",
+    "word": "Velikonoce",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "pomlázka",
+      "vajíčko",
+      "jaro",
+      "beránek"
+    ]
+  },
+  {
+    "id": "hospoda-300",
+    "level": "hospoda",
+    "word": "kapr",
+    "mode": "rekni",
+    "difficulty": 3,
+    "forbidden": [
+      "vánoce",
+      "rybník",
+      "šupina",
+      "řízek"
+    ]
+  }
+]

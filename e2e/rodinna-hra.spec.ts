@@ -42,7 +42,7 @@ async function answerQuestion(page: Page) {
 }
 
 test('rodinná hra: tři úrovně, dvě kola, žolík a konečné pořadí', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/tablet');
   await expect(page.getByRole('heading', { name: 'Kvízovna' })).toBeVisible();
 
   await addPlayer(page, 'Táta', 'Hospoda');
@@ -55,7 +55,7 @@ test('rodinná hra: tři úrovně, dvě kola, žolík a konečné pořadí', asy
   await page.getByRole('group', { name: 'Otázek na hráče v kole' }).getByRole('button', { name: '2', exact: true }).click();
   await page.getByRole('button', { name: 'Začít hru' }).click();
 
-  await expect(page).toHaveURL(/\/hra$/);
+  await expect(page).toHaveURL(/\/tablet\/hra$/);
   await expect(page.getByTestId('round-intro')).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Příroda a zvířata' })).toBeVisible();
   await page.getByRole('button', { name: 'Žolík Táta' }).click();
@@ -113,7 +113,7 @@ test('rodinná hra: tři úrovně, dvě kola, žolík a konečné pořadí', asy
   await expect(rows).toHaveCount(3);
   // Táta answers everything right and doubles round 1 with the joker → clear winner.
   await expect(rows.first()).toContainText('Táta');
-  await expect(rows.first()).toContainText('🥇');
+  await expect(rows.first().getByRole('img', { name: '1. místo' })).toBeVisible();
   await expect(final.getByText('Nej odpověď')).toBeVisible();
   await expect(final.getByText('Úspěšnost po tématech')).toBeVisible();
 

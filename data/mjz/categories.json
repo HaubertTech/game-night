@@ -1,0 +1,23 @@
+{
+  "adult": {
+    "label": "Dospělí",
+    "categories": [
+      { "id": "mesto", "label": "Město", "hints": ["mesta"] },
+      { "id": "jmeno", "label": "Jméno", "hints": ["jmena"] },
+      { "id": "zvire", "label": "Zvíře", "hints": ["zvirata"] },
+      { "id": "vec", "label": "Věc" },
+      { "id": "rostlina", "label": "Rostlina", "hints": ["rostliny"] },
+      { "id": "reka-hora", "label": "Řeka/Hora", "hints": ["reky", "hory"] }
+    ]
+  },
+  "kids": {
+    "label": "Děti",
+    "categories": [
+      { "id": "jmeno", "label": "Jméno", "hints": ["jmena"] },
+      { "id": "zvire", "label": "Zvíře", "hints": ["zvirata"] },
+      { "id": "vec", "label": "Věc" },
+      { "id": "jidlo", "label": "Jídlo", "hints": ["jidlo"] },
+      { "id": "barva-hracka", "label": "Barva/Hračka", "hints": ["barvy"] }
+    ]
+  }
+}

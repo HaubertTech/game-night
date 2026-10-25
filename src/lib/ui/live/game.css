@@ -1,0 +1,146 @@
+/* Shared layout of the live game screens (aktivity, mjz) on the TV and on phones. */
+
+.g-tv {
+  min-height: 100vh;
+  padding: 16px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.g-phone {
+  max-width: 560px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: max(12px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.g-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+}
+.g-bar .conn {
+  margin-left: auto;
+}
+.g-brand {
+  font-weight: 800;
+}
+.g-center {
+  text-align: center;
+  align-items: center;
+}
+.g-narrow {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+}
+.g-host-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.g-huge {
+  font-size: 5rem;
+}
+.g-mega {
+  font-size: clamp(5rem, 16vw, 12rem);
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+}
+.g-spectator {
+  margin: 0;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--slate-light);
+}
+.g-toast {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: calc(100% - 32px);
+  margin: 0;
+  padding: 12px 20px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  text-align: center;
+  z-index: 10;
+}
+.g-lobby {
+  display: grid;
+  /* QR and the list stay in the empty left part of the backdrop, the owl on the right stays visible. */
+  grid-template-columns: minmax(260px, 400px) minmax(0, 580px);
+  justify-content: start;
+  gap: 40px;
+  align-items: start;
+}
+.g-people {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.g-people li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 16px;
+  background: var(--paper);
+  border: 2px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-size: 1.2rem;
+}
+.g-people li[data-online='yes'] {
+  border-color: var(--sage);
+}
+.g-avatar {
+  font-size: 2.2rem;
+}
+.g-grow {
+  flex: 1;
+}
+.g-big-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.g-big-buttons .btn {
+  width: 100%;
+  min-height: 88px;
+  font-size: 1.6rem;
+}
+.g-note {
+  margin: 0;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--clay-light);
+  font-weight: 700;
+}
+/* Waiting room over the backdrop picture (LobbyBackdrop): the list sits on a paper panel. */
+.g-lobby > :not(.join):not(.backdrop) {
+  padding: 18px 22px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  box-shadow: var(--shadow);
+}
+.g-wait-card {
+  padding: 20px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  box-shadow: var(--shadow);
+}
+@media (max-width: 900px) {
+  .g-lobby {
+    grid-template-columns: 1fr;
+  }
+}
