@@ -213,19 +213,21 @@
         {#if ratings[ratingTab].length === 0}
           <p class="empty">Zatím bez hodnocené partie.</p>
         {:else}
-          <table class="table" data-testid="ratings-table">
-            <thead><tr><th>#</th><th>Hráč</th><th class="num">Rating</th><th class="num">Partie</th></tr></thead>
-            <tbody>
-              {#each ratings[ratingTab] as r (r.player_id)}
-                <tr class:first={r.place === 1}>
-                  <td><Medal place={r.place} /></td>
-                  <td><Avatar value={r.avatar} /> <a href={`/hrac/${r.player_id}`}>{r.name}</a></td>
-                  <td class="num">{r.display}</td>
-                  <td class="num">{r.games}</td>
-                </tr>
-              {/each}
-            </tbody>
-          </table>
+          <div class="table-scroll">
+            <table class="table" data-testid="ratings-table">
+              <thead><tr><th>#</th><th>Hráč</th><th class="num">Rating</th><th class="num">Partie</th></tr></thead>
+              <tbody>
+                {#each ratings[ratingTab] as r (r.player_id)}
+                  <tr class:first={r.place === 1}>
+                    <td><Medal place={r.place} /></td>
+                    <td><Avatar value={r.avatar} /> <a href={`/hrac/${r.player_id}`}>{r.name}</a></td>
+                    <td class="num">{r.display}</td>
+                    <td class="num">{r.games}</td>
+                  </tr>
+                {/each}
+              </tbody>
+            </table>
+          </div>
         {/if}
       </section>
     {/if}

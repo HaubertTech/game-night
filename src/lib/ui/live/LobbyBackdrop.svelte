@@ -11,6 +11,17 @@
 </div>
 
 <style>
+  /* The body paints its own cream background above z-index -1; the canvas (html) keeps the colour. */
+  :global(body:has(.backdrop)) {
+    background: transparent;
+  }
+  /* The phone status bar sits on the dark evening sky: give it a paper strip. */
+  :global(body:has(.backdrop.phone) header.bar),
+  :global(body:has(.backdrop.phone) header.g-bar) {
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    border-radius: var(--radius-sm);
+    padding-inline: 12px;
+  }
   .backdrop {
     position: fixed;
     inset: 0;

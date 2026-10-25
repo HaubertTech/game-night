@@ -367,9 +367,11 @@
   }
   .code {
     margin: 0;
-    font-size: clamp(4rem, 10vw, 8rem);
+    font-size: clamp(3rem, 6vw, 5.5rem);
     font-weight: 900;
     letter-spacing: 0.18em;
+    text-align: center;
+    max-width: 100%;
     line-height: 1;
   }
   .people {

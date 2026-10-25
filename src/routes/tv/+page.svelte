@@ -272,7 +272,19 @@
   }
   .games {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
+  }
+  @media (min-width: 1300px) {
+    .games {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+  /* Phones: two columns, so the six games fit on one or two screens and the setup follows. */
+  @media (max-width: 640px) {
+    .games {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
   }
 </style>

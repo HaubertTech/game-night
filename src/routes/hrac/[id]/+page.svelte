@@ -11,6 +11,12 @@
   import { session } from '#lib/ui/app/session.svelte.ts';
 
   import type { GameType } from '#lib/league/types.ts';
+
+  function czPlural(n: number, one: string, few: string, many: string): string {
+    return `${n} ${n === 1 ? one : n >= 2 && n <= 4 ? few : many}`;
+  }
+  const matchesLabel = (n: number) => czPlural(n, 'partie', 'partie', 'partií');
+  const winsLabel = (n: number) => czPlural(n, 'výhra', 'výhry', 'výher');
   interface Rate {
     correct: number;
     total: number;
@@ -108,7 +114,7 @@
         <div class="card stat">
           <span class="label">Ligové body celkem</span>
           <strong class="value" data-testid="league-points">{profile.league.points}</strong>
-          <span class="muted">{profile.league.matches} partií · {profile.league.wins} výher</span>
+          <span class="muted">{matchesLabel(profile.league.matches)} · {winsLabel(profile.league.wins)}</span>
         </div>
         <div class="card stat">
           <span class="label">Série výher</span>
@@ -158,14 +164,16 @@
         {#if profile.headToHead.length === 0}
           <p class="empty">Zatím žádná společná partie.</p>
         {:else}
-          <table class="table">
-            <thead><tr><th>Soupeř</th><th class="num">Partie</th><th class="num">Výhry</th><th class="num">Prohry</th><th class="num">Remízy</th></tr></thead>
-            <tbody>
-              {#each profile.headToHead as h (h.opponentId)}
-                <tr><td><a href={`/hrac/${h.opponentId}`}>{h.name}</a></td><td class="num">{h.matches}</td><td class="num">{h.wins}</td><td class="num">{h.losses}</td><td class="num">{h.draws}</td></tr>
-              {/each}
-            </tbody>
-          </table>
+          <div class="table-scroll">
+            <table class="table">
+              <thead><tr><th>Soupeř</th><th class="num">Partie</th><th class="num">Výhry</th><th class="num">Prohry</th><th class="num">Remízy</th></tr></thead>
+              <tbody>
+                {#each profile.headToHead as h (h.opponentId)}
+                  <tr><td><a href={`/hrac/${h.opponentId}`}>{h.name}</a></td><td class="num">{h.matches}</td><td class="num">{h.wins}</td><td class="num">{h.losses}</td><td class="num">{h.draws}</td></tr>
+                {/each}
+              </tbody>
+            </table>
+          </div>
         {/if}
       </section>
 
@@ -174,20 +182,22 @@
         {#if profile.history.length === 0}
           <p class="empty">Zatím žádná dohraná partie.</p>
         {:else}
-          <table class="table" data-testid="history">
-            <thead><tr><th>Kdy</th><th>Hra</th><th>Pořadí</th><th class="num">Skóre</th><th class="num">Body</th></tr></thead>
-            <tbody>
-              {#each profile.history as h (h.match_id)}
-                <tr>
-                  <td>{#if h.night_id}<a href={`/vecery/${h.night_id}`}>{formatDateTime(h.finished_at)}</a>{:else}{formatDateTime(h.finished_at)}{/if}</td>
-                  <td>{GAME_EMOJI[h.game_type]} {GAME_LABELS[h.game_type]}{#if h.team_name} <span class="muted">({h.team_name})</span>{/if}</td>
-                  <td><Medal place={h.place} size={24} /> <span class="muted">z {h.seats}</span></td>
-                  <td class="num">{h.score}</td>
-                  <td class="num">{h.league_points}</td>
-                </tr>
-              {/each}
-            </tbody>
-          </table>
+          <div class="table-scroll">
+            <table class="table" data-testid="history">
+              <thead><tr><th>Kdy</th><th>Hra</th><th>Pořadí</th><th class="num">Skóre</th><th class="num">Body</th></tr></thead>
+              <tbody>
+                {#each profile.history as h (h.match_id)}
+                  <tr>
+                    <td>{#if h.night_id}<a href={`/vecery/${h.night_id}`}>{formatDateTime(h.finished_at)}</a>{:else}{formatDateTime(h.finished_at)}{/if}</td>
+                    <td>{GAME_EMOJI[h.game_type]} {GAME_LABELS[h.game_type]}{#if h.team_name} <span class="muted">({h.team_name})</span>{/if}</td>
+                    <td><Medal place={h.place} size={24} /> <span class="muted">z {h.seats}</span></td>
+                    <td class="num">{h.score}</td>
+                    <td class="num">{h.league_points}</td>
+                  </tr>
+                {/each}
+              </tbody>
+            </table>
+          </div>
         {/if}
       </section>
     {/if}
