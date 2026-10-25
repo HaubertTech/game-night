@@ -1,405 +1,206 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
-  import { page } from '$app/state';
-  import { dev } from '$app/env';
-  import { LEVELS, LEVEL_LABELS, THEMES, THEME_LABELS, PRESCHOOL_THEMES, type Level, type Theme } from '#lib/types.ts';
-  import { countQuestions, loadQuestions } from '#lib/questions.ts';
-  import { createGame, mulberry32, shuffle, type Contestant } from '#lib/engine/index.ts';
-  import {
-    clearCurrentGame,
-    downloadHistory,
-    loadCurrentGame,
-    loadHistory,
-    loadProfiles,
-    loadSeen,
-    newProfileId,
-    saveCurrentGame,
-    saveProfiles,
-    type HistoryEntry,
-    type Profile,
-  } from '#lib/storage.ts';
-  import { AVATARS, gamesLabel, LEVEL_EMOJI, TEAM_AVATARS, THEME_EMOJI } from '#lib/ui/labels.ts';
-  import type { GameState } from '#lib/engine/quiz.ts';
+  import { exportData, loadHistory, loadProfiles } from '#lib/storage.ts';
+  import { api, ApiError, formatDate } from '#lib/ui/app/api.ts';
+  import { loadSession, session } from '#lib/ui/app/session.svelte.ts';
 
-  interface TeamDraft {
-    id: string;
-    name: string;
-    avatar: string;
-    level: Level;
-    memberIds: string[];
+  interface NightRow {
+    id: number;
+    played_on: string;
+    title: string | null;
+    matches: number;
   }
 
-  const includeDraft = dev && page.url.searchParams.get('draft') === '1';
-  const questions = loadQuestions({ includeDraft });
-  const counts = countQuestions(questions);
+  let name = $state('');
+  let pin = $state('');
+  let pin2 = $state('');
+  let householdName = $state('');
+  let showName = $state(false);
+  let busy = $state(false);
+  let message = $state<string | null>(null);
 
-  let profiles = $state<Profile[]>([]);
-  let selected = $state<string[]>([]);
-  let history = $state<HistoryEntry[]>([]);
-  let running = $state<GameState | null>(null);
+  let today = $state<NightRow | null>(null);
+  let importInfo = $state<string | null>(null);
+  let localGames = $state(0);
+  let localProfiles = $state(0);
 
-  let formName = $state('');
-  let formAvatar = $state(AVATARS[0]);
-  let formLevel = $state<Level>('hospoda');
-  let editingId = $state<string | null>(null);
-
-  let teamsMode = $state(false);
-  let teams = $state<TeamDraft[]>([]);
-
-  let themes = $state<Theme[]>([]);
-  let perContestant = $state(3);
-  let timer = $state<number | null>(null);
-
-  onMount(() => {
-    profiles = loadProfiles();
-    selected = profiles.map((p) => p.id);
-    history = loadHistory();
-    const current = loadCurrentGame();
-    running = current && current.phase !== 'finished' ? current : null;
-    formAvatar = nextAvatar();
+  onMount(async () => {
+    await loadSession();
+    localGames = loadHistory().length;
+    localProfiles = loadProfiles().length;
+    if (session.household) loadToday();
   });
 
-  function nextAvatar(): string {
-    return AVATARS.find((a) => !profiles.some((p) => p.avatar === a)) ?? AVATARS[profiles.length % AVATARS.length];
-  }
-
-  function persistProfiles() {
-    saveProfiles($state.snapshot(profiles));
-  }
-
-  function submitProfile(event: SubmitEvent) {
-    event.preventDefault();
-    const name = formName.trim();
-    if (!name) return;
-    if (editingId) {
-      profiles = profiles.map((p) => (p.id === editingId ? { ...p, name, avatar: formAvatar, level: formLevel } : p));
-    } else {
-      const profile: Profile = { id: newProfileId(), name, avatar: formAvatar, level: formLevel };
-      profiles = [...profiles, profile];
-      selected = [...selected, profile.id];
+  async function loadToday() {
+    try {
+      today = (await api<{ today: NightRow | null }>('/api/nights')).today;
+    } catch {
+      today = null;
     }
-    persistProfiles();
-    editingId = null;
-    formName = '';
-    formAvatar = nextAvatar();
   }
 
-  function editProfile(p: Profile) {
-    editingId = p.id;
-    formName = p.name;
-    formAvatar = p.avatar;
-    formLevel = p.level;
+  async function run(fn: () => Promise<void>) {
+    busy = true;
+    message = null;
+    try {
+      await fn();
+    } catch (err) {
+      message = err instanceof ApiError ? err.message : 'Něco se nepovedlo.';
+    } finally {
+      busy = false;
+    }
   }
 
-  function cancelEdit() {
-    editingId = null;
-    formName = '';
-    formAvatar = nextAvatar();
-  }
-
-  function removeProfile(p: Profile) {
-    if (!confirm(`Smazat hráče ${p.name}?`)) return;
-    profiles = profiles.filter((x) => x.id !== p.id);
-    selected = selected.filter((id) => id !== p.id);
-    teams = teams.map((t) => ({ ...t, memberIds: t.memberIds.filter((id) => id !== p.id) }));
-    persistProfiles();
-    if (editingId === p.id) cancelEdit();
-  }
-
-  function toggleSelected(id: string) {
-    selected = selected.includes(id) ? selected.filter((x) => x !== id) : [...selected, id];
-    if (!selected.includes(id)) teams = teams.map((t) => ({ ...t, memberIds: t.memberIds.filter((m) => m !== id) }));
-  }
-
-  function addTeam() {
-    const n = teams.length;
-    teams = [...teams, { id: `team-${n + 1}`, name: `Tým ${n + 1}`, avatar: TEAM_AVATARS[n % TEAM_AVATARS.length], level: 'hospoda', memberIds: [] }];
-  }
-
-  function toggleMember(team: TeamDraft, profileId: string) {
-    teams = teams.map((t) => {
-      const without = t.memberIds.filter((m) => m !== profileId);
-      if (t.id !== team.id) return { ...t, memberIds: without };
-      return { ...t, memberIds: t.memberIds.includes(profileId) ? without : [...t.memberIds, profileId] };
+  function createHousehold(event: SubmitEvent) {
+    event.preventDefault();
+    if (pin !== pin2) {
+      message = 'PINy se neshodují.';
+      return;
+    }
+    run(async () => {
+      await api('/api/household', { body: { name, pin } });
+      await loadSession();
+      loadToday();
     });
   }
 
-  function toggleTheme(theme: Theme) {
-    if (themes.includes(theme)) themes = themes.filter((t) => t !== theme);
-    else if (themes.length < 6) themes = [...themes, theme];
+  function login(event: SubmitEvent) {
+    event.preventDefault();
+    run(async () => {
+      await api('/api/login', { body: { pin, name: showName ? householdName : undefined } });
+      pin = '';
+      await loadSession();
+      loadToday();
+    });
   }
 
-  function randomThemes() {
-    const rand = mulberry32(randomSeed());
-    themes = shuffle(THEMES, rand).slice(0, 4);
+  function logout() {
+    run(async () => {
+      await api('/api/logout', { body: {} });
+      await loadSession();
+    });
   }
 
-  function randomSeed(): number {
-    try {
-      return crypto.getRandomValues(new Uint32Array(1))[0];
-    } catch {
-      return Math.floor(Math.random() * 2 ** 32);
-    }
+  function newNight() {
+    run(async () => {
+      const { night } = await api<{ night: { id: number } }>('/api/nights', { body: {} });
+      goto(`/vecery/${night.id}`);
+    });
   }
 
-  const selectedProfiles = $derived(selected.map((id) => profiles.find((p) => p.id === id)).filter((p): p is Profile => !!p));
-
-  const contestants = $derived<Contestant[]>(
-    teamsMode
-      ? teams
-          .filter((t) => t.memberIds.length > 0)
-          .map((t) => ({ id: t.id, name: t.name.trim() || 'Tým', avatar: t.avatar, level: t.level, memberIds: t.memberIds.slice() }))
-      : selectedProfiles.map((p) => ({ id: p.id, name: p.name, avatar: p.avatar, level: p.level, memberIds: [p.id] })),
-  );
-
-  const missingLevels = $derived(
-    Array.from(new Set(contestants.map((c) => c.level))).filter((level) => counts[level].total === 0),
-  );
-
-  const usesPreschoolMix = $derived(
-    contestants.some((c) => c.level === 'piskoviste') && themes.some((t) => !PRESCHOOL_THEMES.includes(t)),
-  );
-
-  const canStart = $derived(contestants.length > 0 && themes.length > 0 && missingLevels.length === 0);
-
-  function startGame() {
-    if (!canStart) return;
-    const seen = loadSeen();
-    const seenByContestant = Object.fromEntries(
-      contestants.map((c) => [c.id, c.memberIds.flatMap((m) => seen[m] ?? [])]),
-    );
-    const seedParam = Number(page.url.searchParams.get('seed'));
-    const seed = Number.isFinite(seedParam) && seedParam > 0 ? seedParam : randomSeed();
-    const game = createGame(
-      {
-        id: `g-${Date.now().toString(36)}`,
-        createdAt: new Date().toISOString(),
-        seed,
-        themes: $state.snapshot(themes),
-        questionsPerContestant: perContestant,
-        timerSeconds: timer,
-        contestants: $state.snapshot(contestants),
-      },
-      questions,
-      seenByContestant,
-    );
-    saveCurrentGame(game);
-    goto('/hra');
+  function cardsHref(game: 'prsi' | 'zoliky'): string {
+    return `/karty/nova?hra=${game}${today ? `&night=${today.id}` : ''}`;
   }
 
-  function discardRunning() {
-    if (!confirm('Opravdu zahodit rozehranou hru?')) return;
-    clearCurrentGame();
-    running = null;
+  async function sendImport(data: unknown) {
+    const { result } = await api<{ result: Record<string, number> }>('/api/import/tablet', { body: data });
+    importInfo = `Hotovo: ${result.players_created} nových hráčů, ${result.matches_created} her přeneseno, ${result.matches_skipped} už bylo na serveru.`;
   }
 
-  function winnerOf(h: HistoryEntry): string {
-    const top = h.ranking.filter((r) => r.place === 1).map((r) => h.contestants.find((c) => c.id === r.contestantId)?.name ?? '?');
-    return top.join(', ');
+  function importFromDevice() {
+    run(() => sendImport(exportData()));
+  }
+
+  function importFile(event: Event) {
+    const input = event.currentTarget as HTMLInputElement;
+    const file = input.files?.[0];
+    if (!file) return;
+    run(async () => {
+      let data: unknown;
+      try {
+        data = JSON.parse(await file.text());
+      } catch {
+        throw new ApiError('Soubor není platný JSON z exportu tabletu.', 400, null);
+      }
+      await sendImport(data);
+      input.value = '';
+    });
   }
 </script>
 
-<main class="page stack" data-testid="setup">
+<main class="page stack home">
   <header class="hero">
-    <span class="emoji logo" aria-hidden="true">🦉</span>
+    <span class="emoji logo" aria-hidden="true">🏡</span>
     <div>
-      <h1>Kvízovna</h1>
-      <p class="muted">Kvíz u stolu pro celou rodinu — tablet koluje, každý dostane otázku své úrovně.</p>
+      <h1>Domácí liga</h1>
+      <p class="muted">Kvízy, prší a žolíky — večery, tabulka sezóny a statistiky celé rodiny.</p>
     </div>
   </header>
 
-  {#if running}
-    <section class="card running row">
-      <div class="grow">
-        <strong>Rozehraná hra</strong>
-        <span class="muted">— kolo {running.roundIndex + 1} z {running.rounds.length},
-          {running.config.contestants.map((c) => c.name).join(', ')}</span>
-      </div>
-      <a class="btn primary" href="/hra">▶️ Pokračovat</a>
-      <button class="btn ghost" onclick={discardRunning}>Zahodit</button>
-    </section>
-  {/if}
-
-  <section class="card stack">
-    <h2>👪 Hráči</h2>
-    {#if profiles.length === 0}
-      <p class="muted">Zatím tu nikdo není. Přidej prvního hráče.</p>
-    {:else}
-      <ul class="profiles">
-        {#each profiles as p (p.id)}
-          <li class="profile" class:selected={selected.includes(p.id)}>
-            <button
-              class="profile-main"
-              aria-pressed={selected.includes(p.id)}
-              aria-label={`${p.name} hraje`}
-              onclick={() => toggleSelected(p.id)}
-            >
-              <span class="emoji avatar">{p.avatar}</span>
-              <span class="profile-name">{p.name}</span>
-              <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span>
-              <span class="tick" aria-hidden="true">{selected.includes(p.id) ? '✓' : ''}</span>
-            </button>
-            <div class="profile-tools">
-              <button class="btn small ghost" aria-label={`Upravit ${p.name}`} onclick={() => editProfile(p)}>✏️</button>
-              <button class="btn small ghost" aria-label={`Smazat ${p.name}`} onclick={() => removeProfile(p)}>🗑️</button>
-            </div>
-          </li>
-        {/each}
-      </ul>
-    {/if}
-
-    <form class="profile-form stack" onsubmit={submitProfile}>
-      <h3>{editingId ? 'Upravit hráče' : 'Nový hráč'}</h3>
-      <label class="field">
-        <span>Jméno</span>
-        <input type="text" bind:value={formName} maxlength="20" autocomplete="off" placeholder="např. Anička" />
-      </label>
-      <div class="field">
-        <span>Úroveň</span>
-        <div class="row" role="group" aria-label="Úroveň">
-          {#each LEVELS as level (level)}
-            <button type="button" class="chip" aria-pressed={formLevel === level} onclick={() => (formLevel = level)}>
-              <span class="emoji">{LEVEL_EMOJI[level]}</span>{LEVEL_LABELS[level]}
-            </button>
-          {/each}
-        </div>
-        <span class="muted small-note">Hospoda = dospělí · Lavice = 1. stupeň · Pískoviště = předškoláci (předčítá se)</span>
-      </div>
-      <div class="field">
-        <span>Obrázek</span>
-        <div class="avatars" role="group" aria-label="Obrázek">
-          {#each AVATARS as a (a)}
-            <button type="button" class="avatar-pick emoji" aria-pressed={formAvatar === a} aria-label={a} onclick={() => (formAvatar = a)}>{a}</button>
-          {/each}
-        </div>
-      </div>
+  {#if !session.loaded}
+    <p class="muted">Načítám…</p>
+  {:else if session.offline}
+    <section class="card stack">
+      <h2>Server není dostupný</h2>
+      <p class="muted">Ligu, večery a karty teď uložit nejde. Kvíz na jednom tabletu funguje i bez serveru.</p>
       <div class="row">
-        <button class="btn primary" type="submit" disabled={!formName.trim()}>
-          {editingId ? '💾 Uložit' : '➕ Přidat hráče'}
-        </button>
-        {#if editingId}
-          <button class="btn ghost" type="button" onclick={cancelEdit}>Zrušit</button>
-        {/if}
+        <a class="btn primary big" href="/tablet">🦉 Kvíz na jednom tabletu</a>
+        <button class="btn ghost" onclick={() => loadSession()}>Zkusit znovu</button>
       </div>
+    </section>
+  {:else if !session.household && session.setupRequired}
+    <form class="card stack narrow" onsubmit={createHousehold} data-testid="setup-household">
+      <h2>Založit domácnost</h2>
+      <p class="muted">Jednou na začátku. PIN pak zadáš na každém novém zařízení.</p>
+      <label class="field"><span>Název domácnosti</span><input type="text" bind:value={name} maxlength="60" placeholder="např. Novákovi" /></label>
+      <label class="field"><span>PIN (4–8 číslic)</span><input type="password" inputmode="numeric" bind:value={pin} maxlength="8" autocomplete="new-password" /></label>
+      <label class="field"><span>PIN znovu</span><input type="password" inputmode="numeric" bind:value={pin2} maxlength="8" autocomplete="new-password" /></label>
+      {#if message}<p class="note warn" role="alert">{message}</p>{/if}
+      <button class="btn primary big" type="submit" disabled={busy || !name.trim() || pin.length < 4}>Založit domácnost</button>
     </form>
-  </section>
-
-  <section class="card stack">
-    <div class="row between">
-      <h2>🤝 Týmy</h2>
-      <button class="chip" aria-pressed={teamsMode} onclick={() => (teamsMode = !teamsMode)}>
-        {teamsMode ? 'Hrajeme v týmech' : 'Každý sám za sebe'}
-      </button>
-    </div>
-    {#if teamsMode}
-      <p class="muted">Tým odpovídá společně a hraje na jedné úrovni. Klepni na hráče, kterého chceš do týmu.</p>
-      {#each teams as team (team.id)}
-        <div class="team stack">
-          <div class="row">
-            <span class="emoji avatar">{team.avatar}</span>
-            <input type="text" bind:value={team.name} aria-label="Název týmu" maxlength="20" />
-          </div>
-          <div class="row" role="group" aria-label="Úroveň týmu">
-            {#each LEVELS as level (level)}
-              <button type="button" class="chip" aria-pressed={team.level === level} onclick={() => (team.level = level)}>
-                <span class="emoji">{LEVEL_EMOJI[level]}</span>{LEVEL_LABELS[level]}
-              </button>
-            {/each}
-          </div>
-          <div class="row">
-            {#each selectedProfiles as p (p.id)}
-              <button type="button" class="chip" aria-pressed={team.memberIds.includes(p.id)} onclick={() => toggleMember(team, p.id)}>
-                <span class="emoji">{p.avatar}</span>{p.name}
-              </button>
-            {/each}
-          </div>
-        </div>
-      {/each}
-      <div><button class="btn" onclick={addTeam}>➕ Přidat tým</button></div>
-    {/if}
-  </section>
-
-  <section class="card stack">
-    <div class="row between">
-      <h2>🎯 Kola</h2>
-      <button class="btn small" onclick={randomThemes}>🎲 Náhodně 4</button>
-    </div>
-    <p class="muted">Každé kolo je jedno téma. Vyber 1–6 témat, pořadí kol odpovídá pořadí výběru.</p>
-    <div class="themes">
-      {#each THEMES as theme (theme)}
-        {@const index = themes.indexOf(theme)}
-        <button class="theme" aria-pressed={index >= 0} onclick={() => toggleTheme(theme)}>
-          <span class="emoji theme-emoji">{THEME_EMOJI[theme]}</span>
-          <span>{THEME_LABELS[theme]}</span>
-          {#if index >= 0}<span class="order" aria-label={`kolo ${index + 1}`}>{index + 1}</span>{/if}
-        </button>
-      {/each}
-    </div>
-    {#if usesPreschoolMix}
-      <p class="note">🪣 Pro Pískoviště nejsou otázky z Dějin a ze Slov — v těch kolech dostane „Mix Pískoviště“.</p>
-    {/if}
-
-    <div class="field">
-      <span>Otázek na hráče v kole</span>
-      <div class="row" role="group" aria-label="Otázek na hráče v kole">
-        {#each [2, 3, 4, 5] as n (n)}
-          <button class="chip" aria-pressed={perContestant === n} onclick={() => (perContestant = n)}>{n}</button>
-        {/each}
-      </div>
-    </div>
-    <div class="field">
-      <span>Časovač</span>
-      <div class="row" role="group" aria-label="Časovač">
-        {#each [null, 30, 60] as t (t)}
-          <button class="chip" aria-pressed={timer === t} onclick={() => (timer = t)}>{t === null ? 'Vypnuto' : `${t} s`}</button>
-        {/each}
-      </div>
-      <span class="muted small-note">U Pískoviště je časovač vždy vypnutý.</span>
-    </div>
-  </section>
-
-  <section class="start stack">
-    {#if missingLevels.length > 0}
-      <p class="note warn">
-        Pro úroveň {missingLevels.map((l) => LEVEL_LABELS[l]).join(', ')} zatím nejsou žádné ověřené otázky.
-      </p>
-    {/if}
-    {#if questions.length === 0}
-      <p class="note warn">Sada otázek je zatím prázdná — nejdřív je potřeba přidat otázky do <code>data/questions</code>.</p>
-    {/if}
-    <button class="btn primary big" disabled={!canStart} onclick={startGame}>
-      ▶️ Začít hru
-      {#if contestants.length > 0 && themes.length > 0}
-        <span class="start-meta">({contestants.length} × {themes.length} {themes.length === 1 ? 'kolo' : themes.length < 5 ? 'kola' : 'kol'})</span>
+  {:else if !session.household}
+    <form class="card stack narrow" onsubmit={login} data-testid="login">
+      <h2>Přihlášení</h2>
+      <label class="field"><span>PIN domácnosti</span><input type="password" inputmode="numeric" bind:value={pin} maxlength="8" autocomplete="current-password" /></label>
+      {#if showName}
+        <label class="field"><span>Název domácnosti</span><input type="text" bind:value={householdName} maxlength="60" /></label>
+      {:else}
+        <button type="button" class="btn small ghost" onclick={() => (showName = true)}>Jiná domácnost…</button>
       {/if}
-    </button>
-    <p class="muted center">
-      V sadě je {questions.length} otázek{includeDraft ? ' (včetně konceptů)' : ''}:
-      {#each LEVELS as level, i (level)}{i > 0 ? ' · ' : ''}{LEVEL_LABELS[level]} {counts[level].total}{/each}
-    </p>
-  </section>
-
-  <section class="card stack">
-    <div class="row between">
-      <h2>📜 Odehrané hry</h2>
-      <button class="btn small" onclick={downloadHistory} disabled={history.length === 0 && profiles.length === 0}>💾 Stáhnout (JSON)</button>
-    </div>
-    {#if history.length === 0}
-      <p class="muted">Zatím žádná dohraná hra.</p>
-    {:else}
-      <ul class="history">
-        {#each history.slice(-5).reverse() as h (h.id)}
-          <li>
-            <span>{new Date(h.playedAt).toLocaleString('cs-CZ', { dateStyle: 'short', timeStyle: 'short' })}</span>
-            <span>🏆 {winnerOf(h)}</span>
-            <span class="muted">{h.themes.map((t) => THEME_EMOJI[t]).join(' ')}</span>
-          </li>
-        {/each}
-      </ul>
-      <p class="muted">Celkem {gamesLabel(history.length)}.</p>
+      {#if message}<p class="note warn" role="alert">{message}</p>{/if}
+      <button class="btn primary big" type="submit" disabled={busy || pin.length < 4}>Přihlásit</button>
+      <a class="btn ghost" href="/tablet">🦉 Kvíz na tabletu bez přihlášení</a>
+    </form>
+  {:else}
+    {#if today}
+      <a class="card today row" href={`/vecery/${today.id}`}>
+        <span class="emoji big-emoji">🌙</span>
+        <span class="grow"><strong>Dnešní večer</strong><br /><span class="muted">{today.title ?? formatDate(today.played_on)} · partií: {today.matches}</span></span>
+        <span class="btn primary">Pokračovat</span>
+      </a>
     {/if}
-  </section>
+    <section class="tiles" aria-label="Rozcestník">
+      <button class="tile primary-tile" onclick={newNight} disabled={busy}><span class="emoji">🌙</span>Nový večer</button>
+      <a class="tile" href={today ? `/tv?night=${today.id}` : '/tv'}><span class="emoji">📺</span>Kvíz na TV a mobilech</a>
+      <a class="tile" href={today ? `/tablet?night=${today.id}` : '/tablet'}><span class="emoji">🦉</span>Kvíz na jednom tabletu</a>
+      <a class="tile" href={cardsHref('prsi')}><span class="emoji">🃏</span>Prší</a>
+      <a class="tile" href={cardsHref('zoliky')}><span class="emoji">🂡</span>Žolíky</a>
+      <a class="tile" href="/liga"><span class="emoji">🏆</span>Liga</a>
+      <a class="tile" href="/hraci"><span class="emoji">👪</span>Hráči</a>
+      <a class="tile" href="/vecery"><span class="emoji">📅</span>Večery</a>
+    </section>
+    {#if message}<p class="note warn" role="alert">{message}</p>{/if}
+
+    <section class="card stack">
+      <h2>📲 Import z tabletu</h2>
+      <p class="muted">Přenese profily, odehrané kvízy a viděné otázky z tabletové verze. Opakovaný import nic nezdvojí.</p>
+      <div class="row">
+        <button class="btn" onclick={importFromDevice} disabled={busy || (localGames === 0 && localProfiles === 0)}>
+          Z tohoto zařízení ({localProfiles} hráčů, {localGames} her)
+        </button>
+        <label class="btn ghost file">
+          Ze souboru (JSON)
+          <input type="file" accept="application/json,.json" onchange={importFile} class="visually-hidden" />
+        </label>
+      </div>
+      {#if importInfo}<p class="note" role="status">{importInfo}</p>{/if}
+    </section>
+
+    <div class="row end">
+      <button class="btn small ghost" onclick={logout}>Odhlásit {session.household.name}</button>
+    </div>
+  {/if}
 </main>
 
 <style>
@@ -422,160 +223,71 @@
     border-radius: var(--radius);
     padding: 12px;
   }
-  .running {
-    background: var(--clay-light);
-    border-color: var(--clay);
-  }
-  .grow {
-    flex: 1 1 260px;
-  }
-  .between {
-    justify-content: space-between;
-  }
-  .between h2 {
-    margin: 0;
-  }
-  .profiles {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 12px;
-  }
-  .profile {
-    display: flex;
-    align-items: stretch;
-    border: 2px solid var(--line);
-    border-radius: var(--radius-sm);
-    background: #fff;
-    overflow: hidden;
-  }
-  .profile.selected {
-    border-color: var(--sage-dark);
-    background: var(--sage-light);
-  }
-  .profile-main {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    min-height: 72px;
-    padding: 8px 12px;
-    background: none;
-    border: none;
-    text-align: left;
-  }
-  .profile-name {
-    font-weight: 750;
-    font-size: 1.2rem;
-    flex: 1;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .tick {
-    font-size: 1.5rem;
-    color: var(--sage-dark);
-    width: 1.2em;
-  }
-  .profile-tools {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 4px 6px 4px 0;
-  }
-  .profile-tools .btn {
-    min-height: 36px;
-    padding: 2px 10px;
-  }
-  .avatar {
-    font-size: 2.4rem;
-  }
-  .profile-form {
-    border-top: 2px dashed var(--line);
-    padding-top: 16px;
-  }
-  .profile-form h3 {
-    margin: 0;
+  .narrow {
+    max-width: 560px;
   }
   .field {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-  }
-  .field > span:first-child {
+    gap: 6px;
     font-weight: 700;
   }
-  .small-note {
-    font-size: 0.9rem;
-  }
-  .avatars {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .avatar-pick {
-    width: 60px;
-    height: 60px;
-    font-size: 2rem;
-    border: 2px solid var(--line);
-    border-radius: var(--radius-sm);
-    background: #fff;
-  }
-  .avatar-pick[aria-pressed='true'] {
-    border-color: var(--sage-dark);
-    background: var(--sage-light);
-  }
-  .team {
-    border: 2px dashed var(--line);
-    border-radius: var(--radius-sm);
-    padding: 14px;
-  }
-  .team input {
-    flex: 1;
-    width: auto;
-  }
-  .themes {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    gap: 12px;
-  }
-  .theme {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    min-height: 74px;
+  input[type='password'] {
+    font: inherit;
+    font-size: 1.6rem;
+    letter-spacing: 0.3em;
+    min-height: 60px;
     padding: 10px 16px;
     border: 2px solid var(--line);
     border-radius: var(--radius-sm);
     background: #fff;
-    font-weight: 700;
-    font-size: 1.05rem;
+    width: 100%;
+  }
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .tile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 8px;
+    min-height: 130px;
+    padding: 18px 20px;
+    border: 2px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--paper);
+    box-shadow: var(--shadow);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
     text-align: left;
   }
-  .theme[aria-pressed='true'] {
-    border-color: var(--slate-dark);
-    background: var(--slate-light);
+  .tile .emoji {
+    font-size: 2.6rem;
   }
-  .theme-emoji {
-    font-size: 2rem;
+  .tile:active {
+    transform: translateY(2px);
   }
-  .order {
-    position: absolute;
-    top: -10px;
-    right: -8px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: var(--slate-dark);
-    color: #fff;
-    display: grid;
-    place-items: center;
-    font-size: 1rem;
+  .primary-tile {
+    background: var(--sage-dark);
+    border-color: #3f4b37;
+    color: #fbf8f1;
+  }
+  .today {
+    text-decoration: none;
+    color: inherit;
+    background: var(--clay-light);
+    border-color: var(--clay);
+  }
+  .big-emoji {
+    font-size: 2.4rem;
+  }
+  .grow {
+    flex: 1 1 200px;
   }
   .note {
     margin: 0;
@@ -587,43 +299,10 @@
     background: var(--bad-bg);
     color: var(--bad);
   }
-  .start {
-    align-items: center;
-    padding: 8px 0;
+  .file {
+    position: relative;
   }
-  .start .btn {
-    min-width: min(100%, 420px);
-  }
-  .start-meta {
-    font-weight: 500;
-    font-size: 1rem;
-    opacity: 0.85;
-  }
-  .center {
-    text-align: center;
-    margin: 0;
-  }
-  .history {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .history li {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 8px 0;
-    border-bottom: 1px solid var(--line);
-  }
-  @media (max-width: 600px) {
-    .hero h1 {
-      font-size: 2rem;
-    }
-    .logo {
-      font-size: 3rem;
-    }
+  .end {
+    justify-content: flex-end;
   }
 </style>

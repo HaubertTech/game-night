@@ -27,13 +27,17 @@
   import FinalScreen from '#lib/ui/FinalScreen.svelte';
   import ContestantTag from '#lib/ui/ContestantTag.svelte';
   import TimerBar from '#lib/ui/TimerBar.svelte';
+  import { syncTabletGame, type SyncStatus } from '#lib/ui/app/tablet-sync.ts';
+  import type { HistoryEntry } from '#lib/storage.ts';
 
   let game = $state.raw<GameState | null>(null);
+  let sync = $state<SyncStatus>({ state: 'idle' });
+  let lastEntry: HistoryEntry | null = null;
 
   onMount(() => {
     const saved = loadCurrentGame();
     if (!saved) {
-      goto('/', { replaceState: true });
+      goto('/tablet', { replaceState: true });
       return;
     }
     game = saved;
@@ -43,7 +47,7 @@
 
   function record(state: GameState) {
     const summary = summarize(state);
-    recordGame({
+    const entry: HistoryEntry = {
       id: state.id,
       playedAt: state.createdAt || new Date().toISOString(),
       themes: state.config.themes,
@@ -52,7 +56,10 @@
       themeStats: summary.themeStats,
       best: summary.best,
       answers: state.answers,
-    });
+    };
+    recordGame(entry);
+    lastEntry = entry;
+    sendToServer();
     const byProfile: Record<string, string[]> = {};
     for (const c of state.config.contestants) {
       for (const member of c.memberIds) {
@@ -60,6 +67,13 @@
       }
     }
     addSeen(byProfile);
+  }
+
+  /** Optional: only when this device is logged in to a household. */
+  async function sendToServer(createMissing = false) {
+    if (!lastEntry) return;
+    sync = { state: 'saving' };
+    sync = await syncTabletGame(lastEntry, { createMissing });
   }
 
   function dispatch(action: Action) {
@@ -109,13 +123,13 @@
 
   function leave() {
     stop();
-    goto('/');
+    goto('/tablet');
   }
 
   function newGame() {
     stop();
     clearCurrentGame();
-    goto('/');
+    goto('/tablet');
   }
 
   const nextLabel = $derived(
@@ -183,6 +197,19 @@
         </button>
       </article>
     {:else if game.phase === 'finished'}
+      {#if sync.state === 'saved'}
+        <p class="sync ok" role="status">✅ Uloženo do ligy{#if sync.nightId} · <a href={`/vecery/${sync.nightId}`}>zpět do večera</a>{/if}</p>
+      {:else if sync.state === 'missing'}
+        <div class="sync warn" role="status">
+          <span>Na serveru chybí profily: {sync.missing.map((p) => p.name).join(', ')}.</span>
+          <button class="btn small" onclick={() => sendToServer(true)}>Založit profily a uložit</button>
+        </div>
+      {:else if sync.state === 'error'}
+        <div class="sync warn" role="status">
+          <span>Do ligy se hru nepodařilo uložit: {sync.message}</span>
+          <button class="btn small" onclick={() => sendToServer()}>Zkusit znovu</button>
+        </div>
+      {/if}
       <FinalScreen {game} summary={summarize(game)} onNewGame={newGame} onExport={downloadHistory} />
     {/if}
   </main>
@@ -221,5 +248,19 @@
   }
   .round-end .btn {
     align-self: center;
+  }
+  .sync {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    max-width: 760px;
+    margin: 0 auto 12px;
+    padding: 10px 16px;
+    border-radius: var(--radius-sm);
+    background: var(--sage-light);
+  }
+  .sync.warn {
+    background: var(--clay-light);
   }
 </style>

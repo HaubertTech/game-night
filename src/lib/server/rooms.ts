@@ -31,6 +31,13 @@ export interface StoredRoom {
   /** contestantId → sha256 of the phone's token. */
   claims: Record<string, string>;
   state: LiveState;
+  /** Who created the room (household, evening); opaque to the room logic, used by the DB store. */
+  meta?: RoomMeta;
+}
+
+export interface RoomMeta {
+  householdId?: number;
+  nightId?: number | null;
 }
 
 export interface RoomStore {
@@ -122,13 +129,18 @@ export class RoomManager {
 
   // ---------- rooms ----------
 
-  async createRoom(input: Omit<CreateLiveInput, 'createdAt'>, pool: Question[], seen: Record<string, readonly string[]> = {}): Promise<CreatedRoom> {
+  async createRoom(
+    input: Omit<CreateLiveInput, 'createdAt'>,
+    pool: Question[],
+    seen: Record<string, readonly string[]> = {},
+    meta?: RoomMeta,
+  ): Promise<CreatedRoom> {
     const code = await this.freeCode();
     const now = this.opts.clock();
     const hostToken = this.opts.newToken();
     const state = createLiveGame({ ...input, id: input.id ?? `live-${code}`, createdAt: new Date(now).toISOString() }, pool, seen);
     const room: Room = {
-      data: { code, createdAt: now, updatedAt: now, hostTokenHash: hashToken(hostToken), claims: {}, state },
+      data: { code, createdAt: now, updatedAt: now, hostTokenHash: hashToken(hostToken), claims: {}, state, ...(meta ? { meta } : {}) },
       timer: null,
       chain: Promise.resolve(),
     };
@@ -372,10 +384,11 @@ export class RoomManager {
 
   private broadcast(room: Room): void {
     const presence = this.presence(room.data.code);
+    const now = this.opts.clock();
     for (const c of this.clientsOf(room)) {
       const viewer: Viewer =
         c.role === 'host' ? { role: 'host' } : c.contestantId ? { role: 'contestant', contestantId: c.contestantId } : { role: 'spectator' };
-      this.opts.send(c.id, { v: PROTOCOL_VERSION, type: 'state', view: viewFor(room.data.state, viewer), presence });
+      this.opts.send(c.id, { v: PROTOCOL_VERSION, type: 'state', view: viewFor(room.data.state, viewer), presence, now });
     }
   }
 }

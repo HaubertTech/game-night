@@ -37,7 +37,8 @@ export const DEFAULT_ZOLIKY_SETTINGS: ZolikySettings = {
   lowerIsBetter: true,
   limit: null,
   limitMode: 'endGame',
-  maxRounds: null,
+  // House rule (Tomáš, 25. 10. 2026): a fixed number of rounds, lowest total wins.
+  maxRounds: 10,
   winnerScore: 0,
   closeFromHand: { winnerBonus: 0, othersMultiplier: 2 },
 };

@@ -63,7 +63,8 @@ export interface Presence {
 
 export type ServerMessage =
   | { v: number; type: 'welcome'; code: string; role: ClientRole; token: string; contestantId: string | null }
-  | { v: number; type: 'state'; view: LiveView; presence: Record<string, Presence> }
+  /** `now` = server clock (epoch ms) when sent; clients use it to correct `view.deadline` for clock skew. */
+  | { v: number; type: 'state'; view: LiveView; presence: Record<string, Presence>; now?: number }
   | { v: number; type: 'error'; code: ErrorCode; message: string }
   | { v: number; type: 'pong'; t: number | null };
 

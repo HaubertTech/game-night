@@ -11,7 +11,7 @@ import { WebSocketServer, WebSocket, type RawData } from 'ws';
 import type { Question } from '../types.ts';
 import type { CreateLiveInput } from '../engine/live.ts';
 import { errorMessage, MAX_MESSAGE_BYTES, parseClientMessage, type ServerMessage } from '../live/protocol.ts';
-import { MemoryRoomStore, realScheduler, RoomManager, type CreatedRoom, type RoomStore, type Scheduler } from './rooms.ts';
+import { MemoryRoomStore, realScheduler, RoomManager, type CreatedRoom, type RoomMeta, type RoomStore, type Scheduler } from './rooms.ts';
 import { loadQuestionsFromDir } from './questions-fs.ts';
 
 export const WS_PATH = '/ws';
@@ -30,7 +30,7 @@ export interface LiveHubOptions {
 export interface LiveHub {
   rooms: RoomManager;
   /** Creates a room from the server-side question pool. */
-  createRoom(input: Omit<CreateLiveInput, 'createdAt'>, seen?: Record<string, readonly string[]>): Promise<CreatedRoom>;
+  createRoom(input: Omit<CreateLiveInput, 'createdAt'>, seen?: Record<string, readonly string[]>, meta?: RoomMeta): Promise<CreatedRoom>;
   /** Attaches the /ws endpoint to an http server; returns a detach function. */
   attach(server: Server): () => Promise<void>;
   /** Number of open sockets (diagnostics, tests). */
@@ -113,9 +113,9 @@ export function createLiveHub(options: LiveHubOptions = {}): LiveHub {
 
   return {
     rooms,
-    async createRoom(input, seen = {}) {
+    async createRoom(input, seen = {}, meta) {
       pool ??= loadPool();
-      return rooms.createRoom(input, pool, seen);
+      return rooms.createRoom(input, pool, seen, meta);
     },
     attach(server: Server) {
       const wss = new WebSocketServer({ noServer: true, maxPayload: MAX_MESSAGE_BYTES });

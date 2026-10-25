@@ -8,12 +8,14 @@ function liveWs(): Plugin {
     name: 'domaci-liga-live-ws',
     async configureServer(server) {
       if (!server.httpServer) return;
-      const { getLiveHub } = await import('./src/lib/server/ws.ts');
-      getLiveHub().attach(server.httpServer as import('node:http').Server);
+      const { initLiveHub } = await import('./src/lib/server/live-init.ts');
+      const { hub } = await initLiveHub();
+      hub.attach(server.httpServer as import('node:http').Server);
     },
     async configurePreviewServer(server) {
-      const { getLiveHub } = await import('./src/lib/server/ws.ts');
-      getLiveHub().attach(server.httpServer as import('node:http').Server);
+      const { initLiveHub } = await import('./src/lib/server/live-init.ts');
+      const { hub } = await initLiveHub();
+      hub.attach(server.httpServer as import('node:http').Server);
     },
   };
 }
