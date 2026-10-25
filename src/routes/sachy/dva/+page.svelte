@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import PlayerPicker from '#lib/ui/chess/PlayerPicker.svelte';
-  import { saveGame, type Learner } from '#lib/ui/chess/storage.ts';
+  import { leaguePlayerId, saveGame, saveLocalLeague, type Learner } from '#lib/ui/chess/storage.ts';
   import { loadProfiles, type Profile } from '#lib/storage.ts';
   import { createChessGame } from '#lib/games/chess/engine.ts';
 
@@ -14,18 +14,36 @@
   ];
 
   let profiles = $state<Profile[]>([]);
+  /** Logged-in household: its players are offered and the game goes to the league. */
+  let league = $state(false);
   let white = $state<Learner | null>(null);
   let black = $state<Learner | null>(null);
   let clock = $state('none');
 
-  onMount(() => {
-    profiles = loadProfiles();
+  async function householdPlayers(): Promise<Profile[] | null> {
+    try {
+      const me = await fetch('/api/me');
+      if (!me.ok || !(await me.json())?.household) return null;
+      const res = await fetch('/api/players');
+      if (!res.ok) return null;
+      const body = (await res.json()) as { players: { id: number; name: string; avatar: string; level: Profile['level'] }[] };
+      return body.players.map((p) => ({ id: `p${p.id}`, name: p.name, avatar: p.avatar, level: p.level }));
+    } catch {
+      return null;
+    }
+  }
+
+  onMount(async () => {
+    const server = await householdPlayers();
+    league = !!server && server.length >= 2;
+    profiles = league ? server! : loadProfiles();
     const [a, b] = profiles;
     white = a ? { id: a.id, name: a.name, avatar: a.avatar, level: a.level } : { id: 'host-Bílý', name: 'Bílý', avatar: '⚪', level: 'hospoda' };
     black = b ? { id: b.id, name: b.name, avatar: b.avatar, level: b.level } : { id: 'host-Černý', name: 'Černý', avatar: '⚫', level: 'hospoda' };
   });
 
   const same = $derived(!!white && !!black && white.id === black.id);
+  const recorded = $derived(league && !!white && !!black && leaguePlayerId(white.id) !== null && leaguePlayerId(black.id) !== null);
 
   function swap() {
     [white, black] = [black, white];
@@ -42,11 +60,12 @@
       clock: c.minutes ? { minutes: c.minutes, incrementSeconds: c.inc } : null,
     });
     saveGame('local', game);
+    saveLocalLeague(recorded);
     goto('/sachy/hra?m=local');
   }
 </script>
 
-<svelte:head><title>Šachy ve dvou · Domácí liga</title></svelte:head>
+<svelte:head><title>Šachy ve dvou · Herní večer</title></svelte:head>
 
 <main class="page stack">
   <a href="/sachy" class="btn small back">← Šachy</a>
@@ -72,6 +91,11 @@
   </section>
 
   {#if same}<p class="muted">Vyber dva různé hráče.</p>{/if}
+  {#if recorded}
+    <p class="muted" data-testid="league-note">🏆 Partie se po skončení zapíše do ligy.</p>
+  {:else if league}
+    <p class="muted">Partie s hostem („jen jméno“) se do ligy nezapisuje.</p>
+  {/if}
   <button type="button" class="btn big primary" disabled={!white || !black || same} onclick={start}>Začít partii</button>
 </main>
 

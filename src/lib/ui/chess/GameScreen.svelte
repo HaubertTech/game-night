@@ -1,10 +1,14 @@
 <script lang="ts">
+  // One chess game on a screen. Modes: 'ai' (against the computer), 'local' (two players on one
+  // tablet) and 'room' (one side on a phone in a live room: the server owns the state, this screen
+  // only sends commands and shows what the server sent).
   import { onDestroy, untrack } from 'svelte';
   import Board from './Board.svelte';
   import MoveList from './MoveList.svelte';
   import Owl from './Owl.svelte';
   import { aiAnalyze, aiMove } from './ai-client.ts';
   import { rememberFinished, saveGame, type SavedMode } from './storage.ts';
+  import type { ChessRoomCommand } from '../../live/table-games.ts';
   import type { BoardMark } from './pieces.ts';
   import {
     applyChess,
@@ -22,15 +26,38 @@
   import { AI_LEVEL_LABELS, materialBalance, type AiLevel } from '../../games/chess/ai.ts';
   import { BLUNDER_PAWNS, blunderText, explainMove, hintProfile, threatenedPieces, threatText } from '../../games/chess/learn/hints.ts';
 
+  interface RoomLink {
+    /** Side this phone plays; null = only watching. */
+    color: ChessColor | null;
+    send: (command: ChessRoomCommand) => void;
+    /** Server clock (epoch ms) for the running clocks. */
+    serverNow: () => number;
+  }
+
   let {
     initial,
     mode,
     hintsEnabled = true,
+    room,
     onexit,
-  }: { initial: ChessState; mode: SavedMode; hintsEnabled?: boolean; onexit?: () => void } = $props();
+    onfinished,
+  }: {
+    initial: ChessState;
+    mode: SavedMode | 'room';
+    hintsEnabled?: boolean;
+    room?: RoomLink;
+    onexit?: () => void;
+    /** A game finished on this screen (local mode: the tablet records it to the league). */
+    onfinished?: (state: ChessState) => void;
+  } = $props();
 
   // svelte-ignore state_referenced_locally
   let game = $state<ChessState>(initial);
+  const inRoom = $derived(mode === 'room');
+  // In a room the server state replaces the local one.
+  $effect(() => {
+    if (mode === 'room') game = initial;
+  });
   let thinking = $state(false);
   let checking = $state(false);
   let advising = $state(false);
@@ -52,11 +79,13 @@
   const check = $derived(checkSquare(game.fen));
   const last = $derived(game.moves.at(-1));
   const lastMove = $derived(last ? { from: last.uci.slice(0, 2), to: last.uci.slice(2, 4) } : null);
-  const moverLevel = $derived(mode === 'ai' ? game.players[humanColor].level : game.players[turn].level);
+  const moverLevel = $derived(mode === 'ai' ? game.players[humanColor].level : inRoom && room?.color ? game.players[room.color].level : game.players[turn].level);
   const hints = $derived(hintProfile(moverLevel, hintsEnabled && hintsOn));
   const adviceLeft = $derived(hints.adviceLimit === null ? null : Math.max(0, hints.adviceLimit - adviceUsed));
-  const interactive = $derived(!game.result && !thinking && !checking && !blunder && (mode === 'local' || turn === humanColor));
-  const baseOrientation = $derived<ChessColor>(mode === 'ai' ? humanColor : autoFlip ? turn : 'w');
+  const interactive = $derived(
+    !game.result && !thinking && !checking && !blunder && (inRoom ? !!room?.color && room.color === turn : mode === 'local' || turn === humanColor),
+  );
+  const baseOrientation = $derived<ChessColor>(mode === 'ai' ? humanColor : inRoom ? (room?.color ?? 'w') : autoFlip ? turn : 'w');
   const orientation = $derived<ChessColor>(flipped ? (baseOrientation === 'w' ? 'b' : 'w') : baseOrientation);
   const top = $derived<ChessColor>(orientation === 'w' ? 'b' : 'w');
   const balance = $derived(materialBalance(game.fen));
@@ -64,6 +93,11 @@
   // ---------- clock ----------
   const timer = setInterval(() => {
     if (!game.clock || game.result) return;
+    if (inRoom) {
+      // The server flags the clock; this screen only shows it.
+      now = room?.serverNow() ?? Date.now();
+      return;
+    }
     now = Date.now();
     const at = flagAt(game);
     if (at !== null && now >= at) act({ type: 'timeout', now });
@@ -79,11 +113,17 @@
 
   // ---------- state changes ----------
   function act(action: ChessAction): boolean {
+    if (inRoom) {
+      if (!room?.color) return false;
+      if (action.type === 'move') room.send({ type: 'move', uci: typeof action.move === 'string' ? action.move : action.move.from + action.move.to + (action.move.promotion ?? '') });
+      else if (action.type === 'offerDraw' || action.type === 'acceptDraw' || action.type === 'declineDraw' || action.type === 'resign') room.send({ type: action.type });
+      return true;
+    }
     const r = applyChess(game, { ...action, now: action.now ?? Date.now() } as ChessAction);
     if (!r.ok) return false;
     const wasFinished = !!game.result;
     game = r.state;
-    saveGame(mode, $state.snapshot(game) as ChessState);
+    if (mode !== 'room') saveGame(mode, $state.snapshot(game) as ChessState);
     if (!wasFinished && game.result) finished();
     return true;
   }
@@ -99,6 +139,7 @@
         console.warn('[chess] could not remember the result', { err: (err as Error).message });
       }
     }
+    onfinished?.($state.snapshot(game) as ChessState);
   }
 
   function warnThreats(color: ChessColor) {
@@ -114,7 +155,7 @@
     note = null;
     marks = [];
     if (!act({ type: 'move', move: uci, by: turn })) return;
-    if (game.result) return;
+    if (inRoom || game.result) return;
     if (mode === 'ai' && hints.blunderCheck) {
       checking = true;
       try {
@@ -193,6 +234,10 @@
   }
 
   async function offerDraw() {
+    if (inRoom) {
+      act({ type: 'offerDraw', by: room?.color ?? 'w' });
+      return;
+    }
     if (mode === 'local') {
       act({ type: 'offerDraw', by: turn });
       return;
@@ -208,7 +253,7 @@
 
   function resign() {
     confirmResign = false;
-    act({ type: 'resign', by: mode === 'ai' ? humanColor : turn });
+    act({ type: 'resign', by: mode === 'ai' ? humanColor : inRoom ? (room?.color ?? turn) : turn });
   }
 
   function rematch() {
@@ -224,11 +269,13 @@
     adviceUsed = 0;
     note = null;
     marks = [];
-    saveGame(mode, $state.snapshot(game) as ChessState);
+    if (mode !== 'room') saveGame(mode, $state.snapshot(game) as ChessState);
   }
 
   const status = $derived.by(() => {
     if (game.result) return game.result.text;
+    if (inRoom && room?.color && game.drawOffer === room.color) return 'Nabídl(a) jsi remízu, soupeř se rozhoduje…';
+    if (inRoom && room?.color && room.color === turn) return check ? 'Šach! Jsi na tahu.' : 'Jsi na tahu.';
     if (blunder) return 'Počkej…';
     if (thinking) return `${game.players[aiColor ?? 'b'].name} přemýšlí…`;
     if (checking) return 'Sova se dívá na tvůj tah…';
@@ -286,15 +333,22 @@
     {#if game.result}
       <div class="card stack end" data-testid="chess-result">
         <Owl mood="slavi" text={game.result.text} />
-        <div class="row">
-          <button type="button" class="btn primary" onclick={rematch}>{mode === 'local' ? 'Odveta (barvy se prohodí)' : 'Hrát znovu'}</button>
-          <button type="button" class="btn" onclick={() => onexit?.()}>Zpět na šachy</button>
-        </div>
+        {#if !inRoom}
+          <div class="row">
+            <button type="button" class="btn primary" onclick={rematch}>{mode === 'local' ? 'Odveta (barvy se prohodí)' : 'Hrát znovu'}</button>
+            <button type="button" class="btn" onclick={() => onexit?.()}>Zpět na šachy</button>
+          </div>
+        {/if}
       </div>
     {:else if blunder}
       <Owl mood="otazka" text={blunder}>
         <button type="button" class="btn small primary" onclick={undo}>Vrátit tah</button>
         <button type="button" class="btn small" onclick={keepPlaying}>Hrát dál</button>
+      </Owl>
+    {:else if game.drawOffer && inRoom && room?.color && game.drawOffer !== room.color}
+      <Owl mood="otazka" text={`${game.players[game.drawOffer].name} nabízí remízu. Přijmeš ji?`}>
+        <button type="button" class="btn small primary" onclick={() => act({ type: 'acceptDraw', by: room.color! })}>Přijmout remízu</button>
+        <button type="button" class="btn small" onclick={() => act({ type: 'declineDraw', by: room.color! })}>Hrát dál</button>
       </Owl>
     {:else if game.drawOffer && mode === 'local' && game.drawOffer !== turn}
       <Owl mood="otazka" text={`${game.players[game.drawOffer].name} nabízí remízu. ${game.players[turn].name}, přijmeš ji?`}>
@@ -307,7 +361,7 @@
 
     {#if !game.result}
       <div class="row tools">
-        {#if hints.adviceLimit !== 0}
+        {#if hints.adviceLimit !== 0 && !inRoom}
           <button type="button" class="btn" disabled={!interactive || advising || adviceLeft === 0} onclick={advise}>
             🦉 Poraď{#if adviceLeft !== null}&nbsp;({adviceLeft}){/if}
           </button>
@@ -318,8 +372,10 @@
         <button type="button" class="btn" onclick={() => (flipped = !flipped)} aria-label="Otočit šachovnici">⟳ Otočit</button>
       </div>
       <div class="row tools">
-        <button type="button" class="btn small" disabled={thinking} onclick={offerDraw}>½ Nabídnout remízu</button>
-        {#if confirmResign}
+        <button type="button" class="btn small" disabled={thinking || (inRoom && (!room?.color || game.drawOffer === room.color))} onclick={offerDraw}>½ Nabídnout remízu</button>
+        {#if inRoom && !room?.color}
+          <!-- spectators neither offer nor resign -->
+        {:else if confirmResign}
           <button type="button" class="btn small clay" onclick={resign}>Opravdu se vzdát</button>
           <button type="button" class="btn small" onclick={() => (confirmResign = false)}>Ne</button>
         {:else}
@@ -337,7 +393,7 @@
     {/if}
 
     <MoveList {game} />
-    {#if !game.result}
+    {#if !game.result && !inRoom}
       <button type="button" class="btn small" onclick={() => onexit?.()}>Odložit partii</button>
     {/if}
   </aside>

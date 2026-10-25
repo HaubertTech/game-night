@@ -1,0 +1,36 @@
+<script lang="ts">
+  // Lobby of a card room on the TV: the join code, who sits at the table (people and computers)
+  // and the start button for the host.
+  import type { Presence } from '../../live/protocol.ts';
+  import type { TableSeat } from '../../live/table-games.ts';
+  import { LEVEL_LABELS } from '../karty-hra/storage.ts';
+  import JoinPanel from './JoinPanel.svelte';
+
+  let { code, seats, presence, isHost, note, onStart }: { code: string; seats: TableSeat[]; presence: Record<string, Presence>; isHost: boolean; note: string; onStart: () => void } = $props();
+
+  function label(s: TableSeat): string {
+    if (s.ai) return `🤖 počítač · ${LEVEL_LABELS[s.ai]}`;
+    const p = presence[s.id];
+    if (p?.online) return '📱 připojen(a)';
+    if (p?.claimed) return '📴 telefon odpojen';
+    return '⏳ čeká na telefon';
+  }
+</script>
+
+<section class="g-lobby">
+  <JoinPanel {code} />
+  <div class="stack">
+    <h1>Kdo hraje</h1>
+    <ul class="g-people">
+      {#each seats as s (s.id)}
+        <li data-testid="lobby-contestant" data-contestant={s.id} data-online={s.ai || presence[s.id]?.online ? 'yes' : 'no'}>
+          <span class="emoji g-avatar">{s.avatar}</span>
+          <strong class="g-grow">{s.name}{#if s.hints} 💡{/if}</strong>
+          <span class="muted">{label(s)}</span>
+        </li>
+      {/each}
+    </ul>
+    <p class="muted">{note}</p>
+    {#if isHost}<button class="btn primary big" onclick={onStart}>▶️ Rozdat karty</button>{/if}
+  </div>
+</section>

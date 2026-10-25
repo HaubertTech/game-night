@@ -8,6 +8,8 @@
   import { isRoomGame, ROOM_GAME_EMOJI, ROOM_GAME_LABELS, ROOM_GAMES, type RoomGame } from '#lib/live/games.ts';
   import AktivitySetup from '#lib/ui/live/AktivitySetup.svelte';
   import MjzSetup from '#lib/ui/live/MjzSetup.svelte';
+  import ChessSetup from '#lib/ui/live/ChessSetup.svelte';
+  import CardsSetup from '#lib/ui/live/CardsSetup.svelte';
 
   interface PlayerRow {
     id: number;
@@ -40,13 +42,16 @@
   /** Evening the match belongs to (night pages link to /tv?night=<id>). */
   const nightParam = page.url.searchParams.get('night');
   const nightId = nightParam && /^\d{1,15}$/.test(nightParam) ? Number(nightParam) : null;
-  /** Game picked on the cards; `?hra=aktivity|mjz` preselects it (rozcestník, večer). */
+  /** Game picked on the cards; `?hra=<game>` preselects it (rozcestník, večer). */
   const gameParam = page.url.searchParams.get('hra');
   let game = $state<RoomGame>(isRoomGame(gameParam) ? gameParam : 'quiz');
   const GAME_HINTS: Record<RoomGame, string> = {
     quiz: 'Otázky na telefonech, každý na své úrovni.',
     aktivity: 'Týmy vysvětlují slova — slovem, pantomimou, kresbou.',
     mjz: 'Písmeno, kategorie, Stop! a hlasování o sporných odpovědích.',
+    chess: 'Dva hráči na telefonech, televize ukazuje šachovnici a hodiny.',
+    'prsi-hra': 'Karty na telefonech, stůl na televizi, počítač doplní hráče.',
+    'zoliky-hra': 'Vykládání kombinací — ruka na telefonu, stůl na televizi.',
   };
 
   const inTeam = $derived(new Set(Object.keys(selectedTeams).flatMap((id) => teams.find((t) => t.id === Number(id))?.member_ids ?? [])));
@@ -170,6 +175,10 @@
     <AktivitySetup {players} {nightId} />
   {:else if game === 'mjz'}
     <MjzSetup {players} {nightId} />
+  {:else if game === 'chess'}
+    <ChessSetup {players} {nightId} />
+  {:else if game === 'prsi-hra' || game === 'zoliky-hra'}
+    {#key game}<CardsSetup {players} {nightId} {game} />{/key}
   {:else}
     <section class="card stack">
       <h2>Kdo hraje</h2>

@@ -12,6 +12,10 @@
   import Countdown from '#lib/ui/live/Countdown.svelte';
   import AktivityTv from '#lib/ui/live/AktivityTv.svelte';
   import MjzTv from '#lib/ui/live/MjzTv.svelte';
+  import ChessTv from '#lib/ui/live/ChessTv.svelte';
+  import PrsiTv from '#lib/ui/live/PrsiTv.svelte';
+  import ZolikyTv from '#lib/ui/live/ZolikyTv.svelte';
+  import { ROOM_GAME_LABELS } from '#lib/live/games.ts';
   import LiveFinal from '#lib/ui/live/LiveFinal.svelte';
   import LiveQuestion from '#lib/ui/live/LiveQuestion.svelte';
   import QrCode from '#lib/ui/live/QrCode.svelte';
@@ -104,12 +108,18 @@
   }
 </script>
 
-<svelte:head><title>{room.game === 'aktivity' ? 'Řekni, ukaž, nakresli' : room.game === 'mjz' ? 'Město, jméno, zvíře' : 'Kvízovna'} · místnost {code}</title></svelte:head>
+<svelte:head><title>{room.game && room.game !== 'quiz' ? ROOM_GAME_LABELS[room.game] : 'Kvízovna'} · místnost {code}</title></svelte:head>
 
 {#if room.game === 'aktivity'}
   <AktivityTv {room} {code} />
 {:else if room.game === 'mjz'}
   <MjzTv {room} {code} />
+{:else if room.game === 'chess'}
+  <ChessTv {room} {code} />
+{:else if room.game === 'prsi-hra'}
+  <PrsiTv {room} {code} />
+{:else if room.game === 'zoliky-hra'}
+  <ZolikyTv {room} {code} />
 {:else}
 
 <main class="tv" data-testid="tv" data-phase={view?.phase ?? 'loading'} data-stage={view?.stage ?? ''}>

@@ -10,6 +10,10 @@
   import Countdown from '#lib/ui/live/Countdown.svelte';
   import AktivityPhone from '#lib/ui/live/AktivityPhone.svelte';
   import MjzPhone from '#lib/ui/live/MjzPhone.svelte';
+  import ChessPhone from '#lib/ui/live/ChessPhone.svelte';
+  import PrsiPhone from '#lib/ui/live/PrsiPhone.svelte';
+  import ZolikyPhone from '#lib/ui/live/ZolikyPhone.svelte';
+  import { ROOM_GAME_LABELS } from '#lib/live/games.ts';
   import LiveFinal from '#lib/ui/live/LiveFinal.svelte';
   import LiveQuestion from '#lib/ui/live/LiveQuestion.svelte';
   import RevealCard from '#lib/ui/live/RevealCard.svelte';
@@ -59,12 +63,18 @@
   }
 </script>
 
-<svelte:head><title>{room.game === 'aktivity' ? 'Řekni, ukaž, nakresli' : room.game === 'mjz' ? 'Město, jméno, zvíře' : 'Kvízovna'} · {code}</title></svelte:head>
+<svelte:head><title>{room.game && room.game !== 'quiz' ? ROOM_GAME_LABELS[room.game] : 'Kvízovna'} · {code}</title></svelte:head>
 
 {#if room.game === 'aktivity'}
   <AktivityPhone {room} {code} />
 {:else if room.game === 'mjz'}
   <MjzPhone {room} {code} />
+{:else if room.game === 'chess'}
+  <ChessPhone {room} {code} />
+{:else if room.game === 'prsi-hra'}
+  <PrsiPhone {room} {code} />
+{:else if room.game === 'zoliky-hra'}
+  <ZolikyPhone {room} {code} />
 {:else}
 
 <main class="phone" data-testid="phone" data-phase={view?.phase ?? 'loading'} data-me={room.me ?? ''}>

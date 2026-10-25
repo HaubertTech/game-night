@@ -96,3 +96,18 @@ export function rememberFinished(result: ChessMatchResult): void {
 export function loadFinished(): ChessMatchResult[] {
   return read<ChessMatchResult[]>('finished', []);
 }
+
+/** The two-player game on the tablet is between household players and goes to the league. */
+export function saveLocalLeague(on: boolean): void {
+  write('local:league', on);
+}
+
+export function loadLocalLeague(): boolean {
+  return read<boolean>('local:league', false) === true;
+}
+
+/** League player id behind a chess seat (`p12` → 12), or null for a guest or a tablet profile. */
+export function leaguePlayerId(id: string): number | null {
+  const m = /^p(\d{1,15})$/.exec(id);
+  return m ? Number(m[1]) : null;
+}
