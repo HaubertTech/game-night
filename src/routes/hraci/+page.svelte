@@ -1,9 +1,10 @@
 <script lang="ts">
   import { LEVELS, LEVEL_LABELS, type Level } from '#lib/types.ts';
-  import { AVATARS, LEVEL_EMOJI, TEAM_AVATARS } from '#lib/ui/labels.ts';
+  import { AVATARS, TEAM_AVATARS } from '#lib/ui/labels.ts';
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import Art from '#lib/ui/art/Art.svelte';
   import Avatar from '#lib/ui/art/Avatar.svelte';
-  import { ART_AVATARS, avatarName, freeArtAvatar } from '#lib/ui/art/art.ts';
+  import { ART_AVATARS, LEVEL_ART, avatarName, freeArtAvatar } from '#lib/ui/art/art.ts';
   import { api, ApiError } from '#lib/ui/app/api.ts';
   import Guard from '#lib/ui/app/Guard.svelte';
   import { session } from '#lib/ui/app/session.svelte.ts';
@@ -155,7 +156,7 @@
                 <span class="grow">
                   <span class="name">{p.name}</span>
                   <span class="meta">
-                    <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span>
+                    <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
                     {#if p.birth_year}<span class="muted">nar. {p.birth_year}</span>{/if}
                   </span>
                 </span>
@@ -184,7 +185,7 @@
           <div class="row" role="group" aria-label="Úroveň">
             {#each LEVELS as level (level)}
               <button type="button" class="chip" aria-pressed={formLevel === level} onclick={() => (formLevel = level)}>
-                <span class="emoji">{LEVEL_EMOJI[level]}</span>{LEVEL_LABELS[level]}
+                <ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]}
               </button>
             {/each}
           </div>

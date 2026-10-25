@@ -165,6 +165,51 @@
         "originals/grids/rewards-1.png"
       ],
       "prompt": "Four award badges that must match the attached award set exactly in drawing style, line and medal design: 1) top-left: BRONZE medal — exactly the same medal design as the gold and silver medals in the attached image (round medal, embossed star, small laurel twigs engraved around it) but in warm bronze-brown, on a sage green ribbon folded the same way; no numbers; 2) top-right: STREAK OF CORRECT ANSWERS — three small golden stars rising like a staircase from left to right, each slightly bigger, with a short swoosh trail behind them; 3) bottom-left: FIRST GAME EVENING — a fresh deck of playing cards tied with a red ribbon bow, a small sprig of laurel tucked in; 4) bottom-right: BEST DRAWER — a pencil and a piece of chalk crossed, wrapped in a small laurel wreath."
+    },
+    {
+      "id": "card-sachy",
+      "out": "originals/cards/sachy.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A game of chess in an ordinary Czech living room in the evening: a grandfather in a knitted cardigan and his grandson of about nine sit at a small wooden table facing each other over a chessboard with simple wooden chess pieces. The boy reaches out to move a knight, biting his lip in concentration; grandpa strokes his moustache with a sly smile, a few captured pieces lined up beside the board. The owl MADAM OWL from the attached model sheet perches on the back of an armchair behind them, watching the board with one wing raised to her beak. Details: a standard lamp with a fringed shade, a bookshelf, a rubber plant, a crocheted doily, a cup of tea and a plate of biscuits, a cat watching from the windowsill. Diorama view slightly from above."
+    },
+    {
+      "id": "card-trenink",
+      "out": "originals/cards/trenink.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/mascot/mascot-sheet.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. Card lessons at a kitchen table: the owl MADAM OWL from the attached model sheet stands on the table like a patient teacher, holding up one playing card with her wing and pointing to it. A girl of about seven sits opposite her, holding a small fan of cards and looking at it carefully with her tongue out in concentration. On the table: a few cards laid out face up in a neat row (card faces simple, suits only as small shapes — hearts, leaves, acorns, bells — no numbers or letters), a mug of cocoa, a little stack of cards. Background: a kitchen dresser with plates, a window with flowerpots, the dachshund from the sheet peeking from under the table. Warm afternoon light. Diorama view slightly from above."
+    },
+    {
+      "id": "card-vecery",
+      "out": "originals/cards/vecery.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. A quiet kitchen table late in the evening after a family game night, nobody at the table any more: a closed deck of cards and a tidy stack of cards, a few sheets of paper with scribbled scores (only lines and squiggles, no readable letters or digits), pencils, empty mugs, a plate with the last buchty bun crumbs. In the middle an open notebook-diary with a ribbon bookmark and a small paper wall calendar leaning against the teapot with a few days crossed out (no numbers). A lamp still glowing warmly, through the window a dark blue night sky with a moon and the outline of village rooftops, a cat asleep on a chair. Calm, cozy, a little nostalgic. Diorama view slightly from above."
+    },
+    {
+      "id": "card-hraci",
+      "out": "originals/cards/hraci.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "refs": [
+        "originals/grids/avatars-1.png",
+        "originals/grids/avatars-2.png"
+      ],
+      "prompt": "Landscape illustration, 4:3. A cork pinboard hanging on a cozy kitchen wall, full of pinned square portrait cards of the animal players from the attached sheets: a fox, a hedgehog, a bear, a hare, a cat, a goat, a mouse, a frog — each portrait in the same look as on the sheets, pinned with colourful pushpins, some slightly askew. Between them hand-drawn little stars, a paper rosette and short ribbons connecting some portraits into two teams (no text). Below the board a kitchen counter with a jar of pencils and a potted herb. Warm, cheerful. Straight-on view."
+    },
+    {
+      "id": "card-nastaveni",
+      "out": "originals/cards/nastaveni.png",
+      "kind": "scene",
+      "aspect": "4:3",
+      "prompt": "Landscape illustration, 4:3. A calm hallway corner of a Czech family home: a small wooden shelf by the front door with a little key rack holding a bunch of house keys on a ring with a wooden fob, a small notepad with a pencil, an old brass doorbell button, a pot with a fern. Below: a bench with a folded checked blanket, slippers and rubber boots neatly side by side, a coat hook with a scarf and a cap. A small toolbox with a screwdriver on the floor. Soft daylight from a little window. Tidy, orderly, calm, homely. Straight-on view."
     }
   ]
 }

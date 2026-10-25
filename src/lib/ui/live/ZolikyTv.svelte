@@ -69,7 +69,7 @@
             <span class="muted">Balíček ({view.stockCount})</span>
           </div>
           <div class="pile" data-testid="discard">
-            {#if view.topDiscard}<Card id={view.topDiscard} width={110} />{:else}<span class="empty">—</span>{/if}
+            {#if view.topDiscard}<Card id={view.topDiscard} width={110} />{:else}<span class="empty" aria-hidden="true">—</span>{/if}
             <span class="muted">Odhozené ({view.discardCount})</span>
           </div>
         </div>

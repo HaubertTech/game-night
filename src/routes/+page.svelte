@@ -243,13 +243,13 @@
         <GameCard art={GAME_ART.sachy} title={GAME_NAMES.sachy} text="Proti počítači, ve dvou nebo s lekcemi od sovy." href="/sachy" testid="game-sachy" />
         <GameCard art={GAME_ART.prsi} title={GAME_NAMES.prsi} text="Zápis partie s opravdovými kartami." href={cardsHref('prsi')} testid="game-prsi" />
         <GameCard art={GAME_ART.zoliky} title={GAME_NAMES.zoliky} text="Zápis partie s opravdovými kartami." href={cardsHref('zoliky')} testid="game-zoliky" />
+        <GameCard art="cards.trenink" title="Trénink karet" text="Prší a žolíky se sovou: lekce a hra s počítačem." href="/trenink" testid="game-trenink" />
       </div>
       <div class="row more" aria-label="Další způsoby hry">
         <a class="btn" href={today ? `/tablet?night=${today.id}` : '/tablet'}>🦉 Kvízovna na jednom tabletu</a>
         <a class="btn" href={tvHref('chess')}>📺 Šachy na televizi</a>
         <a class="btn" href={tvHref('prsi-hra')}>📺 Prší na televizi</a>
         <a class="btn" href={tvHref('zoliky-hra')}>📺 Žolíky na televizi</a>
-        <a class="btn" href="/trenink">🎓 Trénink karet</a>
       </div>
     </section>
 
@@ -257,9 +257,9 @@
       <h2 class="section-title">Rodina</h2>
       <div class="games small-games">
         <GameCard small art="cards.liga" title="Liga" text="Tabulka sezóny, ratingy a rekordy." href="/liga" />
-        <GameCard small art="rewards.vitez-vecera" title="Večery" text="Odehrané večery a jejich výsledky." href="/vecery" />
-        <GameCard small art="avatars.liska" title="Hráči" text="Profily, avatary a týmy." href="/hraci" />
-        <GameCard small art="ui.zvonek" title="Nastavení domácnosti" text="Účet, PIN, pozvánky a data." href="/domacnost" />
+        <GameCard small art="cards.vecery" title="Večery" text="Odehrané večery a jejich výsledky." href="/vecery" />
+        <GameCard small art="cards.hraci" title="Hráči" text="Profily, avatary a týmy." href="/hraci" />
+        <GameCard small art="cards.nastaveni" title="Nastavení domácnosti" text="Účet, PIN, pozvánky a data." href="/domacnost" />
       </div>
     </section>
 

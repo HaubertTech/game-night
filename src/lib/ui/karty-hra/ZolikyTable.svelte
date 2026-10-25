@@ -265,7 +265,7 @@
         <span class="muted small">Balíček ({game.stock.length})</span>
       </button>
       <button type="button" class="pile" disabled={!myTurn || game.step !== 'draw' || !top} onclick={() => run({ type: 'takeDiscard' })} aria-label="Vzít z odhozených" data-testid="discard">
-        {#if top}<Card id={top} width={74} />{:else}<span class="empty">Odhozené</span>{/if}
+        {#if top}<Card id={top} width={74} />{:else}<span class="empty" aria-hidden="true">—</span>{/if}
         <span class="muted small">Odhozené</span>
       </button>
     </div>

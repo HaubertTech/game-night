@@ -1,6 +1,7 @@
 <script lang="ts">
   import { LEVELS, LEVEL_LABELS } from '../../types.ts';
-  import { LEVEL_EMOJI } from '../labels.ts';
+  import { LEVEL_ART } from '../art/art.ts';
+  import ArtIcon from '../live/ArtIcon.svelte';
   import Avatar from '../art/Avatar.svelte';
   import type { Profile } from '../../storage.ts';
   import type { Learner as Picked } from './storage.ts';
@@ -58,7 +59,7 @@
           onclick={() => {
             guest.level = level;
             onchange({ ...guest });
-          }}><span aria-hidden="true">{LEVEL_EMOJI[level]}</span>{LEVEL_LABELS[level]}</button
+          }}><ArtIcon name={LEVEL_ART[level]} /> {LEVEL_LABELS[level]}</button
         >
       {/each}
     </div>

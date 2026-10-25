@@ -1,7 +1,8 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { LEVEL_LABELS, LEVELS, THEME_LABELS, type Level, type Theme } from '#lib/types.ts';
-  import { LEVEL_EMOJI, THEME_EMOJI } from '#lib/ui/labels.ts';
+  import { THEME_EMOJI } from '#lib/ui/labels.ts';
+  import ArtIcon from '#lib/ui/live/ArtIcon.svelte';
   import { api, ApiError, formatDateTime, GAME_EMOJI, GAME_LABELS, percent } from '#lib/ui/app/api.ts';
   import Guard from '#lib/ui/app/Guard.svelte';
   import Medal from '#lib/ui/app/Medal.svelte';
@@ -78,7 +79,7 @@
         <div class="grow">
           <h1>{p.name}</h1>
           <div class="row meta">
-            <span class="badge {p.level}">{LEVEL_EMOJI[p.level]} {LEVEL_LABELS[p.level]}</span>
+            <span class="badge {p.level}"><ArtIcon name={LEVEL_ART[p.level]} /> {LEVEL_LABELS[p.level]}</span>
             {#if p.birth_year}<span class="muted">nar. {p.birth_year}</span>{/if}
             {#if p.archived_at}<span class="muted">archivovaný</span>{/if}
           </div>

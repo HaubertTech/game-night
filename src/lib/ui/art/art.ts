@@ -109,12 +109,12 @@ export const GAME_NAMES: Record<GameId, string> = {
   zoliky: 'Žolíky',
 };
 
-/** Card illustration per game. Chess has no picture of its own yet; the mascot thinking over a move stands in. */
+/** Card illustration per game. */
 export const GAME_ART: Record<GameId, string> = {
   kvizovna: 'cards.kvizovna',
   aktivity: 'cards.rekni-ukaz-nakresli',
   mjz: 'cards.mesto-jmeno-zvire',
-  sachy: 'mascot.sova-premysli',
+  sachy: 'cards.sachy',
   prsi: 'cards.prsi',
   zoliky: 'cards.zoliky',
 };

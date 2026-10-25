@@ -169,6 +169,76 @@
       }
     ]
   },
+  "cards.sachy": {
+    "path": "/art/cards/sachy.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Děda s vnukem hrají šachy v obýváku, sova přihlíží",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/sachy-600.webp"
+      }
+    ]
+  },
+  "cards.trenink": {
+    "path": "/art/cards/trenink.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Sova učí holčičku karty u kuchyňského stolu",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/trenink-600.webp"
+      }
+    ]
+  },
+  "cards.vecery": {
+    "path": "/art/cards/vecery.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Večerní stůl po hře: zápisník, kalendář a karty",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/vecery-600.webp"
+      }
+    ]
+  },
+  "cards.hraci": {
+    "path": "/art/cards/hraci.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Nástěnka s portréty zvířátek-hráčů",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/hraci-600.webp"
+      }
+    ]
+  },
+  "cards.nastaveni": {
+    "path": "/art/cards/nastaveni.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Domácí kout u dveří s klíči a bločkem",
+    "group": "cards",
+    "transparent": false,
+    "variants": [
+      {
+        "width": 600,
+        "path": "/art/cards/nastaveni-600.webp"
+      }
+    ]
+  },
   "levels.hospoda": {
     "path": "/art/levels/hospoda.webp",
     "width": 512,

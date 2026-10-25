@@ -12,12 +12,12 @@ export const ROOM_GAME_LABELS: Record<RoomGame, string> = {
   'zoliky-hra': 'Žolíky',
 };
 
-/** Illustration of each room game (static/art/manifest.json); chess borrows the thinking owl. */
+/** Illustration of each room game (static/art/manifest.json). */
 export const ROOM_GAME_ART: Record<RoomGame, string> = {
   quiz: 'cards.kvizovna',
   aktivity: 'cards.rekni-ukaz-nakresli',
   mjz: 'cards.mesto-jmeno-zvire',
-  chess: 'mascot.sova-premysli',
+  chess: 'cards.sachy',
   'prsi-hra': 'cards.prsi',
   'zoliky-hra': 'cards.zoliky',
 };

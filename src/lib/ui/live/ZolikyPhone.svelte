@@ -185,7 +185,7 @@
         <span class="muted small">Balíček ({view.stockCount})</span>
       </button>
       <button type="button" class="pile" disabled={!myTurn || view.step !== 'draw' || !view.topDiscard} onclick={() => room.actZoliky({ type: 'takeDiscard' })} aria-label="Vzít z odhozených" data-testid="discard">
-        {#if view.topDiscard}<Card id={view.topDiscard} width={58} />{:else}<span class="empty">—</span>{/if}
+        {#if view.topDiscard}<Card id={view.topDiscard} width={58} />{:else}<span class="empty" aria-hidden="true">—</span>{/if}
         <span class="muted small">Odhozené</span>
       </button>
       <div class="stack tight">{#each recent as line, i (i + line)}<span class="muted small">{line}</span>{/each}</div>

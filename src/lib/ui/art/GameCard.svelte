@@ -38,7 +38,8 @@
 </script>
 
 {#snippet body()}
-  <span class="pic" class:icon><Art name={artName} decorative {sizes} /></span>
+  <!-- Eager: the tiles are the page itself; lazy loading left them blank in full-page captures and on slow scrolls. -->
+  <span class="pic" class:icon><Art name={artName} decorative eager {sizes} /></span>
   <span class="txt">
     <strong>{title}</strong>
     {#if text}<span class="muted">{text}</span>{/if}
