@@ -567,5 +567,499 @@
     "source": "https://cs.wikipedia.org/wiki/Chlorofyl",
     "status": "verified",
     "id": "lavice-priroda-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kterému stromu stojí šišky na větvích vzpřímeně nahoru?",
+    "options": [
+      "Smrku",
+      "Jedli",
+      "Borovici",
+      "Modřínu"
+    ],
+    "answer": "Jedli",
+    "fact": "Jedlová šiška se rozpadne přímo na stromě, a proto ji celou pod jedlí skoro nenajdeš.",
+    "difficulty": 3,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Jedle_b%C4%9Blokor%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje mládě lišky?",
+    "options": [
+      "Lišče",
+      "Kotě",
+      "Štěně",
+      "Kůzle"
+    ],
+    "answer": "Lišče",
+    "fact": "Liščata se rodí na jaře a první týdny nevylezou z nory.",
+    "difficulty": 2,
+    "image": "🦊",
+    "source": "https://cs.wikipedia.org/wiki/Li%C5%A1ka_obecn%C3%A1_(%C5%A1elma)",
+    "status": "verified",
+    "id": "lavice-priroda-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje samec kozy?",
+    "options": [
+      "Kozel",
+      "Beran",
+      "Býk",
+      "Hřebec"
+    ],
+    "answer": "Kozel",
+    "fact": "Kozel mívá pod bradou dlouhé vousy.",
+    "difficulty": 1,
+    "image": "🌾",
+    "source": "https://cs.wikipedia.org/wiki/Koza_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se říká zvířeti, které jí jen rostliny?",
+    "options": [
+      "Masožravec",
+      "Všežravec",
+      "Býložravec",
+      "Hmyzožravec"
+    ],
+    "answer": "Býložravec",
+    "fact": "Masožravcem je třeba rys, všežravcem medvěd nebo člověk.",
+    "difficulty": 2,
+    "image": "🐄",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-priroda-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která ryba žije v čistých horských potocích a má na boku červené tečky?",
+    "options": [
+      "Pstruh",
+      "Kapr",
+      "Štika",
+      "Sumec"
+    ],
+    "answer": "Pstruh",
+    "fact": "Pstruh potřebuje studenou vodu s dostatkem kyslíku.",
+    "difficulty": 2,
+    "image": "🏞️",
+    "source": "https://cs.wikipedia.org/wiki/Pstruh_obecn%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který pták má oranžovou náprsenku a zpívá i v zimě?",
+    "options": [
+      "Červenka",
+      "Vrabec",
+      "Kos",
+      "Holub"
+    ],
+    "answer": "Červenka",
+    "fact": "Červenka si hlídá svůj kousek zahrady a zpěvem dává ostatním vědět, že je obsazený.",
+    "difficulty": 2,
+    "image": "🐦",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cervenka_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-037"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které mořské zvíře má dlouhé kly a žije v Arktidě?",
+    "options": [
+      "Mrož",
+      "Tuleň",
+      "Delfín",
+      "Tučňák"
+    ],
+    "answer": "Mrož",
+    "fact": "Mrož si kly pomáhá, když se vytahuje z vody na led.",
+    "difficulty": 1,
+    "image": "🧊",
+    "source": "https://cs.wikipedia.org/wiki/Mro%C5%BE_ledn%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Ze které části květu se stane plod?",
+    "options": [
+      "Z okvětních lístků",
+      "Ze semeníku",
+      "Ze stonku",
+      "Z kořene"
+    ],
+    "answer": "Ze semeníku",
+    "fact": "Aby plod vznikl, musí květ nejdřív opylit hmyz nebo vítr.",
+    "difficulty": 3,
+    "image": "🌸",
+    "source": "https://cs.wikipedia.org/wiki/Semen%C3%ADk",
+    "status": "verified",
+    "id": "lavice-priroda-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře nemá zuby a mravence chytá dlouhým lepkavým jazykem?",
+    "options": [
+      "Mravenečník",
+      "Lenochod",
+      "Klokan",
+      "Pásovec"
+    ],
+    "answer": "Mravenečník",
+    "fact": "Jazyk mravenečníka je dlouhý přes půl metru.",
+    "difficulty": 2,
+    "image": "🐜",
+    "source": "https://cs.wikipedia.org/wiki/Mravene%C4%8Dn%C3%ADk_velk%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje samec kočky?",
+    "options": [
+      "Kocour",
+      "Kozel",
+      "Beran",
+      "Kohout"
+    ],
+    "answer": "Kocour",
+    "fact": "Kočky mají na tlapkách měkké polštářky, a proto chodí skoro neslyšně.",
+    "difficulty": 1,
+    "image": "🧶",
+    "source": "https://cs.wikipedia.org/wiki/Ko%C4%8Dka_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-041"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které rostlině se říká, že čtyřlístek nosí štěstí?",
+    "options": [
+      "Jetelu",
+      "Kopřivě",
+      "Pampelišce",
+      "Sedmikrásce"
+    ],
+    "answer": "Jetelu",
+    "fact": "Jetel má obvykle tři lístky. Čtyřlístek je vzácnost.",
+    "difficulty": 1,
+    "image": "🍀",
+    "source": "https://cs.wikipedia.org/wiki/Jetel",
+    "status": "verified",
+    "id": "lavice-priroda-042"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje samice psa?",
+    "options": [
+      "Fena",
+      "Laň",
+      "Klisna",
+      "Kobyla"
+    ],
+    "answer": "Fena",
+    "fact": "Fena nosí štěňata v břiše asi dva měsíce.",
+    "difficulty": 1,
+    "image": "🦴",
+    "source": "https://cs.wikipedia.org/wiki/Pes_dom%C3%A1c%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Která jarní kytička s bílými zvonečky krásně voní, ale je jedovatá?",
+    "options": [
+      "Konvalinka",
+      "Sedmikráska",
+      "Pampeliška",
+      "Kopretina"
+    ],
+    "answer": "Konvalinka",
+    "fact": "Konvalinky kvetou v květnu ve stinných lesích.",
+    "difficulty": 2,
+    "image": "🔔",
+    "source": "https://cs.wikipedia.org/wiki/Konvalinka_vonn%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře s huňatým ocasem občas vleze pod kapotu auta a okouše kabely?",
+    "options": [
+      "Kuna",
+      "Veverka",
+      "Liška",
+      "Ježek"
+    ],
+    "answer": "Kuna",
+    "fact": "Kuna je šelma a v noci loví myši a ptáky.",
+    "difficulty": 2,
+    "image": "🚗",
+    "source": "https://cs.wikipedia.org/wiki/Kuna_skaln%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Na kterém keři visí na konci zimy žluté jehnědy a na podzim oříšky?",
+    "options": [
+      "Na šípku",
+      "Na lísce",
+      "Na bezu",
+      "Na rybízu"
+    ],
+    "answer": "Na lísce",
+    "fact": "Lískové jehnědy práší už v únoru. Je to jedna z prvních rostlin, která v roce kvete.",
+    "difficulty": 2,
+    "image": "🌰",
+    "source": "https://cs.wikipedia.org/wiki/L%C3%ADska_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který hlodavec žije v norách na pastvinách a v Česku je vzácný?",
+    "options": [
+      "Sysel",
+      "Potkan",
+      "Křeček",
+      "Bobr"
+    ],
+    "answer": "Sysel",
+    "fact": "Syslové si stoupají na zadní nohy a rozhlížejí se, jestli nehrozí nebezpečí.",
+    "difficulty": 3,
+    "image": "🌾",
+    "source": "https://cs.wikipedia.org/wiki/Sysel_obecn%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak se jmenuje strom, který může dorůst přes 100 metrů?",
+    "options": [
+      "Sekvoj",
+      "Dub",
+      "Lípa",
+      "Smrk"
+    ],
+    "answer": "Sekvoj",
+    "fact": "Sekvojovce mají tak silnou kůru, že je chrání i před lesními požáry.",
+    "difficulty": 3,
+    "image": "🌲",
+    "source": "https://cs.wikipedia.org/wiki/Sekvoj_v%C5%BEdyzelen%C3%A1",
+    "status": "verified",
+    "id": "lavice-priroda-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře s krunýřem chodí po mořském dně bokem?",
+    "options": [
+      "Krab",
+      "Rak",
+      "Mlž",
+      "Ježovka"
+    ],
+    "answer": "Krab",
+    "fact": "Krab chodí bokem, protože se mu nohy nejlépe ohýbají do stran.",
+    "difficulty": 1,
+    "image": "🦀",
+    "source": "https://cs.wikipedia.org/wiki/Krabi",
+    "status": "verified",
+    "id": "lavice-priroda-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který velký černý pták k nám přilétá na zimu ve velkých hejnech?",
+    "options": [
+      "Havran",
+      "Čáp",
+      "Vlaštovka",
+      "Kukačka"
+    ],
+    "answer": "Havran",
+    "fact": "Havrani k nám na zimu přilétají ze severu a z východu, kde je ještě větší mráz.",
+    "difficulty": 3,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/Havran_poln%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře žije u řek, výborně plave a loví ryby?",
+    "options": [
+      "Vydra",
+      "Jezevec",
+      "Zajíc",
+      "Srnec"
+    ],
+    "answer": "Vydra",
+    "fact": "Vydra má tak hustou srst, že se k její kůži voda nedostane.",
+    "difficulty": 1,
+    "image": "🌊",
+    "source": "https://cs.wikipedia.org/wiki/Vydra_%C5%99%C3%AD%C4%8Dn%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Ze kterého stromu se vyrábí sladký sirup, který Kanaďané lijí na palačinky?",
+    "options": [
+      "Z javoru",
+      "Z dubu",
+      "Z břízy",
+      "Z jasanu"
+    ],
+    "answer": "Z javoru",
+    "fact": "Javorový list je na kanadské vlajce.",
+    "difficulty": 2,
+    "image": "🥞",
+    "source": "https://cs.wikipedia.org/wiki/Javorov%C3%BD_sirup",
+    "status": "verified",
+    "id": "lavice-priroda-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Jak dlouho nosí slonice mládě v břiše?",
+    "options": [
+      "9 měsíců",
+      "Skoro 2 roky",
+      "3 měsíce",
+      "5 let"
+    ],
+    "answer": "Skoro 2 roky",
+    "fact": "Slůně po narození váží asi sto kilogramů.",
+    "difficulty": 3,
+    "image": "🐘",
+    "source": "https://cs.wikipedia.org/wiki/Slon_africk%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Kolik křídel má moucha?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "2",
+    "fact": "Místo druhého páru křídel má moucha drobné paličky. Pomáhají jí v letu udržet rovnováhu.",
+    "difficulty": 3,
+    "image": "🪰",
+    "source": "https://cs.wikipedia.org/wiki/Dvouk%C5%99%C3%ADdl%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Který brouk se leskne zelenozlatě a rád sedá na květy růží?",
+    "options": [
+      "Zlatohlávek",
+      "Chroust",
+      "Beruška",
+      "Roháč"
+    ],
+    "answer": "Zlatohlávek",
+    "fact": "Larvy zlatohlávků žijí v kompostu a pomáhají vyrábět novou hlínu.",
+    "difficulty": 3,
+    "image": "🌹",
+    "source": "https://cs.wikipedia.org/wiki/Zlatohl%C3%A1vek_zlat%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře z rybníka vypadá jako malá ještěrka, ale je to obojživelník?",
+    "options": [
+      "Čolek",
+      "Užovka",
+      "Kapr",
+      "Rak"
+    ],
+    "answer": "Čolek",
+    "fact": "Samečkům čolků na jaře naroste na zádech hřebínek.",
+    "difficulty": 3,
+    "image": "🦎",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Colek_obecn%C3%BD",
+    "status": "verified",
+    "id": "lavice-priroda-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "priroda",
+    "type": "choice",
+    "text": "Které zvíře se brání smradlavým postřikem?",
+    "options": [
+      "Skunk",
+      "Ježek",
+      "Pásovec",
+      "Lenochod"
+    ],
+    "answer": "Skunk",
+    "fact": "Skunk útočníka napřed varuje: dupe předníma nohama a zvedá ocas.",
+    "difficulty": 1,
+    "image": "💨",
+    "source": "https://cs.wikipedia.org/wiki/Skunkovit%C3%AD",
+    "status": "verified",
+    "id": "lavice-priroda-060"
   }
 ]

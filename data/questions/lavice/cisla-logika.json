@@ -568,5 +568,575 @@
     "source": "RVP ZV",
     "status": "verified",
     "id": "lavice-cisla-logika-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 36 + 47?",
+    "options": [
+      "73",
+      "83",
+      "84",
+      "93"
+    ],
+    "answer": "83",
+    "fact": "Nejdřív sečti desítky: 30 + 40 = 70. Pak jednotky: 6 + 7 = 13. Dohromady 83.",
+    "difficulty": 2,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 9 × 6?",
+    "options": [
+      "45",
+      "54",
+      "56",
+      "63"
+    ],
+    "answer": "54",
+    "fact": "V násobcích devíti jde první číslice o jedna nahoru a druhá o jedna dolů: 45, 54, 63.",
+    "difficulty": 2,
+    "image": "✖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 4 × 7?",
+    "options": [
+      "24",
+      "27",
+      "28",
+      "32"
+    ],
+    "answer": "28",
+    "fact": "Čtyři týdny mají 28 dní. To je přesně únor v obyčejném roce.",
+    "difficulty": 1,
+    "image": "📅",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 56 : 8?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "7",
+    "fact": "Pavouk má osm nohou, takže 56 nohou patří sedmi pavoukům.",
+    "difficulty": 2,
+    "image": "🕷️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik hodin má jeden den?",
+    "options": [
+      "12",
+      "24",
+      "48",
+      "60"
+    ],
+    "answer": "24",
+    "fact": "Den má dvakrát dvanáct hodin. Proto je na ciferníku jen dvanáct čísel.",
+    "difficulty": 1,
+    "image": "🕰️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 1 000 − 1?",
+    "options": [
+      "990",
+      "999",
+      "909",
+      "99"
+    ],
+    "answer": "999",
+    "fact": "Číslo 999 je největší trojmístné číslo.",
+    "difficulty": 1,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-036"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik dvacetikorun dá dohromady 60 korun?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "3",
+    "fact": "Koruna se dělí na sto haléřů, ale haléřové mince se u nás už nepoužívají.",
+    "difficulty": 1,
+    "image": "🪙",
+    "source": "https://www.cnb.cz/cs/bankovky-a-mince/mince/",
+    "status": "verified",
+    "id": "lavice-cisla-logika-037"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 25 + 25 + 25 + 25?",
+    "options": [
+      "75",
+      "100",
+      "125",
+      "52"
+    ],
+    "answer": "100",
+    "fact": "Čtyři čtvrtky dají celek. Stejně tak čtyři čtvrthodiny dají celou hodinu.",
+    "difficulty": 1,
+    "image": "➕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik stěn má kvádr?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": "6",
+    "fact": "Tvar kvádru má třeba cihla nebo krabice od bot.",
+    "difficulty": 2,
+    "image": "📦",
+    "source": "https://cs.wikipedia.org/wiki/Kv%C3%A1dr",
+    "status": "verified",
+    "id": "lavice-cisla-logika-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak se jmenuje úhel, který má 90 stupňů?",
+    "options": [
+      "Ostrý",
+      "Pravý",
+      "Tupý",
+      "Přímý"
+    ],
+    "answer": "Pravý",
+    "fact": "Pravý úhel najdeš v každém rohu sešitu.",
+    "difficulty": 3,
+    "image": "📐",
+    "source": "https://cs.wikipedia.org/wiki/Prav%C3%BD_%C3%BAhel",
+    "status": "verified",
+    "id": "lavice-cisla-logika-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak se jmenuje úsečka ze středu kružnice na její okraj?",
+    "options": [
+      "Průměr",
+      "Poloměr",
+      "Obvod",
+      "Tětiva"
+    ],
+    "answer": "Poloměr",
+    "fact": "Průměr kružnice je vždycky dvakrát delší než poloměr.",
+    "difficulty": 3,
+    "image": "⭕",
+    "source": "https://cs.wikipedia.org/wiki/Polom%C4%9Br",
+    "status": "verified",
+    "id": "lavice-cisla-logika-041"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik os souměrnosti má čtverec?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "answer": "4",
+    "fact": "Kruh má os souměrnosti nekonečně mnoho.",
+    "difficulty": 3,
+    "image": "🟥",
+    "source": "https://cs.wikipedia.org/wiki/Osov%C3%A1_soum%C4%9Brnost",
+    "status": "verified",
+    "id": "lavice-cisla-logika-042"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik decilitrů má jeden litr?",
+    "options": [
+      "10",
+      "100",
+      "1 000",
+      "5"
+    ],
+    "answer": "10",
+    "fact": "Do obyčejného hrnku se vejdou asi dva až tři decilitry.",
+    "difficulty": 2,
+    "image": "🥛",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik centimetrů má jeden decimetr?",
+    "options": [
+      "10",
+      "100",
+      "1",
+      "1 000"
+    ],
+    "answer": "10",
+    "fact": "Dlaň dospělého člověka je široká zhruba jeden decimetr.",
+    "difficulty": 2,
+    "image": "📏",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik kilogramů má jedna tuna?",
+    "options": [
+      "100",
+      "500",
+      "1 000",
+      "10 000"
+    ],
+    "answer": "1 000",
+    "fact": "Dospělý slon africký váží několik tun.",
+    "difficulty": 2,
+    "image": "⚖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 100 − 45?",
+    "options": [
+      "45",
+      "55",
+      "65",
+      "145"
+    ],
+    "answer": "55",
+    "fact": "Odečítat můžeš po částech: 100 − 40 = 60 a pak ještě 5 dolů.",
+    "difficulty": 1,
+    "image": "➖",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Vlak odjíždí v 8:40 a jede 30 minut. V kolik přijede?",
+    "options": [
+      "V 9:00",
+      "V 9:10",
+      "V 9:40",
+      "V 8:70"
+    ],
+    "answer": "V 9:10",
+    "fact": "Jízdní řády používají čtyřiadvacetihodinový čas, třeba 15:20 místo 3:20 odpoledne.",
+    "difficulty": 2,
+    "image": "🚆",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak zapíšeš 3 hodiny odpoledne ve čtyřiadvacetihodinovém čase?",
+    "options": [
+      "3:00",
+      "13:00",
+      "15:00",
+      "18:00"
+    ],
+    "answer": "15:00",
+    "fact": "Půlnoc se píše jako 0:00.",
+    "difficulty": 2,
+    "image": "🕒",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Ve třídě je 12 holek a kluků je o 5 víc. Kolik je kluků?",
+    "options": [
+      "7",
+      "17",
+      "60",
+      "15"
+    ],
+    "answer": "17",
+    "fact": "„O 5 víc“ znamená přičíst pět. „Pětkrát víc“ znamená násobit pěti.",
+    "difficulty": 2,
+    "image": "🏫",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Pavel má 3 trička a 2 kraťasy. Kolik různých dvojic tričko + kraťasy si může obléct?",
+    "options": [
+      "5",
+      "6",
+      "3",
+      "9"
+    ],
+    "answer": "6",
+    "fact": "Ke každému tričku se hodí dvoje kraťasy, a proto 3 × 2. Takovým úlohám se říká kombinatorika.",
+    "difficulty": 3,
+    "image": "👕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které z těchto čísel je liché?",
+    "options": [
+      "18",
+      "27",
+      "40",
+      "64"
+    ],
+    "answer": "27",
+    "fact": "Součet dvou lichých čísel je vždycky sudý, třeba 3 + 5 = 8.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je sedm krát sedm?",
+    "options": [
+      "42",
+      "47",
+      "49",
+      "56"
+    ],
+    "answer": "49",
+    "fact": "Číslu, které vznikne vynásobením čísla sebou samým, se říká druhá mocnina.",
+    "difficulty": 2,
+    "image": "✖️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-052"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 10 × 10 × 10?",
+    "options": [
+      "100",
+      "300",
+      "1 000",
+      "10 000"
+    ],
+    "answer": "1 000",
+    "fact": "Tisíc je deset stovek nebo sto desítek.",
+    "difficulty": 3,
+    "image": "🔟",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaké číslo je římskými číslicemi XII?",
+    "options": [
+      "7",
+      "11",
+      "12",
+      "21"
+    ],
+    "answer": "12",
+    "fact": "Římané neznali nulu, proto ji římskými číslicemi zapsat nejde.",
+    "difficulty": 2,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADmsk%C3%A9_%C4%8D%C3%ADslice",
+    "status": "verified",
+    "id": "lavice-cisla-logika-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je 0 × 125?",
+    "options": [
+      "0",
+      "1",
+      "125",
+      "1 250"
+    ],
+    "answer": "0",
+    "fact": "Nulou se ale dělit nesmí. Takový příklad nemá výsledek.",
+    "difficulty": 2,
+    "image": "0️⃣",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Které číslo chybí: 3, 6, 9, …, 15?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "fact": "Násobky tří poznáš tak, že součet jejich číslic je dělitelný třemi: 1 + 5 = 6.",
+    "difficulty": 2,
+    "image": "🔢",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jak pokračuje řada 1, 2, 4, 8, …?",
+    "options": [
+      "10",
+      "12",
+      "16",
+      "18"
+    ],
+    "answer": "16",
+    "fact": "Každé číslo je dvakrát větší než předchozí. Stejně rychle se množí třeba bakterie, když se dělí.",
+    "difficulty": 3,
+    "image": "📈",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik je třetina z 12?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": "4",
+    "fact": "Když rozdělíš čokoládu na tři stejné díly, každý díl je jedna třetina.",
+    "difficulty": 3,
+    "image": "🍫",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Jaký obsah má čtverec se stranou 3 cm?",
+    "options": [
+      "6 cm²",
+      "9 cm²",
+      "12 cm²",
+      "3 cm²"
+    ],
+    "answer": "9 cm²",
+    "fact": "Obsah ukazuje, kolik čtverečků o straně 1 cm se do tvaru vejde.",
+    "difficulty": 3,
+    "image": "🟦",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-cisla-logika-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "cisla-logika",
+    "type": "choice",
+    "text": "Kolik let má jedno století?",
+    "options": [
+      "10",
+      "50",
+      "100",
+      "1 000"
+    ],
+    "answer": "100",
+    "fact": "Tisíci letům se říká tisíciletí.",
+    "difficulty": 2,
+    "image": "📜",
+    "source": "https://cs.wikipedia.org/wiki/Stolet%C3%AD",
+    "status": "verified",
+    "id": "lavice-cisla-logika-060"
   }
 ]

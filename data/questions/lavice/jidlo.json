@@ -567,5 +567,518 @@
     "source": "https://cs.wikipedia.org/wiki/Tofu",
     "status": "verified",
     "id": "lavice-jidlo-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Z jakého obilí jsou jáhly?",
+    "options": [
+      "Z prosa",
+      "Z ovsa",
+      "Z rýže",
+      "Z kukuřice"
+    ],
+    "answer": "Z prosa",
+    "fact": "Proso patří k nejstarším obilninám. Lidé ho pěstovali už v pravěku.",
+    "difficulty": 3,
+    "image": "🌾",
+    "source": "https://cs.wikipedia.org/wiki/J%C3%A1hly",
+    "status": "verified",
+    "id": "lavice-jidlo-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se říká tekutině, která zbude při výrobě tvarohu?",
+    "options": [
+      "Smetana",
+      "Syrovátka",
+      "Podmáslí",
+      "Šlehačka"
+    ],
+    "answer": "Syrovátka",
+    "fact": "Ze syrovátky se dělají třeba některé nápoje a krmí se jí i prasata.",
+    "difficulty": 3,
+    "image": "🥛",
+    "source": "https://cs.wikipedia.org/wiki/Syrov%C3%A1tka",
+    "status": "verified",
+    "id": "lavice-jidlo-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ve kterém lázeňském městě se pečou velké kulaté oplatky?",
+    "options": [
+      "V Karlových Varech",
+      "V Brně",
+      "V Ostravě",
+      "V Plzni"
+    ],
+    "answer": "V Karlových Varech",
+    "fact": "Lázeňské oplatky jsou tenké a velké skoro jako talířek.",
+    "difficulty": 2,
+    "image": "🧇",
+    "source": "https://cs.wikipedia.org/wiki/Karlovarsk%C3%A9_oplatky",
+    "status": "verified",
+    "id": "lavice-jidlo-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje česká polévka z brambor, často se sušenými houbami a majoránkou?",
+    "options": [
+      "Bramboračka",
+      "Kulajda",
+      "Gulášovka",
+      "Česnečka"
+    ],
+    "answer": "Bramboračka",
+    "fact": "Podobnou bramborovou polévku vaří i na Slovensku, v Polsku a v Německu.",
+    "difficulty": 1,
+    "image": "🍲",
+    "source": "https://cs.wikipedia.org/wiki/Brambora%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-jidlo-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kolik tekutin by mělo dítě školního věku vypít za den?",
+    "options": [
+      "Asi půl litru",
+      "Asi 1,5 litru",
+      "Asi 5 litrů",
+      "Asi 10 litrů"
+    ],
+    "answer": "Asi 1,5 litru",
+    "fact": "Hodně vody je i v ovoci a zelenině, třeba v melounu nebo v okurce.",
+    "difficulty": 2,
+    "image": "💧",
+    "source": "https://knowledge4policy.ec.europa.eu/health-promotion-knowledge-gateway/defining-water-recommendations-3_en",
+    "status": "verified",
+    "id": "lavice-jidlo-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která „obilnina“ ve skutečnosti obilím není a je příbuzná šťovíku?",
+    "options": [
+      "Pohanka",
+      "Pšenice",
+      "Ječmen",
+      "Oves"
+    ],
+    "answer": "Pohanka",
+    "fact": "Pohanka kvete bíle až růžově a včely z ní dělají tmavý med.",
+    "difficulty": 3,
+    "image": "🌸",
+    "source": "https://cs.wikipedia.org/wiki/Pohanka_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-jidlo-036"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření se sype na žitný chléb a do kysaného zelí?",
+    "options": [
+      "Kmín",
+      "Skořice",
+      "Vanilka",
+      "Hřebíček"
+    ],
+    "answer": "Kmín",
+    "fact": "Kmín se odedávna dává do jídel, po kterých nadýmá, třeba do zelí nebo k luštěninám.",
+    "difficulty": 2,
+    "image": "🍞",
+    "source": "https://cs.wikipedia.org/wiki/Km%C3%ADn_ko%C5%99enn%C3%BD",
+    "status": "verified",
+    "id": "lavice-jidlo-037"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které koření jsou usušené černé kuličky, které se melou do mlýnku?",
+    "options": [
+      "Pepř",
+      "Skořice",
+      "Hřebíček",
+      "Vanilka"
+    ],
+    "answer": "Pepř",
+    "fact": "Pepř býval kdysi tak drahý, že se jím dalo i platit.",
+    "difficulty": 2,
+    "image": "🧂",
+    "source": "https://cs.wikipedia.org/wiki/Pep%C5%99_%C4%8Dern%C3%BD",
+    "status": "verified",
+    "id": "lavice-jidlo-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která bylinka svěže voní a dává se do čaje i do limonády?",
+    "options": [
+      "Máta",
+      "Pažitka",
+      "Kopr",
+      "Petržel"
+    ],
+    "answer": "Máta",
+    "fact": "Máta se na zahradě rychle rozrůstá, proto se často sází do květináče.",
+    "difficulty": 1,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/M%C3%A1ta",
+    "status": "verified",
+    "id": "lavice-jidlo-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce je oranžové, má sametovou slupku a uvnitř pecku?",
+    "options": [
+      "Meruňka",
+      "Švestka",
+      "Hruška",
+      "Třešeň"
+    ],
+    "answer": "Meruňka",
+    "fact": "Z meruněk se dělají ovocné knedlíky i marmeláda.",
+    "difficulty": 1,
+    "image": "🍑",
+    "source": "https://cs.wikipedia.org/wiki/Meru%C5%88ka_obecn%C3%A1",
+    "status": "verified",
+    "id": "lavice-jidlo-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterého obilí se dělá krupice na krupicovou kaši?",
+    "options": [
+      "Z pšenice",
+      "Z rýže",
+      "Z kukuřice",
+      "Z prosa"
+    ],
+    "answer": "Z pšenice",
+    "fact": "Krupice je nahrubo pomletá pšenice. Kaše z ní se vaří v mléce.",
+    "difficulty": 3,
+    "image": "🥣",
+    "source": "https://cs.wikipedia.org/wiki/Krupice",
+    "status": "verified",
+    "id": "lavice-jidlo-041"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která jedlá houba roste na kmenech stromů a dá se pěstovat i doma?",
+    "options": [
+      "Hlíva ústřičná",
+      "Hřib smrkový",
+      "Liška obecná",
+      "Muchomůrka"
+    ],
+    "answer": "Hlíva ústřičná",
+    "fact": "Hlíva se pěstuje třeba na balíku slámy.",
+    "difficulty": 3,
+    "image": "🍄",
+    "source": "https://cs.wikipedia.org/wiki/Hl%C3%ADva_%C3%BAst%C5%99i%C4%8Dn%C3%A1",
+    "status": "verified",
+    "id": "lavice-jidlo-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které ovoce se trhá ještě zelené a dozraje až cestou do obchodu?",
+    "options": [
+      "Banány",
+      "Jahody",
+      "Třešně",
+      "Maliny"
+    ],
+    "answer": "Banány",
+    "fact": "Zralá jablka vydávají plyn, který urychlí dozrávání banánů ležících vedle nich.",
+    "difficulty": 2,
+    "image": "🍌",
+    "source": "https://cs.wikipedia.org/wiki/Ban%C3%A1n",
+    "status": "verified",
+    "id": "lavice-jidlo-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Která mouka obsahuje i obal zrna?",
+    "options": [
+      "Hladká",
+      "Celozrnná",
+      "Polohrubá",
+      "Hrubá"
+    ],
+    "answer": "Celozrnná",
+    "fact": "Celozrnná mouka má víc vlákniny, a proto pečivo z ní zasytí na delší dobu.",
+    "difficulty": 3,
+    "image": "🌾",
+    "source": "https://cs.wikipedia.org/wiki/Mouka",
+    "status": "verified",
+    "id": "lavice-jidlo-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje cukr, kterému se říká ovocný?",
+    "options": [
+      "Fruktóza",
+      "Laktóza",
+      "Sůl",
+      "Škrob"
+    ],
+    "answer": "Fruktóza",
+    "fact": "Laktóza je zase cukr, který je v mléce.",
+    "difficulty": 3,
+    "image": "🍎",
+    "source": "https://cs.wikipedia.org/wiki/Frukt%C3%B3za",
+    "status": "verified",
+    "id": "lavice-jidlo-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterou část rostliny jíme u brokolice?",
+    "options": [
+      "Kořen",
+      "Nerozvité květy",
+      "Semena",
+      "Hlízy"
+    ],
+    "answer": "Nerozvité květy",
+    "fact": "Když brokolici necháš růst, rozkvete drobnými žlutými kvítky.",
+    "difficulty": 3,
+    "image": "🥦",
+    "source": "https://cs.wikipedia.org/wiki/Brokolice",
+    "status": "verified",
+    "id": "lavice-jidlo-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Kterou část rostliny jíme u brambor?",
+    "options": [
+      "Plody",
+      "Listy",
+      "Hlízy",
+      "Květy"
+    ],
+    "answer": "Hlízy",
+    "fact": "Zelené kuličky, které na bramborách rostou po odkvětu, jsou jedovaté.",
+    "difficulty": 3,
+    "image": "🥔",
+    "source": "https://cs.wikipedia.org/wiki/Lilek_brambor",
+    "status": "verified",
+    "id": "lavice-jidlo-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které drobné kuličky rostou na keři v hroznech a bývají červené, bílé nebo černé?",
+    "options": [
+      "Rybíz",
+      "Borůvky",
+      "Brusinky",
+      "Hrách"
+    ],
+    "answer": "Rybíz",
+    "fact": "Černý rybíz obsahuje hodně vitaminu C.",
+    "difficulty": 2,
+    "image": "🍒",
+    "source": "https://cs.wikipedia.org/wiki/Ryb%C3%ADz",
+    "status": "verified",
+    "id": "lavice-jidlo-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje kyselý mléčný nápoj, který vzniká kvašením mléka?",
+    "options": [
+      "Kefír",
+      "Limonáda",
+      "Mošt",
+      "Kakao"
+    ],
+    "answer": "Kefír",
+    "fact": "Kefír pochází z hor Kavkazu.",
+    "difficulty": 3,
+    "image": "🥛",
+    "source": "https://cs.wikipedia.org/wiki/Kef%C3%ADr",
+    "status": "verified",
+    "id": "lavice-jidlo-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se říká usušeným plátkům jablek?",
+    "options": [
+      "Křížaly",
+      "Rozinky",
+      "Povidla",
+      "Lupínky"
+    ],
+    "answer": "Křížaly",
+    "fact": "Křížaly se dřív sušily na kamnech nebo na půdě.",
+    "difficulty": 3,
+    "image": "🍏",
+    "source": "https://cs.wikipedia.org/wiki/K%C5%99%C3%AD%C5%BEaly",
+    "status": "verified",
+    "id": "lavice-jidlo-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které malé citrusové ovoce se snadno loupe a u nás patří k Vánocům?",
+    "options": [
+      "Mandarinka",
+      "Citron",
+      "Grep",
+      "Limetka"
+    ],
+    "answer": "Mandarinka",
+    "fact": "Mandarinky pocházejí z Číny a jihovýchodní Asie.",
+    "difficulty": 1,
+    "image": "🍊",
+    "source": "https://cs.wikipedia.org/wiki/Mandarinka",
+    "status": "verified",
+    "id": "lavice-jidlo-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Který nápoj si Britové tradičně dávají odpoledne v pět hodin?",
+    "options": [
+      "Kakao",
+      "Čaj",
+      "Džus",
+      "Mléko"
+    ],
+    "answer": "Čaj",
+    "fact": "Britové vypijí každý den asi sto milionů šálků čaje.",
+    "difficulty": 1,
+    "image": "☕",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Caj",
+    "status": "verified",
+    "id": "lavice-jidlo-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje japonská polévka s nudlemi?",
+    "options": [
+      "Ramen",
+      "Gulášovka",
+      "Minestrone",
+      "Boršč"
+    ],
+    "answer": "Ramen",
+    "fact": "Nudle se v Japonsku smějí srkat nahlas. Nikoho to neurazí.",
+    "difficulty": 3,
+    "image": "🍜",
+    "source": "https://cs.wikipedia.org/wiki/R%C3%A1men",
+    "status": "verified",
+    "id": "lavice-jidlo-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Ze kterých plodů se lisuje olej typický pro Středomoří?",
+    "options": [
+      "Z oliv",
+      "Z jahod",
+      "Z brambor",
+      "Z jablek"
+    ],
+    "answer": "Z oliv",
+    "fact": "Olivovníky se dožívají stovek let, některé i víc než tisíc.",
+    "difficulty": 1,
+    "image": "🫒",
+    "source": "https://cs.wikipedia.org/wiki/Olivovn%C3%ADk_evropsk%C3%BD",
+    "status": "verified",
+    "id": "lavice-jidlo-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Jak se jmenuje chlupaté ovoce z trnitého keře, které roste na našich zahradách?",
+    "options": [
+      "Angrešt",
+      "Kiwi",
+      "Broskev",
+      "Švestka"
+    ],
+    "answer": "Angrešt",
+    "fact": "Angrešt může být zelený, žlutý i červený.",
+    "difficulty": 2,
+    "image": "🌿",
+    "source": "https://cs.wikipedia.org/wiki/Srstka_angre%C5%A1t",
+    "status": "verified",
+    "id": "lavice-jidlo-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Které maso je drůbeží?",
+    "options": [
+      "Kuřecí",
+      "Vepřové",
+      "Hovězí",
+      "Skopové"
+    ],
+    "answer": "Kuřecí",
+    "fact": "Drůbež jsou domácí ptáci: slepice, kachny, husy i krůty.",
+    "difficulty": 1,
+    "image": "🐔",
+    "source": "https://cs.wikipedia.org/wiki/Dr%C5%AFbe%C5%BE",
+    "status": "verified",
+    "id": "lavice-jidlo-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "jidlo",
+    "type": "choice",
+    "text": "Proč se mléko před prodejem krátce zahřívá?",
+    "options": [
+      "Aby zničilo bakterie",
+      "Aby bylo sladší",
+      "Aby změnilo barvu",
+      "Aby zhoustlo"
+    ],
+    "answer": "Aby zničilo bakterie",
+    "fact": "Mléko se ohřeje asi na 72 stupňů jen na pár vteřin, a proto skoro nezmění chuť.",
+    "difficulty": 3,
+    "image": "🥛",
+    "source": "https://cs.wikipedia.org/wiki/Pasterizace",
+    "status": "verified",
+    "id": "lavice-jidlo-060"
   }
 ]

@@ -568,5 +568,499 @@
     "source": "https://cs.wikipedia.org/wiki/Vltava",
     "status": "verified",
     "id": "lavice-cesko-svet-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Španělska?",
+    "options": [
+      "Barcelona",
+      "Madrid",
+      "Lisabon",
+      "Sevilla"
+    ],
+    "answer": "Madrid",
+    "fact": "Madrid leží skoro přesně uprostřed Španělska.",
+    "difficulty": 1,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Madrid",
+    "status": "verified",
+    "id": "lavice-cesko-svet-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Švédska?",
+    "options": [
+      "Stockholm",
+      "Oslo",
+      "Helsinky",
+      "Kodaň"
+    ],
+    "answer": "Stockholm",
+    "fact": "Stockholm leží na čtrnácti ostrovech, které spojují mosty.",
+    "difficulty": 2,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Stockholm",
+    "status": "verified",
+    "id": "lavice-cesko-svet-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Řecka?",
+    "options": [
+      "Atény",
+      "Řím",
+      "Soluň",
+      "Sofie"
+    ],
+    "answer": "Atény",
+    "fact": "Podle řecké báje dostaly Atény jméno po bohyni Athéně, která městu darovala olivovník.",
+    "difficulty": 1,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/At%C3%A9ny",
+    "status": "verified",
+    "id": "lavice-cesko-svet-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která řeka protéká Pískem?",
+    "options": [
+      "Otava",
+      "Sázava",
+      "Svratka",
+      "Ohře"
+    ],
+    "answer": "Otava",
+    "fact": "V řece Otavě se odedávna rýžuje zlato.",
+    "difficulty": 3,
+    "image": "🌉",
+    "source": "https://cs.wikipedia.org/wiki/Kamenn%C3%BD_most_(P%C3%ADsek)",
+    "status": "verified",
+    "id": "lavice-cesko-svet-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém kraji leží Jablonec nad Nisou?",
+    "options": [
+      "V Libereckém",
+      "V Jihočeském",
+      "Ve Zlínském",
+      "V Plzeňském"
+    ],
+    "answer": "V Libereckém",
+    "fact": "Jablonec nad Nisou je známý výrobou skleněných korálků a bižuterie.",
+    "difficulty": 2,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Libereck%C3%BD_kraj",
+    "status": "verified",
+    "id": "lavice-cesko-svet-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Nizozemska?",
+    "options": [
+      "Amsterdam",
+      "Brusel",
+      "Berlín",
+      "Kodaň"
+    ],
+    "answer": "Amsterdam",
+    "fact": "Amsterdam má stovky mostů přes kanály, víc než Benátky.",
+    "difficulty": 2,
+    "image": "🚲",
+    "source": "https://cs.wikipedia.org/wiki/Amsterdam",
+    "status": "verified",
+    "id": "lavice-cesko-svet-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje nejvyšší hora Jizerských hor?",
+    "options": [
+      "Smrk",
+      "Sněžka",
+      "Ještěd",
+      "Praděd"
+    ],
+    "answer": "Smrk",
+    "fact": "Na vrcholu Smrku stojí rozhledna, ze které je vidět do Polska.",
+    "difficulty": 3,
+    "image": "⛰️",
+    "source": "https://cs.wikipedia.org/wiki/Smrk_(Jizersk%C3%A9_hory)",
+    "status": "verified",
+    "id": "lavice-cesko-svet-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě se ve středověku těžilo nejvíc stříbra v Čechách?",
+    "options": [
+      "V Kutné Hoře",
+      "V Plzni",
+      "V Táboře",
+      "V Jičíně"
+    ],
+    "answer": "V Kutné Hoře",
+    "fact": "V Kutné Hoře stojí chrám svaté Barbory, patronky horníků.",
+    "difficulty": 3,
+    "image": "⛏️",
+    "source": "https://cs.wikipedia.org/wiki/Kutn%C3%A1_Hora",
+    "status": "verified",
+    "id": "lavice-cesko-svet-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo podle pražské pověsti oživil hliněného Golema?",
+    "options": [
+      "Rabi Löw",
+      "Karel IV.",
+      "Bruncvík",
+      "Krakonoš"
+    ],
+    "answer": "Rabi Löw",
+    "fact": "Golem podle pověsti ožil, když mu rabi vložil do úst lísteček se zaklínadlem.",
+    "difficulty": 3,
+    "image": "🗿",
+    "source": "https://cs.wikipedia.org/wiki/Golem",
+    "status": "verified",
+    "id": "lavice-cesko-svet-041"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Německa?",
+    "options": [
+      "Mnichov",
+      "Berlín",
+      "Vídeň",
+      "Hamburk"
+    ],
+    "answer": "Berlín",
+    "fact": "Ve znaku Berlína je medvěd.",
+    "difficulty": 1,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Berl%C3%ADn",
+    "status": "verified",
+    "id": "lavice-cesko-svet-042"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Polska?",
+    "options": [
+      "Krakov",
+      "Varšava",
+      "Vratislav",
+      "Gdaňsk"
+    ],
+    "answer": "Varšava",
+    "fact": "Symbolem Varšavy je mořská panna se štítem a mečem.",
+    "difficulty": 1,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Var%C5%A1ava",
+    "status": "verified",
+    "id": "lavice-cesko-svet-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Francie?",
+    "options": [
+      "Paříž",
+      "Lyon",
+      "Marseille",
+      "Nice"
+    ],
+    "answer": "Paříž",
+    "fact": "V pařížském muzeu Louvre visí slavný obraz Mona Lisa.",
+    "difficulty": 1,
+    "image": "🗼",
+    "source": "https://cs.wikipedia.org/wiki/Pa%C5%99%C3%AD%C5%BE",
+    "status": "verified",
+    "id": "lavice-cesko-svet-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Itálie?",
+    "options": [
+      "Milán",
+      "Benátky",
+      "Řím",
+      "Neapol"
+    ],
+    "answer": "Řím",
+    "fact": "Podle pověsti Řím založili bratři Romulus a Remus, které vychovala vlčice.",
+    "difficulty": 1,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADm",
+    "status": "verified",
+    "id": "lavice-cesko-svet-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí věž s hodinami Big Ben?",
+    "options": [
+      "V Londýně",
+      "V Paříži",
+      "V Berlíně",
+      "V Římě"
+    ],
+    "answer": "V Londýně",
+    "fact": "Big Ben je ve skutečnosti jméno velkého zvonu ve věži, ne celé věže.",
+    "difficulty": 2,
+    "image": "🕰️",
+    "source": "https://cs.wikipedia.org/wiki/Big_Ben",
+    "status": "verified",
+    "id": "lavice-cesko-svet-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Který světadíl je největší?",
+    "options": [
+      "Afrika",
+      "Evropa",
+      "Asie",
+      "Austrálie"
+    ],
+    "answer": "Asie",
+    "fact": "V Asii žije víc než polovina všech lidí na světě.",
+    "difficulty": 2,
+    "image": "🌏",
+    "source": "https://cs.wikipedia.org/wiki/Asie",
+    "status": "verified",
+    "id": "lavice-cesko-svet-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na kterém poloostrově leží Itálie?",
+    "options": [
+      "Na Apeninském",
+      "Na Pyrenejském",
+      "Na Balkánském",
+      "Na Skandinávském"
+    ],
+    "answer": "Na Apeninském",
+    "fact": "K Itálii patří i dva velké ostrovy, Sicílie a Sardinie.",
+    "difficulty": 3,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Apeninsk%C3%BD_poloostrov",
+    "status": "verified",
+    "id": "lavice-cesko-svet-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Portugalska?",
+    "options": [
+      "Madrid",
+      "Lisabon",
+      "Porto",
+      "Řím"
+    ],
+    "answer": "Lisabon",
+    "fact": "Lisabon leží u Atlantského oceánu a do jeho kopců jezdí staré žluté tramvaje.",
+    "difficulty": 2,
+    "image": "🚋",
+    "source": "https://cs.wikipedia.org/wiki/Lisabon",
+    "status": "verified",
+    "id": "lavice-cesko-svet-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na kterém světadílu leží Indie?",
+    "options": [
+      "V Africe",
+      "V Asii",
+      "V Evropě",
+      "V Austrálii"
+    ],
+    "answer": "V Asii",
+    "fact": "V Indii žijí ve volné přírodě tygři i sloni.",
+    "difficulty": 1,
+    "image": "🐯",
+    "source": "https://cs.wikipedia.org/wiki/Indie",
+    "status": "verified",
+    "id": "lavice-cesko-svet-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Která země je rozlohou největší na světě?",
+    "options": [
+      "Čína",
+      "Rusko",
+      "USA",
+      "Kanada"
+    ],
+    "answer": "Rusko",
+    "fact": "Rusko zabírá skoro osminu veškeré souše na Zemi.",
+    "difficulty": 2,
+    "image": "🗺️",
+    "source": "https://cs.wikipedia.org/wiki/Rusko",
+    "status": "verified",
+    "id": "lavice-cesko-svet-052"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi jsou slavné fjordy?",
+    "options": [
+      "V Norsku",
+      "V Itálii",
+      "V Česku",
+      "V Řecku"
+    ],
+    "answer": "V Norsku",
+    "fact": "Fjordy jsou úzké mořské zátoky mezi skalami. Vyhloubily je kdysi ledovce.",
+    "difficulty": 3,
+    "image": "⛴️",
+    "source": "https://cs.wikipedia.org/wiki/Fjord",
+    "status": "verified",
+    "id": "lavice-cesko-svet-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Které krajské město leží na soutoku Labe a Orlice?",
+    "options": [
+      "Hradec Králové",
+      "Pardubice",
+      "Liberec",
+      "Mělník"
+    ],
+    "answer": "Hradec Králové",
+    "fact": "Orlice vzniká ze dvou řek, Divoké a Tiché Orlice.",
+    "difficulty": 3,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Hradec_Kr%C3%A1lov%C3%A9",
+    "status": "verified",
+    "id": "lavice-cesko-svet-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jak se jmenuje hlavní město Belgie?",
+    "options": [
+      "Brusel",
+      "Amsterdam",
+      "Paříž",
+      "Vídeň"
+    ],
+    "answer": "Brusel",
+    "fact": "V Bruselu sídlí hlavní úřady Evropské unie.",
+    "difficulty": 2,
+    "image": "🏙️",
+    "source": "https://cs.wikipedia.org/wiki/Brusel",
+    "status": "verified",
+    "id": "lavice-cesko-svet-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Jakou měnou se platí v Německu?",
+    "options": [
+      "Korunou",
+      "Eurem",
+      "Dolarem",
+      "Zlotým"
+    ],
+    "answer": "Eurem",
+    "fact": "Eurem se platí ve víc než dvaceti zemích Evropy.",
+    "difficulty": 1,
+    "image": "💶",
+    "source": "https://cs.wikipedia.org/wiki/Euro",
+    "status": "verified",
+    "id": "lavice-cesko-svet-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve které zemi stojí šikmá věž v Pise?",
+    "options": [
+      "Ve Francii",
+      "Ve Španělsku",
+      "V Itálii",
+      "V Řecku"
+    ],
+    "answer": "V Itálii",
+    "fact": "Věž se začala naklánět už při stavbě, protože stojí na měkké půdě.",
+    "difficulty": 1,
+    "image": "🗼",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0ikm%C3%A1_v%C4%9B%C5%BE_v_Pise",
+    "status": "verified",
+    "id": "lavice-cesko-svet-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Ve kterém městě stojí Socha svobody?",
+    "options": [
+      "V Londýně",
+      "V New Yorku",
+      "V Paříži",
+      "V Římě"
+    ],
+    "answer": "V New Yorku",
+    "fact": "Sochu svobody darovali Američanům Francouzi.",
+    "difficulty": 1,
+    "image": "🗽",
+    "source": "https://cs.wikipedia.org/wiki/Socha_Svobody",
+    "status": "verified",
+    "id": "lavice-cesko-svet-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na kterém světadílu leží Brazílie?",
+    "options": [
+      "V Africe",
+      "V Jižní Americe",
+      "V Asii",
+      "V Austrálii"
+    ],
+    "answer": "V Jižní Americe",
+    "fact": "Brazílií teče Amazonka, nejvodnatější řeka světa.",
+    "difficulty": 2,
+    "image": "🌴",
+    "source": "https://cs.wikipedia.org/wiki/Braz%C3%ADlie",
+    "status": "verified",
+    "id": "lavice-cesko-svet-060"
   }
 ]

@@ -558,5 +558,575 @@
     "source": "RVP ZV",
     "status": "verified",
     "id": "lavice-slova-jazyk-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov je příslovce?",
+    "options": [
+      "včera",
+      "stůl",
+      "modrý",
+      "běžet"
+    ],
+    "answer": "včera",
+    "fact": "Příslovce odpovídá na otázky kde, kdy nebo jak: doma, včera, rychle.",
+    "difficulty": 3,
+    "image": "📅",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov je citoslovce?",
+    "options": [
+      "haf",
+      "pes",
+      "štěkat",
+      "hlasitý"
+    ],
+    "answer": "haf",
+    "fact": "Citoslovce napodobují zvuky nebo vyjadřují pocity, třeba bác, au nebo jé.",
+    "difficulty": 2,
+    "image": "🐶",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto slov je spojka?",
+    "options": [
+      "a",
+      "na",
+      "já",
+      "pod"
+    ],
+    "answer": "a",
+    "fact": "Spojky spojují slova nebo věty: a, ale, nebo, protože.",
+    "difficulty": 2,
+    "image": "🔗",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „pravda“?",
+    "options": [
+      "lež",
+      "víra",
+      "omyl",
+      "tajemství"
+    ],
+    "answer": "lež",
+    "fact": "Staré přísloví říká: Lež má krátké nohy.",
+    "difficulty": 1,
+    "image": "🤥",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se správně píše: „Babička … na vesnici.“",
+    "options": [
+      "bydlí",
+      "bidlí",
+      "bydly",
+      "bidly"
+    ],
+    "answer": "bydlí",
+    "fact": "Bydlet patří mezi vyjmenovaná slova po B. Příbuzné je i slovo obyvatel.",
+    "difficulty": 2,
+    "image": "🏡",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo patří mezi vyjmenovaná slova po M?",
+    "options": [
+      "mýlit se",
+      "míchat",
+      "milovat",
+      "mírný"
+    ],
+    "answer": "mýlit se",
+    "fact": "Po M jsou vyjmenovaná i slova hmyz, hlemýžď a chmýří.",
+    "difficulty": 2,
+    "image": "✏️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-036"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo patří mezi vyjmenovaná slova po S?",
+    "options": [
+      "sýkora",
+      "síto",
+      "silný",
+      "sirup"
+    ],
+    "answer": "sýkora",
+    "fact": "Po S jsou vyjmenovaná i slova syrový, sypat a usychat.",
+    "difficulty": 2,
+    "image": "🐦",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-037"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo patří mezi vyjmenovaná slova po V?",
+    "options": [
+      "žvýkat",
+      "vítat",
+      "vidět",
+      "vinný"
+    ],
+    "answer": "žvýkat",
+    "fact": "Po V jsou vyjmenovaná i slova vyžle a povyk.",
+    "difficulty": 3,
+    "image": "👄",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se správně píše: „Jablko spadlo … stromu.“",
+    "options": [
+      "ze",
+      "se",
+      "s",
+      "zse"
+    ],
+    "answer": "ze",
+    "fact": "Z nebo ze píšeme, když něco odněkud padá nebo jde. S nebo se, když jsme s někým nebo s něčím.",
+    "difficulty": 3,
+    "image": "🍎",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Kolik písmen má česká abeceda?",
+    "options": [
+      "26",
+      "33",
+      "42",
+      "50"
+    ],
+    "answer": "42",
+    "fact": "Mezi 42 písmen se počítá i ch a písmena s háčky a čárkami.",
+    "difficulty": 3,
+    "image": "🔤",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_abeceda",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „škola“?",
+    "options": [
+      "kola",
+      "školka",
+      "lavice",
+      "třída"
+    ],
+    "answer": "kola",
+    "fact": "Slovo škola pochází z řeckého slova scholé, které znamenalo volný čas.",
+    "difficulty": 1,
+    "image": "🏫",
+    "source": "https://cs.wiktionary.org/wiki/%C5%A1kola",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-041"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo se rýmuje se slovem „svíčka“?",
+    "options": [
+      "líčka",
+      "svítilna",
+      "vosk",
+      "plamen"
+    ],
+    "answer": "líčka",
+    "fact": "Svíčky se dřív vyráběly ze včelího vosku nebo ze zvířecího loje.",
+    "difficulty": 1,
+    "image": "🕯️",
+    "source": "https://cs.wikipedia.org/wiki/Sv%C3%AD%C4%8Dka",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-042"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaký je opak slova „ostrý“?",
+    "options": [
+      "tupý",
+      "tvrdý",
+      "těžký",
+      "tichý"
+    ],
+    "answer": "tupý",
+    "fact": "Tupý může být nůž i úhel. Tupý úhel je větší než pravý.",
+    "difficulty": 2,
+    "image": "🔪",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo znamená totéž co „začít“?",
+    "options": [
+      "zahájit",
+      "skončit",
+      "přestat",
+      "odejít"
+    ],
+    "answer": "zahájit",
+    "fact": "Synonyma pomáhají, aby se v textu pořád neopakovalo totéž slovo.",
+    "difficulty": 2,
+    "image": "🏁",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které spisovné slovo znamená totéž co hovorové „kluk“?",
+    "options": [
+      "chlapec",
+      "muž",
+      "děda",
+      "strýc"
+    ],
+    "answer": "chlapec",
+    "fact": "Kluk je slovo hovorové, chlapec spisovné. Do slohové práce se hodí chlapec.",
+    "difficulty": 1,
+    "image": "👦",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jakého rodu je slovo „kočka“?",
+    "options": [
+      "Mužského",
+      "Ženského",
+      "Středního",
+      "Žádného"
+    ],
+    "answer": "Ženského",
+    "fact": "U zvířat bývá jedno slovo pro samici a jiné pro samce: kočka a kocour.",
+    "difficulty": 1,
+    "image": "🐱",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Ve kterém pádě někoho oslovujeme, třeba „Petře, pojď sem!“?",
+    "options": [
+      "V 1. pádě",
+      "Ve 3. pádě",
+      "V 5. pádě",
+      "V 7. pádě"
+    ],
+    "answer": "V 5. pádě",
+    "fact": "Některá jména se v pátém pádě hodně mění: Petr – Petře, Marek – Marku.",
+    "difficulty": 2,
+    "image": "🗣️",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Ve kterém pádě je slovo „pes“ ve větě „Pes štěká.“?",
+    "options": [
+      "V 1. pádě",
+      "Ve 2. pádě",
+      "Ve 4. pádě",
+      "V 7. pádě"
+    ],
+    "answer": "V 1. pádě",
+    "fact": "První pád odpovídá na otázku kdo nebo co.",
+    "difficulty": 3,
+    "image": "🐕",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo je zdrobnělina?",
+    "options": [
+      "stromeček",
+      "strom",
+      "stromový",
+      "sázet"
+    ],
+    "answer": "stromeček",
+    "fact": "Některá slova mají zdrobněliny dvě: stromek a ještě menší stromeček.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které z těchto písmen tvoří dvojhlásku?",
+    "options": [
+      "ou",
+      "oa",
+      "ie",
+      "ai"
+    ],
+    "answer": "ou",
+    "fact": "Čeština má tři dvojhlásky: ou, au a eu. Au a eu najdeš hlavně ve slovech z cizích jazyků.",
+    "difficulty": 2,
+    "image": "🗣️",
+    "source": "https://cs.wikipedia.org/wiki/Dvojhl%C3%A1ska",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se správně píše: „Včely bydlí v …“",
+    "options": [
+      "úlu",
+      "ůlu",
+      "ulu",
+      "ůlů"
+    ],
+    "answer": "úlu",
+    "fact": "Ú s čárkou píšeme hlavně na začátku slova. Uprostřed bývá jen výjimečně, třeba ve slově ocún.",
+    "difficulty": 2,
+    "image": "🐝",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Která věta je rozkazovací?",
+    "options": [
+      "Zavři okno!",
+      "Je okno zavřené?",
+      "Okno je zavřené.",
+      "Kéž by bylo okno zavřené."
+    ],
+    "answer": "Zavři okno!",
+    "fact": "Rozkaz se dá říct i zdvořile: Zavři prosím okno.",
+    "difficulty": 2,
+    "image": "🪟",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-052"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo má víc významů – na hlavě krále, na stromě i v peněžence?",
+    "options": [
+      "koruna",
+      "čepice",
+      "větev",
+      "mince"
+    ],
+    "answer": "koruna",
+    "fact": "Česká koruna se jako měna jmenuje podle koruny, kterou nosili králové.",
+    "difficulty": 3,
+    "image": "👑",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo vzniklo spojením dvou slov?",
+    "options": [
+      "vodopád",
+      "voda",
+      "vodní",
+      "vodník"
+    ],
+    "answer": "vodopád",
+    "fact": "Takovým slovům se říká složeniny. Patří k nim i černobílý nebo vlastivěda.",
+    "difficulty": 3,
+    "image": "🌊",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak se anglicky řekne kočka?",
+    "options": [
+      "cat",
+      "dog",
+      "cow",
+      "mouse"
+    ],
+    "answer": "cat",
+    "fact": "Kotě se anglicky řekne kitten.",
+    "difficulty": 1,
+    "image": "🐈",
+    "source": "https://cs.wiktionary.org/wiki/cat",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co znamená anglické slovo „red“?",
+    "options": [
+      "modrá",
+      "zelená",
+      "červená",
+      "žlutá"
+    ],
+    "answer": "červená",
+    "fact": "Modrá se anglicky řekne blue a zelená green.",
+    "difficulty": 1,
+    "image": "🎨",
+    "source": "https://cs.wiktionary.org/wiki/red",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jaké číslo je anglicky „three“?",
+    "options": [
+      "2",
+      "3",
+      "8",
+      "13"
+    ],
+    "answer": "3",
+    "fact": "Třináct se anglicky řekne thirteen.",
+    "difficulty": 1,
+    "image": "🔢",
+    "source": "https://cs.wiktionary.org/wiki/three",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplň přísloví: „Kdo se moc ptá, …“",
+    "options": [
+      "moc se dozví",
+      "nic neví",
+      "je zvědavý",
+      "dlouho čeká"
+    ],
+    "answer": "moc se dozví",
+    "fact": "Přísloví povzbuzuje, abychom se nebáli ptát, když něčemu nerozumíme.",
+    "difficulty": 1,
+    "image": "❓",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplň přísloví: „Komu se nelení, …“",
+    "options": [
+      "tomu se zelení",
+      "ten má lenost",
+      "ten spí dlouho",
+      "ten nic nemá"
+    ],
+    "answer": "tomu se zelení",
+    "fact": "Zelení se tu znamená daří se, jako když na poli roste zelené obilí.",
+    "difficulty": 1,
+    "image": "🌱",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Doplň přísloví: „Ranní ptáče …“",
+    "options": [
+      "dál doskáče",
+      "dlouho spí",
+      "hlasitě zpívá",
+      "má hlad"
+    ],
+    "answer": "dál doskáče",
+    "fact": "Přísloví radí, že kdo začne brzy, stihne víc.",
+    "difficulty": 1,
+    "image": "🐦",
+    "source": "obecná znalost",
+    "status": "verified",
+    "id": "lavice-slova-jazyk-060"
   }
 ]

@@ -567,5 +567,537 @@
     "source": "https://cs.wikipedia.org/wiki/Skoky_na_ly%C5%BE%C3%ADch",
     "status": "verified",
     "id": "lavice-sport-hry-030"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik puntíků má kostka domina s dvojitou šestkou?",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "36"
+    ],
+    "answer": "12",
+    "fact": "Domino se hraje tak, že se kostky přikládají ke stejnému počtu puntíků.",
+    "difficulty": 3,
+    "image": "🎲",
+    "source": "https://cs.wikipedia.org/wiki/Domino",
+    "status": "verified",
+    "id": "lavice-sport-hry-031"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu se hrají sety, gemy a tiebreak?",
+    "options": [
+      "V tenise",
+      "Ve fotbale",
+      "V hokeji",
+      "V basketbale"
+    ],
+    "answer": "V tenise",
+    "fact": "Nejstarší tenisový turnaj na světě je Wimbledon v Londýně.",
+    "difficulty": 2,
+    "image": "🎾",
+    "source": "https://cs.wikipedia.org/wiki/Tenis",
+    "status": "verified",
+    "id": "lavice-sport-hry-032"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik florbalových hráčů jednoho týmu je na hřišti i s brankářem?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "11"
+    ],
+    "answer": "6",
+    "fact": "Florbalový míček má 26 dírek.",
+    "difficulty": 3,
+    "image": "🏑",
+    "source": "https://cs.wikipedia.org/wiki/Florbal",
+    "status": "verified",
+    "id": "lavice-sport-hry-033"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu sedí závodníci v lodi zády ke směru jízdy?",
+    "options": [
+      "Ve veslování",
+      "V kanoistice",
+      "V surfování",
+      "V plachtění"
+    ],
+    "answer": "Ve veslování",
+    "fact": "Veslaři sedí na sedátku, které při každém záběru jezdí dopředu a dozadu.",
+    "difficulty": 3,
+    "image": "🚣",
+    "source": "https://cs.wikipedia.org/wiki/Veslov%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "lavice-sport-hry-034"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém roce se konaly první novodobé olympijské hry?",
+    "options": [
+      "1896",
+      "1918",
+      "1945",
+      "1776"
+    ],
+    "answer": "1896",
+    "fact": "Na prvních novodobých hrách soutěžili jen muži.",
+    "difficulty": 3,
+    "image": "🏛️",
+    "source": "https://cs.wikipedia.org/wiki/Letn%C3%AD_olympijsk%C3%A9_hry_1896",
+    "status": "verified",
+    "id": "lavice-sport-hry-035"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje sport, ve kterém se šplhá po umělé stěně s chyty?",
+    "options": [
+      "Sportovní lezení",
+      "Gymnastika",
+      "Parkur",
+      "Biatlon"
+    ],
+    "answer": "Sportovní lezení",
+    "fact": "Na olympiádě se v lezení poprvé závodilo v Tokiu.",
+    "difficulty": 2,
+    "image": "🧗",
+    "source": "https://cs.wikipedia.org/wiki/Sportovn%C3%AD_lezen%C3%AD",
+    "status": "verified",
+    "id": "lavice-sport-hry-036"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu jezdci na kolech projíždějí blátem a kolo přes překážky nesou?",
+    "options": [
+      "V cyklokrosu",
+      "Na dráze",
+      "V triatlonu",
+      "V BMX"
+    ],
+    "answer": "V cyklokrosu",
+    "fact": "Cyklokros se závodí hlavně na podzim a v zimě.",
+    "difficulty": 3,
+    "image": "🚴",
+    "source": "https://cs.wikipedia.org/wiki/Cyklokros",
+    "status": "verified",
+    "id": "lavice-sport-hry-037"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik setů musí tým vyhrát, aby vyhrál volejbalový zápas?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "fact": "Ostatní sety se hrají do 25 bodů.",
+    "difficulty": 3,
+    "image": "🏐",
+    "source": "https://cs.wikipedia.org/wiki/Volejbal",
+    "status": "verified",
+    "id": "lavice-sport-hry-038"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje karetní hra, ve které prohraje ten, komu zůstane poslední karta bez páru?",
+    "options": [
+      "Černý Petr",
+      "Prší",
+      "Mariáš",
+      "Pexeso"
+    ],
+    "answer": "Černý Petr",
+    "fact": "V Černém Petrovi hráči skládají karty do dvojic a vykládají je na stůl.",
+    "difficulty": 2,
+    "image": "🃏",
+    "source": "https://cs.wikipedia.org/wiki/%C4%8Cern%C3%BD_Petr_(karetn%C3%AD_hra)",
+    "status": "verified",
+    "id": "lavice-sport-hry-039"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu proslul Jaromír Jágr?",
+    "options": [
+      "V hokeji",
+      "Ve fotbale",
+      "V tenise",
+      "V lyžování"
+    ],
+    "answer": "V hokeji",
+    "fact": "V zámořské lize NHL dal Jágr přes 750 gólů.",
+    "difficulty": 1,
+    "image": "🏒",
+    "source": "https://cs.wikipedia.org/wiki/Jarom%C3%ADr_J%C3%A1gr",
+    "status": "verified",
+    "id": "lavice-sport-hry-040"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Se kterou figurkou dělá král v šachu rošádu?",
+    "options": [
+      "S věží",
+      "S dámou",
+      "Se střelcem",
+      "S jezdcem"
+    ],
+    "answer": "S věží",
+    "fact": "Rošáda je jediný tah, při kterém se hnou dvě figurky najednou.",
+    "difficulty": 3,
+    "image": "♜",
+    "source": "https://cs.wikipedia.org/wiki/Ro%C5%A1%C3%A1da",
+    "status": "verified",
+    "id": "lavice-sport-hry-043"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik pěšců má každý hráč na začátku šachové partie?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "answer": "8",
+    "fact": "Pěšci stojí na začátku v celé druhé řadě před ostatními figurkami.",
+    "difficulty": 2,
+    "image": "♟️",
+    "source": "https://cs.wikipedia.org/wiki/%C5%A0achy",
+    "status": "verified",
+    "id": "lavice-sport-hry-044"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje desková hra, ve které kameny přeskakují soupeřovy kameny po tmavých políčkách?",
+    "options": [
+      "Dáma",
+      "Šachy",
+      "Pexeso",
+      "Domino"
+    ],
+    "answer": "Dáma",
+    "fact": "Dáma se hraje na stejné desce jako šachy, ale jen na tmavých políčkách.",
+    "difficulty": 2,
+    "image": "⚫",
+    "source": "https://cs.wikipedia.org/wiki/D%C3%A1ma_(hra)",
+    "status": "verified",
+    "id": "lavice-sport-hry-045"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik puntíků je dohromady na všech stěnách hrací kostky?",
+    "options": [
+      "18",
+      "21",
+      "24",
+      "36"
+    ],
+    "answer": "21",
+    "fact": "Stačí sečíst 1 + 2 + 3 + 4 + 5 + 6.",
+    "difficulty": 3,
+    "image": "🎲",
+    "source": "RVP ZV",
+    "status": "verified",
+    "id": "lavice-sport-hry-046"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se říká závodníkovi, který řídí psí spřežení?",
+    "options": [
+      "Musher",
+      "Jezdec",
+      "Kormidelník",
+      "Žokej"
+    ],
+    "answer": "Musher",
+    "fact": "Psí spřežení táhnou nejčastěji psi plemene husky.",
+    "difficulty": 3,
+    "image": "🐕",
+    "source": "https://cs.wikipedia.org/wiki/Mushing",
+    "status": "verified",
+    "id": "lavice-sport-hry-047"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje plavecký styl, při kterém plavec pohybuje nohama podobně jako žába?",
+    "options": [
+      "Prsa",
+      "Kraul",
+      "Znak",
+      "Motýlek"
+    ],
+    "answer": "Prsa",
+    "fact": "Prsa jsou nejpomalejší ze závodních plaveckých stylů.",
+    "difficulty": 1,
+    "image": "🐸",
+    "source": "https://cs.wikipedia.org/wiki/Prsa_(plav%C3%A1n%C3%AD)",
+    "status": "verified",
+    "id": "lavice-sport-hry-048"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje plavecký styl, kterým se plave na zádech?",
+    "options": [
+      "Kraul",
+      "Prsa",
+      "Znak",
+      "Motýlek"
+    ],
+    "answer": "Znak",
+    "fact": "Hlavní plavecké styly jsou kraul, znak, prsa a motýlek.",
+    "difficulty": 2,
+    "image": "🏊",
+    "source": "https://cs.wikipedia.org/wiki/Znak_(plav%C3%A1n%C3%AD)",
+    "status": "verified",
+    "id": "lavice-sport-hry-049"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje lyžařská disciplína, kde se objíždějí krátce za sebou postavené branky?",
+    "options": [
+      "Slalom",
+      "Biatlon",
+      "Skoky",
+      "Maraton"
+    ],
+    "answer": "Slalom",
+    "fact": "Slovo slalom pochází z norštiny.",
+    "difficulty": 2,
+    "image": "⛷️",
+    "source": "https://cs.wikipedia.org/wiki/Alpsk%C3%A9_ly%C5%BEov%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "lavice-sport-hry-050"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje atletická disciplína, kde se hází kovovou koulí na drátě?",
+    "options": [
+      "Hod kladivem",
+      "Vrh koulí",
+      "Hod oštěpem",
+      "Skok o tyči"
+    ],
+    "answer": "Hod kladivem",
+    "fact": "Kladivo se před hodem roztočí, atlet se s ním otáčí v kruhu několikrát dokola.",
+    "difficulty": 3,
+    "image": "🔨",
+    "source": "https://cs.wikipedia.org/wiki/Hod_kladivem",
+    "status": "verified",
+    "id": "lavice-sport-hry-051"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Na jak dlouhé trati se běží nejkratší olympijský sprint?",
+    "options": [
+      "50 m",
+      "100 m",
+      "400 m",
+      "1 000 m"
+    ],
+    "answer": "100 m",
+    "fact": "Nejlepší sprinteři uběhnou sto metrů za necelých deset vteřin.",
+    "difficulty": 1,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/B%C4%9Bh_na_100_metr%C5%AF",
+    "status": "verified",
+    "id": "lavice-sport-hry-052"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje hra s pálkou a míčkem, která je oblíbená hlavně v Anglii a Indii?",
+    "options": [
+      "Kriket",
+      "Golf",
+      "Florbal",
+      "Lakros"
+    ],
+    "answer": "Kriket",
+    "fact": "Jeden zápas kriketu může trvat až pět dní.",
+    "difficulty": 3,
+    "image": "🏏",
+    "source": "https://cs.wikipedia.org/wiki/Kriket",
+    "status": "verified",
+    "id": "lavice-sport-hry-053"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu jsou disciplíny sjezd a super-G?",
+    "options": [
+      "V alpském lyžování",
+      "V plavání",
+      "V cyklistice",
+      "V tenise"
+    ],
+    "answer": "V alpském lyžování",
+    "fact": "Ve sjezdu se lyžaři řítí rychlostí přes 120 kilometrů za hodinu.",
+    "difficulty": 2,
+    "image": "🎿",
+    "source": "https://cs.wikipedia.org/wiki/Alpsk%C3%A9_ly%C5%BEov%C3%A1n%C3%AD",
+    "status": "verified",
+    "id": "lavice-sport-hry-054"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu sjíždí závodník ledový žlab na saních hlavou napřed?",
+    "options": [
+      "Ve skeletonu",
+      "V curlingu",
+      "V biatlonu",
+      "Ve slalomu"
+    ],
+    "answer": "Ve skeletonu",
+    "fact": "Skeletonista leží na saních na břiše a řídí je posouváním těla.",
+    "difficulty": 3,
+    "image": "🛷",
+    "source": "https://cs.wikipedia.org/wiki/Skeleton",
+    "status": "verified",
+    "id": "lavice-sport-hry-055"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Kolik kol (framů) má jedna hra bowlingu?",
+    "options": [
+      "5",
+      "10",
+      "12",
+      "20"
+    ],
+    "answer": "10",
+    "fact": "Když hráč shodí všech deset kuželek prvním hodem, říká se tomu strike.",
+    "difficulty": 3,
+    "image": "🎳",
+    "source": "https://cs.wikipedia.org/wiki/Bowling",
+    "status": "verified",
+    "id": "lavice-sport-hry-056"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve které zemi vzniklo judo?",
+    "options": [
+      "V Japonsku",
+      "V Číně",
+      "V Brazílii",
+      "V Rusku"
+    ],
+    "answer": "V Japonsku",
+    "fact": "Slovo judo znamená v japonštině jemná cesta.",
+    "difficulty": 2,
+    "image": "🥋",
+    "source": "https://cs.wikipedia.org/wiki/Judo",
+    "status": "verified",
+    "id": "lavice-sport-hry-057"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu skáčou závodníci na bruslích až čtyři otočky ve vzduchu?",
+    "options": [
+      "V krasobruslení",
+      "V hokeji",
+      "V rychlobruslení",
+      "V curlingu"
+    ],
+    "answer": "V krasobruslení",
+    "fact": "Na olympiádě se v krasobruslení soutěží i v tanci na ledě.",
+    "difficulty": 1,
+    "image": "⛸️",
+    "source": "https://cs.wikipedia.org/wiki/Krasobruslen%C3%AD",
+    "status": "verified",
+    "id": "lavice-sport-hry-058"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Jak se jmenuje atletická disciplína, ve které se hází plochým kotoučem?",
+    "options": [
+      "Hod diskem",
+      "Vrh koulí",
+      "Hod oštěpem",
+      "Skok daleký"
+    ],
+    "answer": "Hod diskem",
+    "fact": "Disk se hází z kruhu a atlet se před hodem rychle otočí.",
+    "difficulty": 2,
+    "image": "🥏",
+    "source": "https://cs.wikipedia.org/wiki/Hod_diskem",
+    "status": "verified",
+    "id": "lavice-sport-hry-059"
+  },
+  {
+    "level": "lavice",
+    "theme": "sport-hry",
+    "type": "choice",
+    "text": "Ve kterém sportu projíždějí kajakáři na divoké vodě mezi brankami?",
+    "options": [
+      "Ve vodním slalomu",
+      "Ve veslování",
+      "V plavání",
+      "V surfování"
+    ],
+    "answer": "Ve vodním slalomu",
+    "fact": "Když závodník branku zavadí, dostane trestné sekundy.",
+    "difficulty": 3,
+    "image": "🛶",
+    "source": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_slalom",
+    "status": "verified",
+    "id": "lavice-sport-hry-060"
   }
 ]
