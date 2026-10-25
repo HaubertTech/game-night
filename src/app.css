@@ -1,32 +1,189 @@
+/*
+ * Design tokens of Rodinný herní večer — documented in docs/DESIGN.md, live preview at /design.
+ * Layers: 1) base palette (raw colors), 2) semantic roles (what a color means),
+ * 3) scales (type, space, radius, shadow, z-index, motion). Components use roles and scales;
+ * the base palette names stay because existing components use them directly.
+ */
 :root {
+  /* --- 1. Base palette: warm paper, brown ink, sage, clay, slate, mustard -------------------- */
   --cream: #f4eee2;
   --paper: #fbf8f1;
+  --surface: #fff;
   --ink: #3b332b;
   --ink-soft: #6d6257;
   --line: #ddd2c0;
   --sage: #8a9a7b;
   --sage-dark: #56664b;
   --sage-light: #e1e7d8;
+  --sage-edge: #3f4b37;
   --clay: #b5835f;
   --clay-dark: #85593b;
   --clay-light: #f0dfcf;
   --slate: #6c7f93;
   --slate-dark: #485a6c;
   --slate-light: #dce3ea;
-  --good: #56664b;
-  --good-bg: #e1e7d8;
-  --bad: #9a5a45;
-  --bad-bg: #f2ddd3;
-  /* Inputs, list rows and table cards on paper. */
-  --surface: #fff;
-  /* Edge of the primary (sage) button and text on dark fills. */
-  --sage-edge: #3f4b37;
+  --mustard: #e2b33c;
+  --mustard-dark: #7d5c10;
+  --mustard-light: #f6e9c4;
+  --rose: #b07a86;
+  --rose-dark: #7f4c58;
+  --rose-light: #f3e2e5;
+  --brick: #8c4f3c;
+  --brick-light: #f2ddd3;
+  --night: #2b2622;
+  --night-soft: #3b332b;
   --on-dark: #fbf8f1;
+
+  /* --- 2. Semantic roles ----------------------------------------------------------------------- */
+  --color-bg: var(--cream);
+  --color-surface: var(--paper);
+  --color-surface-raised: var(--surface);
+  --color-border: var(--line);
+  --color-text: var(--ink);
+  --color-text-muted: var(--ink-soft);
+  --color-text-on-dark: var(--on-dark);
+  --color-primary: var(--sage-dark);
+  --color-primary-edge: var(--sage-edge);
+  --color-primary-soft: var(--sage-light);
+  --color-accent: var(--clay);
+  --color-accent-edge: var(--clay-dark);
+  --color-accent-soft: var(--clay-light);
+  --color-info: var(--slate-dark);
+  --color-info-soft: var(--slate-light);
+  --color-success: var(--sage-dark);
+  --color-success-bg: var(--sage-light);
+  --color-error: var(--brick);
+  --color-error-bg: var(--brick-light);
+  --color-warning: var(--mustard-dark);
+  --color-warning-bg: var(--mustard-light);
+  --color-focus: var(--slate);
+  /* Older names of the same roles (kept as aliases; prefer --color-* in new code). */
+  --good: var(--color-success);
+  --good-bg: var(--color-success-bg);
+  --bad: var(--color-error);
+  --bad-bg: var(--color-error-bg);
+
+  /* Levels (docs/UROVNE.md): text color + soft background for badges, tiles and accents. */
+  --level-kocarek: var(--rose-dark);
+  --level-kocarek-bg: var(--rose-light);
+  --level-piskoviste: var(--sage-dark);
+  --level-piskoviste-bg: var(--sage-light);
+  --level-prvnacek: var(--mustard-dark);
+  --level-prvnacek-bg: var(--mustard-light);
+  --level-lavice: var(--slate-dark);
+  --level-lavice-bg: var(--slate-light);
+  --level-hospoda: var(--clay-dark);
+  --level-hospoda-bg: var(--clay-light);
+
+  /* TV and lobby on a dark evening background (opt-in with .theme-tv). */
+  --tv-bg: var(--night);
+  --tv-surface: var(--night-soft);
+  --tv-border: #5a4f44;
+  --tv-text: var(--on-dark);
+  --tv-text-muted: #cfc4b3;
+  --tv-accent: var(--mustard);
+
+  /* --- 3. Typography --------------------------------------------------------------------------- */
+  --font: ui-rounded, 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-emoji: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  /* 1rem = 18px (html font-size). */
+  --text-xs: 0.85rem;
+  --text-sm: 0.95rem;
+  --text-md: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.4rem;
+  --text-2xl: 1.8rem;
+  --text-3xl: 2.4rem;
+  --text-4xl: 3.5rem;
+  /* TV: read from the sofa, 3 m away. */
+  --text-tv: clamp(1.6rem, 2.6vw, 2.6rem);
+  --text-tv-title: clamp(3rem, 6vw, 5.5rem);
+  --leading-tight: 1.15;
+  --leading: 1.4;
+  --leading-loose: 1.6;
+  --weight-normal: 400;
+  --weight-medium: 650;
+  --weight-bold: 700;
+  --weight-heavy: 800;
+
+  /* --- Spacing (4px grid) and touch targets ---------------------------------------------------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --tap-min: 44px;
+  --tap: 60px;
+  --tap-big: 76px;
+
+  /* --- Shape: hand-drawn, slightly uneven corners ---------------------------------------------- */
   --radius: 22px 18px 24px 20px / 20px 24px 18px 22px;
   --radius-sm: 14px 12px 15px 13px / 13px 15px 12px 14px;
+  --radius-lg: 30px 26px 32px 28px / 28px 32px 26px 30px;
+  --radius-pill: 999px;
+  --border: 2px;
+
+  /* --- Shadows: flat offset, like a paper cut-out ---------------------------------------------- */
   --shadow: 0 3px 0 rgba(59, 51, 43, 0.14);
-  --font: ui-rounded, 'SF Pro Rounded', 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --shadow-press: 0 3px 0 var(--ink);
+  --shadow-pressed: 0 1px 0 var(--ink);
+  --shadow-lift: 0 6px 0 rgba(59, 51, 43, 0.25);
+  --shadow-overlay: 0 12px 32px rgba(43, 38, 34, 0.28);
+  --scrim: rgba(59, 51, 43, 0.35);
+
+  /* --- Layers ---------------------------------------------------------------------------------- */
+  --z-raised: 1;
+  --z-nav: 10;
+  --z-sticky: 20;
+  --z-overlay: 30;
+  --z-sheet: 40;
+  --z-modal: 50;
+  --z-toast: 60;
+
+  /* --- Motion ---------------------------------------------------------------------------------- */
+  --dur-press: 80ms;
+  --dur-fast: 150ms;
+  --dur: 250ms;
+  --dur-slow: 450ms;
+  --dur-celebrate: 900ms;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
   color-scheme: light;
+}
+
+/* Users who ask for less motion: no flying cards, no bouncing; state changes stay instant. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-press: 0ms;
+    --dur-fast: 0ms;
+    --dur: 0ms;
+    --dur-slow: 0ms;
+    --dur-celebrate: 0ms;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dark evening theme for the TV screen and lobbies: remaps the roles, components stay the same. */
+.theme-tv {
+  --color-bg: var(--tv-bg);
+  --color-text: var(--tv-text);
+  --color-text-muted: var(--tv-text-muted);
+  --color-border: var(--tv-border);
+  background: var(--tv-bg);
+  color: var(--tv-text);
 }
 
 * {
@@ -37,11 +194,11 @@ html,
 body {
   margin: 0;
   min-height: 100%;
-  background: var(--cream);
-  color: var(--ink);
+  background: var(--color-bg);
+  color: var(--color-text);
   font-family: var(--font);
   font-size: 18px;
-  line-height: 1.4;
+  line-height: var(--leading);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -53,9 +210,9 @@ body {
 h1,
 h2,
 h3 {
-  line-height: 1.15;
+  line-height: var(--leading-tight);
   margin: 0 0 0.5em;
-  font-weight: 800;
+  font-weight: var(--weight-heavy);
 }
 
 .page {
@@ -66,8 +223,8 @@ h3 {
 }
 
 .card {
-  background: var(--paper);
-  border: 2px solid var(--line);
+  background: var(--color-surface);
+  border: var(--border) solid var(--color-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 20px 22px;
@@ -76,18 +233,18 @@ h3 {
 .stack {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--space-4);
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: var(--space-3);
   align-items: center;
 }
 
 .muted {
-  color: var(--ink-soft);
+  color: var(--color-text-muted);
 }
 
 button,
@@ -105,21 +262,21 @@ button,
   align-items: center;
   justify-content: center;
   gap: 0.5em;
-  min-height: 60px;
-  padding: 12px 24px;
-  border: 2px solid var(--ink);
+  min-height: var(--tap);
+  padding: var(--space-3) var(--space-6);
+  border: var(--border) solid var(--ink);
   border-radius: var(--radius-sm);
   background: var(--paper);
-  font-size: 1.15rem;
-  font-weight: 700;
-  box-shadow: 0 3px 0 var(--ink);
-  transition: transform 80ms ease, box-shadow 80ms ease;
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  box-shadow: var(--shadow-press);
+  transition: transform var(--dur-press) ease, box-shadow var(--dur-press) ease;
   text-decoration: none;
 }
 
 .btn:active {
   transform: translateY(2px);
-  box-shadow: 0 1px 0 var(--ink);
+  box-shadow: var(--shadow-pressed);
 }
 
 .btn:disabled {
@@ -129,17 +286,17 @@ button,
 }
 
 .btn.primary {
-  background: var(--sage-dark);
-  border-color: var(--sage-edge);
-  box-shadow: 0 3px 0 var(--sage-edge);
-  color: var(--on-dark);
+  background: var(--color-primary);
+  border-color: var(--color-primary-edge);
+  box-shadow: 0 3px 0 var(--color-primary-edge);
+  color: var(--color-text-on-dark);
 }
 
 .btn.clay {
-  background: var(--clay);
-  border-color: var(--clay-dark);
-  box-shadow: 0 3px 0 var(--clay-dark);
-  color: var(--on-dark);
+  background: var(--color-accent);
+  border-color: var(--color-accent-edge);
+  box-shadow: 0 3px 0 var(--color-accent-edge);
+  color: var(--color-text-on-dark);
 }
 
 .btn.danger {
@@ -149,13 +306,13 @@ button,
 }
 
 .btn.big {
-  min-height: 76px;
-  font-size: 1.4rem;
+  min-height: var(--tap-big);
+  font-size: var(--text-xl);
   padding: 14px 34px;
 }
 
 .btn.small {
-  min-height: 44px;
+  min-height: var(--tap-min);
   padding: 6px 14px;
   font-size: 1rem;
 }
@@ -203,12 +360,12 @@ a:focus-visible,
 select:focus-visible,
 textarea:focus-visible,
 summary:focus-visible {
-  outline: 3px solid var(--slate);
+  outline: 3px solid var(--color-focus);
   outline-offset: 2px;
 }
 
 .emoji {
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  font-family: var(--font-emoji);
   line-height: 1;
 }
 
@@ -222,19 +379,29 @@ summary:focus-visible {
   font-weight: 700;
 }
 
-.badge.hospoda {
-  background: var(--clay-light);
-  color: var(--clay-dark);
-}
-
-.badge.lavice {
-  background: var(--slate-light);
-  color: var(--slate-dark);
+.badge.kocarek {
+  background: var(--level-kocarek-bg);
+  color: var(--level-kocarek);
 }
 
 .badge.piskoviste {
-  background: var(--sage-light);
-  color: var(--sage-dark);
+  background: var(--level-piskoviste-bg);
+  color: var(--level-piskoviste);
+}
+
+.badge.prvnacek {
+  background: var(--level-prvnacek-bg);
+  color: var(--level-prvnacek);
+}
+
+.badge.lavice {
+  background: var(--level-lavice-bg);
+  color: var(--level-lavice);
+}
+
+.badge.hospoda {
+  background: var(--level-hospoda-bg);
+  color: var(--level-hospoda);
 }
 
 .visually-hidden {
