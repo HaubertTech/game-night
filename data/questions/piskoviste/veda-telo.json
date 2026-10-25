@@ -412,5 +412,401 @@
     "source": "https://cs.wikipedia.org/wiki/Srdce",
     "status": "verified",
     "id": "piskoviste-veda-telo-024"
+  },
+  {
+    "id": "piskoviste-veda-telo-025",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím poznáme, že je něco sladké?",
+    "options": [
+      "👂 Ušima",
+      "✋ Rukama",
+      "👅 Jazykem"
+    ],
+    "answer": "👅 Jazykem",
+    "fact": "Na jazyku máme tisíce malinkých chuťových pohárků.",
+    "difficulty": 2,
+    "image": "🍯",
+    "source": "https://cs.wikipedia.org/wiki/Chu%C5%A5ov%C3%BD_poh%C3%A1rek",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-026",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co děláme, než jdeme spát?",
+    "options": [
+      "🪥 Čistíme si zuby",
+      "🍰 Jíme dort",
+      "⚽ Hrajeme fotbal"
+    ],
+    "answer": "🪥 Čistíme si zuby",
+    "fact": "Zuby čistíme aspoň dvě minuty.",
+    "difficulty": 1,
+    "image": "🌙",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-027",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co máme pod kůží, aby nás drželo rovně?",
+    "options": [
+      "🧸 Vatu",
+      "🦴 Kosti",
+      "💧 Vodu"
+    ],
+    "answer": "🦴 Kosti",
+    "fact": "Dospělý člověk má asi 206 kostí.",
+    "difficulty": 2,
+    "image": "🧍",
+    "source": "https://cs.wikipedia.org/wiki/Kostra_%C4%8Dlov%C4%9Bka",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-028",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co dělá srdíčko, když rychle běháme?",
+    "options": [
+      "😴 Usne",
+      "🧊 Zmrzne",
+      "💓 Tluče rychleji"
+    ],
+    "answer": "💓 Tluče rychleji",
+    "fact": "Srdíčko malého dítěte tluče v klidu asi stokrát za minutu.",
+    "difficulty": 2,
+    "image": "🏃",
+    "source": "https://cs.wikipedia.org/wiki/Tepov%C3%A1_frekvence",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-029",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co uděláme, když máme rýmu?",
+    "options": [
+      "🤧 Vysmrkáme se do kapesníku",
+      "👕 Utřeme se do rukávu",
+      "🙂 Nic"
+    ],
+    "answer": "🤧 Vysmrkáme se do kapesníku",
+    "fact": "Použitý kapesník hned vyhodíme do koše.",
+    "difficulty": 1,
+    "image": "🤒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-030",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím poznáme, jakou barvu má kytička?",
+    "options": [
+      "👂 Ušima",
+      "👀 Očima",
+      "👃 Nosem"
+    ],
+    "answer": "👀 Očima",
+    "fact": "Některá zvířata vidí barvy jinak než my.",
+    "difficulty": 1,
+    "image": "🌷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-031",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nám pomáhá lépe vidět?",
+    "options": [
+      "🧤 Rukavice",
+      "🧣 Šála",
+      "👓 Brýle"
+    ],
+    "answer": "👓 Brýle",
+    "fact": "Brýle nosí i malé děti, když je potřebují.",
+    "difficulty": 1,
+    "image": "👀",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-032",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "S čím si děti nehrají, protože je to nebezpečné?",
+    "options": [
+      "🔥 Se zápalkami",
+      "🧸 S medvídkem",
+      "🧩 S puzzle"
+    ],
+    "answer": "🔥 Se zápalkami",
+    "fact": "Když uvidíme oheň, hned to řekneme dospělému.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-033",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co uděláme, když nás píchne včelka?",
+    "options": [
+      "🐝 Honíme ji",
+      "🙋 Řekneme to dospělému",
+      "🙈 Schováme se pod deku"
+    ],
+    "answer": "🙋 Řekneme to dospělému",
+    "fact": "Včela po píchnutí nechá v kůži žihadlo.",
+    "difficulty": 1,
+    "image": "🐝",
+    "source": "https://cs.wikipedia.org/wiki/V%C4%8Dela_medonosn%C3%A1",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-034",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "S kým smíme jít do vody?",
+    "options": [
+      "🐶 Jen s pejskem",
+      "🧸 S medvídkem",
+      "👩 S dospělým"
+    ],
+    "answer": "👩 S dospělým",
+    "fact": "Plavat se děti učí v plaveckém kurzu.",
+    "difficulty": 1,
+    "image": "🌊",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-035",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co je nebezpečné dát do pusy?",
+    "options": [
+      "🔋 Baterii",
+      "🍎 Jablko",
+      "🥕 Mrkev"
+    ],
+    "answer": "🔋 Baterii",
+    "fact": "Malé věci do pusy nedáváme, mohli bychom se jimi zakuckat.",
+    "difficulty": 1,
+    "image": "⚠️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-036",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Čím si myjeme vlasy?",
+    "options": [
+      "🍯 Medem",
+      "🧴 Šamponem",
+      "🧃 Džusem"
+    ],
+    "answer": "🧴 Šamponem",
+    "fact": "Šampon udělá pěnu, která smyje z vlasů mastnotu.",
+    "difficulty": 1,
+    "image": "🛁",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-037",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Proč si myjeme ruce?",
+    "options": [
+      "🎨 Aby byly barevné",
+      "❄️ Aby byly studené",
+      "🦠 Abychom smyli bacily"
+    ],
+    "answer": "🦠 Abychom smyli bacily",
+    "fact": "Ruce mydlíme tak dlouho, než napočítáme do dvaceti.",
+    "difficulty": 2,
+    "image": "🧼",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-038",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co dělá tělo, když je nám horko?",
+    "options": [
+      "💦 Potí se",
+      "🥶 Třese se",
+      "🌸 Kvete"
+    ],
+    "answer": "💦 Potí se",
+    "fact": "Pot nás ochlazuje, když se z kůže odpařuje.",
+    "difficulty": 2,
+    "image": "☀️",
+    "source": "https://cs.wikipedia.org/wiki/Pot",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-039",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co dělá tělo, když je nám zima?",
+    "options": [
+      "💦 Potí se",
+      "🥶 Třese se",
+      "😴 Usne"
+    ],
+    "answer": "🥶 Třese se",
+    "fact": "Když se třeseme, tělo se samo zahřívá.",
+    "difficulty": 2,
+    "image": "❄️",
+    "source": "https://cs.wikipedia.org/wiki/T%C5%99es",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-040",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Kdy vidíme na nebi hvězdy?",
+    "options": [
+      "☀️ Ve dne",
+      "🌅 Brzy ráno",
+      "🌙 V noci"
+    ],
+    "answer": "🌙 V noci",
+    "fact": "Slunce je taky hvězda, jen je nám nejblíž.",
+    "difficulty": 1,
+    "image": "✨",
+    "source": "https://cs.wikipedia.org/wiki/Slunce",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-041",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co udělá míč, když ho pustíme z ruky?",
+    "options": [
+      "⬇️ Spadne dolů",
+      "⬆️ Vyletí nahoru",
+      "➡️ Odletí do strany"
+    ],
+    "answer": "⬇️ Spadne dolů",
+    "fact": "Všechno padá k zemi, protože nás Země přitahuje.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-042",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co se stane s čokoládou na sluníčku?",
+    "options": [
+      "🧊 Zmrzne",
+      "💧 Rozteče se",
+      "🌱 Vyroste"
+    ],
+    "answer": "💧 Rozteče se",
+    "fact": "V ledničce čokoláda zase ztuhne.",
+    "difficulty": 1,
+    "image": "☀️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-043",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co nám posvítí, když je tma?",
+    "options": [
+      "🧸 Plyšák",
+      "🥄 Lžíce",
+      "🔦 Baterka"
+    ],
+    "answer": "🔦 Baterka",
+    "fact": "Baterka svítí díky baterii, která je uvnitř.",
+    "difficulty": 1,
+    "image": "🌑",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-044",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co vznikne, když smícháme modrou a žlutou?",
+    "options": [
+      "🟢 Zelená",
+      "🔴 Červená",
+      "🟣 Fialová"
+    ],
+    "answer": "🟢 Zelená",
+    "fact": "Smícháním červené a žluté vznikne oranžová.",
+    "difficulty": 3,
+    "image": "🔵➕🟡",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-045",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co se stane s vodou, když ji dlouho vaříme?",
+    "options": [
+      "🧊 Zmrzne",
+      "💨 Změní se v páru",
+      "🌈 Zbarví se"
+    ],
+    "answer": "💨 Změní se v páru",
+    "fact": "Pára z hrnce je horká, proto k ní nedáváme ruce.",
+    "difficulty": 2,
+    "image": "🍲",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-veda-telo-046",
+    "level": "piskoviste",
+    "theme": "veda-telo",
+    "type": "choice",
+    "text": "Co uděláme, když se spálíme?",
+    "options": [
+      "🧈 Namažeme to máslem",
+      "🔥 Dáme ruku blíž k ohni",
+      "💧 Dáme ruku pod studenou vodu"
+    ],
+    "answer": "💧 Dáme ruku pod studenou vodu",
+    "fact": "Studená voda popáleninu ochladí, takže tolik nebolí.",
+    "difficulty": 2,
+    "image": "⚠️",
+    "source": "https://cs.wikipedia.org/wiki/Pop%C3%A1lenina",
+    "status": "verified"
   }
 ]

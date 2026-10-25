@@ -430,5 +430,373 @@
     "source": "https://cs.wikipedia.org/wiki/Den_u%C4%8Ditel%C5%AF",
     "status": "verified",
     "id": "piskoviste-cesko-svet-024"
+  },
+  {
+    "id": "piskoviste-cesko-svet-025",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co potřebuje kuchař?",
+    "options": [
+      "🔨 Kladivo",
+      "🍳 Pánev",
+      "🪛 Šroubovák",
+      "🧯 Hasicí přístroj"
+    ],
+    "answer": "🍳 Pánev",
+    "fact": "Kuchař nosí čepici, aby mu vlasy nepadaly do jídla.",
+    "difficulty": 2,
+    "image": "👨‍🍳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-026",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co potřebuje stavař?",
+    "options": [
+      "🎈 Balonky",
+      "🧸 Plyšáka",
+      "🧱 Cihly",
+      "🍰 Dort"
+    ],
+    "answer": "🧱 Cihly",
+    "fact": "Z cihel a malty se stavějí zdi domů.",
+    "difficulty": 1,
+    "image": "👷",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-027",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo pracuje s touhle věcí?",
+    "options": [
+      "👩‍⚕️ Doktorka",
+      "👨‍🍳 Kuchař",
+      "👨‍🚒 Hasič",
+      "👷 Stavař"
+    ],
+    "answer": "👩‍⚕️ Doktorka",
+    "fact": "Fonendoskopem doktor poslouchá, jak dýcháme.",
+    "difficulty": 2,
+    "image": "🩺",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-028",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo opravuje auta?",
+    "options": [
+      "👩‍🍳 Kuchařka",
+      "🧑‍🏫 Učitel",
+      "👨‍🔧 Automechanik",
+      "👩‍🌾 Zemědělkyně"
+    ],
+    "answer": "👨‍🔧 Automechanik",
+    "fact": "Automechanik pracuje v dílně, které se říká autoservis.",
+    "difficulty": 2,
+    "image": "🚗",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-029",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo chytá ryby?",
+    "options": [
+      "🎣 Rybář",
+      "🧑‍🚀 Kosmonaut",
+      "💇 Kadeřnice",
+      "👷 Stavař"
+    ],
+    "answer": "🎣 Rybář",
+    "fact": "Rybář chytá ryby na udici nebo do sítě.",
+    "difficulty": 1,
+    "image": "🐟",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-030",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Na jakou barvu musí auto zastavit?",
+    "options": [
+      "🟢 Na zelenou",
+      "🔴 Na červenou",
+      "🔵 Na modrou"
+    ],
+    "answer": "🔴 Na červenou",
+    "fact": "Semafor pro auta má tři světla: červené, oranžové a zelené.",
+    "difficulty": 2,
+    "image": "🚗",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-032",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde si můžeme hrát s míčem?",
+    "options": [
+      "🌳 V parku",
+      "🛣️ Na silnici",
+      "🛤️ Na kolejích"
+    ],
+    "answer": "🌳 V parku",
+    "fact": "V parku je dost místa a nejezdí tam auta.",
+    "difficulty": 1,
+    "image": "⚽",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-033",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde si půjčujeme knížky?",
+    "options": [
+      "🏊 V bazénu",
+      "📚 V knihovně",
+      "🚒 U hasičů"
+    ],
+    "answer": "📚 V knihovně",
+    "fact": "Knížku z knihovny si půjčíme, přečteme a zase vrátíme.",
+    "difficulty": 2,
+    "image": "📖",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-034",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kam jdeme, když chceme vidět slona a žirafu?",
+    "options": [
+      "🏫 Do školy",
+      "🏪 Do obchodu",
+      "🦓 Do zoo"
+    ],
+    "answer": "🦓 Do zoo",
+    "fact": "O zvířata v zoo se starají ošetřovatelé.",
+    "difficulty": 1,
+    "image": "🐘",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-035",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde čekáme na autobus?",
+    "options": [
+      "🚏 Na zastávce",
+      "🏥 V nemocnici",
+      "🏰 Na hradě"
+    ],
+    "answer": "🚏 Na zastávce",
+    "fact": "Na zastávce visí jízdní řád. Je v něm napsáno, kdy autobus přijede.",
+    "difficulty": 1,
+    "image": "🚌",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-036",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde přistávají letadla?",
+    "options": [
+      "🌊 V moři",
+      "🛫 Na letišti",
+      "🌲 V lese"
+    ],
+    "answer": "🛫 Na letišti",
+    "fact": "Na letišti jsou dlouhé rovné dráhy pro rozjezd i přistání.",
+    "difficulty": 1,
+    "image": "✈️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-037",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde se kupují léky?",
+    "options": [
+      "📚 V knihovně",
+      "🏊 V bazénu",
+      "💊 V lékárně"
+    ],
+    "answer": "💊 V lékárně",
+    "fact": "V lékárně pracuje lékárník, který léky dobře zná.",
+    "difficulty": 2,
+    "image": "🤒",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-038",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Do kterého kontejneru patří plastová lahev?",
+    "options": [
+      "🟡 Do žlutého",
+      "🔵 Do modrého",
+      "🟢 Do zeleného"
+    ],
+    "answer": "🟡 Do žlutého",
+    "fact": "Do modrého kontejneru patří papír a do zeleného sklo.",
+    "difficulty": 3,
+    "image": "♻️",
+    "source": "https://www.jaktridit.cz/",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-039",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co uděláme, když se v obchodě ztratíme?",
+    "options": [
+      "🏃 Utečeme ven",
+      "🙋 Řekneme to prodavačce",
+      "🚗 Jdeme hledat auto"
+    ],
+    "answer": "🙋 Řekneme to prodavačce",
+    "fact": "Je dobré znát svoje jméno a jméno maminky nebo táty.",
+    "difficulty": 2,
+    "image": "🏪",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-040",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "S kým smíme odejít ze školky?",
+    "options": [
+      "🍬 S cizím pánem s bonbony",
+      "🐶 S cizím pejskem",
+      "👨‍👩‍👧 S maminkou nebo tátou"
+    ],
+    "answer": "👨‍👩‍👧 S maminkou nebo tátou",
+    "fact": "S cizími lidmi nikam nechodíme, ani když jsou milí.",
+    "difficulty": 1,
+    "image": "🏫",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-041",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Co uděláme, než přejdeme silnici?",
+    "options": [
+      "👀 Rozhlédneme se",
+      "🏃 Rozběhneme se",
+      "🙈 Zavřeme oči"
+    ],
+    "answer": "👀 Rozhlédneme se",
+    "fact": "Rozhlížíme se vlevo, vpravo a ještě jednou vlevo.",
+    "difficulty": 1,
+    "image": "🛣️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-042",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde sedí v autě malé dítě?",
+    "options": [
+      "🧳 V kufru",
+      "💺 V dětské sedačce",
+      "🚗 Na střeše"
+    ],
+    "answer": "💺 V dětské sedačce",
+    "fact": "V autě se vždycky připoutáme pásem.",
+    "difficulty": 1,
+    "image": "🚗",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-043",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kde bydlí v pohádkách vodník?",
+    "options": [
+      "🌲 V lese",
+      "🏰 Na hradě",
+      "💧 V rybníce",
+      "🏔️ V horách"
+    ],
+    "answer": "💧 V rybníce",
+    "fact": "Vodník má zelený kabátek a z šosu mu kape voda.",
+    "difficulty": 2,
+    "image": "🐸",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-044",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo chodí s Mikulášem a čertem?",
+    "options": [
+      "👼 Anděl",
+      "🧚 Víla",
+      "🐰 Zajíček",
+      "🤖 Robot"
+    ],
+    "answer": "👼 Anděl",
+    "fact": "Mikuláš chodí večer 5. prosince a nosí sladkosti.",
+    "difficulty": 2,
+    "image": "🍬",
+    "source": "https://cs.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_(sv%C3%A1tek)",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-cesko-svet-045",
+    "level": "piskoviste",
+    "theme": "cesko-svet",
+    "type": "choice",
+    "text": "Kdo se stará o les a jeho zvířátka?",
+    "options": [
+      "🍳 Kuchař",
+      "🌲 Lesník",
+      "💇 Kadeřnice",
+      "✈️ Pilot"
+    ],
+    "answer": "🌲 Lesník",
+    "fact": "Lesník v zimě nosí zvířátkům do krmelce seno.",
+    "difficulty": 2,
+    "image": "🦌",
+    "source": "obecná znalost",
+    "status": "verified"
   }
 ]

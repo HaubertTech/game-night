@@ -430,5 +430,349 @@
     "source": "https://cs.wikipedia.org/wiki/O_Smolíčkovi",
     "status": "verified",
     "id": "piskoviste-pohadky-film-hudba-024"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-027",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo kousl do jablka a usnul?",
+    "options": [
+      "👸 Sněhurka",
+      "🧚 Víla",
+      "👧 Karkulka"
+    ],
+    "answer": "👸 Sněhurka",
+    "fact": "Sněhurka bydlela u trpaslíků v malé chaloupce.",
+    "difficulty": 2,
+    "image": "🍎",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-028",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo měl dlouhé vlasy a bydlel ve věži?",
+    "options": [
+      "👧 Karkulka",
+      "👱‍♀️ Locika",
+      "🐭 Myška"
+    ],
+    "answer": "👱‍♀️ Locika",
+    "fact": "Z okna věže spouštěla Locika svůj dlouhý cop.",
+    "difficulty": 3,
+    "image": "🏰",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-029",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo se v pohádce proměnil v prince?",
+    "options": [
+      "🐶 Pejsek",
+      "🐔 Kohout",
+      "🐸 Žabák"
+    ],
+    "answer": "🐸 Žabák",
+    "fact": "V pohádce Žabí král vylovil žabák princezně zlatý míček.",
+    "difficulty": 2,
+    "image": "👑",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDab%C3%AD_kr%C3%A1l",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-030",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo v písničce Pec nám spadla není doma?",
+    "options": [
+      "👴 Starý pecař",
+      "👮 Policista",
+      "🐶 Pejsek"
+    ],
+    "answer": "👴 Starý pecař",
+    "fact": "Mladý pecař pec postavit neumí.",
+    "difficulty": 3,
+    "image": "🎶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-031",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Přes co skákal pes v písničce?",
+    "options": [
+      "🌊 Přes řeku",
+      "🌾 Přes oves",
+      "🏠 Přes dům"
+    ],
+    "answer": "🌾 Přes oves",
+    "fact": "Pes v písničce skákal i přes zelenou louku.",
+    "difficulty": 2,
+    "image": "🐶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-032",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo v písničce Kočka leze dírou leze oknem?",
+    "options": [
+      "🐮 Kravička",
+      "🐟 Rybička",
+      "🐶 Pes"
+    ],
+    "answer": "🐶 Pes",
+    "fact": "Kočka leze dírou je stará česká lidová písnička.",
+    "difficulty": 2,
+    "image": "🪟",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-033",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kde bydlí Rákosníček?",
+    "options": [
+      "💧 V rybníce",
+      "🏰 Na hradě",
+      "🌲 V lese"
+    ],
+    "answer": "💧 V rybníce",
+    "fact": "Rákosníčkův rybník se jmenuje Brčálník.",
+    "difficulty": 3,
+    "image": "🎬",
+    "source": "https://cs.wikipedia.org/wiki/R%C3%A1kosn%C3%AD%C4%8Dek",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-034",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo přišel do domečku tří medvědů?",
+    "options": [
+      "🐺 Vlk",
+      "👧 Holčička",
+      "🦊 Liška"
+    ],
+    "answer": "👧 Holčička",
+    "fact": "Medvědi měli tři misky kaše: velkou, střední a malou.",
+    "difficulty": 2,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-035",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo vyhrál závod zajíce a želvy?",
+    "options": [
+      "🐰 Zajíc",
+      "🐌 Šnek",
+      "🐢 Želva"
+    ],
+    "answer": "🐢 Želva",
+    "fact": "Zajíc si během závodu lehl a usnul.",
+    "difficulty": 2,
+    "image": "🏁",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-036",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Komu rostl nos, když lhal?",
+    "options": [
+      "🪵 Pinocchiovi",
+      "👸 Popelce",
+      "🐻 Medvídkovi Pú"
+    ],
+    "answer": "🪵 Pinocchiovi",
+    "fact": "Pinocchia vyřezal ze dřeva řezbář Geppetto.",
+    "difficulty": 2,
+    "image": "👃",
+    "source": "https://cs.wikipedia.org/wiki/Pinocchio",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-037",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Na co se hraje paličkami?",
+    "options": [
+      "🎸 Na kytaru",
+      "🥁 Na buben",
+      "🎺 Na trumpetu",
+      "🎻 Na housle"
+    ],
+    "answer": "🥁 Na buben",
+    "fact": "Bubny lidé používali už v pravěku.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-038",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Který nástroj je největší?",
+    "options": [
+      "🎻 Housle",
+      "🎺 Trumpeta",
+      "🎹 Klavír",
+      "🔔 Zvoneček"
+    ],
+    "answer": "🎹 Klavír",
+    "fact": "Klavír má uvnitř struny, na které ťukají kladívka.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "https://cs.wikipedia.org/wiki/Klav%C3%ADr",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-039",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kterou písničku zpíváme o Vánocích?",
+    "options": [
+      "🎄 Nesem vám noviny",
+      "🌧️ Prší, prší",
+      "🐶 Skákal pes"
+    ],
+    "answer": "🎄 Nesem vám noviny",
+    "fact": "Vánočním písničkám se říká koledy.",
+    "difficulty": 2,
+    "image": "🎶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-040",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co zpíváme, když má někdo narozeniny?",
+    "options": [
+      "🎄 Nesem vám noviny",
+      "🎂 Hodně štěstí, zdraví",
+      "🐑 Ovčáci, čtveráci"
+    ],
+    "answer": "🎂 Hodně štěstí, zdraví",
+    "fact": "Písnička Hodně štěstí, zdraví se zpívá i na svátek.",
+    "difficulty": 2,
+    "image": "🎉",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-041",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co vařil kouzelný hrnec v pohádce Hrnečku, vař?",
+    "options": [
+      "🍕 Pizzu",
+      "🍦 Zmrzlinu",
+      "🥣 Kaši"
+    ],
+    "answer": "🥣 Kaši",
+    "fact": "Kaše tekla z chaloupky až na náves.",
+    "difficulty": 2,
+    "image": "🏠",
+    "source": "https://cs.wikipedia.org/wiki/Hrne%C4%8Dku%2C_va%C5%99!",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-042",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Které zvířátko s bodlinami kamarádí s Krtkem?",
+    "options": [
+      "🦔 Ježek",
+      "🐘 Slon",
+      "🐧 Tučňák"
+    ],
+    "answer": "🦔 Ježek",
+    "fact": "S Krtkem kamarádí také myška.",
+    "difficulty": 2,
+    "image": "🎬",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-043",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Co uměl kocour Mikeš?",
+    "options": [
+      "✈️ Létat",
+      "🗣️ Mluvit",
+      "⛸️ Bruslit"
+    ],
+    "answer": "🗣️ Mluvit",
+    "fact": "Kocour Mikeš kamarádil s prasátkem, kozlem a pejskem.",
+    "difficulty": 2,
+    "image": "🐱",
+    "source": "https://cs.wikipedia.org/wiki/Mike%C5%A1",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-044",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "V co vyrostlo ošklivé káčátko?",
+    "options": [
+      "🐔 Ve slepici",
+      "🦉 V sovu",
+      "🦢 V labuť"
+    ],
+    "answer": "🦢 V labuť",
+    "fact": "Pohádku o ošklivém káčátku napsal Hans Christian Andersen.",
+    "difficulty": 2,
+    "image": "🦆",
+    "source": "https://cs.wikipedia.org/wiki/O%C5%A1kliv%C3%A9_k%C3%A1%C4%8D%C3%A1tko",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-pohadky-film-hudba-045",
+    "level": "piskoviste",
+    "theme": "pohadky-film-hudba",
+    "type": "choice",
+    "text": "Kdo osvobodil lva ze sítě?",
+    "options": [
+      "🐭 Myška",
+      "🐘 Slon",
+      "🦒 Žirafa"
+    ],
+    "answer": "🐭 Myška",
+    "fact": "Myška síť přehryzala svými zoubky.",
+    "difficulty": 2,
+    "image": "🦁",
+    "source": "https://en.wikipedia.org/wiki/The_Lion_and_the_Mouse",
+    "status": "verified"
   }
 ]

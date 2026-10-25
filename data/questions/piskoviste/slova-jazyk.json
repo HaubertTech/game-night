@@ -214,5 +214,591 @@
     "source": "https://cs.wikipedia.org/wiki/Prase_dom%C3%A1c%C3%AD",
     "status": "verified",
     "id": "piskoviste-slova-jazyk-012"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-013",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku R?",
+    "options": [
+      "🐶 Pes",
+      "🐟 Ryba",
+      "🐮 Kráva",
+      "🦊 Liška"
+    ],
+    "answer": "🐟 Ryba",
+    "fact": "Ryby dýchají žábrami.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-014",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku Ž?",
+    "options": [
+      "🐘 Slon",
+      "🦁 Lev",
+      "🦒 Žirafa",
+      "🐻 Medvěd"
+    ],
+    "answer": "🦒 Žirafa",
+    "fact": "Žirafa spí jen chvilku a často vestoje.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/%C5%BDirafa",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-015",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku H?",
+    "options": [
+      "🍐 Hruška",
+      "🍎 Jablko",
+      "🍌 Banán",
+      "🍓 Jahoda"
+    ],
+    "answer": "🍐 Hruška",
+    "fact": "Hrušky dozrávají na konci léta a na podzim.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-016",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku T?",
+    "options": [
+      "🚗 Auto",
+      "🚜 Traktor",
+      "🚲 Kolo",
+      "✈️ Letadlo"
+    ],
+    "answer": "🚜 Traktor",
+    "fact": "Traktor jezdí pomalu, ale utáhne těžký vůz.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-017",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku D?",
+    "options": [
+      "🐘 Slon",
+      "🐸 Žába",
+      "🦕 Dinosaurus",
+      "🐟 Ryba"
+    ],
+    "answer": "🦕 Dinosaurus",
+    "fact": "Někteří dinosauři byli větší než autobus.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-018",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku V?",
+    "options": [
+      "🐺 Vlk",
+      "🦊 Liška",
+      "🐻 Medvěd"
+    ],
+    "answer": "🐺 Vlk",
+    "fact": "Vlci žijí ve skupinách, kterým se říká smečky.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-019",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku O?",
+    "options": [
+      "🐐 Koza",
+      "🐑 Ovce",
+      "🐮 Kráva"
+    ],
+    "answer": "🐑 Ovce",
+    "fact": "Ovečky se na jaře stříhají, aby jim v létě nebylo horko.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-020",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku J?",
+    "options": [
+      "🍌 Banán",
+      "🍒 Třešně",
+      "🍓 Jahoda",
+      "🍇 Hrozny"
+    ],
+    "answer": "🍓 Jahoda",
+    "fact": "Lesní jahody jsou malé, ale moc voňavé.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-021",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Která sladkost začíná na hlásku Č?",
+    "options": [
+      "🍫 Čokoláda",
+      "🍦 Zmrzlina",
+      "🍪 Sušenka",
+      "🍰 Dort"
+    ],
+    "answer": "🍫 Čokoláda",
+    "fact": "Čokoláda se dělá z kakaa, mléka a cukru.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-022",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které zvířátko začíná na hlásku Š?",
+    "options": [
+      "🐞 Beruška",
+      "🐌 Šnek",
+      "🦋 Motýl",
+      "🐝 Včela"
+    ],
+    "answer": "🐌 Šnek",
+    "fact": "Šnek má oči na koncích růžků.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "https://cs.wikipedia.org/wiki/Hlem%C3%BD%C5%BE%C4%8F_zahradn%C3%AD",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-023",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které zvířátko začíná na hlásku Z?",
+    "options": [
+      "🐴 Kůň",
+      "🐮 Kráva",
+      "🦓 Zebra",
+      "🐷 Prase"
+    ],
+    "answer": "🦓 Zebra",
+    "fact": "Zebry žijí ve velkých stádech.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-024",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku N?",
+    "options": [
+      "👃 Nos",
+      "👂 Ucho",
+      "👄 Pusa",
+      "✋ Ruka"
+    ],
+    "answer": "👃 Nos",
+    "fact": "Nosem poznáme, jak co voní.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-025",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co začíná na hlásku C?",
+    "options": [
+      "🍊 Pomeranč",
+      "🍋 Citron",
+      "🍌 Banán"
+    ],
+    "answer": "🍋 Citron",
+    "fact": "Citrony rostou na stromech v teplých zemích.",
+    "difficulty": 2,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-026",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem hruška?",
+    "options": [
+      "🍎 Jablko",
+      "🐟 Ryba",
+      "👂 Ouška"
+    ],
+    "answer": "👂 Ouška",
+    "fact": "Zralá hruška je měkká a šťavnatá.",
+    "difficulty": 2,
+    "image": "🍐",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-027",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem vlak?",
+    "options": [
+      "☁️ Mrak",
+      "🌳 Strom",
+      "🐶 Pes"
+    ],
+    "answer": "☁️ Mrak",
+    "fact": "Vlak táhne lokomotiva, za ní jedou vagony.",
+    "difficulty": 2,
+    "image": "🚂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-028",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem med?",
+    "options": [
+      "🍞 Chleba",
+      "🧊 Led",
+      "🌳 Strom"
+    ],
+    "answer": "🧊 Led",
+    "fact": "Med se nezkazí ani za mnoho let.",
+    "difficulty": 2,
+    "image": "🍯",
+    "source": "https://cs.wikipedia.org/wiki/Med",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-029",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem tráva?",
+    "options": [
+      "🐷 Prase",
+      "🐑 Ovce",
+      "🐄 Kráva"
+    ],
+    "answer": "🐄 Kráva",
+    "fact": "Kráva trávu nejdřív spolkne a potom ji v klidu přežvykuje.",
+    "difficulty": 2,
+    "image": "🌿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-030",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem dub?",
+    "options": [
+      "🦷 Zub",
+      "👃 Nos",
+      "✋ Ruka"
+    ],
+    "answer": "🦷 Zub",
+    "fact": "Dospělí mají v puse 32 zubů.",
+    "difficulty": 2,
+    "image": "🌳",
+    "source": "https://cs.wikipedia.org/wiki/Chrup",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-031",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem sníh?",
+    "options": [
+      "⛄ Sněhulák",
+      "😄 Smích",
+      "🌳 Strom"
+    ],
+    "answer": "😄 Smích",
+    "fact": "Ve sněhu zůstávají stopy, podle kterých poznáme zvířátka.",
+    "difficulty": 3,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-033",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co se rýmuje se slovem mák?",
+    "options": [
+      "🐦 Pták",
+      "🐟 Ryba",
+      "🐱 Kočka"
+    ],
+    "answer": "🐦 Pták",
+    "fact": "Mák má malinká černá semínka. Sype se na koláče.",
+    "difficulty": 2,
+    "image": "🌺",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-034",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova nahoře?",
+    "options": [
+      "⬅️ Vlevo",
+      "⬇️ Dole",
+      "➡️ Vpravo"
+    ],
+    "answer": "⬇️ Dole",
+    "fact": "Ptáček sedí nahoře na stromě a pejsek běhá dole.",
+    "difficulty": 2,
+    "image": "⬆️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-035",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova mokrý?",
+    "options": [
+      "❄️ Studený",
+      "🌙 Tmavý",
+      "☀️ Suchý"
+    ],
+    "answer": "☀️ Suchý",
+    "fact": "Mokré prádlo na slunci rychle uschne.",
+    "difficulty": 3,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-036",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova starý?",
+    "options": [
+      "👶 Mladý",
+      "🐢 Pomalý",
+      "🌙 Tmavý"
+    ],
+    "answer": "👶 Mladý",
+    "fact": "Nejstarší lidé na světě se dožili víc než sto let.",
+    "difficulty": 3,
+    "image": "👴",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-037",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova světlo?",
+    "options": [
+      "🔥 Oheň",
+      "🌑 Tma",
+      "💧 Voda"
+    ],
+    "answer": "🌑 Tma",
+    "fact": "Ve tmě vidí kočky mnohem líp než lidé.",
+    "difficulty": 2,
+    "image": "💡",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-038",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova tichý?",
+    "options": [
+      "🐢 Pomalý",
+      "❄️ Studený",
+      "📢 Hlasitý"
+    ],
+    "answer": "📢 Hlasitý",
+    "fact": "Když spí miminko, mluvíme potichu.",
+    "difficulty": 3,
+    "image": "🤫",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-039",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova těžký?",
+    "options": [
+      "🪶 Lehký",
+      "🌑 Tmavý",
+      "🐌 Pomalý"
+    ],
+    "answer": "🪶 Lehký",
+    "fact": "Kámen ve vodě klesne ke dnu, protože je těžký.",
+    "difficulty": 3,
+    "image": "🪨",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-040",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co je opakem slova otevřený?",
+    "options": [
+      "💧 Mokrý",
+      "🔒 Zavřený",
+      "🐢 Pomalý"
+    ],
+    "answer": "🔒 Zavřený",
+    "fact": "Dveře v zimě zavíráme, aby z domu neutíkalo teplo.",
+    "difficulty": 2,
+    "image": "🚪",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-041",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo je nejdelší?",
+    "options": [
+      "🐦 Kos",
+      "🐭 Myš",
+      "🐱 Kočička"
+    ],
+    "answer": "🐱 Kočička",
+    "fact": "Slova můžeme vytleskat po slabikách: ma-min-ka.",
+    "difficulty": 3,
+    "image": "👏",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-042",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Které slovo je nejkratší?",
+    "options": [
+      "🐭 Myš",
+      "🐊 Krokodýl",
+      "🦒 Žirafa"
+    ],
+    "answer": "🐭 Myš",
+    "fact": "Slovo žirafa má tři slabiky: ži-ra-fa.",
+    "difficulty": 3,
+    "image": "👏",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-043",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak dělají hodiny?",
+    "options": [
+      "🐶 Haf haf",
+      "⏰ Tik tak",
+      "🐄 Bú"
+    ],
+    "answer": "⏰ Tik tak",
+    "fact": "Velká ručička na hodinách ukazuje minuty.",
+    "difficulty": 1,
+    "image": "🏠",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-044",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Jak říkáme malému psovi?",
+    "options": [
+      "🐺 Vlk",
+      "🐈 Kocour",
+      "🐕 Pejsek"
+    ],
+    "answer": "🐕 Pejsek",
+    "fact": "O malých a milých věcech mluvíme laskavě: hrníček, stoleček.",
+    "difficulty": 2,
+    "image": "🐾",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "piskoviste-slova-jazyk-045",
+    "level": "piskoviste",
+    "theme": "slova-jazyk",
+    "type": "choice",
+    "text": "Co řekneme, když nám někdo něco dá?",
+    "options": [
+      "🙏 Děkuji",
+      "👋 Ahoj",
+      "😴 Dobrou noc"
+    ],
+    "answer": "🙏 Děkuji",
+    "fact": "Kouzelná slovíčka jsou prosím a děkuji.",
+    "difficulty": 1,
+    "image": "🎁",
+    "source": "obecná znalost",
+    "status": "verified"
   }
 ]

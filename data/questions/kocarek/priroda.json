@@ -308,5 +308,350 @@
     "source": "https://cs.wikipedia.org/wiki/Kur_domácí",
     "status": "verified",
     "id": "kocarek-priroda-020"
+  },
+  {
+    "id": "kocarek-priroda-021",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá mňau.",
+    "options": [
+      "🐶 Pejsek",
+      "🐱 Kočička",
+      "🐷 Prasátko"
+    ],
+    "answer": "🐱 Kočička",
+    "fact": "Kočička přede, když je spokojená.",
+    "difficulty": 1,
+    "image": "🏡",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-022",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá mééé.",
+    "options": [
+      "🐴 Koník",
+      "🐔 Slepička",
+      "🐐 Kozička"
+    ],
+    "answer": "🐐 Kozička",
+    "fact": "Kozičky rády šplhají po kamenech a skalkách.",
+    "difficulty": 1,
+    "image": "🏡",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-023",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá kvák kvák.",
+    "options": [
+      "🦆 Kachnička",
+      "🐮 Kravička",
+      "🐑 Ovečka"
+    ],
+    "answer": "🦆 Kachnička",
+    "fact": "Kachnička má mezi prstíky blány, a proto dobře plave.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-024",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá kykyryký.",
+    "options": [
+      "🐷 Prasátko",
+      "🐓 Kohoutek",
+      "🐶 Pejsek"
+    ],
+    "answer": "🐓 Kohoutek",
+    "fact": "Kohoutek kokrhá hlavně brzy ráno.",
+    "difficulty": 1,
+    "image": "🌅",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-025",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá chro chro.",
+    "options": [
+      "🐱 Kočička",
+      "🐰 Zajíček",
+      "🐷 Prasátko"
+    ],
+    "answer": "🐷 Prasátko",
+    "fact": "Prasátko má placatý rypáček a rádo se válí v blátě.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-026",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo dělá bééé.",
+    "options": [
+      "🐑 Ovečka",
+      "🐔 Slepička",
+      "🐶 Pejsek"
+    ],
+    "answer": "🐑 Ovečka",
+    "fact": "Ovečky se pasou na louce pohromadě ve stádu.",
+    "difficulty": 1,
+    "image": "👂",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-027",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž štěňátko.",
+    "options": [
+      "🐱 Koťátko",
+      "🐶 Štěňátko",
+      "🐰 Zajíček"
+    ],
+    "answer": "🐶 Štěňátko",
+    "fact": "Štěňátko je malý pejsek. Rádo si hraje a okusuje hračky.",
+    "difficulty": 1,
+    "image": "🏡",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-028",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž zajíčka.",
+    "options": [
+      "🦔 Ježek",
+      "🐻 Medvídek",
+      "🐰 Zajíček"
+    ],
+    "answer": "🐰 Zajíček",
+    "fact": "Zajíček má dlouhá ouška a moc dobře slyší.",
+    "difficulty": 1,
+    "image": "🌳",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-029",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž lišku.",
+    "options": [
+      "🦊 Liška",
+      "🐶 Pejsek",
+      "🐰 Zajíček"
+    ],
+    "answer": "🦊 Liška",
+    "fact": "Liška má zrzavý kožíšek a huňatý ocásek.",
+    "difficulty": 1,
+    "image": "🌲",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-030",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž maminku kuřátka.",
+    "options": [
+      "🐱 Kočička",
+      "🐔 Slepička",
+      "🐷 Prasátko"
+    ],
+    "answer": "🐔 Slepička",
+    "fact": "Slepička schovává kuřátka pod křídla, aby jim bylo teplo.",
+    "difficulty": 2,
+    "image": "🐥",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-031",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž motýlka.",
+    "options": [
+      "🐞 Beruška",
+      "🐝 Včelička",
+      "🦋 Motýlek"
+    ],
+    "answer": "🦋 Motýlek",
+    "fact": "Motýlek má barevná křídla a sedá na kytičky.",
+    "difficulty": 1,
+    "image": "🌸",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-032",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž berušku.",
+    "options": [
+      "🐞 Beruška",
+      "🐌 Šnek",
+      "🦋 Motýlek"
+    ],
+    "answer": "🐞 Beruška",
+    "fact": "Beruška má červená křidélka s černými tečkami.",
+    "difficulty": 1,
+    "image": "🍃",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-033",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž šneka.",
+    "options": [
+      "🐞 Beruška",
+      "🐌 Šnek",
+      "🐸 Žabka"
+    ],
+    "answer": "🐌 Šnek",
+    "fact": "Šnek leze moc pomalu. Ven vylézá hlavně po dešti.",
+    "difficulty": 1,
+    "image": "🌿",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-034",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž žabku.",
+    "options": [
+      "🐟 Rybička",
+      "🐢 Želva",
+      "🐸 Žabka"
+    ],
+    "answer": "🐸 Žabka",
+    "fact": "Žabka skáče díky dlouhým zadním nožkám.",
+    "difficulty": 1,
+    "image": "💧",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-035",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž, kdo má proužky.",
+    "options": [
+      "🦓 Zebra",
+      "🐘 Slon",
+      "🐷 Prasátko"
+    ],
+    "answer": "🦓 Zebra",
+    "fact": "Každá zebra má proužky trochu jinak.",
+    "difficulty": 2,
+    "image": "🌍",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-036",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž lva.",
+    "options": [
+      "🐶 Pejsek",
+      "🦁 Lev",
+      "🐱 Kočička"
+    ],
+    "answer": "🦁 Lev",
+    "fact": "Lev má kolem hlavy velkou hřívu.",
+    "difficulty": 1,
+    "image": "🌴",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-037",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "point",
+    "text": "Ukaž tučňáka.",
+    "options": [
+      "🦆 Kachnička",
+      "🐻 Medvěd",
+      "🐧 Tučňák"
+    ],
+    "answer": "🐧 Tučňák",
+    "fact": "Tučňáci žijí tam, kde je studené moře.",
+    "difficulty": 1,
+    "image": "❄️",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-038",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá pejsek?",
+    "answer": "Haf haf",
+    "fact": "Pejsek vrtí ocáskem, když má radost.",
+    "difficulty": 1,
+    "image": "🐶",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-039",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá kravička?",
+    "answer": "Bú",
+    "fact": "Kravičky na pastvě mívají na krku zvonec.",
+    "difficulty": 1,
+    "image": "🐮",
+    "source": "obecná znalost",
+    "status": "verified"
+  },
+  {
+    "id": "kocarek-priroda-040",
+    "level": "kocarek",
+    "theme": "priroda",
+    "type": "imitate",
+    "text": "Jak dělá slepička?",
+    "answer": "Kokodák",
+    "fact": "Slepička hrabe nožkami v zemi a hledá zrníčka.",
+    "difficulty": 1,
+    "image": "🐔",
+    "source": "obecná znalost",
+    "status": "verified"
   }
 ]
