@@ -1,4 +1,4 @@
-# Domácí liga
+# Herní večer (Game Night)
 
 Webová aplikace na domácí herní večery: hospodský kvíz pro dospělé i děti, zápis karetních her, liga a dlouhodobý žebříček.
 
