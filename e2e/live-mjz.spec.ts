@@ -1,13 +1,11 @@
 // „Město, jméno, zvíře“ end to end: TV (host) and three phones, one round ended by Stop!,
 // a challenged answer voted down, the host's ruling, and the finished match in the test database.
 
-import { randomBytes } from 'node:crypto';
 import process from 'node:process';
 import { expect, test, devices, type Browser, type BrowserContext, type Page } from '@playwright/test';
 import pg from 'pg';
-import { hashPin } from '../src/lib/server/auth.ts';
+import { createTestManager, loginManager, type TestManager } from './helpers/account.ts';
 
-const PIN = '4321';
 const PLAYERS = [
   { name: 'Táta', level: 'hospoda', avatar: '🐻' },
   { name: 'Máma', level: 'hospoda', avatar: '🦉' },
@@ -18,15 +16,14 @@ const CATEGORIES = ['Město', 'Jméno', 'Zvíře', 'Věc', 'Rostlina', 'Řeka/Ho
 const databaseUrl = process.env.DATABASE_URL_TEST ?? '';
 let db: pg.Client;
 let householdId: number;
-let householdName: string;
+let manager: TestManager;
 
 test.beforeAll(async () => {
   if (!databaseUrl.includes('_test')) throw new Error('DATABASE_URL_TEST must point to a *_test database');
   db = new pg.Client({ connectionString: databaseUrl });
   await db.connect();
-  householdName = `E2E mjz ${randomBytes(4).toString('hex')}`;
-  const res = await db.query<{ id: string }>('INSERT INTO households (name, pin_hash) VALUES ($1, $2) RETURNING id', [householdName, await hashPin(PIN)]);
-  householdId = Number(res.rows[0].id);
+  manager = await createTestManager(db, 'E2E mjz');
+  householdId = manager.householdId;
 });
 
 test.afterAll(async () => {
@@ -44,7 +41,7 @@ test('město, jméno, zvíře: TV a tři telefony, Stop!, napadení a hlasován�
 
   const tvContext = await browser.newContext({ viewport: { width: 1600, height: 900 }, baseURL });
   const tv = await tvContext.newPage();
-  expect((await tv.request.post('/api/login', { data: { name: householdName, pin: PIN } })).ok()).toBe(true);
+  await loginManager(tv.request, manager);
   const ids: Record<string, number> = {};
   for (const p of PLAYERS) {
     const res = await tv.request.post('/api/players', { data: p });

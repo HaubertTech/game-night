@@ -100,6 +100,14 @@
     });
   }
 
+  function erase(p: Player) {
+    if (!confirm(`Smazat hráče ${p.name}? Jeho jméno, rok narození a viděné otázky zmizí. Ve výsledcích zůstane jako „Smazaný hráč“. Nejde to vrátit.`)) return;
+    run(async () => {
+      await api(`/api/players/${p.id}/erase`, { method: 'POST', body: {} });
+      if (editingId === p.id) resetForm();
+    });
+  }
+
   function toggleMember(id: number) {
     teamMembers = teamMembers.includes(id) ? teamMembers.filter((m) => m !== id) : [...teamMembers, id];
   }
@@ -146,6 +154,9 @@
               <div class="tools">
                 <button class="btn small ghost" aria-label={`Upravit ${p.name}`} onclick={() => edit(p)}>✏️</button>
                 <button class="btn small ghost" aria-label={`Archivovat ${p.name}`} onclick={() => archive(p)}>📦</button>
+                {#if session.role === 'manager'}
+                  <button class="btn small ghost" aria-label={`Smazat ${p.name}`} onclick={() => erase(p)}>🗑️</button>
+                {/if}
               </div>
             </li>
           {/each}
@@ -158,6 +169,7 @@
           <label class="field"><span>Jméno</span><input type="text" bind:value={formName} maxlength="40" autocomplete="off" /></label>
           <label class="field"><span>Rok narození</span><input type="text" inputmode="numeric" bind:value={formYear} maxlength="4" placeholder="nepovinné" /></label>
         </div>
+        <p class="muted privacy" data-testid="child-name-hint">U dětí stačí přezdívka. Rok narození je nepovinný — slouží jen k výběru otázek. Fotky ani jiné údaje o dětech aplikace neukládá.</p>
         <div class="field">
           <span>Úroveň</span>
           <div class="row" role="group" aria-label="Úroveň">
@@ -219,7 +231,12 @@
         {#if showArchived}
           <ul class="teams">
             {#each archived as p (p.id)}
-              <li class="row"><span class="emoji">{p.avatar}</span><a href={`/hrac/${p.id}`}>{p.name}</a></li>
+              <li class="row">
+                <span class="emoji">{p.avatar}</span><a class="grow" href={`/hrac/${p.id}`}>{p.name}</a>
+                {#if session.role === 'manager' && p.name !== 'Smazaný hráč'}
+                  <button class="btn small ghost" aria-label={`Smazat ${p.name}`} onclick={() => erase(p)}>🗑️</button>
+                {/if}
+              </li>
             {/each}
           </ul>
         {/if}
@@ -229,6 +246,10 @@
 </main>
 
 <style>
+  .privacy {
+    margin: 0;
+    font-size: 0.95rem;
+  }
   h1 {
     margin: 8px 0 0;
   }

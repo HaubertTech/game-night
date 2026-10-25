@@ -17,6 +17,10 @@ export default defineConfig({
       DATABASE_URL: testDatabaseUrl,
       DATABASE_URL_TEST: testDatabaseUrl,
       HOUSEHOLD_COOKIE_SECRET: 'test-secret-for-vitest-only-0123456789',
+      // ConsoleMailer must not write into the dev outbox.
+      MAIL_OUTBOX_DIR: 'test-results/outbox-vitest',
+      PUBLIC_ORIGIN: '',
+      TRUST_PROXY: '',
     },
   },
 });

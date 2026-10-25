@@ -2,6 +2,7 @@
 
 import { randomBytes } from 'node:crypto';
 import { closePool } from '#lib/server/db.ts';
+import type { Account } from '#lib/server/repo/accounts.ts';
 import { createHousehold, deleteHousehold, type Household } from '#lib/server/repo/households.ts';
 
 export async function makeHousehold(label = 'test'): Promise<Household> {
@@ -30,16 +31,37 @@ export function fakeCookies(): FakeCookies {
   };
 }
 
+export interface FakeEventOptions {
+  body?: unknown;
+  household?: Household | null;
+  account?: Account | null;
+  deviceHouseholdId?: number | null;
+  params?: Record<string, string>;
+  url?: string;
+  method?: string;
+  headers?: Record<string, string>;
+  cookies?: FakeCookies;
+  ip?: string;
+}
+
 /** Minimal RequestEvent for calling +server.ts handlers directly. */
-export function fakeEvent(opts: { body?: unknown; household?: Household | null; params?: Record<string, string>; url?: string; cookies?: FakeCookies } = {}) {
+export function fakeEvent(opts: FakeEventOptions = {}) {
   const url = new URL(opts.url ?? 'http://localhost/api/test');
+  const method = opts.method ?? (opts.body === undefined ? 'GET' : 'POST');
   const request = new Request(url, {
-    method: opts.body === undefined ? 'GET' : 'POST',
-    headers: { 'content-type': 'application/json' },
+    method,
+    headers: { 'content-type': 'application/json', ...(opts.headers ?? {}) },
     body: opts.body === undefined ? undefined : typeof opts.body === 'string' ? opts.body : JSON.stringify(opts.body),
   });
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return { request, url, params: opts.params ?? {}, locals: { household: opts.household ?? null }, cookies: opts.cookies ?? fakeCookies() } as any;
+  return {
+    request,
+    url,
+    params: opts.params ?? {},
+    locals: { household: opts.household ?? null, account: opts.account ?? null, deviceHouseholdId: opts.deviceHouseholdId ?? null },
+    cookies: opts.cookies ?? fakeCookies(),
+    getClientAddress: () => opts.ip ?? '203.0.113.1',
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } as any;
 }
 
 /** Runs a handler expected to throw a SvelteKit HttpError; returns its status and message. */
@@ -52,4 +74,31 @@ export async function httpError(fn: () => unknown): Promise<{ status: number; me
     throw err;
   }
   throw new Error('expected an HttpError');
+}
+
+/** Household with a manager account (password hashed for real, so it can log in). */
+export async function makeManager(label = 'manager', opts: { password?: string; verified?: boolean; pin?: string } = {}) {
+  const { createAccount } = await import('#lib/server/repo/accounts.ts');
+  const { hashPassword, hashPin } = await import('#lib/server/auth.ts');
+  const household = await createHousehold(`Test ${label} ${randomBytes(4).toString('hex')}`, opts.pin ? await hashPin(opts.pin) : null);
+  const password = opts.password ?? 'heslo-pro-test-123';
+  const email = `${label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${randomBytes(4).toString('hex')}@example.test`;
+  const account = await createAccount({ householdId: household.id, email, passwordHash: await hashPassword(password), termsVersion: 'test', verified: opts.verified ?? true });
+  return { household, account, email, password };
+}
+
+/** Collects e-mails instead of sending them. */
+export function captureMail() {
+  const sent: { to: string; subject: string; text: string }[] = [];
+  return {
+    sent,
+    mailer: { send: async (m: { to: string; subject: string; text: string }) => void sent.push(m) },
+    /** Token from the last link to `path` sent to `to`. */
+    token(to: string, path: string): string {
+      const mail = [...sent].reverse().find((m) => m.to === to && m.text.includes(path));
+      const match = mail?.text.split(`${path}?token=`)[1]?.match(/^[A-Za-z0-9_-]+/);
+      if (!match) throw new Error(`no ${path} link for ${to}`);
+      return match[0];
+    },
+  };
 }

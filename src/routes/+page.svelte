@@ -12,11 +12,12 @@
     matches: number;
   }
 
-  let name = $state('');
+  let email = $state('');
+  let password = $state('');
   let pin = $state('');
-  let pin2 = $state('');
   let householdName = $state('');
-  let showName = $state(false);
+  let showLegacy = $state(false);
+  let info = $state<string | null>(null);
   let busy = $state(false);
   let message = $state<string | null>(null);
 
@@ -52,26 +53,30 @@
     }
   }
 
-  function createHousehold(event: SubmitEvent) {
+  function loginAccount(event: SubmitEvent) {
     event.preventDefault();
-    if (pin !== pin2) {
-      message = 'PINy se neshodují.';
-      return;
-    }
     run(async () => {
-      await api('/api/household', { body: { name, pin } });
+      await api('/api/auth/login', { body: { email, password } });
+      password = '';
       await loadSession();
       loadToday();
     });
   }
 
-  function login(event: SubmitEvent) {
+  function loginPin(event: SubmitEvent) {
     event.preventDefault();
     run(async () => {
-      await api('/api/login', { body: { pin, name: showName ? householdName : undefined } });
+      await api('/api/login', { body: { pin, name: showLegacy && householdName.trim() ? householdName : undefined } });
       pin = '';
       await loadSession();
       loadToday();
+    });
+  }
+
+  function resendVerification() {
+    run(async () => {
+      await api('/api/auth/verify/resend', { body: {} });
+      info = 'Poslali jsme nový ověřovací odkaz.';
     });
   }
 
@@ -139,30 +144,58 @@
         <button class="btn ghost" onclick={() => loadSession()}>Zkusit znovu</button>
       </div>
     </section>
-  {:else if !session.household && session.setupRequired}
-    <form class="card stack narrow" onsubmit={createHousehold} data-testid="setup-household">
-      <h2>Založit domácnost</h2>
-      <p class="muted">Jednou na začátku. PIN pak zadáš na každém novém zařízení.</p>
-      <label class="field"><span>Název domácnosti</span><input type="text" bind:value={name} maxlength="60" placeholder="např. Novákovi" /></label>
-      <label class="field"><span>PIN (4–8 číslic)</span><input type="password" inputmode="numeric" bind:value={pin} maxlength="8" autocomplete="new-password" /></label>
-      <label class="field"><span>PIN znovu</span><input type="password" inputmode="numeric" bind:value={pin2} maxlength="8" autocomplete="new-password" /></label>
-      {#if message}<p class="note warn" role="alert">{message}</p>{/if}
-      <button class="btn primary big" type="submit" disabled={busy || !name.trim() || pin.length < 4}>Založit domácnost</button>
-    </form>
   {:else if !session.household}
-    <form class="card stack narrow" onsubmit={login} data-testid="login">
-      <h2>Přihlášení</h2>
-      <label class="field"><span>PIN domácnosti</span><input type="password" inputmode="numeric" bind:value={pin} maxlength="8" autocomplete="current-password" /></label>
-      {#if showName}
-        <label class="field"><span>Název domácnosti</span><input type="text" bind:value={householdName} maxlength="60" /></label>
-      {:else}
-        <button type="button" class="btn small ghost" onclick={() => (showName = true)}>Jiná domácnost…</button>
-      {/if}
-      {#if message}<p class="note warn" role="alert">{message}</p>{/if}
-      <button class="btn primary big" type="submit" disabled={busy || pin.length < 4}>Přihlásit</button>
-      <a class="btn ghost" href="/tablet">🦉 Kvíz na tabletu bez přihlášení</a>
-    </form>
+    <div class="login-grid">
+      <form class="card stack narrow" onsubmit={loginAccount} data-testid="login">
+        <h2>Přihlášení</h2>
+        <label class="field"><span>E-mail</span><input type="email" bind:value={email} autocomplete="email" maxlength="254" /></label>
+        <label class="field"><span>Heslo</span><input class="text-password" type="password" bind:value={password} autocomplete="current-password" maxlength="200" /></label>
+        {#if message && !showLegacy && !session.deviceHousehold}<p class="note warn" role="alert">{message}</p>{/if}
+        <button class="btn primary big" type="submit" disabled={busy || !email.trim() || !password}>Přihlásit</button>
+        <div class="row between">
+          <a href="/registrace" class="btn ghost">Založit domácnost</a>
+          <a href="/ucet/zapomenute-heslo" class="small-link">Zapomenuté heslo</a>
+        </div>
+      </form>
+
+      <form class="card stack narrow" onsubmit={loginPin} data-testid="pin-login">
+        {#if session.deviceHousehold}
+          <h2>Rychle PINem</h2>
+          <p class="muted">Tohle zařízení patří domácnosti <strong>{session.deviceHousehold.name}</strong>.</p>
+          {#if !session.deviceHousehold.has_pin}
+            <p class="muted">PIN zatím není nastavený. Správce ho nastaví v Nastavení domácnosti.</p>
+          {/if}
+        {:else}
+          <h2>PIN domácnosti</h2>
+          <p class="muted">PIN funguje na zařízení, kde se už jednou přihlásil správce. Domácnost založená před zavedením účtů se přihlásí názvem a PINem.</p>
+        {/if}
+        <label class="field"><span>PIN domácnosti</span><input class="pin" type="password" inputmode="numeric" bind:value={pin} maxlength="8" autocomplete="current-password" /></label>
+        {#if !session.deviceHousehold}
+          {#if showLegacy}
+            <label class="field"><span>Název domácnosti</span><input type="text" bind:value={householdName} maxlength="60" /></label>
+          {:else}
+            <button type="button" class="btn small ghost" onclick={() => (showLegacy = true)}>Domácnost bez účtu…</button>
+          {/if}
+        {/if}
+        {#if message && (showLegacy || session.deviceHousehold)}<p class="note warn" role="alert">{message}</p>{/if}
+        <button class="btn big" type="submit" disabled={busy || pin.length < 4}>Přihlásit PINem</button>
+      </form>
+    </div>
+    <a class="btn ghost" href="/tablet">🦉 Kvíz na tabletu bez přihlášení</a>
   {:else}
+    {#if session.needsAccount}
+      <a class="card note-card row" href="/domacnost" data-testid="needs-account">
+        <span class="emoji big-emoji">🔐</span>
+        <span class="grow"><strong>Doplň účet správce</strong><br /><span class="muted">Domácnost zatím nemá e-mail a heslo. Bez nich nejde obnovit přístup ani stáhnout data.</span></span>
+        <span class="btn primary">Doplnit účet</span>
+      </a>
+    {:else if session.account && !session.account.email_verified}
+      <section class="card note-card stack" data-testid="verify-banner">
+        <p><strong>Ověř svůj e-mail.</strong> Poslali jsme odkaz na {session.account.email}. Neověřený účet se po 30 dnech smaže.</p>
+        <div class="row"><button class="btn small" onclick={resendVerification} disabled={busy}>Poslat odkaz znovu</button></div>
+        {#if info}<p class="muted" role="status">{info}</p>{/if}
+      </section>
+    {/if}
     {#if today}
       <a class="card today row" href={`/vecery/${today.id}`}>
         <span class="emoji big-emoji">🌙</span>
@@ -181,6 +214,7 @@
       <a class="tile" href="/liga"><span class="emoji">🏆</span>Liga</a>
       <a class="tile" href="/hraci"><span class="emoji">👪</span>Hráči</a>
       <a class="tile" href="/vecery"><span class="emoji">📅</span>Večery</a>
+      <a class="tile" href="/domacnost"><span class="emoji">⚙️</span>Nastavení domácnosti</a>
     </section>
     {#if message}<p class="note warn" role="alert">{message}</p>{/if}
 
@@ -225,8 +259,22 @@
     border-radius: var(--radius);
     padding: 12px;
   }
-  .narrow {
-    max-width: 560px;
+  .login-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    align-items: start;
+  }
+  .note-card {
+    text-decoration: none;
+    color: inherit;
+    background: var(--sage-light);
+  }
+  .note-card p {
+    margin: 0;
+  }
+  .small-link {
+    color: var(--ink-soft);
   }
   .field {
     display: flex;
@@ -234,7 +282,7 @@
     gap: 6px;
     font-weight: 700;
   }
-  input[type='password'] {
+  input.pin {
     font: inherit;
     font-size: 1.6rem;
     letter-spacing: 0.3em;

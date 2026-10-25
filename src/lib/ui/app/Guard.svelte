@@ -13,7 +13,7 @@
   <section class="card stack guard">
     <h2>Nejdřív se přihlas</h2>
     <p class="muted">
-      {session.offline ? 'Server teď není dostupný. Kvíz na tabletu jde hrát i bez něj.' : 'Tahle stránka patří domácnosti — přihlas se PINem.'}
+      {session.offline ? 'Server teď není dostupný. Kvíz na tabletu jde hrát i bez něj.' : 'Tahle stránka patří domácnosti — přihlas se e-mailem a heslem, nebo PINem na zařízení domácnosti.'}
     </p>
     <div class="row">
       <a class="btn primary" href="/">Přihlásit</a>

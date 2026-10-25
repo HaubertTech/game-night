@@ -1,7 +1,15 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
-import { clearSessionCookie } from '#lib/server/auth.ts';
+import { clearDeviceCookie, clearSessionCookie } from '#lib/server/auth.ts';
 
-export const POST: RequestHandler = async ({ cookies }) => {
+/** Body: { forget_device?: true } — also forgets the household on this device (no PIN login next time). */
+export const POST: RequestHandler = async ({ cookies, request }) => {
+  let forget = false;
+  try {
+    forget = (await request.json())?.forget_device === true;
+  } catch {
+    // empty body is fine
+  }
   clearSessionCookie(cookies);
+  if (forget) clearDeviceCookie(cookies);
   return json({ ok: true });
 };

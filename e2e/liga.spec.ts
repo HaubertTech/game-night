@@ -1,16 +1,14 @@
 // League flow against the test database: login, three players, a season, an evening with two prší
 // games and one žolíky game → evening and season tables, player profile with ratings.
 
-import { randomBytes } from 'node:crypto';
 import process from 'node:process';
 import pg from 'pg';
 import { expect, test, type Page } from '@playwright/test';
-import { hashPin } from '../src/lib/server/auth.ts';
 import { databaseName } from '../src/lib/server/env.ts';
 import { ensureDatabase, migrate } from '../src/lib/server/migrate.ts';
+import { createTestManager, type TestManager } from './helpers/account.ts';
 
-const PIN = '4321';
-const HOUSEHOLD = `E2E liga ${randomBytes(3).toString('hex')}`;
+let manager: TestManager;
 
 function testDbUrl(): string {
   try {
@@ -37,12 +35,11 @@ test.beforeAll(async () => {
   const url = testDbUrl();
   await ensureDatabase(url);
   await migrate(url);
-  const pinHash = await hashPin(PIN);
-  await withDb((c) => c.query('INSERT INTO households (name, pin_hash) VALUES ($1, $2)', [HOUSEHOLD, pinHash]));
+  manager = await withDb((c) => createTestManager(c, 'E2E liga'));
 });
 
 test.afterAll(async () => {
-  await withDb((c) => c.query('DELETE FROM households WHERE name = $1', [HOUSEHOLD]));
+  if (manager) await withDb((c) => c.query('DELETE FROM households WHERE id = $1', [manager.householdId]));
 });
 
 function today(): string {
@@ -82,10 +79,9 @@ test('večer se dvěma partiemi prší a jedněmi žolíky → tabulka večera, 
 
   await page.goto('/');
   const login = page.getByTestId('login');
-  await login.getByLabel('PIN domácnosti').fill(PIN);
-  await login.getByRole('button', { name: 'Jiná domácnost…' }).click();
-  await login.getByLabel('Název domácnosti').fill(HOUSEHOLD);
-  await login.getByRole('button', { name: 'Přihlásit' }).click();
+  await login.getByLabel('E-mail').fill(manager.email);
+  await login.getByLabel('Heslo').fill(manager.password);
+  await login.getByRole('button', { name: 'Přihlásit', exact: true }).click();
   await expect(page.getByRole('navigation', { name: 'Hlavní navigace' })).toBeVisible();
   await expect(page.getByRole('button', { name: /Nový večer/ })).toBeVisible();
 

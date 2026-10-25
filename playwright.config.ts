@@ -1,3 +1,5 @@
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import process from 'node:process';
 import { defineConfig, devices } from '@playwright/test';
 
@@ -49,6 +51,9 @@ export default defineConfig({
         QUESTIONS_DIR: 'tests/fixtures/questions',
         DATABASE_URL: testDatabaseUrl,
         DATABASE_URL_TEST: testDatabaseUrl,
+        // Registration e2e reads the verification link from here (same path as e2e/helpers/account.ts).
+        MAIL_OUTBOX_DIR: join(tmpdir(), 'domaci-liga-e2e-outbox'),
+        SMTP_URL: '',
       },
       url: `http://localhost:${LIVE_PORT}`,
       reuseExistingServer: false,

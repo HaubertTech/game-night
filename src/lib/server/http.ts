@@ -2,9 +2,10 @@
 
 import { error, type RequestEvent } from '@sveltejs/kit';
 import { LEVELS, type Level } from '../types.ts';
+import type { Account } from './repo/accounts.ts';
 import type { Household } from './repo/households.ts';
 
-export function fail(status: 400 | 401 | 403 | 404 | 409 | 413, message: string): never {
+export function fail(status: 400 | 401 | 403 | 404 | 409 | 410 | 413 | 423 | 429, message: string): never {
   error(status, message);
 }
 
@@ -14,11 +15,30 @@ export function requireHousehold(event: Pick<RequestEvent, 'locals'>): Household
   return household;
 }
 
-export async function readJson(request: Request): Promise<Record<string, unknown>> {
+/**
+ * Manager actions (export, deletion, invites, PIN, password) need a login by e-mail and password;
+ * a device logged in by PIN may only play.
+ */
+export function requireAccount(event: Pick<RequestEvent, 'locals'>): { household: Household; account: Account } {
+  const household = requireHousehold(event);
+  const account = event.locals.account;
+  if (!account) fail(403, 'Tohle může jen správce domácnosti přihlášený e-mailem a heslem.');
+  return { household, account };
+}
+
+/** Default JSON body limit; the tablet import passes a larger one. */
+export const MAX_JSON_BYTES = 256 * 1024;
+
+export async function readJson(request: Request, maxBytes = MAX_JSON_BYTES): Promise<Record<string, unknown>> {
+  const declared = Number(request.headers.get('content-length') ?? 0);
+  if (declared > maxBytes) fail(413, 'Požadavek je příliš velký.');
   let body: unknown;
   try {
-    body = await request.json();
-  } catch {
+    const text = await request.text();
+    if (Buffer.byteLength(text, 'utf8') > maxBytes) fail(413, 'Požadavek je příliš velký.');
+    body = JSON.parse(text);
+  } catch (err) {
+    if ((err as { status?: number }).status === 413) throw err;
     fail(400, 'Tělo požadavku musí být platný JSON.');
   }
   if (!body || typeof body !== 'object' || Array.isArray(body)) fail(400, 'Tělo požadavku musí být JSON objekt.');

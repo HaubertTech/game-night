@@ -6,6 +6,7 @@ import { createServer } from 'node:http';
 import process from 'node:process';
 import { pathToFileURL } from 'node:url';
 import { initLiveHub } from './src/lib/server/live-init.ts';
+import { purgeUnverified } from './src/lib/server/services/retention.ts';
 import { rejectForeignUpgrades } from './src/lib/server/ws.ts';
 
 // Resolved at runtime so type-checking works before the first build.
@@ -27,7 +28,22 @@ server.listen(port, host, () => {
   console.log('[server] listening', { host, port, store, restoredRooms: restored });
 });
 
+// Unverified accounts older than 30 days go away; once shortly after start, then daily.
+const PURGE_EVERY_MS = 24 * 60 * 60 * 1000;
+async function purge() {
+  try {
+    const result = await purgeUnverified();
+    if (result.accounts) console.log('[server] purged unverified accounts', result);
+  } catch (err) {
+    console.error('[server] purge failed', { err: (err as Error).message });
+  }
+}
+const purgeTimer = setInterval(purge, PURGE_EVERY_MS);
+purgeTimer.unref();
+setTimeout(purge, 60_000).unref();
+
 function shutdown(signal: string) {
+  clearInterval(purgeTimer);
   console.log('[server] shutting down', { signal });
   hub.rooms.dispose();
   server.close(() => process.exit(0));

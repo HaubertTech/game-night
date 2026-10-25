@@ -74,3 +74,43 @@ input[type='number'] {
   background: #fff;
   color: var(--ink);
 }
+
+/* Account forms (login, registration, household settings). */
+input[type='email'],
+input[type='password'].text-password {
+  font: inherit;
+  font-size: 1.2rem;
+  min-height: 56px;
+  padding: 8px 14px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--ink);
+  width: 100%;
+}
+.check {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.check input {
+  width: 26px;
+  height: 26px;
+  flex: none;
+  margin-top: 2px;
+}
+.narrow {
+  max-width: 560px;
+}
+.legal-links {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding: 24px 16px 32px;
+  font-size: 0.95rem;
+}
+.legal-links a {
+  color: var(--ink-soft);
+}

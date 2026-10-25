@@ -17,6 +17,7 @@ import { loadAktivityCards } from './games/aktivity.ts';
 import { errorMessage, MAX_MESSAGE_BYTES, parseClientMessage, type ServerMessage } from '../live/protocol.ts';
 import { MemoryRoomStore, realScheduler, RoomManager, type CreatedRoom, type RoomMeta, type RoomStore, type Scheduler } from './rooms.ts';
 import { loadQuestionsFromDir } from './questions-fs.ts';
+import { requestHost, wsOriginAllowed } from './origin.ts';
 
 export const WS_PATH = '/ws';
 
@@ -144,6 +145,13 @@ export function createLiveHub(options: LiveHubOptions = {}): LiveHub {
         const path = (req.url ?? '').split('?')[0];
         // Other upgrades (Vite HMR) are left alone.
         if (path !== WS_PATH) return;
+        // Cross-site WebSocket hijacking: a browser always sends Origin; it must be our own page.
+        if (!wsOriginAllowed(req.headers.origin, requestHost(req.headers))) {
+          console.warn('[ws] upgrade refused, foreign origin', { origin: req.headers.origin });
+          socket.write('HTTP/1.1 403 Forbidden\r\nConnection: close\r\n\r\n');
+          socket.destroy();
+          return;
+        }
         wss.handleUpgrade(req, socket, head, (ws) => wss.emit('connection', ws, req));
       };
       server.on('upgrade', onUpgrade);

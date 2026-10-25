@@ -1,0 +1,14 @@
+node_modules
+build
+.svelte-kit
+.env
+.env.*
+!.env.example
+test-results
+playwright-report
+design
+data/outbox
+.git
+e2e
+tests
+docs

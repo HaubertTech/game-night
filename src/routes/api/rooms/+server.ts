@@ -11,6 +11,8 @@ import { createAktivityRoom, createMjzRoom } from '#lib/server/services/game-roo
 import { getLiveHub } from '#lib/server/ws.ts';
 
 const MAX_CONTESTANTS = 12;
+/** Unfinished live rooms one household may have open at a time. */
+const MAX_ACTIVE_ROOMS = 4;
 const TIMERS = [null, 10, 15, 20, 30, 45, 60, 90];
 
 function idList(raw: unknown, what: string): number[] {
@@ -27,7 +29,10 @@ function idList(raw: unknown, what: string): number[] {
  */
 export const POST: RequestHandler = async (event) => {
   const household = requireHousehold(event);
-  const body = await readJson(event.request);
+  const body = await readJson(event.request, 32 * 1024);
+  if (getLiveHub().rooms.activeRoomCount(household.id) >= MAX_ACTIVE_ROOMS) {
+    fail(409, `Domácnost má otevřené ${MAX_ACTIVE_ROOMS} rozehrané místnosti. Nejdřív nějakou dohraj.`);
+  }
   const game = body.game ?? 'quiz';
   if (game === 'aktivity' || game === 'mjz') {
     const room = game === 'aktivity' ? await createAktivityRoom(getLiveHub(), household.id, body) : await createMjzRoom(getLiveHub(), household.id, body);

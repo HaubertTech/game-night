@@ -257,6 +257,31 @@ export class RoomManager {
     await Promise.all([...this.rooms.values()].map((r) => r.chain));
   }
 
+  /** Unfinished rooms of a household (limit on rooms per household). */
+  activeRoomCount(householdId: number): number {
+    let n = 0;
+    for (const room of this.rooms.values()) {
+      if (room.data.meta?.householdId === householdId && !this.adapter(room).isFinished(room.data.state)) n++;
+    }
+    return n;
+  }
+
+  /** Drops every room of a deleted household from memory; its phones and TV are detached. */
+  closeHouseholdRooms(householdId: number): number {
+    let n = 0;
+    for (const [code, room] of this.rooms) {
+      if (room.data.meta?.householdId !== householdId) continue;
+      if (room.timer !== null) this.opts.scheduler.clear(room.timer);
+      for (const c of this.clientsOf(room)) {
+        this.error(c, 'roomNotFound');
+        Object.assign(c, { code: null, role: null, tokenHash: null, contestantId: null });
+      }
+      this.rooms.delete(code);
+      n++;
+    }
+    return n;
+  }
+
   dispose(): void {
     for (const room of this.rooms.values()) {
       if (room.timer !== null) this.opts.scheduler.clear(room.timer);

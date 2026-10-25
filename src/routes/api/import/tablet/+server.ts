@@ -5,7 +5,8 @@ import { ImportValidationError, importTablet, parseTabletExport, type TabletExpo
 /** Body: the JSON produced by `exportData()` in src/lib/storage.ts. Safe to send repeatedly. */
 export const POST: RequestHandler = async (event) => {
   const household = requireHousehold(event);
-  const body = await readJson(event.request);
+  // The tablet history can be long; adapter-node caps the body at BODY_SIZE_LIMIT as well.
+  const body = await readJson(event.request, 2 * 1024 * 1024);
   let data: TabletExport;
   try {
     data = parseTabletExport(body);

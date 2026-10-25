@@ -18,6 +18,7 @@
     { href: '/vecery', label: 'Večery', emoji: '🌙' },
     { href: '/liga', label: 'Liga', emoji: '🏆' },
     { href: '/hraci', label: 'Hráči', emoji: '👪' },
+    { href: '/domacnost', label: 'Nastavení', emoji: '⚙️' },
   ];
 
   function active(href: string): boolean {
@@ -40,6 +41,13 @@
 {/if}
 
 {@render children()}
+
+{#if !bare}
+  <footer class="legal-links">
+    <a href="/podminky">Podmínky používání</a>
+    <a href="/soukromi">Ochrana osobních údajů</a>
+  </footer>
+{/if}
 
 <style>
   .app-nav {
