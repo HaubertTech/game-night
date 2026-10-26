@@ -1,5 +1,8 @@
 # Herní večer (dříve Domácí liga) — návrh (v1, 25. 10. 2026)
 
+> **Historický dokument.** Původní návrh, ze kterého se vycházelo. Aktuální stav popisují
+> `README.md` a `docs/ARCHITEKTURA.md`; úrovně se mezitím změnily (`docs/UROVNE.md`).
+
 Webová aplikace na domácí herní večery. Hrají se různé hry, výsledky se sčítají do ligy
 a dlouhodobého žebříčku. První hra je hospodský kvíz.
 
